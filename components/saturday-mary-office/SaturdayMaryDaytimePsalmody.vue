@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
+import { renderLiturgicalMarkdown } from '../../utils/liturgicalMarkdown'
 
 type DaytimeHour = {
   title: string
@@ -42,41 +43,7 @@ function chooseWeek(index: number) {
   selectedHour.value = 0
 }
 
-function renderMarkdown(text = '') {
-  return text
-    .split(/\r?\n/)
-    .map(line => line.trim())
-    .filter(Boolean)
-    .map(renderLine)
-    .join('\n')
-}
-
-function renderLine(line: string) {
-  if (/^\*.+\*$/.test(line))
-    return `<p class="antiphon">${renderInline(line.slice(1, -1))}</p>`
-  if (/^\*\*.+\*\*$/.test(line))
-    return `<p class="strong-line">${renderInline(line.slice(2, -2))}</p>`
-  if (/^领：/.test(line))
-    return `<p class="leader">${renderInline(line)}</p>`
-  if (/^答：/.test(line))
-    return `<p class="response">${renderInline(line)}</p>`
-  return `<p>${renderInline(line)}</p>`
-}
-
-function renderInline(text: string) {
-  return escapeHtml(text)
-    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
-    .replace(/\*([^*]+)\*/g, '<em>$1</em>')
-}
-
-function escapeHtml(text: string) {
-  return text
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;')
-}
+const renderMarkdown = renderLiturgicalMarkdown
 </script>
 
 <template>
