@@ -913,6 +913,7 @@ html.dark .martyrology-panel {
 }
 
 .raw-martyrology {
+  font-size: 1.08rem;
   line-height: 1.9;
 }
 
@@ -960,6 +961,8 @@ html.dark .martyrology-panel {
 
 .choice-card article {
   max-width: 100%;
+  font-size: 1.08rem;
+  line-height: 1.9;
 }
 
 .choice-card h3 {
@@ -1015,6 +1018,8 @@ html.dark .martyrology-panel {
 
 .blessing p {
   margin: 0.3rem 0;
+  font-size: 1.08rem;
+  line-height: 1.85;
 }
 
 .notes-intro {
