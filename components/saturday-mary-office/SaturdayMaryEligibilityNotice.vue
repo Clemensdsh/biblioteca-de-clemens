@@ -129,7 +129,7 @@ function formatMonthDay(value: Date) {
   gap: 0.25rem;
   margin: 1rem 0 1.25rem;
   border: 1px solid rgba(255, 140, 0, 0.4);
-  border-left: 4px solid #FF8C00;
+  border-left: 4px solid var(--va-c-primary);
   border-radius: 8px;
   padding: 0.75rem 0.9rem;
   color: var(--va-c-text);
@@ -137,7 +137,7 @@ function formatMonthDay(value: Date) {
 }
 
 .eligibility-notice strong {
-  color: #FF8C00;
+  color: var(--va-c-primary);
 }
 
 .eligibility-notice.unavailable {

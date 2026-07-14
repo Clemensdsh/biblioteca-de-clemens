@@ -1,3 +1,13 @@
+:root {
+  --clemens-title-orange: #FF8C00;
+  --clemens-title-orange-light: #FFB020;
+  --clemens-title-orange-soft: #FFD166;
+  --clemens-card-bg: rgba(255, 255, 255, 0.75);
+  --clemens-card-bg-dark: rgba(0, 0, 0, 0.65);
+  --clemens-daily-link-bg: rgba(194, 65, 12, 0.1);
+  --clemens-daily-link-border: rgba(194, 65, 12, 0.35);
+}
+
 // 隐藏头像徽章
 .site-author-status {
   display: none !important;
@@ -21,8 +31,8 @@
 // 统一提高标题对比度：Yun 主题默认标题会混入暗色/蓝色渐变，这里强制改为亮橙色。
 :root,
 html.dark {
-  --yun-home-hero-name-background: linear-gradient(120deg, #FFB020 0%, #FF8C00 55%, #FFD166 100%) !important;
-  --yun-home-hero-name-color: #FFB020 !important;
+  --yun-home-hero-name-background: linear-gradient(120deg, var(--clemens-title-orange-light) 0%, var(--clemens-title-orange) 55%, var(--clemens-title-orange-soft) 100%) !important;
+  --yun-home-hero-name-color: var(--clemens-title-orange-light) !important;
 }
 
 h1,
@@ -36,7 +46,7 @@ h3,
 .nav-menu-post-title,
 .yun-page-header-title,
 .page-title {
-  color: #FF8C00 !important;
+  color: var(--clemens-title-orange) !important;
 }
 
 .char-name,
@@ -59,15 +69,15 @@ h3,
 .post-card-image .post-title-link:visited,
 .post-card-image .post-card-title,
 .post-card-image .post-card-title span {
-  color: #FF8C00 !important;
-  -webkit-text-fill-color: #FF8C00 !important;
+  color: var(--clemens-title-orange) !important;
+  -webkit-text-fill-color: var(--clemens-title-orange) !important;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.42);
 }
 
 // 卡片半透明 - 浅色
 .post-card,
 .yun-card {
-  background: rgba(255, 255, 255, 0.75) !important;
+  background: var(--clemens-card-bg) !important;
   backdrop-filter: blur(8px);
 }
 
@@ -75,7 +85,7 @@ h3,
 html.dark {
   .post-card,
   .yun-card {
-    background: rgba(0, 0, 0, 0.65) !important;
+    background: var(--clemens-card-bg-dark) !important;
   }
 }
 
@@ -85,11 +95,11 @@ html.dark {
   justify-content: center;
   width: fit-content;
   margin: 0.35rem auto 0;
-  color: #FF8C00 !important;
+  color: var(--clemens-title-orange) !important;
   font-size: 1.35rem !important;
   font-weight: 700;
-  background: rgba(194, 65, 12, 0.1) !important;
-  border: 1px solid rgba(194, 65, 12, 0.35);
+  background: var(--clemens-daily-link-bg) !important;
+  border: 1px solid var(--clemens-daily-link-border);
 }
 
 html.dark {
