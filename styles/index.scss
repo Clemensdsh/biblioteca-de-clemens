@@ -98,7 +98,11 @@ html.dark {
 .links .link-item,
 .links .link-item *,
 .links .link-item:visited,
-.links .link-item:hover {
+.links .link-item:hover,
+.site-nav .site-link-item,
+.site-nav .site-link-item *,
+.site-nav .site-link-item:visited,
+.site-nav .site-link-item:hover {
   color: #000 !important;
   -webkit-text-fill-color: #000 !important;
   font-weight: 700 !important;
@@ -112,7 +116,11 @@ html.dark {
   .links .link-item,
   .links .link-item *,
   .links .link-item:visited,
-  .links .link-item:hover {
+  .links .link-item:hover,
+  .site-nav .site-link-item,
+  .site-nav .site-link-item *,
+  .site-nav .site-link-item:visited,
+  .site-nav .site-link-item:hover {
     color: #fff !important;
     -webkit-text-fill-color: #fff !important;
   }
