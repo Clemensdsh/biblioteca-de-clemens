@@ -1,0 +1,253 @@
+.martyrology-page {
+  width: min(920px, calc(100% - 2rem));
+  margin: 5rem auto 3rem;
+  color: var(--va-c-text);
+  font-family: var(--va-font-serif);
+}
+
+.martyrology-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.martyrology-eyebrow,
+.martyrology-source {
+  color: var(--va-c-text-light);
+  font-family: var(--va-font-sans);
+}
+
+.inline-help {
+  color: var(--va-c-text-light);
+  font-family: var(--va-font-sans);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin: 0.45rem 0;
+}
+
+.martyrology-header h1 {
+  color: var(--va-c-primary);
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin: 0.5rem 0;
+}
+
+.date-picker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.65rem 0;
+  color: var(--va-c-text-light);
+  font-family: var(--va-font-sans);
+}
+
+.date-picker input {
+  border: 1px solid var(--va-c-divider);
+  border-radius: 6px;
+  padding: 0.35rem 0.55rem;
+  color: var(--va-c-text);
+  background: var(--va-c-bg);
+  font: inherit;
+}
+
+.martyrology-panel {
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid var(--va-c-divider);
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin: 1rem 0;
+  backdrop-filter: blur(8px);
+}
+
+html.dark .martyrology-panel {
+  background: rgba(0, 0, 0, 0.68);
+}
+
+.martyrology-panel h2 {
+  color: var(--va-c-primary);
+  font-size: 1.65rem;
+  line-height: 1.25;
+  margin-top: 0;
+}
+
+.roman-date {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.movable-feast {
+  border-color: rgba(212, 130, 10, 0.55);
+  background: rgba(212, 130, 10, 0.12);
+}
+
+.martyrology-warning {
+  border-color: var(--va-c-warning);
+  color: var(--va-c-warning);
+}
+
+.entry-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.entry-list li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.35rem 0.7rem;
+  margin: 0.8rem 0;
+}
+
+.entry-number {
+  color: var(--va-c-primary);
+  font-weight: 700;
+}
+
+.entry-list small {
+  grid-column: 2;
+  color: var(--va-c-text-light);
+}
+
+.entry-list .starred {
+  color: var(--va-c-text-light);
+}
+
+.raw-martyrology {
+  font-size: 1.08rem;
+  line-height: 1.9;
+}
+
+.raw-martyrology :deep(h3) {
+  margin: 0 0 0.75rem;
+  color: var(--va-c-primary);
+  font-size: 1.35rem;
+}
+
+.raw-martyrology :deep(.raw-date) {
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.raw-martyrology :deep(.raw-luna-title) {
+  margin-bottom: 0.25rem;
+  color: var(--va-c-text-light);
+}
+
+.raw-martyrology :deep(.raw-luna) {
+  margin: 0.1rem 0;
+  color: var(--va-c-text-light);
+  font-family: var(--va-font-mono, monospace);
+  font-size: 0.9rem;
+}
+
+.raw-martyrology :deep(.raw-entry) {
+  margin: 0.85rem 0;
+}
+
+.raw-martyrology :deep(.raw-number) {
+  color: var(--va-c-primary);
+  font-weight: 700;
+}
+
+.response {
+  padding-left: 2rem;
+}
+
+.choice-card {
+  position: relative;
+  min-height: 10rem;
+  padding: 0 2.25rem;
+}
+
+.choice-card article {
+  max-width: 100%;
+  font-size: 1.08rem;
+  line-height: 1.9;
+}
+
+.choice-card h3 {
+  margin-top: 0;
+}
+
+.choice-arrow {
+  position: absolute;
+  top: 50%;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid var(--va-c-divider);
+  border-radius: 50%;
+  color: var(--va-c-primary);
+  background: var(--va-c-bg);
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.choice-arrow.left {
+  left: 0;
+}
+
+.choice-arrow.right {
+  right: 0;
+}
+
+.choice-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.45rem;
+  margin-top: 1rem;
+}
+
+.choice-dots button {
+  width: 0.55rem;
+  height: 0.55rem;
+  padding: 0;
+  border-radius: 50%;
+  border: 0;
+  background: var(--va-c-divider);
+  cursor: pointer;
+}
+
+.choice-dots button.active {
+  background: var(--va-c-primary);
+}
+
+.missing-data {
+  color: var(--va-c-text-light);
+  font-family: var(--va-font-sans);
+}
+
+.blessing p {
+  margin: 0.3rem 0;
+  font-size: 1.08rem;
+  line-height: 1.85;
+}
+
+.notes-intro {
+  color: var(--va-c-text-light);
+  font-family: var(--va-font-sans);
+  font-size: 0.95rem;
+}
+
+.notes summary {
+  color: var(--va-c-primary);
+  cursor: pointer;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+@media (max-width: 640px) {
+  .martyrology-page {
+    width: min(100% - 1rem, 920px);
+    margin-top: 4rem;
+  }
+
+  .martyrology-header h1 {
+    font-size: 2rem;
+  }
+
+  .choice-card {
+    padding: 0;
+  }
+
+  .choice-arrow {
+    display: none;
+  }
+}
