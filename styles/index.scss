@@ -1,0 +1,103 @@
+// 隐藏头像徽章
+.site-author-status {
+  display: none !important;
+}
+
+// 隐藏语言切换按钮
+// 只放大首页文字，不动全局 font-size
+.char-name {
+  font-size: 2.2rem !important;
+}
+
+.site-subtitle {
+  font-size: 1.3rem !important;
+}
+
+.site-description {
+  font-size: 1.2rem !important;
+  white-space: pre-line !important;
+}
+
+// 统一提高标题对比度：Yun 主题默认标题会混入暗色/蓝色渐变，这里强制改为亮橙色。
+:root,
+html.dark {
+  --yun-home-hero-name-background: linear-gradient(120deg, #FFB020 0%, #FF8C00 55%, #FFD166 100%) !important;
+  --yun-home-hero-name-color: #FFB020 !important;
+}
+
+h1,
+h2,
+h3,
+.site-title,
+.char-name,
+.post-title,
+.post-card-title,
+.nav-menu-title-container,
+.nav-menu-post-title,
+.yun-page-header-title,
+.page-title {
+  color: #FF8C00 !important;
+}
+
+.char-name,
+.site-title {
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.38);
+}
+
+// 首页文章卡片标题：YunPostCard 内部还有 link/title/span 多层与 Uno class，单独压住。
+.post-card-wrapper .post-title-link,
+.post-card-wrapper .post-title-link:visited,
+.post-card-wrapper .post-title-link:hover,
+.post-card-wrapper .post-card-title,
+.post-card-wrapper .post-card-title.title,
+.post-card-wrapper .post-card-title span,
+.post-card .post-title-link,
+.post-card .post-title-link:visited,
+.post-card .post-card-title,
+.post-card .post-card-title span,
+.post-card-image .post-title-link,
+.post-card-image .post-title-link:visited,
+.post-card-image .post-card-title,
+.post-card-image .post-card-title span {
+  color: #FF8C00 !important;
+  -webkit-text-fill-color: #FF8C00 !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.42);
+}
+
+// 卡片半透明 - 浅色
+.post-card,
+.yun-card {
+  background: rgba(255, 255, 255, 0.75) !important;
+  backdrop-filter: blur(8px);
+}
+
+// 卡片半透明 - 暗色
+html.dark {
+  .post-card,
+  .yun-card {
+    background: rgba(0, 0, 0, 0.65) !important;
+  }
+}
+
+// 首页底部页面入口：让“每日圣人录”独占第二行并居中
+.yun-square-container .link-item:last-child {
+  flex-basis: 100%;
+  justify-content: center;
+  width: fit-content;
+  margin: 0.35rem auto 0;
+  color: #FF8C00 !important;
+  font-size: 1.35rem !important;
+  font-weight: 700;
+  background: rgba(194, 65, 12, 0.1) !important;
+  border: 1px solid rgba(194, 65, 12, 0.35);
+}
+
+html.dark {
+  h1,
+  h2,
+  h3,
+  .post-title,
+  .post-card-title {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.55);
+  }
+}

@@ -1,0 +1,187 @@
+<script setup lang="ts">
+import { computed, onMounted, ref } from 'vue'
+
+type PsalmodyWeek = {
+  week: number
+  title: string
+  psalmody: string
+  reading1: string
+  responsory: string
+}
+
+const weeks = ref<PsalmodyWeek[]>([])
+const selectedWeek = ref(1)
+const loading = ref(true)
+const error = ref('')
+
+const currentWeek = computed(() => weeks.value.find(item => item.week === selectedWeek.value) || weeks.value[0])
+
+onMounted(async () => {
+  try {
+    const response = await fetch('/data/saturday-mary-office/office-readings-psalter.json')
+    if (!response.ok)
+      throw new Error('无法加载圣咏集数据')
+    const data = await response.json() as { weeks: PsalmodyWeek[] }
+    weeks.value = data.weeks || []
+    selectedWeek.value = weeks.value[0]?.week || 1
+  }
+  catch (err) {
+    error.value = err instanceof Error ? err.message : String(err)
+  }
+  finally {
+    loading.value = false
+  }
+})
+
+function renderMarkdown(text = '') {
+  return text
+    .split(/\r?\n/)
+    .map(line => line.trim())
+    .filter(Boolean)
+    .map(renderLine)
+    .join('\n')
+}
+
+function renderLine(line: string) {
+  if (/^\*.+\*$/.test(line))
+    return `<p class="antiphon">${renderInline(line.slice(1, -1))}</p>`
+  if (/^\*\*.+\*\*$/.test(line))
+    return `<p class="strong-line">${renderInline(line.slice(2, -2))}</p>`
+  if (/^领：/.test(line))
+    return `<p class="leader">${renderInline(line)}</p>`
+  if (/^答：/.test(line))
+    return `<p class="response">${renderInline(line)}</p>`
+  return `<p>${renderInline(line)}</p>`
+}
+
+function renderInline(text: string) {
+  return escapeHtml(text)
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+}
+
+function escapeHtml(text: string) {
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
+}
+</script>
+
+<template>
+  <section class="saturday-mary-psalmody">
+    <p class="psalmody-note">
+      圣咏、对经、短对答句及诵读一等均见圣咏集星期六通用。使用例：假设今日是常年期第十周星期六，10 除以 4 余数为 2，念圣咏集第二周星期六经文。
+    </p>
+
+    <div v-if="loading" class="psalmody-card">
+      正在加载圣咏集……
+    </div>
+    <div v-else-if="error" class="psalmody-card warning">
+      {{ error }}
+    </div>
+    <template v-else-if="currentWeek">
+      <div class="week-tabs" role="tablist" aria-label="选择圣咏集周数">
+        <button
+          v-for="week in weeks"
+          :key="week.week"
+          type="button"
+          :class="{ active: week.week === selectedWeek }"
+          @click="selectedWeek = week.week"
+        >
+          第{{ week.week }}周
+        </button>
+      </div>
+
+      <article class="psalmody-card">
+        <h3>{{ currentWeek.title }}</h3>
+
+        <h4>圣咏吟唱</h4>
+        <div class="liturgical-text" v-html="renderMarkdown(currentWeek.psalmody)" />
+
+        <h4>诵读一</h4>
+        <div class="liturgical-text" v-html="renderMarkdown(currentWeek.reading1)" />
+
+        <h4>对答咏</h4>
+        <div class="liturgical-text" v-html="renderMarkdown(currentWeek.responsory)" />
+      </article>
+    </template>
+  </section>
+</template>
+
+<style scoped>
+.saturday-mary-psalmody {
+  margin: 1.5rem 0;
+}
+
+.psalmody-note {
+  color: var(--va-c-text-light);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.week-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.week-tabs button {
+  border: 1px solid var(--va-c-divider);
+  border-radius: 6px;
+  padding: 0.35rem 0.75rem;
+  color: var(--va-c-text);
+  background: var(--va-c-bg);
+  cursor: pointer;
+}
+
+.week-tabs button.active {
+  border-color: var(--va-c-primary);
+  color: var(--va-c-primary);
+  font-weight: 700;
+}
+
+.psalmody-card {
+  border: 1px solid var(--va-c-divider);
+  border-radius: 8px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+html.dark .psalmody-card {
+  background: rgba(0, 0, 0, 0.58);
+}
+
+.psalmody-card h3,
+.psalmody-card h4 {
+  color: var(--va-c-primary);
+}
+
+.liturgical-text {
+  line-height: 1.85;
+}
+
+.liturgical-text :deep(p) {
+  margin: 0.55rem 0;
+}
+
+.liturgical-text :deep(.antiphon) {
+  color: var(--va-c-text-light);
+  font-style: italic;
+}
+
+.liturgical-text :deep(.strong-line) {
+  font-weight: 700;
+}
+
+.liturgical-text :deep(.response) {
+  padding-left: 1.5rem;
+}
+
+.warning {
+  color: var(--va-c-warning);
+}
+</style>

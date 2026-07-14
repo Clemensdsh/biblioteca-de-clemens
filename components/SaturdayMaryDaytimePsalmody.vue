@@ -1,0 +1,197 @@
+<script setup lang="ts">
+import { computed, onMounted, ref } from 'vue'
+
+type DaytimeHour = {
+  title: string
+  text: string
+}
+
+type DaytimeWeek = {
+  title: string
+  psalmody: string
+  hours: DaytimeHour[]
+}
+
+const weeks = ref<DaytimeWeek[]>([])
+const selectedWeek = ref(0)
+const selectedHour = ref(0)
+const loading = ref(true)
+const error = ref('')
+
+const currentWeek = computed(() => weeks.value[selectedWeek.value])
+const currentHour = computed(() => currentWeek.value?.hours[selectedHour.value])
+
+onMounted(async () => {
+  try {
+    const response = await fetch('/data/saturday-mary-office/daytime-psalter.json')
+    if (!response.ok)
+      throw new Error('无法加载日间祈祷圣咏集')
+    const data = await response.json() as { weeks: DaytimeWeek[] }
+    weeks.value = data.weeks || []
+  }
+  catch (err) {
+    error.value = err instanceof Error ? err.message : String(err)
+  }
+  finally {
+    loading.value = false
+  }
+})
+
+function chooseWeek(index: number) {
+  selectedWeek.value = index
+  selectedHour.value = 0
+}
+
+function renderMarkdown(text = '') {
+  return text
+    .split(/\r?\n/)
+    .map(line => line.trim())
+    .filter(Boolean)
+    .map(renderLine)
+    .join('\n')
+}
+
+function renderLine(line: string) {
+  if (/^\*.+\*$/.test(line))
+    return `<p class="antiphon">${renderInline(line.slice(1, -1))}</p>`
+  if (/^\*\*.+\*\*$/.test(line))
+    return `<p class="strong-line">${renderInline(line.slice(2, -2))}</p>`
+  if (/^领：/.test(line))
+    return `<p class="leader">${renderInline(line)}</p>`
+  if (/^答：/.test(line))
+    return `<p class="response">${renderInline(line)}</p>`
+  return `<p>${renderInline(line)}</p>`
+}
+
+function renderInline(text: string) {
+  return escapeHtml(text)
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+}
+
+function escapeHtml(text: string) {
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
+}
+</script>
+
+<template>
+  <section class="daytime-psalmody">
+    <div v-if="loading" class="daytime-card">
+      正在加载日间祈祷圣咏集……
+    </div>
+    <div v-else-if="error" class="daytime-card warning">
+      {{ error }}
+    </div>
+    <template v-else-if="currentWeek">
+      <div class="tab-row" role="tablist" aria-label="选择圣咏集周数">
+        <button
+          v-for="(week, index) in weeks"
+          :key="week.title"
+          type="button"
+          :class="{ active: index === selectedWeek }"
+          @click="chooseWeek(index)"
+        >
+          {{ week.title.replace('圣咏集', '') }}
+        </button>
+      </div>
+
+      <article class="daytime-card">
+        <h3>{{ currentWeek.title }}</h3>
+        <h4>圣咏吟唱</h4>
+        <div class="liturgical-text" v-html="renderMarkdown(currentWeek.psalmody)" />
+      </article>
+
+      <div class="tab-row" role="tablist" aria-label="选择日间时辰">
+        <button
+          v-for="(hour, index) in currentWeek.hours"
+          :key="hour.title"
+          type="button"
+          :class="{ active: index === selectedHour }"
+          @click="selectedHour = index"
+        >
+          {{ hour.title }}
+        </button>
+      </div>
+
+      <article v-if="currentHour" class="daytime-card">
+        <h3>简短读经-结束祷词</h3>
+        <h4>{{ currentHour.title }}</h4>
+        <div class="liturgical-text" v-html="renderMarkdown(currentHour.text)" />
+      </article>
+    </template>
+  </section>
+</template>
+
+<style scoped>
+.daytime-psalmody {
+  margin: 1.5rem 0;
+}
+
+.tab-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.85rem 0;
+}
+
+.tab-row button {
+  border: 1px solid var(--va-c-divider);
+  border-radius: 6px;
+  padding: 0.35rem 0.75rem;
+  color: var(--va-c-text);
+  background: var(--va-c-bg);
+  cursor: pointer;
+}
+
+.tab-row button.active {
+  border-color: var(--va-c-primary);
+  color: var(--va-c-primary);
+  font-weight: 700;
+}
+
+.daytime-card {
+  border: 1px solid var(--va-c-divider);
+  border-radius: 8px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+html.dark .daytime-card {
+  background: rgba(0, 0, 0, 0.58);
+}
+
+.daytime-card h3,
+.daytime-card h4 {
+  color: var(--va-c-primary);
+}
+
+.liturgical-text {
+  line-height: 1.85;
+}
+
+.liturgical-text :deep(p) {
+  margin: 0.55rem 0;
+}
+
+.liturgical-text :deep(.antiphon) {
+  color: var(--va-c-text-light);
+  font-style: italic;
+}
+
+.liturgical-text :deep(.strong-line) {
+  font-weight: 700;
+}
+
+.liturgical-text :deep(.response) {
+  padding-left: 1.5rem;
+}
+
+.warning {
+  color: var(--va-c-warning);
+}
+</style>
