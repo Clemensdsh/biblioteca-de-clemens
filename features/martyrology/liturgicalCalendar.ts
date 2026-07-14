@@ -1,4 +1,4 @@
-import type { Reading } from './martyrologyParser'
+import type { Reading } from './parser'
 
 export type LiturgicalDataSource = 'api' | 'computus'
 export type LiturgicalData = {

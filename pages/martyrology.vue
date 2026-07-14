@@ -3,9 +3,9 @@ import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { useChoiceCarousel } from '../composables/useChoiceCarousel'
 import martyrologyTranslationMarkdown from './martyrologium-translation/index.md?raw'
-import { addDays, detectMovableFeast, formatDateInput, formatMonthDay, loadLiturgicalData, parseDateInput, selectReadings } from '../utils/liturgicalCalendar'
+import { addDays, detectMovableFeast, formatDateInput, formatMonthDay, loadLiturgicalData, parseDateInput, selectReadings } from '../features/martyrology/liturgicalCalendar'
 import { loadJson } from '../utils/loadJson'
-import { monthDayToChineseHeading, parseMartyrologyDayFromTranslation, parseTranslationMarkdown, type MartyrologyDay, type Prayer, type Reading } from '../utils/martyrologyParser'
+import { monthDayToChineseHeading, parseMartyrologyDayFromTranslation, parseTranslationMarkdown, type MartyrologyDay, type Prayer, type Reading } from '../features/martyrology/parser'
 
 type MovableFeast = {
   id: string
@@ -268,7 +268,7 @@ function onSelectedDateChange() {
   </main>
 </template>
 
-<style scoped src="../styles/martyrology.scss"></style>
+<style scoped src="../features/martyrology/martyrology.scss"></style>
 
 <route lang="yaml">
 meta:
