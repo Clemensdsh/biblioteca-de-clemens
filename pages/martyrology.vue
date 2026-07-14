@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
+import { useChoiceCarousel } from '../composables/useChoiceCarousel'
 import martyrologyTranslationMarkdown from './martyrologium-translation/index.md?raw'
 import { addDays, computeSeason, detectMovableFeast, formatDateInput, formatMonthDay, parseDateInput, selectReadings } from '../utils/liturgicalCalendar'
 import { monthDayToChineseHeading, parseMartyrologyDayFromTranslation, parseTranslationMarkdown, type MartyrologyDay, type Prayer, type Reading } from '../utils/martyrologyParser'
@@ -31,10 +32,24 @@ const movableFeast = ref<MovableFeast | null>(null)
 const omitted = ref(false)
 const readings = ref<Reading[]>([])
 const prayers = ref<Prayer[]>([])
-const readingIndex = ref(0)
-const prayerIndex = ref(0)
-const swipeStartX = ref(0)
-const prayerSwipeStartX = ref(0)
+const {
+  selectedIndex: readingIndex,
+  currentItem: currentReading,
+  reset: resetReading,
+  previous: previousReading,
+  next: nextReading,
+  onSwipeStart: onReadingSwipeStart,
+  onSwipeEnd: onReadingSwipeEnd,
+} = useChoiceCarousel(readings)
+const {
+  selectedIndex: prayerIndex,
+  currentItem: currentPrayer,
+  reset: resetPrayer,
+  previous: previousPrayer,
+  next: nextPrayer,
+  onSwipeStart: onPrayerSwipeStart,
+  onSwipeEnd: onPrayerSwipeEnd,
+} = useChoiceCarousel(prayers)
 
 const targetKey = computed(() => formatMonthDay(targetDate.value))
 const targetChineseDate = computed(() => {
@@ -45,9 +60,6 @@ const targetChineseDate = computed(() => {
     weekday: 'long',
   }).format(targetDate.value)
 })
-
-const currentReading = computed(() => readings.value[readingIndex.value])
-const currentPrayer = computed(() => prayers.value[prayerIndex.value])
 
 onMounted(() => {
   readingDate.value = parseDateInput(selectedDateValue.value)
@@ -62,8 +74,8 @@ async function loadForTargetDate() {
   omitted.value = false
   readings.value = []
   prayers.value = []
-  readingIndex.value = 0
-  prayerIndex.value = 0
+  resetReading()
+  resetPrayer()
   try {
     const [dayData, movableData] = await Promise.all([
       Promise.resolve(parseMartyrologyDayFromTranslation(martyrologyTranslationMarkdown, targetKey.value)),
@@ -125,36 +137,6 @@ async function loadLiturgicalData(date: Date) {
       },
     }
   }
-}
-
-function previous(type: 'reading' | 'prayer') {
-  if (type === 'reading' && readings.value.length)
-    readingIndex.value = (readingIndex.value - 1 + readings.value.length) % readings.value.length
-  if (type === 'prayer' && prayers.value.length)
-    prayerIndex.value = (prayerIndex.value - 1 + prayers.value.length) % prayers.value.length
-}
-
-function next(type: 'reading' | 'prayer') {
-  if (type === 'reading' && readings.value.length)
-    readingIndex.value = (readingIndex.value + 1) % readings.value.length
-  if (type === 'prayer' && prayers.value.length)
-    prayerIndex.value = (prayerIndex.value + 1) % prayers.value.length
-}
-
-function onSwipeStart(event: TouchEvent, type: 'reading' | 'prayer') {
-  if (type === 'reading')
-    swipeStartX.value = event.touches[0]?.clientX || 0
-  else
-    prayerSwipeStartX.value = event.touches[0]?.clientX || 0
-}
-
-function onSwipeEnd(event: TouchEvent, type: 'reading' | 'prayer') {
-  const endX = event.changedTouches[0]?.clientX || 0
-  const startX = type === 'reading' ? swipeStartX.value : prayerSwipeStartX.value
-  const delta = endX - startX
-  if (Math.abs(delta) < 40)
-    return
-  delta > 0 ? previous(type) : next(type)
 }
 
 </script>
@@ -243,8 +225,8 @@ function onSwipeEnd(event: TouchEvent, type: 'reading' | 'prayer') {
 
         <section class="martyrology-panel">
           <h2>短读经</h2>
-          <div v-if="currentReading" class="choice-card" @touchstart="onSwipeStart($event, 'reading')" @touchend="onSwipeEnd($event, 'reading')">
-            <button v-if="readings.length > 1" type="button" class="choice-arrow left" aria-label="上一篇短读经" @click="previous('reading')">
+          <div v-if="currentReading" class="choice-card" @touchstart="onReadingSwipeStart" @touchend="onReadingSwipeEnd">
+            <button v-if="readings.length > 1" type="button" class="choice-arrow left" aria-label="上一篇短读经" @click="previousReading">
               ‹
             </button>
             <article>
@@ -253,7 +235,7 @@ function onSwipeEnd(event: TouchEvent, type: 'reading' | 'prayer') {
               <p class="acclamation"><strong>领：</strong>上主的圣言。</p>
               <p class="response"><strong>应：</strong>感谢天主。</p>
             </article>
-            <button v-if="readings.length > 1" type="button" class="choice-arrow right" aria-label="下一篇短读经" @click="next('reading')">
+            <button v-if="readings.length > 1" type="button" class="choice-arrow right" aria-label="下一篇短读经" @click="nextReading">
               ›
             </button>
           </div>
@@ -274,8 +256,8 @@ function onSwipeEnd(event: TouchEvent, type: 'reading' | 'prayer') {
 
         <section class="martyrology-panel">
           <h2>祷词</h2>
-          <div v-if="currentPrayer" class="choice-card" @touchstart="onSwipeStart($event, 'prayer')" @touchend="onSwipeEnd($event, 'prayer')">
-            <button v-if="prayers.length > 1" type="button" class="choice-arrow left" aria-label="上一篇祷词" @click="previous('prayer')">
+          <div v-if="currentPrayer" class="choice-card" @touchstart="onPrayerSwipeStart" @touchend="onPrayerSwipeEnd">
+            <button v-if="prayers.length > 1" type="button" class="choice-arrow left" aria-label="上一篇祷词" @click="previousPrayer">
               ‹
             </button>
             <article>
@@ -284,7 +266,7 @@ function onSwipeEnd(event: TouchEvent, type: 'reading' | 'prayer') {
               </h3>
               <p>{{ currentPrayer.text }}</p>
             </article>
-            <button v-if="prayers.length > 1" type="button" class="choice-arrow right" aria-label="下一篇祷词" @click="next('prayer')">
+            <button v-if="prayers.length > 1" type="button" class="choice-arrow right" aria-label="下一篇祷词" @click="nextPrayer">
               ›
             </button>
           </div>
