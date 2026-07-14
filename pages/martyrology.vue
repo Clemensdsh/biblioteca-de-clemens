@@ -3,7 +3,8 @@ import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { useChoiceCarousel } from '../composables/useChoiceCarousel'
 import martyrologyTranslationMarkdown from './martyrologium-translation/index.md?raw'
-import { addDays, computeSeason, detectMovableFeast, formatDateInput, formatMonthDay, parseDateInput, selectReadings } from '../utils/liturgicalCalendar'
+import { addDays, detectMovableFeast, formatDateInput, formatMonthDay, loadLiturgicalData, parseDateInput, selectReadings } from '../utils/liturgicalCalendar'
+import { loadJson } from '../utils/loadJson'
 import { monthDayToChineseHeading, parseMartyrologyDayFromTranslation, parseTranslationMarkdown, type MartyrologyDay, type Prayer, type Reading } from '../utils/martyrologyParser'
 
 type MovableFeast = {
@@ -84,7 +85,8 @@ async function loadForTargetDate() {
 
     fixedDay.value = dayData
 
-    const liturgical = await loadLiturgicalData(targetDate.value)
+    const { data: liturgical, source } = await loadLiturgicalData(targetDate.value)
+    apiSource.value = source
     const movableId = detectMovableFeast(targetDate.value, liturgical)
     movableFeast.value = movableData.find(item => item.id === movableId) || null
     omitted.value = movableId === 'holy-triduum'
@@ -104,39 +106,6 @@ async function loadForTargetDate() {
 function onSelectedDateChange() {
   readingDate.value = parseDateInput(selectedDateValue.value)
   loadForTargetDate()
-}
-
-async function loadJson<T>(url: string): Promise<T> {
-  const response = await fetch(url)
-  const contentType = response.headers.get('content-type') || ''
-  if (!contentType.includes('application/json'))
-    throw new Error(`无法加载 ${url}：返回的不是 JSON`)
-  if (!response.ok)
-    throw new Error(`无法加载 ${url}`)
-  return response.json() as Promise<T>
-}
-
-
-async function loadLiturgicalData(date: Date) {
-  try {
-    const year = date.getFullYear()
-    const response = await fetch(`https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/${year}/${formatMonthDay(date)}.json`)
-    if (!response.ok)
-      throw new Error('API response is not ok')
-    const data = await response.json()
-    apiSource.value = 'api'
-    return data
-  }
-  catch {
-    apiSource.value = 'computus'
-    return {
-      season: computeSeason(date),
-      celebration: {
-        name: '',
-        type: '',
-      },
-    }
-  }
 }
 
 </script>

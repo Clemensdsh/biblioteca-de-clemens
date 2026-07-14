@@ -1,5 +1,32 @@
 import type { Reading } from './martyrologyParser'
 
+export type LiturgicalDataSource = 'api' | 'computus'
+
+export async function loadLiturgicalData(date: Date): Promise<{ data: any, source: LiturgicalDataSource }> {
+  try {
+    const year = date.getFullYear()
+    const response = await fetch(`https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/${year}/${formatMonthDay(date)}.json`)
+    if (!response.ok)
+      throw new Error('API response is not ok')
+    return {
+      data: await response.json(),
+      source: 'api',
+    }
+  }
+  catch {
+    return {
+      data: {
+        season: computeSeason(date),
+        celebration: {
+          name: '',
+          type: '',
+        },
+      },
+      source: 'computus',
+    }
+  }
+}
+
 export function detectMovableFeast(date: Date, liturgical: any) {
   const name = String(liturgical?.celebration?.name || '').toLowerCase()
   const easter = getEaster(date.getFullYear())
@@ -69,7 +96,6 @@ export function selectReadings(all: Reading[], date: Date, season?: string) {
   const matched = all.filter(item => occasions.includes(item.occasion))
   return matched
 }
-
 
 export function addDays(date: Date, days: number) {
   const nextDate = new Date(date)
