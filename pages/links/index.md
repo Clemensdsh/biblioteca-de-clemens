@@ -1,9 +1,10 @@
 ---
-title: 我的小伙伴们
+title: 友链
 keywords: 链接
-description: 云游的小伙伴们
-links: https://friends.yunyoujun.cn/links.json
-random: true
+description: 站点链接
+links: []
+random: false
+comment: false
 ---
 
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" />
