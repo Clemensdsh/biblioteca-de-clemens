@@ -90,16 +90,31 @@ html.dark {
 }
 
 // 首页底部页面入口：让“每日圣人录”独占第二行并居中
+.yun-square-container .link-item,
+.yun-square-container .link-item *,
+.yun-square-container .link-item:visited,
+.yun-square-container .link-item:hover {
+  color: #000 !important;
+  -webkit-text-fill-color: #000 !important;
+  font-weight: 700 !important;
+}
+
+html.dark {
+  .yun-square-container .link-item,
+  .yun-square-container .link-item *,
+  .yun-square-container .link-item:visited,
+  .yun-square-container .link-item:hover {
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important;
+  }
+}
+
 .yun-square-container .link-item:last-child {
   flex-basis: 100%;
   justify-content: center;
   width: fit-content;
   margin: 0.35rem auto 0;
-  color: var(--clemens-title-orange) !important;
   font-size: 1.35rem !important;
-  font-weight: 700;
-  background: var(--clemens-daily-link-bg) !important;
-  border: 1px solid var(--clemens-daily-link-border);
 }
 
 html.dark {
