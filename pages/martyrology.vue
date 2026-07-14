@@ -2,6 +2,7 @@
 import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import martyrologyTranslationMarkdown from './martyrologium-translation/index.md?raw'
+import { addDays, computeSeason, detectMovableFeast, formatDateInput, formatMonthDay, parseDateInput, selectReadings } from '../utils/liturgicalCalendar'
 import { monthDayToChineseHeading, parseMartyrologyDayFromTranslation, parseTranslationMarkdown, type MartyrologyDay, type Prayer, type Reading } from '../utils/martyrologyParser'
 
 type MovableFeast = {
@@ -126,76 +127,6 @@ async function loadLiturgicalData(date: Date) {
   }
 }
 
-function detectMovableFeast(date: Date, liturgical: any) {
-  const name = String(liturgical?.celebration?.name || '').toLowerCase()
-  const easter = getEaster(date.getFullYear())
-  const diff = diffDays(date, easter)
-  const monthDay = formatMonthDay(date)
-
-  if (diff === -46 || name.includes('ash'))
-    return 'ash-wednesday'
-  if (diff === -42)
-    return 'lent-1'
-  if (diff === -7 || name.includes('palm'))
-    return 'palm-sunday'
-  if (diff >= -3 && diff <= -1)
-    return 'holy-triduum'
-  if (diff === 0)
-    return 'easter-sunday'
-  if (diff === 39 || name.includes('ascension'))
-    return 'ascension'
-  if (diff === 49 || name.includes('pentecost'))
-    return 'pentecost'
-  if (diff === 56 || name.includes('trinity'))
-    return 'trinity-sunday'
-  if (diff === 60 || name.includes('corpus'))
-    return 'corpus-christi'
-  if (diff === 68 || name.includes('sacred heart'))
-    return 'sacred-heart'
-  if (diff === 69)
-    return 'immaculate-heart'
-  if (name.includes('christ the king'))
-    return 'christ-king'
-  if (name.includes('holy family'))
-    return 'holy-family'
-  if (name.includes('baptism'))
-    return 'baptism-of-the-lord'
-  if (monthDay === adventFirstSunday(date))
-    return 'advent-1'
-  if (monthDay === '12-26')
-    return '12-26'
-  if (monthDay === '12-27')
-    return '12-27'
-  if (monthDay === '12-28')
-    return '12-28'
-
-  return ''
-}
-
-function selectReadings(all: Reading[], date: Date, season?: string) {
-  if (!all.length)
-    return []
-
-  const feastId = detectMovableFeast(date, { season, celebration: {} })
-  const monthDay = formatMonthDay(date)
-  const normalizedSeason = String(season || computeSeason(date)).toLowerCase()
-  const occasions = [feastId, monthDay]
-
-  if (normalizedSeason.includes('advent'))
-    occasions.push('advent')
-  else if (normalizedSeason.includes('christmas'))
-    occasions.push('christmas')
-  else if (normalizedSeason.includes('lent'))
-    occasions.push('lent')
-  else if (normalizedSeason.includes('easter'))
-    occasions.push('easter')
-  else
-    occasions.push('ordinary')
-
-  const matched = all.filter(item => occasions.includes(item.occasion))
-  return matched
-}
-
 function previous(type: 'reading' | 'prayer') {
   if (type === 'reading' && readings.value.length)
     readingIndex.value = (readingIndex.value - 1 + readings.value.length) % readings.value.length
@@ -226,78 +157,6 @@ function onSwipeEnd(event: TouchEvent, type: 'reading' | 'prayer') {
   delta > 0 ? previous(type) : next(type)
 }
 
-function addDays(date: Date, days: number) {
-  const nextDate = new Date(date)
-  nextDate.setDate(nextDate.getDate() + days)
-  return nextDate
-}
-
-function clearTime(date: Date) {
-  return new Date(date.getFullYear(), date.getMonth(), date.getDate())
-}
-
-function formatMonthDay(date: Date) {
-  return `${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
-}
-
-function formatDateInput(date: Date) {
-  return [
-    date.getFullYear(),
-    String(date.getMonth() + 1).padStart(2, '0'),
-    String(date.getDate()).padStart(2, '0'),
-  ].join('-')
-}
-
-function parseDateInput(value: string) {
-  const [year, month, day] = value.split('-').map(Number)
-  if (!year || !month || !day)
-    return new Date()
-  return new Date(year, month - 1, day)
-}
-
-function diffDays(date: Date, base: Date) {
-  return Math.round((clearTime(date).getTime() - clearTime(base).getTime()) / 86400000)
-}
-
-function getEaster(year: number) {
-  const a = year % 19
-  const b = Math.floor(year / 100)
-  const c = year % 100
-  const d = Math.floor(b / 4)
-  const e = b % 4
-  const f = Math.floor((b + 8) / 25)
-  const g = Math.floor((b - f + 1) / 3)
-  const h = (19 * a + b - d - g + 15) % 30
-  const i = Math.floor(c / 4)
-  const k = c % 4
-  const l = (32 + 2 * e + 2 * i - h - k) % 7
-  const m = Math.floor((a + 11 * h + 22 * l) / 451)
-  const month = Math.floor((h + l - 7 * m + 114) / 31)
-  const day = ((h + l - 7 * m + 114) % 31) + 1
-  return new Date(year, month - 1, day)
-}
-
-function computeSeason(date: Date) {
-  const easter = getEaster(date.getFullYear())
-  const diff = diffDays(date, easter)
-  const monthDay = formatMonthDay(date)
-  if (monthDay >= '12-25' || monthDay <= '01-12')
-    return 'Christmas'
-  if (diff >= -46 && diff < 0)
-    return 'Lent'
-  if (diff >= 0 && diff <= 49)
-    return 'Easter'
-  if (monthDay >= adventFirstSunday(date) && monthDay < '12-25')
-    return 'Advent'
-  return 'Ordinary Time'
-}
-
-function adventFirstSunday(date: Date) {
-  const christmas = new Date(date.getFullYear(), 11, 25)
-  const fourthAdvent = addDays(christmas, -((christmas.getDay() || 7) - 1) - 1)
-  const firstAdvent = addDays(fourthAdvent, -21)
-  return formatMonthDay(firstAdvent)
-}
 </script>
 
 <template>
