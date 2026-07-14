@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
 import { useStaticJson } from '../../composables/useStaticJson'
+import { chineseOrdinals } from '../../utils/chineseOrdinals'
 
 type PrayerSeason = {
   title: string
@@ -17,7 +18,6 @@ const { data, loading, error } = useStaticJson<{ seasons: PrayerSeason[] }>(
 const seasons = computed(() => data.value?.seasons || [])
 const currentSeason = computed(() => seasons.value[selectedSeason.value])
 const currentPrayer = computed(() => currentSeason.value?.options[selectedOption.value] || '')
-const chineseOrdinals = ['第一式', '第二式', '第三式', '第四式', '第五式', '第六式', '第七式', '第八式', '第九式', '第十式']
 
 function chooseSeason(index: number) {
   selectedSeason.value = index

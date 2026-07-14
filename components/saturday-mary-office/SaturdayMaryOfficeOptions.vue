@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, watchEffect, ref } from 'vue'
 import { useStaticJson } from '../../composables/useStaticJson'
+import { chineseOrdinals } from '../../utils/chineseOrdinals'
 import { renderLiturgicalMarkdown } from '../../utils/liturgicalMarkdown'
 import { saturdayMarySyncedSelections } from './saturdayMarySyncedSelections'
 
@@ -27,7 +28,6 @@ const { data, loading, error } = useStaticJson<{ items?: RawItem[], weeks?: RawI
   '无法加载文本',
 )
 
-const chineseOrdinals = ['第一式', '第二式', '第三式', '第四式', '第五式', '第六式', '第七式', '第八式', '第九式', '第十式']
 const items = computed(() => (data.value?.items || data.value?.weeks || []).map((item, index) => {
   if (typeof item === 'string')
     return { title: chineseOrdinals[index] || `第 ${index + 1} 式`, text: item }
