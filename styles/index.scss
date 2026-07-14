@@ -102,10 +102,15 @@ html.dark {
 .site-nav .site-link-item,
 .site-nav .site-link-item *,
 .site-nav .site-link-item:visited,
-.site-nav .site-link-item:hover {
+.site-nav .site-link-item:hover,
+.yun-nav-menu a,
+.yun-nav-menu a *,
+.yun-nav-menu a:visited,
+.yun-nav-menu a:hover {
   color: #000 !important;
   -webkit-text-fill-color: #000 !important;
   font-weight: 700 !important;
+  opacity: 1 !important;
 }
 
 html.dark {
@@ -120,7 +125,11 @@ html.dark {
   .site-nav .site-link-item,
   .site-nav .site-link-item *,
   .site-nav .site-link-item:visited,
-  .site-nav .site-link-item:hover {
+  .site-nav .site-link-item:hover,
+  .yun-nav-menu a,
+  .yun-nav-menu a *,
+  .yun-nav-menu a:visited,
+  .yun-nav-menu a:hover {
     color: #fff !important;
     -webkit-text-fill-color: #fff !important;
   }
