@@ -7,12 +7,18 @@ import SaturdayMaryOfficeOptions from '../components/saturday-mary-office/Saturd
 import SaturdayMaryPsalmody from '../components/saturday-mary-office/SaturdayMaryPsalmody.vue'
 import SaturdayMaryReadingTwo from '../components/saturday-mary-office/SaturdayMaryReadingTwo.vue'
 
+const globalComponents = {
+  SaturdayMaryConcludingPrayers,
+  SaturdayMaryDaytimePsalmody,
+  SaturdayMaryEligibilityNotice,
+  SaturdayMaryOpeningVerse,
+  SaturdayMaryOfficeOptions,
+  SaturdayMaryPsalmody,
+  SaturdayMaryReadingTwo,
+}
+
 export default defineAppSetup(({ app }) => {
-  app.component('SaturdayMaryConcludingPrayers', SaturdayMaryConcludingPrayers)
-  app.component('SaturdayMaryDaytimePsalmody', SaturdayMaryDaytimePsalmody)
-  app.component('SaturdayMaryEligibilityNotice', SaturdayMaryEligibilityNotice)
-  app.component('SaturdayMaryOpeningVerse', SaturdayMaryOpeningVerse)
-  app.component('SaturdayMaryOfficeOptions', SaturdayMaryOfficeOptions)
-  app.component('SaturdayMaryPsalmody', SaturdayMaryPsalmody)
-  app.component('SaturdayMaryReadingTwo', SaturdayMaryReadingTwo)
+  Object.entries(globalComponents).forEach(([name, component]) => {
+    app.component(name, component)
+  })
 })
