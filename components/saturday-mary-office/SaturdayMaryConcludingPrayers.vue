@@ -1,36 +1,23 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue'
+import { computed, ref } from 'vue'
+import { useStaticJson } from '../../composables/useStaticJson'
 
 type PrayerSeason = {
   title: string
   options: string[]
 }
 
-const seasons = ref<PrayerSeason[]>([])
 const selectedSeason = ref(0)
 const selectedOption = ref(0)
-const loading = ref(true)
-const error = ref('')
+const { data, loading, error } = useStaticJson<{ seasons: PrayerSeason[] }>(
+  '/data/saturday-mary-office/concluding-prayers.json',
+  '无法加载结束祷词',
+)
 
+const seasons = computed(() => data.value?.seasons || [])
 const currentSeason = computed(() => seasons.value[selectedSeason.value])
 const currentPrayer = computed(() => currentSeason.value?.options[selectedOption.value] || '')
 const chineseOrdinals = ['第一式', '第二式', '第三式', '第四式', '第五式', '第六式', '第七式', '第八式', '第九式', '第十式']
-
-onMounted(async () => {
-  try {
-    const response = await fetch('/data/saturday-mary-office/concluding-prayers.json')
-    if (!response.ok)
-      throw new Error('无法加载结束祷词')
-    const data = await response.json() as { seasons: PrayerSeason[] }
-    seasons.value = data.seasons || []
-  }
-  catch (err) {
-    error.value = err instanceof Error ? err.message : String(err)
-  }
-  finally {
-    loading.value = false
-  }
-})
 
 function chooseSeason(index: number) {
   selectedSeason.value = index

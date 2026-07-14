@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue'
+import { computed, ref } from 'vue'
+import { useStaticJson } from '../../composables/useStaticJson'
 import { renderLiturgicalMarkdown } from '../../utils/liturgicalMarkdown'
 
 type DaytimeHour = {
@@ -13,30 +14,16 @@ type DaytimeWeek = {
   hours: DaytimeHour[]
 }
 
-const weeks = ref<DaytimeWeek[]>([])
 const selectedWeek = ref(0)
 const selectedHour = ref(0)
-const loading = ref(true)
-const error = ref('')
+const { data, loading, error } = useStaticJson<{ weeks: DaytimeWeek[] }>(
+  '/data/saturday-mary-office/daytime-psalter.json',
+  '无法加载日间祈祷圣咏集',
+)
 
+const weeks = computed(() => data.value?.weeks || [])
 const currentWeek = computed(() => weeks.value[selectedWeek.value])
 const currentHour = computed(() => currentWeek.value?.hours[selectedHour.value])
-
-onMounted(async () => {
-  try {
-    const response = await fetch('/data/saturday-mary-office/daytime-psalter.json')
-    if (!response.ok)
-      throw new Error('无法加载日间祈祷圣咏集')
-    const data = await response.json() as { weeks: DaytimeWeek[] }
-    weeks.value = data.weeks || []
-  }
-  catch (err) {
-    error.value = err instanceof Error ? err.message : String(err)
-  }
-  finally {
-    loading.value = false
-  }
-})
 
 function chooseWeek(index: number) {
   selectedWeek.value = index

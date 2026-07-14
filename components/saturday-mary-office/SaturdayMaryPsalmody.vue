@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue'
+import { computed, ref } from 'vue'
+import { useStaticJson } from '../../composables/useStaticJson'
 import { renderLiturgicalMarkdown } from '../../utils/liturgicalMarkdown'
 
 type PsalmodyWeek = {
@@ -10,29 +11,14 @@ type PsalmodyWeek = {
   responsory: string
 }
 
-const weeks = ref<PsalmodyWeek[]>([])
 const selectedWeek = ref(1)
-const loading = ref(true)
-const error = ref('')
+const { data, loading, error } = useStaticJson<{ weeks: PsalmodyWeek[] }>(
+  '/data/saturday-mary-office/office-readings-psalter.json',
+  '无法加载圣咏集数据',
+)
 
+const weeks = computed(() => data.value?.weeks || [])
 const currentWeek = computed(() => weeks.value.find(item => item.week === selectedWeek.value) || weeks.value[0])
-
-onMounted(async () => {
-  try {
-    const response = await fetch('/data/saturday-mary-office/office-readings-psalter.json')
-    if (!response.ok)
-      throw new Error('无法加载圣咏集数据')
-    const data = await response.json() as { weeks: PsalmodyWeek[] }
-    weeks.value = data.weeks || []
-    selectedWeek.value = weeks.value[0]?.week || 1
-  }
-  catch (err) {
-    error.value = err instanceof Error ? err.message : String(err)
-  }
-  finally {
-    loading.value = false
-  }
-})
 
 const renderMarkdown = renderLiturgicalMarkdown
 </script>

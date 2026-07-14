@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue'
+import { computed, watchEffect, ref } from 'vue'
+import { useStaticJson } from '../../composables/useStaticJson'
 import { renderLiturgicalMarkdown } from '../../utils/liturgicalMarkdown'
 import { saturdayMarySyncedSelections } from './saturdayMarySyncedSelections'
 
@@ -20,13 +21,22 @@ type OfficeItem = {
   text: string
 }
 
-const items = ref<OfficeItem[]>([])
 const localSelectedIndex = ref(0)
-const loading = ref(true)
-const error = ref('')
+const { data, loading, error } = useStaticJson<{ items?: RawItem[], weeks?: RawItem[] }>(
+  () => props.src,
+  '无法加载文本',
+)
 
-const currentItem = computed(() => items.value[selectedIndex.value])
 const chineseOrdinals = ['第一式', '第二式', '第三式', '第四式', '第五式', '第六式', '第七式', '第八式', '第九式', '第十式']
+const items = computed(() => (data.value?.items || data.value?.weeks || []).map((item, index) => {
+  if (typeof item === 'string')
+    return { title: chineseOrdinals[index] || `第 ${index + 1} 式`, text: item }
+  return {
+    title: item.title || chineseOrdinals[index] || `第 ${index + 1} 式`,
+    text: item.text || '',
+  }
+}))
+
 const selectedIndex = computed({
   get() {
     if (!props.syncKey)
@@ -42,31 +52,15 @@ const selectedIndex = computed({
   },
 })
 
-onMounted(async () => {
-  try {
-    const response = await fetch(props.src)
-    if (!response.ok)
-      throw new Error('无法加载文本')
-    const data = await response.json() as { items?: RawItem[], weeks?: RawItem[] }
-    items.value = (data.items || data.weeks || []).map((item, index) => {
-      if (typeof item === 'string')
-        return { title: chineseOrdinals[index] || `第 ${index + 1} 式`, text: item }
-      return {
-        title: item.title || chineseOrdinals[index] || `第 ${index + 1} 式`,
-        text: item.text || '',
-      }
-    })
-    if (props.syncKey && saturdayMarySyncedSelections[props.syncKey] === undefined)
-      saturdayMarySyncedSelections[props.syncKey] = 0
-    else
-      selectedIndex.value = 0
-  }
-  catch (err) {
-    error.value = err instanceof Error ? err.message : String(err)
-  }
-  finally {
-    loading.value = false
-  }
+const currentItem = computed(() => items.value[selectedIndex.value])
+
+watchEffect(() => {
+  if (!data.value)
+    return
+  if (props.syncKey && saturdayMarySyncedSelections[props.syncKey] === undefined)
+    saturdayMarySyncedSelections[props.syncKey] = 0
+  else if (!props.syncKey)
+    selectedIndex.value = 0
 })
 
 function previous() {

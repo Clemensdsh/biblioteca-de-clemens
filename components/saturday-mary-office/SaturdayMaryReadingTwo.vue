@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue'
+import { computed, ref } from 'vue'
+import { useStaticJson } from '../../composables/useStaticJson'
 import { renderLiturgicalMarkdown } from '../../utils/liturgicalMarkdown'
 
 type ReadingTwo = {
@@ -9,29 +10,14 @@ type ReadingTwo = {
   text: string
 }
 
-const readings = ref<ReadingTwo[]>([])
 const selectedIndex = ref(0)
-const loading = ref(true)
-const error = ref('')
+const { data, loading, error } = useStaticJson<{ readings: ReadingTwo[] }>(
+  '/data/saturday-mary-office/reading-two.json',
+  '无法加载诵读二数据',
+)
 
+const readings = computed(() => data.value?.readings || [])
 const currentReading = computed(() => readings.value[selectedIndex.value])
-
-onMounted(async () => {
-  try {
-    const response = await fetch('/data/saturday-mary-office/reading-two.json')
-    if (!response.ok)
-      throw new Error('无法加载诵读二数据')
-    const data = await response.json() as { readings: ReadingTwo[] }
-    readings.value = data.readings || []
-    selectedIndex.value = 0
-  }
-  catch (err) {
-    error.value = err instanceof Error ? err.message : String(err)
-  }
-  finally {
-    loading.value = false
-  }
-})
 
 function previous() {
   if (!readings.value.length)
