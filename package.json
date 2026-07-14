@@ -9,7 +9,8 @@
     "build:ssg": "valaxy build --ssg",
     "dev": "valaxy --port 4859",
     "rss": "valaxy rss",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "test": "vitest run"
   },
   "dependencies": {
     "valaxy": "0.28.11",
@@ -17,6 +18,7 @@
   },
   "devDependencies": {
     "@iconify-json/ri": "^1.2.10",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.10"
   }
 }
