@@ -256,6 +256,7 @@ function splitReadingVariants(body: string, baseCitation: string) {
 
 function cleanReadingBody(text: string) {
   return cleanInlineMarkdown(text
+    .replace(/^#{1,6}\s+.+$/gm, '')
     .replace(/^>\s*上主的圣言。?\s*$/gm, '')
     .replace(/^>\s*感谢天主。?\s*$/gm, '')
     .replace(/^上主的圣言。?\s*$/gm, '')
@@ -340,4 +341,3 @@ function readingOccasion(id: number) {
   if (id === 21) return 'ordinary'
   return `reading-${id}`
 }
-
