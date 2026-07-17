@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "valaxy build --ssg",
+    "build": "valaxy build --ssg && node scripts/postbuild-martyrology-shell.mjs",
     "build:spa": "valaxy build",
-    "build:ssg": "valaxy build --ssg",
+    "build:ssg": "valaxy build --ssg && node scripts/postbuild-martyrology-shell.mjs",
     "dev": "valaxy --port 4859",
     "rss": "valaxy rss",
     "serve": "vite preview",

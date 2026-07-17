@@ -1,15 +1,15 @@
 <script setup lang="ts">
 import { computed, onMounted, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
-import { useChoiceCarousel } from '../composables/useChoiceCarousel'
-import MartyrologyPrima1962 from '../components/martyrology/MartyrologyPrima1962.vue'
-import martyrologyTranslationMarkdown from './martyrologium-translation/index.md?raw'
-import { addDays, detectMovableFeast, formatDateInput, formatMonthDay, loadLiturgicalData, parseDateInput, selectReadings } from '../features/martyrology/liturgicalCalendar'
-import { loadJson } from '../utils/loadJson'
-import { monthDayToChineseHeading, parseMartyrologyDayFromTranslation, parseTranslationMarkdown, type MartyrologyDay, type Prayer, type Reading } from '../features/martyrology/parser'
-import { localDateFromDate } from '../features/prima1962/localDate'
-import { resolvePrima1962 } from '../features/prima1962/resolver'
-import type { Prima1962Resolution } from '../features/prima1962/types'
+import { useChoiceCarousel } from '../../composables/useChoiceCarousel'
+import MartyrologyPrima1962 from '../../components/martyrology/MartyrologyPrima1962.vue'
+import martyrologyTranslationMarkdown from '../martyrologium-translation/index.md?raw'
+import { addDays, detectMovableFeast, formatDateInput, formatMonthDay, loadLiturgicalData, parseDateInput, selectReadings } from '../../features/martyrology/liturgicalCalendar'
+import { loadJson } from '../../utils/loadJson'
+import { monthDayToChineseHeading, parseMartyrologyDayFromTranslation, parseTranslationMarkdown, type MartyrologyDay, type Prayer, type Reading } from '../../features/martyrology/parser'
+import { localDateFromDate } from '../../features/prima1962/localDate'
+import { resolvePrima1962 } from '../../features/prima1962/resolver'
+import type { Prima1962Resolution } from '../../features/prima1962/types'
 
 type MovableFeast = {
   id: string
@@ -29,6 +29,7 @@ route.meta.frontmatter = {
 const loading = ref(true)
 const error = ref('')
 const apiSource = ref<'api' | 'computus'>('computus')
+const mounted = ref(false)
 const mode = ref<'current' | 'prima1962'>('current')
 const bilingual = ref(true)
 const readingDate = ref(new Date())
@@ -70,6 +71,7 @@ const targetChineseDate = computed(() => {
 })
 
 onMounted(() => {
+  mounted.value = true
   readingDate.value = parseDateInput(selectedDateValue.value)
   loadForTargetDate()
 })
@@ -133,6 +135,7 @@ function onSelectedDateChange() {
 
 <template>
   <main class="martyrology-page">
+    <div v-if="mounted" class="martyrology-client">
     <header class="martyrology-header">
       <p class="martyrology-eyebrow">
         Martyrologium Romanum
@@ -317,11 +320,23 @@ function onSelectedDateChange() {
         :bilingual="bilingual"
       />
     </template>
+    </div>
+    <div v-else class="martyrology-client">
+      <header class="martyrology-header">
+        <p class="martyrology-eyebrow">
+          Martyrologium Romanum
+        </p>
+        <h1>每日殉道圣人录</h1>
+      </header>
+      <section class="martyrology-panel">
+        正在准备页面……
+      </section>
+    </div>
   </main>
 </template>
 
-<style scoped src="../features/martyrology/martyrology.scss"></style>
-<style src="../features/prima1962/prima1962.scss"></style>
+<style scoped src="../../features/martyrology/martyrology.scss"></style>
+<style src="../../features/prima1962/prima1962.scss"></style>
 
 <route lang="yaml">
 meta:

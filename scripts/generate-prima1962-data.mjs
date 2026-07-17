@@ -116,7 +116,7 @@ const chinese = {
   'ending.benedicite': '请［降福我们］。',
   'ending.deus': '［愿］天主［降福我们］。',
   'ending.dominus-nos': '愿上主降福我们，保护我们免于一切凶恶，引领我们到达永生。阿们。',
-  'ending.fidelium': '愿诸信者灵魂，赖天主仁慈，息止安所。',
+  'ending.fidelium': '凡诸信者灵魂，赖天主仁慈，息止安所。',
   'common.amen': '阿们。',
 }
 

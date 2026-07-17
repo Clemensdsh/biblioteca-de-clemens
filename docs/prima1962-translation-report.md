@@ -1420,7 +1420,7 @@ The martyrology body itself continues to use the existing project translation in
 
 - 类型：verse
 - 拉丁文：℣. Fidélium ánimæ per misericórdiam Dei requiéscant in pace.
-- 中文：愿诸信者灵魂，赖天主仁慈，息止安所。
+- 中文：凡诸信者灵魂，赖天主仁慈，息止安所。
 - 状态：暂译
 - 使用位置：standalone /martyrology-prima1962/ mixed Prima page
 - 拉丁文来源：Divinum Officium Latin Prima/Psalterium data
