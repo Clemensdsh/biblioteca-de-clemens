@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue'
+import { computed, onMounted, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useChoiceCarousel } from '../composables/useChoiceCarousel'
 import MartyrologyPrima1962 from '../components/martyrology/MartyrologyPrima1962.vue'
@@ -74,6 +74,10 @@ onMounted(() => {
   loadForTargetDate()
 })
 
+watch(mode, () => {
+  loadForTargetDate()
+})
+
 async function loadForTargetDate() {
   loading.value = true
   error.value = ''
@@ -86,21 +90,28 @@ async function loadForTargetDate() {
   resetReading()
   resetPrayer()
   try {
-    const [dayData, movableData, resolvedPrima] = await Promise.all([
+    const [dayData, movableData] = await Promise.all([
       Promise.resolve(parseMartyrologyDayFromTranslation(martyrologyTranslationMarkdown, targetKey.value)),
       loadJson<MovableFeast[]>('/data/martyrology/movable-feasts.json'),
-      resolvePrima1962(localDateFromDate(readingDate.value)),
     ])
 
     fixedDay.value = dayData
-    primaResolution.value = resolvedPrima
+
+    if (mode.value === 'prima1962') {
+      primaResolution.value = await resolvePrima1962(localDateFromDate(readingDate.value))
+      const movableId = detectMovableFeast(targetDate.value, {})
+      movableFeast.value = movableData.find(item => item.id === movableId) || null
+      omitted.value = movableId === 'holy-triduum'
+      readings.value = parsedTranslation.readings
+      prayers.value = parsedTranslation.prayers
+      return
+    }
 
     const { data: liturgical, source } = await loadLiturgicalData(targetDate.value)
     apiSource.value = source
     const movableId = detectMovableFeast(targetDate.value, liturgical)
     movableFeast.value = movableData.find(item => item.id === movableId) || null
     omitted.value = movableId === 'holy-triduum'
-
     const selectedReadings = selectReadings(parsedTranslation.readings, targetDate.value, liturgical?.season)
     readings.value = selectedReadings.length ? selectedReadings : parsedTranslation.readings
     prayers.value = parsedTranslation.prayers

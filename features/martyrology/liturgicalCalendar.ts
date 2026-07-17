@@ -13,7 +13,7 @@ export async function loadLiturgicalData(date: Date): Promise<{ data: Liturgical
   const remoteResult = await firstSuccessfulWithin([
     () => loadCpbjrCalendar(date),
     () => loadCalapiCalendar(date),
-  ], 2800)
+  ], 900)
 
   if (remoteResult)
     return remoteResult
