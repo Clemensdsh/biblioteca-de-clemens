@@ -1,0 +1,38 @@
+# Prima 1962 Responsory Proper Verses
+
+[ordinary - Per Annum / Ordinary]
+Latin: ℣. Qui sedes ad déxteram Patris.
+Chinese: 坐在圣父之右者。
+
+[adv - Adventus]
+Latin: ℣. Qui ventúrus es in mundum.
+Chinese: 即将来临于世者。
+
+[nat - Nativitas]
+Latin: ℣. Qui natus es de María Vírgine.
+Chinese: 由童贞玛利亚所生者。
+
+[epi - Epiphania]
+Latin: ℣. Qui apparuísti hódie.
+Chinese: 今日显现者。
+
+[pasch - Tempus Paschale]
+Latin: ℣. Qui surrexísti a mórtuis.
+Chinese: 从死者中复活者。
+
+[asc - Ascensio]
+Latin: ℣. Qui scandis super sídera.
+Chinese: 升于星辰之上者。
+
+[pent - Pentecostes]
+Latin: ℣. Qui sedes ad déxteram Patris.
+Chinese: 坐在圣父之右者。
+
+[corp - Corpus Christi]
+Latin: ℣. Qui natus est de María Vírgine.
+Chinese: 由童贞玛利亚所生者。
+
+[heart - Sacratissimum Cor Iesu]
+Latin: ℣. Qui corde fundis grátiam.
+Chinese: 从圣心倾注恩宠者。
+

@@ -2,10 +2,14 @@
 import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { useChoiceCarousel } from '../composables/useChoiceCarousel'
+import MartyrologyPrima1962 from '../components/martyrology/MartyrologyPrima1962.vue'
 import martyrologyTranslationMarkdown from './martyrologium-translation/index.md?raw'
 import { addDays, detectMovableFeast, formatDateInput, formatMonthDay, loadLiturgicalData, parseDateInput, selectReadings } from '../features/martyrology/liturgicalCalendar'
 import { loadJson } from '../utils/loadJson'
 import { monthDayToChineseHeading, parseMartyrologyDayFromTranslation, parseTranslationMarkdown, type MartyrologyDay, type Prayer, type Reading } from '../features/martyrology/parser'
+import { localDateFromDate } from '../features/prima1962/localDate'
+import { resolvePrima1962 } from '../features/prima1962/resolver'
+import type { Prima1962Resolution } from '../features/prima1962/types'
 
 type MovableFeast = {
   id: string
@@ -25,6 +29,8 @@ route.meta.frontmatter = {
 const loading = ref(true)
 const error = ref('')
 const apiSource = ref<'api' | 'computus'>('computus')
+const mode = ref<'current' | 'prima1962'>('current')
+const bilingual = ref(true)
 const readingDate = ref(new Date())
 const selectedDateValue = ref(formatDateInput(readingDate.value))
 const targetDate = computed(() => addDays(readingDate.value, 1))
@@ -33,6 +39,7 @@ const movableFeast = ref<MovableFeast | null>(null)
 const omitted = ref(false)
 const readings = ref<Reading[]>([])
 const prayers = ref<Prayer[]>([])
+const primaResolution = ref<Prima1962Resolution | null>(null)
 const {
   selectedIndex: readingIndex,
   currentItem: currentReading,
@@ -75,15 +82,18 @@ async function loadForTargetDate() {
   omitted.value = false
   readings.value = []
   prayers.value = []
+  primaResolution.value = null
   resetReading()
   resetPrayer()
   try {
-    const [dayData, movableData] = await Promise.all([
+    const [dayData, movableData, resolvedPrima] = await Promise.all([
       Promise.resolve(parseMartyrologyDayFromTranslation(martyrologyTranslationMarkdown, targetKey.value)),
       loadJson<MovableFeast[]>('/data/martyrology/movable-feasts.json'),
+      resolvePrima1962(localDateFromDate(readingDate.value)),
     ])
 
     fixedDay.value = dayData
+    primaResolution.value = resolvedPrima
 
     const { data: liturgical, source } = await loadLiturgicalData(targetDate.value)
     apiSource.value = source
@@ -125,11 +135,31 @@ function onSelectedDateChange() {
         <span>诵读日期</span>
         <input v-model="selectedDateValue" type="date" @change="onSelectedDateChange">
       </label>
-      <p class="inline-help">
+      <section class="martyrology-mode-switch" aria-label="诵念模式">
+        <label>
+          <input v-model="mode" type="radio" value="current">
+          新礼圣人录
+        </label>
+        <label>
+          <input v-model="mode" type="radio" value="prima1962">
+          第一时辰经
+        </label>
+      </section>
+      <section v-if="mode === 'prima1962'" class="prima-options" aria-label="第一时辰经显示选项">
+        <label><input v-model="bilingual" type="checkbox"> 拉丁中文对照</label>
+      </section>
+      <p v-if="mode === 'current'" class="inline-help">
         若在时辰礼仪中诵读，可于晨祷结束祷词后，或任一日间小时辰中诵读；若不在时辰礼仪中诵读，可在团体聚集后，由读经员直接从日期宣报开始。
       </p>
-      <p class="martyrology-source">
-        礼仪日历来源: {{ apiSource === 'api' ? 'Catholic Readings API' : '本地 Computus 降级算法' }}
+      <p v-if="mode === 'current'" class="martyrology-source">
+        礼仪日历来源:
+        {{
+          apiSource === 'cpbjr-api'
+            ? 'Catholic Readings API'
+            : apiSource === 'calapi'
+              ? 'Church Calendar API'
+              : '本地 Computus 降级算法'
+        }}
       </p>
     </header>
 
@@ -142,6 +172,7 @@ function onSelectedDateChange() {
     </section>
 
     <template v-else>
+      <template v-if="mode === 'current'">
       <section class="martyrology-panel date-announcement">
         <h2>日期宣报</h2>
         <p v-if="fixedDay" class="roman-date">
@@ -264,11 +295,22 @@ function onSelectedDateChange() {
         </section>
 
       </template>
+      </template>
+      <MartyrologyPrima1962
+        v-else
+        :resolution="primaResolution"
+        :fixed-day="fixedDay"
+        :movable-feast="movableFeast"
+        :omitted="omitted"
+        :target-key="targetKey"
+        :bilingual="bilingual"
+      />
     </template>
   </main>
 </template>
 
 <style scoped src="../features/martyrology/martyrology.scss"></style>
+<style src="../features/prima1962/prima1962.scss"></style>
 
 <route lang="yaml">
 meta:

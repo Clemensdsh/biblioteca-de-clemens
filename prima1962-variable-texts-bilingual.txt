@@ -1,0 +1,261 @@
+# Prima 1962 Variable Texts
+
+## Incipit seasonal acclamation
+
+[common.alleluia]
+Latin: Allelúia.
+Chinese: 阿肋路亚。
+
+[common.laus-tibi]
+Latin: Laus tibi, Dómine, Rex ætérnæ glóriæ.
+Chinese: 上主，永恒光荣的君王，赞美归于你。
+
+## Responsorium breve seasonal forms
+
+[ordinary]
+Latin: ℟. Christe, Fili Dei vivi, * miserére nobis.
+Chinese: 基督，永生天主之子，求你垂怜我们。
+Latin: ℣. Qui sedes ad déxteram Patris.
+Chinese: 坐在圣父之右者。
+Latin: ℟. Miserére nobis.
+Chinese: 垂怜我们。
+Latin: ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+Chinese: 愿光荣归于父、及子、及圣神。
+Latin: ℟. Christe, Fili Dei vivi, * miserére nobis.
+Chinese: 基督，永生天主之子，求你垂怜我们。
+
+[passion]
+Latin: ℟. Christe, Fili Dei vivi, miserére nobis.
+Chinese: 基督，永生天主之子，求你垂怜我们。
+Latin: ℣. Qui sedes ad déxteram Patris.
+Chinese: 坐在圣父之右者。
+Latin: ℟. Christe, Fili Dei vivi, miserére nobis.
+Chinese: 基督，永生天主之子，求你垂怜我们。
+
+[paschal]
+Latin: ℟. Christe, Fili Dei vivi, miserére nobis, allelúia, allelúia.
+Chinese: 基督，永生天主之子，求你垂怜我们，阿肋路亚，阿肋路亚。
+Latin: ℣. Qui surrexísti a mórtuis, allelúia.
+Chinese: 从死者中复活者，阿肋路亚。
+Latin: ℟. Miserére nobis, allelúia, allelúia.
+Chinese: 垂怜我们，阿肋路亚，阿肋路亚。
+Latin: ℣. Glória Patri, et Fílio, et Spirítui Sancto.
+Chinese: 愿光荣归于父、及子、及圣神。
+Latin: ℟. Christe, Fili Dei vivi, miserére nobis, allelúia, allelúia.
+Chinese: 基督，永生天主之子，求你垂怜我们，阿肋路亚，阿肋路亚。
+
+## Responsorium breve proper verses
+
+[ordinary]
+Latin: ℣. Qui sedes ad déxteram Patris.
+Chinese: 坐在圣父之右者。
+
+[adv]
+Latin: ℣. Qui ventúrus es in mundum.
+Chinese: 即将来临于世者。
+
+[nat]
+Latin: ℣. Qui natus es de María Vírgine.
+Chinese: 由童贞玛利亚所生者。
+
+[epi]
+Latin: ℣. Qui apparuísti hódie.
+Chinese: 今日显现者。
+
+[pasch]
+Latin: ℣. Qui surrexísti a mórtuis.
+Chinese: 从死者中复活者。
+
+[asc]
+Latin: ℣. Qui scandis super sídera.
+Chinese: 升于星辰之上者。
+
+[pent]
+Latin: ℣. Qui sedes ad déxteram Patris.
+Chinese: 坐在圣父之右者。
+
+[corp]
+Latin: ℣. Qui natus est de María Vírgine.
+Chinese: 由童贞玛利亚所生者。
+
+[heart]
+Latin: ℣. Qui corde fundis grátiam.
+Chinese: 从圣心倾注恩宠者。
+
+## Capitulum Responsorium
+
+[Capitulum]
+Citation: 1 Tim 1:17
+Latin: Regi sæculórum immortáli et invisíbili, soli Deo honor et glória in sǽcula sæculórum. Amen.
+Chinese: 愿尊崇和光荣归于万世的君王，不死不灭、无形的惟一天主，于无穷世之世！阿们。
+
+## Lectio brevis
+
+[Per Annum]
+Latin: ℣. Dóminus autem dírigat corda et córpora nostra in caritáte Dei et patiéntia Christi.
+Chinese: 愿主指引我们的心神和身体，使我们爱天主，并学习基督的坚忍。
+
+[Adv]
+Latin: ℣. Dómine, miserére nostri: te enim exspectávimus: esto brácchium nostrum in mane, et salus nostra in témpore tribulatiónis.
+Chinese: 上主，求你怜悯我们，因为我们仰望你；求你每日清晨作我们的臂膊，在患难时期作我们的救援。
+
+[Nat]
+Latin: ℣. Ipsi períbunt, tu autem permanébis; et omnes sicut vestiméntum veteráscent: et velut amíctum mutábis eos, et mutabúntur: tu autem idem ipse es, et anni tui non defícient.
+Chinese: 诸天必要灭亡，你却永存；万物都要像衣服一样陈旧；你要把它们像外衣一样更换，它们就要改变；可是你仍是同一位，你的岁月永无穷尽。
+
+[Epi]
+Latin: ℣. Omnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino annuntiántes.
+Chinese: 众人都要由舍巴前来，携带黄金和乳香，传扬对上主的赞颂。
+
+[Asc]
+Latin: ℣. Viri Galilǽi, quid statis aspiciéntes in cælum? Hic Iesus, qui assúmptus est a vobis in cælum, sic véniet, quemádmodum vidístis eum eúntem in cælum.
+Chinese: 加里肋亚人，你们为什么站着望天？这位离开你们、被接到天上去的耶稣，你们看见他怎样升了天，也要怎样降来。
+
+[Quad]
+Latin: ℣. Quǽrite Dóminum dum inveníri potest: invocáte eum, dum prope est.
+Chinese: 趁上主可找到的时候寻找他；趁他临近的时候呼求他。
+
+[Quad5]
+Latin: ℣. Fáciem meam non avérti ab increpántibus, et conspuéntibus in me. Dóminus Deus auxiliátor meus, et ídeo non sum confúsus.
+Chinese: 我没有转面躲避斥责我和唾污我的人。上主天主是我的助佑，因此我不至蒙羞。
+
+[Pasch]
+Latin: ℣. Si consurrexístis cum Christo, quæ sursum sunt quǽrite, ubi Christus est in déxtera Dei sedens: quæ sursum sunt sápite, non quæ super terram.
+Chinese: 你们既然与基督一同复活，就该寻求天上的事，那里有基督坐在天主右边；你们该思念天上的事，不该思念地上的事。
+
+[Pent]
+Latin: ℣. Iudǽi quoque, et Prosélyti, Cretes, et Arabes: audívimus eos loquéntes nostris linguis magnália Dei.
+Chinese: 犹太人和归依犹太教的人、克里特人和阿剌伯人，我们都听见他们用我们的语言讲论天主的奇事。
+
+## Quicumque vult {in festo Sanctissimae Trinitatis}
+
+Latin: Quicúmque vult salvus esse, * ante ómnia opus est, ut téneat cathólicam fidem:
+Chinese: 不拘谁愿意得救，必须首先坚持公教会的信仰；
+
+Latin: Quam nisi quisque íntegram inviolatámque serváverit, * absque dúbio in ætérnum períbit.
+Chinese: 除非谁完整地及不错误地坚信此信仰，无疑地永远丧亡。
+
+Latin: Fides autem cathólica hæc est: * ut unum Deum in Trinitáte, et Trinitátem in unitáte venerémur.
+Chinese: 公教的信仰如下：我们在三位内恭敬一个天主，及在一体内恭敬三位；
+
+Latin: Neque confundéntes persónas, * neque substántiam separántes.
+Chinese: 三个位格既不混淆，在实体上也不分离；
+
+Latin: Alia est enim persóna Patris, ália Fílii, * ália Spíritus Sancti:
+Chinese: 父是一个位格，子是另一个位格，圣神是另一个位格；
+
+Latin: Sed Patris, et Fílii, et Spíritus Sancti una est divínitas, * æquális glória, coætérna majéstas.
+Chinese: 但父、子及圣神是一个天主，同等的光荣，永远同存的尊威。
+
+Latin: Qualis Pater, talis Fílius, * talis Spíritus Sanctus.
+Chinese: 父如何，子就如何，圣神也如何。
+
+Latin: Increátus Pater, increátus Fílius, * increátus Spíritus Sanctus.
+Chinese: 父是非受造的，子是非受造的，圣神是非受造的。
+
+Latin: Imménsus Pater, imménsus Fílius, * imménsus Spíritus Sanctus.
+Chinese: 父是无限的，子是无限的，圣神是无限的。
+
+Latin: Ætérnus Pater, ætérnus Fílius, * ætérnus Spíritus Sanctus.
+Chinese: 父是永远的，子是永远的，圣神是永远的。
+
+Latin: Et tamen non tres ætérni, * sed unus ætérnus.
+Chinese: 但不是三个永远者，而是一个永远者。
+
+Latin: Sicut non tres increáti, nec tres imménsi, * sed unus increátus, et unus imménsus.
+Chinese: 正如不是三个非受造者，也不是三个无限者，而是一个非受造者及一个无限者。
+
+Latin: Simíliter omnípotens Pater, omnípotens Fílius, * omnípotens Spíritus Sanctus.
+Chinese: 相似地，父是全能的，子是全能的，圣神是全能的；
+
+Latin: Et tamen non tres omnipoténtes, * sed unus omnípotens.
+Chinese: 但不是三个全能者，而是一个全能者。
+
+Latin: Ita Deus Pater, Deus Fílius, * Deus Spíritus Sanctus.
+Chinese: 如此，父是天主，子是天主，圣神是天主；
+
+Latin: Et tamen non tres Dii, * sed unus est Deus.
+Chinese: 但不是三个天主，而是一个天主。
+
+Latin: Ita Dóminus Pater, Dóminus Fílius, * Dóminus Spíritus Sanctus.
+Chinese: 如此，父是主，子是主，圣神是主；
+
+Latin: Et tamen non tres Dómini, * sed unus est Dóminus.
+Chinese: 但不是三个主，而是一个主。
+
+Latin: Quia, sicut singillátim unamquámque persónam Deum ac Dóminum confitéri christiána veritáte compéllimur: * ita tres Deos aut Dóminos dícere cathólica religióne prohibémur.
+Chinese: 因为，正如基督徒真理命令我们信，从独特性而言，每一位是天主及主；如此，公教会禁止我们说有三个天主，或三个主。
+
+Latin: Pater a nullo est factus: * nec creátus, nec génitus.
+Chinese: 父不是由别的存有物造成的、受造的、或被生的；
+
+Latin: Fílius a Patre solo est: * non factus, nec creátus, sed génitus.
+Chinese: 子只是由父而存在的，不是由别的存有物造成的或受造的，而是受生的；
+
+Latin: Spíritus Sanctus a Patre et Fílio: * non factus, nec creátus, nec génitus, sed procédens.
+Chinese: 圣神不是由别的存有物造成的或受造的，也不是受生的，而是由父及子而发的。
+
+Latin: Unus ergo Pater, non tres Patres: unus Fílius, non tres Fílii: * unus Spíritus Sanctus, non tres Spíritus Sancti.
+Chinese: 所以，一个父，不是三个父；一个子，不是三个子；一个圣神，不是三个圣神。
+
+Latin: Et in hac Trinitáte nihil prius aut postérius, nihil majus aut minus: * sed totæ tres persónæ coætérnæ sibi sunt et coæquáles.
+Chinese: 而且，在这圣三内，无先无后，无大无小；反而三位彼此永远同存及同等。
+
+Latin: Ita ut per ómnia, sicut iam supra dictum est, * et únitas in Trinitáte, et Trínitas in unitáte veneránda sit.
+Chinese: 如此，在一切中，一如上述的，应当尊敬在三位中的一体及在一体中的三位。
+
+Latin: Qui vult ergo salvus esse, * ita de Trinitáte séntiat.
+Chinese: 所以谁愿意得救，应该认同此圣三的教义。
+
+Latin: Sed necessárium est ad ætérnam salútem, * ut Incarnatiónem quoque Dómini nostri Iesu Christi fidéliter credat.
+Chinese: 不过，为了永远的救恩，一定也要忠信地信我们的主耶稣基督的降生。
+
+Latin: Est ergo fides recta ut credámus et confiteámur, * quia Dóminus noster Iesus Christus, Dei Fílius, Deus et homo est.
+Chinese: 真正的信仰要我们信及承认：我们的主耶稣基督、天主子，是天主，同样又是人；
+
+Latin: Deus est ex substántia Patris ante sǽcula génitus: * et homo est ex substántia matris in sǽculo natus.
+Chinese: 祂是天主，在万世之前由父的实体所生；祂又是人，在时间内由母亲的实体所生；
+
+Latin: Perféctus Deus, perféctus homo: * ex ánima rationáli et humána carne subsístens.
+Chinese: 祂是完全的天主、完全的人，藉着理性的灵魂及人的血肉而存在；
+
+Latin: Æquális Patri secúndum divinitátem: * minor Patre secúndum humanitátem.
+Chinese: 按天主性而言，祂与父同等；按人性而言，祂比父小。
+
+Latin: Qui licet Deus sit et homo, * non duo tamen, sed unus est Christus.
+Chinese: 虽然祂是天主又是人，但不是两个，而是一个基督；
+
+Latin: Unus autem non conversióne divinitátis in carnem, * sed assumptióne humanitátis in Deum.
+Chinese: 不过，祂是一个，不是因为祂的天主性变成血肉，而是因为祂将人性取到天主内；
+
+Latin: Unus omníno, non confusióne substántiæ, * sed unitáte persónæ.
+Chinese: 祂是完全的一个，不是因为实体混淆，而是因为位格的统一。
+
+Latin: Nam sicut ánima rationális et caro unus est homo: * ita Deus et homo unus est Christus.
+Chinese: 正如理性的灵魂与血肉是一个人，如此，天主与人是一个基督。
+
+Latin: Qui passus est pro salúte nostra: descéndit ad ínferos: * tértia die resurréxit a mórtuis.
+Chinese: 祂为了我们的救恩受难，下降冥府，第三日从死者中复活；
+
+Latin: Ascéndit ad cælos, sedet ad déxteram Dei Patris omnipoténtis: * inde ventúrus est iudicáre vivos et mórtuos.
+Chinese: 祂升了天，坐在全能天主父的右边，将从那里来临审判生者及死者。
+
+Latin: Ad cujus advéntum omnes hómines resúrgere habent cum corpóribus suis; * et redditúri sunt de factis própriis ratiónem.
+Chinese: 在祂来临时，众人该在自己的身体内复活，且对自己的行为要交账；
+
+Latin: Et qui bona egérunt, ibunt in vitam ætérnam: * qui vero mala, in ignem ætérnum.
+Chinese: 那些行过善的人将入永生，那些行过恶的人则将入永火。
+
+Latin: Hæc est fides cathólica, * quam nisi quisque fidéliter firmitérque credíderit, salvus esse non póterit.
+Chinese: 这是公教会的信仰：除非人忠信地并坚强地相信，否则将不能得救。
+
+## Structural rubric notes
+
+[triduum]
+Latin: In Triduo Sacro schema ordinarium Primæ non simpliciter adhibetur; Gloria post psalmos omittitur iuxta rubricas.
+Chinese: 圣周三日庆典内，不可简单套用普通第一时辰经结构；圣咏后的光荣颂按礼规省略。
+
+[quicumque]
+Latin: Symbolum Athanasianum dicitur ad Primam in festo Sanctissimæ Trinitatis.
+Chinese: 圣三主日第一时辰经诵念《不拘谁信经》。
+

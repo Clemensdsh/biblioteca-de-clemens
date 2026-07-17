@@ -1,0 +1,47 @@
+# Prima 1962 Lectio Brevis
+
+[Per Annum]
+Citation: 2 Thess 3:5
+Latin: ℣. Dóminus autem dírigat corda et córpora nostra in caritáte Dei et patiéntia Christi.
+Chinese: 愿主指引我们的心神和身体，使我们爱天主，并学习基督的坚忍。
+
+[Adv]
+Citation: Isa 33:2
+Latin: ℣. Dómine, miserére nostri: te enim exspectávimus: esto brácchium nostrum in mane, et salus nostra in témpore tribulatiónis.
+Chinese: 上主，求你怜悯我们，因为我们仰望你；求你每日清晨作我们的臂膊，在患难时期作我们的救援。
+
+[Nat]
+Citation: Heb 1:11-12
+Latin: ℣. Ipsi períbunt, tu autem permanébis; et omnes sicut vestiméntum veteráscent: et velut amíctum mutábis eos, et mutabúntur: tu autem idem ipse es, et anni tui non defícient.
+Chinese: 诸天必要灭亡，你却永存；万物都要像衣服一样陈旧；你要把它们像外衣一样更换，它们就要改变；可是你仍是同一位，你的岁月永无穷尽。
+
+[Epi]
+Citation: Isa 60:6
+Latin: ℣. Omnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino annuntiántes.
+Chinese: 众人都要由舍巴前来，携带黄金和乳香，传扬对上主的赞颂。
+
+[Asc]
+Citation: Acts 1:11
+Latin: ℣. Viri Galilǽi, quid statis aspiciéntes in cælum? Hic Iesus, qui assúmptus est a vobis in cælum, sic véniet, quemádmodum vidístis eum eúntem in cælum.
+Chinese: 加里肋亚人，你们为什么站着望天？这位离开你们、被接到天上去的耶稣，你们看见他怎样升了天，也要怎样降来。
+
+[Quad]
+Citation: Isa 55:6
+Latin: ℣. Quǽrite Dóminum dum inveníri potest: invocáte eum, dum prope est.
+Chinese: 趁上主可找到的时候寻找他；趁他临近的时候呼求他。
+
+[Quad5]
+Citation: Isa 50:6-7
+Latin: ℣. Fáciem meam non avérti ab increpántibus, et conspuéntibus in me. Dóminus Deus auxiliátor meus, et ídeo non sum confúsus.
+Chinese: 我没有转面躲避斥责我和唾污我的人。上主天主是我的助佑，因此我不至蒙羞。
+
+[Pasch]
+Citation: Col 3:1-2
+Latin: ℣. Si consurrexístis cum Christo, quæ sursum sunt quǽrite, ubi Christus est in déxtera Dei sedens: quæ sursum sunt sápite, non quæ super terram.
+Chinese: 你们既然与基督一同复活，就该寻求天上的事，那里有基督坐在天主右边；你们该思念天上的事，不该思念地上的事。
+
+[Pent]
+Citation: Acts 2:11
+Latin: ℣. Iudǽi quoque, et Prosélyti, Cretes, et Arabes: audívimus eos loquéntes nostris linguis magnália Dei.
+Chinese: 犹太人和归依犹太教的人、克里特人和阿剌伯人，我们都听见他们用我们的语言讲论天主的奇事。
+

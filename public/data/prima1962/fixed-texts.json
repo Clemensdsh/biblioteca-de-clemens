@@ -1,0 +1,1071 @@
+{
+  "opening": [
+    {
+      "id": "opening.deus-in-adiutorium.verse",
+      "type": "verse",
+      "latin": "℣. Deus, in adiutórium meum inténde.",
+      "chinese": "天主，求你快来拯救我；",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "opening.deus-in-adiutorium.response",
+      "type": "response",
+      "latin": "℟. Dómine, ad adiuvándum me festína.",
+      "chinese": "上主，求你速来扶助我。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "common.gloria-patri",
+      "type": "verse",
+      "latin": "℣. Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen.",
+      "chinese": "愿光荣归于父、及子、及圣神。\n起初如何，今日亦然，直到永远。阿们。",
+      "translationStatus": "existing-project-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "common.alleluia",
+      "type": "verse",
+      "latin": "Allelúia.",
+      "chinese": "阿肋路亚。",
+      "translationStatus": "existing-project-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "common.laus-tibi",
+      "type": "verse",
+      "latin": "Laus tibi, Dómine, Rex ætérnæ glóriæ.",
+      "chinese": "上主，永恒光荣的君王，赞美归于你。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    }
+  ],
+  "hymn": [
+    {
+      "id": "hymn.iam-lucis.stanza-1",
+      "type": "hymn-stanza",
+      "latin": "Iam lucis orto sídere,\nDeum precémur súpplices,\nUt in diúrnis áctibus\nNos servet a nocéntibus.",
+      "chinese": "晨光已升起时，虔诚向主祈求\n在此白日行事，护我免受邪害",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "hymn.iam-lucis.stanza-2",
+      "type": "hymn-stanza",
+      "latin": "Linguam refrénans témperet,\nNe litis horror ínsonet:\nVisum fovéndo cóntegat,\nNe vanitátes háuriat.",
+      "chinese": "求主节制我舌，勿使争讼声起\n慈爱遮护双目，莫让虚妄入心",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "hymn.iam-lucis.stanza-3",
+      "type": "hymn-stanza",
+      "latin": "Sint pura cordis íntima,\nAbsístat et vecórdia;\nCarnis terat supérbiam\nPotus cibíque párcitas.",
+      "chinese": "使我内心洁净，愚妄迷情远离\n节制饮食诸欲，克胜肉身骄傲",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "hymn.iam-lucis.stanza-4",
+      "type": "hymn-stanza",
+      "latin": "Ut, cum dies abscésserit,\nNoctémque sors redúxerit,\nMundi per abstinéntiam\nIpsi canámus glóriam.",
+      "chinese": "白日终将消逝，黑夜复又归来\n因克己而自制，向主歌唱光荣",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "hymn.iam-lucis.doxology",
+      "type": "hymn-stanza",
+      "latin": "Deo Patri sit glória,\nEiúsque soli Fílio,\nCum Spíritu Paráclito,\nNunc et per omne sǽculum.\nAmen.",
+      "chinese": "愿光荣归圣父，及其唯一圣子\n并归护慰之神，自今直到永远\n阿们",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    }
+  ],
+  "doxologies": {},
+  "quicumque": [
+    {
+      "id": "quicumque.1",
+      "type": "psalm-verse",
+      "latin": "Quicúmque vult salvus esse, * ante ómnia opus est, ut téneat cathólicam fidem:",
+      "chinese": "不拘谁愿意得救，必须首先坚持公教会的信仰；",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "1"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.2",
+      "type": "psalm-verse",
+      "latin": "Quam nisi quisque íntegram inviolatámque serváverit, * absque dúbio in ætérnum períbit.",
+      "chinese": "除非谁完整地及不错误地坚信此信仰，无疑地永远丧亡。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "2"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.3",
+      "type": "psalm-verse",
+      "latin": "Fides autem cathólica hæc est: * ut unum Deum in Trinitáte, et Trinitátem in unitáte venerémur.",
+      "chinese": "公教的信仰如下：我们在三位内恭敬一个天主，及在一体内恭敬三位；",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "3"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.4",
+      "type": "psalm-verse",
+      "latin": "Neque confundéntes persónas, * neque substántiam separántes.",
+      "chinese": "三个位格既不混淆，在实体上也不分离；",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "4"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.5",
+      "type": "psalm-verse",
+      "latin": "Alia est enim persóna Patris, ália Fílii, * ália Spíritus Sancti:",
+      "chinese": "父是一个位格，子是另一个位格，圣神是另一个位格；",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "5"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.6",
+      "type": "psalm-verse",
+      "latin": "Sed Patris, et Fílii, et Spíritus Sancti una est divínitas, * æquális glória, coætérna majéstas.",
+      "chinese": "但父、子及圣神是一个天主，同等的光荣，永远同存的尊威。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "6"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.7",
+      "type": "psalm-verse",
+      "latin": "Qualis Pater, talis Fílius, * talis Spíritus Sanctus.",
+      "chinese": "父如何，子就如何，圣神也如何。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "7"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.8",
+      "type": "psalm-verse",
+      "latin": "Increátus Pater, increátus Fílius, * increátus Spíritus Sanctus.",
+      "chinese": "父是非受造的，子是非受造的，圣神是非受造的。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "8"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.9",
+      "type": "psalm-verse",
+      "latin": "Imménsus Pater, imménsus Fílius, * imménsus Spíritus Sanctus.",
+      "chinese": "父是无限的，子是无限的，圣神是无限的。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "9"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.10",
+      "type": "psalm-verse",
+      "latin": "Ætérnus Pater, ætérnus Fílius, * ætérnus Spíritus Sanctus.",
+      "chinese": "父是永远的，子是永远的，圣神是永远的。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "10"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.11",
+      "type": "psalm-verse",
+      "latin": "Et tamen non tres ætérni, * sed unus ætérnus.",
+      "chinese": "但不是三个永远者，而是一个永远者。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "11"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.12",
+      "type": "psalm-verse",
+      "latin": "Sicut non tres increáti, nec tres imménsi, * sed unus increátus, et unus imménsus.",
+      "chinese": "正如不是三个非受造者，也不是三个无限者，而是一个非受造者及一个无限者。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "12"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.13",
+      "type": "psalm-verse",
+      "latin": "Simíliter omnípotens Pater, omnípotens Fílius, * omnípotens Spíritus Sanctus.",
+      "chinese": "相似地，父是全能的，子是全能的，圣神是全能的；",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "13"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.14",
+      "type": "psalm-verse",
+      "latin": "Et tamen non tres omnipoténtes, * sed unus omnípotens.",
+      "chinese": "但不是三个全能者，而是一个全能者。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "14"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.15",
+      "type": "psalm-verse",
+      "latin": "Ita Deus Pater, Deus Fílius, * Deus Spíritus Sanctus.",
+      "chinese": "如此，父是天主，子是天主，圣神是天主；",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "15"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.16",
+      "type": "psalm-verse",
+      "latin": "Et tamen non tres Dii, * sed unus est Deus.",
+      "chinese": "但不是三个天主，而是一个天主。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "16"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.17",
+      "type": "psalm-verse",
+      "latin": "Ita Dóminus Pater, Dóminus Fílius, * Dóminus Spíritus Sanctus.",
+      "chinese": "如此，父是主，子是主，圣神是主；",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "17"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.18",
+      "type": "psalm-verse",
+      "latin": "Et tamen non tres Dómini, * sed unus est Dóminus.",
+      "chinese": "但不是三个主，而是一个主。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "18"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.19",
+      "type": "psalm-verse",
+      "latin": "Quia, sicut singillátim unamquámque persónam Deum ac Dóminum confitéri christiána veritáte compéllimur: * ita tres Deos aut Dóminos dícere cathólica religióne prohibémur.",
+      "chinese": "因为，正如基督徒真理命令我们信，从独特性而言，每一位是天主及主；如此，公教会禁止我们说有三个天主，或三个主。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "19"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.20",
+      "type": "psalm-verse",
+      "latin": "Pater a nullo est factus: * nec creátus, nec génitus.",
+      "chinese": "父不是由别的存有物造成的、受造的、或被生的；",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "20"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.21",
+      "type": "psalm-verse",
+      "latin": "Fílius a Patre solo est: * non factus, nec creátus, sed génitus.",
+      "chinese": "子只是由父而存在的，不是由别的存有物造成的或受造的，而是受生的；",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "21"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.22",
+      "type": "psalm-verse",
+      "latin": "Spíritus Sanctus a Patre et Fílio: * non factus, nec creátus, nec génitus, sed procédens.",
+      "chinese": "圣神不是由别的存有物造成的或受造的，也不是受生的，而是由父及子而发的。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "22"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.23",
+      "type": "psalm-verse",
+      "latin": "Unus ergo Pater, non tres Patres: unus Fílius, non tres Fílii: * unus Spíritus Sanctus, non tres Spíritus Sancti.",
+      "chinese": "所以，一个父，不是三个父；一个子，不是三个子；一个圣神，不是三个圣神。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "23"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.24",
+      "type": "psalm-verse",
+      "latin": "Et in hac Trinitáte nihil prius aut postérius, nihil majus aut minus: * sed totæ tres persónæ coætérnæ sibi sunt et coæquáles.",
+      "chinese": "而且，在这圣三内，无先无后，无大无小；反而三位彼此永远同存及同等。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "24"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.25",
+      "type": "psalm-verse",
+      "latin": "Ita ut per ómnia, sicut iam supra dictum est, * et únitas in Trinitáte, et Trínitas in unitáte veneránda sit.",
+      "chinese": "如此，在一切中，一如上述的，应当尊敬在三位中的一体及在一体中的三位。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "25"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.26",
+      "type": "psalm-verse",
+      "latin": "Qui vult ergo salvus esse, * ita de Trinitáte séntiat.",
+      "chinese": "所以谁愿意得救，应该认同此圣三的教义。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "26"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.27",
+      "type": "psalm-verse",
+      "latin": "Sed necessárium est ad ætérnam salútem, * ut Incarnatiónem quoque Dómini nostri Iesu Christi fidéliter credat.",
+      "chinese": "不过，为了永远的救恩，一定也要忠信地信我们的主耶稣基督的降生。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "27"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.28",
+      "type": "psalm-verse",
+      "latin": "Est ergo fides recta ut credámus et confiteámur, * quia Dóminus noster Iesus Christus, Dei Fílius, Deus et homo est.",
+      "chinese": "真正的信仰要我们信及承认：我们的主耶稣基督、天主子，是天主，同样又是人；",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "28"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.29",
+      "type": "psalm-verse",
+      "latin": "Deus est ex substántia Patris ante sǽcula génitus: * et homo est ex substántia matris in sǽculo natus.",
+      "chinese": "祂是天主，在万世之前由父的实体所生；祂又是人，在时间内由母亲的实体所生；",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "29"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.30",
+      "type": "psalm-verse",
+      "latin": "Perféctus Deus, perféctus homo: * ex ánima rationáli et humána carne subsístens.",
+      "chinese": "祂是完全的天主、完全的人，藉着理性的灵魂及人的血肉而存在；",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "30"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.31",
+      "type": "psalm-verse",
+      "latin": "Æquális Patri secúndum divinitátem: * minor Patre secúndum humanitátem.",
+      "chinese": "按天主性而言，祂与父同等；按人性而言，祂比父小。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "31"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.32",
+      "type": "psalm-verse",
+      "latin": "Qui licet Deus sit et homo, * non duo tamen, sed unus est Christus.",
+      "chinese": "虽然祂是天主又是人，但不是两个，而是一个基督；",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "32"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.33",
+      "type": "psalm-verse",
+      "latin": "Unus autem non conversióne divinitátis in carnem, * sed assumptióne humanitátis in Deum.",
+      "chinese": "不过，祂是一个，不是因为祂的天主性变成血肉，而是因为祂将人性取到天主内；",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "33"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.34",
+      "type": "psalm-verse",
+      "latin": "Unus omníno, non confusióne substántiæ, * sed unitáte persónæ.",
+      "chinese": "祂是完全的一个，不是因为实体混淆，而是因为位格的统一。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "34"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.35",
+      "type": "psalm-verse",
+      "latin": "Nam sicut ánima rationális et caro unus est homo: * ita Deus et homo unus est Christus.",
+      "chinese": "正如理性的灵魂与血肉是一个人，如此，天主与人是一个基督。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "35"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.36",
+      "type": "psalm-verse",
+      "latin": "Qui passus est pro salúte nostra: descéndit ad ínferos: * tértia die resurréxit a mórtuis.",
+      "chinese": "祂为了我们的救恩受难，下降冥府，第三日从死者中复活；",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "36"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.37",
+      "type": "psalm-verse",
+      "latin": "Ascéndit ad cælos, sedet ad déxteram Dei Patris omnipoténtis: * inde ventúrus est iudicáre vivos et mórtuos.",
+      "chinese": "祂升了天，坐在全能天主父的右边，将从那里来临审判生者及死者。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "37"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.38",
+      "type": "psalm-verse",
+      "latin": "Ad cujus advéntum omnes hómines resúrgere habent cum corpóribus suis; * et redditúri sunt de factis própriis ratiónem.",
+      "chinese": "在祂来临时，众人该在自己的身体内复活，且对自己的行为要交账；",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "38"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.39",
+      "type": "psalm-verse",
+      "latin": "Et qui bona egérunt, ibunt in vitam ætérnam: * qui vero mala, in ignem ætérnum.",
+      "chinese": "那些行过善的人将入永生，那些行过恶的人则将入永火。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "39"
+        }
+      ]
+    },
+    {
+      "id": "quicumque.40",
+      "type": "psalm-verse",
+      "latin": "Hæc est fides cathólica, * quam nisi quisque fidéliter firmitérque credíderit, salvus esse non póterit.",
+      "chinese": "这是公教会的信仰：除非人忠信地并坚强地相信，否则将不能得救。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm234.txt",
+          "section": "40"
+        }
+      ]
+    }
+  ],
+  "capitulum": {
+    "id": "capitulum.regi",
+    "type": "reading",
+    "latin": "Regi sæculórum immortáli et invisíbili, soli Deo honor et glória in sǽcula sæculórum. Amen.",
+    "chinese": "愿尊崇和光荣归于万世的君王，不死不灭、无形的惟一天主，于无穷世之世！阿们。",
+    "translationStatus": "temporary-translation",
+    "sourceRefs": []
+  },
+  "responsory": {
+    "ordinary": [
+      {
+        "id": "responsory.ordinary.1",
+        "type": "response",
+        "latin": "℟. Christe, Fili Dei vivi, * miserére nobis.",
+        "chinese": "基督，永生天主之子，求你垂怜我们。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      {
+        "id": "responsory.ordinary.2",
+        "type": "verse",
+        "latin": "℣. Qui sedes ad déxteram Patris.",
+        "chinese": "坐在圣父之右者。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      {
+        "id": "responsory.ordinary.3",
+        "type": "response",
+        "latin": "℟. Miserére nobis.",
+        "chinese": "垂怜我们。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      {
+        "id": "responsory.ordinary.4",
+        "type": "verse",
+        "latin": "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+        "chinese": "愿光荣归于父、及子、及圣神。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      {
+        "id": "responsory.ordinary.5",
+        "type": "response",
+        "latin": "℟. Christe, Fili Dei vivi, * miserére nobis.",
+        "chinese": "基督，永生天主之子，求你垂怜我们。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      }
+    ],
+    "passion": [
+      {
+        "id": "responsory.christe",
+        "type": "response",
+        "latin": "℟. Christe, Fili Dei vivi, miserére nobis.",
+        "chinese": "基督，永生天主之子，求你垂怜我们。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      {
+        "id": "responsory.qui-sedes",
+        "type": "verse",
+        "latin": "℣. Qui sedes ad déxteram Patris.",
+        "chinese": "坐在圣父之右者。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      {
+        "id": "responsory.christe.repeat",
+        "type": "response",
+        "latin": "℟. Christe, Fili Dei vivi, miserére nobis.",
+        "chinese": "基督，永生天主之子，求你垂怜我们。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      }
+    ],
+    "paschal": [
+      {
+        "id": "responsory.paschal.1",
+        "type": "response",
+        "latin": "℟. Christe, Fili Dei vivi, miserére nobis, allelúia, allelúia.",
+        "chinese": "基督，永生天主之子，求你垂怜我们，阿肋路亚，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      {
+        "id": "responsory.qui-surrexisti",
+        "type": "verse",
+        "latin": "℣. Qui surrexísti a mórtuis, allelúia.",
+        "chinese": "从死者中复活者，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      {
+        "id": "responsory.paschal.2",
+        "type": "response",
+        "latin": "℟. Miserére nobis, allelúia, allelúia.",
+        "chinese": "垂怜我们，阿肋路亚，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      {
+        "id": "responsory.paschal.gloria",
+        "type": "verse",
+        "latin": "℣. Glória Patri, et Fílio, et Spirítui Sancto.",
+        "chinese": "愿光荣归于父、及子、及圣神。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      {
+        "id": "responsory.paschal.3",
+        "type": "response",
+        "latin": "℟. Christe, Fili Dei vivi, miserére nobis, allelúia, allelúia.",
+        "chinese": "基督，永生天主之子，求你垂怜我们，阿肋路亚，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      }
+    ],
+    "versum": [
+      {
+        "id": "responsory.exsurge",
+        "type": "verse",
+        "latin": "℣. Exsúrge, Christe, ádiuva nos.",
+        "chinese": "基督，求你兴起，援助我们。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      {
+        "id": "responsory.libera",
+        "type": "response",
+        "latin": "℟. Et líbera nos propter nomen tuum.",
+        "chinese": "为了你的圣名，求你解救我们。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      }
+    ],
+    "properVerses": {
+      "ordinary": {
+        "id": "responsory.proper.ordinary",
+        "type": "verse",
+        "latin": "℣. Qui sedes ad déxteram Patris.",
+        "chinese": "坐在圣父之右者。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      "adv": {
+        "id": "responsory.proper.adv",
+        "type": "verse",
+        "latin": "℣. Qui ventúrus es in mundum.",
+        "chinese": "即将来临于世者。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      "nat": {
+        "id": "responsory.proper.nat",
+        "type": "verse",
+        "latin": "℣. Qui natus es de María Vírgine.",
+        "chinese": "由童贞玛利亚所生者。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      "epi": {
+        "id": "responsory.proper.epi",
+        "type": "verse",
+        "latin": "℣. Qui apparuísti hódie.",
+        "chinese": "今日显现者。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      "pasch": {
+        "id": "responsory.proper.pasch",
+        "type": "verse",
+        "latin": "℣. Qui surrexísti a mórtuis.",
+        "chinese": "从死者中复活者。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      "asc": {
+        "id": "responsory.proper.asc",
+        "type": "verse",
+        "latin": "℣. Qui scandis super sídera.",
+        "chinese": "升于星辰之上者。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      "pent": {
+        "id": "responsory.proper.pent",
+        "type": "verse",
+        "latin": "℣. Qui sedes ad déxteram Patris.",
+        "chinese": "坐在圣父之右者。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      "corp": {
+        "id": "responsory.proper.corp",
+        "type": "verse",
+        "latin": "℣. Qui natus est de María Vírgine.",
+        "chinese": "由童贞玛利亚所生者。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      "heart": {
+        "id": "responsory.proper.heart",
+        "type": "verse",
+        "latin": "℣. Qui corde fundis grátiam.",
+        "chinese": "从圣心倾注恩宠者。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      }
+    }
+  },
+  "collect": {
+    "id": "collect.domine-deus",
+    "type": "prayer",
+    "latin": "Dómine Deus omnípotens, qui ad princípium huius diéi nos perveníre fecísti: tua nos hódie salva virtúte; ut in hac die ad nullum declinémus peccátum, sed semper ad tuam iustítiam faciéndam nostra procédant elóquia, dirigántur cogitatiónes et ópera. Per Christum Dóminum nostrum. Amen.",
+    "chinese": "上主、全能的天主，你使我们得以迎来这一天的开始；求你今天以你的大能护佑我们，使我们在这一天不陷于任何罪恶；使我们的言语常以履行你的正义为依归，并使我们的思想和行为都蒙你引导。以上所求，是靠我们的主基督。阿们。",
+    "translationStatus": "temporary-translation",
+    "sourceRefs": []
+  },
+  "pretiosa": [
+    {
+      "id": "martyrology.pretiosa.verse",
+      "type": "verse",
+      "latin": "℣. Pretiósa in conspéctu Dómini.",
+      "chinese": "在上主台前何其珍贵的，",
+      "translationStatus": "existing-project-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "martyrology.pretiosa.response",
+      "type": "response",
+      "latin": "℟. Mors Sanctórum eius.",
+      "chinese": "是祂圣徒们的死亡。",
+      "translationStatus": "existing-project-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "martyrology.sancta-maria",
+      "type": "prayer",
+      "latin": "Sancta María et omnes Sancti intercédant pro nobis ad Dóminum, ut nos mereámur ab eo adiuvári et salvári, qui vivit et regnat in sǽcula sæculórum. Amen.",
+      "chinese": "愿圣母玛利亚和诸圣在上主台前为我们转求，使我们堪当蒙他助佑和拯救；他永生永王，世世无穷。阿们。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    }
+  ],
+  "chapter": [
+    {
+      "id": "chapter.deus-in-adiutorium.1",
+      "type": "verse",
+      "latin": "℣. Deus, in adiutórium meum inténde.",
+      "chinese": "天主，求你快来拯救我。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "chapter.deus-in-adiutorium.1.response",
+      "type": "response",
+      "latin": "℟. Dómine, ad adiuvándum me festína.",
+      "chinese": "上主，求你速来扶助我。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "chapter.deus-in-adiutorium.2",
+      "type": "verse",
+      "latin": "℣. Deus, in adiutórium meum inténde.",
+      "chinese": "天主，求你快来拯救我。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "chapter.deus-in-adiutorium.2.response",
+      "type": "response",
+      "latin": "℟. Dómine, ad adiuvándum me festína.",
+      "chinese": "上主，求你速来扶助我。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "chapter.deus-in-adiutorium.3",
+      "type": "verse",
+      "latin": "℣. Deus, in adiutórium meum inténde.",
+      "chinese": "天主，求你快来拯救我。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "chapter.deus-in-adiutorium.3.response",
+      "type": "response",
+      "latin": "℟. Dómine, ad adiuvándum me festína.",
+      "chinese": "上主，求你速来扶助我。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "chapter.gloria-patri",
+      "type": "verse",
+      "latin": "℣. Glória Patri, et Fílio, et Spirítui Sancto.",
+      "chinese": "愿光荣归于父、及子、及圣神。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "chapter.sicut-erat",
+      "type": "response",
+      "latin": "℟. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen. Allelúia.",
+      "chinese": "起初如何，今日亦然，直到永远。阿们。阿肋路亚。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "chapter.kyrie",
+      "type": "verse",
+      "latin": "Kýrie, eléison. Christe, eléison. Kýrie, eléison.",
+      "chinese": "上主，求你垂怜。基督，求你垂怜。上主，求你垂怜。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "chapter.pater-secret",
+      "type": "prayer",
+      "latin": "Pater noster, qui es in cælis, sanctificétur nomen tuum. Advéniat regnum tuum. Fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie. Et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris.",
+      "chinese": "我们的天父，愿你的名受显扬，愿你的国来临，愿你的旨意奉行在人间，如同在天上。求你今天赏给我们日用的食粮；求你宽恕我们的罪过，如同我们宽恕别人一样。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "chapter.et-ne-nos",
+      "type": "verse",
+      "latin": "℣. Et ne nos indúcas in tentatiónem.",
+      "chinese": "不要让我们陷于诱惑；",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "chapter.sed-libera",
+      "type": "response",
+      "latin": "℟. Sed líbera nos a malo.",
+      "chinese": "但救我们免于凶恶。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "chapter.respice",
+      "type": "verse",
+      "latin": "℣. Réspice in servos tuos, Dómine, et in ópera tua, et dírige fílios eórum.",
+      "chinese": "上主，求你垂顾你的仆人和你的化工，并引导他们的子孙。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "chapter.respice.response",
+      "type": "response",
+      "latin": "℟. Et sit splendor Dómini Dei nostri super nos, et ópera mánuum nostrárum dírige super nos, et opus mánuum nostrárum dírige.",
+      "chinese": "愿上主、我们的天主，以他的光辉照临我们；求你促使我们双手所作的工作顺利成功，求你促使我们双手所作的工作顺利成功。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "chapter.dirigere",
+      "type": "prayer",
+      "latin": "Dirígere et sanctificáre, régere et gubernáre dignáre, Dómine Deus, Rex cæli et terræ, hódie corda et córpora nostra, sensus, sermónes et actus nostros in lege tua, et in opéribus mandatórum tuórum: ut hic et in ætérnum, te auxiliánte, salvi et líberi esse mereámur, Salvátor mundi: qui vivis et regnas in sǽcula sæculórum. Amen.",
+      "chinese": "上主天主、天地的君王、世界的救主，求你垂允，今天引导并圣化、统御并治理我们的心灵和身体、感官、言语和行为，使这一切遵循你的法律，实行你的诫命；赖你的助佑，使我们今世及永世堪当得救，获享自由。你永生永王，世世无穷。阿们。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    }
+  ],
+  "lectioFormulae": {
+    "privateBlessing": {
+      "id": "lectio.iube-domine",
+      "type": "verse",
+      "latin": "Iube, Dómine, benedícere.",
+      "chinese": "上主，求你降福。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    "choirBlessing": {
+      "id": "lectio.iube-domne",
+      "type": "verse",
+      "latin": "Iube, domne, benedícere.",
+      "chinese": "请神父祝福。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    "conclusion": [
+      {
+        "id": "lectio.tu-autem",
+        "type": "verse",
+        "latin": "℣. Tu autem, Dómine, miserére nobis.",
+        "chinese": "上主，求你垂怜我们。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": []
+      },
+      {
+        "id": "common.deo-gratias",
+        "type": "response",
+        "latin": "℟. Deo grátias.",
+        "chinese": "感谢天主。",
+        "translationStatus": "existing-project-translation",
+        "sourceRefs": []
+      }
+    ]
+  },
+  "ending": [
+    {
+      "id": "ending.adjutorium",
+      "type": "verse",
+      "latin": "℣. Adiutórium nostrum in nómine Dómini.",
+      "chinese": "上主的圣名，是我们的助佑。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "ending.qui-fecit",
+      "type": "response",
+      "latin": "℟. Qui fecit cælum et terram.",
+      "chinese": "因他创造了天地。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "ending.benedicite",
+      "type": "verse",
+      "latin": "℣. Benedicite.",
+      "chinese": "请［降福我们］。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "ending.deus",
+      "type": "response",
+      "latin": "℟. Deus.",
+      "chinese": "［愿］天主［降福我们］。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "ending.dominus-nos",
+      "type": "prayer",
+      "latin": "Dóminus nos benedícat, et ab omni malo deféndat, et ad vitam perdúcat ætérnam.",
+      "chinese": "愿上主降福我们，保护我们免于一切凶恶，引领我们到达永生。阿们。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "ending.fidelium",
+      "type": "verse",
+      "latin": "℣. Fidélium ánimæ per misericórdiam Dei requiéscant in pace.",
+      "chinese": "愿诸信者灵魂，赖天主仁慈，息止安所。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": []
+    },
+    {
+      "id": "common.amen",
+      "type": "response",
+      "latin": "℟. Amen.",
+      "chinese": "阿们。",
+      "translationStatus": "existing-project-translation",
+      "sourceRefs": []
+    }
+  ]
+}

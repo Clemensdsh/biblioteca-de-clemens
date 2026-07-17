@@ -49,6 +49,28 @@
   font: inherit;
 }
 
+.martyrology-mode-switch,
+.prima-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  font-family: var(--va-font-sans);
+}
+
+.martyrology-mode-switch label,
+.prima-options label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid var(--va-c-divider);
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--va-c-bg) 92%, var(--va-c-primary) 8%);
+  cursor: pointer;
+}
+
 .martyrology-panel {
   background: rgba(255, 255, 255, 0.78);
   border: 1px solid var(--va-c-divider);

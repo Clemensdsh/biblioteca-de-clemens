@@ -1,6 +1,6 @@
 import type { Reading } from './parser'
 
-export type LiturgicalDataSource = 'api' | 'computus'
+export type LiturgicalDataSource = 'cpbjr-api' | 'calapi' | 'computus'
 export type LiturgicalData = {
   season?: string
   celebration?: {
@@ -10,27 +10,110 @@ export type LiturgicalData = {
 }
 
 export async function loadLiturgicalData(date: Date): Promise<{ data: LiturgicalData, source: LiturgicalDataSource }> {
-  try {
-    const year = date.getFullYear()
-    const response = await fetch(`https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/${year}/${formatMonthDay(date)}.json`)
-    if (!response.ok)
-      throw new Error('API response is not ok')
-    return {
-      data: await response.json(),
-      source: 'api',
-    }
+  const remoteResult = await firstSuccessfulWithin([
+    () => loadCpbjrCalendar(date),
+    () => loadCalapiCalendar(date),
+  ], 2800)
+
+  if (remoteResult)
+    return remoteResult
+
+  return {
+    data: localComputusData(date),
+    source: 'computus',
   }
-  catch {
-    return {
-      data: {
-        season: computeSeason(date),
-        celebration: {
-          name: '',
-          type: '',
-        },
-      },
-      source: 'computus',
+}
+
+async function loadCpbjrCalendar(date: Date): Promise<{ data: LiturgicalData, source: LiturgicalDataSource }> {
+  const year = date.getFullYear()
+  const response = await fetchWithTimeout(
+    `https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/${year}/${formatMonthDay(date)}.json`,
+    2400,
+  )
+  if (!response.ok)
+    throw new Error('cpbjr calendar API response is not ok')
+
+  return {
+    data: await response.json(),
+    source: 'cpbjr-api',
+  }
+}
+
+async function loadCalapiCalendar(date: Date): Promise<{ data: LiturgicalData, source: LiturgicalDataSource }> {
+  const response = await fetchWithTimeout(
+    `https://calapi.inadiutorium.cz/calendar?date=${formatDateInput(date)}`,
+    2400,
+  )
+  if (!response.ok)
+    throw new Error('calapi calendar API response is not ok')
+
+  return {
+    data: normalizeCalapiData(await response.json()),
+    source: 'calapi',
+  }
+}
+
+async function firstSuccessfulWithin<T>(factories: Array<() => Promise<T>>, timeoutMs: number): Promise<T | null> {
+  return new Promise(resolve => {
+    let settled = false
+    let failed = 0
+    const finish = (value: T | null) => {
+      if (settled)
+        return
+      settled = true
+      resolve(value)
     }
+
+    const timeout = setTimeout(() => finish(null), timeoutMs)
+    for (const factory of factories) {
+      factory()
+        .then(value => {
+          clearTimeout(timeout)
+          finish(value)
+        })
+        .catch(() => {
+          failed += 1
+          if (failed === factories.length) {
+            clearTimeout(timeout)
+            finish(null)
+          }
+        })
+    }
+  })
+}
+
+function normalizeCalapiData(data: any): LiturgicalData {
+  const celebration = Array.isArray(data?.celebrations) ? data.celebrations[0] : undefined
+  return {
+    season: data?.season,
+    celebration: {
+      name: celebration?.title || celebration?.name || '',
+      type: celebration?.rank || celebration?.rank_name || '',
+    },
+  }
+}
+
+function localComputusData(date: Date): LiturgicalData {
+  return {
+    season: computeSeason(date),
+    celebration: {
+      name: '',
+      type: '',
+    },
+  }
+}
+
+async function fetchWithTimeout(url: string, timeoutMs: number) {
+  const controller = new AbortController()
+  const timeout = setTimeout(() => controller.abort(), timeoutMs)
+  try {
+    return await fetch(url, {
+      signal: controller.signal,
+      cache: 'force-cache',
+    })
+  }
+  finally {
+    clearTimeout(timeout)
   }
 }
 
