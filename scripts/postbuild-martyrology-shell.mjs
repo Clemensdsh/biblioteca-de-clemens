@@ -1,4 +1,4 @@
-import { copyFileSync, existsSync, mkdirSync } from 'node:fs'
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 
 const root = process.cwd()
@@ -12,7 +12,16 @@ const targets = [
 if (!existsSync(shell))
   throw new Error('Missing dist/index.html; run Valaxy build before postbuild shell fix.')
 
+const html = readFileSync(shell, 'utf8')
+const appStart = html.indexOf('<div id="app">')
+const stateScriptStart = html.indexOf('<script>window.__INITIAL_STATE__=')
+
+if (appStart < 0 || stateScriptStart < 0 || stateScriptStart <= appStart)
+  throw new Error('Unable to locate Valaxy app shell markers in dist/index.html.')
+
+const cleanShell = `${html.slice(0, appStart)}<div id="app"></div>${html.slice(stateScriptStart)}`
+
 for (const target of targets) {
   mkdirSync(dirname(target), { recursive: true })
-  copyFileSync(shell, target)
+  writeFileSync(target, cleanShell)
 }

@@ -5,6 +5,18 @@
   font-family: var(--va-font-serif);
 }
 
+:global(body.route-martyrology .yun-layout-left) {
+  display: none !important;
+}
+
+:global(body.route-martyrology .yun-layout-wrapper__content) {
+  justify-content: center;
+}
+
+:global(body.route-martyrology .yun-main) {
+  width: 100%;
+}
+
 .martyrology-header {
   text-align: center;
   margin-bottom: 2rem;

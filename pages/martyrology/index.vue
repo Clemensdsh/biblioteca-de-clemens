@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onMounted, ref, watch } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useChoiceCarousel } from '../../composables/useChoiceCarousel'
 import MartyrologyPrima1962 from '../../components/martyrology/MartyrologyPrima1962.vue'
@@ -23,6 +23,7 @@ const route = useRoute()
 route.meta.frontmatter = {
   ...(route.meta.frontmatter as Record<string, unknown> | undefined),
   aside: false,
+  sidebar: false,
   toc: false,
 }
 
@@ -72,8 +73,13 @@ const targetChineseDate = computed(() => {
 
 onMounted(() => {
   mounted.value = true
+  document.body.classList.add('route-martyrology')
   readingDate.value = parseDateInput(selectedDateValue.value)
   loadForTargetDate()
+})
+
+onBeforeUnmount(() => {
+  document.body.classList.remove('route-martyrology')
 })
 
 watch(mode, () => {
@@ -342,5 +348,6 @@ function onSelectedDateChange() {
 meta:
   frontmatter:
     aside: false
+    sidebar: false
     toc: false
 </route>
