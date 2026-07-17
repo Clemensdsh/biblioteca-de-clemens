@@ -82,15 +82,26 @@ async function firstSuccessfulWithin<T>(factories: Array<() => Promise<T>>, time
   })
 }
 
-function normalizeCalapiData(data: any): LiturgicalData {
-  const celebration = Array.isArray(data?.celebrations) ? data.celebrations[0] : undefined
+function normalizeCalapiData(data: unknown): LiturgicalData {
+  const calendar = isRecord(data) ? data : {}
+  const celebration = Array.isArray(calendar.celebrations) && isRecord(calendar.celebrations[0])
+    ? calendar.celebrations[0]
+    : undefined
   return {
-    season: data?.season,
+    season: typeof calendar.season === 'string' ? calendar.season : undefined,
     celebration: {
-      name: celebration?.title || celebration?.name || '',
-      type: celebration?.rank || celebration?.rank_name || '',
+      name: stringValue(celebration?.title) || stringValue(celebration?.name),
+      type: stringValue(celebration?.rank) || stringValue(celebration?.rank_name),
     },
   }
+}
+
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === 'object' && value !== null
+}
+
+function stringValue(value: unknown) {
+  return typeof value === 'string' ? value : ''
 }
 
 function localComputusData(date: Date): LiturgicalData {

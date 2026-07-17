@@ -1,147 +1,40 @@
 <script setup lang="ts">
-import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
-import { useRoute } from 'vue-router'
-import { useChoiceCarousel } from '../../composables/useChoiceCarousel'
+import { onMounted, ref, watch } from 'vue'
+import { useMartyrologyPage } from '../../composables/useMartyrologyPage'
+import MartyrologyCurrentRite from '../../components/martyrology/MartyrologyCurrentRite.vue'
 import MartyrologyPrima1962 from '../../components/martyrology/MartyrologyPrima1962.vue'
 import martyrologyTranslationMarkdown from '../martyrologium-translation/index.md?raw'
-import { addDays, detectMovableFeast, formatDateInput, formatMonthDay, loadLiturgicalData, parseDateInput, selectReadings } from '../../features/martyrology/liturgicalCalendar'
-import { loadJson } from '../../utils/loadJson'
-import { monthDayToChineseHeading, parseMartyrologyDayFromTranslation, parseTranslationMarkdown, type MartyrologyDay, type Prayer, type Reading } from '../../features/martyrology/parser'
-import { localDateFromDate } from '../../features/prima1962/localDate'
-import { resolvePrima1962 } from '../../features/prima1962/resolver'
-import type { Prima1962Resolution } from '../../features/prima1962/types'
 
-type MovableFeast = {
-  id: string
-  name: string
-  text: string
-}
-
-const parsedTranslation = parseTranslationMarkdown(martyrologyTranslationMarkdown)
-const route = useRoute()
-
-route.meta.frontmatter = {
-  ...(route.meta.frontmatter as Record<string, unknown> | undefined),
-  aside: false,
-  sidebar: false,
-  toc: false,
-}
-
-const loading = ref(true)
-const error = ref('')
-const apiSource = ref<'api' | 'computus'>('computus')
-const mounted = ref(false)
 const mode = ref<'current' | 'prima1962'>('current')
 const bilingual = ref(true)
-const readingDate = ref(new Date())
-const selectedDateValue = ref(formatDateInput(readingDate.value))
-const targetDate = computed(() => addDays(readingDate.value, 1))
-const fixedDay = ref<MartyrologyDay | null>(null)
-const movableFeast = ref<MovableFeast | null>(null)
-const omitted = ref(false)
-const readings = ref<Reading[]>([])
-const prayers = ref<Prayer[]>([])
-const primaResolution = ref<Prima1962Resolution | null>(null)
 const {
-  selectedIndex: readingIndex,
-  currentItem: currentReading,
-  reset: resetReading,
-  previous: previousReading,
-  next: nextReading,
-  onSwipeStart: onReadingSwipeStart,
-  onSwipeEnd: onReadingSwipeEnd,
-} = useChoiceCarousel(readings)
-const {
-  selectedIndex: prayerIndex,
-  currentItem: currentPrayer,
-  reset: resetPrayer,
-  previous: previousPrayer,
-  next: nextPrayer,
-  onSwipeStart: onPrayerSwipeStart,
-  onSwipeEnd: onPrayerSwipeEnd,
-} = useChoiceCarousel(prayers)
-
-const targetKey = computed(() => formatMonthDay(targetDate.value))
-const targetChineseDate = computed(() => {
-  return new Intl.DateTimeFormat('zh-CN', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    weekday: 'long',
-  }).format(targetDate.value)
-})
+  loading,
+  error,
+  apiSource,
+  selectedDateValue,
+  targetKey,
+  targetChineseDate,
+  fixedDay,
+  movableFeast,
+  omitted,
+  readings,
+  prayers,
+  primaResolution,
+  loadForTargetDate,
+  syncSelectedDate,
+} = useMartyrologyPage(martyrologyTranslationMarkdown, mode)
 
 onMounted(() => {
-  mounted.value = true
-  document.body.classList.add('route-martyrology')
-  readingDate.value = parseDateInput(selectedDateValue.value)
   loadForTargetDate()
-})
-
-onBeforeUnmount(() => {
-  document.body.classList.remove('route-martyrology')
 })
 
 watch(mode, () => {
   loadForTargetDate()
 })
-
-async function loadForTargetDate() {
-  loading.value = true
-  error.value = ''
-  fixedDay.value = null
-  movableFeast.value = null
-  omitted.value = false
-  readings.value = []
-  prayers.value = []
-  primaResolution.value = null
-  resetReading()
-  resetPrayer()
-  try {
-    const [dayData, movableData] = await Promise.all([
-      Promise.resolve(parseMartyrologyDayFromTranslation(martyrologyTranslationMarkdown, targetKey.value)),
-      loadJson<MovableFeast[]>('/data/martyrology/movable-feasts.json'),
-    ])
-
-    fixedDay.value = dayData
-
-    if (mode.value === 'prima1962') {
-      primaResolution.value = await resolvePrima1962(localDateFromDate(readingDate.value))
-      const movableId = detectMovableFeast(targetDate.value, {})
-      movableFeast.value = movableData.find(item => item.id === movableId) || null
-      omitted.value = movableId === 'holy-triduum'
-      readings.value = parsedTranslation.readings
-      prayers.value = parsedTranslation.prayers
-      return
-    }
-
-    const { data: liturgical, source } = await loadLiturgicalData(targetDate.value)
-    apiSource.value = source
-    const movableId = detectMovableFeast(targetDate.value, liturgical)
-    movableFeast.value = movableData.find(item => item.id === movableId) || null
-    omitted.value = movableId === 'holy-triduum'
-    const selectedReadings = selectReadings(parsedTranslation.readings, targetDate.value, liturgical?.season)
-    readings.value = selectedReadings.length ? selectedReadings : parsedTranslation.readings
-    prayers.value = parsedTranslation.prayers
-  }
-  catch (err) {
-    error.value = err instanceof Error ? err.message : String(err)
-  }
-  finally {
-    loading.value = false
-  }
-}
-
-function onSelectedDateChange() {
-  readingDate.value = parseDateInput(selectedDateValue.value)
-  loadForTargetDate()
-}
-
 </script>
 
 <template>
   <main class="martyrology-page">
-    <div v-if="mounted" class="martyrology-client">
     <header class="martyrology-header">
       <p class="martyrology-eyebrow">
         Martyrologium Romanum
@@ -153,7 +46,7 @@ function onSelectedDateChange() {
       </p>
       <label class="date-picker">
         <span>诵读日期</span>
-        <input v-model="selectedDateValue" type="date" @change="onSelectedDateChange">
+        <input v-model="selectedDateValue" type="date" @change="syncSelectedDate">
       </label>
       <section class="martyrology-mode-switch" aria-label="诵念模式">
         <label>
@@ -191,163 +84,28 @@ function onSelectedDateChange() {
       {{ error }}
     </section>
 
-    <template v-else>
-      <template v-if="mode === 'current'">
-      <section class="martyrology-panel date-announcement">
-        <h2>日期宣报</h2>
-        <p v-if="fixedDay" class="roman-date">
-          {{ fixedDay.date_roman }}
-        </p>
-        <p v-if="fixedDay">
-          {{ fixedDay.date_chinese }}
-        </p>
-        <p v-else class="missing-data">
-          尚未在 pages/martyrologium-translation/index.md 中找到 {{ targetKey }} 的日期段落。请确认总文件内存在类似“## {{ monthDayToChineseHeading(targetKey) }}”的标题。
-        </p>
-      </section>
-
-      <section v-if="movableFeast" class="martyrology-panel movable-feast">
-        <h2>{{ movableFeast.name }}</h2>
-        <p>{{ movableFeast.text }}</p>
-      </section>
-
-      <section v-if="omitted" class="martyrology-panel martyrology-warning">
-        殉道圣人录之诵读从略。
-      </section>
-
-      <template v-else>
-        <section v-if="fixedDay" class="martyrology-panel">
-          <h2>固定赞辞</h2>
-          <p class="inline-help">
-            编号旁带星号（*）的圣人或真福，通常只在获准敬礼该圣人或真福的教区、地区或修会团体内诵读。
-          </p>
-          <div class="raw-martyrology" v-html="fixedDay.content_html" />
-        </section>
-
-        <section v-if="fixedDay?.notes_html" class="martyrology-panel notes">
-          <p class="notes-intro">
-            以下校注仅供阅读参考，诵念殉道圣人录时不念。
-          </p>
-          <details>
-            <summary>校注</summary>
-            <div class="raw-martyrology" v-html="fixedDay.notes_html" />
-          </details>
-        </section>
-
-        <section class="martyrology-panel versicle">
-          <h2>短对答咏</h2>
-          <p><strong>领：</strong>在上主台前何其珍贵的，</p>
-          <p class="response"><strong>应：</strong>是祂圣徒们的死亡。</p>
-          <p class="inline-help">
-            若在日间小时辰中诵读，短对答咏后可直接以“请赞美上主”及惯常答句结束；若在晨祷中或时辰礼仪外诵读，则继续短读经、祷词与结束词。
-          </p>
-        </section>
-
-        <section class="martyrology-panel">
-          <h2>短读经</h2>
-          <div v-if="currentReading" class="choice-card" @touchstart="onReadingSwipeStart" @touchend="onReadingSwipeEnd">
-            <button v-if="readings.length > 1" type="button" class="choice-arrow left" aria-label="上一篇短读经" @click="previousReading">
-              ‹
-            </button>
-            <article>
-              <h3>{{ currentReading.title }}</h3>
-              <p>{{ currentReading.text }}</p>
-              <p class="acclamation"><strong>领：</strong>上主的圣言。</p>
-              <p class="response"><strong>应：</strong>感谢天主。</p>
-            </article>
-            <button v-if="readings.length > 1" type="button" class="choice-arrow right" aria-label="下一篇短读经" @click="nextReading">
-              ›
-            </button>
-          </div>
-          <p v-else class="missing-data">
-            尚未从 pages/martyrologium-translation/index.md 解析到短读经。
-          </p>
-          <div v-if="readings.length > 1" class="choice-dots">
-            <button
-              v-for="(_, index) in readings"
-              :key="index"
-              type="button"
-              :class="{ active: index === readingIndex }"
-              :aria-label="`切换到第 ${index + 1} 篇短读经`"
-              @click="readingIndex = index"
-            />
-          </div>
-        </section>
-
-        <section class="martyrology-panel">
-          <h2>祷词</h2>
-          <div v-if="currentPrayer" class="choice-card" @touchstart="onPrayerSwipeStart" @touchend="onPrayerSwipeEnd">
-            <button v-if="prayers.length > 1" type="button" class="choice-arrow left" aria-label="上一篇祷词" @click="previousPrayer">
-              ‹
-            </button>
-            <article>
-              <h3 v-if="currentPrayer.title">
-                {{ currentPrayer.title }}
-              </h3>
-              <p>{{ currentPrayer.text }}</p>
-            </article>
-            <button v-if="prayers.length > 1" type="button" class="choice-arrow right" aria-label="下一篇祷词" @click="nextPrayer">
-              ›
-            </button>
-          </div>
-          <p v-else class="missing-data">
-            尚未从 pages/martyrologium-translation/index.md 解析到祷词。
-          </p>
-          <div v-if="prayers.length > 1" class="choice-dots">
-            <button
-              v-for="(_, index) in prayers"
-              :key="index"
-              type="button"
-              :class="{ active: index === prayerIndex }"
-              :aria-label="`切换到第 ${index + 1} 篇祷词`"
-              @click="prayerIndex = index"
-            />
-          </div>
-        </section>
-
-        <section class="martyrology-panel blessing">
-          <h2>结束词</h2>
-          <p>愿全能的天主降福我们，保护我们免于灾祸，引领我们到达永生。</p>
-          <p>凡诸信者灵魂，赖天主仁慈，息止安所。</p>
-          <p class="response"><strong>应：</strong>阿们。</p>
-          <p><strong>领：</strong>祝大家平安。</p>
-          <p class="response"><strong>应：</strong>感谢天主。</p>
-        </section>
-
-      </template>
-      </template>
-      <MartyrologyPrima1962
-        v-else
-        :resolution="primaResolution"
+    <template v-else-if="mode === 'current'">
+      <MartyrologyCurrentRite
         :fixed-day="fixedDay"
         :movable-feast="movableFeast"
         :omitted="omitted"
         :target-key="targetKey"
-        :bilingual="bilingual"
+        :readings="readings"
+        :prayers="prayers"
       />
     </template>
-    </div>
-    <div v-else class="martyrology-client">
-      <header class="martyrology-header">
-        <p class="martyrology-eyebrow">
-          Martyrologium Romanum
-        </p>
-        <h1>每日殉道圣人录</h1>
-      </header>
-      <section class="martyrology-panel">
-        正在准备页面……
-      </section>
-    </div>
+
+    <MartyrologyPrima1962
+      v-else
+      :resolution="primaResolution"
+      :fixed-day="fixedDay"
+      :movable-feast="movableFeast"
+      :omitted="omitted"
+      :target-key="targetKey"
+      :bilingual="bilingual"
+    />
   </main>
 </template>
 
-<style scoped src="../../features/martyrology/martyrology.scss"></style>
+<style src="../../features/martyrology/martyrology.scss"></style>
 <style src="../../features/prima1962/prima1962.scss"></style>
-
-<route lang="yaml">
-meta:
-  frontmatter:
-    aside: false
-    sidebar: false
-    toc: false
-</route>

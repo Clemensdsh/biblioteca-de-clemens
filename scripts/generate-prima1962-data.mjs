@@ -820,7 +820,7 @@ function main() {
     latin: item.latin,
     chinese: item.chinese,
     type: item.type,
-    usage: 'standalone /martyrology-prima1962/ mixed Prima page',
+    usage: '/martyrology/ Prima mode',
     latinSourceFile: 'Divinum Officium Latin Prima/Psalterium data',
     chineseSourceFile: item.translationStatus === 'existing-project-translation' ? 'project text or established page wording' : '',
     translationStatus: item.translationStatus,
@@ -1023,7 +1023,7 @@ function writeTranslationReport(items) {
 
   const report = `# Prima 1962 Translation Report
 
-Generated for the standalone \`/martyrology-prima1962/\` page:
+Generated for the \`/martyrology/\` Prima mode:
 
 > 混合形式：1962年 Prima 结构与本站现有新礼《罗马殉道圣人录》文本。并非原样复刻的1962年完整礼书。
 

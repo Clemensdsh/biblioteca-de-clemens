@@ -1,6 +1,6 @@
 # Prima 1962 New-Rite Cross-Reference Notes
 
-These notes record searches made while correcting the standalone `/martyrology-prima1962/` page. They are reference notes only; no modern text is silently substituted into the 1962 Prima structure.
+These notes record searches made while correcting the `/martyrology/` Prima mode. They are reference notes only; no modern text is silently substituted into the 1962 Prima structure.
 
 ## Short Responsory
 

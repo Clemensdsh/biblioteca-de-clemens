@@ -1,20 +1,24 @@
+/* The martyrology tool is a full-width reading surface inside the Yun theme shell.
+   Scope the layout override to pages that actually render this component. */
+body:has(.martyrology-page) .yun-layout-left,
+body:has(.martyrology-page) .yun-aside,
+body:has(.martyrology-page) .toc-btn {
+  display: none !important;
+}
+
+body:has(.martyrology-page) .yun-layout-wrapper__content {
+  justify-content: center;
+}
+
+body:has(.martyrology-page) .yun-main {
+  width: 100%;
+}
+
 .martyrology-page {
   width: min(920px, calc(100% - 2rem));
   margin: 5rem auto 3rem;
   color: var(--va-c-text);
   font-family: var(--va-font-serif);
-}
-
-:global(body.route-martyrology .yun-layout-left) {
-  display: none !important;
-}
-
-:global(body.route-martyrology .yun-layout-wrapper__content) {
-  justify-content: center;
-}
-
-:global(body.route-martyrology .yun-main) {
-  width: 100%;
 }
 
 .martyrology-header {
@@ -149,34 +153,34 @@ html.dark .martyrology-panel {
   line-height: 1.9;
 }
 
-.raw-martyrology :deep(h3) {
+.raw-martyrology h3 {
   margin: 0 0 0.75rem;
   color: var(--va-c-primary);
   font-size: 1.35rem;
 }
 
-.raw-martyrology :deep(.raw-date) {
+.raw-martyrology .raw-date {
   font-style: italic;
   font-size: 1.1rem;
 }
 
-.raw-martyrology :deep(.raw-luna-title) {
+.raw-martyrology .raw-luna-title {
   margin-bottom: 0.25rem;
   color: var(--va-c-text-light);
 }
 
-.raw-martyrology :deep(.raw-luna) {
+.raw-martyrology .raw-luna {
   margin: 0.1rem 0;
   color: var(--va-c-text-light);
   font-family: var(--va-font-mono, monospace);
   font-size: 0.9rem;
 }
 
-.raw-martyrology :deep(.raw-entry) {
+.raw-martyrology .raw-entry {
   margin: 0.85rem 0;
 }
 
-.raw-martyrology :deep(.raw-number) {
+.raw-martyrology .raw-number {
   color: var(--va-c-primary);
   font-weight: 700;
 }
