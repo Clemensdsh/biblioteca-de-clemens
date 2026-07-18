@@ -204,9 +204,7 @@ body {
   }
 }
 
-// 《周年瞻礼经》的右侧文章目录很长：仅显示一级条目，当前一级章节
-// 被点击或其子章节处于阅读位置时，再展开对应的二级条目。
-body:has(.annual-feasts-page-marker) {
+@mixin collapsible-page-toc {
   .va-toc.root > .va-toc-item > .nested {
     display: none;
   }
@@ -216,16 +214,16 @@ body:has(.annual-feasts-page-marker) {
     display: block;
   }
 
+  .va-toc.root > .va-toc-item:has(> .nested) > .outline-link {
+    position: relative;
+    padding-right: 1.5rem;
+  }
+
   .va-toc.root > .va-toc-item:has(> .nested) > .outline-link::after {
     content: "›";
     position: absolute;
     right: 0.5rem;
     transition: transform var(--va-transition-duration);
-  }
-
-  .va-toc.root > .va-toc-item:has(> .nested) > .outline-link {
-    position: relative;
-    padding-right: 1.5rem;
   }
 
   .va-toc.root > .va-toc-item:has(> .outline-link.active) > .outline-link::after,
@@ -234,34 +232,16 @@ body:has(.annual-feasts-page-marker) {
   }
 }
 
+// 《周年瞻礼经》的右侧文章目录很长：仅显示一级条目，当前一级章节
+// 被点击或其子章节处于阅读位置时，再展开对应的二级条目。
+body:has(.annual-feasts-page-marker) {
+  @include collapsible-page-toc;
+}
+
 body:has(.saturday-mary-page-marker) {
   .toc-btn {
     display: none !important;
   }
 
-  .va-toc.root > .va-toc-item > .nested {
-    display: none;
-  }
-
-  .va-toc.root > .va-toc-item:has(> .outline-link.active) > .nested,
-  .va-toc.root > .va-toc-item:has(> .nested .outline-link.active) > .nested {
-    display: block;
-  }
-
-  .va-toc.root > .va-toc-item:has(> .nested) > .outline-link::after {
-    content: "›";
-    position: absolute;
-    right: 0.5rem;
-    transition: transform var(--va-transition-duration);
-  }
-
-  .va-toc.root > .va-toc-item:has(> .nested) > .outline-link {
-    position: relative;
-    padding-right: 1.5rem;
-  }
-
-  .va-toc.root > .va-toc-item:has(> .outline-link.active) > .outline-link::after,
-  .va-toc.root > .va-toc-item:has(> .nested .outline-link.active) > .outline-link::after {
-    transform: rotate(90deg);
-  }
+  @include collapsible-page-toc;
 }

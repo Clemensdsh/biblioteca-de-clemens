@@ -1,5 +1,5 @@
 import { reactive } from 'vue'
-import { computePsalterWeek, computeSeason, formatDateInput, loadLiturgicalData, type LiturgicalData, type LiturgicalDataSource } from '../../features/martyrology/liturgicalCalendar'
+import { computePsalterWeek, computeSeason, formatDateInput, loadLiturgicalData, parseDateInput, type LiturgicalData, type LiturgicalDataFailure, type LiturgicalDataSource } from '../../features/martyrology/liturgicalCalendar'
 
 type SaturdayMaryCalendarState = {
   selectedDate: Date
@@ -9,6 +9,7 @@ type SaturdayMaryCalendarState = {
   psalterWeek: number
   loading: boolean
   error: string
+  failures: LiturgicalDataFailure[]
   initialized: boolean
 }
 
@@ -22,6 +23,7 @@ export const saturdayMaryCalendarState = reactive<SaturdayMaryCalendarState>({
   psalterWeek: computePsalterWeek(initialDate),
   loading: false,
   error: '',
+  failures: [],
   initialized: false,
 })
 
@@ -38,6 +40,7 @@ export async function setSaturdayMaryDate(value: string | Date) {
   saturdayMaryCalendarState.psalterWeek = normalizePsalterWeek(saturdayMaryCalendarState.data.psalterWeek)
   saturdayMaryCalendarState.loading = true
   saturdayMaryCalendarState.error = ''
+  saturdayMaryCalendarState.failures = []
   saturdayMaryCalendarState.initialized = true
 
   try {
@@ -48,6 +51,7 @@ export async function setSaturdayMaryDate(value: string | Date) {
     saturdayMaryCalendarState.data = result.data
     saturdayMaryCalendarState.source = result.source
     saturdayMaryCalendarState.psalterWeek = normalizePsalterWeek(result.data.psalterWeek)
+    saturdayMaryCalendarState.failures = result.failures
   }
   catch {
     if (currentRequest !== requestId)
@@ -56,6 +60,7 @@ export async function setSaturdayMaryDate(value: string | Date) {
     saturdayMaryCalendarState.error = '无法加载礼仪日历'
     saturdayMaryCalendarState.data = null
     saturdayMaryCalendarState.source = ''
+    saturdayMaryCalendarState.failures = []
   }
   finally {
     if (currentRequest === requestId)
@@ -66,13 +71,6 @@ export async function setSaturdayMaryDate(value: string | Date) {
 export function ensureSaturdayMaryDateInitialized() {
   if (!saturdayMaryCalendarState.initialized)
     void setSaturdayMaryDate(new Date())
-}
-
-function parseDateInput(value: string) {
-  const [year, month, day] = value.split('-').map(Number)
-  if (!year || !month || !day)
-    return new Date()
-  return new Date(year, month - 1, day)
 }
 
 function normalizePsalterWeek(value?: number) {

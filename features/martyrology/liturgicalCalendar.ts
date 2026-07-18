@@ -1,6 +1,16 @@
 import type { Reading } from './parser'
 
 export type LiturgicalDataSource = 'cpbjr-api' | 'litcal-api' | 'calapi' | 'computus'
+export type RemoteLiturgicalDataSource = Exclude<LiturgicalDataSource, 'computus'>
+export type LiturgicalDataFailure = {
+  source: RemoteLiturgicalDataSource
+  message: string
+}
+export type LiturgicalDataResult = {
+  data: LiturgicalData
+  source: LiturgicalDataSource
+  failures: LiturgicalDataFailure[]
+}
 export type LiturgicalData = {
   season?: string
   psalterWeek?: number
@@ -10,29 +20,40 @@ export type LiturgicalData = {
   }
 }
 
-export async function loadLiturgicalData(date: Date): Promise<{ data: LiturgicalData, source: LiturgicalDataSource }> {
-  const loaders = [
-    () => loadCpbjrCalendar(date),
-    () => loadLitCalCalendar(date),
-    () => loadCalapiCalendar(date),
+type CalendarLoader = {
+  source: RemoteLiturgicalDataSource
+  load: () => Promise<{ data: LiturgicalData, source: LiturgicalDataSource }>
+}
+
+export async function loadLiturgicalData(date: Date): Promise<LiturgicalDataResult> {
+  const loaders: CalendarLoader[] = [
+    { source: 'cpbjr-api', load: () => loadCpbjrCalendar(date) },
+    { source: 'litcal-api', load: () => loadLitCalCalendar(date) },
+    { source: 'calapi', load: () => loadCalapiCalendar(date) },
   ]
+  const failures: LiturgicalDataFailure[] = []
 
   for (const loader of loaders) {
     try {
-      const result = await loader()
+      const result = await loader.load()
       return {
         ...result,
         data: withPsalterWeek(result.data, date),
+        failures,
       }
     }
-    catch {
-      // Try the next calendar source; individual fetches are bounded by timeout.
+    catch (error) {
+      failures.push({
+        source: loader.source,
+        message: errorMessage(error),
+      })
     }
   }
 
   return {
     data: withPsalterWeek(localComputusData(date), date),
     source: 'computus',
+    failures,
   }
 }
 
@@ -139,6 +160,12 @@ function stringValue(value: unknown) {
 
 function numberValue(value: unknown) {
   return typeof value === 'number' && Number.isFinite(value) ? value : undefined
+}
+
+function errorMessage(error: unknown) {
+  if (error instanceof Error)
+    return error.message || error.name
+  return String(error || 'unknown calendar API error')
 }
 
 function withPsalterWeek(data: LiturgicalData, date: Date): LiturgicalData {

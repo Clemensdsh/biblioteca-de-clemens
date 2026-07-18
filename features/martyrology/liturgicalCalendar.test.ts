@@ -22,6 +22,11 @@ describe('martyrology liturgical calendar loading', () => {
         season: 'Ordinary Time',
         psalterWeek: 3,
       },
+      failures: [
+        { source: 'cpbjr-api' },
+        { source: 'litcal-api' },
+        { source: 'calapi' },
+      ],
     })
   })
 
@@ -72,6 +77,9 @@ describe('martyrology liturgical calendar loading', () => {
         },
         psalterWeek: 3,
       },
+      failures: [
+        { source: 'cpbjr-api' },
+      ],
     })
   })
 
