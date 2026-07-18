@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, onMounted, ref, watchEffect } from 'vue'
 import { useStaticJson } from '../../composables/useStaticJson'
 import { chineseOrdinals } from '../../utils/chineseOrdinals'
+import { ensureSaturdayMaryDateInitialized, saturdayMaryCalendarState } from './saturdayMaryCalendarState'
 
 type PrayerSeason = {
   title: string
@@ -18,10 +19,57 @@ const { data, loading, error } = useStaticJson<{ seasons: PrayerSeason[] }>(
 const seasons = computed(() => data.value?.seasons || [])
 const currentSeason = computed(() => seasons.value[selectedSeason.value])
 const currentPrayer = computed(() => currentSeason.value?.options[selectedOption.value] || '')
+const lastAutoSeason = ref('')
+
+onMounted(() => {
+  ensureSaturdayMaryDateInitialized()
+})
+
+watchEffect(() => {
+  if (!seasons.value.length)
+    return
+
+  const seasonKey = normalizeSeason(saturdayMaryCalendarState.data?.season)
+  if (!seasonKey || seasonKey === lastAutoSeason.value)
+    return
+
+  const seasonIndex = seasonIndexFor(seasonKey)
+  if (seasonIndex >= seasons.value.length)
+    return
+
+  selectedSeason.value = seasonIndex
+  selectedOption.value = 0
+  lastAutoSeason.value = seasonKey
+})
 
 function chooseSeason(index: number) {
   selectedSeason.value = index
   selectedOption.value = 0
+}
+
+function normalizeSeason(value?: string) {
+  const normalized = String(value || '').trim().toLowerCase().replace(/[_-]+/g, ' ')
+  if (normalized.includes('advent'))
+    return 'advent'
+  if (normalized.includes('christmas') || normalized.includes('nativ'))
+    return 'christmas'
+  if (normalized.includes('lent') || normalized.includes('quadrages'))
+    return 'lent'
+  if (normalized.includes('easter') || normalized.includes('pasch'))
+    return 'easter'
+  if (normalized.includes('ordinary') || normalized.includes('per annum'))
+    return 'ordinary'
+  return ''
+}
+
+function seasonIndexFor(seasonKey: string) {
+  return {
+    advent: 0,
+    christmas: 1,
+    lent: 2,
+    easter: 3,
+    ordinary: 4,
+  }[seasonKey] ?? 4
 }
 </script>
 

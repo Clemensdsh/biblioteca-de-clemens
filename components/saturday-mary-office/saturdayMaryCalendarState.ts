@@ -1,5 +1,5 @@
 import { reactive } from 'vue'
-import { formatDateInput, loadLiturgicalData, type LiturgicalData, type LiturgicalDataSource } from '../../features/martyrology/liturgicalCalendar'
+import { computePsalterWeek, computeSeason, formatDateInput, loadLiturgicalData, type LiturgicalData, type LiturgicalDataSource } from '../../features/martyrology/liturgicalCalendar'
 
 type SaturdayMaryCalendarState = {
   selectedDate: Date
@@ -12,12 +12,14 @@ type SaturdayMaryCalendarState = {
   initialized: boolean
 }
 
+const initialDate = new Date()
+
 export const saturdayMaryCalendarState = reactive<SaturdayMaryCalendarState>({
-  selectedDate: new Date(),
-  selectedDateInput: formatDateInput(new Date()),
-  data: null,
+  selectedDate: initialDate,
+  selectedDateInput: formatDateInput(initialDate),
+  data: localCalendarData(initialDate),
   source: '',
-  psalterWeek: 1,
+  psalterWeek: computePsalterWeek(initialDate),
   loading: false,
   error: '',
   initialized: false,
@@ -31,6 +33,9 @@ export async function setSaturdayMaryDate(value: string | Date) {
 
   saturdayMaryCalendarState.selectedDate = date
   saturdayMaryCalendarState.selectedDateInput = formatDateInput(date)
+  saturdayMaryCalendarState.data = localCalendarData(date)
+  saturdayMaryCalendarState.source = 'computus'
+  saturdayMaryCalendarState.psalterWeek = normalizePsalterWeek(saturdayMaryCalendarState.data.psalterWeek)
   saturdayMaryCalendarState.loading = true
   saturdayMaryCalendarState.error = ''
   saturdayMaryCalendarState.initialized = true
@@ -72,4 +77,15 @@ function parseDateInput(value: string) {
 
 function normalizePsalterWeek(value?: number) {
   return value && value >= 1 && value <= 4 ? value : 1
+}
+
+function localCalendarData(date: Date): LiturgicalData {
+  return {
+    season: computeSeason(date),
+    psalterWeek: computePsalterWeek(date),
+    celebration: {
+      name: '',
+      type: '',
+    },
+  }
 }
