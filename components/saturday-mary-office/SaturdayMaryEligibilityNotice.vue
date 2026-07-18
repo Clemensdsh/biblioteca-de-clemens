@@ -1,11 +1,17 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue'
-import { loadLiturgicalData, type LiturgicalData } from '../../features/martyrology/liturgicalCalendar'
+import { computed, onMounted } from 'vue'
+import type { LiturgicalData } from '../../features/martyrology/liturgicalCalendar'
+import { ensureSaturdayMaryDateInitialized, saturdayMaryCalendarState } from './saturdayMaryCalendarState'
 
-const eligible = ref(false)
-const checked = ref(false)
-const reason = ref('')
-const date = ref(new Date())
+const checked = computed(() => saturdayMaryCalendarState.initialized && !saturdayMaryCalendarState.loading && !!saturdayMaryCalendarState.data)
+
+const result = computed(() => {
+  if (!saturdayMaryCalendarState.data)
+    return { eligible: false, reason: '' }
+  return getEligibility(saturdayMaryCalendarState.selectedDate, saturdayMaryCalendarState.data)
+})
+const eligible = computed(() => result.value.eligible)
+const reason = computed(() => result.value.reason)
 
 const displayDate = computed(() => {
   return new Intl.DateTimeFormat('zh-CN', {
@@ -13,24 +19,11 @@ const displayDate = computed(() => {
     month: 'long',
     day: 'numeric',
     weekday: 'long',
-  }).format(date.value)
+  }).format(saturdayMaryCalendarState.selectedDate)
 })
 
 onMounted(async () => {
-  try {
-    const today = new Date()
-    date.value = today
-
-    const { data } = await loadLiturgicalData(today)
-    const result = getEligibility(today, data)
-    eligible.value = result.eligible
-    reason.value = result.reason
-    checked.value = true
-  }
-  catch {
-    checked.value = false
-    eligible.value = false
-  }
+  ensureSaturdayMaryDateInitialized()
 })
 
 function getEligibility(today: Date, day: LiturgicalData) {

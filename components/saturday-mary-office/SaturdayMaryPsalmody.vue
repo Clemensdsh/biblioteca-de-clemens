@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, ref, watchEffect } from 'vue'
 import { useStaticJson } from '../../composables/useStaticJson'
 import { renderLiturgicalMarkdown } from '../../utils/liturgicalMarkdown'
+import { saturdayMaryCalendarState } from './saturdayMaryCalendarState'
 
 type PsalmodyWeek = {
   week: number
@@ -19,6 +20,10 @@ const { data, loading, error } = useStaticJson<{ weeks: PsalmodyWeek[] }>(
 
 const weeks = computed(() => data.value?.weeks || [])
 const currentWeek = computed(() => weeks.value.find(item => item.week === selectedWeek.value) || weeks.value[0])
+
+watchEffect(() => {
+  selectedWeek.value = saturdayMaryCalendarState.psalterWeek
+})
 
 const renderMarkdown = renderLiturgicalMarkdown
 </script>

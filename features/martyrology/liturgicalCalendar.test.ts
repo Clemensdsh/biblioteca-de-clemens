@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import { loadLiturgicalData } from './liturgicalCalendar'
+import { computePsalterWeek, loadLiturgicalData } from './liturgicalCalendar'
 
 describe('martyrology liturgical calendar loading', () => {
   afterEach(() => {
@@ -20,6 +20,7 @@ describe('martyrology liturgical calendar loading', () => {
       source: 'computus',
       data: {
         season: 'Ordinary Time',
+        psalterWeek: 3,
       },
     })
   })
@@ -42,6 +43,7 @@ describe('martyrology liturgical calendar loading', () => {
               name: 'Sabbato Hebdomadae Decimae quintae Temporis Ordinarii',
               grade: 0,
               grade_lcl: 'feria',
+              psalter_week: 3,
               liturgical_season: 'ORDINARY_TIME',
             },
             {
@@ -68,7 +70,12 @@ describe('martyrology liturgical calendar loading', () => {
           name: 'Sabbato Hebdomadae Decimae quintae Temporis Ordinarii',
           type: 'feria',
         },
+        psalterWeek: 3,
       },
     })
+  })
+
+  it('computes psalter week for ordinary time after Pentecost', () => {
+    expect(computePsalterWeek(new Date(2026, 6, 18))).toBe(3)
   })
 })

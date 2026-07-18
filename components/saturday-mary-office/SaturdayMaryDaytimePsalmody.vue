@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, ref, watchEffect } from 'vue'
 import { useStaticJson } from '../../composables/useStaticJson'
 import { renderLiturgicalMarkdown } from '../../utils/liturgicalMarkdown'
+import { saturdayMaryCalendarState } from './saturdayMaryCalendarState'
 
 type DaytimeHour = {
   title: string
@@ -24,6 +25,10 @@ const { data, loading, error } = useStaticJson<{ weeks: DaytimeWeek[] }>(
 const weeks = computed(() => data.value?.weeks || [])
 const currentWeek = computed(() => weeks.value[selectedWeek.value])
 const currentHour = computed(() => currentWeek.value?.hours[selectedHour.value])
+
+watchEffect(() => {
+  selectedWeek.value = saturdayMaryCalendarState.psalterWeek - 1
+})
 
 function chooseWeek(index: number) {
   selectedWeek.value = index

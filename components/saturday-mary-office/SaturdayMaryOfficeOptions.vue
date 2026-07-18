@@ -3,6 +3,7 @@ import { computed, watchEffect, ref } from 'vue'
 import { useStaticJson } from '../../composables/useStaticJson'
 import { chineseOrdinals } from '../../utils/chineseOrdinals'
 import { renderLiturgicalMarkdown } from '../../utils/liturgicalMarkdown'
+import { saturdayMaryCalendarState } from './saturdayMaryCalendarState'
 import { saturdayMarySyncedSelections } from './saturdayMarySyncedSelections'
 
 const props = defineProps<{
@@ -53,10 +54,15 @@ const selectedIndex = computed({
 })
 
 const currentItem = computed(() => items.value[selectedIndex.value])
+const autoPsalterWeek = computed(() => props.src.includes('/morning-psalter.json'))
 
 watchEffect(() => {
   if (!data.value)
     return
+  if (autoPsalterWeek.value) {
+    selectedIndex.value = saturdayMaryCalendarState.psalterWeek - 1
+    return
+  }
   if (props.syncKey && saturdayMarySyncedSelections[props.syncKey] === undefined)
     saturdayMarySyncedSelections[props.syncKey] = 0
   else if (!props.syncKey)

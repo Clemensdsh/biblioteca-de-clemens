@@ -10,6 +10,8 @@ categories:
 
 <SaturdayMaryEligibilityNotice />
 
+<SaturdayMaryDateSelector />
+
 ### 序经
 
 **当日诵念之第一端日课以序经开始，其后各端日课开始时念开端词**

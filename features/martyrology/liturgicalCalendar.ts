@@ -3,6 +3,7 @@ import type { Reading } from './parser'
 export type LiturgicalDataSource = 'cpbjr-api' | 'litcal-api' | 'calapi' | 'computus'
 export type LiturgicalData = {
   season?: string
+  psalterWeek?: number
   celebration?: {
     name?: string
     type?: string
@@ -18,7 +19,11 @@ export async function loadLiturgicalData(date: Date): Promise<{ data: Liturgical
 
   for (const loader of loaders) {
     try {
-      return await loader()
+      const result = await loader()
+      return {
+        ...result,
+        data: withPsalterWeek(result.data, date),
+      }
     }
     catch {
       // Try the next calendar source; individual fetches are bounded by timeout.
@@ -26,7 +31,7 @@ export async function loadLiturgicalData(date: Date): Promise<{ data: Liturgical
   }
 
   return {
-    data: localComputusData(date),
+    data: withPsalterWeek(localComputusData(date), date),
     source: 'computus',
   }
 }
@@ -100,6 +105,7 @@ function normalizeLitCalData(data: unknown, date: Date): LiturgicalData {
 
   return {
     season: stringValue(event?.liturgical_season),
+    psalterWeek: numberValue(event?.psalter_week),
     celebration: {
       name: stringValue(event?.name),
       type: normalizeLitCalRank(event),
@@ -129,6 +135,24 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 
 function stringValue(value: unknown) {
   return typeof value === 'string' ? value : ''
+}
+
+function numberValue(value: unknown) {
+  return typeof value === 'number' && Number.isFinite(value) ? value : undefined
+}
+
+function withPsalterWeek(data: LiturgicalData, date: Date): LiturgicalData {
+  if (isPsalterWeek(data.psalterWeek))
+    return data
+
+  return {
+    ...data,
+    psalterWeek: computePsalterWeek(date),
+  }
+}
+
+function isPsalterWeek(value: unknown): value is number {
+  return typeof value === 'number' && value >= 1 && value <= 4
 }
 
 function localComputusData(date: Date): LiturgicalData {
@@ -289,6 +313,52 @@ export function computeSeason(date: Date) {
   if (monthDay >= adventFirstSunday(date) && monthDay < '12-25')
     return 'Advent'
   return 'Ordinary Time'
+}
+
+export function computePsalterWeek(date: Date) {
+  const season = computeSeason(date)
+  const seasonStart = getPsalterSeasonStart(date, season)
+  const weekNumber = Math.floor(diffDays(date, seasonStart) / 7) + 1
+  return ((weekNumber - 1) % 4) + 1
+}
+
+function getPsalterSeasonStart(date: Date, season: string) {
+  const year = date.getFullYear()
+  const easter = getEaster(year)
+  if (season === 'Lent')
+    return addDays(easter, -42)
+  if (season === 'Easter')
+    return easter
+  if (season === 'Advent')
+    return parseMonthDay(year, adventFirstSunday(date))
+  if (season === 'Christmas')
+    return new Date(formatMonthDay(date) <= '01-12' ? year - 1 : year, 11, 25)
+
+  return getOrdinaryTimePsalterStart(date)
+}
+
+function getOrdinaryTimePsalterStart(date: Date) {
+  const easter = getEaster(date.getFullYear())
+  if (date < addDays(easter, 50))
+    return getFirstOrdinaryTimeStart(date.getFullYear())
+
+  const week34Monday = addDays(parseMonthDay(date.getFullYear(), adventFirstSunday(date)), -6)
+  const selectedMonday = addDays(clearTime(date), -(date.getDay() || 7) + 1)
+  const ordinaryWeek = 34 - Math.floor(diffDays(week34Monday, selectedMonday) / 7)
+  return addDays(selectedMonday, -((ordinaryWeek - 1) * 7))
+}
+
+function getFirstOrdinaryTimeStart(year: number) {
+  const epiphany = new Date(year, 0, 6)
+  const baptism = epiphany.getDay() === 0
+    ? addDays(epiphany, 1)
+    : addDays(epiphany, 7 - epiphany.getDay())
+  return addDays(baptism, 1)
+}
+
+function parseMonthDay(year: number, monthDay: string) {
+  const [month, day] = monthDay.split('-').map(Number)
+  return new Date(year, month - 1, day)
 }
 
 function adventFirstSunday(date: Date) {
