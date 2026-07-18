@@ -20,6 +20,15 @@ const { data, loading, error } = useStaticJson<{ seasons: PrayerSeason[] }>(
 const seasons = computed(() => data.value?.seasons || [])
 const currentSeason = computed(() => seasons.value[selectedSeason.value])
 const currentPrayer = computed(() => currentSeason.value?.options[selectedOption.value] || '')
+const prayerConclusion = '以上所求是靠你的子，我们的主天主耶稣基督，他和你及圣神永生永王。阿们。'
+const currentPrayerWithConclusion = computed(() => {
+  const prayer = currentPrayer.value.trim()
+  if (!prayer)
+    return ''
+  if (prayer.endsWith(prayerConclusion))
+    return prayer
+  return `${prayer}${prayer.endsWith('。') ? '' : '。'}${prayerConclusion}`
+})
 const lastAutoSeason = ref('')
 
 onMounted(() => {
@@ -84,7 +93,7 @@ function chooseSeason(index: number) {
 
       <article class="prayer-card">
         <h3>{{ currentSeason.title }}</h3>
-        <p>{{ currentPrayer }}</p>
+        <p>{{ currentPrayerWithConclusion }}</p>
       </article>
     </template>
   </section>

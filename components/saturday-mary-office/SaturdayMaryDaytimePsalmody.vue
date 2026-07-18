@@ -2,6 +2,7 @@
 import { computed, onMounted, ref, watchEffect } from 'vue'
 import { useStaticJson } from '../../composables/useStaticJson'
 import { renderLiturgicalMarkdown } from '../../utils/liturgicalMarkdown'
+import { defaultDaytimeHourIndex } from './daytimeHour'
 import { saturdayMaryCalendarState } from './saturdayMaryCalendarState'
 
 type DaytimeHour = {
@@ -16,7 +17,7 @@ type DaytimeWeek = {
 }
 
 const selectedWeek = ref(0)
-const selectedHour = ref(0)
+const selectedHour = ref(defaultDaytimeHourIndex(new Date()))
 const { data, loading, error } = useStaticJson<{ weeks: DaytimeWeek[] }>(
   '/data/saturday-mary-office/daytime-psalter.json',
   '无法加载日间祈祷圣咏集',
@@ -36,18 +37,6 @@ onMounted(() => {
 
 function chooseWeek(index: number) {
   selectedWeek.value = index
-}
-
-function defaultDaytimeHourIndex(date: Date) {
-  const hour = date.getHours()
-  const minute = date.getMinutes()
-  const minutes = hour * 60 + minute
-
-  if (minutes < 10 * 60 + 30)
-    return 0
-  if (minutes < 13 * 60 + 30)
-    return 1
-  return 2
 }
 
 const renderMarkdown = renderLiturgicalMarkdown

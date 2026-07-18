@@ -18,6 +18,10 @@ categories:
 
 **当日诵念之第一端日课以序经开始，其后各端日课开始时念开端词**
 
+领：上主，求你开启我的口。
+
+答：我的口要赞美你。
+
 *序经对经：基督是玛利亚之子，请大家前来朝拜。 **或**：在此童贞圣母玛利亚的纪念日，请向上主欢呼歌唱。*
 
 圣咏九四
@@ -167,7 +171,7 @@ categories:
 
 ### 赞美诗
 
-<SaturdayMaryOfficeOptions src="/data/saturday-mary-office/daytime-hymns.json" />
+<SaturdayMaryOfficeOptions src="/data/saturday-mary-office/daytime-hymns.json" auto-daytime-hour />
 
 ### 圣咏集
 

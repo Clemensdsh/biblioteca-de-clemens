@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { computed, watchEffect, ref } from 'vue'
+import { computed, onMounted, watchEffect, ref } from 'vue'
 import { useStaticJson } from '../../composables/useStaticJson'
 import { chineseOrdinals } from '../../utils/chineseOrdinals'
 import { renderLiturgicalMarkdown } from '../../utils/liturgicalMarkdown'
+import { defaultDaytimeHourIndex } from './daytimeHour'
 import { saturdayMaryCalendarState } from './saturdayMaryCalendarState'
 import { saturdayMarySyncedSelections } from './saturdayMarySyncedSelections'
 
@@ -11,6 +12,7 @@ const props = defineProps<{
   selectLabel?: string
   antiphon?: boolean
   syncKey?: string
+  autoDaytimeHour?: boolean
 }>()
 
 type RawItem = string | {
@@ -23,7 +25,8 @@ type OfficeItem = {
   text: string
 }
 
-const localSelectedIndex = ref(0)
+const autoDaytimeHour = computed(() => props.autoDaytimeHour || isDaytimeHymnsSource(props.src))
+const localSelectedIndex = ref(autoDaytimeHour.value ? defaultDaytimeHourIndex(new Date()) : 0)
 const { data, loading, error } = useStaticJson<{ items?: RawItem[], weeks?: RawItem[] }>(
   () => props.src,
   '无法加载文本',
@@ -63,10 +66,19 @@ watchEffect(() => {
     selectedIndex.value = saturdayMaryCalendarState.psalterWeek - 1
     return
   }
+  if (autoDaytimeHour.value) {
+    selectedIndex.value = defaultDaytimeHourIndex(new Date())
+    return
+  }
   if (props.syncKey && saturdayMarySyncedSelections[props.syncKey] === undefined)
     saturdayMarySyncedSelections[props.syncKey] = 0
   else if (!props.syncKey)
     selectedIndex.value = 0
+})
+
+onMounted(() => {
+  if (autoDaytimeHour.value)
+    selectedIndex.value = defaultDaytimeHourIndex(new Date())
 })
 
 function previous() {
@@ -83,6 +95,10 @@ function next() {
 
 function renderMarkdown(text = '') {
   return renderLiturgicalMarkdown(text, { antiphon: props.antiphon })
+}
+
+function isDaytimeHymnsSource(src: string) {
+  return src.endsWith('daytime-hymns.json')
 }
 </script>
 

@@ -11,12 +11,21 @@ function stripPrerenderedApp(html: string) {
 export default {
   ssgOptions: {
     onPageRendered(route: string, html: string) {
-      // This page depends on client-side local dates and fallback calendar loading.
-      // Shipping prerendered markup has caused hard-refresh hydration mismatches, so
-      // keep the route as an SPA shell while the rest of the site remains SSG.
-      return route === '/martyrology/' || route === '/martyrology'
+      // These pages depend on client-side local dates/times and fallback calendar
+      // loading. Shipping prerendered markup has caused hard-refresh hydration
+      // mismatches, so keep them as SPA shells while the rest of the site remains SSG.
+      return isClientDateRoute(route)
         ? stripPrerenderedApp(html)
         : html
     },
   },
+}
+
+function isClientDateRoute(route: string) {
+  return [
+    '/martyrology',
+    '/martyrology/',
+    '/posts/saturday-memorial-of-our-lady-office',
+    '/posts/saturday-memorial-of-our-lady-office/',
+  ].includes(route)
 }
