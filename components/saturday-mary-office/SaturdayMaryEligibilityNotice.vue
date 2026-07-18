@@ -1,13 +1,6 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
-
-type LiturgicalDay = {
-  season?: string
-  celebration?: {
-    name?: string
-    type?: string
-  }
-}
+import { loadLiturgicalData, type LiturgicalData } from '../../features/martyrology/liturgicalCalendar'
 
 const eligible = ref(false)
 const checked = ref(false)
@@ -28,11 +21,7 @@ onMounted(async () => {
     const today = new Date()
     date.value = today
 
-    const response = await fetch(`https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/${today.getFullYear()}/${formatMonthDay(today)}.json`)
-    if (!response.ok)
-      return
-
-    const data = await response.json() as LiturgicalDay
+    const { data } = await loadLiturgicalData(today)
     const result = getEligibility(today, data)
     eligible.value = result.eligible
     reason.value = result.reason
@@ -44,7 +33,7 @@ onMounted(async () => {
   }
 })
 
-function getEligibility(today: Date, day: LiturgicalDay) {
+function getEligibility(today: Date, day: LiturgicalData) {
   if (today.getDay() !== 6) {
     return {
       eligible: false,
@@ -75,6 +64,7 @@ function getEligibility(today: Date, day: LiturgicalDay) {
     'optional',
     'optional memorial',
     'opt memorial',
+    'feria',
     'ferial',
   ]
 
@@ -108,10 +98,6 @@ function getEligibility(today: Date, day: LiturgicalDay) {
 
 function normalize(value?: string) {
   return String(value || '').trim().toLowerCase().replace(/[_-]+/g, ' ')
-}
-
-function formatMonthDay(value: Date) {
-  return `${String(value.getMonth() + 1).padStart(2, '0')}-${String(value.getDate()).padStart(2, '0')}`
 }
 </script>
 

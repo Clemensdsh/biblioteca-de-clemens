@@ -1,6 +1,6 @@
 import type { Reading } from './parser'
 
-export type LiturgicalDataSource = 'cpbjr-api' | 'calapi' | 'computus'
+export type LiturgicalDataSource = 'cpbjr-api' | 'litcal-api' | 'calapi' | 'computus'
 export type LiturgicalData = {
   season?: string
   celebration?: {
@@ -10,13 +10,20 @@ export type LiturgicalData = {
 }
 
 export async function loadLiturgicalData(date: Date): Promise<{ data: LiturgicalData, source: LiturgicalDataSource }> {
-  const remoteResult = await firstSuccessfulWithin([
+  const loaders = [
     () => loadCpbjrCalendar(date),
+    () => loadLitCalCalendar(date),
     () => loadCalapiCalendar(date),
-  ], 900)
+  ]
 
-  if (remoteResult)
-    return remoteResult
+  for (const loader of loaders) {
+    try {
+      return await loader()
+    }
+    catch {
+      // Try the next calendar source; individual fetches are bounded by timeout.
+    }
+  }
 
   return {
     data: localComputusData(date),
@@ -28,7 +35,7 @@ async function loadCpbjrCalendar(date: Date): Promise<{ data: LiturgicalData, so
   const year = date.getFullYear()
   const response = await fetchWithTimeout(
     `https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/${year}/${formatMonthDay(date)}.json`,
-    2400,
+    1800,
   )
   if (!response.ok)
     throw new Error('cpbjr calendar API response is not ok')
@@ -39,10 +46,24 @@ async function loadCpbjrCalendar(date: Date): Promise<{ data: LiturgicalData, so
   }
 }
 
+async function loadLitCalCalendar(date: Date): Promise<{ data: LiturgicalData, source: LiturgicalDataSource }> {
+  const response = await fetchWithTimeout(
+    `https://litcal.johnromanodorazio.com/api/v5/calendar/${date.getFullYear()}?return_type=JSON&year_type=CIVIL`,
+    3200,
+  )
+  if (!response.ok)
+    throw new Error('litcal calendar API response is not ok')
+
+  return {
+    data: normalizeLitCalData(await response.json(), date),
+    source: 'litcal-api',
+  }
+}
+
 async function loadCalapiCalendar(date: Date): Promise<{ data: LiturgicalData, source: LiturgicalDataSource }> {
   const response = await fetchWithTimeout(
     `https://calapi.inadiutorium.cz/calendar?date=${formatDateInput(date)}`,
-    2400,
+    1800,
   )
   if (!response.ok)
     throw new Error('calapi calendar API response is not ok')
@@ -51,35 +72,6 @@ async function loadCalapiCalendar(date: Date): Promise<{ data: LiturgicalData, s
     data: normalizeCalapiData(await response.json()),
     source: 'calapi',
   }
-}
-
-async function firstSuccessfulWithin<T>(factories: Array<() => Promise<T>>, timeoutMs: number): Promise<T | null> {
-  return new Promise(resolve => {
-    let settled = false
-    let failed = 0
-    const finish = (value: T | null) => {
-      if (settled)
-        return
-      settled = true
-      resolve(value)
-    }
-
-    const timeout = setTimeout(() => finish(null), timeoutMs)
-    for (const factory of factories) {
-      factory()
-        .then(value => {
-          clearTimeout(timeout)
-          finish(value)
-        })
-        .catch(() => {
-          failed += 1
-          if (failed === factories.length) {
-            clearTimeout(timeout)
-            finish(null)
-          }
-        })
-    }
-  })
 }
 
 function normalizeCalapiData(data: unknown): LiturgicalData {
@@ -94,6 +86,41 @@ function normalizeCalapiData(data: unknown): LiturgicalData {
       type: stringValue(celebration?.rank) || stringValue(celebration?.rank_name),
     },
   }
+}
+
+function normalizeLitCalData(data: unknown, date: Date): LiturgicalData {
+  const calendar = isRecord(data) ? data : {}
+  const events = Array.isArray(calendar.litcal) ? calendar.litcal.filter(isRecord) : []
+  const datePrefix = formatDateInput(date)
+  const dayEvents = events.filter(event => {
+    const eventDate = stringValue(event.date)
+    return eventDate.startsWith(datePrefix) && event.is_vigil_mass !== true
+  })
+  const event = dayEvents[0]
+
+  return {
+    season: stringValue(event?.liturgical_season),
+    celebration: {
+      name: stringValue(event?.name),
+      type: normalizeLitCalRank(event),
+    },
+  }
+}
+
+function normalizeLitCalRank(event?: Record<string, unknown>) {
+  const grade = typeof event?.grade === 'number' ? event.grade : Number.NaN
+  if (grade >= 6)
+    return 'solemnity'
+  if (grade >= 4)
+    return 'feast'
+  if (grade === 3)
+    return 'memorial'
+  if (grade === 2)
+    return 'optional memorial'
+  if (grade === 0)
+    return 'feria'
+
+  return stringValue(event?.grade_lcl)
 }
 
 function isRecord(value: unknown): value is Record<string, unknown> {

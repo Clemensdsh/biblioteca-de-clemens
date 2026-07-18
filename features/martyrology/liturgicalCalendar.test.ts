@@ -14,7 +14,7 @@ describe('martyrology liturgical calendar loading', () => {
     })))
 
     const result = loadLiturgicalData(new Date(2026, 6, 16))
-    await vi.advanceTimersByTimeAsync(2800)
+    await vi.advanceTimersByTimeAsync(7000)
 
     await expect(result).resolves.toMatchObject({
       source: 'computus',
@@ -24,7 +24,7 @@ describe('martyrology liturgical calendar loading', () => {
     })
   })
 
-  it('uses a backup remote API when the first remote API stalls', async () => {
+  it('uses LitCal when the first remote API stalls', async () => {
     vi.useFakeTimers()
     vi.stubGlobal('fetch', vi.fn((url: string, init?: RequestInit) => {
       if (url.includes('cpbjr.github.io')) {
@@ -36,19 +36,37 @@ describe('martyrology liturgical calendar loading', () => {
       return Promise.resolve({
         ok: true,
         json: () => Promise.resolve({
-          season: 'ordinary',
-          celebrations: [{ title: 'Thursday of the Fifteenth Week in Ordinary Time', rank: 'ferial' }],
+          litcal: [
+            {
+              date: '2026-07-18T00:00:00+00:00',
+              name: 'Sabbato Hebdomadae Decimae quintae Temporis Ordinarii',
+              grade: 0,
+              grade_lcl: 'feria',
+              liturgical_season: 'ORDINARY_TIME',
+            },
+            {
+              date: '2026-07-18T00:00:00+00:00',
+              name: 'Dominica XVI Per Annum Missa in Vigilia',
+              grade: 5,
+              grade_lcl: 'FESTUM DOMINI',
+              liturgical_season: 'ORDINARY_TIME',
+              is_vigil_mass: true,
+            },
+          ],
         }),
       })
     }))
 
-    await expect(loadLiturgicalData(new Date(2026, 6, 16))).resolves.toMatchObject({
-      source: 'calapi',
+    const result = loadLiturgicalData(new Date(2026, 6, 18))
+    await vi.advanceTimersByTimeAsync(1800)
+
+    await expect(result).resolves.toMatchObject({
+      source: 'litcal-api',
       data: {
-        season: 'ordinary',
+        season: 'ORDINARY_TIME',
         celebration: {
-          name: 'Thursday of the Fifteenth Week in Ordinary Time',
-          type: 'ferial',
+          name: 'Sabbato Hebdomadae Decimae quintae Temporis Ordinarii',
+          type: 'feria',
         },
       },
     })
