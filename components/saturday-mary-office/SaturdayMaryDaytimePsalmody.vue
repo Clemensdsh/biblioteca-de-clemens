@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref, watchEffect } from 'vue'
+import { computed, onMounted, ref, watchEffect } from 'vue'
 import { useStaticJson } from '../../composables/useStaticJson'
 import { renderLiturgicalMarkdown } from '../../utils/liturgicalMarkdown'
 import { saturdayMaryCalendarState } from './saturdayMaryCalendarState'
@@ -30,9 +30,24 @@ watchEffect(() => {
   selectedWeek.value = saturdayMaryCalendarState.psalterWeek - 1
 })
 
+onMounted(() => {
+  selectedHour.value = defaultDaytimeHourIndex(new Date())
+})
+
 function chooseWeek(index: number) {
   selectedWeek.value = index
-  selectedHour.value = 0
+}
+
+function defaultDaytimeHourIndex(date: Date) {
+  const hour = date.getHours()
+  const minute = date.getMinutes()
+  const minutes = hour * 60 + minute
+
+  if (minutes < 10 * 60 + 30)
+    return 0
+  if (minutes < 13 * 60 + 30)
+    return 1
+  return 2
 }
 
 const renderMarkdown = renderLiturgicalMarkdown

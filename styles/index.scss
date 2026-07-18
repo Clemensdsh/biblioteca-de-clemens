@@ -186,3 +186,30 @@ body:has(.annual-feasts-page-marker) {
     transform: rotate(90deg);
   }
 }
+
+body:has(.saturday-mary-page-marker) {
+  .toc-btn {
+    display: none !important;
+  }
+
+  .va-toc.root > .va-toc-item > .nested {
+    display: none;
+  }
+
+  .va-toc.root > .va-toc-item:has(> .outline-link.active) > .nested,
+  .va-toc.root > .va-toc-item:has(> .nested .outline-link.active) > .nested {
+    display: block;
+  }
+
+  .va-toc.root > .va-toc-item:has(> .nested) > .outline-link::after {
+    content: "›";
+    float: right;
+    margin-left: 0.35rem;
+    transition: transform var(--va-transition-duration);
+  }
+
+  .va-toc.root > .va-toc-item:has(> .outline-link.active) > .outline-link::after,
+  .va-toc.root > .va-toc-item:has(> .nested .outline-link.active) > .outline-link::after {
+    transform: rotate(90deg);
+  }
+}

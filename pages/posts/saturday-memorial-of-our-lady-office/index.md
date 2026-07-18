@@ -6,6 +6,8 @@ categories:
   - "时辰礼仪"
 ---
 
+<div class="saturday-mary-page-marker" aria-hidden="true"></div>
+
 **说明：常年期中如果星期六为「自由纪念日」，可诵念纪念圣母的日课。**
 
 <SaturdayMaryEligibilityNotice />
