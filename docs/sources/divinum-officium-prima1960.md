@@ -15,7 +15,7 @@
 - `web/cgi-bin/horas/specials/psalmi.pl` for the local resolver rule that Roman Prima uses the first antiphon of seasonal minor-hour antiphon groups.
 - Selected `web/www/horas/Latin/Tempora/Quad*.txt` and `Quadp*.txt` files for proper Sunday `Ant Prima` overrides in Septuagesima, Lent and Passiontide.
 - `web/www/horas/Latin/Psalterium/Psalmorum/Psalm*.txt` for the Prima psalms currently referenced by the generated data
-- `思高圣咏集_武加大编号_逐节纯文本.txt` for Chinese Psalm text aligned by Vulgate Psalm number.
+- `resources/texts/思高圣咏集_武加大编号_逐节纯文本.txt` for Chinese Psalm text aligned by Vulgate Psalm number.
 
 ## Generated Data
 
@@ -26,7 +26,7 @@
 - `public/data/prima1962/psalms-chinese.json`
 - `public/data/prima1962/lectio-brevis.json`
 - `public/data/prima1962/translation-status.json`
-- `prima1962-antiphons-bilingual.txt`
+- `resources/texts/prima1962-antiphons-bilingual.txt`
 - `docs/prima1962-psalm-alignment-report.md`
 
 ## Normalization

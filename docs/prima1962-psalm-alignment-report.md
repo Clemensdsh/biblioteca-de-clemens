@@ -1,6 +1,6 @@
 # Prima 1962 Psalm Alignment Report
 
-Source: `思高圣咏集_武加大编号_逐节纯文本.txt`.
+Source: `resources/texts/思高圣咏集_武加大编号_逐节纯文本.txt`.
 
 ## 22
 

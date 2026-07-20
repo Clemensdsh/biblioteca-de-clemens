@@ -8,7 +8,7 @@
     "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
     "web/www/horas/Latin/Psalterium/Common/Rubricae.txt",
     "web/www/horas/Latin/Psalterium/Psalmi/Psalmi minor.txt",
-    "思高圣咏集_武加大编号_逐节纯文本.txt"
+    "resources/texts/思高圣咏集_武加大编号_逐节纯文本.txt"
   ],
   "generatedFiles": [
     "public/data/prima1962/manifest.json",
@@ -18,10 +18,10 @@
     "public/data/prima1962/psalms-chinese.json",
     "public/data/prima1962/lectio-brevis.json",
     "public/data/prima1962/translation-status.json",
-    "prima1962-antiphons-bilingual.txt",
-    "prima1962-responsory-verses-bilingual.txt",
-    "prima1962-lectio-brevis-bilingual.txt",
-    "prima1962-variable-texts-bilingual.txt",
+    "resources/texts/prima1962-antiphons-bilingual.txt",
+    "resources/texts/prima1962-responsory-verses-bilingual.txt",
+    "resources/texts/prima1962-lectio-brevis-bilingual.txt",
+    "resources/texts/prima1962-variable-texts-bilingual.txt",
     "docs/prima1962-psalm-alignment-report.md"
   ],
   "normalized": [

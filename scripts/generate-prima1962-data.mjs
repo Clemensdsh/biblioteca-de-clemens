@@ -15,7 +15,7 @@ const sourceFiles = {
   prayers: 'web/www/horas/Latin/Psalterium/Common/Prayers.txt',
   rubricae: 'web/www/horas/Latin/Psalterium/Common/Rubricae.txt',
   psalmiMinor: 'web/www/horas/Latin/Psalterium/Psalmi/Psalmi minor.txt',
-  sigaoVulgatePsalms: '思高圣咏集_武加大编号_逐节纯文本.txt',
+  sigaoVulgatePsalms: 'resources/texts/思高圣咏集_武加大编号_逐节纯文本.txt',
 }
 
 const psalmSpecs = [
@@ -525,7 +525,7 @@ function antiphonReviewTranslations() {
     return antiphonReviewTranslationCache
 
   antiphonReviewTranslationCache = new Map()
-  const file = join(root, 'prima1962-antiphons-bilingual.txt')
+  const file = join(root, 'resources/texts/prima1962-antiphons-bilingual.txt')
   if (!existsSync(file))
     return antiphonReviewTranslationCache
 
@@ -785,10 +785,10 @@ function main() {
       'public/data/prima1962/psalms-chinese.json',
       'public/data/prima1962/lectio-brevis.json',
       'public/data/prima1962/translation-status.json',
-      'prima1962-antiphons-bilingual.txt',
-      'prima1962-responsory-verses-bilingual.txt',
-      'prima1962-lectio-brevis-bilingual.txt',
-      'prima1962-variable-texts-bilingual.txt',
+      'resources/texts/prima1962-antiphons-bilingual.txt',
+      'resources/texts/prima1962-responsory-verses-bilingual.txt',
+      'resources/texts/prima1962-lectio-brevis-bilingual.txt',
+      'resources/texts/prima1962-variable-texts-bilingual.txt',
       'docs/prima1962-psalm-alignment-report.md',
     ],
     normalized: ['J/I spelling in selected displayed Latin', 'adjutorium to adiutorium', 'Jam to Iam', 'Sigaō psalm text converted from Traditional to Simplified Chinese with OpenCC', 'Psalm superscriptions removed where they are not present in the Latin office text'],
@@ -837,10 +837,10 @@ function main() {
   writeFileSync(join(outDir, 'psalms-chinese.json'), `${JSON.stringify(psalms, null, 2)}\n`)
   writeFileSync(join(outDir, 'lectio-brevis.json'), `${JSON.stringify(lectioBrevis, null, 2)}\n`)
   writeFileSync(join(outDir, 'translation-status.json'), `${JSON.stringify(translationStatus, null, 2)}\n`)
-  writeFileSync(join(root, 'prima1962-antiphons-bilingual.txt'), antiphonTxt)
-  writeFileSync(join(root, 'prima1962-responsory-verses-bilingual.txt'), writeResponsoryVersesExport(fixedTexts.responsory.properVerses))
-  writeFileSync(join(root, 'prima1962-lectio-brevis-bilingual.txt'), writeLectioBrevisExport(lectioBrevis))
-  writeFileSync(join(root, 'prima1962-variable-texts-bilingual.txt'), writeVariableTextsExport(fixedTexts, lectioBrevis))
+  writeFileSync(join(root, 'resources/texts/prima1962-antiphons-bilingual.txt'), antiphonTxt)
+  writeFileSync(join(root, 'resources/texts/prima1962-responsory-verses-bilingual.txt'), writeResponsoryVersesExport(fixedTexts.responsory.properVerses))
+  writeFileSync(join(root, 'resources/texts/prima1962-lectio-brevis-bilingual.txt'), writeLectioBrevisExport(lectioBrevis))
+  writeFileSync(join(root, 'resources/texts/prima1962-variable-texts-bilingual.txt'), writeVariableTextsExport(fixedTexts, lectioBrevis))
   writeFileSync(join(root, 'docs/prima1962-psalm-alignment-report.md'), psalmAlignmentReport)
   writeTranslationReport(translationStatus)
 }
@@ -979,7 +979,7 @@ function writeVariableTextsExport(fixedTexts, lectioBrevis) {
 }
 
 function buildPsalmAlignmentReport(psalms) {
-  const lines = ['# Prima 1962 Psalm Alignment Report', '', 'Source: `思高圣咏集_武加大编号_逐节纯文本.txt`.', '']
+  const lines = ['# Prima 1962 Psalm Alignment Report', '', 'Source: `resources/texts/思高圣咏集_武加大编号_逐节纯文本.txt`.', '']
   for (const [spec, verses] of Object.entries(psalms)) {
     const first = verses[0]
     const last = verses[verses.length - 1]
