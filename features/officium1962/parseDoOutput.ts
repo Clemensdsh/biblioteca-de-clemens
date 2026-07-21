@@ -1,15 +1,19 @@
-import type { ExportedOfficeHour, LiturgicalBlock, LiturgicalBlockType, MinorHourName, MinorHourMetadata, Office1962Day, OfficeHour, SourceRef } from './schema.ts'
+import type { ExportedOfficeHour, LiturgicalBlock, LiturgicalBlockType, MajorHourMetadata, MajorHourName, MinorHourName, MinorHourMetadata, Office1962Day, OfficeHour, SourceRef } from './schema.ts'
 import { normalizeLatinTechnical } from './normalizeLatin.ts'
 
 const ORDINARY_COMPLETORIUM = 'web/www/horas/Ordinarium/Completorium.txt'
+const ORDINARY_LAUDES = 'web/www/horas/Ordinarium/Laudes.txt'
 const ORDINARY_MINOR = 'web/www/horas/Ordinarium/Minor.txt'
 const ORDINARY_PRIMA = 'web/www/horas/Ordinarium/Prima.txt'
+const ORDINARY_VESPERAE = 'web/www/horas/Ordinarium/Vespera.txt'
 const COMMON_PRAYERS = 'web/www/horas/Latin/Psalterium/Common/Prayers.txt'
 const COMMON_RUBRICS = 'web/www/horas/Latin/Psalterium/Common/Rubricae.txt'
+const MAJOR_SPECIAL = 'web/www/horas/Latin/Psalterium/Special/Major Special.txt'
 const MINOR_SPECIAL = 'web/www/horas/Latin/Psalterium/Special/Minor Special.txt'
 const PRIMA_SPECIAL = 'web/www/horas/Latin/Psalterium/Special/Prima Special.txt'
 const PSALM_PATH = 'web/www/horas/Latin/Psalterium/Psalmorum'
 const MARTYROLOGY_PATH = 'web/www/horas/Latin/Martyrologium'
+const majorHourNames = ['laudes', 'vesperae'] as const
 const minorHourNames = ['tertia', 'sexta', 'nona'] as const
 
 export function buildOffice1962DayFromExport(exported: ExportedOfficeHour): Office1962Day {
@@ -32,12 +36,14 @@ export function buildOffice1962DayFromExport(exported: ExportedOfficeHour): Offi
 }
 
 export function parseExportedOfficeHour(exported: ExportedOfficeHour): OfficeHour {
+  if (isMajorHourName(exported.hour))
+    return parseMajorHour(exported)
   if (isMinorHourName(exported.hour))
     return parseMinorHour(exported)
   if (exported.hour === 'prima')
     return parsePrima(exported)
   if (exported.hour !== 'completorium')
-    throw new Error(`Phase 3 parser supports Completorium, Tertia, Sexta, Nona, and Prima; received ${exported.hour}`)
+    throw new Error(`Phase 4 parser supports Completorium, Laudes, Tertia, Sexta, Nona, Prima, and Vesperae; received ${exported.hour}`)
 
   const blocks: LiturgicalBlock[] = []
 
@@ -114,6 +120,105 @@ export function blockPlainText(block: LiturgicalBlock): string {
     block.title,
     ...block.text,
   ].filter(Boolean).join('\n'))
+}
+
+function parseMajorHour(exported: ExportedOfficeHour): OfficeHour {
+  const blocks: LiturgicalBlock[] = []
+  let psalmodyIndex = 0
+
+  for (const unit of exported.units) {
+    const heading = firstRawHeading(unit.raw)
+    const lines = htmlToLines(unit.html)
+    const raw = unit.raw
+
+    if (isOmittedHeading(heading)) {
+      blocks.push(omittedBlock(exported, raw, heading, lines))
+    }
+    else if (heading === 'Incipit') {
+      blocks.push(block(exported, raw, 'dialogue', 'incipit', 'Incipit', lines, {
+        includesGloriaPatri: hasGloriaPatri(lines),
+        includesAlleluia: lines.some(line => line.includes('Allelu')),
+      }))
+    }
+    else if (isPsalmodyHeading(heading)) {
+      const hasPsalmody = firstPsalmOrCanticleIndex(lines) >= 0
+      if (hasPsalmody) {
+        psalmodyIndex += 1
+        blocks.push(...parsePsalmUnit(exported, raw, lines, `psalmody-${psalmodyIndex}`))
+      }
+      else {
+        blocks.push(emptyMajorSectionBlock(exported, raw, heading, lines, 'psalmi'))
+      }
+    }
+    else if (!heading && raw.trim().startsWith('&psalm(')) {
+      psalmodyIndex += 1
+      const psalmTitle = lines.find(line => line.startsWith('Psalmus ') || line.startsWith('Canticum ')) || 'Psalmus'
+      blocks.push(...parsePsalmUnit(exported, raw, lines, psalmBlockId(psalmTitle, raw)))
+    }
+    else if (!heading && firstPsalmOrCanticleIndex(lines) >= 0) {
+      psalmodyIndex += 1
+      const psalmTitle = lines.find(line => line.startsWith('Psalmus ') || line.startsWith('Canticum ')) || 'Psalmus'
+      blocks.push(...parsePsalmUnit(exported, raw, lines, psalmBlockId(psalmTitle, raw)))
+    }
+    else if (!heading && raw.trim().startsWith('!')) {
+      blocks.push(block(exported, raw, 'rubric', `rubric-${unit.id.slice(-3)}`, undefined, lines, {
+        sourceKind: 'ordinary',
+        specialStructure: 'easter',
+      }, lines))
+    }
+    else if (heading?.startsWith('Versus (In loco Capituli)')) {
+      blocks.push(block(exported, raw, lines.some(line => line.startsWith('Ant. ')) ? 'antiphon' : 'versicle', 'versus-in-loco-capituli', heading, lines, {
+        replacesCapitulum: true,
+        specialStructure: exported.liturgicalTitle.includes('Resurrectionis') ? 'easter' : 'special',
+      }))
+    }
+    else if (heading?.startsWith('Capitulum Hymnus Versus') || heading?.startsWith('Capitulum Responsorium Hymnus Versus')) {
+      blocks.push(...parseCapitulumHymnusVersus(exported, raw, lines, heading))
+    }
+    else if (heading === 'Hymnus') {
+      const hymnLines = lines.filter(line => line !== 'Hymnus')
+      if (hymnLines.length)
+        blocks.push(block(exported, raw, 'hymn', 'hymnus', heading, lines, hymnMetadata(lines)))
+      else
+        blocks.push(emptyMajorSectionBlock(exported, raw, heading, lines, 'hymnus'))
+    }
+    else if (heading?.startsWith('Canticum: Benedictus') || heading?.startsWith('Canticum: Magnificat')) {
+      blocks.push(...parseGospelCanticle(exported, raw, lines, heading))
+    }
+    else if (heading?.startsWith('Oratio')) {
+      blocks.push(...parseMajorOratio(exported, raw, lines, heading))
+    }
+    else if (heading?.startsWith('Suffragium')) {
+      blocks.push(block(exported, raw, 'commemoration', 'suffragium', heading, lines, {
+        sourceKind: 'ordinary',
+        suffrage: true,
+      }))
+    }
+    else if (heading === 'Conclusio') {
+      blocks.push(block(exported, raw, 'blessing', 'conclusio', heading, lines, {
+        formula: 'major-hour-conclusion',
+      }))
+    }
+    else {
+      blocks.push(block(exported, raw, 'unknown', slugify(heading || `unit-${unit.id}`), heading, lines))
+    }
+  }
+
+  const metadata = majorHourMetadata(exported.hour as MajorHourName, blocks)
+  for (const item of blocks)
+    item.metadata = { ...(item.metadata || {}), majorHour: metadata }
+
+  return {
+    name: exported.hour,
+    title: hourTitle(exported.hour),
+    metadata,
+    blocks,
+    sourceRefs: exported.sourceRefs,
+    warnings: [
+      ...exported.warnings,
+      ...blocks.flatMap(item => item.warnings),
+    ],
+  }
 }
 
 function parseMinorHour(exported: ExportedOfficeHour): OfficeHour {
@@ -365,7 +470,7 @@ function parseUntitledUnit(exported: ExportedOfficeHour, raw: string, lines: str
 function parsePsalmUnit(exported: ExportedOfficeHour, raw: string, lines: string[], fallbackKey: string): LiturgicalBlock[] {
   const blocks: LiturgicalBlock[] = []
   const firstAntiphonIndex = lines.findIndex(line => line.startsWith('Ant. '))
-  const psalmStart = lines.findIndex(line => line.startsWith('Psalmus '))
+  const psalmStart = firstPsalmOrCanticleIndex(lines)
   const closingAntiphonIndex = lines.findLastIndex(line => line.startsWith('Ant. '))
   const openingAntiphon = firstAntiphonIndex > -1 && firstAntiphonIndex < psalmStart ? lines[firstAntiphonIndex] : undefined
 
@@ -381,8 +486,12 @@ function parsePsalmUnit(exported: ExportedOfficeHour, raw: string, lines: string
     ? lines.slice(psalmStart, closingAntiphonIndex)
     : lines.slice(psalmStart)
   const psalmTitle = psalmLines[0] || 'Psalmus'
-  blocks.push(block(exported, raw, 'psalm', psalmBlockId(psalmTitle), psalmTitle, psalmLines.slice(1), {
+  const psalmSourceNumber = psalmNumber(psalmTitle) || psalmNumberFromRaw(raw)
+  const blockType = psalmTitle.startsWith('Canticum ') ? 'canticle' : 'psalm'
+  blocks.push(block(exported, raw, blockType, psalmBlockId(psalmTitle, raw), psalmTitle, psalmLines.slice(1), {
+    canticle: blockType === 'canticle' ? psalmTitle : undefined,
     psalmNumber: psalmNumber(psalmTitle),
+    psalmSourceNumber,
     segment: psalmSegment(psalmTitle),
     verses: psalmLines.filter(line => /^\d+:\d+/.test(line)),
     includesGloriaPatri: hasGloriaPatri(psalmLines),
@@ -420,6 +529,121 @@ function parseCapitulumResponsoryVersus(exported: ExportedOfficeHour, raw: strin
       response: versicleLines.find(line => line.startsWith('℟.')),
     }),
   ]
+}
+
+function parseCapitulumHymnusVersus(exported: ExportedOfficeHour, raw: string, lines: string[], heading: string): LiturgicalBlock[] {
+  const bodyLines = lines.filter(line => line !== heading)
+  const hymnIndex = bodyLines.findIndex(line => line === 'Hymnus')
+  const dividerIndexes = indexesOf(bodyLines, '_')
+  const firstDivider = dividerIndexes[0] ?? (hymnIndex > -1 ? hymnIndex : bodyLines.length)
+  const lastDivider = dividerIndexes.at(-1) ?? bodyLines.length
+  const capitulumLines = bodyLines.slice(0, firstDivider)
+  const betweenFirstAndHymn = hymnIndex > firstDivider
+    ? bodyLines.slice(firstDivider + 1, hymnIndex)
+    : []
+  const hymnLines = hymnIndex > -1
+    ? bodyLines.slice(hymnIndex, lastDivider > hymnIndex ? lastDivider : bodyLines.length)
+    : []
+  const versicleLines = lastDivider < bodyLines.length - 1
+    ? bodyLines.slice(lastDivider + 1)
+    : []
+
+  const blocks: LiturgicalBlock[] = []
+  if (capitulumLines.length) {
+    blocks.push(block(exported, raw, 'capitulum', 'capitulum', 'Capitulum', capitulumLines, {
+      ...readingMetadata(capitulumLines),
+      sourceKind: heading.includes('Proprio') ? 'proper' : 'ordinary',
+    }))
+  }
+  if (betweenFirstAndHymn.length) {
+    blocks.push(block(exported, raw, 'responsory', 'responsorium-breve', 'Responsorium breve', betweenFirstAndHymn, responsoryMetadata(betweenFirstAndHymn)))
+  }
+  if (hymnLines.length) {
+    blocks.push(block(exported, raw, 'hymn', 'hymnus', 'Hymnus', hymnLines, hymnMetadata(hymnLines)))
+  }
+  if (versicleLines.length) {
+    blocks.push(block(exported, raw, 'versicle', 'versus', 'Versus', versicleLines, {
+      versicle: versicleLines.find(line => line.startsWith('℣.')),
+      response: versicleLines.find(line => line.startsWith('℟.')),
+    }))
+  }
+  return blocks.length
+    ? blocks
+    : [emptyMajorSectionBlock(exported, raw, heading, lines, slugify(heading))]
+}
+
+function parseGospelCanticle(exported: ExportedOfficeHour, raw: string, lines: string[], heading: string): LiturgicalBlock[] {
+  const isBenedictus = heading.startsWith('Canticum: Benedictus')
+  const canticleKey = isBenedictus ? 'benedictus' : 'magnificat'
+  const canticleTitle = isBenedictus ? 'Canticum Zachariae' : 'Canticum B. Mariae Virginis'
+  const source = isBenedictus ? 'Luc. 1:68-79' : 'Luc. 1:46-55'
+  const openingAntiphon = lines.find(line => line.startsWith('Ant. '))
+  const canticleStart = lines.findIndex(line => line.startsWith('Canticum '))
+  const closingAntiphonIndex = lines.findLastIndex(line => line.startsWith('Ant. '))
+  const canticleLines = canticleStart >= 0
+    ? lines.slice(canticleStart, closingAntiphonIndex > canticleStart ? closingAntiphonIndex : undefined)
+    : []
+  const antiphonKey = openingAntiphon ? normalizeAntiphonKey(openingAntiphon) : canticleKey
+
+  return [
+    block(exported, raw, 'antiphon', `${canticleKey}-antiphon-open`, `Antiphona ad ${canticleKey}`, openingAntiphon ? [openingAntiphon] : [], {
+      position: 'before-canticle',
+      repeated: true,
+      antiphonKey,
+      sourceKind: heading.includes('Proprio') ? 'proper' : 'ordinary',
+    }),
+    block(exported, raw, 'canticle', canticleKey, canticleTitle, canticleLines.slice(1), {
+      canticle: canticleKey,
+      source,
+      verses: canticleLines.filter(line => /^\d+:\d+/.test(line)),
+      includesGloriaPatri: hasGloriaPatri(canticleLines),
+      antiphonKey,
+      sourcePsalm: isBenedictus ? '231' : '232',
+    }),
+    block(exported, raw, 'antiphon', `${canticleKey}-antiphon-close`, `Antiphona repetita ad ${canticleKey}`, closingAntiphonIndex > canticleStart ? [lines[closingAntiphonIndex]] : [], {
+      position: 'after-canticle',
+      repeated: true,
+      antiphonKey,
+      sourceKind: heading.includes('Proprio') ? 'proper' : 'ordinary',
+    }),
+  ]
+}
+
+function parseMajorOratio(exported: ExportedOfficeHour, raw: string, lines: string[], heading: string): LiturgicalBlock[] {
+  const bodyLines = lines.filter(line => line !== heading)
+  const commemorationIndexes = bodyLines
+    .map((line, index) => line.startsWith('Commemoratio ') ? index : -1)
+    .filter(index => index >= 0)
+
+  if (!commemorationIndexes.length) {
+    return [block(exported, raw, 'prayer', 'oratio', heading, lines, {
+      sourceKind: heading.includes('Proprio') ? 'proper' : 'ordinary',
+      includesBenedicamusDomino: lines.some(line => line.includes('Benedicamus') || line.includes('Benedicámus')),
+    })]
+  }
+
+  const blocks: LiturgicalBlock[] = []
+  const mainLines = bodyLines.slice(0, commemorationIndexes[0])
+  if (mainLines.length) {
+    blocks.push(block(exported, raw, 'prayer', 'oratio', heading, mainLines, {
+      sourceKind: heading.includes('Proprio') ? 'proper' : 'ordinary',
+    }))
+  }
+
+  for (let index = 0; index < commemorationIndexes.length; index += 1) {
+    const start = commemorationIndexes[index]
+    const end = commemorationIndexes[index + 1] ?? bodyLines.length
+    const commemorationLines = bodyLines.slice(start, end)
+    const title = commemorationLines[0] || 'Commemoratio'
+    blocks.push(block(exported, raw, 'commemoration', `commemoratio-${index + 1}`, title, commemorationLines, {
+      commemorationTitle: title,
+      includesAntiphon: commemorationLines.some(line => line.startsWith('Ant. ')),
+      includesCollect: commemorationLines.some(line => line === 'Oremus.' || line === 'Orémus.'),
+      sourceKind: 'proper',
+    }))
+  }
+
+  return blocks
 }
 
 function parseCanticleUnit(exported: ExportedOfficeHour, raw: string, lines: string[]): LiturgicalBlock[] {
@@ -506,6 +730,15 @@ function omittedBlock(exported: ExportedOfficeHour, raw: string, heading: string
   })
 }
 
+function emptyMajorSectionBlock(exported: ExportedOfficeHour, raw: string, heading: string | undefined, lines: string[], key: string): LiturgicalBlock {
+  return block(exported, raw, 'rubric', `${key}-empty`, heading || key, lines, {
+    empty: true,
+    emptyMajorSection: key,
+    resolvedByUpstream: true,
+    specialStructure: exported.liturgicalTitle.includes('Cena Domini') ? 'sacred-triduum' : 'special',
+  })
+}
+
 function isDefunctorumSpecial(raw: string): boolean {
   return raw.includes("Oratio mortuorum") || raw.includes("&special('Conclusio'")
 }
@@ -562,7 +795,7 @@ function sourceRefsFor(exported: ExportedOfficeHour, raw: string, type: Liturgic
   }]
 
   if (type === 'psalm') {
-    const number = psalmNumber(title || text[0] || '')
+    const number = psalmNumber(title || text[0] || '') || psalmNumberFromRaw(raw)
     if (number) {
       refs.push({
         ...base,
@@ -574,15 +807,16 @@ function sourceRefsFor(exported: ExportedOfficeHour, raw: string, type: Liturgic
   }
 
   if (type === 'canticle') {
+    const number = canticlePsalmNumber(title, raw)
     refs.push({
       ...base,
-      path: `${PSALM_PATH}/Psalm233.txt`,
-      section: 'Nunc dimittis',
+      path: `${PSALM_PATH}/Psalm${number}.txt`,
+      section: canticleSection(title, number),
       transformation: ['resolve_refs', 'canticle expansion'],
     })
   }
 
-  if (['dialogue', 'prayer', 'blessing', 'marian-antiphon'].includes(type)) {
+  if (['dialogue', 'prayer', 'blessing', 'marian-antiphon', 'commemoration'].includes(type)) {
     refs.push({
       ...base,
       path: COMMON_PRAYERS,
@@ -594,7 +828,7 @@ function sourceRefsFor(exported: ExportedOfficeHour, raw: string, type: Liturgic
   if (['hymn', 'capitulum', 'responsory', 'versicle', 'antiphon'].includes(type)) {
     refs.push({
       ...base,
-      path: exported.hour === 'prima' ? PRIMA_SPECIAL : MINOR_SPECIAL,
+      path: specialPathFor(exported.hour),
       section: title || type,
       transformation: ['specials', `${exported.hour} special text`],
     })
@@ -625,6 +859,10 @@ function isMinorHourName(value: string): value is MinorHourName {
   return (minorHourNames as readonly string[]).includes(value)
 }
 
+function isMajorHourName(value: string): value is MajorHourName {
+  return (majorHourNames as readonly string[]).includes(value)
+}
+
 function hourTitle(hour: string): string {
   return hour.charAt(0).toUpperCase() + hour.slice(1)
 }
@@ -632,11 +870,23 @@ function hourTitle(hour: string): string {
 function ordinaryPathFor(hour: string): string {
   if (hour === 'completorium')
     return ORDINARY_COMPLETORIUM
+  if (hour === 'laudes')
+    return ORDINARY_LAUDES
   if (hour === 'prima')
     return ORDINARY_PRIMA
+  if (hour === 'vesperae')
+    return ORDINARY_VESPERAE
   if (isMinorHourName(hour))
     return ORDINARY_MINOR
   return `web/www/horas/Ordinarium/${hourTitle(hour)}.txt`
+}
+
+function specialPathFor(hour: string): string {
+  if (isMajorHourName(hour))
+    return MAJOR_SPECIAL
+  if (hour === 'prima')
+    return PRIMA_SPECIAL
+  return MINOR_SPECIAL
 }
 
 function isPsalmodyHeading(heading: string | undefined): boolean {
@@ -659,6 +909,29 @@ function minorHourMetadata(hour: MinorHourName, blocks: LiturgicalBlock[]): Mino
     antiphonSource: firstAntiphon?.sourceRefs[0],
     capitulumSource: capitulum?.sourceRefs[0],
     responsorySource: responsory?.sourceRefs[0],
+    collectSource: collect?.sourceRefs[0],
+  }
+}
+
+function majorHourMetadata(hour: MajorHourName, blocks: LiturgicalBlock[]): MajorHourMetadata {
+  const firstAntiphon = blocks.find(item => item.type === 'antiphon')
+  const capitulum = blocks.find(item => item.type === 'capitulum')
+  const hymn = blocks.find(item => item.type === 'hymn')
+  const collect = blocks.find(item => item.type === 'prayer')
+  const hasEmptyPsalmody = blocks.some(item => item.metadata?.emptyMajorSection === 'psalmi')
+
+  return {
+    hour,
+    psalmodySource: hasEmptyPsalmody
+      ? 'special'
+      : firstAntiphon?.metadata?.sourceKind === 'proper'
+        ? 'proper'
+        : 'ferial-psalter',
+    gospelCanticle: hour === 'laudes' ? 'benedictus' : 'magnificat',
+    concurrenceResolvedByUpstream: hour === 'vesperae',
+    antiphonSource: firstAntiphon?.sourceRefs[0],
+    capitulumSource: capitulum?.sourceRefs[0],
+    hymnSource: hymn?.sourceRefs[0],
     collectSource: collect?.sourceRefs[0],
   }
 }
@@ -694,15 +967,44 @@ function psalmNumber(title: string): string | undefined {
   return title.match(/Psalmus\s+(\d+)/)?.[1]
 }
 
+function psalmNumberFromRaw(raw: string): string | undefined {
+  return raw.match(/&psalm\((\d+)/)?.[1]
+}
+
 function psalmSegment(title: string): string | undefined {
   return title.match(/\(([^)]+)\)/)?.[1]
 }
 
-function psalmBlockId(title: string): string {
-  const number = psalmNumber(title) || 'unknown'
+function psalmBlockId(title: string, raw = ''): string {
+  const number = psalmNumber(title) || psalmNumberFromRaw(raw) || 'unknown'
   const segment = psalmSegment(title)?.replace(/\W+/g, '-') || 'full'
   const ordinal = title.match(/\[(\d+)\]/)?.[1] || '1'
-  return `psalm-${number}-${segment}-${ordinal}`
+  return `${title.startsWith('Canticum ') ? 'canticle' : 'psalm'}-${number}-${segment}-${ordinal}`
+}
+
+function firstPsalmOrCanticleIndex(lines: string[]): number {
+  return lines.findIndex(line => line.startsWith('Psalmus ') || line.startsWith('Canticum '))
+}
+
+function canticlePsalmNumber(title: string | undefined, raw: string): string {
+  const normalizedTitle = normalizeLatinTechnical(title || '')
+  if (normalizedTitle.includes('Simeonis') || raw.includes('&psalm(233)'))
+    return '233'
+  if (normalizedTitle.includes('Zachariae') || normalizedTitle.includes('Zachariæ') || raw.includes('&psalm(231)'))
+    return '231'
+  if (normalizedTitle.includes('Mariae') || normalizedTitle.includes('Mariæ') || raw.includes('&psalm(232)'))
+    return '232'
+  return psalmNumberFromRaw(raw) || '233'
+}
+
+function canticleSection(title: string | undefined, number: string): string {
+  if (number === '231')
+    return 'Benedictus'
+  if (number === '232')
+    return 'Magnificat'
+  if (number === '233')
+    return 'Nunc dimittis'
+  return title || `Psalm ${number}`
 }
 
 function readingMetadata(lines: string[]): Record<string, unknown> {

@@ -1,10 +1,10 @@
 # Officium Romanum 1962 Progress
 
-Last updated: 2026-07-20T21:36:30-04:00
+Last updated: 2026-07-20T22:05:30-04:00
 
 ## Current Phase
 
-Phase 3 complete: Tertia, Sexta, Nona, and Prima vertical slice.
+Phase 4 complete: Laudes and Vesperae vertical slice.
 
 ## Completed
 
@@ -41,15 +41,22 @@ Phase 3 complete: Tertia, Sexta, Nona, and Prima vertical slice.
 - Added Phase 3 oracle comparison report for seven dates and four hours.
 - Updated the isolated playground with an hour selector.
 - Rechecked Completorium oracle comparison after Phase 3 changes.
+- Added Phase 4 structured output for Laudes and Vesperae.
+- Added a shared major-hour parser model for Laudes and Vesperae.
+- Added major-hour schema metadata for psalmody source, Gospel canticle, source refs, and upstream-resolved Vesperae concurrence.
+- Added support for five-part Laudes psalmody, Old Testament canticles, Benedictus, Magnificat, `Capitulum Hymnus Versus`, `Versus (In loco Capituli)`, commemorations, omitted sections, and explicit upstream-empty Vesperae sections.
+- Added Phase 4 oracle comparison report for seven dates and two hours.
+- Updated the isolated playground selector with Laudes and Vesperae.
+- Rechecked Completorium and Phase 3 oracle comparisons after Phase 4 changes.
 
 ## In Progress
 
-- None for Phase 3.
+- None for Phase 4.
 
 ## Not Started
 
-- Phase 4 Laudes and Vesperae.
 - 2026 full-year generation.
+- Matutinum.
 
 ## Blockers
 
@@ -57,11 +64,12 @@ Phase 3 complete: Tertia, Sexta, Nona, and Prima vertical slice.
 
 ## Latest Test And Build Results
 
-- `pnpm officium1962:validate`: pass, 1 file / 58 tests plus Completorium and Phase 3 oracle comparisons.
-- `pnpm test`: pass, 6 files / 104 tests.
+- `pnpm officium1962:validate`: pass, 1 file / 80 tests plus Completorium, Phase 3, and Phase 4 oracle comparisons.
+- `pnpm test`: pass, 6 files / 126 tests.
 - `pnpm build`: pass.
 - `pnpm officium1962:build-day --date=2026-07-20 --hours=completorium`: pass.
 - `pnpm officium1962:build-day --date=2026-07-20 --hours=tertia,sexta,nona,prima`: pass.
+- `pnpm officium1962:build-day --date=2026-07-20 --hours=laudes,vesperae`: pass.
 - `pnpm exec vite build --config playground/officium1962/vite.config.mjs --outDir .tmp-officium1962-preview-build`: pass.
 
 ## Upstream Commit
@@ -84,6 +92,13 @@ Phase 3 complete: Tertia, Sexta, Nona, and Prima vertical slice.
 - 2026-08-15 Tertia/Sexta/Nona/Prima: generated and oracle exact
 - 2026-11-02 Tertia/Sexta/Nona/Prima: generated as defunctorum structures and oracle exact
 - 2026-12-25 Tertia/Sexta/Nona/Prima: generated and oracle exact
+- 2026-07-20 Laudes/Vesperae: generated and oracle exact
+- 2026-07-19 Laudes/Vesperae: generated and oracle exact
+- 2026-04-02 Laudes/Vesperae: generated as Holy Thursday special structures and oracle exact
+- 2026-04-05 Laudes/Vesperae: generated as Easter special structures and oracle exact
+- 2026-08-15 Laudes/Vesperae: generated and oracle exact
+- 2026-11-02 Laudes/Vesperae: generated as defunctorum structures and oracle exact
+- 2026-12-25 Laudes/Vesperae: generated and oracle exact
 
 ## Mismatch Count
 
@@ -94,15 +109,17 @@ Phase 3 complete: Tertia, Sexta, Nona, and Prima vertical slice.
   - `public/data/officium1962/reports/completorium-oracle-comparison.json`
   - `docs/officium1962/reports/minor-hours-oracle-comparison.md`
   - `public/data/officium1962/reports/minor-hours-oracle-comparison.json`
+  - `docs/officium1962/reports/major-hours-oracle-comparison.md`
+  - `public/data/officium1962/reports/major-hours-oracle-comparison.json`
 
 ## Unresolved Count
 
 - Date-level unresolved: 0.
 - Block-level unresolved: 0.
-- Adapter warnings for verified Completorium and Phase 3 dates: 0.
+- Adapter warnings for verified Completorium, Phase 3, and Phase 4 dates: 0.
 - Source line ranges remain limited where the upstream Perl pipeline has already resolved inclusions; file and section are recorded.
-- Deduplication, year generation, Laudes, Vesperae, and Matutinum remain unresolved.
+- Deduplication, year generation, and Matutinum remain unresolved.
 
 ## Next Step
 
-Begin Phase 4 only after review: add Laudes and Vesperae while keeping the feature isolated from production routes.
+Proceed to Phase 5 Matutinum only after review; do not start it until Phase 4 is accepted.

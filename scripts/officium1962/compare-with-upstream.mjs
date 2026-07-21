@@ -128,7 +128,7 @@ writeMarkdown(`docs/officium1962/reports/${reportName}.md`, report)
 
 const failed = results.filter(result => result.status === 'mismatch' || result.status === 'unresolved')
 if (failed.length) {
-  console.error(`Completorium oracle comparison failed for ${failed.length} date(s).`)
+  console.error(`${reportName} failed for ${failed.length} date/hour result(s).`)
   process.exit(1)
 }
 
@@ -246,7 +246,7 @@ function writeMarkdown(path, report) {
   ]
 
   for (const result of report.results) {
-    lines.push(`### ${result.date}`)
+    lines.push(`### ${result.date} ${result.hour}`)
     lines.push('')
     lines.push(`Status: ${result.status}`)
     lines.push('')
@@ -263,7 +263,7 @@ function writeMarkdown(path, report) {
 
   lines.push('## Method')
   lines.push('')
-  lines.push('The oracle is the pinned Divinum Officium Perl engine at the recorded commit, invoked through the local adapter with Latin and Rubrics 1960 - 1960. The comparison checks each structured Completorium block against the upstream resolved text stream in order. It does not compare screenshots or one full HTML blob.')
+  lines.push(`The oracle is the pinned Divinum Officium Perl engine at the recorded commit, invoked through the local adapter with Latin and Rubrics 1960 - 1960. The comparison checks each structured ${report.hours.join(', ')} block against the upstream resolved text stream in order. It does not compare screenshots or one full HTML blob.`)
   lines.push('')
   lines.push('The upstream Perl pipeline has already resolved many source inclusions before export, so this comparison verifies textual and structural preservation. Per-block source file references are produced separately by the structured exporter.')
 

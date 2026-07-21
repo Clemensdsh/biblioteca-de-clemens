@@ -1,0 +1,1458 @@
+{
+  "schemaVersion": "0.1.0",
+  "generatedAt": "2026-07-21T02:04:37.443Z",
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "dates": [
+    "2026-07-20",
+    "2026-07-19",
+    "2026-04-02",
+    "2026-04-05",
+    "2026-08-15",
+    "2026-11-02",
+    "2026-12-25"
+  ],
+  "hours": [
+    "laudes",
+    "vesperae"
+  ],
+  "summary": {
+    "dateCounts": {
+      "exact": 14,
+      "normalized-equivalent": 0,
+      "expected-structural-difference": 0,
+      "mismatch": 0,
+      "unresolved": 0
+    },
+    "blockCounts": {
+      "exact": 234,
+      "normalized-equivalent": 0,
+      "expected-structural-difference": 0,
+      "mismatch": 0,
+      "unresolved": 0
+    }
+  },
+  "results": [
+    {
+      "date": "2026-07-20",
+      "hour": "laudes",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-07-20-laudes-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-psalm-46-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-psalm-5-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-psalm-5-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-psalm-5-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-psalm-28-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-psalm-28-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-psalm-28-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-canticle-211-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-canticle-211-full-4",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-canticle-211-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-psalm-116-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-psalm-116-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-psalm-116-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-versus",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-benedictus-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-benedictus",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-benedictus-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-preces-feriales-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-commemoratio-1",
+          "type": "commemoration",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-laudes-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 26,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "hour": "vesperae",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-psalmi-empty",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-hymnus-empty",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-magnificat-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-magnificat",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-magnificat-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-preces-feriales-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 9,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "hour": "laudes",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-07-19-laudes-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-psalm-92-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-psalm-99-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-psalm-99-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-psalm-99-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-psalm-62-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-psalm-62-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-psalm-62-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-canticle-210-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-canticle-210-full-4",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-canticle-210-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-psalm-148-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-psalm-148-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-psalm-148-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-versus",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-benedictus-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-benedictus",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-benedictus-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-preces-feriales-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-laudes-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 25,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "hour": "vesperae",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-psalmi-empty",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-hymnus-empty",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-magnificat-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-magnificat",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-magnificat-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-preces-feriales-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 9,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "hour": "laudes",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-04-02-laudes-incipit-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-psalm-50-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-psalm-89-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-psalm-89-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-psalm-89-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-psalm-35-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-psalm-35-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-psalm-35-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-canticle-224-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-canticle-224-full-4",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-canticle-224-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-psalm-146-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-psalm-146-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-psalm-146-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-versus-in-loco-capituli",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-benedictus-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-benedictus",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-benedictus-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-preces-feriales-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-laudes-conclusio-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 23,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "hour": "vesperae",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-incipit-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-psalmi-empty",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-capitulum-hymnus-versus-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-magnificat-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-magnificat",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-magnificat-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-preces-feriales-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-conclusio-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 9,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-04-05",
+      "hour": "laudes",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-04-05-laudes-rubric-001",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-psalm-92-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-psalm-99-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-psalm-99-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-psalm-99-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-psalm-62-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-psalm-62-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-psalm-62-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-canticle-210-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-canticle-210-full-4",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-canticle-210-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-psalm-148-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-psalm-148-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-psalm-148-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-versus-in-loco-capituli",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-benedictus-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-benedictus",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-benedictus-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-preces-feriales-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-laudes-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 24,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-04-05",
+      "hour": "vesperae",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-psalmi-empty",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-versus-in-loco-capituli",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-magnificat-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-magnificat",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-magnificat-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-preces-feriales-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 9,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "hour": "laudes",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-08-15-laudes-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-psalm-92-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-psalm-99-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-psalm-99-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-psalm-99-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-psalm-62-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-psalm-62-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-psalm-62-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-canticle-210-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-canticle-210-full-4",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-canticle-210-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-psalm-148-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-psalm-148-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-psalm-148-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-versus",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-benedictus-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-benedictus",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-benedictus-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-preces-feriales-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-laudes-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 25,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "hour": "vesperae",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-psalmi-empty",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-hymnus-empty",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-magnificat-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-magnificat",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-magnificat-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-preces-feriales-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 9,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "hour": "laudes",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-11-02-laudes-incipit-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-psalm-50-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-psalm-64-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-psalm-64-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-psalm-64-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-psalm-62-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-psalm-62-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-psalm-62-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-canticle-222-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-canticle-222-full-4",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-canticle-222-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-psalm-150-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-psalm-150-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-psalm-150-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-versus-in-loco-capituli",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-benedictus-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-benedictus",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-benedictus-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-preces-feriales-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-laudes-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 23,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "hour": "vesperae",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-incipit-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-psalmi-empty",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-capitulum-hymnus-versus-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-magnificat-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-magnificat",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-magnificat-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-preces-feriales-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 9,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-12-25",
+      "hour": "laudes",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-12-25-laudes-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-psalm-92-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-psalm-99-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-psalm-99-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-psalm-99-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-psalm-62-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-psalm-62-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-psalm-62-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-canticle-210-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-canticle-210-full-4",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-canticle-210-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-psalm-148-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-psalm-148-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-psalm-148-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-versus",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-benedictus-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-benedictus",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-benedictus-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-preces-feriales-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-laudes-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 25,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-12-25",
+      "hour": "vesperae",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-psalmi-empty",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-hymnus-empty",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-magnificat-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-magnificat",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-magnificat-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-preces-feriales-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 9,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    }
+  ]
+}

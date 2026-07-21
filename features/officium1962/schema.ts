@@ -11,6 +11,7 @@ export const office1962HourNames = [
 
 export type OfficeHourName = typeof office1962HourNames[number]
 export type MinorHourName = 'tertia' | 'sexta' | 'nona'
+export type MajorHourName = 'laudes' | 'vesperae'
 
 export interface MinorHourMetadata {
   hour: MinorHourName
@@ -22,6 +23,21 @@ export interface MinorHourMetadata {
   antiphonSource?: SourceRef
   capitulumSource?: SourceRef
   responsorySource?: SourceRef
+  collectSource?: SourceRef
+}
+
+export interface MajorHourMetadata {
+  hour: MajorHourName
+  psalmodySource:
+    | 'ferial-psalter'
+    | 'festal'
+    | 'proper'
+    | 'special'
+  gospelCanticle: 'benedictus' | 'magnificat'
+  concurrenceResolvedByUpstream?: boolean
+  antiphonSource?: SourceRef
+  capitulumSource?: SourceRef
+  hymnSource?: SourceRef
   collectSource?: SourceRef
 }
 
@@ -74,6 +90,7 @@ export type LiturgicalBlockType =
   | 'responsory'
   | 'versicle'
   | 'prayer'
+  | 'commemoration'
   | 'blessing'
   | 'martyrology'
   | 'chapter-office'
@@ -98,6 +115,7 @@ export interface OfficeHour {
   name: OfficeHourName
   title: string
   blocks: LiturgicalBlock[]
+  metadata?: Record<string, unknown>
   sourceRefs: SourceRef[]
   warnings: OfficeWarning[]
 }

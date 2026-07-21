@@ -13,6 +13,7 @@ const dates = [
   '2026-12-25',
 ]
 const phase3Hours = ['tertia', 'sexta', 'nona', 'prima'] as const
+const phase4Hours = ['laudes', 'vesperae'] as const
 
 function loadDay(date = '2026-07-20', hour = 'completorium'): Office1962Day {
   return JSON.parse(readFileSync(`public/data/officium1962/experimental/days/${date}/${hour}.json`, 'utf8'))
@@ -273,5 +274,96 @@ describe('officium1962 Phase 3 minor hours and Prima', () => {
         // Directory targets are checked by the build; this assertion only guards direct config files.
       }
     }
+  })
+})
+
+describe('officium1962 Phase 4 Laudes and Vesperae', () => {
+  it.each(dates.flatMap(date => phase4Hours.map(hour => [date, hour] as const)))('validates schema for %s %s', (date, hour) => {
+    expect(validateOffice1962Day(loadDay(date, hour))).toEqual([])
+  })
+
+  it.each(phase4Hours)('keeps %s block IDs stable and known', (hour) => {
+    const ids = blocks('2026-07-20', hour).map(block => block.id)
+    expect(new Set(ids).size).toBe(ids.length)
+    expect(ids.every(id => id.startsWith(`office-1962-2026-07-20-${hour}-`))).toBe(true)
+    expect(blocks('2026-07-20', hour).every(block => block.type !== 'unknown')).toBe(true)
+  })
+
+  it('models Laudes psalmody, Old Testament canticle, Benedictus, and commemoration', () => {
+    const laudes = blocks('2026-07-20', 'laudes')
+    const psalmody = laudes.filter(block => block.type === 'psalm' || (block.type === 'canticle' && block.metadata?.psalmSourceNumber === '211'))
+    expect(psalmody).toHaveLength(5)
+    expect(psalmody.map(block => block.metadata?.psalmSourceNumber || block.metadata?.psalmNumber)).toEqual(['46', '5', '28', '211', '116'])
+    expect(psalmody.every(block => block.metadata?.includesGloriaPatri === true)).toBe(true)
+
+    const benedictus = laudes.find(block => block.id.endsWith('-benedictus'))
+    expect(benedictus?.type).toBe('canticle')
+    expect(benedictus?.metadata?.canticle).toBe('benedictus')
+    expect(benedictus?.metadata?.source).toBe('Luc. 1:68-79')
+
+    const commemoration = laudes.find(block => block.type === 'commemoration')
+    expect(commemoration?.metadata?.includesAntiphon).toBe(true)
+    expect(commemoration?.sourceRefs.some(ref => ref.path.includes('Common/Prayers.txt'))).toBe(true)
+  })
+
+  it('models Vesperae Magnificat and upstream-resolved empty sections without inventing psalmody', () => {
+    const vesperae = blocks('2026-07-20', 'vesperae')
+    expect(loadDay('2026-07-20', 'vesperae').hours.vesperae?.metadata?.concurrenceResolvedByUpstream).toBe(true)
+    expect(vesperae.find(block => block.id.endsWith('psalmi-empty'))?.metadata?.emptyMajorSection).toBe('psalmi')
+    expect(vesperae.find(block => block.id.endsWith('hymnus-empty'))?.metadata?.emptyMajorSection).toBe('hymnus')
+
+    const magnificat = vesperae.find(block => block.id.endsWith('-magnificat'))
+    expect(magnificat?.type).toBe('canticle')
+    expect(magnificat?.metadata?.canticle).toBe('magnificat')
+    expect(magnificat?.metadata?.source).toBe('Luc. 1:46-55')
+  })
+
+  it('keeps Phase 4 Latin text NFC-normalized, free of HTML, and sourced', () => {
+    const keyTypes = new Set(['prayer', 'hymn', 'psalm', 'canticle', 'antiphon', 'commemoration', 'responsory', 'capitulum'])
+    for (const date of dates) {
+      for (const hour of phase4Hours) {
+        for (const block of blocks(date, hour)) {
+          for (const line of block.text) {
+            expect(line).toBe(line.normalize('NFC'))
+            expect(line).not.toMatch(/<\/?[a-z][^>]*>/i)
+          }
+          if (keyTypes.has(block.type)) {
+            expect(block.sourceRefs.length, `${date} ${hour} ${block.id}`).toBeGreaterThan(0)
+            expect(block.sourceRefs.every(ref => ref.upstreamCommit === '515a213f79951c563be4f599ca591c63aa63bb6d')).toBe(true)
+            expect(block.sourceRefs.every(ref => Boolean(ref.path))).toBe(true)
+          }
+        }
+      }
+    }
+  })
+
+  it('records special major-hour structures for Triduum, Easter, and All Souls', () => {
+    expect(blocks('2026-04-02', 'laudes').some(block => block.type === 'rubric' && block.metadata?.omitted === true)).toBe(true)
+    expect(blocks('2026-04-02', 'vesperae').some(block => block.id.endsWith('capitulum-hymnus-versus-omittitur'))).toBe(true)
+    expect(blocks('2026-04-05', 'laudes').some(block => block.type === 'rubric' && block.metadata?.specialStructure === 'easter')).toBe(true)
+    expect(blocks('2026-04-05', 'laudes').some(block => block.metadata?.replacesCapitulum === true)).toBe(true)
+    expect(blocks('2026-11-02', 'laudes').some(block => block.metadata?.replacesCapitulum === true)).toBe(true)
+    const defunctorumPsalmody = blocks('2026-11-02', 'laudes')
+      .filter(block => block.type === 'psalm' || (block.type === 'canticle' && block.metadata?.psalmSourceNumber))
+    expect(defunctorumPsalmody).toHaveLength(5)
+    expect(defunctorumPsalmody.every(block => block.metadata?.includesRequiemAeternam === true)).toBe(true)
+  })
+
+  it('has exact oracle comparison results for the Phase 4 fixture dates and hours', () => {
+    const report = JSON.parse(readFileSync('public/data/officium1962/reports/major-hours-oracle-comparison.json', 'utf8'))
+    expect(report.summary.dateCounts.exact).toBe(14)
+    expect(report.summary.blockCounts.exact).toBe(234)
+    expect(report.summary.blockCounts.mismatch).toBe(0)
+    expect(report.summary.blockCounts.unresolved).toBe(0)
+  })
+
+  it('adds Laudes and Vesperae only to the isolated preview', () => {
+    const preview = readFileSync('playground/officium1962/main.mjs', 'utf8')
+    expect(preview).toContain("'laudes'")
+    expect(preview).toContain("'vesperae'")
+
+    const parser = readFileSync('features/officium1962/parseDoOutput.ts', 'utf8')
+    expect(parser).not.toContain('features/prima1962')
+    expect(parser).not.toContain('public/data/prima1962')
   })
 })

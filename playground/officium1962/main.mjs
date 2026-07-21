@@ -9,7 +9,7 @@ const availableDates = [
   '2026-11-02',
   '2026-12-25',
 ]
-const availableHours = ['completorium', 'tertia', 'sexta', 'nona', 'prima']
+const availableHours = ['completorium', 'laudes', 'tertia', 'sexta', 'nona', 'prima', 'vesperae']
 
 const state = {
   selectedDate: availableDates[0],
