@@ -12,7 +12,7 @@
     "officium1962:build-day": "node scripts/officium1962/build-day.mjs",
     "officium1962:compare": "node scripts/officium1962/compare-with-upstream.mjs",
     "officium1962:preview": "vite --config playground/officium1962/vite.config.mjs",
-    "officium1962:validate": "vitest run features/officium1962 && node scripts/officium1962/compare-with-upstream.mjs",
+    "officium1962:validate": "vitest run features/officium1962 && node scripts/officium1962/compare-with-upstream.mjs && node scripts/officium1962/compare-with-upstream.mjs --hours=tertia,sexta,nona,prima --report-name=minor-hours-oracle-comparison",
     "rss": "valaxy rss",
     "serve": "vite preview",
     "test": "vitest run"

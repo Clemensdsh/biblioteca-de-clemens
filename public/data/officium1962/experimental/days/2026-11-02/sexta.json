@@ -1,0 +1,434 @@
+{
+  "schemaVersion": "0.2.0",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "language": "la",
+  "date": "2026-11-02",
+  "liturgicalTitle": "In Commemoratione Omnium Fidelium Defunctorum ~ I. classis",
+  "rank": "In Commemoratione Omnium Fidelium Defunctorum;;I. classis;;6;;ex C9\n\n",
+  "commemorations": [],
+  "hours": {
+    "sexta": {
+      "name": "sexta",
+      "title": "Sexta",
+      "blocks": [
+        {
+          "id": "office-1962-2026-11-02-sexta-psalm-69-full-1",
+          "type": "psalm",
+          "title": "Psalmus 69 [1]",
+          "text": [
+            "69:2 Deus, in adjutórium meum inténde: * Dómine, ad adjuvándum me festína.",
+            "69:3 Confundántur et revereántur, * qui quærunt ánimam meam.",
+            "69:4 Avertántur retrórsum, et erubéscant, * qui volunt mihi mala.",
+            "69:4 Avertántur statim erubescéntes, * qui dicunt mihi: Euge, euge.",
+            "69:5 Exsúltent et læténtur in te omnes qui quærunt te, * et dicant semper: Magnificétur Dóminus: qui díligunt salutáre tuum.",
+            "69:6 Ego vero egénus, et pauper sum: * Deus, ádjuva me.",
+            "69:6 Adjútor meus, et liberátor meus es tu: * Dómine, ne moréris.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "69:2 Deus, in adjutórium meum inténde: * Dómine, ad adjuvándum me festína.",
+            "69:3 Confundántur et revereántur, * qui quærunt ánimam meam.",
+            "69:4 Avertántur retrórsum, et erubéscant, * qui volunt mihi mala.",
+            "69:4 Avertántur statim erubescéntes, * qui dicunt mihi: Euge, euge.",
+            "69:5 Exsúltent et læténtur in te omnes qui quærunt te, * et dicant semper: Magnificétur Dóminus: qui díligunt salutáre tuum.",
+            "69:6 Ego vero egénus, et pauper sum: * Deus, ádjuva me.",
+            "69:6 Adjútor meus, et liberátor meus es tu: * Dómine, ne moréris."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "69",
+            "verses": [
+              "69:2 Deus, in adjutórium meum inténde: * Dómine, ad adjuvándum me festína.",
+              "69:3 Confundántur et revereántur, * qui quærunt ánimam meam.",
+              "69:4 Avertántur retrórsum, et erubéscant, * qui volunt mihi mala.",
+              "69:4 Avertántur statim erubescéntes, * qui dicunt mihi: Euge, euge.",
+              "69:5 Exsúltent et læténtur in te omnes qui quærunt te, * et dicant semper: Magnificétur Dóminus: qui díligunt salutáre tuum.",
+              "69:6 Ego vero egénus, et pauper sum: * Deus, ádjuva me.",
+              "69:6 Adjútor meus, et liberátor meus es tu: * Dómine, ne moréris."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": true,
+            "minorHour": {
+              "hour": "sexta",
+              "psalmodySource": "ferial-psalter",
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio defunctorum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-sexta-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Psalmus 69 [1]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-sexta-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm69.txt",
+              "section": "Psalm 69",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-sexta-psalm-84-full-2",
+          "type": "psalm",
+          "title": "Psalmus 84 [2]",
+          "text": [
+            "84:2 Benedixísti, Dómine, terram tuam: * avertísti captivitátem Jacob.",
+            "84:3 Remisísti iniquitátem plebis tuæ: * operuísti ómnia peccáta eórum.",
+            "84:4 Mitigásti omnem iram tuam: * avertísti ab ira indignatiónis tuæ.",
+            "84:5 Convérte nos, Deus, salutáris noster: * et avérte iram tuam a nobis.",
+            "84:6 Numquid in ætérnum irascéris nobis? * aut exténdes iram tuam a generatióne in generatiónem?",
+            "84:7 Deus, tu convérsus vivificábis nos: * et plebs tua lætábitur in te.",
+            "84:8 Osténde nobis, Dómine, misericórdiam tuam: * et salutáre tuum da nobis.",
+            "84:9 Áudiam quid loquátur in me Dóminus Deus: * quóniam loquétur pacem in plebem suam.",
+            "84:9 Et super sanctos suos: * et in eos, qui convertúntur ad cor.",
+            "84:10 Verúmtamen prope timéntes eum salutáre ipsíus: * ut inhábitet glória in terra nostra.",
+            "84:11 Misericórdia, et véritas obviavérunt sibi: * justítia, et pax osculátæ sunt.",
+            "84:12 Véritas de terra orta est: * et justítia de cælo prospéxit.",
+            "84:13 Étenim Dóminus dabit benignitátem: * et terra nostra dabit fructum suum.",
+            "84:14 Justítia ante eum ambulábit: * et ponet in via gressus suos.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "84:2 Benedixísti, Dómine, terram tuam: * avertísti captivitátem Jacob.",
+            "84:3 Remisísti iniquitátem plebis tuæ: * operuísti ómnia peccáta eórum.",
+            "84:4 Mitigásti omnem iram tuam: * avertísti ab ira indignatiónis tuæ.",
+            "84:5 Convérte nos, Deus, salutáris noster: * et avérte iram tuam a nobis.",
+            "84:6 Numquid in ætérnum irascéris nobis? * aut exténdes iram tuam a generatióne in generatiónem?",
+            "84:7 Deus, tu convérsus vivificábis nos: * et plebs tua lætábitur in te.",
+            "84:8 Osténde nobis, Dómine, misericórdiam tuam: * et salutáre tuum da nobis.",
+            "84:9 Áudiam quid loquátur in me Dóminus Deus: * quóniam loquétur pacem in plebem suam.",
+            "84:9 Et super sanctos suos: * et in eos, qui convertúntur ad cor.",
+            "84:10 Verúmtamen prope timéntes eum salutáre ipsíus: * ut inhábitet glória in terra nostra.",
+            "84:11 Misericórdia, et véritas obviavérunt sibi: * justítia, et pax osculátæ sunt.",
+            "84:12 Véritas de terra orta est: * et justítia de cælo prospéxit.",
+            "84:13 Étenim Dóminus dabit benignitátem: * et terra nostra dabit fructum suum.",
+            "84:14 Justítia ante eum ambulábit: * et ponet in via gressus suos."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "84",
+            "verses": [
+              "84:2 Benedixísti, Dómine, terram tuam: * avertísti captivitátem Jacob.",
+              "84:3 Remisísti iniquitátem plebis tuæ: * operuísti ómnia peccáta eórum.",
+              "84:4 Mitigásti omnem iram tuam: * avertísti ab ira indignatiónis tuæ.",
+              "84:5 Convérte nos, Deus, salutáris noster: * et avérte iram tuam a nobis.",
+              "84:6 Numquid in ætérnum irascéris nobis? * aut exténdes iram tuam a generatióne in generatiónem?",
+              "84:7 Deus, tu convérsus vivificábis nos: * et plebs tua lætábitur in te.",
+              "84:8 Osténde nobis, Dómine, misericórdiam tuam: * et salutáre tuum da nobis.",
+              "84:9 Áudiam quid loquátur in me Dóminus Deus: * quóniam loquétur pacem in plebem suam.",
+              "84:9 Et super sanctos suos: * et in eos, qui convertúntur ad cor.",
+              "84:10 Verúmtamen prope timéntes eum salutáre ipsíus: * ut inhábitet glória in terra nostra.",
+              "84:11 Misericórdia, et véritas obviavérunt sibi: * justítia, et pax osculátæ sunt.",
+              "84:12 Véritas de terra orta est: * et justítia de cælo prospéxit.",
+              "84:13 Étenim Dóminus dabit benignitátem: * et terra nostra dabit fructum suum.",
+              "84:14 Justítia ante eum ambulábit: * et ponet in via gressus suos."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": true,
+            "minorHour": {
+              "hour": "sexta",
+              "psalmodySource": "ferial-psalter",
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio defunctorum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-sexta-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Psalmus 84 [2]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-sexta-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm84.txt",
+              "section": "Psalm 84",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-sexta-psalm-85-full-3",
+          "type": "psalm",
+          "title": "Psalmus 85 [3]",
+          "text": [
+            "85:1 Inclína, Dómine, aurem tuam, et exáudi me: * quóniam inops, et pauper sum ego.",
+            "85:2 Custódi ánimam meam, quóniam sanctus sum: * salvum fac servum tuum, Deus meus, sperántem in te.",
+            "85:3 Miserére mei, Dómine, quóniam ad te clamávi tota die: * lætífica ánimam servi tui, quóniam ad te, Dómine, ánimam meam levávi.",
+            "85:5 Quóniam tu, Dómine, suávis, et mitis: * et multæ misericórdiæ ómnibus invocántibus te.",
+            "85:6 Áuribus pércipe, Dómine, oratiónem meam: * et inténde voci deprecatiónis meæ.",
+            "85:7 In die tribulatiónis meæ clamávi ad te: * quia exaudísti me.",
+            "85:8 Non est símilis tui in diis, Dómine: * et non est secúndum ópera tua.",
+            "85:9 Omnes gentes quascúmque fecísti, vénient, et adorábunt coram te, Dómine: * et glorificábunt nomen tuum.",
+            "85:10 Quóniam magnus es tu, et fáciens mirabília: * tu es Deus solus.",
+            "85:11 Deduc me, Dómine, in via tua, et ingrédiar in veritáte tua: * lætétur cor meum ut tímeat nomen tuum.",
+            "85:12 Confitébor tibi, Dómine, Deus meus, in toto corde meo, * et glorificábo nomen tuum in ætérnum:",
+            "85:13 Quia misericórdia tua magna est super me: * et eruísti ánimam meam ex inférno inferióri.",
+            "85:14 Deus, iníqui insurrexérunt super me, et synagóga poténtium quæsiérunt ánimam meam: * et non proposuérunt te in conspéctu suo.",
+            "85:15 Et tu, Dómine, Deus miserátor et miséricors, * pátiens, et multæ misericórdiæ, et verax,",
+            "85:16 Réspice in me, et miserére mei, * da impérium tuum púero tuo: et salvum fac fílium ancíllæ tuæ.",
+            "85:17 Fac mecum signum in bonum, ut vídeant qui odérunt me, et confundántur: * quóniam tu, Dómine, adjuvísti me, et consolátus es me.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "85:1 Inclína, Dómine, aurem tuam, et exáudi me: * quóniam inops, et pauper sum ego.",
+            "85:2 Custódi ánimam meam, quóniam sanctus sum: * salvum fac servum tuum, Deus meus, sperántem in te.",
+            "85:3 Miserére mei, Dómine, quóniam ad te clamávi tota die: * lætífica ánimam servi tui, quóniam ad te, Dómine, ánimam meam levávi.",
+            "85:5 Quóniam tu, Dómine, suávis, et mitis: * et multæ misericórdiæ ómnibus invocántibus te.",
+            "85:6 Áuribus pércipe, Dómine, oratiónem meam: * et inténde voci deprecatiónis meæ.",
+            "85:7 In die tribulatiónis meæ clamávi ad te: * quia exaudísti me.",
+            "85:8 Non est símilis tui in diis, Dómine: * et non est secúndum ópera tua.",
+            "85:9 Omnes gentes quascúmque fecísti, vénient, et adorábunt coram te, Dómine: * et glorificábunt nomen tuum.",
+            "85:10 Quóniam magnus es tu, et fáciens mirabília: * tu es Deus solus.",
+            "85:11 Deduc me, Dómine, in via tua, et ingrédiar in veritáte tua: * lætétur cor meum ut tímeat nomen tuum.",
+            "85:12 Confitébor tibi, Dómine, Deus meus, in toto corde meo, * et glorificábo nomen tuum in ætérnum:",
+            "85:13 Quia misericórdia tua magna est super me: * et eruísti ánimam meam ex inférno inferióri.",
+            "85:14 Deus, iníqui insurrexérunt super me, et synagóga poténtium quæsiérunt ánimam meam: * et non proposuérunt te in conspéctu suo.",
+            "85:15 Et tu, Dómine, Deus miserátor et miséricors, * pátiens, et multæ misericórdiæ, et verax,",
+            "85:16 Réspice in me, et miserére mei, * da impérium tuum púero tuo: et salvum fac fílium ancíllæ tuæ.",
+            "85:17 Fac mecum signum in bonum, ut vídeant qui odérunt me, et confundántur: * quóniam tu, Dómine, adjuvísti me, et consolátus es me."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "85",
+            "verses": [
+              "85:1 Inclína, Dómine, aurem tuam, et exáudi me: * quóniam inops, et pauper sum ego.",
+              "85:2 Custódi ánimam meam, quóniam sanctus sum: * salvum fac servum tuum, Deus meus, sperántem in te.",
+              "85:3 Miserére mei, Dómine, quóniam ad te clamávi tota die: * lætífica ánimam servi tui, quóniam ad te, Dómine, ánimam meam levávi.",
+              "85:5 Quóniam tu, Dómine, suávis, et mitis: * et multæ misericórdiæ ómnibus invocántibus te.",
+              "85:6 Áuribus pércipe, Dómine, oratiónem meam: * et inténde voci deprecatiónis meæ.",
+              "85:7 In die tribulatiónis meæ clamávi ad te: * quia exaudísti me.",
+              "85:8 Non est símilis tui in diis, Dómine: * et non est secúndum ópera tua.",
+              "85:9 Omnes gentes quascúmque fecísti, vénient, et adorábunt coram te, Dómine: * et glorificábunt nomen tuum.",
+              "85:10 Quóniam magnus es tu, et fáciens mirabília: * tu es Deus solus.",
+              "85:11 Deduc me, Dómine, in via tua, et ingrédiar in veritáte tua: * lætétur cor meum ut tímeat nomen tuum.",
+              "85:12 Confitébor tibi, Dómine, Deus meus, in toto corde meo, * et glorificábo nomen tuum in ætérnum:",
+              "85:13 Quia misericórdia tua magna est super me: * et eruísti ánimam meam ex inférno inferióri.",
+              "85:14 Deus, iníqui insurrexérunt super me, et synagóga poténtium quæsiérunt ánimam meam: * et non proposuérunt te in conspéctu suo.",
+              "85:15 Et tu, Dómine, Deus miserátor et miséricors, * pátiens, et multæ misericórdiæ, et verax,",
+              "85:16 Réspice in me, et miserére mei, * da impérium tuum púero tuo: et salvum fac fílium ancíllæ tuæ.",
+              "85:17 Fac mecum signum in bonum, ut vídeant qui odérunt me, et confundántur: * quóniam tu, Dómine, adjuvísti me, et consolátus es me."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": true,
+            "minorHour": {
+              "hour": "sexta",
+              "psalmodySource": "ferial-psalter",
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio defunctorum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-sexta-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Psalmus 85 [3]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-sexta-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm85.txt",
+              "section": "Psalm 85",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-sexta-oratio-mortuorum",
+          "type": "prayer",
+          "title": "Oratio defunctorum",
+          "text": [
+            "Oratio",
+            "Pater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris:",
+            "℣. Et ne nos indúcas in tentatiónem:",
+            "℟. Sed líbera nos a malo.",
+            "℣. A porta ínferi.",
+            "℟. Erue, Dómine, ánimas eórum.",
+            "℣. Requiéscant in pace.",
+            "℟. Amen.",
+            "℣. Dómine, exáudi oratiónem meam.",
+            "℟. Et clamor meus ad te véniat.",
+            "secunda Domine, exaudi omittitur",
+            "Orémus.",
+            "Fidélium, Deus, ómnium Cónditor et Redémptor, animábus famulórum famularúmque tuárum remissiónem cunctórum tríbue peccatórum: ut indulgéntiam, quam semper optavérunt, piis supplicatiónibus consequántur:",
+            "Qui vivis et regnas cum Deo Patre, in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "specialStructure": "defunctorum",
+            "prayerKey": "Oratio mortuorum",
+            "minorHour": {
+              "hour": "sexta",
+              "psalmodySource": "ferial-psalter",
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio defunctorum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-sexta-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Oratio defunctorum",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-sexta-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "special",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-sexta-conclusio-defunctorum",
+          "type": "blessing",
+          "title": "Conclusio defunctorum",
+          "text": [
+            "Conclusio specialis",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis.",
+            "℣. Requiéscant in pace.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "specialStructure": "defunctorum",
+            "formula": "requiem-aeternam",
+            "minorHour": {
+              "hour": "sexta",
+              "psalmodySource": "ferial-psalter",
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio defunctorum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-sexta-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Conclusio defunctorum",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-sexta-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "special",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "web/cgi-bin/horas/horas.pl",
+          "section": "getordinarium/specials/getunit/resolve_refs",
+          "transformation": [
+            "Divinum Officium internal script array exported before print_content"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "warnings": []
+}

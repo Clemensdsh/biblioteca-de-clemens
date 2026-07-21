@@ -9,9 +9,11 @@ const availableDates = [
   '2026-11-02',
   '2026-12-25',
 ]
+const availableHours = ['completorium', 'tertia', 'sexta', 'nona', 'prima']
 
 const state = {
   selectedDate: availableDates[0],
+  selectedHour: availableHours[0],
   showRubrics: true,
   showSources: false,
   darkMode: false,
@@ -40,6 +42,12 @@ function renderShell() {
               ${availableDates.map(date => `<option value="${date}">${date}</option>`).join('')}
             </select>
           </label>
+          <label>
+            Hour
+            <select data-hour>
+              ${availableHours.map(hour => `<option value="${hour}">${hour}</option>`).join('')}
+            </select>
+          </label>
           <label><input data-rubrics type="checkbox" checked> Rubricae</label>
           <label><input data-sources type="checkbox"> Sources</label>
           <label><input data-dark type="checkbox"> Dark</label>
@@ -56,6 +64,10 @@ function renderShell() {
 
   app.querySelector('[data-date]').addEventListener('change', (event) => {
     state.selectedDate = event.target.value
+    loadDay()
+  })
+  app.querySelector('[data-hour]').addEventListener('change', (event) => {
+    state.selectedHour = event.target.value
     loadDay()
   })
   app.querySelector('[data-rubrics]').addEventListener('change', (event) => {
@@ -81,9 +93,9 @@ async function loadDay() {
   state.error = ''
   paint('Loading...')
   try {
-    const response = await fetch(`/data/officium1962/experimental/days/${state.selectedDate}/completorium.json`)
+    const response = await fetch(`/data/officium1962/experimental/days/${state.selectedDate}/${state.selectedHour}.json`)
     if (!response.ok)
-      throw new Error(`Missing generated data for ${state.selectedDate}`)
+      throw new Error(`Missing generated data for ${state.selectedDate} ${state.selectedHour}`)
     state.day = await response.json()
   }
   catch (error) {
@@ -101,10 +113,10 @@ function paint(statusText = '') {
   const meta = app.querySelector('[data-meta]')
   const status = app.querySelector('[data-status]')
   const office = app.querySelector('[data-office]')
-  const hour = state.day?.hours?.completorium
+  const hour = state.day?.hours?.[state.selectedHour]
 
-  title.textContent = state.day?.liturgicalTitle || 'Completorium Preview'
-  meta.textContent = `${state.selectedDate} · Completorium · Rubrics 1960 · Latin`
+  title.textContent = state.day?.liturgicalTitle || 'Officium Preview'
+  meta.textContent = `${state.selectedDate} · ${state.selectedHour} · Rubrics 1960 · Latin`
   status.innerHTML = statusText || state.error ? `<p class="notice">${escapeHtml(statusText || state.error)}</p>` : ''
   office.innerHTML = hour ? hour.blocks.map(renderBlock).join('') : ''
 }

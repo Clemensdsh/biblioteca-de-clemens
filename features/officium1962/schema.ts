@@ -10,6 +10,20 @@ export const office1962HourNames = [
 ] as const
 
 export type OfficeHourName = typeof office1962HourNames[number]
+export type MinorHourName = 'tertia' | 'sexta' | 'nona'
+
+export interface MinorHourMetadata {
+  hour: MinorHourName
+  psalmodySource:
+    | 'ferial-psalter'
+    | 'festal'
+    | 'proper'
+    | 'special'
+  antiphonSource?: SourceRef
+  capitulumSource?: SourceRef
+  responsorySource?: SourceRef
+  collectSource?: SourceRef
+}
 
 export interface SourceRef {
   upstreamCommit: string
@@ -61,6 +75,9 @@ export type LiturgicalBlockType =
   | 'versicle'
   | 'prayer'
   | 'blessing'
+  | 'martyrology'
+  | 'chapter-office'
+  | 'pretiosa'
   | 'creed'
   | 'spacer'
   | 'unknown'

@@ -1,0 +1,2067 @@
+{
+  "schemaVersion": "0.1.0",
+  "generatedAt": "2026-07-21T01:35:45.441Z",
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "dates": [
+    "2026-07-20",
+    "2026-07-19",
+    "2026-04-02",
+    "2026-04-05",
+    "2026-08-15",
+    "2026-11-02",
+    "2026-12-25"
+  ],
+  "hours": [
+    "tertia",
+    "sexta",
+    "nona",
+    "prima"
+  ],
+  "summary": {
+    "dateCounts": {
+      "exact": 28,
+      "normalized-equivalent": 0,
+      "expected-structural-difference": 0,
+      "mismatch": 0,
+      "unresolved": 0
+    },
+    "blockCounts": {
+      "exact": 305,
+      "normalized-equivalent": 0,
+      "expected-structural-difference": 0,
+      "mismatch": 0,
+      "unresolved": 0
+    }
+  },
+  "results": [
+    {
+      "date": "2026-07-20",
+      "hour": "tertia",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-07-20-tertia-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-tertia-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-tertia-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-tertia-psalm-26-1-6-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-tertia-psalm-26-7-14-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-tertia-psalm-27-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-tertia-psalm-27-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-tertia-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-tertia-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-tertia-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-tertia-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-tertia-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 12,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "hour": "sexta",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-07-20-sexta-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-sexta-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-sexta-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-sexta-psalm-30-2-9-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-sexta-psalm-30-10-19-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-sexta-psalm-30-20-25-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-sexta-psalm-30-20-25-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-sexta-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-sexta-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-sexta-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-sexta-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-sexta-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 12,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "hour": "nona",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-07-20-nona-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-nona-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-nona-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-nona-psalm-31-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-nona-psalm-32-1-11-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-nona-psalm-32-12-22-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-nona-psalm-32-12-22-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-nona-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-nona-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-nona-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-nona-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-nona-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 12,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "hour": "prima",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-07-20-prima-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-prima-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-prima-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-prima-psalm-23-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-prima-psalm-18-2-7b-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-prima-psalm-18-8-15b-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-prima-psalm-18-8-15b-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-prima-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-prima-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-prima-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-prima-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-prima-benedicamus-domino",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-prima-martyrologium-anticipatum",
+          "type": "martyrology",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-prima-pretiosa",
+          "type": "pretiosa",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-prima-officium-capituli",
+          "type": "chapter-office",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-prima-lectio-brevis",
+          "type": "reading",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-prima-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 17,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "hour": "tertia",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-07-19-tertia-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-tertia-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-tertia-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-tertia-psalm-118-33-48-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-tertia-psalm-118-49-64-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-tertia-psalm-118-65-80-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-tertia-psalm-118-65-80-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-tertia-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-tertia-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-tertia-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-tertia-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-tertia-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 12,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "hour": "sexta",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-07-19-sexta-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-sexta-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-sexta-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-sexta-psalm-118-81-96-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-sexta-psalm-118-97-112-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-sexta-psalm-118-113-128-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-sexta-psalm-118-113-128-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-sexta-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-sexta-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-sexta-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-sexta-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-sexta-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 12,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "hour": "nona",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-07-19-nona-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-nona-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-nona-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-nona-psalm-118-129-144-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-nona-psalm-118-145-160-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-nona-psalm-118-161-176-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-nona-psalm-118-161-176-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-nona-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-nona-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-nona-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-nona-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-nona-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 12,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "hour": "prima",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-07-19-prima-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-prima-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-prima-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-prima-psalm-117-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-prima-psalm-118-1-16-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-prima-psalm-118-17-32-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-prima-psalm-118-17-32-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-prima-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-prima-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-prima-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-prima-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-prima-benedicamus-domino",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-prima-martyrologium-anticipatum",
+          "type": "martyrology",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-prima-pretiosa",
+          "type": "pretiosa",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-prima-officium-capituli",
+          "type": "chapter-office",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-prima-lectio-brevis",
+          "type": "reading",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-prima-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 17,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "hour": "tertia",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-04-02-tertia-incipit-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-tertia-hymnus-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-tertia-psalm-118-33-48-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-tertia-psalm-118-49-64-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-tertia-psalm-118-65-80-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-tertia-capitulum-responsorium-versus-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-tertia-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-tertia-conclusio-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 8,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "hour": "sexta",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-04-02-sexta-incipit-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-sexta-hymnus-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-sexta-psalm-118-81-96-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-sexta-psalm-118-97-112-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-sexta-psalm-118-113-128-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-sexta-capitulum-responsorium-versus-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-sexta-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-sexta-conclusio-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 8,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "hour": "nona",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-04-02-nona-incipit-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-nona-hymnus-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-nona-psalm-118-129-144-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-nona-psalm-118-145-160-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-nona-psalm-118-161-176-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-nona-capitulum-responsorium-versus-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-nona-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-nona-conclusio-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 8,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "hour": "prima",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-04-02-prima-incipit-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-prima-hymnus-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-prima-psalm-53-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-prima-psalm-118-1-16-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-prima-psalm-118-17-32-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-prima-capitulum-responsorium-versus-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-prima-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-prima-martyrologium-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-prima-de-officio-capituli-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-prima-lectio-brevis-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-prima-conclusio-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 11,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-04-05",
+      "hour": "tertia",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-04-05-tertia-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-tertia-hymnus-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-tertia-psalm-118-33-48-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-tertia-psalm-118-49-64-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-tertia-psalm-118-65-80-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-tertia-versus-in-loco-capituli",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-tertia-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-tertia-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 8,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-04-05",
+      "hour": "sexta",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-04-05-sexta-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-sexta-hymnus-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-sexta-psalm-118-81-96-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-sexta-psalm-118-97-112-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-sexta-psalm-118-113-128-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-sexta-versus-in-loco-capituli",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-sexta-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-sexta-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 8,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-04-05",
+      "hour": "nona",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-04-05-nona-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-nona-hymnus-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-nona-psalm-118-129-144-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-nona-psalm-118-145-160-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-nona-psalm-118-161-176-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-nona-versus-in-loco-capituli",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-nona-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-nona-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 8,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-04-05",
+      "hour": "prima",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-04-05-prima-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-prima-hymnus-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-prima-psalm-53-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-prima-psalm-118-1-16-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-prima-psalm-118-17-32-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-prima-versus-in-loco-capituli",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-prima-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-prima-benedicamus-domino",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-prima-martyrologium-anticipatum",
+          "type": "martyrology",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-prima-pretiosa",
+          "type": "pretiosa",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-prima-officium-capituli",
+          "type": "chapter-office",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-prima-lectio-brevis",
+          "type": "reading",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-prima-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 13,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "hour": "tertia",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-08-15-tertia-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-tertia-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-tertia-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-tertia-psalm-118-33-48-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-tertia-psalm-118-49-64-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-tertia-psalm-118-65-80-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-tertia-psalm-118-65-80-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-tertia-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-tertia-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-tertia-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-tertia-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-tertia-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 12,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "hour": "sexta",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-08-15-sexta-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-sexta-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-sexta-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-sexta-psalm-118-81-96-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-sexta-psalm-118-97-112-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-sexta-psalm-118-113-128-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-sexta-psalm-118-113-128-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-sexta-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-sexta-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-sexta-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-sexta-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-sexta-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 12,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "hour": "nona",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-08-15-nona-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-nona-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-nona-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-nona-psalm-118-129-144-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-nona-psalm-118-145-160-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-nona-psalm-118-161-176-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-nona-psalm-118-161-176-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-nona-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-nona-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-nona-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-nona-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-nona-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 12,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "hour": "prima",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-08-15-prima-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-prima-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-prima-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-prima-psalm-53-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-prima-psalm-118-1-16-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-prima-psalm-118-17-32-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-prima-psalm-118-17-32-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-prima-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-prima-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-prima-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-prima-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-prima-benedicamus-domino",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-prima-martyrologium-anticipatum",
+          "type": "martyrology",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-prima-pretiosa",
+          "type": "pretiosa",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-prima-officium-capituli",
+          "type": "chapter-office",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-prima-lectio-brevis",
+          "type": "reading",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-prima-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 17,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "hour": "tertia",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-11-02-tertia-psalm-37-1-11-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-tertia-psalm-37-12-23-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-tertia-psalm-55-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-tertia-oratio-mortuorum",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-tertia-conclusio-defunctorum",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 5,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "hour": "sexta",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-11-02-sexta-psalm-69-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-sexta-psalm-84-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-sexta-psalm-85-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-sexta-oratio-mortuorum",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-sexta-conclusio-defunctorum",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 5,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "hour": "nona",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-11-02-nona-psalm-101-1-13-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-nona-psalm-101-14-23-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-nona-psalm-101-24-29-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-nona-oratio-mortuorum",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-nona-conclusio-defunctorum",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 5,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "hour": "prima",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-11-02-prima-psalm-87-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-prima-psalm-27-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-prima-psalm-31-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-prima-oratio-mortuorum",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-prima-martyrologium-anticipatum",
+          "type": "martyrology",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-prima-conclusio-defunctorum",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 6,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-12-25",
+      "hour": "tertia",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-12-25-tertia-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-tertia-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-tertia-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-tertia-psalm-118-33-48-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-tertia-psalm-118-49-64-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-tertia-psalm-118-65-80-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-tertia-psalm-118-65-80-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-tertia-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-tertia-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-tertia-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-tertia-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-tertia-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 12,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-12-25",
+      "hour": "sexta",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-12-25-sexta-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-sexta-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-sexta-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-sexta-psalm-118-81-96-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-sexta-psalm-118-97-112-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-sexta-psalm-118-113-128-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-sexta-psalm-118-113-128-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-sexta-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-sexta-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-sexta-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-sexta-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-sexta-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 12,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-12-25",
+      "hour": "nona",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-12-25-nona-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-nona-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-nona-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-nona-psalm-118-129-144-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-nona-psalm-118-145-160-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-nona-psalm-118-161-176-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-nona-psalm-118-161-176-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-nona-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-nona-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-nona-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-nona-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-nona-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 12,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-12-25",
+      "hour": "prima",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-12-25-prima-incipit",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-prima-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-prima-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-prima-psalm-53-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-prima-psalm-118-1-16-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-prima-psalm-118-17-32-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-prima-psalm-118-17-32-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-prima-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-prima-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-prima-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-prima-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-prima-benedicamus-domino",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-prima-martyrologium-anticipatum",
+          "type": "martyrology",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-prima-pretiosa",
+          "type": "pretiosa",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-prima-officium-capituli",
+          "type": "chapter-office",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-prima-lectio-brevis",
+          "type": "reading",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-prima-conclusio",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 17,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    }
+  ]
+}

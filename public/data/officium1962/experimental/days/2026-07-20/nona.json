@@ -1,0 +1,1181 @@
+{
+  "schemaVersion": "0.2.0",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "language": "la",
+  "date": "2026-07-20",
+  "liturgicalTitle": "S. Hieronymi Æmiliani Confessoris ~ III. classis",
+  "rank": "S. Hieronymi Æmiliani Confessoris;;Duplex;;3;;vide C5\n\n",
+  "commemorations": [],
+  "hours": {
+    "nona": {
+      "name": "nona",
+      "title": "Nona",
+      "blocks": [
+        {
+          "id": "office-1962-2026-07-20-nona-incipit",
+          "type": "dialogue",
+          "title": "Incipit",
+          "text": [
+            "℣. Deus ✠ in adjutórium meum inténde.",
+            "℟. Dómine, ad adjuvándum me festína.",
+            "Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.",
+            "Allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "includesGloriaPatri": true,
+            "includesAlleluia": true,
+            "minorHour": {
+              "hour": "nona",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Incipit",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-nona-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Deus in adjutorium",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-nona-hymnus",
+          "type": "hymn",
+          "title": "Hymnus",
+          "text": [
+            "Rerum, Deus, tenax vigor,",
+            "Immótus in te pérmanens,",
+            "Lucis diúrnæ témpora",
+            "Succéssibus detérminans:",
+            "_",
+            "Largíre lumen véspere,",
+            "Quo vita nusquam décidat,",
+            "Sed prǽmium mortis sacræ",
+            "Perénnis instet glória.",
+            "_",
+            "Præsta, Pater piíssime,",
+            "Patríque compar Únice,",
+            "Cum Spíritu Paráclito",
+            "Regnans per omne sǽculum.",
+            "Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "stanzas": [
+              [
+                "Hymnus",
+                "Rerum, Deus, tenax vigor,",
+                "Immótus in te pérmanens,",
+                "Lucis diúrnæ témpora",
+                "Succéssibus detérminans:"
+              ],
+              [
+                "Largíre lumen véspere,",
+                "Quo vita nusquam décidat,",
+                "Sed prǽmium mortis sacræ",
+                "Perénnis instet glória."
+              ],
+              [
+                "Præsta, Pater piíssime,",
+                "Patríque compar Únice,",
+                "Cum Spíritu Paráclito",
+                "Regnans per omne sǽculum.",
+                "Amen."
+              ]
+            ],
+            "minorHour": {
+              "hour": "nona",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Hymnus",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-nona-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Hymnus",
+              "transformation": [
+                "specials",
+                "nona special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-nona-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona",
+          "text": [
+            "Ant. Exsultáte, justi, * et gloriámini, omnes recti corde."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "before-psalmody",
+            "repeated": false,
+            "antiphonKey": "exsultate-justi-et-gloriamini-omnes-recti-corde",
+            "minorHour": {
+              "hour": "nona",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-nona-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "specials",
+                "nona special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-nona-psalm-31-full-1",
+          "type": "psalm",
+          "title": "Psalmus 31 [1]",
+          "text": [
+            "31:1 Beáti quorum remíssæ sunt iniquitátes: * et quorum tecta sunt peccáta.",
+            "31:2 Beátus vir, cui non imputávit Dóminus peccátum, * nec est in spíritu ejus dolus.",
+            "31:3 Quóniam tácui, inveteravérunt ossa mea, * dum clamárem tota die.",
+            "31:4 Quóniam die ac nocte graváta est super me manus tua: * convérsus sum in ærúmna mea, dum confígitur spina.",
+            "31:5 Delíctum meum cógnitum tibi feci: * et injustítiam meam non abscóndi.",
+            "31:5 Dixi: Confitébor advérsum me injustítiam meam Dómino: * et tu remisísti impietátem peccáti mei.",
+            "31:6 Pro hac orábit ad te omnis sanctus, * in témpore opportúno.",
+            "31:6 Verúmtamen in dilúvio aquárum multárum, * ad eum non approximábunt.",
+            "31:7 Tu es refúgium meum a tribulatióne, quæ circúmdedit me: * exsultátio mea, érue me a circumdántibus me.",
+            "31:8 Intelléctum tibi dabo, et ínstruam te in via hac, qua gradiéris: * firmábo super te óculos meos.",
+            "31:9 Nolíte fíeri sicut equus et mulus, * quibus non est intelléctus.",
+            "31:9 In camo et freno maxíllas eórum constrínge, * qui non appróximant ad te.",
+            "31:10 Multa flagélla peccatóris, * sperántem autem in Dómino misericórdia circúmdabit.",
+            "31:11 Lætámini in Dómino et exsultáte, justi, * et gloriámini, omnes recti corde.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "31:1 Beáti quorum remíssæ sunt iniquitátes: * et quorum tecta sunt peccáta.",
+            "31:2 Beátus vir, cui non imputávit Dóminus peccátum, * nec est in spíritu ejus dolus.",
+            "31:3 Quóniam tácui, inveteravérunt ossa mea, * dum clamárem tota die.",
+            "31:4 Quóniam die ac nocte graváta est super me manus tua: * convérsus sum in ærúmna mea, dum confígitur spina.",
+            "31:5 Delíctum meum cógnitum tibi feci: * et injustítiam meam non abscóndi.",
+            "31:5 Dixi: Confitébor advérsum me injustítiam meam Dómino: * et tu remisísti impietátem peccáti mei.",
+            "31:6 Pro hac orábit ad te omnis sanctus, * in témpore opportúno.",
+            "31:6 Verúmtamen in dilúvio aquárum multárum, * ad eum non approximábunt.",
+            "31:7 Tu es refúgium meum a tribulatióne, quæ circúmdedit me: * exsultátio mea, érue me a circumdántibus me.",
+            "31:8 Intelléctum tibi dabo, et ínstruam te in via hac, qua gradiéris: * firmábo super te óculos meos.",
+            "31:9 Nolíte fíeri sicut equus et mulus, * quibus non est intelléctus.",
+            "31:9 In camo et freno maxíllas eórum constrínge, * qui non appróximant ad te.",
+            "31:10 Multa flagélla peccatóris, * sperántem autem in Dómino misericórdia circúmdabit.",
+            "31:11 Lætámini in Dómino et exsultáte, justi, * et gloriámini, omnes recti corde."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "31",
+            "verses": [
+              "31:1 Beáti quorum remíssæ sunt iniquitátes: * et quorum tecta sunt peccáta.",
+              "31:2 Beátus vir, cui non imputávit Dóminus peccátum, * nec est in spíritu ejus dolus.",
+              "31:3 Quóniam tácui, inveteravérunt ossa mea, * dum clamárem tota die.",
+              "31:4 Quóniam die ac nocte graváta est super me manus tua: * convérsus sum in ærúmna mea, dum confígitur spina.",
+              "31:5 Delíctum meum cógnitum tibi feci: * et injustítiam meam non abscóndi.",
+              "31:5 Dixi: Confitébor advérsum me injustítiam meam Dómino: * et tu remisísti impietátem peccáti mei.",
+              "31:6 Pro hac orábit ad te omnis sanctus, * in témpore opportúno.",
+              "31:6 Verúmtamen in dilúvio aquárum multárum, * ad eum non approximábunt.",
+              "31:7 Tu es refúgium meum a tribulatióne, quæ circúmdedit me: * exsultátio mea, érue me a circumdántibus me.",
+              "31:8 Intelléctum tibi dabo, et ínstruam te in via hac, qua gradiéris: * firmábo super te óculos meos.",
+              "31:9 Nolíte fíeri sicut equus et mulus, * quibus non est intelléctus.",
+              "31:9 In camo et freno maxíllas eórum constrínge, * qui non appróximant ad te.",
+              "31:10 Multa flagélla peccatóris, * sperántem autem in Dómino misericórdia circúmdabit.",
+              "31:11 Lætámini in Dómino et exsultáte, justi, * et gloriámini, omnes recti corde."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false,
+            "antiphonKey": "exsultate-justi-et-gloriamini-omnes-recti-corde",
+            "minorHour": {
+              "hour": "nona",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Psalmus 31 [1]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-nona-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm31.txt",
+              "section": "Psalm 31",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-nona-psalm-32-1-11-2",
+          "type": "psalm",
+          "title": "Psalmus 32(1-11) [2]",
+          "text": [
+            "32:1 Exsultáte, justi, in Dómino: * rectos decet collaudátio.",
+            "32:2 Confitémini Dómino in cíthara: * in psaltério decem chordárum psállite illi.",
+            "32:3 Cantáte ei cánticum novum: * bene psállite ei in vociferatióne.",
+            "32:4 Quia rectum est verbum Dómini, * et ómnia ópera ejus in fide.",
+            "32:5 Díligit misericórdiam et judícium: * misericórdia Dómini plena est terra.",
+            "32:6 Verbo Dómini cæli firmáti sunt: * et spíritu oris ejus omnis virtus eórum.",
+            "32:7 Cóngregans sicut in utre aquas maris: * ponens in thesáuris abýssos.",
+            "32:8 Tímeat Dóminum omnis terra: * ab eo autem commoveántur omnes inhabitántes orbem.",
+            "32:9 Quóniam ipse dixit, et facta sunt: * ipse mandávit, et creáta sunt.",
+            "32:10 Dóminus díssipat consília géntium: * réprobat autem cogitatiónes populórum, et réprobat consília príncipum.",
+            "32:11 Consílium autem Dómini in ætérnum manet: * cogitatiónes cordis ejus in generatióne et generatiónem.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "32:1 Exsultáte, justi, in Dómino: * rectos decet collaudátio.",
+            "32:2 Confitémini Dómino in cíthara: * in psaltério decem chordárum psállite illi.",
+            "32:3 Cantáte ei cánticum novum: * bene psállite ei in vociferatióne.",
+            "32:4 Quia rectum est verbum Dómini, * et ómnia ópera ejus in fide.",
+            "32:5 Díligit misericórdiam et judícium: * misericórdia Dómini plena est terra.",
+            "32:6 Verbo Dómini cæli firmáti sunt: * et spíritu oris ejus omnis virtus eórum.",
+            "32:7 Cóngregans sicut in utre aquas maris: * ponens in thesáuris abýssos.",
+            "32:8 Tímeat Dóminum omnis terra: * ab eo autem commoveántur omnes inhabitántes orbem.",
+            "32:9 Quóniam ipse dixit, et facta sunt: * ipse mandávit, et creáta sunt.",
+            "32:10 Dóminus díssipat consília géntium: * réprobat autem cogitatiónes populórum, et réprobat consília príncipum.",
+            "32:11 Consílium autem Dómini in ætérnum manet: * cogitatiónes cordis ejus in generatióne et generatiónem."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "32",
+            "segment": "1-11",
+            "verses": [
+              "32:1 Exsultáte, justi, in Dómino: * rectos decet collaudátio.",
+              "32:2 Confitémini Dómino in cíthara: * in psaltério decem chordárum psállite illi.",
+              "32:3 Cantáte ei cánticum novum: * bene psállite ei in vociferatióne.",
+              "32:4 Quia rectum est verbum Dómini, * et ómnia ópera ejus in fide.",
+              "32:5 Díligit misericórdiam et judícium: * misericórdia Dómini plena est terra.",
+              "32:6 Verbo Dómini cæli firmáti sunt: * et spíritu oris ejus omnis virtus eórum.",
+              "32:7 Cóngregans sicut in utre aquas maris: * ponens in thesáuris abýssos.",
+              "32:8 Tímeat Dóminum omnis terra: * ab eo autem commoveántur omnes inhabitántes orbem.",
+              "32:9 Quóniam ipse dixit, et facta sunt: * ipse mandávit, et creáta sunt.",
+              "32:10 Dóminus díssipat consília géntium: * réprobat autem cogitatiónes populórum, et réprobat consília príncipum.",
+              "32:11 Consílium autem Dómini in ætérnum manet: * cogitatiónes cordis ejus in generatióne et generatiónem."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false,
+            "minorHour": {
+              "hour": "nona",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Psalmus 32(1-11) [2]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-nona-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm32.txt",
+              "section": "Psalm 32",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-nona-psalm-32-12-22-3",
+          "type": "psalm",
+          "title": "Psalmus 32(12-22) [3]",
+          "text": [
+            "32:12 Beáta gens, cujus est Dóminus, Deus ejus: * pópulus, quem elégit in hereditátem sibi.",
+            "32:13 De cælo respéxit Dóminus: * vidit omnes fílios hóminum.",
+            "32:14 De præparáto habitáculo suo * respéxit super omnes, qui hábitant terram.",
+            "32:15 Qui finxit sigillátim corda eórum: * qui intéllegit ómnia ópera eórum.",
+            "32:16 Non salvátur rex per multam virtútem: * et gigas non salvábitur in multitúdine virtútis suæ.",
+            "32:17 Fallax equus ad salútem: * in abundántia autem virtútis suæ non salvábitur.",
+            "32:18 Ecce, óculi Dómini super metuéntes eum: * et in eis, qui sperant super misericórdia ejus:",
+            "32:19 Ut éruat a morte ánimas eórum: * et alat eos in fame.",
+            "32:20 Ánima nostra sústinet Dóminum: * quóniam adjútor et protéctor noster est.",
+            "32:21 Quia in eo lætábitur cor nostrum: * et in nómine sancto ejus sperávimus.",
+            "32:22 Fiat misericórdia tua, Dómine, super nos: * quemádmodum sperávimus in te.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "32:12 Beáta gens, cujus est Dóminus, Deus ejus: * pópulus, quem elégit in hereditátem sibi.",
+            "32:13 De cælo respéxit Dóminus: * vidit omnes fílios hóminum.",
+            "32:14 De præparáto habitáculo suo * respéxit super omnes, qui hábitant terram.",
+            "32:15 Qui finxit sigillátim corda eórum: * qui intéllegit ómnia ópera eórum.",
+            "32:16 Non salvátur rex per multam virtútem: * et gigas non salvábitur in multitúdine virtútis suæ.",
+            "32:17 Fallax equus ad salútem: * in abundántia autem virtútis suæ non salvábitur.",
+            "32:18 Ecce, óculi Dómini super metuéntes eum: * et in eis, qui sperant super misericórdia ejus:",
+            "32:19 Ut éruat a morte ánimas eórum: * et alat eos in fame.",
+            "32:20 Ánima nostra sústinet Dóminum: * quóniam adjútor et protéctor noster est.",
+            "32:21 Quia in eo lætábitur cor nostrum: * et in nómine sancto ejus sperávimus.",
+            "32:22 Fiat misericórdia tua, Dómine, super nos: * quemádmodum sperávimus in te."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "32",
+            "segment": "12-22",
+            "verses": [
+              "32:12 Beáta gens, cujus est Dóminus, Deus ejus: * pópulus, quem elégit in hereditátem sibi.",
+              "32:13 De cælo respéxit Dóminus: * vidit omnes fílios hóminum.",
+              "32:14 De præparáto habitáculo suo * respéxit super omnes, qui hábitant terram.",
+              "32:15 Qui finxit sigillátim corda eórum: * qui intéllegit ómnia ópera eórum.",
+              "32:16 Non salvátur rex per multam virtútem: * et gigas non salvábitur in multitúdine virtútis suæ.",
+              "32:17 Fallax equus ad salútem: * in abundántia autem virtútis suæ non salvábitur.",
+              "32:18 Ecce, óculi Dómini super metuéntes eum: * et in eis, qui sperant super misericórdia ejus:",
+              "32:19 Ut éruat a morte ánimas eórum: * et alat eos in fame.",
+              "32:20 Ánima nostra sústinet Dóminum: * quóniam adjútor et protéctor noster est.",
+              "32:21 Quia in eo lætábitur cor nostrum: * et in nómine sancto ejus sperávimus.",
+              "32:22 Fiat misericórdia tua, Dómine, super nos: * quemádmodum sperávimus in te."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false,
+            "minorHour": {
+              "hour": "nona",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Psalmus 32(12-22) [3]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-nona-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm32.txt",
+              "section": "Psalm 32",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-nona-psalm-32-12-22-3-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita",
+          "text": [
+            "Ant. Exsultáte, justi, et gloriámini, omnes recti corde."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "after-psalmody",
+            "repeated": true,
+            "antiphonKey": "exsultate-justi-et-gloriamini-omnes-recti-corde",
+            "minorHour": {
+              "hour": "nona",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-nona-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "specials",
+                "nona special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-nona-capitulum",
+          "type": "capitulum",
+          "title": "Capitulum",
+          "text": [
+            "Capitulum Responsorium Versus {ex Commune aut Festo}",
+            "Sap 10:10",
+            "Justum dedúxit Dóminus per vias rectas, et osténdit illi regnum Dei, et dedit illi sciéntiam sanctórum: honestávit illum in labóribus, et complévit labóres illíus.",
+            "℟. Deo grátias."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "citation": "Sap 10:10",
+            "includesTuAutem": false,
+            "minorHour": {
+              "hour": "nona",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Capitulum",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-nona-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Capitulum",
+              "transformation": [
+                "specials",
+                "nona special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-nona-responsorium-breve",
+          "type": "responsory",
+          "title": "Responsorium breve",
+          "text": [
+            "℟.br. Lex Dei ejus * In corde ipsíus.",
+            "℟. Lex Dei ejus * In corde ipsíus.",
+            "℣. Et non supplantabúntur gressus ejus.",
+            "℟. In corde ipsíus.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Lex Dei ejus * In corde ipsíus."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "incipit": "℟.br. Lex Dei ejus * In corde ipsíus.",
+            "repeat": "℟. Lex Dei ejus * In corde ipsíus.",
+            "versicle": "℣. Et non supplantabúntur gressus ejus.",
+            "response": "℟. Lex Dei ejus * In corde ipsíus.",
+            "includesGloriaPatri": true,
+            "seasonalVariant": "ordinary",
+            "minorHour": {
+              "hour": "nona",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Responsorium breve",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-nona-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Responsorium breve",
+              "transformation": [
+                "specials",
+                "nona special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-nona-versus-custodi-nos",
+          "type": "versicle",
+          "title": "Versus",
+          "text": [
+            "℣. Justum dedúxit Dóminus per vias rectas.",
+            "℟. Et osténdit illi regnum Dei."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "versicle": "℣. Justum dedúxit Dóminus per vias rectas.",
+            "response": "℟. Et osténdit illi regnum Dei.",
+            "minorHour": {
+              "hour": "nona",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Versus",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-nona-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Versus",
+              "transformation": [
+                "specials",
+                "nona special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-nona-oratio",
+          "type": "prayer",
+          "title": "Oratio{ex Proprio Sanctorum}",
+          "text": [
+            "Oratio {ex Proprio Sanctorum}",
+            "℣. Dómine, exáudi oratiónem meam.",
+            "℟. Et clamor meus ad te véniat.",
+            "Orémus.",
+            "Deus, misericordiárum pater, per mérita et intercessiónem beáti Hierónymi, quem órphanis adjutórem et patrem esse voluísti: concéde; ut spíritum adoptiónis, quo fílii tui nominámur et sumus, fidéliter custodiámus.",
+            "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "sourceKind": "proper",
+            "minorHour": {
+              "hour": "nona",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Oratio{ex Proprio Sanctorum}",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-nona-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Dominus_vobiscum",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-nona-conclusio",
+          "type": "blessing",
+          "title": "Conclusio",
+          "text": [
+            "℣. Dómine, exáudi oratiónem meam.",
+            "℟. Et clamor meus ad te véniat.",
+            "℣. Benedicámus Dómino.",
+            "℟. Deo grátias.",
+            "℣. Fidélium ánimæ per misericórdiam Dei requiéscant in pace.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "formula": "minor-hour-conclusion",
+            "minorHour": {
+              "hour": "nona",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-nona-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Conclusio",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-nona-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Dominus_vobiscum",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "web/cgi-bin/horas/horas.pl",
+          "section": "getordinarium/specials/getunit/resolve_refs",
+          "transformation": [
+            "Divinum Officium internal script array exported before print_content"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "warnings": []
+}

@@ -23,78 +23,85 @@ const dates = String(args.dates || defaultDates.join(','))
   .split(',')
   .map(date => date.trim())
   .filter(Boolean)
+const hours = String(args.hours || 'completorium')
+  .split(/[,\s]+/)
+  .map(hour => hour.trim())
+  .filter(Boolean)
+const reportName = String(args['report-name'] || (hours.join(',') === 'completorium' ? 'completorium-oracle-comparison' : 'minor-hours-oracle-comparison'))
 
 const results = []
 
 for (const date of dates) {
-  const exported = loadOrRunExport(date)
-  const day = buildOffice1962DayFromExport(exported)
-  const hour = day.hours.completorium
-  if (!hour)
-    throw new Error(`${date} did not produce Completorium`)
+  for (const hourName of hours) {
+    const exported = loadOrRunExport(date, hourName)
+    const day = buildOffice1962DayFromExport(exported)
+    const hour = day.hours[hourName]
+    if (!hour)
+      throw new Error(`${date} did not produce ${hourName}`)
 
-  const oracleLines = exported.units.flatMap(unit => htmlToLines(unit.html))
-  let cursor = 0
-  const blockResults = []
+    const oracleLines = exported.units.flatMap(unit => htmlToLines(unit.html))
+    let cursor = 0
+    const blockResults = []
 
-  for (const block of hour.blocks) {
-    const candidateLines = normalizeLatinTechnical(block.text.join('\n')).split('\n').filter(Boolean)
-    const found = findLinesInOrder(oracleLines, candidateLines, cursor)
-    if (found >= 0) {
+    for (const block of hour.blocks) {
+      const candidateLines = normalizeLatinTechnical(block.text.join('\n')).split('\n').filter(Boolean)
+      const found = findLinesInOrder(oracleLines, candidateLines, cursor)
+      if (found >= 0) {
+        blockResults.push({
+          blockId: block.id,
+          type: block.type,
+          status: 'exact',
+        })
+        cursor = found + Math.max(candidateLines.length, 1)
+        continue
+      }
+
+      const normalizedFound = findLinesInOrder(
+        oracleLines.map(normalizeForComparison),
+        candidateLines.map(normalizeForComparison),
+        cursor,
+      )
+      if (normalizedFound >= 0) {
+        blockResults.push({
+          blockId: block.id,
+          type: block.type,
+          status: 'normalized-equivalent',
+        })
+        cursor = normalizedFound + Math.max(candidateLines.length, 1)
+        continue
+      }
+
       blockResults.push({
         blockId: block.id,
         type: block.type,
-        status: 'exact',
+        status: 'mismatch',
+        message: `Block text was not found in upstream output after oracle line ${cursor}.`,
       })
-      cursor = found + Math.max(candidateLines.length, 1)
-      continue
     }
 
-    const normalizedFound = findLinesInOrder(
-      oracleLines.map(normalizeForComparison),
-      candidateLines.map(normalizeForComparison),
-      cursor,
-    )
-    if (normalizedFound >= 0) {
-      blockResults.push({
-        blockId: block.id,
-        type: block.type,
-        status: 'normalized-equivalent',
-      })
-      cursor = normalizedFound + Math.max(candidateLines.length, 1)
-      continue
-    }
+    const counts = countStatuses(blockResults)
+    const status = counts.mismatch > 0
+      ? 'mismatch'
+      : counts.unresolved > 0
+        ? 'unresolved'
+        : counts['expected-structural-difference'] > 0
+          ? 'expected-structural-difference'
+          : counts['normalized-equivalent'] > 0
+            ? 'normalized-equivalent'
+            : 'exact'
 
-    blockResults.push({
-      blockId: block.id,
-      type: block.type,
-      status: 'mismatch',
-      message: `Block text was not found in upstream output after oracle line ${cursor}.`,
+    results.push({
+      date,
+      hour: hourName,
+      status,
+      blockResults,
+      counts,
+      notes: [
+        'Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.',
+        'Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string.',
+      ],
     })
   }
-
-  const counts = countStatuses(blockResults)
-  const status = counts.mismatch > 0
-    ? 'mismatch'
-    : counts.unresolved > 0
-      ? 'unresolved'
-      : counts['expected-structural-difference'] > 0
-        ? 'expected-structural-difference'
-        : counts['normalized-equivalent'] > 0
-          ? 'normalized-equivalent'
-          : 'exact'
-
-  results.push({
-    date,
-    hour: 'completorium',
-    status,
-    blockResults,
-    counts,
-    notes: [
-      'Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.',
-      'Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string.',
-    ],
-  })
 }
 
 const dateCounts = countStatuses(results)
@@ -108,6 +115,7 @@ const report = {
   generatedAt: new Date().toISOString(),
   upstreamCommit: firstCommit(results),
   dates,
+  hours,
   summary: {
     dateCounts,
     blockCounts,
@@ -115,8 +123,8 @@ const report = {
   results,
 }
 
-writeJson('public/data/officium1962/reports/completorium-oracle-comparison.json', report)
-writeMarkdown('docs/officium1962/reports/completorium-oracle-comparison.md', report)
+writeJson(`public/data/officium1962/reports/${reportName}.json`, report)
+writeMarkdown(`docs/officium1962/reports/${reportName}.md`, report)
 
 const failed = results.filter(result => result.status === 'mismatch' || result.status === 'unresolved')
 if (failed.length) {
@@ -124,16 +132,16 @@ if (failed.length) {
   process.exit(1)
 }
 
-console.log(`Completorium oracle comparison passed: dates exact=${dateCounts.exact}, blocks exact=${blockCounts.exact}, normalized-equivalent=${blockCounts['normalized-equivalent']}, mismatch=${blockCounts.mismatch}, unresolved=${blockCounts.unresolved}`)
+console.log(`${reportName} passed: dates exact=${dateCounts.exact}, blocks exact=${blockCounts.exact}, normalized-equivalent=${blockCounts['normalized-equivalent']}, mismatch=${blockCounts.mismatch}, unresolved=${blockCounts.unresolved}`)
 
-function loadOrRunExport(date) {
-  const rawPath = join('public', 'data', 'officium1962', 'experimental', 'days', date, 'raw', 'completorium-export.json')
+function loadOrRunExport(date, hour) {
+  const rawPath = join('public', 'data', 'officium1962', 'experimental', 'days', date, 'raw', `${hour}-export.json`)
   if (existsSync(rawPath))
     return JSON.parse(readFileSync(rawPath, 'utf8'))
 
   const result = spawnSync(
     process.execPath,
-    ['scripts/officium1962/run-do-export.mjs', `--date=${date}`, '--hour=completorium'],
+    ['scripts/officium1962/run-do-export.mjs', `--date=${date}`, `--hour=${hour}`],
     { encoding: 'buffer', maxBuffer: 40 * 1024 * 1024 },
   )
   if (result.status !== 0) {
@@ -197,9 +205,11 @@ function emptyCounts() {
 
 function firstCommit() {
   for (const date of dates) {
-    const rawPath = join('public', 'data', 'officium1962', 'experimental', 'days', date, 'raw', 'completorium-export.json')
-    if (existsSync(rawPath))
-      return JSON.parse(readFileSync(rawPath, 'utf8')).upstreamCommit
+    for (const hour of hours) {
+      const rawPath = join('public', 'data', 'officium1962', 'experimental', 'days', date, 'raw', `${hour}-export.json`)
+      if (existsSync(rawPath))
+        return JSON.parse(readFileSync(rawPath, 'utf8')).upstreamCommit
+    }
   }
   return 'unknown'
 }
@@ -212,10 +222,11 @@ function writeJson(path, value) {
 function writeMarkdown(path, report) {
   mkdirSync(dirname(path), { recursive: true })
   const lines = [
-    '# Completorium Oracle Comparison',
+    `# ${reportName.replaceAll('-', ' ').replace(/\b\w/g, char => char.toUpperCase())}`,
     '',
     `Generated: ${report.generatedAt}`,
     `Upstream commit: ${report.upstreamCommit}`,
+    `Hours: ${report.hours.join(', ')}`,
     '',
     '## Summary',
     '',

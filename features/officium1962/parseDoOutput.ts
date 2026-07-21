@@ -1,11 +1,16 @@
-import type { ExportedOfficeHour, LiturgicalBlock, LiturgicalBlockType, Office1962Day, OfficeHour, SourceRef } from './schema.ts'
+import type { ExportedOfficeHour, LiturgicalBlock, LiturgicalBlockType, MinorHourName, MinorHourMetadata, Office1962Day, OfficeHour, SourceRef } from './schema.ts'
 import { normalizeLatinTechnical } from './normalizeLatin.ts'
 
 const ORDINARY_COMPLETORIUM = 'web/www/horas/Ordinarium/Completorium.txt'
+const ORDINARY_MINOR = 'web/www/horas/Ordinarium/Minor.txt'
+const ORDINARY_PRIMA = 'web/www/horas/Ordinarium/Prima.txt'
 const COMMON_PRAYERS = 'web/www/horas/Latin/Psalterium/Common/Prayers.txt'
 const COMMON_RUBRICS = 'web/www/horas/Latin/Psalterium/Common/Rubricae.txt'
 const MINOR_SPECIAL = 'web/www/horas/Latin/Psalterium/Special/Minor Special.txt'
+const PRIMA_SPECIAL = 'web/www/horas/Latin/Psalterium/Special/Prima Special.txt'
 const PSALM_PATH = 'web/www/horas/Latin/Psalterium/Psalmorum'
+const MARTYROLOGY_PATH = 'web/www/horas/Latin/Martyrologium'
+const minorHourNames = ['tertia', 'sexta', 'nona'] as const
 
 export function buildOffice1962DayFromExport(exported: ExportedOfficeHour): Office1962Day {
   const hour = parseExportedOfficeHour(exported)
@@ -27,9 +32,12 @@ export function buildOffice1962DayFromExport(exported: ExportedOfficeHour): Offi
 }
 
 export function parseExportedOfficeHour(exported: ExportedOfficeHour): OfficeHour {
-  if (exported.hour !== 'completorium') {
-    throw new Error(`Phase 2 parser only supports Completorium, received ${exported.hour}`)
-  }
+  if (isMinorHourName(exported.hour))
+    return parseMinorHour(exported)
+  if (exported.hour === 'prima')
+    return parsePrima(exported)
+  if (exported.hour !== 'completorium')
+    throw new Error(`Phase 3 parser supports Completorium, Tertia, Sexta, Nona, and Prima; received ${exported.hour}`)
 
   const blocks: LiturgicalBlock[] = []
 
@@ -106,6 +114,178 @@ export function blockPlainText(block: LiturgicalBlock): string {
     block.title,
     ...block.text,
   ].filter(Boolean).join('\n'))
+}
+
+function parseMinorHour(exported: ExportedOfficeHour): OfficeHour {
+  const blocks: LiturgicalBlock[] = []
+  for (const unit of exported.units) {
+    const heading = firstRawHeading(unit.raw)
+    const lines = htmlToLines(unit.html)
+    const raw = unit.raw
+
+    if (isOmittedHeading(heading)) {
+      blocks.push(omittedBlock(exported, raw, heading, lines))
+    }
+    else if (heading === 'Incipit') {
+      blocks.push(block(exported, raw, 'dialogue', 'incipit', 'Incipit', lines, {
+        includesGloriaPatri: hasGloriaPatri(lines),
+        includesAlleluia: lines.some(line => line.includes('Allelúja')),
+      }))
+    }
+    else if (heading === 'Hymnus') {
+      blocks.push(block(exported, raw, 'hymn', 'hymnus', 'Hymnus', lines, hymnMetadata(lines)))
+    }
+    else if (isPsalmodyHeading(heading)) {
+      blocks.push(...parsePsalmUnit(exported, raw, lines, 'psalmody-1'))
+    }
+    else if (!heading && isDefunctorumSpecial(raw)) {
+      blocks.push(parseDefunctorumSpecial(exported, raw, lines))
+    }
+    else if (!heading && raw.includes("'#Martyrologium'")) {
+      blocks.push(block(exported, raw, 'martyrology', 'martyrologium-anticipatum', 'Martyrologium', lines, {
+        anticipated: true,
+        sourceKind: 'divinum-officium-latin-martyrologium',
+        isolatedFromExistingMartyrologyPage: true,
+        specialStructure: 'defunctorum',
+      }))
+    }
+    else if (!heading && raw.trim().startsWith('&psalm(')) {
+      const psalmTitle = lines.find(line => line.startsWith('Psalmus ')) || 'Psalmus'
+      blocks.push(...parsePsalmUnit(exported, raw, lines, psalmBlockId(psalmTitle)))
+    }
+    else if (heading?.startsWith('Capitulum Responsorium Versus')) {
+      blocks.push(...parseCapitulumResponsoryVersus(exported, raw, lines))
+    }
+    else if (heading?.startsWith('Versus (In loco Capituli)')) {
+      blocks.push(block(exported, raw, 'antiphon', 'versus-in-loco-capituli', heading, lines, {
+        replacesCapitulum: true,
+        specialStructure: 'easter',
+      }))
+    }
+    else if (heading?.startsWith('Oratio')) {
+      blocks.push(block(exported, raw, 'prayer', 'oratio', heading, lines, {
+        sourceKind: heading.includes('Proprio') ? 'proper' : 'ordinary',
+      }))
+    }
+    else if (heading === 'Conclusio') {
+      blocks.push(block(exported, raw, 'blessing', 'conclusio', 'Conclusio', lines, {
+        formula: 'minor-hour-conclusion',
+      }))
+    }
+    else {
+      blocks.push(block(exported, raw, 'unknown', slugify(heading || `unit-${unit.id}`), heading, lines))
+    }
+  }
+
+  const metadata = minorHourMetadata(exported.hour as MinorHourName, blocks)
+  for (const item of blocks)
+    item.metadata = { ...(item.metadata || {}), minorHour: metadata }
+
+  return {
+    name: exported.hour,
+    title: hourTitle(exported.hour),
+    blocks,
+    sourceRefs: exported.sourceRefs,
+    warnings: [
+      ...exported.warnings,
+      ...blocks.flatMap(item => item.warnings),
+    ],
+  }
+}
+
+function parsePrima(exported: ExportedOfficeHour): OfficeHour {
+  const blocks: LiturgicalBlock[] = []
+  for (const unit of exported.units) {
+    const heading = firstRawHeading(unit.raw)
+    const lines = htmlToLines(unit.html)
+    const raw = unit.raw
+
+    if (isOmittedHeading(heading)) {
+      blocks.push(omittedBlock(exported, raw, heading, lines))
+    }
+    else if (heading === 'Incipit') {
+      blocks.push(block(exported, raw, 'dialogue', 'incipit', 'Incipit', lines, {
+        includesGloriaPatri: hasGloriaPatri(lines),
+        includesAlleluia: lines.some(line => line.includes('Allelúja')),
+      }))
+    }
+    else if (heading === 'Hymnus') {
+      blocks.push(block(exported, raw, 'hymn', 'hymnus', 'Hymnus', lines, hymnMetadata(lines)))
+    }
+    else if (isPsalmodyHeading(heading)) {
+      blocks.push(...parsePsalmUnit(exported, raw, lines, 'psalmody-1'))
+    }
+    else if (!heading && isDefunctorumSpecial(raw)) {
+      blocks.push(parseDefunctorumSpecial(exported, raw, lines))
+    }
+    else if (!heading && raw.includes("'#Martyrologium'")) {
+      blocks.push(block(exported, raw, 'martyrology', 'martyrologium-anticipatum', 'Martyrologium', lines, {
+        anticipated: true,
+        sourceKind: 'divinum-officium-latin-martyrologium',
+        isolatedFromExistingMartyrologyPage: true,
+        specialStructure: 'defunctorum',
+      }))
+    }
+    else if (!heading && raw.trim().startsWith('&psalm(')) {
+      const psalmTitle = lines.find(line => line.startsWith('Psalmus ')) || 'Psalmus'
+      blocks.push(...parsePsalmUnit(exported, raw, lines, psalmBlockId(psalmTitle)))
+    }
+    else if (heading?.startsWith('Capitulum Responsorium Versus')) {
+      blocks.push(...parseCapitulumResponsoryVersus(exported, raw, lines))
+    }
+    else if (heading?.startsWith('Versus (In loco Capituli)')) {
+      blocks.push(block(exported, raw, 'antiphon', 'versus-in-loco-capituli', heading, lines, {
+        replacesCapitulum: true,
+        specialStructure: 'easter',
+      }))
+    }
+    else if (heading?.startsWith('Oratio')) {
+      blocks.push(...parsePrimaOratio(exported, raw, lines))
+    }
+    else if (heading?.startsWith('Martyrologium')) {
+      blocks.push(block(exported, raw, 'martyrology', 'martyrologium-anticipatum', heading, lines, {
+        anticipated: true,
+        sourceKind: 'divinum-officium-latin-martyrologium',
+        isolatedFromExistingMartyrologyPage: true,
+      }))
+    }
+    else if (!heading && raw.trim().startsWith('$Pretiosa')) {
+      blocks.push(block(exported, raw, 'pretiosa', 'pretiosa', 'Pretiosa', lines, {
+        formula: 'pretiosa',
+      }))
+    }
+    else if (heading === 'De Officio Capituli') {
+      blocks.push(block(exported, raw, 'chapter-office', 'officium-capituli', heading, lines, {
+        includesTripleDeusInAdjutorium: lines.filter(line => line.includes('Deus in adjutórium')).length === 3,
+        includesKyrie: lines.some(line => line.includes('Kýrie')),
+      }, extractRubricLines(lines)))
+    }
+    else if (heading?.startsWith('Lectio brevis')) {
+      blocks.push(block(exported, raw, 'reading', 'lectio-brevis', heading, lines, {
+        ...readingMetadata(lines),
+        includesBenediction: lines.some(line => line.startsWith('Benedictio.')),
+      }))
+    }
+    else if (heading === 'Conclusio') {
+      blocks.push(block(exported, raw, 'blessing', 'conclusio', heading, lines, {
+        formula: 'prima-final-blessing',
+      }))
+    }
+    else {
+      blocks.push(block(exported, raw, 'unknown', slugify(heading || `unit-${unit.id}`), heading, lines))
+    }
+  }
+
+  return {
+    name: exported.hour,
+    title: 'Prima',
+    blocks,
+    sourceRefs: exported.sourceRefs,
+    warnings: [
+      ...exported.warnings,
+      ...blocks.flatMap(item => item.warnings),
+    ],
+  }
 }
 
 function parseUntitledUnit(exported: ExportedOfficeHour, raw: string, lines: string[]): LiturgicalBlock[] {
@@ -299,6 +479,51 @@ function parseMarianAntiphon(exported: ExportedOfficeHour, raw: string, lines: s
   ]
 }
 
+function parsePrimaOratio(exported: ExportedOfficeHour, raw: string, lines: string[]): LiturgicalBlock[] {
+  const benedicamusIndex = lines.findIndex(line => line.includes('Benedicámus Dómino'))
+  if (benedicamusIndex < 0) {
+    return [block(exported, raw, 'prayer', 'oratio', 'Oratio', lines, {
+      prayerKey: 'oratio_Domine',
+    })]
+  }
+
+  return [
+    block(exported, raw, 'prayer', 'oratio', 'Oratio', lines.slice(0, benedicamusIndex), {
+      prayerKey: 'oratio_Domine',
+    }),
+    block(exported, raw, 'dialogue', 'benedicamus-domino', 'Benedicamus Domino', lines.slice(benedicamusIndex), {
+      formula: 'benedicamus-domino',
+      withinPrimaBeforeMartyrology: true,
+    }),
+  ]
+}
+
+function omittedBlock(exported: ExportedOfficeHour, raw: string, heading: string | undefined, lines: string[]): LiturgicalBlock {
+  const section = (heading || 'Omittitur').replace(/\{omittitur\}/, '')
+  return block(exported, raw, 'rubric', `${slugify(section)}-omittitur`, `${section} omittitur`, lines, {
+    omitted: true,
+    specialStructure: exported.liturgicalTitle.includes('Cena Domini') ? 'sacred-triduum' : 'special',
+  })
+}
+
+function isDefunctorumSpecial(raw: string): boolean {
+  return raw.includes("Oratio mortuorum") || raw.includes("&special('Conclusio'")
+}
+
+function parseDefunctorumSpecial(exported: ExportedOfficeHour, raw: string, lines: string[]): LiturgicalBlock {
+  if (raw.includes("Oratio mortuorum")) {
+    return block(exported, raw, 'prayer', 'oratio-mortuorum', 'Oratio defunctorum', lines, {
+      specialStructure: 'defunctorum',
+      prayerKey: raw.includes('mortuorum1') ? 'Oratio mortuorum1' : 'Oratio mortuorum',
+    }, extractRubricLines(lines))
+  }
+
+  return block(exported, raw, 'blessing', 'conclusio-defunctorum', 'Conclusio defunctorum', lines, {
+    specialStructure: 'defunctorum',
+    formula: 'requiem-aeternam',
+  })
+}
+
 function block(
   exported: ExportedOfficeHour,
   raw: string,
@@ -331,9 +556,9 @@ function sourceRefsFor(exported: ExportedOfficeHour, raw: string, type: Liturgic
   const base = { upstreamCommit: exported.upstreamCommit }
   const refs: SourceRef[] = [{
     ...base,
-    path: ORDINARY_COMPLETORIUM,
+    path: ordinaryPathFor(exported.hour),
     section: title || firstRawHeading(raw) || 'expanded unit',
-    transformation: ['getordinarium', 'specials', 'parse-completorium-block'],
+    transformation: ['getordinarium', 'specials', `parse-${exported.hour}-block`],
   }]
 
   if (type === 'psalm') {
@@ -369,9 +594,18 @@ function sourceRefsFor(exported: ExportedOfficeHour, raw: string, type: Liturgic
   if (['hymn', 'capitulum', 'responsory', 'versicle', 'antiphon'].includes(type)) {
     refs.push({
       ...base,
-      path: MINOR_SPECIAL,
+      path: exported.hour === 'prima' ? PRIMA_SPECIAL : MINOR_SPECIAL,
       section: title || type,
-      transformation: ['specials', 'minor special complectorium'],
+      transformation: ['specials', `${exported.hour} special text`],
+    })
+  }
+
+  if (type === 'martyrology') {
+    refs.push({
+      ...base,
+      path: MARTYROLOGY_PATH,
+      section: 'anticipated day from Divinum Officium Latin Martyrologium',
+      transformation: ['specials', 'martyrologium anticipatum'],
     })
   }
 
@@ -385,6 +619,48 @@ function sourceRefsFor(exported: ExportedOfficeHour, raw: string, type: Liturgic
   }
 
   return refs
+}
+
+function isMinorHourName(value: string): value is MinorHourName {
+  return (minorHourNames as readonly string[]).includes(value)
+}
+
+function hourTitle(hour: string): string {
+  return hour.charAt(0).toUpperCase() + hour.slice(1)
+}
+
+function ordinaryPathFor(hour: string): string {
+  if (hour === 'completorium')
+    return ORDINARY_COMPLETORIUM
+  if (hour === 'prima')
+    return ORDINARY_PRIMA
+  if (isMinorHourName(hour))
+    return ORDINARY_MINOR
+  return `web/www/horas/Ordinarium/${hourTitle(hour)}.txt`
+}
+
+function isPsalmodyHeading(heading: string | undefined): boolean {
+  return Boolean(heading?.startsWith('Psalmi'))
+}
+
+function isOmittedHeading(heading: string | undefined): boolean {
+  return Boolean(heading?.includes('{omittitur}'))
+}
+
+function minorHourMetadata(hour: MinorHourName, blocks: LiturgicalBlock[]): MinorHourMetadata {
+  const firstAntiphon = blocks.find(item => item.type === 'antiphon')
+  const capitulum = blocks.find(item => item.type === 'capitulum')
+  const responsory = blocks.find(item => item.type === 'responsory')
+  const collect = blocks.find(item => item.type === 'prayer')
+
+  return {
+    hour,
+    psalmodySource: firstAntiphon?.title?.includes('Dominica') ? 'festal' : 'ferial-psalter',
+    antiphonSource: firstAntiphon?.sourceRefs[0],
+    capitulumSource: capitulum?.sourceRefs[0],
+    responsorySource: responsory?.sourceRefs[0],
+    collectSource: collect?.sourceRefs[0],
+  }
 }
 
 function sourceSectionFromRaw(raw: string, title: string | undefined): string {

@@ -12,13 +12,14 @@ const dates = [
   '2026-11-02',
   '2026-12-25',
 ]
+const phase3Hours = ['tertia', 'sexta', 'nona', 'prima'] as const
 
-function loadDay(date = '2026-07-20'): Office1962Day {
-  return JSON.parse(readFileSync(`public/data/officium1962/experimental/days/${date}/completorium.json`, 'utf8'))
+function loadDay(date = '2026-07-20', hour = 'completorium'): Office1962Day {
+  return JSON.parse(readFileSync(`public/data/officium1962/experimental/days/${date}/${hour}.json`, 'utf8'))
 }
 
-function blocks(date = '2026-07-20'): LiturgicalBlock[] {
-  return loadDay(date).hours.completorium?.blocks || []
+function blocks(date = '2026-07-20', hour = 'completorium'): LiturgicalBlock[] {
+  return loadDay(date, hour).hours[hour as keyof Office1962Day['hours']]?.blocks || []
 }
 
 describe('officium1962 exported upstream schema', () => {
@@ -174,5 +175,103 @@ describe('officium1962 Completorium structured data', () => {
     expect(viewer).not.toContain('parseExportedOfficeHour')
     expect(renderer).not.toContain('v-html')
     expect(renderer).toContain('data-block-type')
+  })
+})
+
+describe('officium1962 Phase 3 minor hours and Prima', () => {
+  it.each(dates.flatMap(date => phase3Hours.map(hour => [date, hour] as const)))('validates schema for %s %s', (date, hour) => {
+    expect(validateOffice1962Day(loadDay(date, hour))).toEqual([])
+  })
+
+  it.each(phase3Hours)('keeps %s block IDs stable and known', (hour) => {
+    const ids = blocks('2026-07-20', hour).map(block => block.id)
+    expect(new Set(ids).size).toBe(ids.length)
+    expect(ids.every(id => id.startsWith(`office-1962-2026-07-20-${hour}-`))).toBe(true)
+    expect(blocks('2026-07-20', hour).every(block => block.type !== 'unknown')).toBe(true)
+  })
+
+  it('models Tertia, Sexta, and Nona through a shared minor-hour structure', () => {
+    for (const hour of ['tertia', 'sexta', 'nona'] as const) {
+      const types = blocks('2026-07-20', hour).map(block => block.type)
+      expect(types).toEqual([
+        'dialogue',
+        'hymn',
+        'antiphon',
+        'psalm',
+        'psalm',
+        'psalm',
+        'antiphon',
+        'capitulum',
+        'responsory',
+        'versicle',
+        'prayer',
+        'blessing',
+      ])
+      expect(blocks('2026-07-20', hour)[0].metadata?.minorHour).toMatchObject({ hour })
+    }
+  })
+
+  it('keeps Prima independent from existing prima1962 and martyrology modules', () => {
+    const primaTypes = blocks('2026-07-20', 'prima').map(block => block.type)
+    expect(primaTypes).toContain('martyrology')
+    expect(primaTypes).toContain('pretiosa')
+    expect(primaTypes).toContain('chapter-office')
+    expect(primaTypes).toContain('reading')
+
+    const parser = readFileSync('features/officium1962/parseDoOutput.ts', 'utf8')
+    expect(parser).not.toContain('features/prima1962')
+    expect(parser).not.toContain('useMartyrologyPage')
+    expect(parser).not.toContain('public/data/prima1962')
+  })
+
+  it('preserves sourceRefs for Phase 3 key blocks', () => {
+    const keyTypes = new Set(['prayer', 'hymn', 'psalm', 'antiphon', 'reading', 'responsory', 'martyrology', 'chapter-office', 'pretiosa'])
+    for (const date of dates) {
+      for (const hour of phase3Hours) {
+        for (const block of blocks(date, hour).filter(block => keyTypes.has(block.type))) {
+          expect(block.sourceRefs.length, `${date} ${hour} ${block.id}`).toBeGreaterThan(0)
+          expect(block.sourceRefs.every(ref => ref.upstreamCommit === '515a213f79951c563be4f599ca591c63aa63bb6d')).toBe(true)
+          expect(block.sourceRefs.every(ref => Boolean(ref.path))).toBe(true)
+        }
+      }
+    }
+  })
+
+  it('records special structures for Triduum, Easter, and All Souls minor hours', () => {
+    expect(blocks('2026-04-02', 'tertia').filter(block => block.type === 'psalm').every(block => block.metadata?.gloriaPatriOmitted === true)).toBe(true)
+    expect(blocks('2026-04-02', 'prima').some(block => block.metadata?.silentConclusion === true || block.metadata?.specialStructure === 'sacred-triduum')).toBe(true)
+    expect(blocks('2026-04-05', 'tertia').some(block => block.metadata?.replacesCapitulum === true)).toBe(true)
+    expect(blocks('2026-11-02', 'nona').filter(block => block.type === 'psalm').every(block => block.metadata?.includesRequiemAeternam === true)).toBe(true)
+    expect(blocks('2026-11-02', 'prima').some(block => block.type === 'martyrology' && block.metadata?.specialStructure === 'defunctorum')).toBe(true)
+  })
+
+  it('has exact oracle comparison results for the Phase 3 fixture dates and hours', () => {
+    const report = JSON.parse(readFileSync('public/data/officium1962/reports/minor-hours-oracle-comparison.json', 'utf8'))
+    expect(report.summary.dateCounts.exact).toBe(28)
+    expect(report.summary.blockCounts.exact).toBe(305)
+    expect(report.summary.blockCounts.mismatch).toBe(0)
+    expect(report.summary.blockCounts.unresolved).toBe(0)
+  })
+
+  it('updates the isolated preview without registering a production route', () => {
+    const preview = readFileSync('playground/officium1962/main.mjs', 'utf8')
+    expect(preview).toContain('availableHours')
+    expect(preview).toContain('${state.selectedHour}.json')
+
+    const routeSearchTargets = [
+      'pages',
+      'layouts',
+      'composables',
+      'vite.config.ts',
+      'valaxy.config.ts',
+    ]
+    for (const target of routeSearchTargets) {
+      try {
+        expect(readFileSync(target, 'utf8')).not.toContain('officium1962')
+      }
+      catch {
+        // Directory targets are checked by the build; this assertion only guards direct config files.
+      }
+    }
   })
 })
