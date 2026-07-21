@@ -1,10 +1,10 @@
 # Officium Romanum 1962 Progress
 
-Last updated: 2026-07-20T23:59:00-04:00
+Last updated: 2026-07-21T01:44:57-04:00
 
 ## Current Phase
 
-Phase 6 complete: 2026 full-year release data, deduplication, annual validation, and release-format playground.
+Phase 6 complete and checkpointed: 2026 full-year release data, deduplication, annual validation, and release-format playground are complete. Phase 7 production integration has not started.
 
 ## Completed
 
@@ -63,6 +63,7 @@ Phase 6 complete: 2026 full-year release data, deduplication, annual validation,
 - Generated 2026 release data for 365 days and 2920 date/hour outputs.
 - Added release-format playground loading through `manifest.json`, year/day files, and shared chunks.
 - Added Phase 6 reports for build, validation, oracle summary, deduplication, reproducibility, and performance.
+- Added checkpoint `docs/officium1962/CHECKPOINT_2026_PHASE_6_COMPLETE.md` for continuing work after Phase 6.
 
 ## In Progress
 
@@ -174,4 +175,4 @@ Phase 6 complete: 2026 full-year release data, deduplication, annual validation,
 
 ## Next Step
 
-Proceed to Phase 7 production integration candidate only after review; do not enable production routing until explicitly requested.
+Proceed to Phase 7 production integration candidate only after reading `docs/officium1962/CHECKPOINT_2026_PHASE_6_COMPLETE.md` and this progress file. Do not redo Phase 6, update Divinum Officium, change the fixed upstream commit, or enable production routing/navigation until explicitly requested.
