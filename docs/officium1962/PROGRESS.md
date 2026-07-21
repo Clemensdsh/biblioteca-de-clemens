@@ -1,10 +1,10 @@
 # Officium Romanum 1962 Progress
 
-Last updated: 2026-07-20T22:31:30-04:00
+Last updated: 2026-07-20T23:59:00-04:00
 
 ## Current Phase
 
-Phase 5 complete: Matutinum vertical slice.
+Phase 6 complete: 2026 full-year release data, deduplication, annual validation, and release-format playground.
 
 ## Completed
 
@@ -59,15 +59,18 @@ Phase 5 complete: Matutinum vertical slice.
 - Updated the isolated playground selector with Matutinum first.
 - Added `--hours=all-supported` to the day builder.
 - Rechecked Completorium, Phase 3, and Phase 4 oracle comparisons after Phase 5 changes.
+- Added Phase 6 full-year builder, annual validator, release manifests, shared block deduplication, and fixed annual sample oracle.
+- Generated 2026 release data for 365 days and 2920 date/hour outputs.
+- Added release-format playground loading through `manifest.json`, year/day files, and shared chunks.
+- Added Phase 6 reports for build, validation, oracle summary, deduplication, reproducibility, and performance.
 
 ## In Progress
 
-- None for Phase 5.
+- None for Phase 6.
 
 ## Not Started
 
-- 2026 full-year generation.
-- Deduplicated year/month data packaging.
+- Phase 7 production integration candidate.
 
 ## Blockers
 
@@ -75,9 +78,12 @@ Phase 5 complete: Matutinum vertical slice.
 
 ## Latest Test And Build Results
 
-- `pnpm officium1962:validate`: pass, 1 file / 117 tests plus Completorium, Phase 3, Phase 4, and Matutinum oracle comparisons.
-- `pnpm test`: pass, 6 files / 163 tests.
+- `pnpm officium1962:validate`: pass, 1 file / 121 tests plus Completorium, Phase 3, Phase 4, Matutinum, annual validation, and annual sample oracle comparisons.
+- `pnpm test`: pass, 6 files / 167 tests.
 - `pnpm build`: pass.
+- `pnpm officium1962:build-year --year=2026 --hours=all-supported --resume --strict`: pass.
+- `pnpm officium1962:validate-year --year=2026`: pass, 365 days, 2920 date/hour outputs, 55184 occurrences, 8713 shared blocks.
+- `node scripts/officium1962/compare-year-sample.mjs`: pass, 192 date/hour outputs and 3826 blocks exact.
 - `pnpm officium1962:build-day --date=2026-07-20 --hours=completorium`: pass.
 - `pnpm officium1962:build-day --date=2026-07-20 --hours=tertia,sexta,nona,prima`: pass.
 - `pnpm officium1962:build-day --date=2026-07-20 --hours=laudes,vesperae`: pass.
@@ -145,6 +151,7 @@ Phase 5 complete: Matutinum vertical slice.
 
 - Date-level mismatch: 0.
 - Block-level mismatch: 0.
+- Annual sample mismatch: 0.
 - Reports:
   - `docs/officium1962/reports/completorium-oracle-comparison.md`
   - `public/data/officium1962/reports/completorium-oracle-comparison.json`
@@ -162,7 +169,9 @@ Phase 5 complete: Matutinum vertical slice.
 - Adapter warnings for verified Completorium, Phase 3, Phase 4, and Matutinum dates: 0.
 - Source line ranges remain limited where the upstream Perl pipeline has already resolved inclusions; file and section are recorded.
 - Deduplication and year generation remain unresolved.
+- Phase 6 release data: mismatch 0, unresolved 0.
+- Annual release data: 365 days, 2920 date/hour outputs, 55184 occurrences, 8713 shared blocks, 0 orphan blocks.
 
 ## Next Step
 
-Proceed to Phase 6 full-year generation and deduplication only after review; do not start it until Phase 5 is accepted.
+Proceed to Phase 7 production integration candidate only after review; do not enable production routing until explicitly requested.

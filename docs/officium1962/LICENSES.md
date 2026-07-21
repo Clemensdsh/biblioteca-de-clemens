@@ -10,10 +10,18 @@ The local upstream mirror remains in `vendor/divinum-officium/` and is ignored b
 
 ## Generated Data
 
-The experimental JSON under `public/data/officium1962/` is generated from the pinned Divinum Officium source and data by local scripts in `scripts/officium1962/`.
+The experimental fixtures and Phase 6 release JSON under `public/data/officium1962/` are generated from the pinned Divinum Officium source and data by local scripts in `scripts/officium1962/`.
+
+Phase 6 release data:
+
+- Schema: `officium1962.v1`
+- Year: 2026
+- Generated from upstream commit `515a213f79951c563be4f599ca591c63aa63bb6d`
+- Generated through local scripts only; no public Divinum Officium website scraping
 
 ## Explicit Non-Inclusions
 
 - No Spanish data is exported.
 - No `Latin/Martyrologium1960` data is exported.
 - No Mass data from `web/www/missa/` or `web/cgi-bin/missa/` is exported.
+- Existing `features/prima1962` and `/martyrology/` data are not used by this module.

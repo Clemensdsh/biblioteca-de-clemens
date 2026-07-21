@@ -188,6 +188,20 @@ function parseMajorHour(exported: ExportedOfficeHour): OfficeHour {
     else if (heading?.startsWith('Canticum: Benedictus') || heading?.startsWith('Canticum: Magnificat')) {
       blocks.push(...parseGospelCanticle(exported, raw, lines, heading))
     }
+    else if (heading?.startsWith('Preces Feriales')) {
+      blocks.push(block(exported, raw, 'prayer', 'preces-feriales', heading, lines, {
+        formula: 'preces-feriales',
+        precesIncluded: heading.includes('habentur'),
+        sourceKind: 'ordinary',
+      }, extractRubricLines(lines)))
+    }
+    else if (heading?.startsWith('Litani')) {
+      blocks.push(block(exported, raw, 'prayer', 'litaniae', heading, lines, {
+        formula: 'litaniae-sanctorum',
+        sourceKind: 'proper',
+        rogationOrMajorLitanies: true,
+      }, extractRubricLines(lines)))
+    }
     else if (heading?.startsWith('Oratio')) {
       blocks.push(...parseMajorOratio(exported, raw, lines, heading))
     }
@@ -443,6 +457,15 @@ function parseUntitledUnit(exported: ExportedOfficeHour, raw: string, lines: str
     return [block(exported, raw, 'prayer', 'triduum-silent-ending', 'Conclusio sub silentio', lines, {
       specialStructure: 'sacred-triduum',
       includesPaterNoster: lines.some(line => line.startsWith('Pater noster')),
+      silentConclusion: true,
+    }, extractRubricLines(lines))]
+  }
+
+  if (raw.trim().startsWith('!secreto')) {
+    return [block(exported, raw, 'prayer', 'holy-saturday-secret-ending', 'Conclusio sub silentio', lines, {
+      specialStructure: 'sacred-triduum',
+      includesPaterNoster: lines.some(line => line.startsWith('Pater noster')),
+      includesCollect: lines.some(line => line.startsWith('Vísita')),
       silentConclusion: true,
     }, extractRubricLines(lines))]
   }

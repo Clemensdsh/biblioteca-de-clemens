@@ -50,7 +50,17 @@ Current Matutinum fixture coverage:
 - Sacred Triduum and All Souls included
 - Leap day fixture `2028-02-29`
 
-This is still experimental fixture data, not final deduplicated production data and not a generated full year.
+Phase 6 also generated release-format 2026 annual data under:
+
+- `public/data/officium1962/manifest.json`
+- `public/data/officium1962/shared/`
+- `public/data/officium1962/years/2026/`
+- `public/data/officium1962/provenance.json`
+- `public/data/officium1962/reports/`
+
+Annual release data uses schema `officium1962.v1`, shared block deduplication, day occurrence references, month indexes, and a lightweight calendar index. It contains 365 days and 2920 date/hour outputs.
+
+Annual raw DO exports are not public release data. They are temporary unless `--keep-raw` writes them under ignored `.work/officium1962/raw/`.
 
 ## Attribution Text Candidate
 
@@ -64,3 +74,17 @@ Latin Office text and rubrical computation are derived from the Divinum Officium
 - public Divinum Officium website scraping
 - iframe embedding
 - Divinum Officium frontend HTML/CSS/JavaScript as site UI
+- existing `features/prima1962/`
+- existing `/martyrology/` page data or components
+
+## Phase 6 Release Transformation
+
+The annual builder:
+
+1. Reuses the pinned local adapter and existing structured parsers.
+2. Caches validated per-date/per-hour structured output under `.cache/officium1962/structured/`.
+3. Deduplicates blocks by canonical text and sourceRefs.
+4. Writes day documents that reference shared blocks and preserve occurrence metadata.
+5. Writes manifests and checksums for root, year, calendar, month, day, and shared chunk files.
+
+Machine-readable provenance is in `public/data/officium1962/provenance.json`.

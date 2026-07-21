@@ -67,7 +67,9 @@ h1 {
 }
 
 .notice,
-.office-book {
+.office-book,
+.matutinum-toc,
+.debug-panel {
   max-width: 52rem;
   margin-inline: auto;
 }
@@ -80,6 +82,20 @@ h1 {
 
 .block {
   margin-block: 1.2rem;
+}
+
+.matutinum-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.8rem;
+  margin-bottom: 1rem;
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+}
+
+.matutinum-toc a {
+  color: inherit;
+  opacity: 0.8;
 }
 
 .block h2 {
@@ -129,6 +145,19 @@ h1 {
 .sources code {
   display: block;
   overflow-wrap: anywhere;
+}
+
+.debug-panel {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(90, 73, 55, 0.3);
+  font-family: system-ui, sans-serif;
+  font-size: 0.78rem;
+  opacity: 0.84;
+}
+
+.debug-panel ul {
+  padding-left: 1.1rem;
 }
 
 @media (max-width: 680px) {

@@ -288,7 +288,9 @@ describe('officium1962 Phase 3 minor hours and Prima', () => {
   it('updates the isolated preview without registering a production route', () => {
     const preview = readFileSync('playground/officium1962/main.mjs', 'utf8')
     expect(preview).toContain('availableHours')
-    expect(preview).toContain('${state.selectedHour}.json')
+    expect(preview).toContain('/data/officium1962/manifest.json')
+    expect(preview).toContain('/data/officium1962/shared/manifest.json')
+    expect(preview).not.toContain('/experimental/days/')
 
     const routeSearchTargets = [
       'pages',
@@ -305,6 +307,56 @@ describe('officium1962 Phase 3 minor hours and Prima', () => {
         // Directory targets are checked by the build; this assertion only guards direct config files.
       }
     }
+  })
+})
+
+describe('officium1962 Phase 6 release year data', () => {
+  it('publishes a root manifest, year manifest, calendar, and shared block manifest', () => {
+    const root = JSON.parse(readFileSync('public/data/officium1962/manifest.json', 'utf8'))
+    const year = JSON.parse(readFileSync('public/data/officium1962/years/2026/manifest.json', 'utf8'))
+    const calendar = JSON.parse(readFileSync('public/data/officium1962/years/2026/calendar.json', 'utf8'))
+    const shared = JSON.parse(readFileSync('public/data/officium1962/shared/manifest.json', 'utf8'))
+
+    expect(root.schemaVersion).toBe('officium1962.v1')
+    expect(root.availableYears.map((item: { year: number }) => item.year)).toContain(2026)
+    expect(year.dayCount).toBe(365)
+    expect(year.dateHourCount).toBe(2920)
+    expect(calendar.days).toHaveLength(365)
+    expect(shared.blockCount).toBeGreaterThan(8000)
+  })
+
+  it('keeps day files as shared-block references instead of full duplicated text', () => {
+    const day = JSON.parse(readFileSync('public/data/officium1962/years/2026/days/2026-07-20.json', 'utf8'))
+    const matutinum = day.hours.matutinum
+    expect(day.schemaVersion).toBe('officium1962.v1')
+    expect(matutinum.occurrences.length).toBeGreaterThan(0)
+    expect(matutinum.occurrences[0].blockId).toMatch(/^shared-/)
+    expect(matutinum.occurrences[0].occurrenceMetadata.originalId).toContain('2026-07-20-matutinum')
+    expect(JSON.stringify(matutinum.occurrences)).not.toContain('Dómine, lábia mea')
+  })
+
+  it('has valid annual validation and sampled oracle reports', () => {
+    const validation = JSON.parse(readFileSync('public/data/officium1962/reports/year-2026-validation.json', 'utf8'))
+    const oracle = JSON.parse(readFileSync('public/data/officium1962/reports/year-2026-oracle-summary.json', 'utf8'))
+    expect(validation.dayCount).toBe(365)
+    expect(validation.dateHourCount).toBe(2920)
+    expect(validation.orphanBlockCount).toBe(0)
+    expect(validation.htmlLeakCount).toBe(0)
+    expect(validation.forbiddenSourceCount).toBe(0)
+    expect(oracle.sampledDateHourCount).toBe(192)
+    expect(oracle.summary.dateCounts.exact).toBe(192)
+    expect(oracle.summary.mismatch).toBe(0)
+    expect(oracle.summary.unresolved).toBe(0)
+  })
+
+  it('keeps raw annual exports out of public release data and keeps production routes disabled', () => {
+    const preview = readFileSync('playground/officium1962/main.mjs', 'utf8')
+    expect(preview).not.toContain('run-do-export')
+    expect(preview).not.toContain('do-export')
+
+    const routeSearchTargets = ['vite.config.ts', 'valaxy.config.ts']
+    for (const target of routeSearchTargets)
+      expect(readFileSync(target, 'utf8')).not.toContain('officium1962')
   })
 })
 

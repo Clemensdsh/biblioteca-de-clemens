@@ -7,12 +7,14 @@ use File::Spec;
 use Getopt::Long qw(GetOptions);
 use JSON::PP;
 use CGI;
+use POSIX qw(floor);
 
 binmode(STDOUT, ':raw');
 binmode(STDERR, ':encoding(utf-8)');
 
 my $date = '';
 my $hour = 'Completorium';
+my $hours = '';
 my $requested_version = 'Rubrics 1960 - 1960';
 my $language = 'Latin';
 my $upstream = File::Spec->rel2abs(File::Spec->catdir($Bin, '..', '..', 'vendor', 'divinum-officium'));
@@ -21,6 +23,7 @@ my $commit = '';
 GetOptions(
   'date=s' => \$date,
   'hour=s' => \$hour,
+  'hours=s' => \$hours,
   'version=s' => \$requested_version,
   'language=s' => \$language,
   'upstream=s' => \$upstream,
@@ -42,7 +45,11 @@ my %hour_map = (
   completorium => 'Completorium',
 );
 
-my $canonical_hour = $hour_map{lc($hour)} || die "Unsupported hour: $hour\n";
+my @requested_hours = $hours
+  ? map { s/^\s+|\s+$//gr } split /,/, $hours
+  : ($hour);
+my @canonical_hours = map { $hour_map{lc($_)} || die "Unsupported hour: $_\n" } @requested_hours;
+my $canonical_hour = $canonical_hours[0];
 my ($yyyy, $mm, $dd) = split /-/, $date;
 my $do_date = int($mm) . '-' . int($dd) . '-' . int($yyyy);
 
@@ -110,45 +117,67 @@ load_languages_data($lang1, $lang2, $langfb, $version, $missa);
 precedence($date1);
 setsecondcol();
 
-my $headline = setheadline();
-my @script = specials([getordinarium($lang1, $canonical_hour)], $lang1);
-my @units;
-my $index = 0;
-my $unit_index = 0;
-while ($index < @script) {
-  my ($raw, $next_index) = getunit(\@script, $index);
-  $index = $next_index;
-  next unless defined $raw && $raw =~ /\S/;
-  my $resolved = resolve_refs($raw, $lang1);
-  push @units, {
-    id => sprintf('do-1962-%s-%s-%03d', $date, lc($canonical_hour), ++$unit_index),
-    raw => normalize_text($raw),
-    html => normalize_text($resolved),
-  };
+my %exports;
+for my $current_hour (@canonical_hours) {
+  $hora = $current_hour;
+  $command = "pray$current_hour";
+  $exports{lc($current_hour)} = export_hour($current_hour);
 }
 
-my $rank_value = '';
-$rank_value = $winner{Rank} if %winner && exists $winner{Rank};
-
 my $json = JSON::PP->new->utf8(1)->canonical(1);
-print $json->encode({
-  schemaVersion => '0.1.0',
-  engineVersion => $requested_version,
-  language => 'la',
-  date => $date,
-  hour => lc($canonical_hour),
-  liturgicalTitle => normalize_text($headline),
-  rank => normalize_text($rank_value),
-  upstreamCommit => $commit,
-  sourceRefs => [{
+if ($hours) {
+  print $json->encode({
+    schemaVersion => '0.1.0',
+    date => $date,
     upstreamCommit => $commit,
-    path => 'web/cgi-bin/horas/horas.pl',
-    section => 'getordinarium/specials/getunit/resolve_refs',
-    transformation => ['Divinum Officium internal script array exported before print_content'],
-  }],
-  warnings => ($error ? [{ code => 'upstream-error-text', message => normalize_text($error) }] : []),
-  units => \@units,
-}) . "\n";
+    hours => \%exports,
+  }) . "\n";
+}
+else {
+  print $json->encode($exports{lc($canonical_hour)}) . "\n";
+}
+
+sub export_hour {
+  my ($current_hour) = @_;
+  my $headline = setheadline();
+  my @script = specials([getordinarium($lang1, $current_hour)], $lang1);
+  my @units;
+  my $index = 0;
+  my $unit_index = 0;
+  while ($index < @script) {
+    my ($raw, $next_index) = getunit(\@script, $index);
+    $index = $next_index;
+    next unless defined $raw && $raw =~ /\S/;
+    my $resolved = resolve_refs($raw, $lang1);
+    push @units, {
+      id => sprintf('do-1962-%s-%s-%03d', $date, lc($current_hour), ++$unit_index),
+      raw => normalize_text($raw),
+      html => normalize_text($resolved),
+    };
+  }
+
+  my $rank_value = '';
+  $rank_value = $winner{Rank} if %winner && exists $winner{Rank};
+
+  return {
+    schemaVersion => '0.1.0',
+    engineVersion => $requested_version,
+    language => 'la',
+    date => $date,
+    hour => lc($current_hour),
+    liturgicalTitle => normalize_text($headline),
+    rank => normalize_text($rank_value),
+    upstreamCommit => $commit,
+    sourceRefs => [{
+      upstreamCommit => $commit,
+      path => 'web/cgi-bin/horas/horas.pl',
+      section => 'getordinarium/specials/getunit/resolve_refs',
+      transformation => ['Divinum Officium internal script array exported before print_content'],
+    }],
+    warnings => ($error ? [{ code => 'upstream-error-text', message => normalize_text($error) }] : []),
+    units => \@units,
+  };
+}
 
 sub normalize_text {
   my ($value) = @_;

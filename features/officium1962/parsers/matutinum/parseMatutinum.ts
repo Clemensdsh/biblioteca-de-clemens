@@ -63,7 +63,7 @@ export function parseMatutinum(exported: ExportedOfficeHour): OfficeHour {
         stanzas: stanzas(lines),
       }))
     }
-    else if (heading?.startsWith('Psalmi cum lectionibus') || raw.trim().startsWith('!Nocturnus') || raw.trim().startsWith('Ant. ')) {
+    else if (heading?.startsWith('Psalmi cum lectionibus') || raw.trim().startsWith('!Nocturnus') || raw.trim().startsWith('Ant. ') || raw.trim().startsWith('&psalm(')) {
       const psalmBlocks = parsePsalmodyUnit(exported, raw, lines, state)
       blocks.push(...psalmBlocks)
       for (const item of psalmBlocks.filter(item => item.type === 'psalm'))

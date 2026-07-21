@@ -70,3 +70,26 @@ public/data/officium1962/experimental/days/2026-07-20/completorium.json
 ```
 
 This is an experimental Phase 1/2 slice. It is not yet the final deduplicated year/month data model.
+
+Current Phase 6 annual release command:
+
+```bash
+pnpm officium1962:build-year --year=2026 --hours=all-supported --resume --strict
+```
+
+Annual validation:
+
+```bash
+pnpm officium1962:validate-year --year=2026
+pnpm officium1962:compare-year-sample
+```
+
+Release output:
+
+```text
+public/data/officium1962/manifest.json
+public/data/officium1962/shared/
+public/data/officium1962/years/2026/
+```
+
+Annual raw exports are not committed and are only kept under ignored `.work/officium1962/raw/` when `--keep-raw` is used.
