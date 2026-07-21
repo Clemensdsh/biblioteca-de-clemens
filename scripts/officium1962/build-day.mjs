@@ -10,7 +10,9 @@ const args = Object.fromEntries(process.argv.slice(2).map((arg) => {
 }))
 
 const date = args.date
-const hours = String(args.hours || 'completorium')
+const allSupportedHours = ['matutinum', 'laudes', 'prima', 'tertia', 'sexta', 'nona', 'vesperae', 'completorium']
+const hoursArg = String(args.hours || 'completorium')
+const hours = (hoursArg === 'all-supported' ? allSupportedHours.join(',') : hoursArg)
   .split(/[,\s]+/)
   .map(hour => hour.trim())
   .filter(Boolean)

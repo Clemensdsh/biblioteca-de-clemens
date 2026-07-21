@@ -14,6 +14,37 @@ const dates = [
 ]
 const phase3Hours = ['tertia', 'sexta', 'nona', 'prima'] as const
 const phase4Hours = ['laudes', 'vesperae'] as const
+const matutinumDates = [
+  '2026-01-01',
+  '2026-01-06',
+  '2026-02-28',
+  '2026-03-01',
+  '2026-03-19',
+  '2026-03-25',
+  '2026-03-29',
+  '2026-04-02',
+  '2026-04-03',
+  '2026-04-04',
+  '2026-04-05',
+  '2026-05-14',
+  '2026-05-24',
+  '2026-05-31',
+  '2026-06-04',
+  '2026-06-12',
+  '2026-06-29',
+  '2026-07-19',
+  '2026-07-20',
+  '2026-08-15',
+  '2026-11-01',
+  '2026-11-02',
+  '2026-12-08',
+  '2026-12-17',
+  '2026-12-23',
+  '2026-12-24',
+  '2026-12-25',
+  '2026-12-31',
+  '2028-02-29',
+]
 
 function loadDay(date = '2026-07-20', hour = 'completorium'): Office1962Day {
   return JSON.parse(readFileSync(`public/data/officium1962/experimental/days/${date}/${hour}.json`, 'utf8'))
@@ -365,5 +396,110 @@ describe('officium1962 Phase 4 Laudes and Vesperae', () => {
     const parser = readFileSync('features/officium1962/parseDoOutput.ts', 'utf8')
     expect(parser).not.toContain('features/prima1962')
     expect(parser).not.toContain('public/data/prima1962')
+  })
+})
+
+describe('officium1962 Phase 5 Matutinum', () => {
+  it.each(matutinumDates)('validates schema for %s Matutinum', (date) => {
+    expect(validateOffice1962Day(loadDay(date, 'matutinum'))).toEqual([])
+  })
+
+  it('preserves stable IDs, sourceRefs, NFC, and no HTML leakage', () => {
+    const keyTypes = new Set(['invitatory', 'hymn', 'antiphon', 'psalm', 'versicle', 'absolution', 'blessing', 'reading', 'matins-responsory', 'te-deum', 'prayer'])
+    for (const date of matutinumDates) {
+      const ids = blocks(date, 'matutinum').map(block => block.id)
+      expect(new Set(ids).size, date).toBe(ids.length)
+      expect(ids.every(id => id.startsWith(`office-1962-${date}-matutinum-`))).toBe(true)
+      expect(blocks(date, 'matutinum').every(block => block.type !== 'unknown')).toBe(true)
+      for (const block of blocks(date, 'matutinum')) {
+        for (const line of block.text) {
+          expect(line).toBe(line.normalize('NFC'))
+          expect(line).not.toMatch(/<\/?[a-z][^>]*>/i)
+        }
+        if (keyTypes.has(block.type)) {
+          expect(block.sourceRefs.length, `${date} ${block.id}`).toBeGreaterThan(0)
+          expect(block.sourceRefs.every(ref => ref.upstreamCommit === '515a213f79951c563be4f599ca591c63aa63bb6d')).toBe(true)
+          expect(block.sourceRefs.every(ref => Boolean(ref.path))).toBe(true)
+        }
+      }
+    }
+  })
+
+  it('models one-nocturn Matutinum with invitatory, nine psalms, three lessons, and Te Deum', () => {
+    const hour = loadDay('2026-07-20', 'matutinum').hours.matutinum
+    expect(hour?.metadata).toMatchObject({
+      nocturnCount: 1,
+      lessonCount: 3,
+      teDeumIncluded: true,
+      invitatoryIncluded: true,
+    })
+    expect(blocks('2026-07-20', 'matutinum').filter(block => block.type === 'invitatory')).toHaveLength(1)
+    expect(blocks('2026-07-20', 'matutinum').filter(block => block.type === 'psalm')).toHaveLength(9)
+    expect(blocks('2026-07-20', 'matutinum').filter(block => block.type === 'reading')).toHaveLength(3)
+    expect(blocks('2026-07-20', 'matutinum').filter(block => block.type === 'blessing')).toHaveLength(4)
+    expect(blocks('2026-07-20', 'matutinum').filter(block => block.type === 'matins-responsory')).toHaveLength(2)
+    expect(blocks('2026-07-20', 'matutinum').some(block => block.type === 'te-deum')).toBe(true)
+  })
+
+  it('models three-nocturn Matutinum with nocturn, lesson, absolution, and responsory metadata', () => {
+    const hour = loadDay('2026-08-15', 'matutinum').hours.matutinum
+    expect(hour?.metadata?.nocturnCount).toBe(3)
+    expect(hour?.metadata?.lessonCount).toBe(9)
+    expect((hour?.metadata?.nocturns as Array<{ number: number, psalmBlockIds: string[], lessonBlockIds: string[] }>)).toHaveLength(3)
+    expect(blocks('2026-08-15', 'matutinum').filter(block => block.type === 'psalm')).toHaveLength(9)
+    expect(blocks('2026-08-15', 'matutinum').filter(block => block.type === 'absolution')).toHaveLength(3)
+    expect(blocks('2026-08-15', 'matutinum').filter(block => block.type === 'reading')).toHaveLength(9)
+    expect(blocks('2026-08-15', 'matutinum').filter(block => block.type === 'matins-responsory')).toHaveLength(8)
+    expect(blocks('2026-08-15', 'matutinum').filter(block => block.type === 'blessing').some(block => block.metadata?.lessonNumber === 7)).toBe(true)
+  })
+
+  it('records invitatory Psalm 94 repetition structure explicitly', () => {
+    const invitatory = blocks('2026-07-20', 'matutinum').find(block => block.type === 'invitatory')
+    expect(invitatory?.metadata?.psalmNumber).toBe('94')
+    expect(Array.isArray(invitatory?.metadata?.antiphonRepetitions)).toBe(true)
+    expect((invitatory?.metadata?.antiphonRepetitions as string[]).length).toBeGreaterThan(5)
+    expect(Array.isArray(invitatory?.metadata?.repetitionPattern)).toBe(true)
+    expect(invitatory?.sourceRefs.some(ref => ref.path.includes('Invitatorium.txt'))).toBe(true)
+  })
+
+  it('classifies scripture, hagiography or patristic, homily, and special readings', () => {
+    expect(blocks('2026-07-20', 'matutinum').filter(block => block.type === 'reading').map(block => block.metadata?.readingKind)).toContain('scripture')
+    expect(blocks('2026-07-20', 'matutinum').filter(block => block.type === 'reading').map(block => block.metadata?.readingKind)).toContain('hagiographic')
+    expect(blocks('2026-08-15', 'matutinum').filter(block => block.type === 'reading').map(block => block.metadata?.readingKind)).toContain('homily')
+    expect(blocks('2026-04-02', 'matutinum').filter(block => block.type === 'reading').some(block => block.metadata?.blessingOmitted === true)).toBe(true)
+    expect(blocks('2026-11-02', 'matutinum').filter(block => block.type === 'reading').map(block => block.metadata?.readingKind)).toContain('special')
+  })
+
+  it('records Te Deum inclusion and omission from actual DO output', () => {
+    expect(loadDay('2026-07-20', 'matutinum').hours.matutinum?.metadata?.teDeumIncluded).toBe(true)
+    expect(loadDay('2026-08-15', 'matutinum').hours.matutinum?.metadata?.teDeumIncluded).toBe(true)
+    expect(loadDay('2026-03-29', 'matutinum').hours.matutinum?.metadata?.teDeumIncluded).toBe(false)
+    expect(loadDay('2026-04-02', 'matutinum').hours.matutinum?.metadata?.teDeumIncluded).toBe(false)
+    expect(loadDay('2026-11-02', 'matutinum').hours.matutinum?.metadata?.teDeumIncluded).toBe(false)
+  })
+
+  it('covers fixture manifest classes and exact Matutinum oracle results', () => {
+    const manifest = JSON.parse(readFileSync('public/data/officium1962/experimental/fixtures/matutinum-fixtures.json', 'utf8'))
+    expect(manifest.fixtures).toHaveLength(29)
+    expect(manifest.fixtures.filter((fixture: { nocturnCount: number }) => fixture.nocturnCount === 1).length).toBeGreaterThanOrEqual(5)
+    expect(manifest.fixtures.filter((fixture: { nocturnCount: number }) => fixture.nocturnCount === 3).length).toBeGreaterThanOrEqual(5)
+    expect(manifest.fixtures.some((fixture: { civilDate: string }) => fixture.civilDate === '2028-02-29')).toBe(true)
+
+    const report = JSON.parse(readFileSync('public/data/officium1962/reports/matutinum-oracle-comparison.json', 'utf8'))
+    expect(report.summary.dateCounts.exact).toBe(29)
+    expect(report.summary.blockCounts.exact).toBe(1632)
+    expect(report.summary.blockCounts.mismatch).toBe(0)
+    expect(report.summary.blockCounts.unresolved).toBe(0)
+  })
+
+  it('keeps Matutinum parser isolated from existing Prima, martyrology, and production routes', () => {
+    const matutinumParser = readFileSync('features/officium1962/parsers/matutinum/parseMatutinum.ts', 'utf8')
+    expect(matutinumParser).not.toContain('features/prima1962')
+    expect(matutinumParser).not.toContain('public/data/prima1962')
+    expect(matutinumParser).not.toContain('/martyrology/')
+
+    const preview = readFileSync('playground/officium1962/main.mjs', 'utf8')
+    expect(preview).toContain("'matutinum'")
+    expect(preview.indexOf("'matutinum'")).toBeLessThan(preview.indexOf("'laudes'"))
   })
 })

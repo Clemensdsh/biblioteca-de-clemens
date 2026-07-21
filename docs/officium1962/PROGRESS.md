@@ -1,10 +1,10 @@
 # Officium Romanum 1962 Progress
 
-Last updated: 2026-07-20T22:05:30-04:00
+Last updated: 2026-07-20T22:31:30-04:00
 
 ## Current Phase
 
-Phase 4 complete: Laudes and Vesperae vertical slice.
+Phase 5 complete: Matutinum vertical slice.
 
 ## Completed
 
@@ -48,15 +48,26 @@ Phase 4 complete: Laudes and Vesperae vertical slice.
 - Added Phase 4 oracle comparison report for seven dates and two hours.
 - Updated the isolated playground selector with Laudes and Vesperae.
 - Rechecked Completorium and Phase 3 oracle comparisons after Phase 4 changes.
+- Added Phase 5 structured output for Matutinum.
+- Added isolated Matutinum parser modules under `features/officium1962/parsers/matutinum/`.
+- Added Matutinum-specific block types for invitatory, absolution, matins responsory, and Te Deum.
+- Added structured one-nocturn and three-nocturn metadata with nocturn, lesson, psalm, versicle, absolution, and responsory IDs.
+- Added reading kind classification for scripture, hagiographic, homily, patristic, common, and special readings.
+- Added Triduum bare-lesson handling without fabricated blessings.
+- Added Matutinum fixture manifest with 29 dates.
+- Added Matutinum oracle comparison report.
+- Updated the isolated playground selector with Matutinum first.
+- Added `--hours=all-supported` to the day builder.
+- Rechecked Completorium, Phase 3, and Phase 4 oracle comparisons after Phase 5 changes.
 
 ## In Progress
 
-- None for Phase 4.
+- None for Phase 5.
 
 ## Not Started
 
 - 2026 full-year generation.
-- Matutinum.
+- Deduplicated year/month data packaging.
 
 ## Blockers
 
@@ -64,12 +75,13 @@ Phase 4 complete: Laudes and Vesperae vertical slice.
 
 ## Latest Test And Build Results
 
-- `pnpm officium1962:validate`: pass, 1 file / 80 tests plus Completorium, Phase 3, and Phase 4 oracle comparisons.
-- `pnpm test`: pass, 6 files / 126 tests.
+- `pnpm officium1962:validate`: pass, 1 file / 117 tests plus Completorium, Phase 3, Phase 4, and Matutinum oracle comparisons.
+- `pnpm test`: pass, 6 files / 163 tests.
 - `pnpm build`: pass.
 - `pnpm officium1962:build-day --date=2026-07-20 --hours=completorium`: pass.
 - `pnpm officium1962:build-day --date=2026-07-20 --hours=tertia,sexta,nona,prima`: pass.
 - `pnpm officium1962:build-day --date=2026-07-20 --hours=laudes,vesperae`: pass.
+- `pnpm officium1962:build-day --date=2026-07-20 --hours=matutinum`: pass.
 - `pnpm exec vite build --config playground/officium1962/vite.config.mjs --outDir .tmp-officium1962-preview-build`: pass.
 
 ## Upstream Commit
@@ -99,6 +111,35 @@ Phase 4 complete: Laudes and Vesperae vertical slice.
 - 2026-08-15 Laudes/Vesperae: generated and oracle exact
 - 2026-11-02 Laudes/Vesperae: generated as defunctorum structures and oracle exact
 - 2026-12-25 Laudes/Vesperae: generated and oracle exact
+- 2026-01-01 Matutinum: generated and oracle exact
+- 2026-01-06 Matutinum: generated and oracle exact
+- 2026-02-28 Matutinum: generated and oracle exact
+- 2026-03-01 Matutinum: generated and oracle exact
+- 2026-03-19 Matutinum: generated and oracle exact
+- 2026-03-25 Matutinum: generated and oracle exact
+- 2026-03-29 Matutinum: generated and oracle exact
+- 2026-04-02 Matutinum: generated as Holy Thursday special structure and oracle exact
+- 2026-04-03 Matutinum: generated as Good Friday special structure and oracle exact
+- 2026-04-04 Matutinum: generated as Holy Saturday special structure and oracle exact
+- 2026-04-05 Matutinum: generated as Easter special structure and oracle exact
+- 2026-05-14 Matutinum: generated and oracle exact
+- 2026-05-24 Matutinum: generated and oracle exact
+- 2026-05-31 Matutinum: generated and oracle exact
+- 2026-06-04 Matutinum: generated and oracle exact
+- 2026-06-12 Matutinum: generated and oracle exact
+- 2026-06-29 Matutinum: generated and oracle exact
+- 2026-07-19 Matutinum: generated and oracle exact
+- 2026-07-20 Matutinum: generated and oracle exact
+- 2026-08-15 Matutinum: generated and oracle exact
+- 2026-11-01 Matutinum: generated and oracle exact
+- 2026-11-02 Matutinum: generated as defunctorum structure and oracle exact
+- 2026-12-08 Matutinum: generated and oracle exact
+- 2026-12-17 Matutinum: generated and oracle exact
+- 2026-12-23 Matutinum: generated and oracle exact
+- 2026-12-24 Matutinum: generated and oracle exact
+- 2026-12-25 Matutinum: generated and oracle exact
+- 2026-12-31 Matutinum: generated and oracle exact
+- 2028-02-29 Matutinum: generated and oracle exact
 
 ## Mismatch Count
 
@@ -111,15 +152,17 @@ Phase 4 complete: Laudes and Vesperae vertical slice.
   - `public/data/officium1962/reports/minor-hours-oracle-comparison.json`
   - `docs/officium1962/reports/major-hours-oracle-comparison.md`
   - `public/data/officium1962/reports/major-hours-oracle-comparison.json`
+  - `docs/officium1962/reports/matutinum-oracle-comparison.md`
+  - `public/data/officium1962/reports/matutinum-oracle-comparison.json`
 
 ## Unresolved Count
 
 - Date-level unresolved: 0.
 - Block-level unresolved: 0.
-- Adapter warnings for verified Completorium, Phase 3, and Phase 4 dates: 0.
+- Adapter warnings for verified Completorium, Phase 3, Phase 4, and Matutinum dates: 0.
 - Source line ranges remain limited where the upstream Perl pipeline has already resolved inclusions; file and section are recorded.
-- Deduplication, year generation, and Matutinum remain unresolved.
+- Deduplication and year generation remain unresolved.
 
 ## Next Step
 
-Proceed to Phase 5 Matutinum only after review; do not start it until Phase 4 is accepted.
+Proceed to Phase 6 full-year generation and deduplication only after review; do not start it until Phase 5 is accepted.

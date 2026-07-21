@@ -1,5 +1,6 @@
 import type { ExportedOfficeHour, LiturgicalBlock, LiturgicalBlockType, MajorHourMetadata, MajorHourName, MinorHourName, MinorHourMetadata, Office1962Day, OfficeHour, SourceRef } from './schema.ts'
 import { normalizeLatinTechnical } from './normalizeLatin.ts'
+import { parseMatutinum } from './parsers/matutinum/parseMatutinum.ts'
 
 const ORDINARY_COMPLETORIUM = 'web/www/horas/Ordinarium/Completorium.txt'
 const ORDINARY_LAUDES = 'web/www/horas/Ordinarium/Laudes.txt'
@@ -36,6 +37,8 @@ export function buildOffice1962DayFromExport(exported: ExportedOfficeHour): Offi
 }
 
 export function parseExportedOfficeHour(exported: ExportedOfficeHour): OfficeHour {
+  if (exported.hour === 'matutinum')
+    return parseMatutinum(exported)
   if (isMajorHourName(exported.hour))
     return parseMajorHour(exported)
   if (isMinorHourName(exported.hour))
@@ -43,7 +46,7 @@ export function parseExportedOfficeHour(exported: ExportedOfficeHour): OfficeHou
   if (exported.hour === 'prima')
     return parsePrima(exported)
   if (exported.hour !== 'completorium')
-    throw new Error(`Phase 4 parser supports Completorium, Laudes, Tertia, Sexta, Nona, Prima, and Vesperae; received ${exported.hour}`)
+    throw new Error(`Phase 5 parser supports Matutinum, Completorium, Laudes, Tertia, Sexta, Nona, Prima, and Vesperae; received ${exported.hour}`)
 
   const blocks: LiturgicalBlock[] = []
 

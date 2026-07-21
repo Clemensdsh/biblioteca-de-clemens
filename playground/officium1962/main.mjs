@@ -1,15 +1,37 @@
 import './style.css'
 
 const availableDates = [
+  '2026-01-01',
+  '2026-01-06',
+  '2026-02-28',
+  '2026-03-01',
+  '2026-03-19',
+  '2026-03-25',
+  '2026-03-29',
+  '2026-04-02',
+  '2026-04-03',
+  '2026-04-04',
+  '2026-04-05',
+  '2026-05-14',
+  '2026-05-24',
+  '2026-05-31',
+  '2026-06-04',
+  '2026-06-12',
+  '2026-06-29',
   '2026-07-20',
   '2026-07-19',
-  '2026-04-02',
-  '2026-04-05',
   '2026-08-15',
+  '2026-11-01',
   '2026-11-02',
+  '2026-12-08',
+  '2026-12-17',
+  '2026-12-23',
+  '2026-12-24',
   '2026-12-25',
+  '2026-12-31',
+  '2028-02-29',
 ]
-const availableHours = ['completorium', 'laudes', 'tertia', 'sexta', 'nona', 'prima', 'vesperae']
+const availableHours = ['matutinum', 'laudes', 'prima', 'tertia', 'sexta', 'nona', 'vesperae', 'completorium']
 
 const state = {
   selectedDate: availableDates[0],
@@ -58,6 +80,7 @@ function renderShell() {
         </div>
       </header>
       <div data-status></div>
+      <nav class="matutinum-toc" data-toc></nav>
       <article class="office-book" data-office></article>
     </main>
   `

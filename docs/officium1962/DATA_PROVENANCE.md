@@ -24,9 +24,33 @@ Current transformation stages:
 
 ## Generated So Far
 
-- `public/data/officium1962/experimental/days/2026-07-20/completorium.json`
+Experimental fixture data exists under:
 
-This is not yet final deduplicated production data.
+- `public/data/officium1962/experimental/days/`
+- `public/data/officium1962/experimental/fixtures/matutinum-fixtures.json`
+- `public/data/officium1962/reports/`
+
+Implemented hours:
+
+- Matutinum
+- Laudes
+- Prima
+- Tertia
+- Sexta
+- Nona
+- Vesperae
+- Completorium
+
+Current Matutinum fixture coverage:
+
+- 29 Matutinum fixture dates
+- 12 one-nocturn fixtures
+- 17 three-nocturn fixtures
+- 189 lessons
+- Sacred Triduum and All Souls included
+- Leap day fixture `2028-02-29`
+
+This is still experimental fixture data, not final deduplicated production data and not a generated full year.
 
 ## Attribution Text Candidate
 
