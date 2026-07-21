@@ -1,0 +1,723 @@
+{
+  "schemaVersion": "0.1.0",
+  "generatedAt": "2026-07-21T00:37:11.068Z",
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "dates": [
+    "2026-07-20",
+    "2026-07-19",
+    "2026-04-02",
+    "2026-04-05",
+    "2026-08-15",
+    "2026-11-02",
+    "2026-12-25"
+  ],
+  "summary": {
+    "dateCounts": {
+      "exact": 7,
+      "normalized-equivalent": 0,
+      "expected-structural-difference": 0,
+      "mismatch": 0,
+      "unresolved": 0
+    },
+    "blockCounts": {
+      "exact": 113,
+      "normalized-equivalent": 0,
+      "expected-structural-difference": 0,
+      "mismatch": 0,
+      "unresolved": 0
+    }
+  },
+  "results": [
+    {
+      "date": "2026-07-20",
+      "hour": "completorium",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-07-20-completorium-incipit",
+          "type": "blessing",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-lectio-brevis",
+          "type": "reading",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-confiteor-converte-nos",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-deus-in-adjutorium",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-psalm-6-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-psalm-7-2-10-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-psalm-7-11-18-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-psalm-7-11-18-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-nunc-dimittis-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-nunc-dimittis",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-nunc-dimittis-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-benedicamus-domino",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-final-blessing",
+          "type": "blessing",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-marian-antiphon",
+          "type": "marian-antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-completorium-divinum-auxilium",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 21,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "hour": "completorium",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-07-19-completorium-incipit",
+          "type": "blessing",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-lectio-brevis",
+          "type": "reading",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-confiteor-converte-nos",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-deus-in-adjutorium",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-psalm-4-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-psalm-90-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-psalm-133-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-psalm-133-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-nunc-dimittis-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-nunc-dimittis",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-nunc-dimittis-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-benedicamus-domino",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-final-blessing",
+          "type": "blessing",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-marian-antiphon",
+          "type": "marian-antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-completorium-divinum-auxilium",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 21,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "hour": "completorium",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-04-02-completorium-completorium-singulare-confiteor",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-completorium-psalm-4-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-completorium-psalm-90-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-completorium-psalm-133-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-completorium-nunc-dimittis",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-completorium-triduum-silent-ending",
+          "type": "prayer",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 6,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-04-05",
+      "hour": "completorium",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-04-05-completorium-incipit",
+          "type": "blessing",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-completorium-lectio-brevis",
+          "type": "reading",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-completorium-confiteor-converte-nos",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-completorium-deus-in-adjutorium",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-completorium-psalm-4-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-completorium-psalm-90-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-completorium-psalm-133-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-completorium-hymnus-omittitur",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-completorium-nunc-dimittis-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-completorium-nunc-dimittis",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-completorium-nunc-dimittis-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-completorium-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-completorium-benedicamus-domino",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-completorium-final-blessing",
+          "type": "blessing",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-completorium-marian-antiphon",
+          "type": "marian-antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-completorium-divinum-auxilium",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 16,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "hour": "completorium",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-08-15-completorium-incipit",
+          "type": "blessing",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-lectio-brevis",
+          "type": "reading",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-confiteor-converte-nos",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-deus-in-adjutorium",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-psalm-4-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-psalm-90-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-psalm-133-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-psalm-133-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-nunc-dimittis-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-nunc-dimittis",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-nunc-dimittis-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-benedicamus-domino",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-final-blessing",
+          "type": "blessing",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-marian-antiphon",
+          "type": "marian-antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-completorium-divinum-auxilium",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 21,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "hour": "completorium",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-11-02-completorium-defunctorum-confiteor",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-completorium-psalm-122-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-completorium-psalm-141-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-completorium-psalm-142-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-completorium-nunc-dimittis",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-completorium-oratio-mortuorum",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-completorium-conclusio-defunctorum",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 7,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    },
+    {
+      "date": "2026-12-25",
+      "hour": "completorium",
+      "status": "exact",
+      "blockResults": [
+        {
+          "blockId": "office-1962-2026-12-25-completorium-incipit",
+          "type": "blessing",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-lectio-brevis",
+          "type": "reading",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-confiteor-converte-nos",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-deus-in-adjutorium",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-psalm-4-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-psalm-90-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-psalm-133-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-psalm-133-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-responsorium-breve",
+          "type": "responsory",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-versus-custodi-nos",
+          "type": "versicle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-nunc-dimittis-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-nunc-dimittis",
+          "type": "canticle",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-nunc-dimittis-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-oratio",
+          "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-benedicamus-domino",
+          "type": "dialogue",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-final-blessing",
+          "type": "blessing",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-marian-antiphon",
+          "type": "marian-antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-completorium-divinum-auxilium",
+          "type": "blessing",
+          "status": "exact"
+        }
+      ],
+      "counts": {
+        "exact": 21,
+        "normalized-equivalent": 0,
+        "expected-structural-difference": 0,
+        "mismatch": 0,
+        "unresolved": 0
+      },
+      "notes": [
+        "Oracle source is the pinned Divinum Officium Perl engine through the local adapter, using Rubrics 1960 - 1960 and Latin.",
+        "Comparison is performed per structured block against the normalized upstream resolved text stream, not as one whole HTML string."
+      ]
+    }
+  ]
+}

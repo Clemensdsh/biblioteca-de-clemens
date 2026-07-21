@@ -35,3 +35,10 @@ public/atom.xml
 
 # valaxy rss
 public/feed.json
+
+# Local upstream mirror for offline Officium Romanum 1962 data generation.
+vendor/divinum-officium/
+
+# Officium 1962 local scratch output.
+.tmp-officium1962/
+.tmp-officium1962-preview-build/

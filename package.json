@@ -8,6 +8,11 @@
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",
     "dev": "valaxy --port 4859",
+    "officium1962:export": "node scripts/officium1962/run-do-export.mjs",
+    "officium1962:build-day": "node scripts/officium1962/build-day.mjs",
+    "officium1962:compare": "node scripts/officium1962/compare-with-upstream.mjs",
+    "officium1962:preview": "vite --config playground/officium1962/vite.config.mjs",
+    "officium1962:validate": "vitest run features/officium1962 && node scripts/officium1962/compare-with-upstream.mjs",
     "rss": "valaxy rss",
     "serve": "vite preview",
     "test": "vitest run"
