@@ -1,12 +1,6 @@
 <script setup lang="ts">
 import type { LiturgicalBlock } from '../../features/officium1962/schema'
 
-defineProps<{
-  block: LiturgicalBlock
-  showRubrics?: boolean
-  showSources?: boolean
-}>()
-
 function lineClass(line: string) {
   return {
     'is-dialogue': line.startsWith('℣.') || line.startsWith('℟.'),
@@ -16,12 +10,27 @@ function lineClass(line: string) {
 }
 
 function isRubricLine(line: string) {
-  return /Benedictio\.|Gloria omittitur|secreto|omittitur|Examen conscientiæ|\(percutit sibi pectus\)/i.test(line)
+  return /Benedictio\.|Gloria omittitur|secreto|omittitur|Examen conscientiæ|\(percutit sibi pectus\)|genuflectitur/i.test(line)
 }
+
+function isRubricBlock() {
+  return props.block.type === 'rubric'
+}
+
+const props = defineProps<{
+  block: LiturgicalBlock
+  showRubrics?: boolean
+  showSources?: boolean
+}>()
 </script>
 
 <template>
-  <section class="officium1962-block" :data-block-type="block.type">
+  <section
+    v-show="showRubrics || !isRubricBlock()"
+    :id="block.id"
+    class="officium1962-block"
+    :data-block-type="block.type"
+  >
     <h3 v-if="block.title" class="officium1962-block-title">
       {{ block.title }}
     </h3>
@@ -32,6 +41,17 @@ function isRubricLine(line: string) {
       :key="`${block.id}-${index}`"
       class="officium1962-line"
       :class="lineClass(line)"
+      :aria-label="isRubricLine(line) || isRubricBlock() ? `礼仪指示：${line}` : undefined"
+    >
+      {{ line }}
+    </p>
+
+    <p
+      v-for="(line, index) in block.rubricLines"
+      v-show="showRubrics"
+      :key="`${block.id}-rubric-${index}`"
+      class="officium1962-line is-rubric"
+      :aria-label="`礼仪指示：${line}`"
     >
       {{ line }}
     </p>
@@ -56,7 +76,7 @@ function isRubricLine(line: string) {
 
 .officium1962-block-title {
   margin: 0 0 0.45rem;
-  color: var(--va-c-primary);
+  color: var(--officium1962-heading);
   font-size: 1rem;
   font-style: italic;
   font-weight: 600;
@@ -65,7 +85,7 @@ function isRubricLine(line: string) {
 
 .officium1962-line {
   margin: 0.2rem 0;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
   line-height: 1.75;
 }
 
@@ -84,9 +104,33 @@ function isRubricLine(line: string) {
 }
 
 .is-rubric,
+.officium1962-block[data-block-type='rubric'] .officium1962-line,
 .officium1962-note {
   color: var(--officium1962-rubric, #9f1d1d);
   font-style: italic;
+}
+
+.officium1962-block[data-block-type='heading'] {
+  margin-top: 2.5rem;
+  padding-top: 0.9rem;
+  border-top: 2px solid var(--va-c-divider);
+}
+
+.officium1962-block[data-block-type='heading'] .officium1962-block-title {
+  font-size: 1.15rem;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.officium1962-block[data-block-type='reading'] + .officium1962-block[data-block-type='matins-responsory'] {
+  margin-top: -0.45rem;
+  padding-left: 0.8rem;
+  border-left: 2px solid var(--va-c-divider);
+}
+
+.officium1962-block[data-block-type='commemoration'] {
+  padding-left: 1rem;
+  border-left: 3px solid var(--officium1962-rubric);
 }
 
 .officium1962-note {
@@ -103,5 +147,21 @@ function isRubricLine(line: string) {
 .officium1962-sources code {
   display: block;
   overflow-wrap: anywhere;
+}
+
+@media print {
+  .officium1962-block {
+    break-inside: auto;
+  }
+
+  .officium1962-block[data-block-type='heading'],
+  .officium1962-block[data-block-type='reading'],
+  .officium1962-block[data-block-type='matins-responsory'] {
+    break-inside: avoid;
+  }
+
+  .officium1962-sources {
+    display: none !important;
+  }
 }
 </style>

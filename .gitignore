@@ -42,6 +42,8 @@ vendor/divinum-officium/
 # Officium 1962 local scratch output.
 .tmp-officium1962/
 .tmp-officium1962-preview-build/
+.tmp-officium1962-phase7-*
+.tmp-officium1962-preview.*.log
 .work/officium1962/
 .cache/officium1962/
 artifacts/officium1962/

@@ -349,14 +349,14 @@ describe('officium1962 Phase 6 release year data', () => {
     expect(oracle.summary.unresolved).toBe(0)
   })
 
-  it('keeps raw annual exports out of public release data and keeps production routes disabled', () => {
+  it('keeps raw annual exports out of production and gates the single Phase 7 route entry', () => {
     const preview = readFileSync('playground/officium1962/main.mjs', 'utf8')
     expect(preview).not.toContain('run-do-export')
     expect(preview).not.toContain('do-export')
-
-    const routeSearchTargets = ['vite.config.ts', 'valaxy.config.ts']
-    for (const target of routeSearchTargets)
-      expect(readFileSync(target, 'utf8')).not.toContain('officium1962')
+    const navigation = readFileSync('valaxy.config.ts', 'utf8')
+    expect(navigation).toContain('featureFlags.officium1962')
+    expect(navigation.match(/url: '\/officium-1962\/'/g)).toHaveLength(1)
+    expect(readFileSync('pages/officium-1962/index.vue', 'utf8')).not.toMatch(/experimental|\/raw\//)
   })
 })
 

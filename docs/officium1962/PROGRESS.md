@@ -1,10 +1,10 @@
 # Officium Romanum 1962 Progress
 
-Last updated: 2026-07-21T01:44:57-04:00
+Last updated: 2026-07-22
 
 ## Current Phase
 
-Phase 6 complete and checkpointed: 2026 full-year release data, deduplication, annual validation, and release-format playground are complete. Phase 7 production integration has not started.
+Phase 7A through Phase 7D are complete. The production feature flag and the single `罗马日课 1962` navigation entry are enabled. Phase 7 is ready for the documented production deployment and rollback process.
 
 ## Completed
 
@@ -64,14 +64,36 @@ Phase 6 complete and checkpointed: 2026 full-year release data, deduplication, a
 - Added release-format playground loading through `manifest.json`, year/day files, and shared chunks.
 - Added Phase 6 reports for build, validation, oracle summary, deduplication, reproducibility, and performance.
 - Added checkpoint `docs/officium1962/CHECKPOINT_2026_PHASE_6_COMPLETE.md` for continuing work after Phase 6.
+- Recorded the Phase 7 starting baseline at HEAD `7c126f2`: 6 files / 167 tests, production build passed, playground build passed, and annual validation passed.
+- Added the production release loader under `features/officium1962/runtime/` with schema, upstream commit, checksum, reference, cache, duplicate request, network, unavailable date/year, and base-path handling.
+- Added browser-local civil-date and query-state helpers without UTC conversion.
+- Added the `/officium-1962/` production page candidate behind the disabled single-source feature flag in `config/features.ts`.
+- Added Phase 7A loader, URL-state, and isolation tests.
+- Completed `docs/officium1962/phases/PHASE_7A.md`.
+- Completed production continuous-book styling, Matutinum anchors, Vesperae special metadata, Chinese error states, source/license disclosure, theme dark mode, and print styles.
+- Added production SEO metadata and verified the SSG HTML output.
+- Added accessibility and production page tests plus an eight-hour real-release integration test.
+- Completed `docs/officium1962/phases/PHASE_7B.md` and `docs/officium1962/reports/phase-7-accessibility.md`.
+- Enabled the single production feature flag and added exactly one `罗马日课 1962` entry to the existing page navigation.
+- Added the client-date SSG shell route after detecting and fixing a hard-refresh hydration error.
+- Added Netlify/Vercel cache policy for release JSON without marking ordinal shared chunks immutable.
+- Verified production route refresh, JSON MIME, URL history, errors, desktop/mobile layout, dark mode, print, and 50 requested date/hour acceptance combinations.
+- Completed the final production browser audit with 0 console errors and no desktop or 390 px mobile overflow.
+- Added Phase 7 performance, accessibility, manual acceptance, production runbook, and phase completion documentation.
+- Re-ran the complete oracle chain: Completorium 7/113, minor hours 28/305, major hours 14/234, Matutinum 29/1632, and annual sample 192/3826 exact; mismatch 0 and unresolved 0.
+- Re-ran annual validation: 365 days, 2920 date/hour outputs, 55184 occurrences, and 8713 shared blocks.
+- Re-ran the full suite: 11 files / 200 tests passed; production and playground builds passed.
+- Measured route bundle, cold loads, same-day/same-month/cross-month cache behavior, and local article-ready time.
+- Verified flag-off build rollback and restored the enabled final build.
+- Completed Phase 7C and its performance/manual acceptance reports.
 
 ## In Progress
 
-- None for Phase 6.
+- None.
 
 ## Not Started
 
-- Phase 7 production integration candidate.
+- None for Phase 7.
 
 ## Blockers
 
@@ -79,8 +101,8 @@ Phase 6 complete and checkpointed: 2026 full-year release data, deduplication, a
 
 ## Latest Test And Build Results
 
-- `pnpm officium1962:validate`: pass, 1 file / 121 tests plus Completorium, Phase 3, Phase 4, Matutinum, annual validation, and annual sample oracle comparisons.
-- `pnpm test`: pass, 6 files / 167 tests.
+- `pnpm officium1962:validate`: pass, 6 files / 154 tests plus Completorium, minor hours, major hours, Matutinum, annual validation, and annual sample oracle comparisons.
+- `pnpm test`: pass, 11 files / 200 tests.
 - `pnpm build`: pass.
 - `pnpm officium1962:build-year --year=2026 --hours=all-supported --resume --strict`: pass.
 - `pnpm officium1962:validate-year --year=2026`: pass, 365 days, 2920 date/hour outputs, 55184 occurrences, 8713 shared blocks.
@@ -169,10 +191,10 @@ Phase 6 complete and checkpointed: 2026 full-year release data, deduplication, a
 - Block-level unresolved: 0.
 - Adapter warnings for verified Completorium, Phase 3, Phase 4, and Matutinum dates: 0.
 - Source line ranges remain limited where the upstream Perl pipeline has already resolved inclusions; file and section are recorded.
-- Deduplication and year generation remain unresolved.
+- Phase 6 deduplication and year generation are resolved for the 2026 release; multi-year packaging remains future work.
 - Phase 6 release data: mismatch 0, unresolved 0.
 - Annual release data: 365 days, 2920 date/hour outputs, 55184 occurrences, 8713 shared blocks, 0 orphan blocks.
 
 ## Next Step
 
-Proceed to Phase 7 production integration candidate only after reading `docs/officium1962/CHECKPOINT_2026_PHASE_6_COMPLETE.md` and this progress file. Do not redo Phase 6, update Divinum Officium, change the fixed upstream commit, or enable production routing/navigation until explicitly requested.
+Deploy and monitor the enabled Phase 7 page according to `docs/officium1962/PRODUCTION_RUNBOOK.md`. Future year work must preserve the fixed provenance rules and package all retained years against one coherent shared-block release.

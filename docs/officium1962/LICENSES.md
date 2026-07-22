@@ -19,6 +19,14 @@ Phase 6 release data:
 - Generated from upstream commit `515a213f79951c563be4f599ca591c63aa63bb6d`
 - Generated through local scripts only; no public Divinum Officium website scraping
 
+The Phase 7 production page presents this release with a concise attribution panel naming Divinum Officium, the MIT license, Rubrics 1960, Latin, the fixed commit, the 2026 release year, and this site's structured transformation. No upstream frontend CSS or JavaScript is used.
+
+## Production Dependency
+
+- `@unhead/vue` 2.1.15: MIT License, used for route metadata.
+
+The remaining production framework dependencies and their licenses continue to be managed by the site's existing package manifest and lockfile.
+
 ## Explicit Non-Inclusions
 
 - No Spanish data is exported.

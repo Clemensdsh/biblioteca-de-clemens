@@ -1,5 +1,6 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
+import { featureFlags } from './config/features'
 
 const safelist = [
   'i-ri-home-line',
@@ -19,6 +20,11 @@ const safelist = [
   'i-ri-clipboard-line',
   'i-ri-information-line',
   'i-ri-calendar-event-line',
+  'i-ri-book-open-line',
+  'i-ri-arrow-left-s-line',
+  'i-ri-arrow-right-s-line',
+  'i-ri-arrow-left-line',
+  'i-ri-arrow-right-line',
 ]
 
 export default defineValaxyConfig<UserThemeConfig>({
@@ -87,6 +93,14 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-calendar-event-line',
         color: '#FF8C00',
       },
+      ...(featureFlags.officium1962
+        ? [{
+            name: '罗马日课 1962',
+            url: '/officium-1962/',
+            icon: 'i-ri-book-open-line',
+            color: '#9A3F35',
+          }]
+        : []),
     ],
 
     footer: {

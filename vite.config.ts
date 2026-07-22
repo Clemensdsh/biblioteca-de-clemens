@@ -25,6 +25,8 @@ function isClientDateRoute(route: string) {
   return [
     '/martyrology',
     '/martyrology/',
+    '/officium-1962',
+    '/officium-1962/',
     '/posts/saturday-memorial-of-our-lady-office',
     '/posts/saturday-memorial-of-our-lady-office/',
   ].includes(route)

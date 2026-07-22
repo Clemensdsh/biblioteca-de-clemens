@@ -21,6 +21,7 @@
     "test": "vitest run"
   },
   "dependencies": {
+    "@unhead/vue": "2.1.15",
     "valaxy": "0.28.11",
     "valaxy-theme-yun": "0.28.11"
   },

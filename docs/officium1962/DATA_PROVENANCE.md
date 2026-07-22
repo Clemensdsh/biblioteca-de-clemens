@@ -10,7 +10,7 @@
 
 ## Transformation
 
-The current experimental adapter runs the upstream Office engine locally and intercepts its internal script array before the original `print_content` table rendering stage.
+The generation-only adapter runs the upstream Office engine locally and intercepts its internal script array before the original `print_content` table rendering stage. It is not part of the production website runtime.
 
 Current transformation stages:
 
@@ -88,3 +88,14 @@ The annual builder:
 5. Writes manifests and checksums for root, year, calendar, month, day, and shared chunk files.
 
 Machine-readable provenance is in `public/data/officium1962/provenance.json`.
+
+## Phase 7 Production Delivery
+
+- Public page: `https://clemensdsh.xyz/officium-1962/`
+- Current published year: 2026 only
+- Production schema: `officium1962.v1`
+- Runtime entry: `features/officium1962/runtime/`
+
+The production loader starts at the root manifest, verifies the supported schema and fixed upstream commit, and then verifies SHA-256 checksums for the selected year, calendar, day document, shared manifest, and required shared chunks. It reconstructs only the selected hour and caches fetched promises in memory.
+
+The browser does not load experimental fixtures, annual raw exports, generation caches, Perl, Docker, the vendor checkout, or the public Divinum Officium site. It does not import the 2026 corpus into JavaScript. Existing Prima and `/martyrology/` data remain independent.
