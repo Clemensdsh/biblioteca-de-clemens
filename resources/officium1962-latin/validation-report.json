@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "deterministicOutput": true,
+    "forbiddenPathsFree": true,
+    "htmlFree": true,
+    "productionIsolation": true,
+    "releaseCoverage": true,
+    "sourceRefsCoverage": true,
+    "translationMergePreserved": true,
+    "unicodeNfc": true
+  },
+  "counts": {
+    "calendarDays": 365,
+    "corpusEntries": 9102,
+    "duplicateAuditGroups": 607,
+    "duplicateGroups": 607,
+    "latinCharacters": 3937984,
+    "latinWords": 552136,
+    "mappedCorpusOccurrences": 58900,
+    "metadataEntries": 389,
+    "metadataOccurrences": 3716,
+    "needsClassification": 0,
+    "releaseOccurrences": 55184,
+    "sharedBlockEntries": 8713,
+    "sourceRefs": 18897,
+    "sourceRefsCompleteEntries": 9102,
+    "sourceRefsCompletePercent": 100,
+    "translationTemplateEntries": 9102,
+    "uniqueCalendarTitles": 354
+  },
+  "errors": [],
+  "productionCommit": "10d951f5901a6d2991063763d7b7d471566c688a",
+  "schemaVersion": "officium1962.translation-corpus.v1",
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "valid": true,
+  "validatedAt": "2026-07-22T12:32:51-04:00",
+  "warnings": []
+}

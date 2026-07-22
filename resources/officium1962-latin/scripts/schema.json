@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "contentHash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "contexts": {
+      "maxItems": 10,
+      "minItems": 1,
+      "type": "array"
+    },
+    "formatting": {
+      "type": "object"
+    },
+    "id": {
+      "type": "string"
+    },
+    "latin": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "normalizedLatin": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "occurrenceCount": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "occurrenceIds": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "sourceRefs": {
+      "minItems": 1,
+      "type": "array"
+    },
+    "subtype": {
+      "type": "string"
+    },
+    "translatable": {
+      "const": true
+    },
+    "translation": {
+      "properties": {
+        "language": {
+          "const": "zh-Hans"
+        },
+        "status": {
+          "enum": [
+            "untranslated",
+            "draft",
+            "machine-draft",
+            "reviewed",
+            "approved"
+          ]
+        },
+        "text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "language",
+        "text",
+        "status"
+      ],
+      "type": "object"
+    },
+    "translationPriority": {
+      "enum": [
+        "core",
+        "high",
+        "normal",
+        "low",
+        "rubric",
+        "metadata"
+      ]
+    },
+    "type": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "contentHash",
+    "latin",
+    "normalizedLatin",
+    "type",
+    "translatable",
+    "translationPriority",
+    "sourceRefs",
+    "occurrenceCount",
+    "occurrenceIds",
+    "contexts",
+    "formatting",
+    "translation"
+  ],
+  "title": "Officium 1962 Latin Corpus Entry",
+  "type": "object"
+}

@@ -4,7 +4,7 @@ Last updated: 2026-07-22
 
 ## Current Phase
 
-Phase 7A through Phase 7D are complete. The production feature flag and the single `罗马日课 1962` navigation entry are enabled. Phase 7 is ready for the documented production deployment and rollback process.
+Phase 0 through Phase 7 and the final production archive are complete. The production feature flag and the single `罗马日课 1962` navigation entry are enabled. The 2026 Latin translation corpus has been extracted as an offline workspace; the production website still displays Latin only.
 
 ## Completed
 
@@ -86,6 +86,14 @@ Phase 7A through Phase 7D are complete. The production feature flag and the sing
 - Measured route bundle, cold loads, same-day/same-month/cross-month cache behavior, and local article-ready time.
 - Verified flag-off build rollback and restored the enabled final build.
 - Completed Phase 7C and its performance/manual acceptance reports.
+- Confirmed Cloudflare Pages first clone timeout, successful Retry deployment, and production deployment of commit `10d951f5901a6d2991063763d7b7d471566c688a`.
+- Verified `https://biblioteca-de-clemens.pages.dev/officium-1962/` and `https://clemensdsh.xyz/officium-1962/` return the production page.
+- Added deterministic, checksum-validating Latin corpus extraction and validation commands that read release JSON only.
+- Extracted 9102 canonical entries: 8713 shared blocks, 387 release metadata entries, and 2 production display labels.
+- Preserved all 55184 release occurrences, 100% sourceRefs coverage, 365 calendar rows, and 67 commemoration mappings.
+- Generated the editable Simplified Chinese translation template without translations, plus CSV, by-type, source, occurrence, duplicate, coverage, and roundtrip views.
+- Added translation merge preservation, deprecated-ID handling, production isolation, stable ID, Unicode, protected-character, forbidden-path, and deterministic output tests.
+- Added `docs/officium1962/TRANSLATION_WORKFLOW.md` and `docs/officium1962/FINAL_CHECKPOINT.md`.
 
 ## In Progress
 
@@ -93,7 +101,7 @@ Phase 7A through Phase 7D are complete. The production feature flag and the sing
 
 ## Not Started
 
-- None for Phase 7.
+- Optional Chinese translation and review work; it is outside the completed production/archive scope.
 
 ## Blockers
 
@@ -101,8 +109,10 @@ Phase 7A through Phase 7D are complete. The production feature flag and the sing
 
 ## Latest Test And Build Results
 
-- `pnpm officium1962:validate`: pass, 6 files / 154 tests plus Completorium, minor hours, major hours, Matutinum, annual validation, and annual sample oracle comparisons.
-- `pnpm test`: pass, 11 files / 200 tests.
+- `pnpm officium1962:extract-corpus`: pass, 9102 corpus entries, 8713 shared blocks, 55184 release occurrences, 100% sourceRefs.
+- `pnpm officium1962:validate-corpus`: pass, deterministic roundtrip and production isolation.
+- `pnpm officium1962:validate`: pass, 7 files / 169 tests plus Completorium, minor hours, major hours, Matutinum, annual validation, and annual sample oracle comparisons.
+- `pnpm test`: pass, 12 files / 215 tests.
 - `pnpm build`: pass.
 - `pnpm officium1962:build-year --year=2026 --hours=all-supported --resume --strict`: pass.
 - `pnpm officium1962:validate-year --year=2026`: pass, 365 days, 2920 date/hour outputs, 55184 occurrences, 8713 shared blocks.
@@ -197,4 +207,4 @@ Phase 7A through Phase 7D are complete. The production feature flag and the sing
 
 ## Next Step
 
-Deploy and monitor the enabled Phase 7 page according to `docs/officium1962/PRODUCTION_RUNBOOK.md`. Future year work must preserve the fixed provenance rules and package all retained years against one coherent shared-block release.
+Optional future work begins in `resources/officium1962-latin/translation-template.zh-Hans.jsonl`. The website must remain Latin-only until reviewed and approved translation chunks are separately designed, validated, and deployed.
