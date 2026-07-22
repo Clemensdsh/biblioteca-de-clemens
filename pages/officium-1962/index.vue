@@ -7,15 +7,15 @@ import { addCivilDays, buildOfficiumSearch, localCivilDate, parseOfficiumQuery }
 import { errorDebugMessage, errorMessageZh, Officium1962Loader, type LoadedOfficeHour, type RootManifest } from '../../features/officium1962/runtime'
 import { office1962HourNames, type Office1962Day, type OfficeHourName } from '../../features/officium1962/schema'
 
-const description = 'Rubrics 1960 下的罗马日课拉丁文在线版，包含 Matutinum、Laudes、Prima、Tertia、Sexta、Nona、Vesperae 和 Completorium。'
+const description = 'Rubrics 1960 下的罗马大日课拉丁文在线版，包含 Matutinum、Laudes、Prima、Tertia、Sexta、Nona、Vesperae 和 Completorium。'
 useHead({
-  title: 'Officium Romanum 1962',
+  title: '1962罗马大日课',
   htmlAttrs: { lang: 'zh-CN' },
   link: [{ rel: 'canonical', href: 'https://clemensdsh.xyz/officium-1962/' }],
   meta: [
     { name: 'description', content: description },
     { name: 'robots', content: 'index,follow' },
-    { property: 'og:title', content: 'Officium Romanum 1962' },
+    { property: 'og:title', content: '1962罗马大日课' },
     { property: 'og:description', content: description },
     { property: 'og:type', content: 'website' },
     { property: 'og:url', content: 'https://clemensdsh.xyz/officium-1962/' },
@@ -194,9 +194,9 @@ function persistPreference(key: string, value: string) {
 <template>
   <main class="officium1962-page">
     <header class="officium1962-page-header">
-      <p class="officium1962-eyebrow">Rubrics 1960 · Latin</p>
-      <h1>Officium Romanum 1962</h1>
-      <p class="officium1962-subtitle">罗马日课，Rubrics 1960，拉丁文</p>
+      <p class="officium1962-eyebrow">Officium Romanum · Rubrics 1960 · Latin</p>
+      <h1>1962罗马大日课</h1>
+      <p class="officium1962-subtitle">罗马大日课，Rubrics 1960，拉丁文</p>
     </header>
 
     <section v-if="!enabled" class="officium1962-status" role="status">

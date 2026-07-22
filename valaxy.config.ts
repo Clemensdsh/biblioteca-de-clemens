@@ -81,6 +81,14 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-file-text-line',
         color: '#E8913A',
       },
+      ...(featureFlags.officium1962
+        ? [{
+            name: '1962罗马大日课',
+            url: '/officium-1962/',
+            icon: 'i-ri-book-open-line',
+            color: '#9A3F35',
+          }]
+        : []),
       {
         name: '关于',
         url: '/about/',
@@ -93,14 +101,6 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-calendar-event-line',
         color: '#FF8C00',
       },
-      ...(featureFlags.officium1962
-        ? [{
-            name: '罗马日课 1962',
-            url: '/officium-1962/',
-            icon: 'i-ri-book-open-line',
-            color: '#9A3F35',
-          }]
-        : []),
     ],
 
     footer: {

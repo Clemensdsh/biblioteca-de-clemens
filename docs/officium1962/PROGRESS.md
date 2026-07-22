@@ -208,3 +208,9 @@ Phase 0 through Phase 7 and the final production archive are complete. The produ
 ## Next Step
 
 Optional future work begins in `resources/officium1962-latin/translation-template.zh-Hans.jsonl`. The website must remain Latin-only until reviewed and approved translation chunks are separately designed, validated, and deployed.
+
+## UI Naming And Homepage Follow-up
+
+- The homepage entry now uses the same visual system as the other primary destinations, with three entries on the first desktop row and two centered entries on the second row; Daily Martyrology remains independent below them.
+- The current user-visible product name is `1962罗马大日课` across the homepage, production page, navigation, metadata, and runtime error messages.
+- The route `/officium-1962/`, feature key, release paths, structured data, and internal identifiers remain unchanged.

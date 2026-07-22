@@ -135,6 +135,53 @@ html.dark {
   }
 }
 
+// Keep the five primary home destinations in one consistent grid. The daily
+// martyrology remains the independent destination below them.
+.yun-square-container .info > div:has(> .link-item[href="/officium-1962/"]) {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: stretch;
+  width: min(100%, 18rem);
+}
+
+.yun-square-container .info > div:has(> .link-item[href="/officium-1962/"]) > .link-item:not([href="/martyrology/"]) {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 3.25rem;
+  justify-content: center;
+}
+
+@media (width >= 768px) {
+  .yun-square-container .info > div:has(> .link-item[href="/officium-1962/"]) {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    width: min(100%, 42rem);
+  }
+
+  .yun-square-container .link-item[href="/posts/"] {
+    grid-area: 1 / 1 / auto / span 2;
+  }
+
+  .yun-square-container .link-item[href="/martyrologium-translation/"] {
+    grid-area: 1 / 3 / auto / span 2;
+  }
+
+  .yun-square-container .link-item[href="/annual-feasts/"] {
+    grid-area: 1 / 5 / auto / span 2;
+  }
+
+  .yun-square-container .link-item[href="/officium-1962/"] {
+    grid-area: 2 / 2 / auto / span 2;
+  }
+
+  .yun-square-container .link-item[href="/about/"] {
+    grid-area: 2 / 4 / auto / span 2;
+  }
+
+  .yun-square-container .link-item[href="/martyrology/"] {
+    grid-area: 3 / 1 / auto / -1;
+  }
+}
+
 .yun-square-container .link-item[href="/martyrology/"] {
   flex-basis: 100%;
   justify-content: center;
