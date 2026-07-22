@@ -6,6 +6,10 @@ const styles = readFileSync('styles/index.scss', 'utf8')
 const page = readFileSync('pages/officium-1962/index.vue', 'utf8')
 const flags = readFileSync('config/features.ts', 'utf8')
 const errors = readFileSync('features/officium1962/runtime/errors.ts', 'utf8')
+const playground = [
+  readFileSync('playground/officium1962/index.html', 'utf8'),
+  readFileSync('playground/officium1962/main.mjs', 'utf8'),
+].join('\n')
 
 describe('1962 Roman Office homepage entry and product name', () => {
   it('keeps the five primary homepage destinations in the requested order', () => {
@@ -41,7 +45,8 @@ describe('1962 Roman Office homepage entry and product name', () => {
   })
 
   it('does not expose the retired product names in current UI sources', () => {
-    const currentUi = `${config}\n${page}\n${errors}`
+    const currentUi = `${config}\n${page}\n${errors}\n${playground}`
     expect(currentUi).not.toMatch(/罗马日课 1962|罗马日课1962|Officium Romanum 1962|Officium 1962/)
+    expect(playground).toContain('1962罗马大日课')
   })
 })

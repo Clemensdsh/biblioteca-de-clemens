@@ -37,7 +37,7 @@ function renderShell() {
     <main class="preview-shell">
       <header class="preview-toolbar">
         <div>
-          <p class="kicker">Officium Romanum 1962</p>
+          <p class="kicker">1962罗马大日课</p>
           <h1 data-title>Release Preview</h1>
           <p class="meta" data-meta></p>
         </div>
@@ -126,7 +126,7 @@ async function loadDay() {
     assertSchema(sharedManifest, 'shared manifest')
     const summary = calendar.days.find(day => day.date === state.selectedDate)
     if (!summary)
-      throw new Error(`No generated Officium 1962 release data for ${state.selectedDate}.`)
+      throw new Error(`所选日期没有已生成的1962罗马大日课发布数据：${state.selectedDate}。`)
     if (!summary.availableHours.includes(state.selectedHour))
       throw new Error(`${state.selectedDate} does not provide ${state.selectedHour}.`)
     const dayDoc = await loadReleaseDay(year, summary.dayFile)
