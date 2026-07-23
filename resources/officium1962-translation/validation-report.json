@@ -1,0 +1,32 @@
+{
+  "errors": [],
+  "schemaVersion": "officium1962.structured-translation-workspace.v1",
+  "summary": {
+    "approved": 0,
+    "canonicalTranslationUnits": 9102,
+    "conflicts": 0,
+    "contextViews": 365,
+    "deprecatedEntries": 0,
+    "draft": 0,
+    "invalidRelations": 0,
+    "latinMutationCount": 0,
+    "machineDraft": 0,
+    "metadataOccurrences": 3716,
+    "occurrences": 55184,
+    "orphanCorpusIds": 0,
+    "orphanOccurrences": 0,
+    "overrides": 0,
+    "primaryWorkbooks": 20,
+    "relations": 231021,
+    "reviewed": 0,
+    "roundtripMismatch": 0,
+    "sections": 22323,
+    "sourceRefsCompletePercent": 100,
+    "structuredDays": 365,
+    "structuredHours": 2920,
+    "translated": 0,
+    "untranslated": 9102
+  },
+  "valid": true,
+  "warnings": []
+}

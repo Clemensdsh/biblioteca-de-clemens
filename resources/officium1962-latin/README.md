@@ -22,6 +22,10 @@ pnpm officium1962:validate-corpus
 
 提取器只读 release JSON，不访问网络，也不需要 Perl、Docker、vendor 或 experimental 数据。它先生成到临时目录并严格校验，再原子替换本目录。重复提取会按 ID 保留模板中的 `translation`、`status`、`translator`、`reviewer` 和 `notes`；已移除 ID 进入 deprecated 报告。
 
+## 旧 flat template 兼容说明
+
+`translation-template.zh-Hans.jsonl` 现在是 legacy flat template。它继续保留，供旧流程兼容和首次迁移使用；新的主要人工翻译入口是 `resources/officium1962-translation/workbooks/`，canonical 中文译文真源是 `resources/officium1962-translation/translations/zh-Hans.jsonl`。不要删除旧模板，但也不要把它作为未来主要审校界面。
+
 ## 翻译填写
 
 只编辑 `translation-template.zh-Hans.jsonl` 的人工字段，不修改 `id`、`latin`、`type` 或 `subtype`：

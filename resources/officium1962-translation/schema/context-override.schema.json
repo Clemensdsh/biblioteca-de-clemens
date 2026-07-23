@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "corpusId": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "hour": {
+      "type": "string"
+    },
+    "occurrenceId": {
+      "type": "string"
+    },
+    "overrideId": {
+      "type": "string"
+    },
+    "reason": {
+      "enum": [
+        "grammar",
+        "liturgical-role",
+        "rubric-context",
+        "title-context",
+        "other"
+      ]
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "reviewed",
+        "approved"
+      ]
+    },
+    "structuralRole": {
+      "type": "string"
+    },
+    "translation": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "overrideId",
+    "corpusId",
+    "occurrenceId",
+    "date",
+    "hour",
+    "structuralRole",
+    "translation",
+    "reason",
+    "status"
+  ],
+  "title": "ContextTranslationOverride",
+  "type": "object"
+}

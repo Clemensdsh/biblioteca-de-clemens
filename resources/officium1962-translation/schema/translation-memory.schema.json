@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "latin": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "occurrenceCount": {
+      "type": "integer"
+    },
+    "representativeContexts": {
+      "type": "array"
+    },
+    "reviewer": {
+      "type": "string"
+    },
+    "revision": {
+      "type": "integer"
+    },
+    "sourceRefs": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "untranslated",
+        "draft",
+        "machine-draft",
+        "reviewed",
+        "approved"
+      ]
+    },
+    "subtype": {
+      "type": "string"
+    },
+    "translation": {
+      "type": "string"
+    },
+    "translator": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "latin",
+    "type",
+    "translation",
+    "status",
+    "sourceRefs",
+    "occurrenceCount",
+    "representativeContexts"
+  ],
+  "title": "CanonicalTranslationEntry",
+  "type": "object"
+}
