@@ -1,0 +1,576 @@
+{
+  "schemaVersion": "0.2.0",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "language": "la",
+  "date": "2026-04-02",
+  "liturgicalTitle": "Feria Quinta in Cena Domini ~ I. classis",
+  "rank": "Feria Quinta in Cena Domini;;Feria privilegiata Duplex I classis;;7\n\n",
+  "commemorations": [],
+  "hours": {
+    "tertia": {
+      "name": "tertia",
+      "title": "Tertia",
+      "blocks": [
+        {
+          "id": "office-1962-2026-04-02-tertia-incipit-omittitur",
+          "type": "rubric",
+          "title": "Incipit omittitur",
+          "text": [
+            "Incipit{omittitur}"
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "omitted": true,
+            "specialStructure": "sacred-triduum",
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio de Tempore}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Incipit omittitur",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-04-02-tertia-hymnus-omittitur",
+          "type": "rubric",
+          "title": "Hymnus omittitur",
+          "text": [
+            "Hymnus{omittitur}"
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "omitted": true,
+            "specialStructure": "sacred-triduum",
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio de Tempore}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Hymnus omittitur",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-04-02-tertia-psalm-118-33-48-1",
+          "type": "psalm",
+          "title": "Psalmus 118(33-48) [1]",
+          "text": [
+            "118:33 (He) Legem pone mihi, Dómine, viam justificatiónum tuárum: * et exquíram eam semper.",
+            "118:34 Da mihi intelléctum, et scrutábor legem tuam: * et custódiam illam in toto corde meo.",
+            "118:35 Deduc me in sémitam mandatórum tuórum: * quia ipsam vólui.",
+            "118:36 Inclína cor meum in testimónia tua: * et non in avarítiam.",
+            "118:37 Avérte óculos meos ne vídeant vanitátem: * in via tua vivífica me.",
+            "118:38 Státue servo tuo elóquium tuum, * in timóre tuo.",
+            "118:39 Ámputa oppróbrium meum quod suspicátus sum: * quia judícia tua jucúnda.",
+            "118:40 Ecce, concupívi mandáta tua: * in æquitáte tua vivífica me.",
+            "118:41 (Vav) Et véniat super me misericórdia tua, Dómine: * salutáre tuum secúndum elóquium tuum.",
+            "118:42 Et respondébo exprobrántibus mihi verbum: * quia sperávi in sermónibus tuis.",
+            "118:43 Et ne áuferas de ore meo verbum veritátis usquequáque: * quia in judíciis tuis supersperávi.",
+            "118:44 Et custódiam legem tuam semper: * in sǽculum et in sǽculum sǽculi.",
+            "118:45 Et ambulábam in latitúdine: * quia mandáta tua exquisívi.",
+            "118:46 Et loquébar in testimóniis tuis in conspéctu regum: * et non confundébar.",
+            "118:47 Et meditábar in mandátis tuis, * quæ diléxi.",
+            "118:48 Et levávi manus meas ad mandáta tua, quæ diléxi: * et exercébar in justificatiónibus tuis.",
+            "Gloria omittitur"
+          ],
+          "verses": [
+            "118:33 (He) Legem pone mihi, Dómine, viam justificatiónum tuárum: * et exquíram eam semper.",
+            "118:34 Da mihi intelléctum, et scrutábor legem tuam: * et custódiam illam in toto corde meo.",
+            "118:35 Deduc me in sémitam mandatórum tuórum: * quia ipsam vólui.",
+            "118:36 Inclína cor meum in testimónia tua: * et non in avarítiam.",
+            "118:37 Avérte óculos meos ne vídeant vanitátem: * in via tua vivífica me.",
+            "118:38 Státue servo tuo elóquium tuum, * in timóre tuo.",
+            "118:39 Ámputa oppróbrium meum quod suspicátus sum: * quia judícia tua jucúnda.",
+            "118:40 Ecce, concupívi mandáta tua: * in æquitáte tua vivífica me.",
+            "118:41 (Vav) Et véniat super me misericórdia tua, Dómine: * salutáre tuum secúndum elóquium tuum.",
+            "118:42 Et respondébo exprobrántibus mihi verbum: * quia sperávi in sermónibus tuis.",
+            "118:43 Et ne áuferas de ore meo verbum veritátis usquequáque: * quia in judíciis tuis supersperávi.",
+            "118:44 Et custódiam legem tuam semper: * in sǽculum et in sǽculum sǽculi.",
+            "118:45 Et ambulábam in latitúdine: * quia mandáta tua exquisívi.",
+            "118:46 Et loquébar in testimóniis tuis in conspéctu regum: * et non confundébar.",
+            "118:47 Et meditábar in mandátis tuis, * quæ diléxi.",
+            "118:48 Et levávi manus meas ad mandáta tua, quæ diléxi: * et exercébar in justificatiónibus tuis."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "118",
+            "segment": "33-48",
+            "verses": [
+              "118:33 (He) Legem pone mihi, Dómine, viam justificatiónum tuárum: * et exquíram eam semper.",
+              "118:34 Da mihi intelléctum, et scrutábor legem tuam: * et custódiam illam in toto corde meo.",
+              "118:35 Deduc me in sémitam mandatórum tuórum: * quia ipsam vólui.",
+              "118:36 Inclína cor meum in testimónia tua: * et non in avarítiam.",
+              "118:37 Avérte óculos meos ne vídeant vanitátem: * in via tua vivífica me.",
+              "118:38 Státue servo tuo elóquium tuum, * in timóre tuo.",
+              "118:39 Ámputa oppróbrium meum quod suspicátus sum: * quia judícia tua jucúnda.",
+              "118:40 Ecce, concupívi mandáta tua: * in æquitáte tua vivífica me.",
+              "118:41 (Vav) Et véniat super me misericórdia tua, Dómine: * salutáre tuum secúndum elóquium tuum.",
+              "118:42 Et respondébo exprobrántibus mihi verbum: * quia sperávi in sermónibus tuis.",
+              "118:43 Et ne áuferas de ore meo verbum veritátis usquequáque: * quia in judíciis tuis supersperávi.",
+              "118:44 Et custódiam legem tuam semper: * in sǽculum et in sǽculum sǽculi.",
+              "118:45 Et ambulábam in latitúdine: * quia mandáta tua exquisívi.",
+              "118:46 Et loquébar in testimóniis tuis in conspéctu regum: * et non confundébar.",
+              "118:47 Et meditábar in mandátis tuis, * quæ diléxi.",
+              "118:48 Et levávi manus meas ad mandáta tua, quæ diléxi: * et exercébar in justificatiónibus tuis."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": true,
+            "includesRequiemAeternam": false,
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio de Tempore}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Psalmus 118(33-48) [1]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm118.txt",
+              "section": "Psalm 118",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-04-02-tertia-psalm-118-49-64-2",
+          "type": "psalm",
+          "title": "Psalmus 118(49-64) [2]",
+          "text": [
+            "118:49 (Zai) Memor esto verbi tui servo tuo, * in quo mihi spem dedísti.",
+            "118:50 Hæc me consoláta est in humilitáte mea: * quia elóquium tuum vivificávit me.",
+            "118:51 Supérbi iníque agébant usquequáque: * a lege autem tua non declinávi.",
+            "118:52 Memor fui judiciórum tuórum a sǽculo, Dómine: * et consolátus sum.",
+            "118:53 Deféctio ténuit me, * pro peccatóribus derelinquéntibus legem tuam.",
+            "118:54 Cantábiles mihi erant justificatiónes tuæ, * in loco peregrinatiónis meæ.",
+            "118:55 Memor fui nocte nóminis tui, Dómine: * et custodívi legem tuam.",
+            "118:56 Hæc facta est mihi: * quia justificatiónes tuas exquisívi.",
+            "118:57 (Heth) Pórtio mea, Dómine, * dixi custodíre legem tuam.",
+            "118:58 Deprecátus sum fáciem tuam in toto corde meo: * miserére mei secúndum elóquium tuum.",
+            "118:59 Cogitávi vias meas: * et convérti pedes meos in testimónia tua.",
+            "118:60 Parátus sum, et non sum turbátus: * ut custódiam mandáta tua.",
+            "118:61 Funes peccatórum circumpléxi sunt me: * et legem tuam non sum oblítus.",
+            "118:62 Média nocte surgébam ad confiténdum tibi, * super judícia justificatiónis tuæ.",
+            "118:63 Párticeps ego sum ómnium timéntium te: * et custodiéntium mandáta tua.",
+            "118:64 Misericórdia tua, Dómine, plena est terra: * justificatiónes tuas doce me.",
+            "Gloria omittitur"
+          ],
+          "verses": [
+            "118:49 (Zai) Memor esto verbi tui servo tuo, * in quo mihi spem dedísti.",
+            "118:50 Hæc me consoláta est in humilitáte mea: * quia elóquium tuum vivificávit me.",
+            "118:51 Supérbi iníque agébant usquequáque: * a lege autem tua non declinávi.",
+            "118:52 Memor fui judiciórum tuórum a sǽculo, Dómine: * et consolátus sum.",
+            "118:53 Deféctio ténuit me, * pro peccatóribus derelinquéntibus legem tuam.",
+            "118:54 Cantábiles mihi erant justificatiónes tuæ, * in loco peregrinatiónis meæ.",
+            "118:55 Memor fui nocte nóminis tui, Dómine: * et custodívi legem tuam.",
+            "118:56 Hæc facta est mihi: * quia justificatiónes tuas exquisívi.",
+            "118:57 (Heth) Pórtio mea, Dómine, * dixi custodíre legem tuam.",
+            "118:58 Deprecátus sum fáciem tuam in toto corde meo: * miserére mei secúndum elóquium tuum.",
+            "118:59 Cogitávi vias meas: * et convérti pedes meos in testimónia tua.",
+            "118:60 Parátus sum, et non sum turbátus: * ut custódiam mandáta tua.",
+            "118:61 Funes peccatórum circumpléxi sunt me: * et legem tuam non sum oblítus.",
+            "118:62 Média nocte surgébam ad confiténdum tibi, * super judícia justificatiónis tuæ.",
+            "118:63 Párticeps ego sum ómnium timéntium te: * et custodiéntium mandáta tua.",
+            "118:64 Misericórdia tua, Dómine, plena est terra: * justificatiónes tuas doce me."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "118",
+            "segment": "49-64",
+            "verses": [
+              "118:49 (Zai) Memor esto verbi tui servo tuo, * in quo mihi spem dedísti.",
+              "118:50 Hæc me consoláta est in humilitáte mea: * quia elóquium tuum vivificávit me.",
+              "118:51 Supérbi iníque agébant usquequáque: * a lege autem tua non declinávi.",
+              "118:52 Memor fui judiciórum tuórum a sǽculo, Dómine: * et consolátus sum.",
+              "118:53 Deféctio ténuit me, * pro peccatóribus derelinquéntibus legem tuam.",
+              "118:54 Cantábiles mihi erant justificatiónes tuæ, * in loco peregrinatiónis meæ.",
+              "118:55 Memor fui nocte nóminis tui, Dómine: * et custodívi legem tuam.",
+              "118:56 Hæc facta est mihi: * quia justificatiónes tuas exquisívi.",
+              "118:57 (Heth) Pórtio mea, Dómine, * dixi custodíre legem tuam.",
+              "118:58 Deprecátus sum fáciem tuam in toto corde meo: * miserére mei secúndum elóquium tuum.",
+              "118:59 Cogitávi vias meas: * et convérti pedes meos in testimónia tua.",
+              "118:60 Parátus sum, et non sum turbátus: * ut custódiam mandáta tua.",
+              "118:61 Funes peccatórum circumpléxi sunt me: * et legem tuam non sum oblítus.",
+              "118:62 Média nocte surgébam ad confiténdum tibi, * super judícia justificatiónis tuæ.",
+              "118:63 Párticeps ego sum ómnium timéntium te: * et custodiéntium mandáta tua.",
+              "118:64 Misericórdia tua, Dómine, plena est terra: * justificatiónes tuas doce me."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": true,
+            "includesRequiemAeternam": false,
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio de Tempore}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Psalmus 118(49-64) [2]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm118.txt",
+              "section": "Psalm 118",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-04-02-tertia-psalm-118-65-80-3",
+          "type": "psalm",
+          "title": "Psalmus 118(65-80) [3]",
+          "text": [
+            "118:65 (Teth) Bonitátem fecísti cum servo tuo, Dómine, * secúndum verbum tuum.",
+            "118:66 Bonitátem, et disciplínam, et sciéntiam doce me: * quia mandátis tuis crédidi.",
+            "118:67 Priúsquam humiliárer ego delíqui: * proptérea elóquium tuum custodívi.",
+            "118:68 Bonus es tu: * et in bonitáte tua doce me justificatiónes tuas.",
+            "118:69 Multiplicáta est super me iníquitas superbórum: * ego autem in toto corde meo scrutábor mandáta tua.",
+            "118:70 Coagulátum est sicut lac cor eórum: * ego vero legem tuam meditátus sum.",
+            "118:71 Bonum mihi quia humiliásti me: * ut discam justificatiónes tuas.",
+            "118:72 Bonum mihi lex oris tui, * super míllia auri et argénti.",
+            "118:73 (Joth) Manus tuæ fecérunt me, et plasmavérunt me: * da mihi intelléctum, et discam mandáta tua.",
+            "118:74 Qui timent te vidébunt me, et lætabúntur: * quia in verba tua supersperávi.",
+            "118:75 Cognóvi, Dómine, quia ǽquitas judícia tua: * et in veritáte tua humiliásti me.",
+            "118:76 Fiat misericórdia tua ut consolétur me, * secúndum elóquium tuum servo tuo.",
+            "118:77 Véniant mihi miseratiónes tuæ, et vivam: * quia lex tua meditátio mea est.",
+            "118:78 Confundántur supérbi, quia injúste iniquitátem fecérunt in me: * ego autem exercébor in mandátis tuis.",
+            "118:79 Convertántur mihi timéntes te: * et qui novérunt testimónia tua.",
+            "118:80 Fiat cor meum immaculátum in justificatiónibus tuis, * ut non confúndar.",
+            "Gloria omittitur"
+          ],
+          "verses": [
+            "118:65 (Teth) Bonitátem fecísti cum servo tuo, Dómine, * secúndum verbum tuum.",
+            "118:66 Bonitátem, et disciplínam, et sciéntiam doce me: * quia mandátis tuis crédidi.",
+            "118:67 Priúsquam humiliárer ego delíqui: * proptérea elóquium tuum custodívi.",
+            "118:68 Bonus es tu: * et in bonitáte tua doce me justificatiónes tuas.",
+            "118:69 Multiplicáta est super me iníquitas superbórum: * ego autem in toto corde meo scrutábor mandáta tua.",
+            "118:70 Coagulátum est sicut lac cor eórum: * ego vero legem tuam meditátus sum.",
+            "118:71 Bonum mihi quia humiliásti me: * ut discam justificatiónes tuas.",
+            "118:72 Bonum mihi lex oris tui, * super míllia auri et argénti.",
+            "118:73 (Joth) Manus tuæ fecérunt me, et plasmavérunt me: * da mihi intelléctum, et discam mandáta tua.",
+            "118:74 Qui timent te vidébunt me, et lætabúntur: * quia in verba tua supersperávi.",
+            "118:75 Cognóvi, Dómine, quia ǽquitas judícia tua: * et in veritáte tua humiliásti me.",
+            "118:76 Fiat misericórdia tua ut consolétur me, * secúndum elóquium tuum servo tuo.",
+            "118:77 Véniant mihi miseratiónes tuæ, et vivam: * quia lex tua meditátio mea est.",
+            "118:78 Confundántur supérbi, quia injúste iniquitátem fecérunt in me: * ego autem exercébor in mandátis tuis.",
+            "118:79 Convertántur mihi timéntes te: * et qui novérunt testimónia tua.",
+            "118:80 Fiat cor meum immaculátum in justificatiónibus tuis, * ut non confúndar."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "118",
+            "segment": "65-80",
+            "verses": [
+              "118:65 (Teth) Bonitátem fecísti cum servo tuo, Dómine, * secúndum verbum tuum.",
+              "118:66 Bonitátem, et disciplínam, et sciéntiam doce me: * quia mandátis tuis crédidi.",
+              "118:67 Priúsquam humiliárer ego delíqui: * proptérea elóquium tuum custodívi.",
+              "118:68 Bonus es tu: * et in bonitáte tua doce me justificatiónes tuas.",
+              "118:69 Multiplicáta est super me iníquitas superbórum: * ego autem in toto corde meo scrutábor mandáta tua.",
+              "118:70 Coagulátum est sicut lac cor eórum: * ego vero legem tuam meditátus sum.",
+              "118:71 Bonum mihi quia humiliásti me: * ut discam justificatiónes tuas.",
+              "118:72 Bonum mihi lex oris tui, * super míllia auri et argénti.",
+              "118:73 (Joth) Manus tuæ fecérunt me, et plasmavérunt me: * da mihi intelléctum, et discam mandáta tua.",
+              "118:74 Qui timent te vidébunt me, et lætabúntur: * quia in verba tua supersperávi.",
+              "118:75 Cognóvi, Dómine, quia ǽquitas judícia tua: * et in veritáte tua humiliásti me.",
+              "118:76 Fiat misericórdia tua ut consolétur me, * secúndum elóquium tuum servo tuo.",
+              "118:77 Véniant mihi miseratiónes tuæ, et vivam: * quia lex tua meditátio mea est.",
+              "118:78 Confundántur supérbi, quia injúste iniquitátem fecérunt in me: * ego autem exercébor in mandátis tuis.",
+              "118:79 Convertántur mihi timéntes te: * et qui novérunt testimónia tua.",
+              "118:80 Fiat cor meum immaculátum in justificatiónibus tuis, * ut non confúndar."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": true,
+            "includesRequiemAeternam": false,
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio de Tempore}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Psalmus 118(65-80) [3]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm118.txt",
+              "section": "Psalm 118",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-04-02-tertia-capitulum-responsorium-versus-omittitur",
+          "type": "rubric",
+          "title": "Capitulum Responsorium Versus omittitur",
+          "text": [
+            "Capitulum Responsorium Versus{omittitur}"
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "omitted": true,
+            "specialStructure": "sacred-triduum",
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio de Tempore}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Capitulum Responsorium Versus omittitur",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-04-02-tertia-oratio",
+          "type": "prayer",
+          "title": "Oratio{ex Proprio de Tempore}",
+          "text": [
+            "Oratio {ex Proprio de Tempore}",
+            "Christus factus est pro nobis obédiens usque ad mortem.",
+            "secreto",
+            "Pater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris: et ne nos indúcas in tentatiónem: sed líbera nos a malo. Amen.",
+            "aliquantulum altius",
+            "Réspice, quǽsumus, Dómine, super hanc famíliam tuam, pro qua Dóminus noster Jesus Christus non dubitávit mánibus tradi nocéntium, et crucis subíre torméntum:",
+            "Et sub silentio concluditur",
+            "Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "sourceKind": "proper",
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio de Tempore}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Oratio{ex Proprio de Tempore}",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Pater noster",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Rubricae.txt",
+              "section": "rubrica examen",
+              "transformation": [
+                "resolve_refs",
+                "rubric expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-04-02-tertia-conclusio-omittitur",
+          "type": "rubric",
+          "title": "Conclusio omittitur",
+          "text": [
+            "Conclusio{omittitur}"
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "omitted": true,
+            "specialStructure": "sacred-triduum",
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio de Tempore}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Conclusio omittitur",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "web/cgi-bin/horas/horas.pl",
+          "section": "getordinarium/specials/getunit/resolve_refs",
+          "transformation": [
+            "Divinum Officium internal script array exported before print_content"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "warnings": []
+}

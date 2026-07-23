@@ -1,0 +1,160 @@
+{
+  "blockOccurrenceCount": 55184,
+  "brotliEstimateBytes": 2989578,
+  "deduplicatedTextAndDayBytes": 163399777,
+  "deduplicationRatio": 0.2619,
+  "generatedAt": "2026-07-21T04:53:24.997Z",
+  "gzipEstimateBytes": 15137598,
+  "hashCollisionCount": 0,
+  "largestSharedBlocks": [
+    {
+      "bytes": 8105,
+      "id": "shared-2fb537992b83e60af795",
+      "title": "Psalmus 67 [2]",
+      "type": "psalm"
+    },
+    {
+      "bytes": 8000,
+      "id": "shared-de16a60396aaa4bcc560",
+      "title": "Psalmus 68 [1]",
+      "type": "psalm"
+    },
+    {
+      "bytes": 7655,
+      "id": "shared-19ce10c30b0f24979a32",
+      "title": "Psalmus 88(2-37) [7]",
+      "type": "psalm"
+    },
+    {
+      "bytes": 7059,
+      "id": "shared-f1f9e1ff14f8e7845d62",
+      "title": "Psalmus 103 [3]",
+      "type": "psalm"
+    },
+    {
+      "bytes": 7059,
+      "id": "shared-dc448b1e09017d01c172",
+      "title": "Psalmus 103 [9]",
+      "type": "psalm"
+    },
+    {
+      "bytes": 6863,
+      "id": "shared-7d765c37af45acf8af2f",
+      "title": "Psalmus 21 [4]",
+      "type": "psalm"
+    },
+    {
+      "bytes": 6738,
+      "id": "shared-584eb536d81e11869232",
+      "title": "Psalmus 21 [2]",
+      "type": "psalm"
+    },
+    {
+      "bytes": 6461,
+      "id": "shared-f6ff9025aaca33809b7e",
+      "title": "Psalmus 30 [3]",
+      "type": "psalm"
+    },
+    {
+      "bytes": 6381,
+      "id": "shared-d40a6e614489c6627fa4",
+      "title": "Litaniæ",
+      "type": "prayer"
+    },
+    {
+      "bytes": 6315,
+      "id": "shared-bb997f5a5df36b472b13",
+      "title": "Psalmus 88(2-30) [8]",
+      "type": "psalm"
+    },
+    {
+      "bytes": 5941,
+      "id": "shared-592bc327218bbb72ce1e",
+      "title": "Canticum Habacuc [4]",
+      "type": "canticle"
+    },
+    {
+      "bytes": 5816,
+      "id": "shared-9c2813cbab7c1a479066",
+      "title": "Canticum Habacuc [4]",
+      "type": "canticle"
+    },
+    {
+      "bytes": 5739,
+      "id": "shared-5193aab25c4d10e9ad28",
+      "title": "Psalmus 117 [2]",
+      "type": "psalm"
+    },
+    {
+      "bytes": 5737,
+      "id": "shared-d6dedd9f2c210c956f07",
+      "title": "Psalmus 117 [1]",
+      "type": "psalm"
+    },
+    {
+      "bytes": 5594,
+      "id": "shared-38c15023ae37491ef5e0",
+      "title": "Psalmus 70 [3]",
+      "type": "psalm"
+    },
+    {
+      "bytes": 5523,
+      "id": "shared-63e90941daf02a528ede",
+      "title": "Canticum Moysis [4]",
+      "type": "canticle"
+    },
+    {
+      "bytes": 5487,
+      "id": "shared-501e4d2492b4933dda49",
+      "type": "rubric"
+    },
+    {
+      "bytes": 5398,
+      "id": "shared-af9446715613de7eee60",
+      "title": "Canticum Moysis [4]",
+      "type": "canticle"
+    },
+    {
+      "bytes": 5378,
+      "id": "shared-6223b20f98a43adfa6a6",
+      "title": "Canticum Moysis [4]",
+      "type": "canticle"
+    },
+    {
+      "bytes": 5322,
+      "id": "shared-71e15346b38286effae6",
+      "title": "Psalmus 72 [5]",
+      "type": "psalm"
+    }
+  ],
+  "orphanBlockCount": 0,
+  "rawStructuredEstimateBytes": 221392867,
+  "releaseSizeBytes": 164920912,
+  "schemaVersion": "officium1962.v1",
+  "sharedBlockCount": 8713,
+  "typeCounts": {
+    "absolution": 5,
+    "antiphon": 2948,
+    "blessing": 44,
+    "canticle": 28,
+    "capitulum": 315,
+    "chapter-office": 1,
+    "commemoration": 67,
+    "dialogue": 22,
+    "heading": 3,
+    "hymn": 125,
+    "invitatory": 71,
+    "marian-antiphon": 4,
+    "martyrology": 360,
+    "matins-responsory": 736,
+    "prayer": 1723,
+    "pretiosa": 1,
+    "psalm": 414,
+    "reading": 1350,
+    "responsory": 134,
+    "rubric": 70,
+    "te-deum": 1,
+    "versicle": 291
+  },
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+}

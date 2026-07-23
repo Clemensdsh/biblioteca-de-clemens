@@ -1,0 +1,887 @@
+{
+  "Dominica": {
+    "antiphon": "Allelúja, * confitémini Dómino, quóniam in sǽculum misericórdia eius, allelúja, allelúja.",
+    "antiphonChinese": "阿肋路亚，请赞颂上主，因为他的慈爱永远常存，阿肋路亚，阿肋路亚。",
+    "psalms": [
+      "117",
+      "118(1-16)",
+      "118(17-32)"
+    ]
+  },
+  "Feria II": {
+    "antiphon": "Ínnocens mánibus * et mundo corde ascéndet in montem Dómini.",
+    "antiphonChinese": "手洁心清的人，必登上上主的圣山。",
+    "psalms": [
+      "23",
+      "18(2-'7b')",
+      "18(8-'15b')"
+    ]
+  },
+  "Feria III": {
+    "antiphon": "Deus meus * in te confído non erubéscam.",
+    "antiphonChinese": "我的天主，我信赖你，决不蒙羞。",
+    "psalms": [
+      "24(1-7)",
+      "24(8-14)",
+      "24(15-22)"
+    ]
+  },
+  "Feria IV": {
+    "antiphon": "Misericórdia tua, * Dómine, ante óculos meos: et complácui in veritáte tua.",
+    "antiphonChinese": "上主，你的慈爱常在我眼前；我常遵照你的真理而行。",
+    "psalms": [
+      "25",
+      "51",
+      "52"
+    ]
+  },
+  "Feria V": {
+    "antiphon": "In loco páscuæ * ibi Dóminus me collocávit.",
+    "antiphonChinese": "上主使我安卧在青草地上。",
+    "psalms": [
+      "22",
+      "71(2-8)",
+      "71(9-19)"
+    ]
+  },
+  "Feria VI": {
+    "antiphon": "Ne discédas a me, * Dómine: quóniam tribulátio próxima est: quóniam non est qui ádjuvet.",
+    "antiphonChinese": "上主，求你不要远离我；因为患难已经临近，无人前来扶助。",
+    "psalms": [
+      "21(2-12)",
+      "21(13-23)",
+      "21(24-32)"
+    ]
+  },
+  "Sabbato": {
+    "antiphon": "Exaltáre, Dómine, * qui júdicas terram: redde retributiónem supérbis.",
+    "antiphonChinese": "审判大地的上主，求你奋起；向骄傲者施以报应。",
+    "psalms": [
+      "93(1-11)",
+      "93(12-23)",
+      "107"
+    ]
+  },
+  "seasonalAntiphons": {
+    "Adv1": [
+      {
+        "id": "Adv1.1",
+        "latin": "In illa die * stillábunt montes dulcédinem, et colles fluent lac et mel, allelúja.",
+        "chinese": "在那一天，山岳要滴下甘饴，丘陵要流出奶与蜜，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv1]"
+          }
+        ]
+      },
+      {
+        "id": "Adv1.2",
+        "latin": "Jucundáre, * fília Sion, et exsúlta satis, fília Jerúsalem, allelúja.",
+        "chinese": "熙雍女子，你要欢乐；耶路撒冷女子，你要踊跃欢欣，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv1]"
+          }
+        ]
+      },
+      {
+        "id": "Adv1.3",
+        "latin": "Ecce Dóminus véniet, * et omnes Sancti eius cum eo: et erit in die illa lux magna, allelúja.",
+        "chinese": "看，上主要来临，他的众圣者也同他一起；那一日必有大光，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv1]"
+          }
+        ]
+      },
+      {
+        "id": "Adv1.4",
+        "latin": "Omnes sitiéntes, * veníte ad aquas: quærite Dóminum, dum inveníri potest, allelúja.",
+        "chinese": "凡口渴的，请到水边来；趁上主可寻时寻找他，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv1]"
+          }
+        ]
+      },
+      {
+        "id": "Adv1.5",
+        "latin": "Ecce véniet * Prophéta magnus, et ipse renovábit Jerúsalem, allelúja.",
+        "chinese": "看，一位伟大的先知要来，他要更新耶路撒冷，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv1]"
+          }
+        ]
+      }
+    ],
+    "Adv2": [
+      {
+        "id": "Adv2.1",
+        "latin": "Ecce in núbibus cæli * Dóminus véniet cum potestáte magna, allelúja.",
+        "chinese": "看，上主要乘天上的云彩而来，带着大能，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv2]"
+          }
+        ]
+      },
+      {
+        "id": "Adv2.2",
+        "latin": "Urbs fortitúdinis * nostræ Sion, Salvátor ponétur in ea murus et antemurále: aperíte portas, quia nobíscum Deus, allelúja.",
+        "chinese": "熙雍是我们的坚城；救主将在其中作城墙和外郭。请打开城门，因为天主与我们同在，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv2]"
+          }
+        ]
+      },
+      {
+        "id": "Adv2.3",
+        "latin": "Ecce apparébit * Dóminus, et non mentiétur: si moram fécerit, exspécta eum, quia véniet, et non tardábit, allelúja.",
+        "chinese": "看，上主要显现，决不虚言；若他迟延，仍要等待，因为他必要来，决不迟延，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv2]"
+          }
+        ]
+      },
+      {
+        "id": "Adv2.4",
+        "latin": "Montes et colles * cantábunt coram Deo laudem, et ómnia ligna silvárum plaudent mánibus: quóniam véniet Dominátor Dóminus in regnum ætérnum, allelúja, allelúja.",
+        "chinese": "山岳丘陵要在天主面前高唱赞歌，林中一切树木都要鼓掌；因为主宰上主要来，永远为王，阿肋路亚，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv2]"
+          }
+        ]
+      },
+      {
+        "id": "Adv2.5",
+        "latin": "Ecce Dóminus * noster cum virtúte véniet, et illuminábit óculos servórum suórum, allelúja.",
+        "chinese": "看，我们的上主要带着德能来临，照明他仆人的眼目，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv2]"
+          }
+        ]
+      }
+    ],
+    "Adv3": [
+      {
+        "id": "Adv3.1",
+        "latin": "Véniet Dóminus, * et non tardábit, et illuminábit abscóndita tenebrárum, et manifestábit se ad omnes gentes, allelúja.",
+        "chinese": "上主要来临，决不迟延；他要照明黑暗中的隐秘，向万民显示自己，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv3]"
+          }
+        ]
+      },
+      {
+        "id": "Adv3.2",
+        "latin": "Jerúsalem, gaude * gáudio magno, quia véniet tibi Salvátor, allelúja.",
+        "chinese": "耶路撒冷，你要大大欢乐，因为你的救主要来到你这里，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv3]"
+          }
+        ]
+      },
+      {
+        "id": "Adv3.3",
+        "latin": "Dabo in Sion * salútem, et in Jerúsalem glóriam meam, allelúja.",
+        "chinese": "我要在熙雍赐下救恩，在耶路撒冷彰显我的光荣，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv3]"
+          }
+        ]
+      },
+      {
+        "id": "Adv3.4",
+        "latin": "Montes et omnes colles * humiliabúntur: et erunt prava in dirécta, et áspera in vias planas: veni, Dómine, et noli tardáre, allelúja.",
+        "chinese": "山岳和一切丘陵都要降低，弯曲的要变为正直，崎岖的要成为平路；上主，求你来，不要迟延，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv3]"
+          }
+        ]
+      },
+      {
+        "id": "Adv3.5",
+        "latin": "Juste et pie * vivámus, exspectántes beátam spem, et advéntum Dómini.",
+        "chinese": "愿我们正义、虔敬地生活，期待所希望的幸福和上主的来临。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv3]"
+          }
+        ]
+      }
+    ],
+    "Adv4": [
+      {
+        "id": "Adv4.1",
+        "latin": "Cánite tuba * in Sion, quia prope est dies Dómini: ecce véniet ad salvándum nos, allelúja, allelúja.",
+        "chinese": "请在熙雍吹响号角，因为上主的日子临近；看，他要来拯救我们，阿肋路亚，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv4]"
+          }
+        ]
+      },
+      {
+        "id": "Adv4.2",
+        "latin": "Ecce véniet * desiderátus cunctis Géntibus: et replébitur glória domus Dómini, allelúja.",
+        "chinese": "看，万民所期待者要来临；上主的殿宇将充满光荣，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv4]"
+          }
+        ]
+      },
+      {
+        "id": "Adv4.3",
+        "latin": "Erunt prava * in dirécta, et áspera in vias planas: veni, Dómine, et noli tardáre, allelúja.",
+        "chinese": "弯曲的要变为正直，崎岖的要成为平路；上主，求你来，不要迟延，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv4]"
+          }
+        ]
+      },
+      {
+        "id": "Adv4.4",
+        "latin": "Dóminus véniet, * occúrrite illi, dicéntes: Magnum princípium, et regni eius non erit finis: Deus, Fortis, Dominátor, Princeps pacis, allelúja, allelúja.",
+        "chinese": "上主要来临；请前去迎接他，说：他的王权何其伟大，他的王国没有终结；他是天主、强有力者、主宰、和平之王，阿肋路亚，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv4]"
+          }
+        ]
+      },
+      {
+        "id": "Adv4.5",
+        "latin": "Omnípotens Sermo tuus, * Dómine, a regálibus sédibus véniet, allelúja.",
+        "chinese": "上主，你全能的圣言要从王座降临，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv4]"
+          }
+        ]
+      }
+    ],
+    "Adv42": [
+      {
+        "id": "Adv42.1",
+        "latin": "Ecce, véniet * Dóminus princeps regum terræ: beáti, qui paráti sunt occúrrere illi.",
+        "chinese": "看，上主要来，他是地上列王的元首；准备好迎接他的人是有福的。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv42]"
+          }
+        ]
+      },
+      {
+        "id": "Adv42.2",
+        "latin": "Cum vénerit * Fílius hóminis, putas, invéniet fidem super terram?",
+        "chinese": "人子来临时，能在世上找到信德吗？",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv42]"
+          }
+        ]
+      },
+      {
+        "id": "Adv42.3",
+        "latin": "Ecce, iam venit * plenitúdo témporis, in quo misit Deus Fílium suum in terras.",
+        "chinese": "看，时期一满，天主就派遣了自己的圣子来到世上。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv42]"
+          }
+        ]
+      },
+      {
+        "id": "Adv42.4",
+        "latin": "Hauriétis aquas * in gáudio de fóntibus Salvatóris.",
+        "chinese": "你们要欢欣地从救主的泉源汲水。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv42]"
+          }
+        ]
+      },
+      {
+        "id": "Adv42.5",
+        "latin": "Egrediétur * Dóminus de loco sancto suo: véniet, ut salvet pópulum suum.",
+        "chinese": "上主要从他的圣所出来；他要来拯救自己的子民。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv42]"
+          }
+        ]
+      }
+    ],
+    "Adv43": [
+      {
+        "id": "Adv43.1",
+        "latin": "Roráte, cæli, désuper, * et nubes pluant justum: aperiátur terra, et gérminet Salvatórem.",
+        "chinese": "诸天，请由上降下甘露；云彩，请降下义者；愿大地开启，萌生救主。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv43]"
+          }
+        ]
+      },
+      {
+        "id": "Adv43.2",
+        "latin": "Emítte Agnum, Dómine, * Dominatórem terræ, de Petra desérti, ad montem fíliæ Sion.",
+        "chinese": "上主，请从旷野磐石派遣羔羊，作大地的主宰，到熙雍女子的山上。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv43]"
+          }
+        ]
+      },
+      {
+        "id": "Adv43.3",
+        "latin": "Ut cognoscámus, Dómine, * in terra viam tuam, in ómnibus géntibus salutáre tuum.",
+        "chinese": "上主，愿我们在世上认识你的道路，也在万民中认识你的救恩。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv43]"
+          }
+        ]
+      },
+      {
+        "id": "Adv43.4",
+        "latin": "Da mercédem, Dómine, * sustinéntibus te, ut prophétæ tui fidéles inveniántur.",
+        "chinese": "上主，求你赐报酬给期待你的人，使你的先知显为忠信。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv43]"
+          }
+        ]
+      },
+      {
+        "id": "Adv43.5",
+        "latin": "Lex per Móysen data est; * grátia et véritas per Iesum Christum facta est.",
+        "chinese": "法律是藉梅瑟传授的；恩宠和真理却是由耶稣基督而来的。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv43]"
+          }
+        ]
+      }
+    ],
+    "Adv44": [
+      {
+        "id": "Adv44.1",
+        "latin": "Prophétæ prædicavérunt * nasci Salvatórem de Vírgine María.",
+        "chinese": "先知们预言救主要由童贞玛利亚诞生。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv44]"
+          }
+        ]
+      },
+      {
+        "id": "Adv44.2",
+        "latin": "Spíritus * Dómini super me, evangelizáre paupéribus misit me.",
+        "chinese": "上主的神临于我身上；他派遣我向贫苦者传报喜讯。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv44]"
+          }
+        ]
+      },
+      {
+        "id": "Adv44.3",
+        "latin": "Propter Sion * non tacébo, donec egrediátur ut splendor justus eius.",
+        "chinese": "为了熙雍，我决不缄默，直到她的义者如光辉出现。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv44]"
+          }
+        ]
+      },
+      {
+        "id": "Adv44.4",
+        "latin": "Ecce, véniet Dóminus, * ut sédeat cum princípibus, et sólium glóriæ ténuit.",
+        "chinese": "看，上主要来，与首领同坐，并执掌光荣的宝座。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv44]"
+          }
+        ]
+      },
+      {
+        "id": "Adv44.5",
+        "latin": "Annuntiáte * pópulis, et dícite: Ecce, Deus Salvátor noster véniet.",
+        "chinese": "请向万民宣告说：看，我们的救主天主要来临。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv44]"
+          }
+        ]
+      }
+    ],
+    "Adv45": [
+      {
+        "id": "Adv45.1",
+        "latin": "De Sion * véniet Dóminus omnípotens, ut salvum fáciat pópulum suum.",
+        "chinese": "全能的上主要由熙雍而来，拯救自己的子民。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv45]"
+          }
+        ]
+      },
+      {
+        "id": "Adv45.2",
+        "latin": "Convértere, Dómine, * aliquántulum, et ne tardes veníre ad servos tuos.",
+        "chinese": "上主，求你稍稍转向我们，不要迟延，快来到你的仆人中间。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv45]"
+          }
+        ]
+      },
+      {
+        "id": "Adv45.3",
+        "latin": "De Sion * véniet, qui regnatúrus est Dóminus, Emmánuel magnum nomen eius.",
+        "chinese": "那将要为王的上主要由熙雍而来，他伟大的名号是厄玛奴耳。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv45]"
+          }
+        ]
+      },
+      {
+        "id": "Adv45.4",
+        "latin": "Ecce Deus meus, * et honorábo eum: Deus patris mei, et exaltábo eum.",
+        "chinese": "看，这是我的天主，我要尊崇他；这是我父亲的天主，我要颂扬他。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv45]"
+          }
+        ]
+      },
+      {
+        "id": "Adv45.5",
+        "latin": "Dóminus * légifer noster, Dóminus Rex noster, ipse véniet, et salvábit nos.",
+        "chinese": "上主是我们的立法者，上主是我们的君王；他要来拯救我们。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv45]"
+          }
+        ]
+      }
+    ],
+    "Adv46": [
+      {
+        "id": "Adv46.1",
+        "latin": "Constántes estóte, * vidébitis auxílium Dómini super vos.",
+        "chinese": "你们要坚定不移，必要看见上主施于你们的助佑。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv46]"
+          }
+        ]
+      },
+      {
+        "id": "Adv46.2",
+        "latin": "Ad te, Dómine, * levávi ánimam meam: veni, et éripe me, Dómine, ad te confúgi.",
+        "chinese": "上主，我向你举起我的心灵；上主，求你来解救我，我投奔于你。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv46]"
+          }
+        ]
+      },
+      {
+        "id": "Adv46.3",
+        "latin": "Veni, Dómine, * et noli tardáre: reláxa facínora plebi tuæ Israël.",
+        "chinese": "上主，求你来，不要迟延；求你赦免你以色列子民的罪行。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv46]"
+          }
+        ]
+      },
+      {
+        "id": "Adv46.4",
+        "latin": "Deus a Líbano véniet, * et splendor eius sicut lumen erit.",
+        "chinese": "天主要由黎巴嫩而来，他的光辉将如光明。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv46]"
+          }
+        ]
+      },
+      {
+        "id": "Adv46.5",
+        "latin": "Ego autem * ad Dóminum aspíciam, et exspectábo Deum, Salvatórem meum.",
+        "chinese": "至于我，我要仰望上主，期待天主、我的救主。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv46]"
+          }
+        ]
+      }
+    ],
+    "Adv47": [
+      {
+        "id": "Adv47.1",
+        "latin": "Intuémini, * quam sit gloriósus iste, qui ingréditur ad salvándos pópulos.",
+        "chinese": "请注视：这位前来拯救万民者何等光荣。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv47]"
+          }
+        ]
+      },
+      {
+        "id": "Adv47.2",
+        "latin": "Multiplicábitur * eius impérium, et pacis non erit finis.",
+        "chinese": "他的王权必要扩展，和平永无终结。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv47]"
+          }
+        ]
+      },
+      {
+        "id": "Adv47.3",
+        "latin": "Ego Dóminus * prope feci justítiam meam, non elongábitur, et salus mea non morábitur.",
+        "chinese": "我是上主；我使我的正义临近，决不远离，我的救恩决不迟延。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv47]"
+          }
+        ]
+      },
+      {
+        "id": "Adv47.4",
+        "latin": "Exspectétur, * sicut plúvia, elóquium Dómini: et descéndat, sicut ros, super nos Deus noster.",
+        "chinese": "愿人期待上主的话语，如期待时雨；愿我们的天主如甘露降临于我们。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv47]"
+          }
+        ]
+      },
+      {
+        "id": "Adv47.5",
+        "latin": "Parátus esto, * Israël, in occúrsum Dómini, quóniam venit.",
+        "chinese": "以色列，请准备迎接上主，因为他即将来临。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Adv47]"
+          }
+        ]
+      }
+    ],
+    "Quad": [
+      {
+        "id": "Quad.1",
+        "latin": "Vivo ego * dicit Dóminus: nolo mortem peccatóris, sed ut magis convertátur et vivat.",
+        "chinese": "我指着我的生命起誓，上主说：我不愿罪人死亡，却愿他回头而生活。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Quad]"
+          }
+        ]
+      },
+      {
+        "id": "Quad.2",
+        "latin": "Advenérunt nobis * dies pœniténtiæ ad rediménda peccáta, ad salvándas ánimas.",
+        "chinese": "补赎的日子已经来到，为赎罪过，为拯救灵魂。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Quad]"
+          }
+        ]
+      },
+      {
+        "id": "Quad.3",
+        "latin": "Commendémus nosmetípsos * in multa patiéntia, in jejúniis multis, per arma justítiæ.",
+        "chinese": "让我们以极大的忍耐、屡次禁食，并以正义的武器，表明自己。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Quad]"
+          }
+        ]
+      },
+      {
+        "id": "Quad.4",
+        "latin": "Per arma justítiæ * virtútis Dei commendémus nosmetípsos in multa patiéntia.",
+        "chinese": "让我们藉天主的德能和正义的武器，以极大的忍耐表明自己。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Quad]"
+          }
+        ]
+      }
+    ],
+    "Quad5": [
+      {
+        "id": "Quad5_.1",
+        "latin": "Líbera me, Dómine, * et pone me juxta te: et cujúsvis manus pugnet contra me.",
+        "chinese": "上主，求你解救我，把我安置在你身旁；任谁出手攻击我，也无妨。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Quad5_]"
+          }
+        ]
+      },
+      {
+        "id": "Quad5_.2",
+        "latin": "Iudicásti, Dómine, * causam ánimæ meæ, defénsor vitæ meæ, Dómine, Deus meus.",
+        "chinese": "上主、我的天主，你为我伸了冤；你是我生命的护卫。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Quad5_]"
+          }
+        ]
+      },
+      {
+        "id": "Quad5_.3",
+        "latin": "Pópule meus, * quid feci tibi? aut quid moléstus fui? Respónde mihi.",
+        "chinese": "我的子民，我对你做了什么？我在什么事上烦扰了你？请回答我。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Quad5_]"
+          }
+        ]
+      },
+      {
+        "id": "Quad5_.4",
+        "latin": "Numquid rédditur * pro bono malum, quia fodérunt fóveam ánimæ meæ.",
+        "chinese": "难道竟以恶报善吗？他们竟为我的性命挖掘陷阱。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Quad5_]"
+          }
+        ]
+      }
+    ],
+    "Pasch": [
+      {
+        "id": "Pasch.1",
+        "latin": "Allelúja, * allelúja, allelúja.",
+        "chinese": "阿肋路亚，阿肋路亚，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Pasch]"
+          }
+        ]
+      },
+      {
+        "id": "Pasch.2",
+        "latin": "Allelúja, * allelúja, allelúja.",
+        "chinese": "阿肋路亚，阿肋路亚，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Pasch]"
+          }
+        ]
+      },
+      {
+        "id": "Pasch.3",
+        "latin": "Allelúja, * allelúja, allelúja.",
+        "chinese": "阿肋路亚，阿肋路亚，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Pasch]"
+          }
+        ]
+      },
+      {
+        "id": "Pasch.4",
+        "latin": "Allelúja, * allelúja, allelúja.",
+        "chinese": "阿肋路亚，阿肋路亚，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Pasch]"
+          }
+        ]
+      },
+      {
+        "id": "Pasch.5",
+        "latin": "Allelúja, * allelúja, allelúja.",
+        "chinese": "阿肋路亚，阿肋路亚，阿肋路亚。",
+        "translationStatus": "temporary-translation",
+        "sourceRefs": [
+          {
+            "file": "Psalmi minor [Pasch]"
+          }
+        ]
+      }
+    ]
+  },
+  "properPrimaAntiphons": {
+    "Tempora/Quadp1-0": {
+      "id": "Tempora/Quadp1-0",
+      "latin": "Conventióne autem * facta cum operáriis ex denário diúrno, misit eos in víneam suam.",
+      "chinese": "他同工人议定每天一德纳，就派他们到自己的葡萄园里去。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "Tempora/Quadp1-0.txt"
+        }
+      ]
+    },
+    "Tempora/Quadp2-0": {
+      "id": "Tempora/Quadp2-0",
+      "latin": "Semen cécidit * in terram bonam, et áttulit fructum in patiéntia.",
+      "chinese": "种子落在好地里，并以坚忍结出果实。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "Tempora/Quadp2-0.txt"
+        }
+      ]
+    },
+    "Tempora/Quadp3-0": {
+      "id": "Tempora/Quadp3-0",
+      "latin": "Iter faciénte * Iesu, dum appropinquáret Jericho, cæcus clamábat ad eum, ut lumen recípere mererétur.",
+      "chinese": "耶稣在路上，将近耶里哥时，一个瞎子向他呼喊，求能重见光明。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "Tempora/Quadp3-0.txt"
+        }
+      ]
+    },
+    "Tempora/Quad1-0": {
+      "id": "Tempora/Quad1-0",
+      "latin": "Iesus autem * cum jejunásset quadragínta diébus et quadragínta nóctibus, póstea esúriit.",
+      "chinese": "耶稣禁食了四十天四十夜以后，就饿了。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "Tempora/Quad1-0.txt"
+        }
+      ]
+    },
+    "Tempora/Quad2-0": {
+      "id": "Tempora/Quad2-0",
+      "latin": "Dómine, * bonum est nos hic esse: si vis, faciámus hic tria tabernácula; tibi unum, Móysi unum, et Elíæ unum.",
+      "chinese": "主，我们在这里真好；你若愿意，我们就在这里搭三个帐棚：一个为你，一个为梅瑟，一个为厄里亚。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "Tempora/Quad2-0.txt"
+        }
+      ]
+    },
+    "Tempora/Quad3-0": {
+      "id": "Tempora/Quad3-0",
+      "latin": "Et cum ejecísset Iesus * dæmónium, locútus est mutus, et admirátæ sunt turbæ.",
+      "chinese": "耶稣驱逐魔鬼以后，哑巴便说了话，群众都惊奇不已。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "Tempora/Quad3-0.txt"
+        }
+      ]
+    },
+    "Tempora/Quad4-0": {
+      "id": "Tempora/Quad4-0",
+      "latin": "Accépit ergo * Iesus panes, et, cum grátias egísset, distríbuit discumbéntibus.",
+      "chinese": "于是耶稣拿起饼，祝谢后，分给坐席的人。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "Tempora/Quad4-0.txt"
+        }
+      ]
+    },
+    "Tempora/Quad5-0": {
+      "id": "Tempora/Quad5-0",
+      "latin": "Ego dæmónium non hábeo, * sed honorífico Patrem meum, dicit Dóminus.",
+      "chinese": "上主说：我没有附魔；我却尊敬我的父。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "Tempora/Quad5-0.txt"
+        }
+      ]
+    },
+    "Tempora/Quad6-0": {
+      "id": "Tempora/Quad6-0",
+      "latin": "Púeri Hebræórum * tolléntes ramos olivárum, obviavérunt Dómino clamántes et dicéntes: Hosánna in excélsis.",
+      "chinese": "希伯来儿童拿着橄榄枝，前去迎接上主，呼喊说：贺三纳于至高之天。",
+      "translationStatus": "temporary-translation",
+      "sourceRefs": [
+        {
+          "file": "Tempora/Quad6-0.txt"
+        }
+      ]
+    }
+  }
+}

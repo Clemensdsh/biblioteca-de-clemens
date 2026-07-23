@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-02",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "hour": "sexta",
+  "language": "la",
+  "liturgicalTitle": "In Commemoratione Omnium Fidelium Defunctorum ~ I. classis",
+  "rank": "In Commemoratione Omnium Fidelium Defunctorum;;I. classis;;6;;ex C9\n\n",
+  "schemaVersion": "0.1.0",
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "units": [
+    {
+      "html": "Psalmus 69 [1]<br/>\n69:2 Deus, in adjutórium meum inténde: * Dómine, ad adjuvándum me festína.<br/>\n69:3 Confundántur et revereántur, * qui quærunt ánimam meam.<br/>\n69:4 Avertántur retrórsum, et erubéscant, * qui volunt mihi mala.<br/>\n69:4 Avertántur statim erubescéntes, * qui dicunt mihi: Euge, euge.<br/>\n69:5 Exsúltent et læténtur in te omnes qui quærunt te, * et dicant semper: Magnificétur Dóminus: qui díligunt salutáre tuum.<br/>\n69:6 Ego vero egénus, et pauper sum: * Deus, ádjuva me.<br/>\n69:6 Adjútor meus, et liberátor meus es tu: * Dómine, ne moréris.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\n",
+      "id": "do-1962-2026-11-02-sexta-001",
+      "raw": "&psalm(69)\n"
+    },
+    {
+      "html": "Psalmus 84 [2]<br/>\n84:2 Benedixísti, Dómine, terram tuam: * avertísti captivitátem Jacob.<br/>\n84:3 Remisísti iniquitátem plebis tuæ: * operuísti ómnia peccáta eórum.<br/>\n84:4 Mitigásti omnem iram tuam: * avertísti ab ira indignatiónis tuæ.<br/>\n84:5 Convérte nos, Deus, salutáris noster: * et avérte iram tuam a nobis.<br/>\n84:6 Numquid in ætérnum irascéris nobis? * aut exténdes iram tuam a generatióne in generatiónem?<br/>\n84:7 Deus, tu convérsus vivificábis nos: * et plebs tua lætábitur in te.<br/>\n84:8 Osténde nobis, Dómine, misericórdiam tuam: * et salutáre tuum da nobis.<br/>\n84:9 Áudiam quid loquátur in me Dóminus Deus: * quóniam loquétur pacem in plebem suam.<br/>\n84:9 Et super sanctos suos: * et in eos, qui convertúntur ad cor.<br/>\n84:10 Verúmtamen prope timéntes eum salutáre ipsíus: * ut inhábitet glória in terra nostra.<br/>\n84:11 Misericórdia, et véritas obviavérunt sibi: * justítia, et pax osculátæ sunt.<br/>\n84:12 Véritas de terra orta est: * et justítia de cælo prospéxit.<br/>\n84:13 Étenim Dóminus dabit benignitátem: * et terra nostra dabit fructum suum.<br/>\n84:14 Justítia ante eum ambulábit: * et ponet in via gressus suos.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\n",
+      "id": "do-1962-2026-11-02-sexta-002",
+      "raw": "&psalm(84)\n"
+    },
+    {
+      "html": "Psalmus 85 [3]<br/>\n85:1 Inclína, Dómine, aurem tuam, et exáudi me: * quóniam inops, et pauper sum ego.<br/>\n85:2 Custódi ánimam meam, quóniam sanctus sum: * salvum fac servum tuum, Deus meus, sperántem in te.<br/>\n85:3 Miserére mei, Dómine, quóniam ad te clamávi tota die: * lætífica ánimam servi tui, quóniam ad te, Dómine, ánimam meam levávi.<br/>\n85:5 Quóniam tu, Dómine, suávis, et mitis: * et multæ misericórdiæ ómnibus invocántibus te.<br/>\n85:6 Áuribus pércipe, Dómine, oratiónem meam: * et inténde voci deprecatiónis meæ.<br/>\n85:7 In die tribulatiónis meæ clamávi ad te: * quia exaudísti me.<br/>\n85:8 Non est símilis tui in diis, Dómine: * et non est secúndum ópera tua.<br/>\n85:9 Omnes gentes quascúmque fecísti, vénient, et adorábunt coram te, Dómine: * et glorificábunt nomen tuum.<br/>\n85:10 Quóniam magnus es tu, et fáciens mirabília: * tu es Deus solus.<br/>\n85:11 Deduc me, Dómine, in via tua, et ingrédiar in veritáte tua: * lætétur cor meum ut tímeat nomen tuum.<br/>\n85:12 Confitébor tibi, Dómine, Deus meus, in toto corde meo, * et glorificábo nomen tuum in ætérnum:<br/>\n85:13 Quia misericórdia tua magna est super me: * et eruísti ánimam meam ex inférno inferióri.<br/>\n85:14 Deus, iníqui insurrexérunt super me, et synagóga poténtium quæsiérunt ánimam meam: * et non proposuérunt te in conspéctu suo.<br/>\n85:15 Et tu, Dómine, Deus miserátor et miséricors, * pátiens, et multæ misericórdiæ, et verax,<br/>\n85:16 Réspice in me, et miserére mei, * da impérium tuum púero tuo: et salvum fac fílium ancíllæ tuæ.<br/>\n85:17 Fac mecum signum in bonum, ut vídeant qui odérunt me, et confundántur: * quóniam tu, Dómine, adjuvísti me, et consolátus es me.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\n",
+      "id": "do-1962-2026-11-02-sexta-003",
+      "raw": "&psalm(85)\n"
+    },
+    {
+      "html": "Oratio\n<br/>\nPater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris:<br/>\n℣. Et ne nos indúcas in tentatiónem:<br/>\n℟. Sed líbera nos a malo.<br/>\n℣. A porta ínferi.<br/>\n℟. Erue, Dómine, ánimas eórum.<br/>\n℣. Requiéscant in pace.<br/>\n℟. Amen.<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\nsecunda <span class='nigra'>Domine, exaudi</span> omittitur<br/>\nOrémus.<br/>\nFidélium, Deus, ómnium Cónditor et Redémptor, animábus famulórum famularúmque tuárum remissiónem cunctórum tríbue peccatórum: ut indulgéntiam, quam semper optavérunt, piis supplicatiónibus consequántur:<br/>\nQui vivis et regnas cum Deo Patre, in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-11-02-sexta-004",
+      "raw": "&special('Oratio mortuorum', 'Latin')\n"
+    },
+    {
+      "html": "Conclusio specialis<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\n℣. Requiéscant in pace.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-11-02-sexta-005",
+      "raw": "&special('Conclusio', 'Latin')\n"
+    }
+  ],
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "warnings": []
+}

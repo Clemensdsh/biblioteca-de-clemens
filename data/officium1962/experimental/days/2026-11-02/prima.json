@@ -1,0 +1,451 @@
+{
+  "schemaVersion": "0.2.0",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "language": "la",
+  "date": "2026-11-02",
+  "liturgicalTitle": "In Commemoratione Omnium Fidelium Defunctorum ~ I. classis",
+  "rank": "In Commemoratione Omnium Fidelium Defunctorum;;I. classis;;6;;ex C9\n\n",
+  "commemorations": [],
+  "hours": {
+    "prima": {
+      "name": "prima",
+      "title": "Prima",
+      "blocks": [
+        {
+          "id": "office-1962-2026-11-02-prima-psalm-87-full-1",
+          "type": "psalm",
+          "title": "Psalmus 87 [1]",
+          "text": [
+            "87:2 Dómine, Deus salútis meæ: * in die clamávi, et nocte coram te.",
+            "87:3 Intret in conspéctu tuo orátio mea: * inclína aurem tuam ad precem meam:",
+            "87:4 Quia repléta est malis ánima mea: * et vita mea inférno appropinquávit.",
+            "87:5 Æstimátus sum cum descendéntibus in lacum: * factus sum sicut homo sine adjutório, inter mórtuos liber.",
+            "87:6 Sicut vulneráti dormiéntes in sepúlcris, quorum non es memor ámplius: * et ipsi de manu tua repúlsi sunt.",
+            "87:7 Posuérunt me in lacu inferióri: * in tenebrósis, et in umbra mortis.",
+            "87:8 Super me confirmátus est furor tuus: * et omnes fluctus tuos induxísti super me.",
+            "87:9 Longe fecísti notos meos a me: * posuérunt me abominatiónem sibi.",
+            "87:9 Tráditus sum, et non egrediébar: * óculi mei languérunt præ inópia.",
+            "87:10 Clamávi ad te, Dómine, tota die: * expándi ad te manus meas.",
+            "87:11 Numquid mórtuis fácies mirabília: * aut médici suscitábunt, et confitebúntur tibi?",
+            "87:12 Numquid narrábit áliquis in sepúlcro misericórdiam tuam, * et veritátem tuam in perditióne?",
+            "87:13 Numquid cognoscéntur in ténebris mirabília tua, * et justítia tua in terra obliviónis?",
+            "87:14 Et ego ad te, Dómine, clamávi: * et mane orátio mea prævéniet te.",
+            "87:15 Ut quid, Dómine, repéllis oratiónem meam: * avértis fáciem tuam a me?",
+            "87:16 Pauper sum ego, et in labóribus a juventúte mea: * exaltátus autem, humiliátus sum et conturbátus.",
+            "87:17 In me transiérunt iræ tuæ: * et terróres tui conturbavérunt me.",
+            "87:18 Circumdedérunt me sicut aqua tota die: * circumdedérunt me simul.",
+            "87:19 Elongásti a me amícum et próximum: * et notos meos a miséria.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "87:2 Dómine, Deus salútis meæ: * in die clamávi, et nocte coram te.",
+            "87:3 Intret in conspéctu tuo orátio mea: * inclína aurem tuam ad precem meam:",
+            "87:4 Quia repléta est malis ánima mea: * et vita mea inférno appropinquávit.",
+            "87:5 Æstimátus sum cum descendéntibus in lacum: * factus sum sicut homo sine adjutório, inter mórtuos liber.",
+            "87:6 Sicut vulneráti dormiéntes in sepúlcris, quorum non es memor ámplius: * et ipsi de manu tua repúlsi sunt.",
+            "87:7 Posuérunt me in lacu inferióri: * in tenebrósis, et in umbra mortis.",
+            "87:8 Super me confirmátus est furor tuus: * et omnes fluctus tuos induxísti super me.",
+            "87:9 Longe fecísti notos meos a me: * posuérunt me abominatiónem sibi.",
+            "87:9 Tráditus sum, et non egrediébar: * óculi mei languérunt præ inópia.",
+            "87:10 Clamávi ad te, Dómine, tota die: * expándi ad te manus meas.",
+            "87:11 Numquid mórtuis fácies mirabília: * aut médici suscitábunt, et confitebúntur tibi?",
+            "87:12 Numquid narrábit áliquis in sepúlcro misericórdiam tuam, * et veritátem tuam in perditióne?",
+            "87:13 Numquid cognoscéntur in ténebris mirabília tua, * et justítia tua in terra obliviónis?",
+            "87:14 Et ego ad te, Dómine, clamávi: * et mane orátio mea prævéniet te.",
+            "87:15 Ut quid, Dómine, repéllis oratiónem meam: * avértis fáciem tuam a me?",
+            "87:16 Pauper sum ego, et in labóribus a juventúte mea: * exaltátus autem, humiliátus sum et conturbátus.",
+            "87:17 In me transiérunt iræ tuæ: * et terróres tui conturbavérunt me.",
+            "87:18 Circumdedérunt me sicut aqua tota die: * circumdedérunt me simul.",
+            "87:19 Elongásti a me amícum et próximum: * et notos meos a miséria."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "87",
+            "verses": [
+              "87:2 Dómine, Deus salútis meæ: * in die clamávi, et nocte coram te.",
+              "87:3 Intret in conspéctu tuo orátio mea: * inclína aurem tuam ad precem meam:",
+              "87:4 Quia repléta est malis ánima mea: * et vita mea inférno appropinquávit.",
+              "87:5 Æstimátus sum cum descendéntibus in lacum: * factus sum sicut homo sine adjutório, inter mórtuos liber.",
+              "87:6 Sicut vulneráti dormiéntes in sepúlcris, quorum non es memor ámplius: * et ipsi de manu tua repúlsi sunt.",
+              "87:7 Posuérunt me in lacu inferióri: * in tenebrósis, et in umbra mortis.",
+              "87:8 Super me confirmátus est furor tuus: * et omnes fluctus tuos induxísti super me.",
+              "87:9 Longe fecísti notos meos a me: * posuérunt me abominatiónem sibi.",
+              "87:9 Tráditus sum, et non egrediébar: * óculi mei languérunt præ inópia.",
+              "87:10 Clamávi ad te, Dómine, tota die: * expándi ad te manus meas.",
+              "87:11 Numquid mórtuis fácies mirabília: * aut médici suscitábunt, et confitebúntur tibi?",
+              "87:12 Numquid narrábit áliquis in sepúlcro misericórdiam tuam, * et veritátem tuam in perditióne?",
+              "87:13 Numquid cognoscéntur in ténebris mirabília tua, * et justítia tua in terra obliviónis?",
+              "87:14 Et ego ad te, Dómine, clamávi: * et mane orátio mea prævéniet te.",
+              "87:15 Ut quid, Dómine, repéllis oratiónem meam: * avértis fáciem tuam a me?",
+              "87:16 Pauper sum ego, et in labóribus a juventúte mea: * exaltátus autem, humiliátus sum et conturbátus.",
+              "87:17 In me transiérunt iræ tuæ: * et terróres tui conturbavérunt me.",
+              "87:18 Circumdedérunt me sicut aqua tota die: * circumdedérunt me simul.",
+              "87:19 Elongásti a me amícum et próximum: * et notos meos a miséria."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": true
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Psalmus 87 [1]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm87.txt",
+              "section": "Psalm 87",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-prima-psalm-27-full-2",
+          "type": "psalm",
+          "title": "Psalmus 27 [2]",
+          "text": [
+            "27:1 Ad te, Dómine, clamábo, Deus meus, ne síleas a me: * nequándo táceas a me, et assimilábor descendéntibus in lacum.",
+            "27:2 Exáudi, Dómine, vocem deprecatiónis meæ dum oro ad te: * dum extóllo manus meas ad templum sanctum tuum.",
+            "27:3 Ne simul trahas me cum peccatóribus: * et cum operántibus iniquitátem ne perdas me.",
+            "27:3 Qui loquúntur pacem cum próximo suo, * mala autem in córdibus eórum.",
+            "27:4 Da illis secúndum ópera eórum, * et secúndum nequítiam adinventiónum ipsórum.",
+            "27:4 Secúndum ópera mánuum eórum tríbue illis: * redde retributiónem eórum ipsis.",
+            "27:5 Quóniam non intellexérunt ópera Dómini, et in ópera mánuum ejus * déstrues illos, et non ædificábis eos.",
+            "27:6 Benedíctus Dóminus: * quóniam exaudívit vocem deprecatiónis meæ.",
+            "27:7 Dóminus adjútor meus, et protéctor meus: * in ipso sperávit cor meum, et adjútus sum.",
+            "27:7 Et reflóruit caro mea: * et ex voluntáte mea confitébor ei.",
+            "27:8 Dóminus fortitúdo plebis suæ: * et protéctor salvatiónum Christi sui est.",
+            "27:9 Salvum fac pópulum tuum, Dómine, et bénedic hereditáti tuæ: * et rege eos, et extólle illos usque in ætérnum.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "27:1 Ad te, Dómine, clamábo, Deus meus, ne síleas a me: * nequándo táceas a me, et assimilábor descendéntibus in lacum.",
+            "27:2 Exáudi, Dómine, vocem deprecatiónis meæ dum oro ad te: * dum extóllo manus meas ad templum sanctum tuum.",
+            "27:3 Ne simul trahas me cum peccatóribus: * et cum operántibus iniquitátem ne perdas me.",
+            "27:3 Qui loquúntur pacem cum próximo suo, * mala autem in córdibus eórum.",
+            "27:4 Da illis secúndum ópera eórum, * et secúndum nequítiam adinventiónum ipsórum.",
+            "27:4 Secúndum ópera mánuum eórum tríbue illis: * redde retributiónem eórum ipsis.",
+            "27:5 Quóniam non intellexérunt ópera Dómini, et in ópera mánuum ejus * déstrues illos, et non ædificábis eos.",
+            "27:6 Benedíctus Dóminus: * quóniam exaudívit vocem deprecatiónis meæ.",
+            "27:7 Dóminus adjútor meus, et protéctor meus: * in ipso sperávit cor meum, et adjútus sum.",
+            "27:7 Et reflóruit caro mea: * et ex voluntáte mea confitébor ei.",
+            "27:8 Dóminus fortitúdo plebis suæ: * et protéctor salvatiónum Christi sui est.",
+            "27:9 Salvum fac pópulum tuum, Dómine, et bénedic hereditáti tuæ: * et rege eos, et extólle illos usque in ætérnum."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "27",
+            "verses": [
+              "27:1 Ad te, Dómine, clamábo, Deus meus, ne síleas a me: * nequándo táceas a me, et assimilábor descendéntibus in lacum.",
+              "27:2 Exáudi, Dómine, vocem deprecatiónis meæ dum oro ad te: * dum extóllo manus meas ad templum sanctum tuum.",
+              "27:3 Ne simul trahas me cum peccatóribus: * et cum operántibus iniquitátem ne perdas me.",
+              "27:3 Qui loquúntur pacem cum próximo suo, * mala autem in córdibus eórum.",
+              "27:4 Da illis secúndum ópera eórum, * et secúndum nequítiam adinventiónum ipsórum.",
+              "27:4 Secúndum ópera mánuum eórum tríbue illis: * redde retributiónem eórum ipsis.",
+              "27:5 Quóniam non intellexérunt ópera Dómini, et in ópera mánuum ejus * déstrues illos, et non ædificábis eos.",
+              "27:6 Benedíctus Dóminus: * quóniam exaudívit vocem deprecatiónis meæ.",
+              "27:7 Dóminus adjútor meus, et protéctor meus: * in ipso sperávit cor meum, et adjútus sum.",
+              "27:7 Et reflóruit caro mea: * et ex voluntáte mea confitébor ei.",
+              "27:8 Dóminus fortitúdo plebis suæ: * et protéctor salvatiónum Christi sui est.",
+              "27:9 Salvum fac pópulum tuum, Dómine, et bénedic hereditáti tuæ: * et rege eos, et extólle illos usque in ætérnum."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": true
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Psalmus 27 [2]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm27.txt",
+              "section": "Psalm 27",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-prima-psalm-31-full-3",
+          "type": "psalm",
+          "title": "Psalmus 31 [3]",
+          "text": [
+            "31:1 Beáti quorum remíssæ sunt iniquitátes: * et quorum tecta sunt peccáta.",
+            "31:2 Beátus vir, cui non imputávit Dóminus peccátum, * nec est in spíritu ejus dolus.",
+            "31:3 Quóniam tácui, inveteravérunt ossa mea, * dum clamárem tota die.",
+            "31:4 Quóniam die ac nocte graváta est super me manus tua: * convérsus sum in ærúmna mea, dum confígitur spina.",
+            "31:5 Delíctum meum cógnitum tibi feci: * et injustítiam meam non abscóndi.",
+            "31:5 Dixi: Confitébor advérsum me injustítiam meam Dómino: * et tu remisísti impietátem peccáti mei.",
+            "31:6 Pro hac orábit ad te omnis sanctus, * in témpore opportúno.",
+            "31:6 Verúmtamen in dilúvio aquárum multárum, * ad eum non approximábunt.",
+            "31:7 Tu es refúgium meum a tribulatióne, quæ circúmdedit me: * exsultátio mea, érue me a circumdántibus me.",
+            "31:8 Intelléctum tibi dabo, et ínstruam te in via hac, qua gradiéris: * firmábo super te óculos meos.",
+            "31:9 Nolíte fíeri sicut equus et mulus, * quibus non est intelléctus.",
+            "31:9 In camo et freno maxíllas eórum constrínge, * qui non appróximant ad te.",
+            "31:10 Multa flagélla peccatóris, * sperántem autem in Dómino misericórdia circúmdabit.",
+            "31:11 Lætámini in Dómino et exsultáte, justi, * et gloriámini, omnes recti corde.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "31:1 Beáti quorum remíssæ sunt iniquitátes: * et quorum tecta sunt peccáta.",
+            "31:2 Beátus vir, cui non imputávit Dóminus peccátum, * nec est in spíritu ejus dolus.",
+            "31:3 Quóniam tácui, inveteravérunt ossa mea, * dum clamárem tota die.",
+            "31:4 Quóniam die ac nocte graváta est super me manus tua: * convérsus sum in ærúmna mea, dum confígitur spina.",
+            "31:5 Delíctum meum cógnitum tibi feci: * et injustítiam meam non abscóndi.",
+            "31:5 Dixi: Confitébor advérsum me injustítiam meam Dómino: * et tu remisísti impietátem peccáti mei.",
+            "31:6 Pro hac orábit ad te omnis sanctus, * in témpore opportúno.",
+            "31:6 Verúmtamen in dilúvio aquárum multárum, * ad eum non approximábunt.",
+            "31:7 Tu es refúgium meum a tribulatióne, quæ circúmdedit me: * exsultátio mea, érue me a circumdántibus me.",
+            "31:8 Intelléctum tibi dabo, et ínstruam te in via hac, qua gradiéris: * firmábo super te óculos meos.",
+            "31:9 Nolíte fíeri sicut equus et mulus, * quibus non est intelléctus.",
+            "31:9 In camo et freno maxíllas eórum constrínge, * qui non appróximant ad te.",
+            "31:10 Multa flagélla peccatóris, * sperántem autem in Dómino misericórdia circúmdabit.",
+            "31:11 Lætámini in Dómino et exsultáte, justi, * et gloriámini, omnes recti corde."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "31",
+            "verses": [
+              "31:1 Beáti quorum remíssæ sunt iniquitátes: * et quorum tecta sunt peccáta.",
+              "31:2 Beátus vir, cui non imputávit Dóminus peccátum, * nec est in spíritu ejus dolus.",
+              "31:3 Quóniam tácui, inveteravérunt ossa mea, * dum clamárem tota die.",
+              "31:4 Quóniam die ac nocte graváta est super me manus tua: * convérsus sum in ærúmna mea, dum confígitur spina.",
+              "31:5 Delíctum meum cógnitum tibi feci: * et injustítiam meam non abscóndi.",
+              "31:5 Dixi: Confitébor advérsum me injustítiam meam Dómino: * et tu remisísti impietátem peccáti mei.",
+              "31:6 Pro hac orábit ad te omnis sanctus, * in témpore opportúno.",
+              "31:6 Verúmtamen in dilúvio aquárum multárum, * ad eum non approximábunt.",
+              "31:7 Tu es refúgium meum a tribulatióne, quæ circúmdedit me: * exsultátio mea, érue me a circumdántibus me.",
+              "31:8 Intelléctum tibi dabo, et ínstruam te in via hac, qua gradiéris: * firmábo super te óculos meos.",
+              "31:9 Nolíte fíeri sicut equus et mulus, * quibus non est intelléctus.",
+              "31:9 In camo et freno maxíllas eórum constrínge, * qui non appróximant ad te.",
+              "31:10 Multa flagélla peccatóris, * sperántem autem in Dómino misericórdia circúmdabit.",
+              "31:11 Lætámini in Dómino et exsultáte, justi, * et gloriámini, omnes recti corde."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": true
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Psalmus 31 [3]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm31.txt",
+              "section": "Psalm 31",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-prima-oratio-mortuorum",
+          "type": "prayer",
+          "title": "Oratio defunctorum",
+          "text": [
+            "Oratio",
+            "Pater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris:",
+            "℣. Et ne nos indúcas in tentatiónem:",
+            "℟. Sed líbera nos a malo.",
+            "℣. A porta ínferi.",
+            "℟. Erue, Dómine, ánimas eórum.",
+            "℣. Requiéscant in pace.",
+            "℟. Amen.",
+            "℣. Dómine, exáudi oratiónem meam.",
+            "℟. Et clamor meus ad te véniat.",
+            "secunda Domine, exaudi omittitur",
+            "_",
+            "Orémus.",
+            "Súpplices, Dómine, pro animábus ómnium famulórum famularúmque tuárum preces effúndimus: ut, quidquid conversatióne contraxérunt humána, clemens indúlgeas, et pœnis eórum finem benígnus impónas.",
+            "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "specialStructure": "defunctorum",
+            "prayerKey": "Oratio mortuorum"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Oratio defunctorum",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "special",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-prima-martyrologium-anticipatum",
+          "type": "martyrology",
+          "title": "Martyrologium",
+          "text": [
+            "Martyrologium {anticipatur}",
+            "Hac die Commemorátio ómnium Fidélium Defunctórum; in qua commúnis pia Mater Ecclésia, postquam univérsos fílios suos jam in cælo lætántes cóngruis stúduit celebráre præcóniis, mox et omnes adhuc in Purgatório geméntes válidis apud Dóminum et Sponsum Christum satágit suffrágiis adjuváre, ut quam cítius váleant ad societátem supernórum cívium perveníre.",
+            "_",
+            "Tértio Nonas Novémbris Luna vicésima tértia Anno Dómini 2026",
+            "_",
+            "Medioláni natális sancti Cároli Borromǽi Cardinális, Epíscopi Mediolanénsis et Confessóris, quem, sanctitáte conspícuum et miráculis clarum, Paulus Papa Quintus in sanctórum númerum rétulit. Ipsíus tamen festívitas sequénti die celebrátur.",
+            "Eódem die natális quoque sancti Quarti, Apostolórum discípuli.",
+            "Vitérbii sanctórum Mártyrum Valentíni Presbýteri, et Hilárii Diáconi, qui, in persecutióne Maximiáni, ob Christi fidem, cum saxi póndere in Tíberim præcipitáti et inde ab Angelo divínitus erépti, demum, abscíssis cervícibus, corónam martýrii percepérunt.",
+            "Cæsaréæ, in Cappadócia, sanctórum Mártyrum Germáni, Theóphili, Cæsárii et Vitális; qui, in persecutióne Deciána, óptime duxérunt martýrium.",
+            "Cæsaraugústæ, in Hispánia, sanctórum innumerabílium Mártyrum, qui, sub Hispaniárum Prǽside Daciáno, mirabíliter occubuérunt pro Christo.",
+            "In Anglia sanctæ Wenefrídæ, Vírginis et Mártyris.",
+            "In monastério Clarævallénsi, in Gállia, deposítio sancti Malachíæ, Connerthénsis in Hibérnia Epíscopi, qui multis virtútibus suo témpore cláruit; cujus vitam sanctus Bernárdus Abbas conscrípsit.",
+            "Eódem die sancti Hubérti, Tungrénsis Epíscopi.",
+            "Viénnæ, in Gállia, sancti Domni, Epíscopi et Confessóris.",
+            "Item deposítio sancti Pirmíni, Meldénsis Epíscopi.",
+            "Urgéllæ, in Hispánia Tarraconénsi, sancti Hermengáudii Epíscopi.",
+            "Romæ sanctæ Sílviæ, matris sancti Gregórii Papæ.",
+            "℣. Et álibi aliórum plurimórum sanctórum Mártyrum et Confessórum, atque sanctárum Vírginum.",
+            "℟. Deo grátias.",
+            "_",
+            "℣. In memória ætérna erunt justi.",
+            "℟. Ab auditióne mala non timébunt.",
+            "_",
+            "Orémus.",
+            "Deus, véniæ largítor et humánæ salútis amátor: quǽsumus cleméntiam tuam; ut ánimas ómnium fidélium qui ex hoc sǽculo transiérunt, beáta María semper Vírgine intercedénte cum ómnibus Sanctis tuis, ad perpétuæ beatitúdinis consórtium perveníre concédas. Per Christum Dóminum nostrum.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "anticipated": true,
+            "sourceKind": "divinum-officium-latin-martyrologium",
+            "isolatedFromExistingMartyrologyPage": true,
+            "specialStructure": "defunctorum"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Martyrologium",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Martyrologium",
+              "section": "anticipated day from Divinum Officium Latin Martyrologium",
+              "transformation": [
+                "specials",
+                "martyrologium anticipatum"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-prima-conclusio-defunctorum",
+          "type": "blessing",
+          "title": "Conclusio defunctorum",
+          "text": [
+            "Conclusio specialis",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis.",
+            "℣. Requiéscant in pace.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "specialStructure": "defunctorum",
+            "formula": "requiem-aeternam"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Conclusio defunctorum",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "special",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "web/cgi-bin/horas/horas.pl",
+          "section": "getordinarium/specials/getunit/resolve_refs",
+          "transformation": [
+            "Divinum Officium internal script array exported before print_content"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "warnings": []
+}

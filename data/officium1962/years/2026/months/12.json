@@ -1,0 +1,597 @@
+{
+  "days": [
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-01",
+      "dayFile": "days/2026-12-01.json",
+      "liturgicalTitle": "Feria III infra Hebdomadam I Adventus ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria III infra Hebdomadam I Adventus;;Feria major;;2.1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-02",
+      "dayFile": "days/2026-12-02.json",
+      "liturgicalTitle": "S. Bibianæ Virginis et Martyris ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "S. Bibianæ Virginis et Martyris;;Semiduplex;;2.2;;vide C6-1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-03",
+      "dayFile": "days/2026-12-03.json",
+      "liturgicalTitle": "S. Francisci Xaverii Confessoris ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "S. Francisci Xaverii Confessoris;;Duplex majus;;4;;vide C5-1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-04",
+      "dayFile": "days/2026-12-04.json",
+      "liturgicalTitle": "S. Petri Chrysologi Episcopi Confessoris et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "S. Petri Chrysologi Episcopi Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C4a\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-05",
+      "dayFile": "days/2026-12-05.json",
+      "liturgicalTitle": "Sabbato infra Hebdomadam I Adventus ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Sabbato infra Hebdomadam I Adventus;;Feria major;;2.1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-06",
+      "dayFile": "days/2026-12-06.json",
+      "liturgicalTitle": "Dominica II Adventus ~ I. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Dominica II Adventus;;Semiduplex;;6.01\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-07",
+      "dayFile": "days/2026-12-07.json",
+      "liturgicalTitle": "S. Ambrosii Episcopi Confessoris et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "S. Ambrosii Episcopi Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C4a\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-08",
+      "dayFile": "days/2026-12-08.json",
+      "liturgicalTitle": "In Conceptione Immaculata Beatæ Mariæ Virginis ~ I. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "In Conceptione Immaculata Beatæ Mariæ Virginis;;Duplex I classis;;6.01;;ex C11\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-09",
+      "dayFile": "days/2026-12-09.json",
+      "liturgicalTitle": "Feria IV infra Hebdomadam II Adventus ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria IV infra Hebdomadam II Adventus;;Feria major;;2.1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-10",
+      "dayFile": "days/2026-12-10.json",
+      "liturgicalTitle": "Feria V infra Hebdomadam II Adventus ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria V infra Hebdomadam II Adventus;;Feria major;;2.1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-11",
+      "dayFile": "days/2026-12-11.json",
+      "liturgicalTitle": "S. Damasi Papæ et Confessoris ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "S. Damasi Papæ et Confessoris;;Duplex;;3;;vide C4b\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-12",
+      "dayFile": "days/2026-12-12.json",
+      "liturgicalTitle": "Sabbato infra Hebdomadam II Adventus ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Sabbato infra Hebdomadam II Adventus;;Feria major;;2.1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-13",
+      "dayFile": "days/2026-12-13.json",
+      "liturgicalTitle": "Dominica III Adventus ~ I. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Dominica III Adventus;;Semiduplex;;6.01\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-14",
+      "dayFile": "days/2026-12-14.json",
+      "liturgicalTitle": "Feria II infra Hebdomadam III Adventus ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria II infra Hebdomadam III Adventus;;Feria major;;2.1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-15",
+      "dayFile": "days/2026-12-15.json",
+      "liturgicalTitle": "Feria III infra Hebdomadam III Adventus ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria III infra Hebdomadam III Adventus;;Feria major;;2.1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-16",
+      "dayFile": "days/2026-12-16.json",
+      "liturgicalTitle": "Feria IV Quattuor Temporum Adventus ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria IV Quattuor Temporum Adventus;;Feria major;;4.9\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-17",
+      "dayFile": "days/2026-12-17.json",
+      "liturgicalTitle": "Feria V infra Hebdomadam III Adventus ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria V infra Hebdomadam III Adventus;;Feria major;;4.9\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-18",
+      "dayFile": "days/2026-12-18.json",
+      "liturgicalTitle": "Feria VI Quattuor Temporum Adventus ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria VI Quattuor Temporum Adventus;;Feria major;;4.9\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-19",
+      "dayFile": "days/2026-12-19.json",
+      "liturgicalTitle": "Sabbato Quattuor Temporum Adventus ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Sabbato Quattuor Temporum Adventus;;Feria major;;4.9\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-20",
+      "dayFile": "days/2026-12-20.json",
+      "liturgicalTitle": "Dominica IV Adventus ~ I. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Dominica IV Adventus;;Semiduplex;;6.01\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-21",
+      "dayFile": "days/2026-12-21.json",
+      "liturgicalTitle": "S. Thomæ Apostoli ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "S. Thomæ Apostoli;;Duplex II classis;;5;;ex C1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-22",
+      "dayFile": "days/2026-12-22.json",
+      "liturgicalTitle": "Feria III infra Hebdomadam IV Adventus ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria III infra Hebdomadam IV Adventus;;Feria major;;4.9\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-23",
+      "dayFile": "days/2026-12-23.json",
+      "liturgicalTitle": "Feria IV infra Hebdomadam IV Adventus ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria IV infra Hebdomadam IV Adventus;;Feria major;;4.9\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-24",
+      "dayFile": "days/2026-12-24.json",
+      "liturgicalTitle": "In Vigilia Nativitatis Domini ~ I. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "In Vigilia Nativitatis Domini;;Duplex I classis;;6.9\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-25",
+      "dayFile": "days/2026-12-25.json",
+      "liturgicalTitle": "In Nativitate Domini ~ I. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "In Nativitate Domini;;Duplex I Classis;;7\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-26",
+      "dayFile": "days/2026-12-26.json",
+      "liturgicalTitle": "S. Stephani Protomartyris ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "S. Stephani Protomartyris;;Duplex II class;;5.4;;ex C2a\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-27",
+      "dayFile": "days/2026-12-27.json",
+      "liturgicalTitle": "Dominica Infra Octavam Nativitatis ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Dominica Infra Octavam Nativitatis;;Semiduplex;;5.4;;ex Sancti/12-25\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-28",
+      "dayFile": "days/2026-12-28.json",
+      "liturgicalTitle": "Ss. Innocentium ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Ss. Innocentium;;Duplex II class;;5.4;;ex C3\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-29",
+      "dayFile": "days/2026-12-29.json",
+      "liturgicalTitle": "Diei V infra Octavam Nativitatis ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Diei V infra Octavam Nativitatis;;Duplex II classis;;5;;ex Sancti/12-25\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-30",
+      "dayFile": "days/2026-12-30.json",
+      "liturgicalTitle": "Diei VI infra Octavam Nativitatis ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Diei VI infra Octavam Nativitatis;;Duplex II classis;;5;;ex Sancti/12-25\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-31",
+      "dayFile": "days/2026-12-31.json",
+      "liturgicalTitle": "Diei VII infra Octavam Nativitatis ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Diei VII infra Octavam Nativitatis;;Duplex II classis;;5;;ex Sancti/12-25\n\n",
+      "season": "christmastide"
+    }
+  ],
+  "month": "12",
+  "schemaVersion": "officium1962.v1",
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "year": 2026
+}

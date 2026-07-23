@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/images/cross.png">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.BysrbJWy.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.QTnfLwEv.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.-xTZ69yZ.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.DV39TuFM.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.CO7GTrMH.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.BHwonxou.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.CzcQTtcD.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/@vueuse/motion.CVz3QvzL.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.BrOMym2A.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.DHGjGeo5.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.DVE9yJk8.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.BrOMym2A.js">
+<link rel="preload" href="/assets/none.DLM1AMsD.jpg" as="image">
+<link rel="preload" href="/assets/bg-img.kXdNMxcF.jpg" as="image">
+<link rel="preload" href="/assets/sidebar-bg-img.mp54gEws.webp" as="image">
+<link rel="modulepreload" crossorigin href="/assets/calendarium-festorum.CWzn5S32.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>週年瞻禮經目錄 - 颠倒梦想</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap">
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="一切有为法，如梦幻泡影。
+如露亦如电，应作如是观。">
+<meta property="og:description" content="一切有为法，如梦幻泡影。
+如露亦如电，应作如是观。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="颠倒梦想">
+<meta property="og:title" content="週年瞻禮經目錄">
+<meta property="og:image" content="/images/cross.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://clemensdsh.xyz/">
+<link rel="icon" href="/images/cross.png" type="image/png">
+<meta name="generator" content="Valaxy 0.28.11">
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-TileColor" content="#fff">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!--[--><!--v-if--><!--v-if--><div class="yun-page-header-gradient"></div><div class="yun-nav-menu z-$yun-z-nav-menu fixed bg-transparent" data-v-7cde2687><!--  --><div class="inline-flex justify-start items-center flex-1" data-v-7cde2687><button type="button" class="vt-hamburger menu-btn sidebar-toggle leading-4 size-12 lg:hidden" aria-label="mobile navigation" aria-expanded="false" inline-flex cursor="pointer" hover="bg-white/80 dark:bg-black/80" z="$yun-z-menu-btn" data-v-7cde2687><span class="vt-hamburger-container"><span class="vt-hamburger-top"></span><span class="vt-hamburger-middle"></span><span class="vt-hamburger-bottom"></span></span></button><a href="/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 data-v-7cde2687><!--[--><div class="size-6 i-ri-home-4-line"></div><!--]--></a><div class="hidden lg:contents" data-v-7cde2687><!--[--><a href="/posts/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="文章" data-v-7cde2687><!--[--><div class="size-6 i-ri-article-line"></div><!--]--></a><!--]--></div></div><div class="flex flex-1 flex-center" data-v-7cde2687><div flex="~ center col h-full" class="nav-menu-title-container cursor-pointer" data-v-7cde2687><!----><span class="font-light truncate">颠倒梦想</span></div></div><div class="inline-flex-center justify-end items-center flex-1" data-v-7cde2687><!-- <template v-if="!app.isMobile && themeConfig.nav">
+          <template v-for="item in themeConfig.nav" :key="item.text">
+            <AppLink
+              v-if="'link' in item"
+              :to="item.link"
+              class="menu-btn inline-flex-center p-2 transition text-$va-c-text"
+              inline-flex cursor="pointer"
+              hover="bg-white/80 dark:bg-black/80"
+              z="$yun-z-menu-btn"
+            >
+              {{ item.text }}
+            </AppLink>
+            <template v-else-if="'items' in item" />
+          </template>
+        </template> --><button class="yun-icon-btn rounded-none! hidden sm:inline-flex" title="切换语言" style="color:var(--va-c-text);" data-v-7cde2687><div i-ri-translate class="transition transform"></div></button><button class="yun-icon-btn yun-toggle-dark rounded-none!" title="切换到深色模式" data-v-7cde2687><div i="ri-sun-line dark:ri-moon-line"></div></button><!--[--><button class="yun-search-btn yun-icon-btn popup-trigger rounded-none! size-12 inline-flex justify-center items-center" text="xl $va-c-text" title="搜索"><div i-ri-search-line op-80 hover="op-100"></div></button><!----><!--]--></div></div><!----><!--v-if--><!----><!--[--><div class="yun-bg"></div><!--]--><!----><a href="#" class="back-to-top yun-icon-btn bg-$va-c-bg-soft shadow-md"><div class="size-8" i-ri-arrow-up-s-line></div><svg class="progress-circle-container" viewBox="0 0 100 100"><circle stroke-dasharray="301.59289474462014 301.59289474462014" stroke-dashoffset="301.59289474462014" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="progress-circle" cx="50" cy="50" r="48" fill="none"></circle></svg></a><!--]--><!--[--><!--]--><!----><!--]--><div class="min-h-screen flex flex-col"><div class="mt-12 md:mt-24 yun-layout-wrapper__content"><!--[--><div class="yun-layout-left gap-4 sticky top-$yun-margin-top w-80"><!--[--><div class="yun-card flex-center rounded-2 overflow-hidden p-4 min-h-sm" flex="~ col gap-1" min-h="100px" bg="$va-c-bg-light"><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><div class="site-info gap-1 items-center text-center" flex="~ col" p="t-8"><a href="/about" class="site-author-avatar inline-flex-center"><div class="relative yun-author-avatar"><div class="absolute size-full avatar-bg bg-image-$yun-home-hero-image-background-image filter-blur-2xl op-30"></div><img class="rounded-full size-full bg-white dark:bg-white/20 p-1 m-0 absolute" src="/images/photo.jpg" alt="avatar"><span class="site-author-status absolute" title="The moonlight is beautiful.">🌌</span></div></a><a href="/about" class="site-author-name font-black font-serif text-$va-c-text op-80 hover:op-100 flex-center">Clemens Bao</a><a href="/about/site" class="site-name text-lg leading-loose">颠倒梦想</a><h4 class="site-subtitle block op-70" text="xs">Clemens 的书房</h4><div class="site-description">一切有为法，如梦幻泡影。
+如露亦如电，应作如是观。</div></div><div class="yun-gradient-line my-2 op-20"></div><nav class="site-nav" text-xl mt-2><a href="/archives/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="归档" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-archive-line"></div><div class="text-2xl icon-active i-ri-archive-fill"></div><span class="text-xs">归档</span></div><span class="count text-base text-black/80 dark:text-white/80">23</span></a><a href="/categories/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="分类" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-folder-2-line"></div><div class="text-2xl icon-active i-ri-folder-2-fill"></div><span class="text-xs">分类</span></div><span class="count text-base text-black/80 dark:text-white/80">3</span></a><a href="/tags/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="标签" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-price-tag-3-line"></div><div class="text-2xl icon-active i-ri-price-tag-3-fill"></div><span class="text-xs">标签</span></div><span class="count text-base text-black/80 dark:text-white/80">5</span></a></nav><div class="yun-gradient-line my-2 op-20"></div><div class="links-of-author"><!--[--><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://github.com/Clemensdsh" title="GitHub" target="_blank" style="color:#6e5494;"><div class="i-ri-github-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://x.com/Ephraim_deca" title="X" target="_blank" style="color:#000000;"><div class="i-ri-twitter-x-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://t.me/Clemens777hepta" title="Telegram" target="_blank" style="color:#0088cc;"><div class="i-ri-telegram-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange;"><div class="i-ri-rss-line icon"></div></a><!--]--></div><div class="yun-gradient-line my-2 op-20"></div><div class="links flex-center"><!--[--><a href="/martyrologium-translation/" class="va-link link-item yun-icon-btn" inline-flex title="圣人录译稿" style="color:#FF8C00;"><!--[--><div class="i-ri-file-text-line icon size-6"></div><!--]--></a><a href="/annual-feasts/" class="va-link link-item yun-icon-btn" inline-flex title="周年瞻礼经" style="color:#E8913A;"><!--[--><div class="i-ri-file-text-line icon size-6"></div><!--]--></a><a href="/officium-1962/" class="va-link link-item yun-icon-btn" inline-flex title="1962罗马大日课" style="color:#9A3F35;"><!--[--><div class="i-ri-book-open-line icon size-6"></div><!--]--></a><a href="/about/" class="va-link link-item yun-icon-btn" inline-flex title="关于" style="color:#FF8C00;"><!--[--><div class="i-ri-information-line icon size-6"></div><!--]--></a><a href="/martyrology/" class="va-link link-item yun-icon-btn" inline-flex title="每日圣人录" style="color:#FF8C00;"><!--[--><div class="i-ri-calendar-event-line icon size-6"></div><!--]--></a><!--]--></div><!--]--></div><!----></div><!--[--><!-- eslint-disable-next-line vue/no-lone-template empty --><template></template><!--]--><!--]--></div><main class="yun-main lt-md:w-full" flex="~ center"><!--[--><div class="content w-full md:w-3xl lg:w-2xl xl:w-2xl 2xl:w-4xl" flex="~ col grow" p="lt-md:0"><div class="yun-card flex-center rounded-2 overflow-hidden" flex="col" min-h="100px" bg="$va-c-bg-light" m="0"><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><!----><div class="mt-8 mb-4"><!--[--><header class="post-header"><h1 p="2" text="2xl center" font="serif black" style="color:" class="post-title flex-center"><!----><span inline-flex class="leading-none">週年瞻禮經目錄</span></h1></header><!--]--></div><!--[--><!--[--><!--[--><!--[--><!----><div flex="~ center" text="sm" class="post-meta-col post-meta gap-4"><div class="post-time flex items-center gap-4"><span class="posted-time inline-flex-center gap-1" title="发表于 2026-01-20 00:00:00"><div class="inline-block" i-ri-calendar-line></div><time class="op-80">2026-01-20</time></span><!----></div><!--[--><!--]--><div class="inline-flex-center gap-4"><div class="inline-flex-center post-counter gap-4"><span class="word-count inline-flex-center gap-1" title="本文字数"><div class="inline-block" i-ri-file-word-line></div><span class="op-80">1.4k</span></span><span class="reading-time inline-flex-center gap-1" title="阅读时长"><div i-ri-timer-line></div><time class="op-80">5m</time></span></div><!----><!----></div></div><!--]--><!----><div class="inline-flex mt-2" text="sm" py="1"><a href="/categories?category=%E6%96%87%E7%8C%AE/%E5%91%A8%E5%B9%B4%E7%9E%BB%E7%A4%BC%E7%BB%8F" class="transition post-category inline-flex-center text-xs border-$va-c-divider" px-2 h="7" border rounded-full hover="bg-blue-500 text-white"><div m="x-1" inline-flex i-ri-folder-2-line></div><span>文献 / 周年瞻礼经</span></a><span mx="2"></span><div class="post-tags inline-flex" items="center" gap="1" flex="wrap 1" justify="end"><!--[--><a href="/tags/?tag=%E6%96%87%E8%A8%80%E7%B6%93%E6%96%87" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500 text-white"><span>文言經文</span></a><!--]--></div></div><!--]--><!--]--><!--]--><div p="x-4 b-8" class="sm:px-6 lg:px-12 xl:px-16" w="full"><!--[--><!--]--><!--[--><!-- <Transition appear> --><article class="markdown-body"><!--[--><!----><!----><!--[--><!--]--><!--[--><h2 id="週年瞻禮經目錄" tabindex="-1">週年瞻禮經目錄 <a class="header-anchor" href="#週年瞻禮經目錄" aria-label="Permalink to &quot;週年瞻禮經目錄&quot;">​</a></h2><p>彌撒規程 見一張</p><p>謝聖體經 三十張</p><p>主日經 三十七張</p><p>立耶穌聖名 一月一日 五十七張</p><p>恭敬耶穌聖名 三王來朝前主日或一月二日 五十九張</p><p>三王來朝 一月六日 六十一張</p><p>恭敬聖家 一月三王來朝後之主日 六十九張</p><p>聖母獻耶穌於主堂 二月二日 七十八張</p><p>無玷聖母降現露德 二月十一日 八十七張</p><p>聖灰禮儀 瞻禮四聖枝禮儀前四十日 九十六張</p><p>封齋內瞻禮六誦 一百零五張</p><p>諸聖宗徒 一百一十七張</p><p>真福文主教伯多祿張大鵬等致命 二月十八日 一百三十五張</p><p>大聖若瑟 三月十九日 一百三十七張</p><p>聖母領報 三月二十五日 一百五十三張</p><p>聖母痛苦 苦難主日後之瞻禮六 一百五十六張</p><p>聖枝禮儀 耶穌復活瞻禮前主日 一百五十九張</p><p>建定聖體大禮 聖瞻禮五 一百六十二張</p><p>耶穌受難 聖瞻禮六 一百七十五張</p><p>望復活 聖瞻禮七 一百八十七張</p><p>耶穌復活 春分後陰曆望日後之主日 二百零六張</p><p>耶穌復活第一副瞻禮 瞻禮二 二百零八張</p><p>耶穌復活第二副瞻禮 瞻禮三 二百零九張</p><p>大祈禱 四月二十五日 二百一十張</p><p>聖史瑪爾谷 四月二十五日 二百一十三張</p><p>聖若瑟主保 復活後第二主日之瞻禮四 二百一十四張</p><p>尋獲十字聖架 五月三日 二百一十六張</p><p>聖若望皋玻莫 五月十六日 二百二十一張</p><p>聖母進教之佑 五月二十四日 二百三十張</p><p>三天祈禱 耶穌升天前三日 二百三十三張</p><p>耶穌升天 瞻禮五 二百三十四張</p><p>中華聖母瞻禮 二百三十五張</p><p>聖神降臨 二百三十七張</p><p>聖神降臨第一副瞻禮 瞻禮二 二百五十張</p><p>聖神降臨第二副瞻禮 瞻禮三 二百五十一張</p><p>天主聖三 二百五十二張</p><p>耶穌聖體 天主聖三後之瞻禮五 二百五十四張</p><p>耶穌聖體第八日 二百五十六張</p><p>耶穌聖心 之後日瞻禮六 二百六十八張</p><p>聖願思公撒格 六月二十一日</p><p>聖若翰保弟斯大誕日 六月二十四日 二百七十五張</p><p>耶穌寶血 七月一日 二百八十四張</p><p>聖母往見 聖婦依撒伯爾 七月二日 二百九十二張</p><p>聖母聖衣本瞻禮 七月十六日 二百八十五張</p><p>聖味增爵 七月十九日 二百九十六張</p><p>聖婦亞納 七月二十六日 三百零三張</p><p>聖依納爵 七月三十一日 三百零四張</p><p>建聖母雪地殿 八月五日 三百一十二張</p><p>耶穌顯聖容 八月六日 三百一十五張</p><p>聖老楞佐致命 八月十日 三百一十六張</p><p>聖母升天 八月十五日 三百一十七張</p><p>聖若亞敬 八月十六日 三百二十張</p><p>聖母聖心 八月二十二日 三百二十一張</p><p>聖母聖誕 九月八日 三百二十八張</p><p>讚頌聖母聖名 九月十二日 三百三十一張</p><p>光榮十字聖架 九月十四日 三百三十二張</p><p>聖母七苦 九月十五日 三百三十三張</p><p>建聖彌額爾大天神殿 九月二十九日 三百三十四張</p><p>護守天神 十月二日 三百四十四張</p><p>聖女嬰孩耶穌德肋撒 十月三日 三百五十一張</p><p>聖五傷方濟各 十月四日 三百五十二張</p><p>聖母玫瑰 十月七日 三百六十張</p><p>聖母為天主之母 十月十一日 三百六十二張</p><p>聖史路加 十月十八日 三百六十三張</p><p>耶穌君王 十月末主日 三百六十四張</p><p>諸聖瞻禮 十一月一日 三百六十七張</p><p>追思已亡諸信友 十一月二日 三百六十九張</p><p>聖達尼老各斯加 十一月十三日 三百八十三張</p><p>聖母主保 十一月第三主日 三百八十八張</p><p>獻聖母於主堂 十一月二十一日 三百八十八張</p><p>真福加俾額爾杜弗來斯徐主教等致命 十一月二十四日 三百九十一張</p><p>聖方濟各沙勿畧 十二月三日 三百九十二張</p><p>聖母無原罪始胎 十二月八日 四百零一張</p><p>耶穌聖誕子時瞻禮 十二月二十五日 四百零三張</p><p>耶穌聖誕昧爽瞻禮 十二月二十五日 四百零六張</p><p>耶穌聖誕天明瞻禮 十二月二十五日 四百零八張</p><p>聖斯德望首先致命 十二月二十六日 四百一十一張</p><p>諸聖嬰孩致命 十二月二十八日 四百一十二張</p><p>聖西爾物斯德肋 十二月三十一日 四百一十三張</p><p>聖母十二殊恩冕旒 四百一十四張</p><p>聖母玫瑰九日敬禮 四百一十八張</p><p>聖依納爵九日敬禮 四百三十八張</p><p>聖沙勿畧九日敬禮 四百四十八張</p><p>補贖誦 四百六十張</p><p>受難始末 四百六十三張</p><!--]--><!--]--><!----><!----></article><!-- </Transition> --><!--]--><!--[--><!--[--><!--[--><div class="yun-sponsor-container flex-center flex-col" m="t-6"><button class="sponsor-button yun-icon-btn shadow hover:shadow-md" title="打赏" text="red-400"><div class="mt-2px" i-ri-heart-fill></div></button><div m="y-4" class="qrcode-container qrcode flex-center flex-col"><div class="sponsor-description" mb="4" text="sm">这是关于赞助的一些描述</div><div class="flex justify-around"><!--[--><!--]--></div></div></div><ul class="post-copyright" m="y-4"><li class="post-copyright-author"><strong>本文作者：</strong><span>Clemens Bao</span></li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://clemensdsh.xyz/posts/calendarium-festorum" target="_blank" title="本文链接">https://clemensdsh.xyz/posts/calendarium-festorum</a></li><li class="post-copyright-license"><strong>版权声明：</strong><span>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 ">CC BY-NC-SA</a> 许可协议。</span></li></ul><!--]--><!--]--><!--]--></div><!--]--></div><!----></div><!--[--><!--]--><!--[--><div class="post-nav"><div class="post-nav-item"><!----></div><div class="post-nav-item"><a href="/posts/saturday-memorial-of-our-lady-office/" class="post-nav-next" title="星期六纪念圣母（每日颂祷/新礼日课）"><span class="title truncate" text="sm">星期六纪念圣母（每日颂祷/新礼日课）</span><div class="icon" i-ri-arrow-right-s-line></div></a></div></div><!--]--><!--[--><!--]--><!----><!--[--><!-- eslint-disable-next-line vue/no-lone-template empty --><template class="mt-4 lg:hidden"></template><!--]--><!--[--><!--]--><!--[--><!--]--></div><!--]--></main><!--[--><button class="xl:hidden toc-btn shadow-md fixed yun-icon-btn z-20 bg-$va-c-bg-soft" opacity="75" right="4" bottom="19"><div i-ri-file-list-line></div></button><!----><aside flex="~ col" class="va-card yun-aside min-h-sm rounded-2" text="center" overflow="auto"><div class="w-full" flex="~ col" pb-2><!--[--><h2 m="t-6 b-2" font="serif black">文章目录</h2><div style="display:none;" data-v-c1b0a041><div class="content" data-v-c1b0a041><div class="outline-title" data-v-c1b0a041>本页</div><div class="outline-marker" data-v-c1b0a041></div><nav aria-labelledby="doc-outline-aria-label" data-v-c1b0a041><span id="doc-outline-aria-label" class="visually-hidden" data-v-c1b0a041> Table of Contents for current page </span><ul class="root va-toc relative z-1 css-i18n-toc" data-v-c1b0a041 data-v-de8ef98e><!--[--><!--]--></ul></nav></div></div><!--]--><div class="flex-grow"></div><!----></div></aside><!--]--><!--]--></div><footer flex="~ col" class="relative yun-footer va-footer px-4 py-4 pt-0 text-$va-c-text-light w-full mt-14" bg="white dark:$va-c-bg-soft" text="center sm"><div class="yun-cloud absolute top--10 left-0 right-0"><svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" fill="var(--yun-c-cloud)"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><!----><div class="copyright flex justify-center items-center gap-2" p="1"><span> © <!----> 2026</span><a class="animate-pulse inline-flex" href="https://www.yunyoujun.cn/sponsors/" target="_blank" title="Sponsor YunYouJun"><div class="i-ri-cloud-line"></div></a><span>Clemens Bao</span></div><div class="powered" m="2"><span>由 <a href="https://github.com/YunYouJun/valaxy.git" target="_blank" rel="noopener">Valaxy</a> <span class="op-60">v0.28.11</span> 驱动</span><span mx-1>|</span><span><span>主题</span><span mx-1>-</span><a href="https://github.com/YunYouJun/valaxy.git" title="valaxy-theme-yun" target="_blank">Yun</a><span class="ml-1 op-60">v0.28.11</span></span></div><!--[--><!--]--><div class="yun-footer-gradient"></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"yun-app":{"bannerAnimationDone":false},"app":{"showLoading":true},"site":{},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://clemensdsh.xyz/#identity","@type":"Person","name":"Clemens Bao","url":"https://clemensdsh.xyz/","image":{"@id":"https://clemensdsh.xyz/#/schema/image/1"},"sameAs":["https://github.com/Clemensdsh","https://x.com/Ephraim_deca","https://t.me/Clemens777hepta","/atom.xml"]},{"@id":"https://clemensdsh.xyz/#website","@type":"WebSite","dateModified":"2026-01-20","datePublished":"2026-01-20","inLanguage":"zh-CN","name":"週年瞻禮經目錄","url":"https://clemensdsh.xyz/","publisher":{"@id":"https://clemensdsh.xyz/#identity"}},{"@id":"https://clemensdsh.xyz/#webpage","@type":"WebPage","dateModified":"2026-01-20T00:00:00.000Z","datePublished":"2026-01-20T00:00:00.000Z","description":"一切有为法，如梦幻泡影。\n如露亦如电，应作如是观。","name":"週年瞻禮經目錄","url":"https://clemensdsh.xyz/","about":{"@id":"https://clemensdsh.xyz/#identity"},"isPartOf":{"@id":"https://clemensdsh.xyz/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://clemensdsh.xyz/"]}]},{"@id":"https://clemensdsh.xyz/#article","dateModified":"2026-01-20T00:00:00.000Z","datePublished":"2026-01-20T00:00:00.000Z","description":"一切有为法，如梦幻泡影。\n如露亦如电，应作如是观。","headline":"週年瞻禮經目錄","inLanguage":"zh-CN","thumbnailUrl":"https://clemensdsh.xyz/images/cross.png","@type":["Article","BlogPosting"],"author":{"@id":"https://clemensdsh.xyz/#/schema/person/1"},"image":{"@id":"https://clemensdsh.xyz/#/schema/image/2"},"isPartOf":{"@id":"https://clemensdsh.xyz/#webpage"},"mainEntityOfPage":{"@id":"https://clemensdsh.xyz/#webpage"},"publisher":{"@id":"https://clemensdsh.xyz/#identity"}},{"@id":"https://clemensdsh.xyz/#/schema/person/1","@type":"Person","name":"Clemens Bao","url":"https://valaxy.site"},{"@id":"https://clemensdsh.xyz/#/schema/image/1","@type":"ImageObject","contentUrl":"https://clemensdsh.xyz/images/photo.jpg","inLanguage":"zh-CN","url":"https://clemensdsh.xyz/images/photo.jpg"},{"@id":"https://clemensdsh.xyz/#/schema/image/2","@type":"ImageObject","contentUrl":"https://clemensdsh.xyz/images/cross.png","inLanguage":"zh-CN","url":"https://clemensdsh.xyz/images/cross.png"}]}</script>
+  
+</body>
+</html>

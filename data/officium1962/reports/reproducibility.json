@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "officium1962.v1",
+  "generatedAt": "2026-07-21T04:32:26.861Z",
+  "manifestHash": "0a8919a3b371095ea8296dcf268dfbd373c7adb59f563caf87652b29d1e6a12c",
+  "yearManifestHash": "5a151f1c90e53db036d2ce251ecdb366c509c52cc5abc5ffe5d4089b6c453b8e",
+  "sharedManifestHash": "1185d1766a1454649d13277ad4ae99ddf4d0c4902b32c9beb8d6cc1c67c5a6db",
+  "calendarHash": "326931dff9f8d60a11f17436cafce0e94cfcb12705d0dee189d016d6b59e47fb",
+  "monthHashes": {
+    "01.json": "85fc776c1ea0007a50b53be21fd183379be70578c1ca817781ce76941979f436",
+    "02.json": "fc5c06a494ac41f45ecc369eb08baad9128a9bc24e4435a55ab745a0c58351ec",
+    "03.json": "110c61c19dacfdb5521637bad86ad9f04f6b13a4305d72699ddd86126899fa0d",
+    "04.json": "110b81b17a4f557ddd4a4acef00f1fdb6da5773c0d1b236ddfdf2e5d25b9a9ea",
+    "05.json": "5bcf16137cf65316acce384651d22524f5d0d6a624e4eb8d8b143c9d8484138d",
+    "06.json": "0e61e07f97fc81b898c32bc823541bcb21966b5cf90a2ed3ce7c021946b1e8c8",
+    "07.json": "fd429071101b55e1ad0426c3c5f168225fdccca70c0e3e2222ee0a09790693ae",
+    "08.json": "32318add025a000674088cd8f969672731fa5a3236af577bf401d6b573b90f74",
+    "09.json": "76f065188bffc7414298a7a72d36c85e65b0f8c281644cce04e766d620765c69",
+    "10.json": "cdc76b0288261a0785a3af95e930aa2a401dcadccbac56bbeb25d93e8238014c",
+    "11.json": "600270a9a34e845c38b186ebd77f1e78db116aa87f4108f631d012c26fdd6417",
+    "12.json": "5c5699add35bfdea9da071cd5e87ab3dd6d440428af59854eaaebaa0d064dc4c"
+  },
+  "dayHashSample": {
+    "2026-01-01": "ce64676e07eefd9adc6d520b9a05c10b2f568ed101abae4f754098f491c3807b",
+    "2026-04-05": "457eed9685d01f5503ec985f1aed43096cd9f5052bf7fc2b9bf1e8733fd20c02",
+    "2026-07-20": "cba0b15cbde7abd029be9a8f7ea98a484db12eee16b0ee34ebe2fea6d7f7b345",
+    "2026-12-31": "c807ca006b1371ffd856940d7d763e7d184ab9914c60587131bd0ce23c842c68"
+  },
+  "allowedVariableFields": [
+    "generatedAt",
+    "report generatedAt",
+    "runtime duration fields"
+  ],
+  "conclusion": "Release packaging is deterministic for stable cached structured exports; a resume rebuild repackages identical source cache with stable schema, block IDs, checksums, and references except generatedAt/report timing fields."
+}

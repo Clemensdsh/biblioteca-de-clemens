@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/images/cross.png">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.BysrbJWy.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.QTnfLwEv.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.-xTZ69yZ.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.DV39TuFM.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.CO7GTrMH.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.BHwonxou.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.CzcQTtcD.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/@vueuse/motion.CVz3QvzL.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.BrOMym2A.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.DHGjGeo5.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.DVE9yJk8.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.BrOMym2A.js">
+<link rel="preload" href="/assets/none.DLM1AMsD.jpg" as="image">
+<link rel="preload" href="/assets/bg-img.kXdNMxcF.jpg" as="image">
+<link rel="preload" href="/assets/sidebar-bg-img.mp54gEws.webp" as="image">
+<link rel="modulepreload" crossorigin href="/assets/martyrologium-romanum-decree.BkKfjt4m.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>罗马殉道圣人录-礼仪及圣事部的批准暨颁布法令 - 颠倒梦想</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap">
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="一切有为法，如梦幻泡影。
+如露亦如电，应作如是观。">
+<meta property="og:description" content="一切有为法，如梦幻泡影。
+如露亦如电，应作如是观。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="颠倒梦想">
+<meta property="og:title" content="罗马殉道圣人录-礼仪及圣事部的批准暨颁布法令">
+<meta property="og:image" content="/images/cross.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://clemensdsh.xyz/">
+<link rel="icon" href="/images/cross.png" type="image/png">
+<meta name="generator" content="Valaxy 0.28.11">
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-TileColor" content="#fff">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!--[--><!--v-if--><!--v-if--><div class="yun-page-header-gradient"></div><div class="yun-nav-menu z-$yun-z-nav-menu fixed bg-transparent" data-v-7cde2687><!--  --><div class="inline-flex justify-start items-center flex-1" data-v-7cde2687><button type="button" class="vt-hamburger menu-btn sidebar-toggle leading-4 size-12 lg:hidden" aria-label="mobile navigation" aria-expanded="false" inline-flex cursor="pointer" hover="bg-white/80 dark:bg-black/80" z="$yun-z-menu-btn" data-v-7cde2687><span class="vt-hamburger-container"><span class="vt-hamburger-top"></span><span class="vt-hamburger-middle"></span><span class="vt-hamburger-bottom"></span></span></button><a href="/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 data-v-7cde2687><!--[--><div class="size-6 i-ri-home-4-line"></div><!--]--></a><div class="hidden lg:contents" data-v-7cde2687><!--[--><a href="/posts/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="文章" data-v-7cde2687><!--[--><div class="size-6 i-ri-article-line"></div><!--]--></a><!--]--></div></div><div class="flex flex-1 flex-center" data-v-7cde2687><div flex="~ center col h-full" class="nav-menu-title-container cursor-pointer" data-v-7cde2687><!----><span class="font-light truncate">颠倒梦想</span></div></div><div class="inline-flex-center justify-end items-center flex-1" data-v-7cde2687><!-- <template v-if="!app.isMobile && themeConfig.nav">
+          <template v-for="item in themeConfig.nav" :key="item.text">
+            <AppLink
+              v-if="'link' in item"
+              :to="item.link"
+              class="menu-btn inline-flex-center p-2 transition text-$va-c-text"
+              inline-flex cursor="pointer"
+              hover="bg-white/80 dark:bg-black/80"
+              z="$yun-z-menu-btn"
+            >
+              {{ item.text }}
+            </AppLink>
+            <template v-else-if="'items' in item" />
+          </template>
+        </template> --><button class="yun-icon-btn rounded-none! hidden sm:inline-flex" title="切换语言" style="color:var(--va-c-text);" data-v-7cde2687><div i-ri-translate class="transition transform"></div></button><button class="yun-icon-btn yun-toggle-dark rounded-none!" title="切换到深色模式" data-v-7cde2687><div i="ri-sun-line dark:ri-moon-line"></div></button><!--[--><button class="yun-search-btn yun-icon-btn popup-trigger rounded-none! size-12 inline-flex justify-center items-center" text="xl $va-c-text" title="搜索"><div i-ri-search-line op-80 hover="op-100"></div></button><!----><!--]--></div></div><!----><!--v-if--><!----><!--[--><div class="yun-bg"></div><!--]--><!----><a href="#" class="back-to-top yun-icon-btn bg-$va-c-bg-soft shadow-md"><div class="size-8" i-ri-arrow-up-s-line></div><svg class="progress-circle-container" viewBox="0 0 100 100"><circle stroke-dasharray="301.59289474462014 301.59289474462014" stroke-dashoffset="301.59289474462014" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="progress-circle" cx="50" cy="50" r="48" fill="none"></circle></svg></a><!--]--><!--[--><!--]--><!----><!--]--><div class="min-h-screen flex flex-col"><div class="mt-12 md:mt-24 yun-layout-wrapper__content"><!--[--><div class="yun-layout-left gap-4 sticky top-$yun-margin-top w-80"><!--[--><div class="yun-card flex-center rounded-2 overflow-hidden p-4 min-h-sm" flex="~ col gap-1" min-h="100px" bg="$va-c-bg-light"><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><div class="site-info gap-1 items-center text-center" flex="~ col" p="t-8"><a href="/about" class="site-author-avatar inline-flex-center"><div class="relative yun-author-avatar"><div class="absolute size-full avatar-bg bg-image-$yun-home-hero-image-background-image filter-blur-2xl op-30"></div><img class="rounded-full size-full bg-white dark:bg-white/20 p-1 m-0 absolute" src="/images/photo.jpg" alt="avatar"><span class="site-author-status absolute" title="The moonlight is beautiful.">🌌</span></div></a><a href="/about" class="site-author-name font-black font-serif text-$va-c-text op-80 hover:op-100 flex-center">Clemens Bao</a><a href="/about/site" class="site-name text-lg leading-loose">颠倒梦想</a><h4 class="site-subtitle block op-70" text="xs">Clemens 的书房</h4><div class="site-description">一切有为法，如梦幻泡影。
+如露亦如电，应作如是观。</div></div><div class="yun-gradient-line my-2 op-20"></div><nav class="site-nav" text-xl mt-2><a href="/archives/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="归档" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-archive-line"></div><div class="text-2xl icon-active i-ri-archive-fill"></div><span class="text-xs">归档</span></div><span class="count text-base text-black/80 dark:text-white/80">23</span></a><a href="/categories/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="分类" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-folder-2-line"></div><div class="text-2xl icon-active i-ri-folder-2-fill"></div><span class="text-xs">分类</span></div><span class="count text-base text-black/80 dark:text-white/80">3</span></a><a href="/tags/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="标签" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-price-tag-3-line"></div><div class="text-2xl icon-active i-ri-price-tag-3-fill"></div><span class="text-xs">标签</span></div><span class="count text-base text-black/80 dark:text-white/80">5</span></a></nav><div class="yun-gradient-line my-2 op-20"></div><div class="links-of-author"><!--[--><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://github.com/Clemensdsh" title="GitHub" target="_blank" style="color:#6e5494;"><div class="i-ri-github-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://x.com/Ephraim_deca" title="X" target="_blank" style="color:#000000;"><div class="i-ri-twitter-x-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://t.me/Clemens777hepta" title="Telegram" target="_blank" style="color:#0088cc;"><div class="i-ri-telegram-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange;"><div class="i-ri-rss-line icon"></div></a><!--]--></div><div class="yun-gradient-line my-2 op-20"></div><div class="links flex-center"><!--[--><a href="/martyrologium-translation/" class="va-link link-item yun-icon-btn" inline-flex title="圣人录译稿" style="color:#FF8C00;"><!--[--><div class="i-ri-file-text-line icon size-6"></div><!--]--></a><a href="/annual-feasts/" class="va-link link-item yun-icon-btn" inline-flex title="周年瞻礼经" style="color:#E8913A;"><!--[--><div class="i-ri-file-text-line icon size-6"></div><!--]--></a><a href="/officium-1962/" class="va-link link-item yun-icon-btn" inline-flex title="1962罗马大日课" style="color:#9A3F35;"><!--[--><div class="i-ri-book-open-line icon size-6"></div><!--]--></a><a href="/about/" class="va-link link-item yun-icon-btn" inline-flex title="关于" style="color:#FF8C00;"><!--[--><div class="i-ri-information-line icon size-6"></div><!--]--></a><a href="/martyrology/" class="va-link link-item yun-icon-btn" inline-flex title="每日圣人录" style="color:#FF8C00;"><!--[--><div class="i-ri-calendar-event-line icon size-6"></div><!--]--></a><!--]--></div><!--]--></div><!----></div><!--[--><!-- eslint-disable-next-line vue/no-lone-template empty --><template></template><!--]--><!--]--></div><main class="yun-main lt-md:w-full" flex="~ center"><!--[--><div class="content w-full md:w-3xl lg:w-2xl xl:w-2xl 2xl:w-4xl" flex="~ col grow" p="lt-md:0"><div class="yun-card flex-center rounded-2 overflow-hidden" flex="col" min-h="100px" bg="$va-c-bg-light" m="0"><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><!----><div class="mt-8 mb-4"><!--[--><header class="post-header"><h1 p="2" text="2xl center" font="serif black" style="color:" class="post-title flex-center"><!----><span inline-flex class="leading-none">罗马殉道圣人录-礼仪及圣事部的批准暨颁布法令</span></h1></header><!--]--></div><!--[--><!--[--><!--[--><!--[--><!----><div flex="~ center" text="sm" class="post-meta-col post-meta gap-4"><div class="post-time flex items-center gap-4"><span class="posted-time inline-flex-center gap-1" title="发表于 2026-07-07 00:00:00"><div class="inline-block" i-ri-calendar-line></div><time class="op-80">2026-07-07</time></span><!----></div><!--[--><!--]--><div class="inline-flex-center gap-4"><div class="inline-flex-center post-counter gap-4"><span class="word-count inline-flex-center gap-1" title="本文字数"><div class="inline-block" i-ri-file-word-line></div><span class="op-80">1.3k</span></span><span class="reading-time inline-flex-center gap-1" title="阅读时长"><div i-ri-timer-line></div><time class="op-80">5m</time></span></div><!----><!----></div></div><!--]--><!----><div class="inline-flex mt-2" text="sm" py="1"><a href="/categories?category=%E8%AF%91%E7%A8%BF/%E7%BD%97%E9%A9%AC%E6%AE%89%E9%81%93%E5%9C%A3%E4%BA%BA%E5%BD%95" class="transition post-category inline-flex-center text-xs border-$va-c-divider" px-2 h="7" border rounded-full hover="bg-blue-500 text-white"><div m="x-1" inline-flex i-ri-folder-2-line></div><span>译稿 / 罗马殉道圣人录</span></a><!----><!----></div><!--]--><!--]--><!--]--><div p="x-4 b-8" class="sm:px-6 lg:px-12 xl:px-16" w="full"><!--[--><!--]--><!--[--><!-- <Transition appear> --><article class="markdown-body"><!--[--><!----><!----><!--[--><!--]--><!--[--><p>罗马殉道圣人录</p><p>依梵蒂冈第二届大公会议法令审订 以教宗若望·保禄二世之权威颁布</p><p><strong>第二版</strong></p><p>梵蒂冈出版社 主历二〇〇四年</p><hr><p>Editio typica 2001 Editio altera 2004</p><p>© «Copyright» apud Administrationem Patrimonii Sedis Apostolicae in Civitate Vaticana 2004.</p><p>Venditio operis fit cura Librariae Editricis Vaticanae (Libreria Editrice Vaticana, Città del Vaticano)</p><hr><h2 id="礼仪及圣事部法令" tabindex="-1">礼仪及圣事部法令 <a class="header-anchor" href="#礼仪及圣事部法令" aria-label="Permalink to &quot;礼仪及圣事部法令&quot;">​</a></h2><p>案号 551/00/L</p><p>教会自太古以来，即在新旧二约之诸圣中庆祝基督的逾越胜利，欢然宣认信友在吾主耶稣基督救世者奥体之共融内彼此相通。</p><p>历代以来，教会以各种方式保存了诸圣的名字及事迹之记忆。因此，奉教宗额我略十三世之命于一五八四年初版刊行、按新历法及教会历史之真实予以修订的《罗马殉道圣人录》，此后历经多位罗马教宗之命令，屡次审订、修正及增补，直至一九六〇年。</p><p>然而，此书源自最古老的拉丁殉道圣人录，即所谓《热罗尼莫殉道圣人录》（Martyrologium Hieronymianum）。该书乃汇合罗马、非洲及叙利亚诸历法而成，此后又逐渐增入其他地区众多圣人之名字，但其间亦不免多有重出、混淆及其他谬误。</p><p>按梵蒂冈第二届大公会议关于神圣礼仪之宪章《礼仪宪章》（Sacrosanctum Concilium）之规定，为使&quot;圣人之受难事迹或行传合乎历史之可信&quot;（第九十二条丙款），实有必要将殉道圣人录所载之圣人名字及其赞辞，依历史学科之准则加以审核，较前更为审慎地处理。此外，凡经教会认可而享有公开敬礼之圣人及真福，不论其敬礼系自古相沿（即使仅属地方性者），抑或系一九六〇年以来之隆重宣告所确立者，亦须一并收录。</p><p>此项浩大而艰巨的工程，历经长期编纂，现已完成。值此第三个千年之初，得以面世，每日向信友提示诸圣之名字与榜样。</p><p>为此，教宗若望·保禄二世以宗座权威批准本版《罗马殉道圣人录》。礼仪及圣事部现予颁布，并声明此书为标准版本。本版以拉丁文编纂，自公布之日起即行生效。</p><p>任何与此相抵触之规定，概不能阻止其效力。</p><p>发自礼仪及圣事部 二〇〇一年六月二十九日 圣伯多禄及圣保禄宗徒瞻礼</p><p>部　长　豪尔赫·A·梅迪纳·埃斯特维斯枢机 秘书长　方济各·比约·坦布里诺总主教</p><h2 id="礼仪及圣事部法令-1" tabindex="-1">礼仪及圣事部法令 <a class="header-anchor" href="#礼仪及圣事部法令-1" aria-label="Permalink to &quot;礼仪及圣事部法令&quot;">​</a></h2><p>案号 1140/04/L</p><p>全能天主圣父的仁慈世世代代使福音真理之言在普世丰沛结实，使救恩的伟大计划在基督内达至圆满。天主赐予基督信友敬礼诸圣人功绩的恩典，以增多代祷者，将人们所渴望的主之宽赦丰厚地施与世人。至圣圣三之爱的这些奇妙化工，教会在敬礼圣人时不懈地尊崇并宣扬，朝拜在众圣中显示奇妙、独一神圣的天主自身；因为主在世上赐给了他们各种不同的恩宠，在天上则赐予同一光荣的赏报。</p><p>天主子民对圣人虔敬的卓越标记，就是近年来依梵蒂冈第二届大公会议之法令而审订的《罗马殉道圣人录》，其标准版本于二〇〇一年六月二十九日颁布。此后不久，鉴于礼仪革新在实际使用中的需要，并接受了致力于这项浩大艰巨工程之研究者的专门建议，认为有必要作若干修正，以使文本更加丰富明晰。</p><p>因此，不少经教宗若望·保禄二世擢升为真福或圣品的天主之仆已收入本版，以便即时以相应之赞辞于其庆日予以纪念。另有若干变更涉及先前版本中遗漏或在历史考据上尚存疑义的圣人。此外还有拉丁文文字及正字法方面的细微修订。</p><p>为此，礼仪及圣事部凭教宗若望·保禄二世所授予的特别权限，现予颁布本《罗马殉道圣人录》第二版，并声明此版为&quot;标准版本&quot;。各主教团有责任将本版所载之文本译为各地方语言，并呈报本部审核批准。</p><p>任何与此相抵触之规定，概不能阻止其效力。</p><p>发自礼仪及圣事部 二〇〇四年六月二十九日 圣伯多禄及圣保禄宗徒瞻礼</p><p>部　长　方济各·阿林泽枢机 秘书长　多明我·索伦蒂诺总主教</p><!--]--><!--]--><!----><!----></article><!-- </Transition> --><!--]--><!--[--><!--[--><!--[--><div class="yun-sponsor-container flex-center flex-col" m="t-6"><button class="sponsor-button yun-icon-btn shadow hover:shadow-md" title="打赏" text="red-400"><div class="mt-2px" i-ri-heart-fill></div></button><div m="y-4" class="qrcode-container qrcode flex-center flex-col"><div class="sponsor-description" mb="4" text="sm">这是关于赞助的一些描述</div><div class="flex justify-around"><!--[--><!--]--></div></div></div><ul class="post-copyright" m="y-4"><li class="post-copyright-author"><strong>本文作者：</strong><span>Clemens Bao</span></li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://clemensdsh.xyz/posts/martyrologium-romanum-decree" target="_blank" title="本文链接">https://clemensdsh.xyz/posts/martyrologium-romanum-decree</a></li><li class="post-copyright-license"><strong>版权声明：</strong><span>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 ">CC BY-NC-SA</a> 许可协议。</span></li></ul><!--]--><!--]--><!--]--></div><!--]--></div><!----></div><!--[--><!--]--><!--[--><div class="post-nav"><div class="post-nav-item"><!----></div><div class="post-nav-item"><a href="/posts/saturday-memorial-of-our-lady-office/" class="post-nav-next" title="星期六纪念圣母（每日颂祷/新礼日课）"><span class="title truncate" text="sm">星期六纪念圣母（每日颂祷/新礼日课）</span><div class="icon" i-ri-arrow-right-s-line></div></a></div></div><!--]--><!--[--><!--]--><!----><!--[--><!-- eslint-disable-next-line vue/no-lone-template empty --><template class="mt-4 lg:hidden"></template><!--]--><!--[--><!--]--><!--[--><!--]--></div><!--]--></main><!--[--><button class="xl:hidden toc-btn shadow-md fixed yun-icon-btn z-20 bg-$va-c-bg-soft" opacity="75" right="4" bottom="19"><div i-ri-file-list-line></div></button><!----><aside flex="~ col" class="va-card yun-aside min-h-sm rounded-2" text="center" overflow="auto"><div class="w-full" flex="~ col" pb-2><!--[--><h2 m="t-6 b-2" font="serif black">文章目录</h2><div style="display:none;" data-v-c1b0a041><div class="content" data-v-c1b0a041><div class="outline-title" data-v-c1b0a041>本页</div><div class="outline-marker" data-v-c1b0a041></div><nav aria-labelledby="doc-outline-aria-label" data-v-c1b0a041><span id="doc-outline-aria-label" class="visually-hidden" data-v-c1b0a041> Table of Contents for current page </span><ul class="root va-toc relative z-1 css-i18n-toc" data-v-c1b0a041 data-v-de8ef98e><!--[--><!--]--></ul></nav></div></div><!--]--><div class="flex-grow"></div><!----></div></aside><!--]--><!--]--></div><footer flex="~ col" class="relative yun-footer va-footer px-4 py-4 pt-0 text-$va-c-text-light w-full mt-14" bg="white dark:$va-c-bg-soft" text="center sm"><div class="yun-cloud absolute top--10 left-0 right-0"><svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" fill="var(--yun-c-cloud)"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><!----><div class="copyright flex justify-center items-center gap-2" p="1"><span> © <!----> 2026</span><a class="animate-pulse inline-flex" href="https://www.yunyoujun.cn/sponsors/" target="_blank" title="Sponsor YunYouJun"><div class="i-ri-cloud-line"></div></a><span>Clemens Bao</span></div><div class="powered" m="2"><span>由 <a href="https://github.com/YunYouJun/valaxy.git" target="_blank" rel="noopener">Valaxy</a> <span class="op-60">v0.28.11</span> 驱动</span><span mx-1>|</span><span><span>主题</span><span mx-1>-</span><a href="https://github.com/YunYouJun/valaxy.git" title="valaxy-theme-yun" target="_blank">Yun</a><span class="ml-1 op-60">v0.28.11</span></span></div><!--[--><!--]--><div class="yun-footer-gradient"></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"yun-app":{"bannerAnimationDone":false},"app":{"showLoading":true},"site":{},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://clemensdsh.xyz/#identity","@type":"Person","name":"Clemens Bao","url":"https://clemensdsh.xyz/","image":{"@id":"https://clemensdsh.xyz/#/schema/image/1"},"sameAs":["https://github.com/Clemensdsh","https://x.com/Ephraim_deca","https://t.me/Clemens777hepta","/atom.xml"]},{"@id":"https://clemensdsh.xyz/#website","@type":"WebSite","dateModified":"2026-07-07","datePublished":"2026-07-07","inLanguage":"zh-CN","name":"罗马殉道圣人录-礼仪及圣事部的批准暨颁布法令","url":"https://clemensdsh.xyz/","publisher":{"@id":"https://clemensdsh.xyz/#identity"}},{"@id":"https://clemensdsh.xyz/#webpage","@type":"WebPage","dateModified":"2026-07-07T00:00:00.000Z","datePublished":"2026-07-07T00:00:00.000Z","description":"一切有为法，如梦幻泡影。\n如露亦如电，应作如是观。","name":"罗马殉道圣人录-礼仪及圣事部的批准暨颁布法令","url":"https://clemensdsh.xyz/","about":{"@id":"https://clemensdsh.xyz/#identity"},"isPartOf":{"@id":"https://clemensdsh.xyz/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://clemensdsh.xyz/"]}]},{"@id":"https://clemensdsh.xyz/#article","dateModified":"2026-07-07T00:00:00.000Z","datePublished":"2026-07-07T00:00:00.000Z","description":"一切有为法，如梦幻泡影。\n如露亦如电，应作如是观。","headline":"罗马殉道圣人录-礼仪及圣事部的批准暨颁布法令","inLanguage":"zh-CN","thumbnailUrl":"https://clemensdsh.xyz/images/cross.png","@type":["Article","BlogPosting"],"author":{"@id":"https://clemensdsh.xyz/#/schema/person/1"},"image":{"@id":"https://clemensdsh.xyz/#/schema/image/2"},"isPartOf":{"@id":"https://clemensdsh.xyz/#webpage"},"mainEntityOfPage":{"@id":"https://clemensdsh.xyz/#webpage"},"publisher":{"@id":"https://clemensdsh.xyz/#identity"}},{"@id":"https://clemensdsh.xyz/#/schema/person/1","@type":"Person","name":"Clemens Bao","url":"https://valaxy.site"},{"@id":"https://clemensdsh.xyz/#/schema/image/1","@type":"ImageObject","contentUrl":"https://clemensdsh.xyz/images/photo.jpg","inLanguage":"zh-CN","url":"https://clemensdsh.xyz/images/photo.jpg"},{"@id":"https://clemensdsh.xyz/#/schema/image/2","@type":"ImageObject","contentUrl":"https://clemensdsh.xyz/images/cross.png","inLanguage":"zh-CN","url":"https://clemensdsh.xyz/images/cross.png"}]}</script>
+  
+</body>
+</html>
