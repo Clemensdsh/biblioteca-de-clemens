@@ -179,58 +179,182 @@ onMounted(async () => {
 
 <template>
   <main class="hodie-page">
-    <header class="hodie-header">
-      <h1>今日赞美诗</h1>
-      <label class="hodie-date">
-        <span>日期</span>
-        <input v-model="selectedDate" type="date">
-      </label>
-    </header>
+    <ClientOnly>
+      <header class="hodie-header">
+        <h1>今日赞美诗</h1>
+        <label class="hodie-date">
+          <span>日期</span>
+          <input v-model="selectedDate" type="date">
+        </label>
+      </header>
 
-    <section class="hodie-info" aria-label="礼仪信息">
-      <p><span>礼仪季节</span>{{ seasonLabels[season] }}</p>
-      <p><span>Psalter 周次</span>{{ ['I', 'II', 'III', 'IV'][psalter - 1] }}</p>
-      <p><span>星期几</span>{{ weekdayLabels[weekday] }}</p>
-    </section>
+      <section class="hodie-panel hodie-info" aria-label="礼仪信息">
+        <p><span>礼仪季节</span>{{ seasonLabels[season] }}</p>
+        <p><span>Psalter 周次</span>{{ ['I', 'II', 'III', 'IV'][psalter - 1] }}</p>
+        <p><span>星期几</span>{{ weekdayLabels[weekday] }}</p>
+      </section>
 
-    <p v-if="loading" class="hodie-status">正在加载赞美诗……</p>
-    <p v-else-if="error" class="hodie-status">{{ error }}</p>
+      <section v-if="loading" class="hodie-panel hodie-status">正在加载赞美诗……</section>
+      <section v-else-if="error" class="hodie-panel hodie-status hodie-warning">{{ error }}</section>
 
-    <section v-else class="hodie-hours">
-      <article v-for="hour in displayedHymns" :key="hour.key" class="hodie-hour">
-        <h2>{{ hour.label }}</h2>
-        <details v-if="hour.hymn" class="hodie-hymn">
-          <summary>{{ hour.hymn.incipit }}</summary>
-          <p>{{ hour.hymn.full_text }}</p>
-        </details>
-        <p v-else class="hodie-missing">未收录</p>
-      </article>
-    </section>
+      <section v-else class="hodie-hours">
+        <article v-for="hour in displayedHymns" :key="hour.key" class="hodie-panel hodie-hour">
+          <h2>{{ hour.label }}</h2>
+          <details v-if="hour.hymn" class="hodie-hymn">
+            <summary>{{ hour.hymn.incipit }}</summary>
+            <p>{{ hour.hymn.full_text }}</p>
+          </details>
+          <p v-else class="hodie-missing">未收录</p>
+        </article>
+      </section>
 
-    <footer class="hodie-footer">
-      <p>仅显示时间季节（Temporale）赞美诗。圣人纪念日及庆节的专用赞美诗请参阅汇总页。</p>
-      <a href="/hymns/">→ 赞美诗全集</a>
-    </footer>
+      <footer class="hodie-footer">
+        <p>仅显示时间季节（Temporale）赞美诗。圣人纪念日及庆节的专用赞美诗请参阅汇总页。</p>
+        <a href="/hymns/">→ 赞美诗全集</a>
+      </footer>
+    </ClientOnly>
   </main>
 </template>
 
 <style scoped>
-.hodie-page { width: min(100%, 52rem); margin: 0 auto; padding: 1rem clamp(.75rem, 3vw, 2rem) 3rem; color: var(--va-c-text); font-family: var(--va-font-sans, system-ui, sans-serif); }
-.hodie-header { display: flex; flex-wrap: wrap; gap: 1rem; align-items: end; justify-content: space-between; margin-bottom: 1.5rem; }
-.hodie-header h1 { margin: 0; font-family: Georgia, 'Noto Serif', serif; font-size: clamp(1.8rem, 5vw, 2.5rem); letter-spacing: 0; }
-.hodie-date { display: grid; gap: .35rem; font-size: .85rem; }
-.hodie-date input { min-height: 2.5rem; padding: .4rem .55rem; border: 1px solid var(--va-c-divider); border-radius: 4px; background: var(--va-c-bg); color: var(--va-c-text); }
-.hodie-info { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .65rem; margin-bottom: 1.5rem; }
-.hodie-info p { display: grid; gap: .25rem; margin: 0; padding: .7rem; border: 1px solid var(--va-c-divider); border-radius: 4px; }
-.hodie-info span { color: var(--va-c-text-light); font-size: .78rem; }
-.hodie-status { margin: 2rem 0; text-align: center; color: var(--va-c-text-light); }
-.hodie-hour { margin: 1.5rem 0; }
-.hodie-hour h2 { margin: 0 0 .55rem; padding-bottom: .45rem; border-bottom: 1px solid var(--va-c-divider); font-family: Georgia, 'Noto Serif', serif; font-size: 1.35rem; letter-spacing: 0; }
-.hodie-hymn { border: 1px solid var(--va-c-divider); border-radius: 4px; background: var(--va-c-bg-opacity, var(--va-c-bg)); }
-.hodie-hymn summary { padding: .8rem .9rem; cursor: pointer; font-family: Georgia, 'Noto Serif', serif; font-size: 1.15rem; }
-.hodie-hymn p { margin: 0; padding: 0 .9rem .9rem; font-family: Georgia, 'Noto Serif', serif; line-height: 1.65; white-space: pre-wrap; }
-.hodie-missing { margin: 0; padding: .8rem .9rem; color: var(--va-c-text-light); border: 1px solid var(--va-c-divider); border-radius: 4px; }
-.hodie-footer { margin-top: 3rem; color: var(--va-c-text-light); font-size: .85rem; text-align: center; }
-.hodie-footer a { color: var(--va-c-primary); }
-@media (max-width: 600px) { .hodie-page { padding-inline: .75rem; } .hodie-info { grid-template-columns: 1fr; } }
+:global(body:has(.hodie-page) .yun-layout-left),
+:global(body:has(.hodie-page) .yun-aside),
+:global(body:has(.hodie-page) .toc-btn) {
+  display: none !important;
+}
+
+:global(body:has(.hodie-page) .yun-layout-wrapper__content) {
+  justify-content: center;
+}
+
+:global(body:has(.hodie-page) .yun-main) {
+  width: 100%;
+}
+
+.hodie-page {
+  width: min(920px, calc(100% - 2rem));
+  margin: 5rem auto 3rem;
+  color: var(--va-c-text);
+  font-family: var(--va-font-serif);
+}
+
+.hodie-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.hodie-header h1 {
+  margin: .5rem 0;
+  color: var(--va-c-primary);
+  font-size: 2.4rem;
+  line-height: 1.2;
+}
+
+.hodie-date {
+  display: inline-flex;
+  gap: .6rem;
+  align-items: center;
+  margin: .65rem 0;
+  color: var(--va-c-text-light);
+  font-family: var(--va-font-sans);
+}
+
+.hodie-date input {
+  padding: .35rem .55rem;
+  border: 1px solid var(--va-c-divider);
+  border-radius: 6px;
+  color: var(--va-c-text);
+  background: var(--va-c-bg);
+  font: inherit;
+}
+
+.hodie-panel {
+  margin: 1rem 0;
+  padding: 1.25rem;
+  border: 1px solid var(--va-c-divider);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, .78);
+  backdrop-filter: blur(8px);
+}
+
+:global(html.dark) .hodie-panel {
+  background: rgba(0, 0, 0, .68);
+}
+
+.hodie-info {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.hodie-info p {
+  display: grid;
+  gap: .25rem;
+  margin: 0;
+}
+
+.hodie-info span,
+.hodie-status,
+.hodie-missing,
+.hodie-footer {
+  color: var(--va-c-text-light);
+  font-family: var(--va-font-sans);
+}
+
+.hodie-info span {
+  font-size: .85rem;
+}
+
+.hodie-warning {
+  border-color: var(--va-c-warning);
+  color: var(--va-c-warning);
+}
+
+.hodie-hour h2 {
+  margin-top: 0;
+  color: var(--va-c-primary);
+  font-size: 1.65rem;
+  line-height: 1.25;
+}
+
+.hodie-hymn summary {
+  color: var(--va-c-primary);
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hodie-hymn p {
+  margin-bottom: 0;
+  line-height: 1.85;
+  white-space: pre-wrap;
+}
+
+.hodie-missing {
+  margin: 0;
+}
+
+.hodie-footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.hodie-footer a {
+  color: var(--va-c-primary);
+}
+
+@media (max-width: 640px) {
+  .hodie-page {
+    width: min(100% - 1rem, 920px);
+    margin-top: 4rem;
+  }
+
+  .hodie-header h1 {
+    font-size: 2rem;
+  }
+
+  .hodie-info {
+    grid-template-columns: 1fr;
+  }
+}
 </style>

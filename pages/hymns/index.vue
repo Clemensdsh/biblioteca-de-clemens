@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { useFrontmatter } from 'valaxy'
 import { computed, onMounted, ref } from 'vue'
 
 type Usage = {
@@ -27,6 +28,7 @@ const hymns = ref<Hymn[]>([])
 const loading = ref(true)
 const error = ref('')
 const search = ref('')
+const frontmatter = useFrontmatter()
 
 const days = [
   { key: 'dominica', label: 'Dominica' },
@@ -129,106 +131,196 @@ onMounted(async () => {
 </script>
 
 <template>
-  <main class="hymns-page">
-    <header class="hymns-header">
-      <h1>Hymni Liturgiæ Horarum</h1>
-      <p>日课赞美诗集</p>
+  <ValaxyMain :frontmatter="frontmatter">
+    <template #main-header>
+      <header class="hymns-header">
+        <h1>Hymni Liturgiæ Horarum</h1>
+        <p>日课赞美诗集</p>
+      </header>
+    </template>
+
+    <article class="hymns-article">
+    <ClientOnly>
       <label class="hymns-search">
         <span>搜索 incipit</span>
         <input v-model="search" type="search" placeholder="输入赞美诗开头" autocomplete="off">
       </label>
-    </header>
 
-    <p v-if="loading" class="hymns-status">正在加载赞美诗……</p>
-    <p v-else-if="error" class="hymns-status">{{ error }}</p>
+      <p v-if="loading" class="hymns-status">正在加载赞美诗……</p>
+      <p v-else-if="error" class="hymns-status">{{ error }}</p>
 
-    <template v-else>
-      <section class="hymns-section">
-        <h2>Psalterium — Per Annum</h2>
-        <div v-for="day in perAnnum" :key="day.key" class="hymns-day">
-          <h3>{{ day.label }}</h3>
-          <div v-for="hour in day.hours" :key="hour.key" class="hymns-hour">
-            <h4>{{ hour.label }}</h4>
-            <details v-for="hymn in hour.hymns" :key="hymn.id" class="hymn-details">
-              <summary><span class="hymn-incipit">{{ hymn.incipit }}</span><small>{{ day.label }} · {{ hour.label }}</small></summary>
-              <p class="hymn-text">{{ hymn.full_text }}</p>
-            </details>
+      <template v-else>
+        <section class="hymns-section">
+          <h2>Psalterium — Per Annum</h2>
+          <div v-for="day in perAnnum" :key="day.key" class="hymns-day">
+            <h3>{{ day.label }}</h3>
+            <div v-for="hour in day.hours" :key="hour.key" class="hymns-hour">
+              <h4>{{ hour.label }}</h4>
+              <details v-for="hymn in hour.hymns" :key="hymn.id" class="hymn-details">
+                <summary><span class="hymn-incipit">{{ hymn.incipit }}</span><small>{{ day.label }} · {{ hour.label }}</small></summary>
+                <p class="hymn-text">{{ hymn.full_text }}</p>
+              </details>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="hymns-section">
-        <h2>Psalterium — Tempus Adventus</h2>
-        <div v-for="day in adventus" :key="day.key" class="hymns-day">
-          <h3>{{ day.label }}</h3>
-          <div v-for="hour in day.hours" :key="hour.key" class="hymns-hour">
-            <h4>{{ hour.label }}</h4>
-            <details v-for="hymn in hour.hymns" :key="hymn.id" class="hymn-details">
-              <summary><span class="hymn-incipit">{{ hymn.incipit }}</span><small>{{ day.label }} · {{ hour.label }}</small></summary>
-              <p class="hymn-text">{{ hymn.full_text }}</p>
-            </details>
+        <section class="hymns-section">
+          <h2>Psalterium — Tempus Adventus</h2>
+          <div v-for="day in adventus" :key="day.key" class="hymns-day">
+            <h3>{{ day.label }}</h3>
+            <div v-for="hour in day.hours" :key="hour.key" class="hymns-hour">
+              <h4>{{ hour.label }}</h4>
+              <details v-for="hymn in hour.hymns" :key="hymn.id" class="hymn-details">
+                <summary><span class="hymn-incipit">{{ hymn.incipit }}</span><small>{{ day.label }} · {{ hour.label }}</small></summary>
+                <p class="hymn-text">{{ hymn.full_text }}</p>
+              </details>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="hymns-section">
-        <h2>Psalterium — Tempus Quadragesimæ / Paschale</h2>
-        <div v-for="day in quadragesimaePaschale" :key="day.key" class="hymns-day">
-          <h3>{{ day.label }}</h3>
-          <div v-for="hour in day.hours" :key="hour.key" class="hymns-hour">
-            <h4>{{ hour.label }}</h4>
-            <details v-for="hymn in hour.hymns" :key="hymn.id" class="hymn-details">
-              <summary><span class="hymn-incipit">{{ hymn.incipit }}</span><small>{{ day.label }} · {{ hour.label }}</small></summary>
-              <p class="hymn-text">{{ hymn.full_text }}</p>
-            </details>
+        <section class="hymns-section">
+          <h2>Psalterium — Tempus Quadragesimæ / Paschale</h2>
+          <div v-for="day in quadragesimaePaschale" :key="day.key" class="hymns-day">
+            <h3>{{ day.label }}</h3>
+            <div v-for="hour in day.hours" :key="hour.key" class="hymns-hour">
+              <h4>{{ hour.label }}</h4>
+              <details v-for="hymn in hour.hymns" :key="hymn.id" class="hymn-details">
+                <summary><span class="hymn-incipit">{{ hymn.incipit }}</span><small>{{ day.label }} · {{ hour.label }}</small></summary>
+                <p class="hymn-text">{{ hymn.full_text }}</p>
+              </details>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="hymns-section">
-        <h2>Proprium de Sanctis</h2>
-        <details v-for="hymn in proprium" :key="hymn.id" class="hymn-details">
-          <summary><span class="hymn-incipit">{{ hymn.incipit }}</span><small>{{ propriumDate(hymn) }}</small></summary>
-          <p class="hymn-text">{{ hymn.full_text }}</p>
-        </details>
-      </section>
-
-      <section class="hymns-section">
-        <h2>Commune</h2>
-        <div v-for="group in commune" :key="group.category" class="hymns-commune">
-          <h3>{{ group.category }}</h3>
-          <details v-for="hymn in group.hymns" :key="hymn.id" class="hymn-details">
-            <summary><span class="hymn-incipit">{{ hymn.incipit }}</span><small>{{ usageLabel(hymn, group.category) }}</small></summary>
+        <section class="hymns-section">
+          <h2>Proprium de Sanctis</h2>
+          <details v-for="hymn in proprium" :key="hymn.id" class="hymn-details">
+            <summary><span class="hymn-incipit">{{ hymn.incipit }}</span><small>{{ propriumDate(hymn) }}</small></summary>
             <p class="hymn-text">{{ hymn.full_text }}</p>
           </details>
-        </div>
-      </section>
-    </template>
+        </section>
 
-    <footer class="hymns-footer"><a href="/hymns/hodie">→ 查看今日赞美诗</a></footer>
-  </main>
+        <section class="hymns-section">
+          <h2>Commune</h2>
+          <div v-for="group in commune" :key="group.category" class="hymns-commune">
+            <h3>{{ group.category }}</h3>
+            <details v-for="hymn in group.hymns" :key="hymn.id" class="hymn-details">
+              <summary><span class="hymn-incipit">{{ hymn.incipit }}</span><small>{{ usageLabel(hymn, group.category) }}</small></summary>
+              <p class="hymn-text">{{ hymn.full_text }}</p>
+            </details>
+          </div>
+        </section>
+      </template>
+
+      <footer class="hymns-footer"><a href="/hymns/hodie">→ 查看今日赞美诗</a></footer>
+    </ClientOnly>
+    </article>
+  </ValaxyMain>
 </template>
 
 <style scoped>
-.hymns-page { width: min(100%, 62rem); margin: 0 auto; padding: 1rem clamp(.75rem, 3vw, 2rem) 3rem; color: var(--va-c-text); font-family: var(--va-font-sans, system-ui, sans-serif); }
-.hymns-header { margin-bottom: 2rem; text-align: center; }
-.hymns-header h1 { margin: 0; font-family: Georgia, 'Noto Serif', serif; font-size: clamp(1.8rem, 5vw, 2.7rem); letter-spacing: 0; }
-.hymns-header p { margin: .4rem 0 1rem; color: var(--va-c-text-light); }
-.hymns-search { display: inline-grid; gap: .35rem; text-align: left; font-size: .85rem; }
-.hymns-search input { width: min(24rem, 80vw); min-height: 2.5rem; padding: .45rem .65rem; border: 1px solid var(--va-c-divider); border-radius: 4px; background: var(--va-c-bg); color: var(--va-c-text); }
-.hymns-status { margin: 2rem 0; text-align: center; color: var(--va-c-text-light); }
-.hymns-section { margin: 2.5rem 0; }
-.hymns-section h2 { padding-bottom: .45rem; border-bottom: 1px solid var(--va-c-divider); font-family: Georgia, 'Noto Serif', serif; font-size: clamp(1.3rem, 3vw, 1.65rem); letter-spacing: 0; }
-.hymns-day, .hymns-commune { margin: 1.5rem 0; }
-.hymns-day h3, .hymns-commune h3 { margin: 0 0 .7rem; font-family: Georgia, 'Noto Serif', serif; font-size: 1.2rem; }
-.hymns-hour { margin: 1rem 0 1.25rem; }
-.hymns-hour h4 { margin: 0 0 .5rem; color: var(--va-c-text-light); font-size: .95rem; }
-.hymn-details { margin: .55rem 0; border: 1px solid var(--va-c-divider); border-radius: 4px; background: var(--va-c-bg-opacity, var(--va-c-bg)); }
-.hymn-details summary { display: grid; gap: .25rem; padding: .75rem .85rem; cursor: pointer; }
-.hymn-incipit { font-family: Georgia, 'Noto Serif', serif; font-size: 1.15rem; }
-.hymn-details small { color: var(--va-c-text-light); font-family: var(--va-font-sans, system-ui, sans-serif); }
-.hymn-text { margin: 0; padding: 0 .85rem .9rem; font-family: Georgia, 'Noto Serif', serif; line-height: 1.65; white-space: pre-wrap; }
-.hymns-footer { margin-top: 3rem; text-align: center; }
-.hymns-footer a { color: var(--va-c-primary); }
-@media (max-width: 600px) { .hymns-page { padding-inline: .75rem; } .hymns-section { margin-block: 2rem; } }
+.hymns-header h1 {
+  margin: 0;
+  color: var(--va-c-primary);
+  font-size: 2.4rem;
+  line-height: 1.2;
+}
+
+.hymns-header p,
+.hymns-status,
+.hymn-details small {
+  color: var(--va-c-text-light);
+  font-family: var(--va-font-sans);
+}
+
+.hymns-header p {
+  margin: .45rem 0 0;
+}
+
+.hymns-search {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  align-items: center;
+  margin: 0 0 2rem;
+  color: var(--va-c-text-light);
+  font-family: var(--va-font-sans);
+}
+
+.hymns-search input {
+  flex: 1 1 16rem;
+  padding: .35rem .55rem;
+  border: 1px solid var(--va-c-divider);
+  border-radius: 6px;
+  color: var(--va-c-text);
+  background: var(--va-c-bg);
+  font: inherit;
+}
+
+.hymns-status {
+  margin: 2rem 0;
+}
+
+.hymns-section {
+  margin: 2.5rem 0;
+}
+
+.hymns-section h2 {
+  padding-bottom: .45rem;
+  border-bottom: 1px solid var(--va-c-divider);
+}
+
+.hymns-day,
+.hymns-commune {
+  margin: 1.5rem 0;
+}
+
+.hymns-hour {
+  margin: 1rem 0 1.25rem;
+}
+
+.hymns-hour h4 {
+  margin-bottom: .5rem;
+  color: var(--va-c-text-light);
+  font-family: var(--va-font-sans);
+}
+
+.hymn-details {
+  margin: .55rem 0;
+  border: 1px solid var(--va-c-divider);
+  border-radius: 6px;
+}
+
+.hymn-details summary {
+  display: grid;
+  gap: .25rem;
+  padding: .75rem .85rem;
+  cursor: pointer;
+}
+
+.hymn-incipit {
+  font-size: 1.15rem;
+}
+
+.hymn-text {
+  margin: 0;
+  padding: 0 .85rem .9rem;
+  line-height: 1.65;
+  white-space: pre-wrap;
+}
+
+.hymns-footer {
+  margin-top: 3rem;
+  font-family: var(--va-font-sans);
+}
+
+.hymns-footer a {
+  color: var(--va-c-primary);
+}
+
+@media (max-width: 640px) {
+  .hymns-header h1 {
+    font-size: 2rem;
+  }
+}
 </style>
