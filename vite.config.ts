@@ -25,6 +25,10 @@ function isClientDateRoute(route: string) {
   return [
     '/martyrology',
     '/martyrology/',
+    '/hymns',
+    '/hymns/',
+    '/hymns/hodie',
+    '/hymns/hodie/',
     '/officium-1962',
     '/officium-1962/',
     '/posts/saturday-memorial-of-our-lady-office',
