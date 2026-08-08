@@ -178,8 +178,12 @@ onMounted(async () => {
 </script>
 
 <template>
-  <main class="hodie-page">
-    <ClientOnly>
+  <ClientOnly>
+    <template #fallback>
+      <div style="text-align:center;padding:4rem">加载中...</div>
+    </template>
+
+    <main class="hodie-page">
       <header class="hodie-header">
         <h1>今日赞美诗</h1>
         <label class="hodie-date">
@@ -212,8 +216,8 @@ onMounted(async () => {
         <p>仅显示时间季节（Temporale）赞美诗。圣人纪念日及庆节的专用赞美诗请参阅汇总页。</p>
         <a href="/hymns/">→ 赞美诗全集</a>
       </footer>
-    </ClientOnly>
-  </main>
+    </main>
+  </ClientOnly>
 </template>
 
 <style scoped>

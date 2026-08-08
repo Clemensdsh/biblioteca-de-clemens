@@ -131,16 +131,20 @@ onMounted(async () => {
 </script>
 
 <template>
-  <ValaxyMain :frontmatter="frontmatter">
-    <template #main-header>
-      <header class="hymns-header">
-        <h1>Hymni Liturgiæ Horarum</h1>
-        <p>日课赞美诗集</p>
-      </header>
+  <ClientOnly>
+    <template #fallback>
+      <div style="text-align:center;padding:4rem">加载中...</div>
     </template>
 
-    <article class="hymns-article">
-    <ClientOnly>
+    <ValaxyMain :frontmatter="frontmatter">
+      <template #main-header>
+        <header class="hymns-header">
+          <h1>Hymni Liturgiæ Horarum</h1>
+          <p>日课赞美诗集</p>
+        </header>
+      </template>
+
+      <article class="hymns-article">
       <label class="hymns-search">
         <span>搜索 incipit</span>
         <input v-model="search" type="search" placeholder="输入赞美诗开头" autocomplete="off">
@@ -213,9 +217,9 @@ onMounted(async () => {
       </template>
 
       <footer class="hymns-footer"><a href="/hymns/hodie">→ 查看今日赞美诗</a></footer>
-    </ClientOnly>
-    </article>
-  </ValaxyMain>
+      </article>
+    </ValaxyMain>
+  </ClientOnly>
 </template>
 
 <style scoped>
