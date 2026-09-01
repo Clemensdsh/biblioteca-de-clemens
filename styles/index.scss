@@ -292,3 +292,20 @@ body:has(.saturday-mary-page-marker) {
 
   @include collapsible-page-toc;
 }
+
+body:has(.aas-1960-rubricae-page-marker) {
+  @include collapsible-page-toc;
+
+  .markdown-body table {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .markdown-body th,
+  .markdown-body td {
+    vertical-align: top;
+  }
+}
