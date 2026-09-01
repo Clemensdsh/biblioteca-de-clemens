@@ -10,6 +10,9 @@ tags:
   - "罗马弥撒经书"
   - "罗马日历"
 description: "《宗座公报》第五十二卷（一九六〇年）第五九三至七〇五页相关礼规与日历中文译本。"
+outline:
+  - 2
+  - 3
 ---
 
 <div class="aas-1960-rubricae-page-marker" aria-hidden="true"></div>

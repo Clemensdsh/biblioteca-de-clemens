@@ -11,17 +11,17 @@ function stripPrerenderedApp(html: string) {
 export default {
   ssgOptions: {
     onPageRendered(route: string, html: string) {
-      // These pages depend on client-side local dates/times and fallback calendar
-      // loading. Shipping prerendered markup has caused hard-refresh hydration
-      // mismatches, so keep them as SPA shells while the rest of the site remains SSG.
-      return isClientDateRoute(route)
+      // These routes either depend on client-only state or are large enough to
+      // trigger hydration mismatches. Keep them as SPA shells while the rest of
+      // the site remains SSG.
+      return isClientOnlyRoute(route)
         ? stripPrerenderedApp(html)
         : html
     },
   },
 }
 
-function isClientDateRoute(route: string) {
+function isClientOnlyRoute(route: string) {
   return [
     '/martyrology',
     '/martyrology/',
@@ -29,5 +29,7 @@ function isClientDateRoute(route: string) {
     '/officium-1962/',
     '/posts/saturday-memorial-of-our-lady-office',
     '/posts/saturday-memorial-of-our-lady-office/',
+    '/posts/aas-1960-rubricae-et-calendarium-zh',
+    '/posts/aas-1960-rubricae-et-calendarium-zh/',
   ].includes(route)
 }
