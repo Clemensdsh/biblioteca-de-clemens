@@ -296,6 +296,27 @@ body:has(.saturday-mary-page-marker) {
 body:has(.aas-1960-rubricae-page-marker) {
   @include collapsible-page-toc;
 
+  .markdown-body .latin-document-title {
+    margin-top: -0.25rem;
+    margin-bottom: 1.5rem;
+    color: var(--va-c-text) !important;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.45;
+  }
+
+  .markdown-body .rubricae-subdivision-title {
+    margin-top: 1.35rem;
+    margin-bottom: 0.65rem;
+    color: var(--va-c-text) !important;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.45;
+  }
+
   .markdown-body table {
     display: block;
     width: 100%;
