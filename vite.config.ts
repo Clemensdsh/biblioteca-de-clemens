@@ -31,5 +31,7 @@ function isClientOnlyRoute(route: string) {
     '/posts/saturday-memorial-of-our-lady-office/',
     '/posts/aas-1960-rubricae-et-calendarium-zh',
     '/posts/aas-1960-rubricae-et-calendarium-zh/',
+    '/posts/aas-1960-rubricae-et-calendarium-latin',
+    '/posts/aas-1960-rubricae-et-calendarium-latin/',
   ].includes(route)
 }

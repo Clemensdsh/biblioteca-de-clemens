@@ -293,8 +293,33 @@ body:has(.saturday-mary-page-marker) {
   @include collapsible-page-toc;
 }
 
-body:has(.aas-1960-rubricae-page-marker) {
+body:has(.aas-1960-rubricae-page-marker),
+body:has(.aas-1960-rubricae-latin-page-marker) {
   @include collapsible-page-toc;
+
+  .markdown-body .aas-page-marker {
+    display: inline-block;
+    margin: 1.1rem 0 0.35rem;
+    color: var(--va-c-text-light);
+    font-family: var(--va-font-mono, Consolas, monospace);
+    font-size: 0.82rem;
+    letter-spacing: 0;
+  }
+
+  .markdown-body .aas-publication-meta,
+  .markdown-body .aas-publication-title {
+    margin: 0.2rem 0;
+    color: var(--va-c-text-light);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 0.95rem;
+    letter-spacing: 0;
+    line-height: 1.45;
+  }
+
+  .markdown-body .aas-publication-title {
+    color: var(--va-c-text);
+    font-weight: 700;
+  }
 
   .markdown-body .latin-document-title {
     margin-top: -0.25rem;
@@ -315,6 +340,21 @@ body:has(.aas-1960-rubricae-page-marker) {
     font-weight: 700;
     letter-spacing: 0;
     line-height: 1.45;
+  }
+
+  .markdown-body .rubricae-table-title,
+  .markdown-body .rubricae-table-subtitle {
+    margin: 1rem 0 0.25rem;
+    color: var(--va-c-text) !important;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.45;
+  }
+
+  .markdown-body .rubricae-table-subtitle {
+    margin-top: 0.15rem;
+    font-size: 0.95rem;
   }
 
   .markdown-body table {
