@@ -1,9 +1,6 @@
 ---
 title: "已亡日课"
 date: 2025-10-25 00:12:46
-cover: /images/background.jpg
-coverWidth: 1024
-coverHeight: 300
 categories:
   - "文献"
   - "大日课"
