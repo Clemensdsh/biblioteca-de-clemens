@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-02",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "hour": "nona",
+  "language": "la",
+  "liturgicalTitle": "In Commemoratione Omnium Fidelium Defunctorum ~ I. classis",
+  "rank": "In Commemoratione Omnium Fidelium Defunctorum;;I. classis;;6;;ex C9\n\n",
+  "schemaVersion": "0.1.0",
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "units": [
+    {
+      "html": "Psalmus 101(1-13) [1]<br/>\n101:2 Dómine, exáudi oratiónem meam: * et clamor meus ad te véniat.<br/>\n101:3 Non avértas fáciem tuam a me: * in quacúmque die tríbulor, inclína ad me aurem tuam.<br/>\n101:3 In quacúmque die invocávero te, * velóciter exáudi me.<br/>\n101:4 Quia defecérunt sicut fumus dies mei: * et ossa mea sicut crémium aruérunt.<br/>\n101:5 Percússus sum ut fænum, et áruit cor meum: * quia oblítus sum comédere panem meum.<br/>\n101:6 A voce gémitus mei * adhǽsit os meum carni meæ.<br/>\n101:7 Símilis factus sum pellicáno solitúdinis: * factus sum sicut nyctícorax in domicílio.<br/>\n101:8 Vigilávi, * et factus sum sicut passer solitárius in tecto.<br/>\n101:9 Tota die exprobrábant mihi inimíci mei: * et qui laudábant me, advérsum me jurábant.<br/>\n101:10 Quia cínerem tamquam panem manducábam, * et potum meum cum fletu miscébam.<br/>\n101:11 A fácie iræ et indignatiónis tuæ: * quia élevans allisísti me.<br/>\n101:12 Dies mei sicut umbra declinavérunt: * et ego sicut fænum árui.<br/>\n101:13 Tu autem, Dómine, in ætérnum pérmanes: * et memoriále tuum in generatiónem et generatiónem.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\n",
+      "id": "do-1962-2026-11-02-nona-001",
+      "raw": "&psalm(101,1,13)\n"
+    },
+    {
+      "html": "Psalmus 101(14-23) [2]<br/>\n101:14 Tu exsúrgens miseréberis Sion: * quia tempus miseréndi ejus, quia venit tempus.<br/>\n101:15 Quóniam placuérunt servis tuis lápides ejus: * et terræ ejus miserebúntur.<br/>\n101:16 Et timébunt gentes nomen tuum, Dómine, * et omnes reges terræ glóriam tuam.<br/>\n101:17 Quia ædificávit Dóminus Sion: * et vidébitur in glória sua.<br/>\n101:18 Respéxit in oratiónem humílium: * et non sprevit precem eórum.<br/>\n101:19 Scribántur hæc in generatióne áltera: * et pópulus, qui creábitur, laudábit Dóminum:<br/>\n101:20 Quia prospéxit de excélso sancto suo: * Dóminus de cælo in terram aspéxit:<br/>\n101:21 Ut audíret gémitus compeditórum: * ut sólveret fílios interemptórum:<br/>\n101:22 Ut annúntient in Sion nomen Dómini: * et laudem ejus in Jerúsalem.<br/>\n101:23 In conveniéndo pópulos in unum, * et reges ut sérviant Dómino.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\n",
+      "id": "do-1962-2026-11-02-nona-002",
+      "raw": "&psalm(101,14,23)\n"
+    },
+    {
+      "html": "Psalmus 101(24-29) [3]<br/>\n101:24 Respóndit ei in via virtútis suæ: * Paucitátem diérum meórum núntia mihi.<br/>\n101:25 Ne révoces me in dimídio diérum meórum: * in generatiónem et generatiónem anni tui.<br/>\n101:26 Inítio tu, Dómine, terram fundásti: * et ópera mánuum tuárum sunt cæli.<br/>\n101:27 Ipsi períbunt, tu autem pérmanes: * et omnes sicut vestiméntum veteráscent.<br/>\n101:28 Et sicut opertórium mutábis eos, et mutabúntur: * tu autem idem ipse es, et anni tui non defícient.<br/>\n101:29 Fílii servórum tuórum habitábunt: * et semen eórum in sǽculum dirigétur.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\n",
+      "id": "do-1962-2026-11-02-nona-003",
+      "raw": "&psalm(101,24,29)\n"
+    },
+    {
+      "html": "Oratio\n<br/>\nPater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris:<br/>\n℣. Et ne nos indúcas in tentatiónem:<br/>\n℟. Sed líbera nos a malo.<br/>\n℣. A porta ínferi.<br/>\n℟. Erue, Dómine, ánimas eórum.<br/>\n℣. Requiéscant in pace.<br/>\n℟. Amen.<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\nsecunda <span class='nigra'>Domine, exaudi</span> omittitur<br/>\nOrémus.<br/>\nFidélium, Deus, ómnium Cónditor et Redémptor, animábus famulórum famularúmque tuárum remissiónem cunctórum tríbue peccatórum: ut indulgéntiam, quam semper optavérunt, piis supplicatiónibus consequántur:<br/>\nQui vivis et regnas cum Deo Patre, in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-11-02-nona-004",
+      "raw": "&special('Oratio mortuorum', 'Latin')\n"
+    },
+    {
+      "html": "Conclusio specialis<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\n℣. Requiéscant in pace.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-11-02-nona-005",
+      "raw": "&special('Conclusio', 'Latin')\n"
+    }
+  ],
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "warnings": []
+}

@@ -1,0 +1,42 @@
+{
+  "excludedDirectories": [
+    "web/www/horas/Espanol/",
+    "web/www/horas/Spanish/",
+    "web/www/horas/Latin/Martyrologium1960/",
+    "web/www/missa/",
+    "web/cgi-bin/missa/",
+    "features/prima1962/",
+    "public/data/prima1962/"
+  ],
+  "generatedAt": "2026-07-21T04:53:24.997Z",
+  "generatedYears": [
+    2026
+  ],
+  "generatorVersion": "phase6-year-builder-v1",
+  "includedDirectories": [
+    "web/cgi-bin/horas/",
+    "web/cgi-bin/DivinumOfficium/",
+    "web/www/horas/Latin/",
+    "web/www/horas/Ordinarium/",
+    "web/www/Tabulae/"
+  ],
+  "includedHours": [
+    "matutinum",
+    "laudes",
+    "prima",
+    "tertia",
+    "sexta",
+    "nona",
+    "vesperae",
+    "completorium"
+  ],
+  "language": "Latin",
+  "notes": [
+    "Annual raw Divinum Officium exports are not part of the public release data.",
+    "The isolated playground loads release JSON through fetch and does not import annual data into JavaScript."
+  ],
+  "schemaVersion": "officium1962.v1",
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "upstreamRepository": "https://github.com/DivinumOfficium/divinum-officium",
+  "version": "Rubrics 1960 - 1960"
+}

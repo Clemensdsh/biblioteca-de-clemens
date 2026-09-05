@@ -1,0 +1,848 @@
+{
+  "schemaVersion": "0.2.0",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "language": "la",
+  "date": "2026-07-20",
+  "liturgicalTitle": "S. Hieronymi Æmiliani Confessoris ~ III. classis",
+  "rank": "S. Hieronymi Æmiliani Confessoris;;Duplex;;3;;vide C5\n\n",
+  "commemorations": [],
+  "hours": {
+    "prima": {
+      "name": "prima",
+      "title": "Prima",
+      "blocks": [
+        {
+          "id": "office-1962-2026-07-20-prima-incipit",
+          "type": "dialogue",
+          "title": "Incipit",
+          "text": [
+            "℣. Deus ✠ in adjutórium meum inténde.",
+            "℟. Dómine, ad adjuvándum me festína.",
+            "Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.",
+            "Allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "includesGloriaPatri": true,
+            "includesAlleluia": true
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Incipit",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Deus in adjutorium",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-prima-hymnus",
+          "type": "hymn",
+          "title": "Hymnus",
+          "text": [
+            "Jam lucis orto sídere,",
+            "Deum precémur súpplices,",
+            "Ut in diúrnis áctibus",
+            "Nos servet a nocéntibus.",
+            "_",
+            "Linguam refrénans témperet,",
+            "Ne litis horror ínsonet:",
+            "Visum fovéndo cóntegat,",
+            "Ne vanitátes háuriat.",
+            "_",
+            "Sint pura cordis íntima,",
+            "Absístat et vecórdia;",
+            "Carnis terat supérbiam",
+            "Potus cibíque párcitas.",
+            "_",
+            "Ut, cum dies abscésserit,",
+            "Noctémque sors redúxerit,",
+            "Mundi per abstinéntiam",
+            "Ipsi canámus glóriam.",
+            "_",
+            "Deo Patri sit glória,",
+            "Ejúsque soli Fílio,",
+            "Cum Spíritu Paráclito,",
+            "Nunc et per omne sǽculum.",
+            "Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "stanzas": [
+              [
+                "Hymnus",
+                "Jam lucis orto sídere,",
+                "Deum precémur súpplices,",
+                "Ut in diúrnis áctibus",
+                "Nos servet a nocéntibus."
+              ],
+              [
+                "Linguam refrénans témperet,",
+                "Ne litis horror ínsonet:",
+                "Visum fovéndo cóntegat,",
+                "Ne vanitátes háuriat."
+              ],
+              [
+                "Sint pura cordis íntima,",
+                "Absístat et vecórdia;",
+                "Carnis terat supérbiam",
+                "Potus cibíque párcitas."
+              ],
+              [
+                "Ut, cum dies abscésserit,",
+                "Noctémque sors redúxerit,",
+                "Mundi per abstinéntiam",
+                "Ipsi canámus glóriam."
+              ],
+              [
+                "Deo Patri sit glória,",
+                "Ejúsque soli Fílio,",
+                "Cum Spíritu Paráclito,",
+                "Nunc et per omne sǽculum.",
+                "Amen."
+              ]
+            ]
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Hymnus",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Prima Special.txt",
+              "section": "Hymnus",
+              "transformation": [
+                "specials",
+                "prima special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-prima-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona",
+          "text": [
+            "Ant. Ínnocens mánibus * et mundo corde ascéndet in montem Dómini."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "before-psalmody",
+            "repeated": false,
+            "antiphonKey": "innocens-manibus-et-mundo-corde-ascendet-in-montem-domini"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Prima Special.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "specials",
+                "prima special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-prima-psalm-23-full-1",
+          "type": "psalm",
+          "title": "Psalmus 23 [1]",
+          "text": [
+            "23:1 Dómini est terra, et plenitúdo ejus: * orbis terrárum, et univérsi qui hábitant in eo.",
+            "23:2 Quia ipse super mária fundávit eum: * et super flúmina præparávit eum.",
+            "23:3 Quis ascéndet in montem Dómini? * aut quis stabit in loco sancto ejus?",
+            "23:4 Ínnocens mánibus et mundo corde, * qui non accépit in vano ánimam suam, nec jurávit in dolo próximo suo.",
+            "23:5 Hic accípiet benedictiónem a Dómino: * et misericórdiam a Deo, salutári suo.",
+            "23:6 Hæc est generátio quæréntium eum, * quæréntium fáciem Dei Jacob.",
+            "23:7 Attóllite portas, príncipes, vestras, et elevámini, portæ æternáles: * et introíbit Rex glóriæ.",
+            "23:8 Quis est iste Rex glóriæ? * Dóminus fortis et potens: Dóminus potens in prǽlio.",
+            "23:9 Attóllite portas, príncipes, vestras, et elevámini, portæ æternáles: * et introíbit Rex glóriæ.",
+            "23:10 Quis est iste Rex glóriæ? * Dóminus virtútum ipse est Rex glóriæ.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "23:1 Dómini est terra, et plenitúdo ejus: * orbis terrárum, et univérsi qui hábitant in eo.",
+            "23:2 Quia ipse super mária fundávit eum: * et super flúmina præparávit eum.",
+            "23:3 Quis ascéndet in montem Dómini? * aut quis stabit in loco sancto ejus?",
+            "23:4 Ínnocens mánibus et mundo corde, * qui non accépit in vano ánimam suam, nec jurávit in dolo próximo suo.",
+            "23:5 Hic accípiet benedictiónem a Dómino: * et misericórdiam a Deo, salutári suo.",
+            "23:6 Hæc est generátio quæréntium eum, * quæréntium fáciem Dei Jacob.",
+            "23:7 Attóllite portas, príncipes, vestras, et elevámini, portæ æternáles: * et introíbit Rex glóriæ.",
+            "23:8 Quis est iste Rex glóriæ? * Dóminus fortis et potens: Dóminus potens in prǽlio.",
+            "23:9 Attóllite portas, príncipes, vestras, et elevámini, portæ æternáles: * et introíbit Rex glóriæ.",
+            "23:10 Quis est iste Rex glóriæ? * Dóminus virtútum ipse est Rex glóriæ."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "23",
+            "verses": [
+              "23:1 Dómini est terra, et plenitúdo ejus: * orbis terrárum, et univérsi qui hábitant in eo.",
+              "23:2 Quia ipse super mária fundávit eum: * et super flúmina præparávit eum.",
+              "23:3 Quis ascéndet in montem Dómini? * aut quis stabit in loco sancto ejus?",
+              "23:4 Ínnocens mánibus et mundo corde, * qui non accépit in vano ánimam suam, nec jurávit in dolo próximo suo.",
+              "23:5 Hic accípiet benedictiónem a Dómino: * et misericórdiam a Deo, salutári suo.",
+              "23:6 Hæc est generátio quæréntium eum, * quæréntium fáciem Dei Jacob.",
+              "23:7 Attóllite portas, príncipes, vestras, et elevámini, portæ æternáles: * et introíbit Rex glóriæ.",
+              "23:8 Quis est iste Rex glóriæ? * Dóminus fortis et potens: Dóminus potens in prǽlio.",
+              "23:9 Attóllite portas, príncipes, vestras, et elevámini, portæ æternáles: * et introíbit Rex glóriæ.",
+              "23:10 Quis est iste Rex glóriæ? * Dóminus virtútum ipse est Rex glóriæ."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false,
+            "antiphonKey": "innocens-manibus-et-mundo-corde-ascendet-in-montem-domini"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Psalmus 23 [1]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm23.txt",
+              "section": "Psalm 23",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-prima-psalm-18-2-7b-2",
+          "type": "psalm",
+          "title": "Psalmus 18(2-7b) [2]",
+          "text": [
+            "18:2 Cæli enárrant glóriam Dei: * et ópera mánuum ejus annúntiat firmaméntum.",
+            "18:3 Dies diéi erúctat verbum, * et nox nocti índicat sciéntiam.",
+            "18:4 Non sunt loquélæ, neque sermónes, * quorum non audiántur voces eórum.",
+            "18:5 In omnem terram exívit sonus eórum: * et in fines orbis terræ verba eórum.",
+            "18:6a In sole pósuit tabernáculum suum: * et ipse tamquam sponsus procédens de thálamo suo:",
+            "18:6b Exsultávit ut gigas ad curréndam viam, * (7a) a summo cælo egréssio ejus:",
+            "18:7b Et occúrsus ejus usque ad summum ejus: * nec est qui se abscóndat a calóre ejus.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "18:2 Cæli enárrant glóriam Dei: * et ópera mánuum ejus annúntiat firmaméntum.",
+            "18:3 Dies diéi erúctat verbum, * et nox nocti índicat sciéntiam.",
+            "18:4 Non sunt loquélæ, neque sermónes, * quorum non audiántur voces eórum.",
+            "18:5 In omnem terram exívit sonus eórum: * et in fines orbis terræ verba eórum.",
+            "18:6a In sole pósuit tabernáculum suum: * et ipse tamquam sponsus procédens de thálamo suo:",
+            "18:6b Exsultávit ut gigas ad curréndam viam, * (7a) a summo cælo egréssio ejus:",
+            "18:7b Et occúrsus ejus usque ad summum ejus: * nec est qui se abscóndat a calóre ejus."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "18",
+            "segment": "2-7b",
+            "verses": [
+              "18:2 Cæli enárrant glóriam Dei: * et ópera mánuum ejus annúntiat firmaméntum.",
+              "18:3 Dies diéi erúctat verbum, * et nox nocti índicat sciéntiam.",
+              "18:4 Non sunt loquélæ, neque sermónes, * quorum non audiántur voces eórum.",
+              "18:5 In omnem terram exívit sonus eórum: * et in fines orbis terræ verba eórum.",
+              "18:6a In sole pósuit tabernáculum suum: * et ipse tamquam sponsus procédens de thálamo suo:",
+              "18:6b Exsultávit ut gigas ad curréndam viam, * (7a) a summo cælo egréssio ejus:",
+              "18:7b Et occúrsus ejus usque ad summum ejus: * nec est qui se abscóndat a calóre ejus."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Psalmus 18(2-7b) [2]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm18.txt",
+              "section": "Psalm 18",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-prima-psalm-18-8-15b-3",
+          "type": "psalm",
+          "title": "Psalmus 18(8-15b) [3]",
+          "text": [
+            "18:8 Lex Dómini immaculáta, convértens ánimas: * testimónium Dómini fidéle, sapiéntiam præstans párvulis.",
+            "18:9 Justítiæ Dómini rectæ, lætificántes corda: * præcéptum Dómini lúcidum, illúminans óculos.",
+            "18:10 Timor Dómini sanctus, pérmanens in sǽculum sǽculi: * judícia Dómini vera, justificáta in semetípsa.",
+            "18:11 Desiderabília super aurum et lápidem pretiósum multum: * et dulcióra super mel et favum.",
+            "18:12 Étenim servus tuus custódit ea, * in custodiéndis illis retribútio multa.",
+            "18:13 Delícta quis intéllegit? † ab occúltis meis munda me: * (14a) et ab aliénis parce servo tuo.",
+            "18:14b Si mei non fúerint domináti, tunc immaculátus ero: * et emundábor a delícto máximo.",
+            "18:15a Et erunt ut compláceant elóquia oris mei: * et meditátio cordis mei in conspéctu tuo semper.",
+            "18:15b Dómine, adjútor meus, * et redémptor meus.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "18:8 Lex Dómini immaculáta, convértens ánimas: * testimónium Dómini fidéle, sapiéntiam præstans párvulis.",
+            "18:9 Justítiæ Dómini rectæ, lætificántes corda: * præcéptum Dómini lúcidum, illúminans óculos.",
+            "18:10 Timor Dómini sanctus, pérmanens in sǽculum sǽculi: * judícia Dómini vera, justificáta in semetípsa.",
+            "18:11 Desiderabília super aurum et lápidem pretiósum multum: * et dulcióra super mel et favum.",
+            "18:12 Étenim servus tuus custódit ea, * in custodiéndis illis retribútio multa.",
+            "18:13 Delícta quis intéllegit? † ab occúltis meis munda me: * (14a) et ab aliénis parce servo tuo.",
+            "18:14b Si mei non fúerint domináti, tunc immaculátus ero: * et emundábor a delícto máximo.",
+            "18:15a Et erunt ut compláceant elóquia oris mei: * et meditátio cordis mei in conspéctu tuo semper.",
+            "18:15b Dómine, adjútor meus, * et redémptor meus."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "18",
+            "segment": "8-15b",
+            "verses": [
+              "18:8 Lex Dómini immaculáta, convértens ánimas: * testimónium Dómini fidéle, sapiéntiam præstans párvulis.",
+              "18:9 Justítiæ Dómini rectæ, lætificántes corda: * præcéptum Dómini lúcidum, illúminans óculos.",
+              "18:10 Timor Dómini sanctus, pérmanens in sǽculum sǽculi: * judícia Dómini vera, justificáta in semetípsa.",
+              "18:11 Desiderabília super aurum et lápidem pretiósum multum: * et dulcióra super mel et favum.",
+              "18:12 Étenim servus tuus custódit ea, * in custodiéndis illis retribútio multa.",
+              "18:13 Delícta quis intéllegit? † ab occúltis meis munda me: * (14a) et ab aliénis parce servo tuo.",
+              "18:14b Si mei non fúerint domináti, tunc immaculátus ero: * et emundábor a delícto máximo.",
+              "18:15a Et erunt ut compláceant elóquia oris mei: * et meditátio cordis mei in conspéctu tuo semper.",
+              "18:15b Dómine, adjútor meus, * et redémptor meus."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Psalmus 18(8-15b) [3]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm18.txt",
+              "section": "Psalm 18",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-prima-psalm-18-8-15b-3-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita",
+          "text": [
+            "Ant. Ínnocens mánibus et mundo corde ascéndet in montem Dómini."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "after-psalmody",
+            "repeated": true,
+            "antiphonKey": "innocens-manibus-et-mundo-corde-ascendet-in-montem-domini"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Prima Special.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "specials",
+                "prima special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-prima-capitulum",
+          "type": "capitulum",
+          "title": "Capitulum",
+          "text": [
+            "Capitulum Responsorium Versus {ex Psalterio secundum diem}",
+            "1 Tim. 1:17",
+            "Regi sæculórum immortáli et invisíbili, soli Deo honor et glória in sǽcula sæculórum. Amen.",
+            "℟. Deo grátias."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "includesTuAutem": false
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Capitulum",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Prima Special.txt",
+              "section": "Capitulum",
+              "transformation": [
+                "specials",
+                "prima special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-prima-responsorium-breve",
+          "type": "responsory",
+          "title": "Responsorium breve",
+          "text": [
+            "℟.br. Christe, Fili Dei vivi, * Miserére nobis.",
+            "℟. Christe, Fili Dei vivi, * Miserére nobis.",
+            "℣. Qui sedes ad déxteram Patris.",
+            "℟. Miserére nobis.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Christe, Fili Dei vivi, * Miserére nobis."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "incipit": "℟.br. Christe, Fili Dei vivi, * Miserére nobis.",
+            "repeat": "℟. Christe, Fili Dei vivi, * Miserére nobis.",
+            "versicle": "℣. Qui sedes ad déxteram Patris.",
+            "response": "℟. Christe, Fili Dei vivi, * Miserére nobis.",
+            "includesGloriaPatri": true,
+            "seasonalVariant": "ordinary"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Responsorium breve",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Prima Special.txt",
+              "section": "Responsorium breve",
+              "transformation": [
+                "specials",
+                "prima special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-prima-versus-custodi-nos",
+          "type": "versicle",
+          "title": "Versus",
+          "text": [
+            "℣. Exsúrge, Christe, ádjuva nos.",
+            "℟. Et líbera nos propter nomen tuum."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "versicle": "℣. Exsúrge, Christe, ádjuva nos.",
+            "response": "℟. Et líbera nos propter nomen tuum."
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Versus",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Prima Special.txt",
+              "section": "Versus",
+              "transformation": [
+                "specials",
+                "prima special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-prima-oratio",
+          "type": "prayer",
+          "title": "Oratio",
+          "text": [
+            "℣. Dómine, exáudi oratiónem meam.",
+            "℟. Et clamor meus ad te véniat.",
+            "Orémus.",
+            "Dómine Deus omnípotens, qui ad princípium hujus diéi nos perveníre fecísti: tua nos hódie salva virtúte; ut in hac die ad nullum declinémus peccátum, sed semper ad tuam justítiam faciéndam nostra procédant elóquia, dirigántur cogitatiónes et ópera.",
+            "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+            "℟. Amen.",
+            "℣. Dómine, exáudi oratiónem meam.",
+            "℟. Et clamor meus ad te véniat."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "prayerKey": "oratio_Domine"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Oratio",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Dominus_vobiscum",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-prima-benedicamus-domino",
+          "type": "dialogue",
+          "title": "Benedicamus Domino",
+          "text": [
+            "℣. Benedicámus Dómino.",
+            "℟. Deo grátias."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "formula": "benedicamus-domino",
+            "withinPrimaBeforeMartyrology": true
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Benedicamus Domino",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Dominus_vobiscum",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-prima-martyrologium-anticipatum",
+          "type": "martyrology",
+          "title": "Martyrologium{anticipatur}",
+          "text": [
+            "Martyrologium {anticipatur}",
+            "Duodécimo Kaléndas Augústi Luna sexta Anno Dómini 2026",
+            "_",
+            "Sancti Lauréntii a Brundúsio, Confessóris et Ecclésiæ Doctóris, ex Ordine Fratrum Minórum Capuccinórum, qui sequénti die migrávit in cælum.",
+            "Romæ sanctæ Praxédis Vírginis, quæ, in omni castitáte et lege divína cum esset erudíta, vigíliis et oratiónibus atque jejúniis assídue vacans, quiévit in Christo, sepúltaque est, juxta sorórem suam Pudentiánam, via Salária.",
+            "Babylóne sancti Daniélis Prophétæ.",
+            "Cománæ, in Arménia, sancti Zótici, Epíscopi et Mártyris; qui sub Sevéro coronátus est.",
+            "Massíliæ, in Gállia, natális sancti Victóris, qui, cum esset miles, et nec militáre neque idólis sacrificáre vellet, hinc, primo in cárcerem trusus ibíque ab Angelo visitátus, deínde váriis cruciátibus punítus, novíssime, contrítus in mola pistória, martýrium consummávit. Passi sunt cum ipso et tres mílites, id est Alexánder, Feliciánus et Longínus.",
+            "Trecis, in Gállia, pássio sanctórum Cláudii, Justi, Jucundíni et Sociórum quinque, sub Aureliáno Imperatóre.",
+            "Ibídem sanctæ Júliæ, Vírginis et Mártyris.",
+            "Argentoráti sancti Arbogásti Epíscopi, miráculis clari.",
+            "In Sýria sancti Joánnis Mónachi, qui éxstitit colléga sancti Simeónis.",
+            "℣. Et álibi aliórum plurimórum sanctórum Mártyrum et Confessórum, atque sanctárum Vírginum.",
+            "℟. Deo grátias."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "anticipated": true,
+            "sourceKind": "divinum-officium-latin-martyrologium",
+            "isolatedFromExistingMartyrologyPage": true
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Martyrologium{anticipatur}",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Martyrologium",
+              "section": "anticipated day from Divinum Officium Latin Martyrologium",
+              "transformation": [
+                "specials",
+                "martyrologium anticipatum"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-prima-pretiosa",
+          "type": "pretiosa",
+          "title": "Pretiosa",
+          "text": [
+            "℣. Pretiósa in conspéctu Dómini.",
+            "℟. Mors Sanctórum ejus.",
+            "Sancta María et omnes Sancti intercédant pro nobis ad Dóminum, ut nos mereámur ab eo adjuvári et salvári, qui vivit et regnat in sǽcula sæculórum.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "formula": "pretiosa"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Pretiosa",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-prima-officium-capituli",
+          "type": "chapter-office",
+          "title": "De Officio Capituli",
+          "text": [
+            "℣. Deus in adjutórium meum inténde.",
+            "℟. Dómine, ad adjuvándum me festína.",
+            "℣. Deus in adjutórium meum inténde.",
+            "℟. Dómine, ad adjuvándum me festína.",
+            "℣. Deus in adjutórium meum inténde.",
+            "℟. Dómine, ad adjuvándum me festína.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.",
+            "Kýrie, eléison. Christe, eléison. Kýrie, eléison.",
+            "Pater Noster dicitur secreto usque ad Et ne nos indúcas in tentatiónem:",
+            "Pater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris:",
+            "℣. Et ne nos indúcas in tentatiónem:",
+            "℟. Sed líbera nos a malo.",
+            "℣. Réspice in servos tuos, Dómine, et in ópera tua, et dírige fílios eórum.",
+            "℟. Et sit splendor Dómini Dei nostri super nos, et ópera mánuum nostrárum dírige super nos, et opus mánuum nostrárum dírige.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.",
+            "Orémus.",
+            "Dirígere et sanctificáre, régere et gubernáre dignáre, Dómine Deus, Rex cæli et terræ, hódie corda et córpora nostra, sensus, sermónes et actus nostros in lege tua, et in opéribus mandatórum tuórum: ut hic et in ætérnum, te auxiliánte, salvi et líberi esse mereámur, Salvátor mundi: Qui vivis et regnas in sǽcula sæculórum.",
+            "℟. Amen."
+          ],
+          "rubricLines": [
+            "Pater Noster dicitur secreto usque ad Et ne nos indúcas in tentatiónem:"
+          ],
+          "metadata": {
+            "includesTripleDeusInAdjutorium": true,
+            "includesKyrie": true
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "De Officio Capituli",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Rubricae.txt",
+              "section": "rubrica examen",
+              "transformation": [
+                "resolve_refs",
+                "rubric expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-prima-lectio-brevis",
+          "type": "reading",
+          "title": "Lectio brevis{Per Annum}",
+          "text": [
+            "Lectio brevis {Per Annum}",
+            "℣. Jube, Dómine, benedícere.",
+            "Benedictio. Dies et actus nostros in sua pace dispónat Dóminus omnípotens.",
+            "℟. Amen.",
+            "2 Thess 3:5",
+            "Dóminus autem dírigat corda et córpora nostra in caritáte Dei et patiéntia Christi.",
+            "℣. Tu autem, Dómine, miserére nobis.",
+            "℟. Deo grátias."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "citation": "2 Thess 3:5",
+            "includesTuAutem": true,
+            "includesBenediction": true
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Lectio brevis{Per Annum}",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-prima-conclusio",
+          "type": "blessing",
+          "title": "Conclusio",
+          "text": [
+            "℣. Adjutórium nostrum ✠ in nómine Dómini.",
+            "℟. Qui fecit cælum et terram.",
+            "℣. Benedícite.",
+            "℟. Deus.",
+            "Benedictio. Dóminus nos benedícat, ✠ et ab omni malo deféndat, et ad vitam perdúcat ætérnam. Et fidélium ánimæ per misericórdiam Dei requiéscant in pace.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "formula": "prima-final-blessing"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Prima.txt",
+              "section": "Conclusio",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-prima-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Adjutorium nostrum",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "web/cgi-bin/horas/horas.pl",
+          "section": "getordinarium/specials/getunit/resolve_refs",
+          "transformation": [
+            "Divinum Officium internal script array exported before print_content"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "warnings": []
+}

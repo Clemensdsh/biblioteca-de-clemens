@@ -1,0 +1,2534 @@
+{
+  "schemaVersion": "0.2.0",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "language": "la",
+  "date": "2026-07-20",
+  "liturgicalTitle": "S. Hieronymi Æmiliani Confessoris ~ III. classis",
+  "rank": "S. Hieronymi Æmiliani Confessoris;;Duplex;;3;;vide C5\n\n",
+  "commemorations": [],
+  "hours": {
+    "laudes": {
+      "name": "laudes",
+      "title": "Laudes",
+      "metadata": {
+        "hour": "laudes",
+        "psalmodySource": "ferial-psalter",
+        "gospelCanticle": "benedictus",
+        "concurrenceResolvedByUpstream": false,
+        "antiphonSource": {
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+          "path": "web/www/horas/Ordinarium/Laudes.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-laudes-block"
+          ]
+        },
+        "capitulumSource": {
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+          "path": "web/www/horas/Ordinarium/Laudes.txt",
+          "section": "Capitulum",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-laudes-block"
+          ]
+        },
+        "hymnSource": {
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+          "path": "web/www/horas/Ordinarium/Laudes.txt",
+          "section": "Hymnus",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-laudes-block"
+          ]
+        },
+        "collectSource": {
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+          "path": "web/www/horas/Ordinarium/Laudes.txt",
+          "section": "Oratio{ex Proprio Sanctorum}",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-laudes-block"
+          ]
+        }
+      },
+      "blocks": [
+        {
+          "id": "office-1962-2026-07-20-laudes-incipit",
+          "type": "dialogue",
+          "title": "Incipit",
+          "text": [
+            "℣. Deus ✠ in adjutórium meum inténde.",
+            "℟. Dómine, ad adjuvándum me festína.",
+            "Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.",
+            "Allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "includesGloriaPatri": true,
+            "includesAlleluia": false,
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Incipit",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Deus_in_adjutorium",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona",
+          "text": [
+            "Ant. Jubiláte * Deo in voce exsultatiónis."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "before-psalmody",
+            "repeated": true,
+            "antiphonKey": "jubilate-deo-in-voce-exsultationis",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "specials",
+                "laudes special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-psalm-46-full-1",
+          "type": "psalm",
+          "title": "Psalmus 46 [1]",
+          "text": [
+            "46:2 Omnes gentes, pláudite mánibus: * jubiláte Deo in voce exsultatiónis.",
+            "46:3 Quóniam Dóminus excélsus, terríbilis: * Rex magnus super omnem terram.",
+            "46:4 Subjécit pópulos nobis: * et gentes sub pédibus nostris.",
+            "46:5 Elégit nobis hereditátem suam: * spéciem Jacob, quam diléxit.",
+            "46:6 Ascéndit Deus in júbilo: * et Dóminus in voce tubæ.",
+            "46:7 Psállite Deo nostro, psállite: * psállite Regi nostro, psállite.",
+            "46:8 Quóniam Rex omnis terræ Deus: * psállite sapiénter.",
+            "46:9 Regnábit Deus super gentes: * Deus sedet super sedem sanctam suam.",
+            "46:10 Príncipes populórum congregáti sunt cum Deo Ábraham: * quóniam dii fortes terræ veheménter eleváti sunt.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "46:2 Omnes gentes, pláudite mánibus: * jubiláte Deo in voce exsultatiónis.",
+            "46:3 Quóniam Dóminus excélsus, terríbilis: * Rex magnus super omnem terram.",
+            "46:4 Subjécit pópulos nobis: * et gentes sub pédibus nostris.",
+            "46:5 Elégit nobis hereditátem suam: * spéciem Jacob, quam diléxit.",
+            "46:6 Ascéndit Deus in júbilo: * et Dóminus in voce tubæ.",
+            "46:7 Psállite Deo nostro, psállite: * psállite Regi nostro, psállite.",
+            "46:8 Quóniam Rex omnis terræ Deus: * psállite sapiénter.",
+            "46:9 Regnábit Deus super gentes: * Deus sedet super sedem sanctam suam.",
+            "46:10 Príncipes populórum congregáti sunt cum Deo Ábraham: * quóniam dii fortes terræ veheménter eleváti sunt."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "46",
+            "psalmSourceNumber": "46",
+            "verses": [
+              "46:2 Omnes gentes, pláudite mánibus: * jubiláte Deo in voce exsultatiónis.",
+              "46:3 Quóniam Dóminus excélsus, terríbilis: * Rex magnus super omnem terram.",
+              "46:4 Subjécit pópulos nobis: * et gentes sub pédibus nostris.",
+              "46:5 Elégit nobis hereditátem suam: * spéciem Jacob, quam diléxit.",
+              "46:6 Ascéndit Deus in júbilo: * et Dóminus in voce tubæ.",
+              "46:7 Psállite Deo nostro, psállite: * psállite Regi nostro, psállite.",
+              "46:8 Quóniam Rex omnis terræ Deus: * psállite sapiénter.",
+              "46:9 Regnábit Deus super gentes: * Deus sedet super sedem sanctam suam.",
+              "46:10 Príncipes populórum congregáti sunt cum Deo Ábraham: * quóniam dii fortes terræ veheménter eleváti sunt."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false,
+            "antiphonKey": "jubilate-deo-in-voce-exsultationis",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Psalmus 46 [1]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm46.txt",
+              "section": "Psalm 46",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita",
+          "text": [
+            "Ant. Jubiláte Deo in voce exsultatiónis."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "after-psalmody",
+            "repeated": true,
+            "antiphonKey": "jubilate-deo-in-voce-exsultationis",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "specials",
+                "laudes special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-psalm-5-full-2-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona",
+          "text": [
+            "Ant. Inténde * voci oratiónis meæ, Rex meus et Deus meus."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "before-psalmody",
+            "repeated": true,
+            "antiphonKey": "intende-voci-orationis-meae-rex-meus-et-deus-meus",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "specials",
+                "laudes special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-psalm-5-full-2",
+          "type": "psalm",
+          "title": "Psalmus 5 [2]",
+          "text": [
+            "5:2 Verba mea áuribus pércipe, Dómine, * intéllege clamórem meum.",
+            "5:3 Inténde voci oratiónis meæ, * Rex meus et Deus meus.",
+            "5:4 Quóniam ad te orábo: * Dómine, mane exáudies vocem meam.",
+            "5:5 Mane astábo tibi et vidébo: * quóniam non Deus volens iniquitátem tu es.",
+            "5:6 Neque habitábit juxta te malígnus: * neque permanébunt injústi ante óculos tuos.",
+            "5:7a Odísti omnes, qui operántur iniquitátem: * perdes omnes, qui loquúntur mendácium.",
+            "5:7b Virum sánguinum et dolósum abominábitur Dóminus: * (8a) ego autem in multitúdine misericórdiæ tuæ.",
+            "5:8b Introíbo in domum tuam: * adorábo ad templum sanctum tuum in timóre tuo.",
+            "5:9 Dómine, deduc me in justítia tua: * propter inimícos meos dírige in conspéctu tuo viam meam.",
+            "5:10 Quóniam non est in ore eórum véritas: * cor eórum vanum est.",
+            "5:11a Sepúlcrum patens est guttur eórum, † linguis suis dolóse agébant, * júdica illos, Deus.",
+            "5:11b Décidant a cogitatiónibus suis, † secúndum multitúdinem impietátum eórum expélle eos, * quóniam irritavérunt te, Dómine.",
+            "5:12a Et læténtur omnes, qui sperant in te, * in ætérnum exsultábunt: et habitábis in eis.",
+            "5:12b Et gloriabúntur in te omnes, qui díligunt nomen tuum, * (13a) quóniam tu benedíces justo.",
+            "5:13b Dómine, ut scuto bonæ voluntátis tuæ * coronásti nos.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "5:2 Verba mea áuribus pércipe, Dómine, * intéllege clamórem meum.",
+            "5:3 Inténde voci oratiónis meæ, * Rex meus et Deus meus.",
+            "5:4 Quóniam ad te orábo: * Dómine, mane exáudies vocem meam.",
+            "5:5 Mane astábo tibi et vidébo: * quóniam non Deus volens iniquitátem tu es.",
+            "5:6 Neque habitábit juxta te malígnus: * neque permanébunt injústi ante óculos tuos.",
+            "5:7a Odísti omnes, qui operántur iniquitátem: * perdes omnes, qui loquúntur mendácium.",
+            "5:7b Virum sánguinum et dolósum abominábitur Dóminus: * (8a) ego autem in multitúdine misericórdiæ tuæ.",
+            "5:8b Introíbo in domum tuam: * adorábo ad templum sanctum tuum in timóre tuo.",
+            "5:9 Dómine, deduc me in justítia tua: * propter inimícos meos dírige in conspéctu tuo viam meam.",
+            "5:10 Quóniam non est in ore eórum véritas: * cor eórum vanum est.",
+            "5:11a Sepúlcrum patens est guttur eórum, † linguis suis dolóse agébant, * júdica illos, Deus.",
+            "5:11b Décidant a cogitatiónibus suis, † secúndum multitúdinem impietátum eórum expélle eos, * quóniam irritavérunt te, Dómine.",
+            "5:12a Et læténtur omnes, qui sperant in te, * in ætérnum exsultábunt: et habitábis in eis.",
+            "5:12b Et gloriabúntur in te omnes, qui díligunt nomen tuum, * (13a) quóniam tu benedíces justo.",
+            "5:13b Dómine, ut scuto bonæ voluntátis tuæ * coronásti nos."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "5",
+            "psalmSourceNumber": "5",
+            "verses": [
+              "5:2 Verba mea áuribus pércipe, Dómine, * intéllege clamórem meum.",
+              "5:3 Inténde voci oratiónis meæ, * Rex meus et Deus meus.",
+              "5:4 Quóniam ad te orábo: * Dómine, mane exáudies vocem meam.",
+              "5:5 Mane astábo tibi et vidébo: * quóniam non Deus volens iniquitátem tu es.",
+              "5:6 Neque habitábit juxta te malígnus: * neque permanébunt injústi ante óculos tuos.",
+              "5:7a Odísti omnes, qui operántur iniquitátem: * perdes omnes, qui loquúntur mendácium.",
+              "5:7b Virum sánguinum et dolósum abominábitur Dóminus: * (8a) ego autem in multitúdine misericórdiæ tuæ.",
+              "5:8b Introíbo in domum tuam: * adorábo ad templum sanctum tuum in timóre tuo.",
+              "5:9 Dómine, deduc me in justítia tua: * propter inimícos meos dírige in conspéctu tuo viam meam.",
+              "5:10 Quóniam non est in ore eórum véritas: * cor eórum vanum est.",
+              "5:11a Sepúlcrum patens est guttur eórum, † linguis suis dolóse agébant, * júdica illos, Deus.",
+              "5:11b Décidant a cogitatiónibus suis, † secúndum multitúdinem impietátum eórum expélle eos, * quóniam irritavérunt te, Dómine.",
+              "5:12a Et læténtur omnes, qui sperant in te, * in ætérnum exsultábunt: et habitábis in eis.",
+              "5:12b Et gloriabúntur in te omnes, qui díligunt nomen tuum, * (13a) quóniam tu benedíces justo.",
+              "5:13b Dómine, ut scuto bonæ voluntátis tuæ * coronásti nos."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false,
+            "antiphonKey": "intende-voci-orationis-meae-rex-meus-et-deus-meus",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Psalmus 5 [2]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm5.txt",
+              "section": "Psalm 5",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-psalm-5-full-2-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita",
+          "text": [
+            "Ant. Inténde voci oratiónis meæ, Rex meus et Deus meus."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "after-psalmody",
+            "repeated": true,
+            "antiphonKey": "intende-voci-orationis-meae-rex-meus-et-deus-meus",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "specials",
+                "laudes special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-psalm-28-full-3-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona",
+          "text": [
+            "Ant. Deus majestátis * intónuit: afférte glóriam nómini ejus."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "before-psalmody",
+            "repeated": true,
+            "antiphonKey": "deus-majestatis-intonuit-afferte-gloriam-nomini-ejus",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "specials",
+                "laudes special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-psalm-28-full-3",
+          "type": "psalm",
+          "title": "Psalmus 28 [3]",
+          "text": [
+            "28:1 Afférte Dómino, fílii Dei: * afférte Dómino fílios aríetum.",
+            "28:2 Afférte Dómino glóriam et honórem, afférte Dómino glóriam nómini ejus: * adoráte Dóminum in átrio sancto ejus.",
+            "28:3 Vox Dómini super aquas, Deus majestátis intónuit: * Dóminus super aquas multas.",
+            "28:4 Vox Dómini in virtúte: * vox Dómini in magnificéntia.",
+            "28:5 Vox Dómini confringéntis cedros: * et confrínget Dóminus cedros Líbani:",
+            "28:6 Et commínuet eas tamquam vítulum Líbani: * et diléctus quemádmodum fílius unicórnium.",
+            "28:7 Vox Dómini intercidéntis flammam ignis: * vox Dómini concutiéntis desértum: et commovébit Dóminus desértum Cades.",
+            "28:9 Vox Dómini præparántis cervos, et revelábit condénsa: * et in templo ejus omnes dicent glóriam.",
+            "28:10 Dóminus dilúvium inhabitáre facit: * et sedébit Dóminus Rex in ætérnum.",
+            "28:11 Dóminus virtútem pópulo suo dabit: * Dóminus benedícet pópulo suo in pace.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "28:1 Afférte Dómino, fílii Dei: * afférte Dómino fílios aríetum.",
+            "28:2 Afférte Dómino glóriam et honórem, afférte Dómino glóriam nómini ejus: * adoráte Dóminum in átrio sancto ejus.",
+            "28:3 Vox Dómini super aquas, Deus majestátis intónuit: * Dóminus super aquas multas.",
+            "28:4 Vox Dómini in virtúte: * vox Dómini in magnificéntia.",
+            "28:5 Vox Dómini confringéntis cedros: * et confrínget Dóminus cedros Líbani:",
+            "28:6 Et commínuet eas tamquam vítulum Líbani: * et diléctus quemádmodum fílius unicórnium.",
+            "28:7 Vox Dómini intercidéntis flammam ignis: * vox Dómini concutiéntis desértum: et commovébit Dóminus desértum Cades.",
+            "28:9 Vox Dómini præparántis cervos, et revelábit condénsa: * et in templo ejus omnes dicent glóriam.",
+            "28:10 Dóminus dilúvium inhabitáre facit: * et sedébit Dóminus Rex in ætérnum.",
+            "28:11 Dóminus virtútem pópulo suo dabit: * Dóminus benedícet pópulo suo in pace."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "28",
+            "psalmSourceNumber": "28",
+            "verses": [
+              "28:1 Afférte Dómino, fílii Dei: * afférte Dómino fílios aríetum.",
+              "28:2 Afférte Dómino glóriam et honórem, afférte Dómino glóriam nómini ejus: * adoráte Dóminum in átrio sancto ejus.",
+              "28:3 Vox Dómini super aquas, Deus majestátis intónuit: * Dóminus super aquas multas.",
+              "28:4 Vox Dómini in virtúte: * vox Dómini in magnificéntia.",
+              "28:5 Vox Dómini confringéntis cedros: * et confrínget Dóminus cedros Líbani:",
+              "28:6 Et commínuet eas tamquam vítulum Líbani: * et diléctus quemádmodum fílius unicórnium.",
+              "28:7 Vox Dómini intercidéntis flammam ignis: * vox Dómini concutiéntis desértum: et commovébit Dóminus desértum Cades.",
+              "28:9 Vox Dómini præparántis cervos, et revelábit condénsa: * et in templo ejus omnes dicent glóriam.",
+              "28:10 Dóminus dilúvium inhabitáre facit: * et sedébit Dóminus Rex in ætérnum.",
+              "28:11 Dóminus virtútem pópulo suo dabit: * Dóminus benedícet pópulo suo in pace."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false,
+            "antiphonKey": "deus-majestatis-intonuit-afferte-gloriam-nomini-ejus",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Psalmus 28 [3]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm28.txt",
+              "section": "Psalm 28",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-psalm-28-full-3-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita",
+          "text": [
+            "Ant. Deus majestátis intónuit: afférte glóriam nómini ejus."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "after-psalmody",
+            "repeated": true,
+            "antiphonKey": "deus-majestatis-intonuit-afferte-gloriam-nomini-ejus",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "specials",
+                "laudes special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-canticle-211-full-4-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona",
+          "text": [
+            "Ant. Laudámus nomen tuum * ínclitum, Deus noster."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "before-psalmody",
+            "repeated": true,
+            "antiphonKey": "laudamus-nomen-tuum-inclitum-deus-noster",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "specials",
+                "laudes special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-canticle-211-full-4",
+          "type": "canticle",
+          "title": "Canticum David [4]",
+          "text": [
+            "1 Par. 29:10-13",
+            "29:10 Benedíctus es, Dómine, Deus Israël patris nostri, * ab ætérno in ætérnum.",
+            "29:11 Tua est, Dómine, magnificéntia, et poténtia, * et glória, atque victória:",
+            "29:11 Et tibi laus: * cuncta enim quæ in cælo sunt, et in terra, tua sunt:",
+            "29:11 Tuum, Dómine, regnum, * et tu es super omnes príncipes.",
+            "29:12 Tuæ divítiæ, et tua est glória: * tu domináris ómnium,",
+            "29:12 In manu tua virtus et poténtia: * in manu tua magnitúdo, et impérium ómnium.",
+            "29:13 Nunc ígitur, Deus noster, confitémur tibi, * et laudámus nomen tuum ínclitum.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "29:10 Benedíctus es, Dómine, Deus Israël patris nostri, * ab ætérno in ætérnum.",
+            "29:11 Tua est, Dómine, magnificéntia, et poténtia, * et glória, atque victória:",
+            "29:11 Et tibi laus: * cuncta enim quæ in cælo sunt, et in terra, tua sunt:",
+            "29:11 Tuum, Dómine, regnum, * et tu es super omnes príncipes.",
+            "29:12 Tuæ divítiæ, et tua est glória: * tu domináris ómnium,",
+            "29:12 In manu tua virtus et poténtia: * in manu tua magnitúdo, et impérium ómnium.",
+            "29:13 Nunc ígitur, Deus noster, confitémur tibi, * et laudámus nomen tuum ínclitum."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "canticle": "Canticum David [4]",
+            "psalmSourceNumber": "211",
+            "verses": [
+              "29:10 Benedíctus es, Dómine, Deus Israël patris nostri, * ab ætérno in ætérnum.",
+              "29:11 Tua est, Dómine, magnificéntia, et poténtia, * et glória, atque victória:",
+              "29:11 Et tibi laus: * cuncta enim quæ in cælo sunt, et in terra, tua sunt:",
+              "29:11 Tuum, Dómine, regnum, * et tu es super omnes príncipes.",
+              "29:12 Tuæ divítiæ, et tua est glória: * tu domináris ómnium,",
+              "29:12 In manu tua virtus et poténtia: * in manu tua magnitúdo, et impérium ómnium.",
+              "29:13 Nunc ígitur, Deus noster, confitémur tibi, * et laudámus nomen tuum ínclitum."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false,
+            "antiphonKey": "laudamus-nomen-tuum-inclitum-deus-noster",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Canticum David [4]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm211.txt",
+              "section": "Canticum David [4]",
+              "transformation": [
+                "resolve_refs",
+                "canticle expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-canticle-211-full-4-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita",
+          "text": [
+            "Ant. Laudámus nomen tuum ínclitum, Deus noster."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "after-psalmody",
+            "repeated": true,
+            "antiphonKey": "laudamus-nomen-tuum-inclitum-deus-noster",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "specials",
+                "laudes special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-psalm-116-full-5-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona",
+          "text": [
+            "Ant. Laudáte * Dóminum omnes gentes. ‡"
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "before-psalmody",
+            "repeated": true,
+            "antiphonKey": "laudate-dominum-omnes-gentes",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "specials",
+                "laudes special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-psalm-116-full-5",
+          "type": "psalm",
+          "title": "Psalmus 116 [5]",
+          "text": [
+            "116:1  Laudáte Dóminum, omnes gentes: * ‡ laudáte eum, omnes pópuli:",
+            "116:2 Quóniam confirmáta est super nos misericórdia ejus: * et véritas Dómini manet in ætérnum.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "116:1  Laudáte Dóminum, omnes gentes: * ‡ laudáte eum, omnes pópuli:",
+            "116:2 Quóniam confirmáta est super nos misericórdia ejus: * et véritas Dómini manet in ætérnum."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "116",
+            "psalmSourceNumber": "116",
+            "verses": [
+              "116:1  Laudáte Dóminum, omnes gentes: * ‡ laudáte eum, omnes pópuli:",
+              "116:2 Quóniam confirmáta est super nos misericórdia ejus: * et véritas Dómini manet in ætérnum."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false,
+            "antiphonKey": "laudate-dominum-omnes-gentes",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Psalmus 116 [5]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm116.txt",
+              "section": "Psalm 116",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-psalm-116-full-5-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita",
+          "text": [
+            "Ant. Laudáte Dóminum omnes gentes."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "after-psalmody",
+            "repeated": true,
+            "antiphonKey": "laudate-dominum-omnes-gentes",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "specials",
+                "laudes special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-capitulum",
+          "type": "capitulum",
+          "title": "Capitulum",
+          "text": [
+            "Capitulum Hymnus Versus {ex Commune aut Festo}",
+            "Sir 31:8-9",
+            "Beátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua.",
+            "℟. Deo grátias."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "citation": "Sir 31:8-9",
+            "includesTuAutem": false,
+            "sourceKind": "ordinary",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Capitulum",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Capitulum",
+              "transformation": [
+                "specials",
+                "laudes special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-hymnus",
+          "type": "hymn",
+          "title": "Hymnus",
+          "text": [
+            "Jesu, coróna célsior,",
+            "Et véritas sublímior,",
+            "Qui confiténti sérvulo",
+            "Reddis perénne prǽmium:",
+            "_",
+            "Da supplicánti cœ́tui,",
+            "Hujus rogátu, nóxii",
+            "Remissiónem críminis,",
+            "Rumpéndo nexum vínculi.",
+            "_",
+            "Anni revérso témpore,",
+            "Dies refúlsit lúmine,",
+            "Quo Sanctus hic de córpore",
+            "Migrávit inter sídera.",
+            "_",
+            "Hic vana terræ gáudia,",
+            "Et luculénta prǽdia,",
+            "Pollúta sorde députans,",
+            "Ovans tenet cæléstia.",
+            "_",
+            "Te, Christe, Rex piíssime,",
+            "Hic confiténdo júgiter,",
+            "Calcávit artes dǽmonum,",
+            "Sævúmque avérni príncipem.",
+            "_",
+            "Virtúte clarus, et fide,",
+            "Confessióne sédulus,",
+            "Jejúna membra déferens,",
+            "Dapes supérnas óbtinet.",
+            "_",
+            "Proínde te piíssime",
+            "Precámur omnes súpplices:",
+            "Nobis ut hujus grátia",
+            "Pœnas remíttas débitas.",
+            "_",
+            "Patri perénnis glória,",
+            "Natóque Patris único,",
+            "Sanctóque sit Paráclito,",
+            "Per omne semper sǽculum.",
+            "Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "stanzas": [
+              [
+                "Hymnus",
+                "Jesu, coróna célsior,",
+                "Et véritas sublímior,",
+                "Qui confiténti sérvulo",
+                "Reddis perénne prǽmium:"
+              ],
+              [
+                "Da supplicánti cœ́tui,",
+                "Hujus rogátu, nóxii",
+                "Remissiónem críminis,",
+                "Rumpéndo nexum vínculi."
+              ],
+              [
+                "Anni revérso témpore,",
+                "Dies refúlsit lúmine,",
+                "Quo Sanctus hic de córpore",
+                "Migrávit inter sídera."
+              ],
+              [
+                "Hic vana terræ gáudia,",
+                "Et luculénta prǽdia,",
+                "Pollúta sorde députans,",
+                "Ovans tenet cæléstia."
+              ],
+              [
+                "Te, Christe, Rex piíssime,",
+                "Hic confiténdo júgiter,",
+                "Calcávit artes dǽmonum,",
+                "Sævúmque avérni príncipem."
+              ],
+              [
+                "Virtúte clarus, et fide,",
+                "Confessióne sédulus,",
+                "Jejúna membra déferens,",
+                "Dapes supérnas óbtinet."
+              ],
+              [
+                "Proínde te piíssime",
+                "Precámur omnes súpplices:",
+                "Nobis ut hujus grátia",
+                "Pœnas remíttas débitas."
+              ],
+              [
+                "Patri perénnis glória,",
+                "Natóque Patris único,",
+                "Sanctóque sit Paráclito,",
+                "Per omne semper sǽculum.",
+                "Amen."
+              ]
+            ],
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Hymnus",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Hymnus",
+              "transformation": [
+                "specials",
+                "laudes special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-versus",
+          "type": "versicle",
+          "title": "Versus",
+          "text": [
+            "℣. Justum dedúxit Dóminus per vias rectas.",
+            "℟. Et osténdit illi regnum Dei."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "versicle": "℣. Justum dedúxit Dóminus per vias rectas.",
+            "response": "℟. Et osténdit illi regnum Dei.",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Versus",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Versus",
+              "transformation": [
+                "specials",
+                "laudes special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-benedictus-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona ad benedictus",
+          "text": [
+            "Ant. Euge, serve bone * et fidélis, quia in pauca fuísti fidélis, supra multa te constítuam, intra in gáudium Dómini tui."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "before-canticle",
+            "repeated": true,
+            "antiphonKey": "euge-serve-bone-et-fidelis-quia-in-pauca-fuisti-fidelis-supra-multa-te-constituam-intra-in-gaudium-domini-tui",
+            "sourceKind": "proper",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Antiphona ad benedictus",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona ad benedictus",
+              "transformation": [
+                "specials",
+                "laudes special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-benedictus",
+          "type": "canticle",
+          "title": "Canticum Zachariae",
+          "text": [
+            "Luc. 1:68-79",
+            "1:68 Benedíctus ✠ Dóminus, Deus Israël: * quia visitávit, et fecit redemptiónem plebis suæ:",
+            "1:69 Et eréxit cornu salútis nobis: * in domo David, púeri sui.",
+            "1:70 Sicut locútus est per os sanctórum, * qui a sǽculo sunt, prophetárum ejus:",
+            "1:71 Salútem ex inimícis nostris, * et de manu ómnium, qui odérunt nos.",
+            "1:72 Ad faciéndam misericórdiam cum pátribus nostris: * et memorári testaménti sui sancti.",
+            "1:73 Jusjurándum, quod jurávit ad Ábraham patrem nostrum, * datúrum se nobis:",
+            "1:74 Ut sine timóre, de manu inimicórum nostrórum liberáti, * serviámus illi.",
+            "1:75 In sanctitáte, et justítia coram ipso, * ómnibus diébus nostris.",
+            "1:76 Et tu, puer, Prophéta Altíssimi vocáberis: * præíbis enim ante fáciem Dómini, paráre vias ejus:",
+            "1:77 Ad dandam sciéntiam salútis plebi ejus: * in remissiónem peccatórum eórum:",
+            "1:78 Per víscera misericórdiæ Dei nostri: * in quibus visitávit nos, óriens ex alto:",
+            "1:79 Illumináre his, qui in ténebris, et in umbra mortis sedent: * ad dirigéndos pedes nostros in viam pacis.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "1:68 Benedíctus ✠ Dóminus, Deus Israël: * quia visitávit, et fecit redemptiónem plebis suæ:",
+            "1:69 Et eréxit cornu salútis nobis: * in domo David, púeri sui.",
+            "1:70 Sicut locútus est per os sanctórum, * qui a sǽculo sunt, prophetárum ejus:",
+            "1:71 Salútem ex inimícis nostris, * et de manu ómnium, qui odérunt nos.",
+            "1:72 Ad faciéndam misericórdiam cum pátribus nostris: * et memorári testaménti sui sancti.",
+            "1:73 Jusjurándum, quod jurávit ad Ábraham patrem nostrum, * datúrum se nobis:",
+            "1:74 Ut sine timóre, de manu inimicórum nostrórum liberáti, * serviámus illi.",
+            "1:75 In sanctitáte, et justítia coram ipso, * ómnibus diébus nostris.",
+            "1:76 Et tu, puer, Prophéta Altíssimi vocáberis: * præíbis enim ante fáciem Dómini, paráre vias ejus:",
+            "1:77 Ad dandam sciéntiam salútis plebi ejus: * in remissiónem peccatórum eórum:",
+            "1:78 Per víscera misericórdiæ Dei nostri: * in quibus visitávit nos, óriens ex alto:",
+            "1:79 Illumináre his, qui in ténebris, et in umbra mortis sedent: * ad dirigéndos pedes nostros in viam pacis."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "canticle": "benedictus",
+            "source": "Luc. 1:68-79",
+            "verses": [
+              "1:68 Benedíctus ✠ Dóminus, Deus Israël: * quia visitávit, et fecit redemptiónem plebis suæ:",
+              "1:69 Et eréxit cornu salútis nobis: * in domo David, púeri sui.",
+              "1:70 Sicut locútus est per os sanctórum, * qui a sǽculo sunt, prophetárum ejus:",
+              "1:71 Salútem ex inimícis nostris, * et de manu ómnium, qui odérunt nos.",
+              "1:72 Ad faciéndam misericórdiam cum pátribus nostris: * et memorári testaménti sui sancti.",
+              "1:73 Jusjurándum, quod jurávit ad Ábraham patrem nostrum, * datúrum se nobis:",
+              "1:74 Ut sine timóre, de manu inimicórum nostrórum liberáti, * serviámus illi.",
+              "1:75 In sanctitáte, et justítia coram ipso, * ómnibus diébus nostris.",
+              "1:76 Et tu, puer, Prophéta Altíssimi vocáberis: * præíbis enim ante fáciem Dómini, paráre vias ejus:",
+              "1:77 Ad dandam sciéntiam salútis plebi ejus: * in remissiónem peccatórum eórum:",
+              "1:78 Per víscera misericórdiæ Dei nostri: * in quibus visitávit nos, óriens ex alto:",
+              "1:79 Illumináre his, qui in ténebris, et in umbra mortis sedent: * ad dirigéndos pedes nostros in viam pacis."
+            ],
+            "includesGloriaPatri": true,
+            "antiphonKey": "euge-serve-bone-et-fidelis-quia-in-pauca-fuisti-fidelis-supra-multa-te-constituam-intra-in-gaudium-domini-tui",
+            "sourcePsalm": "231",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Canticum Zachariae",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm231.txt",
+              "section": "Benedictus",
+              "transformation": [
+                "resolve_refs",
+                "canticle expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-benedictus-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita ad benedictus",
+          "text": [
+            "Ant. Euge, serve bone et fidélis, quia in pauca fuísti fidélis, supra multa te constítuam, intra in gáudium Dómini tui."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "after-canticle",
+            "repeated": true,
+            "antiphonKey": "euge-serve-bone-et-fidelis-quia-in-pauca-fuisti-fidelis-supra-multa-te-constituam-intra-in-gaudium-domini-tui",
+            "sourceKind": "proper",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Antiphona repetita ad benedictus",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona repetita ad benedictus",
+              "transformation": [
+                "specials",
+                "laudes special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-preces-feriales-omittitur",
+          "type": "rubric",
+          "title": "Preces Feriales omittitur",
+          "text": [
+            "Preces Feriales{omittitur}"
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "omitted": true,
+            "specialStructure": "special",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Preces Feriales omittitur",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-oratio",
+          "type": "prayer",
+          "title": "Oratio{ex Proprio Sanctorum}",
+          "text": [
+            "Oratio {ex Proprio Sanctorum}",
+            "℣. Dómine, exáudi oratiónem meam.",
+            "℟. Et clamor meus ad te véniat.",
+            "Orémus.",
+            "Deus, misericordiárum pater, per mérita et intercessiónem beáti Hierónymi, quem órphanis adjutórem et patrem esse voluísti: concéde; ut spíritum adoptiónis, quo fílii tui nominámur et sumus, fidéliter custodiámus.",
+            "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+            "℟. Amen.",
+            "_"
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "sourceKind": "proper",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Oratio{ex Proprio Sanctorum}",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Dominus_vobiscum",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-commemoratio-1",
+          "type": "commemoration",
+          "title": "Commemoratio S. Margaritæ, Virginis et Martyris",
+          "text": [
+            "Ant. Símile est regnum cælórum hómini negotiatóri quærénti bonas margarítas: invénta una pretiósa, dedit ómnia sua, et comparávit eam.",
+            "_",
+            "℣. Diffúsa est grátia in lábiis tuis.",
+            "℟. Proptérea benedíxit te Deus in ætérnum.",
+            "_",
+            "Orémus.",
+            "Indulgéntiam nobis, quǽsumus, Dómine, beáta Margaríta Virgo et Martyr implóret: quæ tibi grata semper éxstitit, et mérito castitátis, et tuæ professióne virtútis.",
+            "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "commemorationTitle": "Commemoratio S. Margaritæ, Virginis et Martyris",
+            "includesAntiphon": true,
+            "includesCollect": true,
+            "sourceKind": "proper",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Commemoratio S. Margaritæ, Virginis et Martyris",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Dominus_vobiscum",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-07-20-laudes-conclusio",
+          "type": "blessing",
+          "title": "Conclusio",
+          "text": [
+            "℣. Dómine, exáudi oratiónem meam.",
+            "℟. Et clamor meus ad te véniat.",
+            "℣. Benedicámus Dómino.",
+            "℟. Deo grátias.",
+            "℣. Fidélium ánimæ per misericórdiam Dei requiéscant in pace.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "formula": "major-hour-conclusion",
+            "majorHour": {
+              "hour": "laudes",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "benedictus",
+              "concurrenceResolvedByUpstream": false,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "hymnSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Hymnus",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Laudes.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-laudes-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Laudes.txt",
+              "section": "Conclusio",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-laudes-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Dominus_vobiscum",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "web/cgi-bin/horas/horas.pl",
+          "section": "getordinarium/specials/getunit/resolve_refs",
+          "transformation": [
+            "Divinum Officium internal script array exported before print_content"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "warnings": []
+}

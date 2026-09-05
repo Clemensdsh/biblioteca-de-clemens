@@ -1,0 +1,19 @@
+{
+  "availableYears": [
+    {
+      "checksum": "25768e5b1404660beebfa9cdd6191b21064cb960787bcc87c26ae6259913feff",
+      "path": "years/2026/manifest.json",
+      "year": 2026
+    }
+  ],
+  "experimentalPath": "experimental/",
+  "generatedAt": "2026-07-21T04:53:24.997Z",
+  "generatorVersion": "phase6-year-builder-v1",
+  "reportsPath": "reports/",
+  "schemaVersion": "officium1962.v1",
+  "shared": {
+    "checksum": "1185d1766a1454649d13277ad4ae99ddf4d0c4902b32c9beb8d6cc1c67c5a6db",
+    "path": "shared/manifest.json"
+  },
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+}

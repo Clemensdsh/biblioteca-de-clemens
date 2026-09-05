@@ -1,0 +1,78 @@
+{
+  "date": "2026-04-02",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "hour": "laudes",
+  "language": "la",
+  "liturgicalTitle": "Feria Quinta in Cena Domini ~ I. classis",
+  "rank": "Feria Quinta in Cena Domini;;Feria privilegiata Duplex I classis;;7\n\n",
+  "schemaVersion": "0.1.0",
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "units": [
+    {
+      "html": "Incipit{omittitur}<br/>\n",
+      "id": "do-1962-2026-04-02-laudes-001",
+      "raw": "#Incipit{omittitur}\n"
+    },
+    {
+      "html": "Psalmi {Laudes:2 Psalmi & antiphonæ  ex Proprio de Tempore}\n<br/>\nAnt. Justificéris, Dómine, * in sermónibus tuis, et vincas cum judicáris.<br/>\nPsalmus 50 [1]<br/>\n50:3a Miserére mei, Deus, * secúndum magnam misericórdiam tuam.<br/>\n50:3b Et secúndum multitúdinem miseratiónum tuárum, * dele iniquitátem meam.<br/>\n50:4 Ámplius lava me ab iniquitáte mea: * et a peccáto meo munda me.<br/>\n50:5 Quóniam iniquitátem meam ego cognósco: * et peccátum meum contra me est semper.<br/>\n50:6 Tibi soli peccávi, et malum coram te feci: * ut justificéris in sermónibus tuis, et vincas cum judicáris.<br/>\n50:7 Ecce enim, in iniquitátibus concéptus sum: * et in peccátis concépit me mater mea.<br/>\n50:8 Ecce enim, veritátem dilexísti: * incérta et occúlta sapiéntiæ tuæ manifestásti mihi.<br/>\n50:9 Aspérges me hyssópo, et mundábor: * lavábis me, et super nivem dealbábor.<br/>\n50:10 Audítui meo dabis gáudium et lætítiam: * et exsultábunt ossa humiliáta.<br/>\n50:11 Avérte fáciem tuam a peccátis meis: * et omnes iniquitátes meas dele.<br/>\n50:12 Cor mundum crea in me, Deus: * et spíritum rectum ínnova in viscéribus meis.<br/>\n50:13 Ne proícias me a fácie tua: * et spíritum sanctum tuum ne áuferas a me.<br/>\n50:14 Redde mihi lætítiam salutáris tui: * et spíritu principáli confírma me.<br/>\n50:15 Docébo iníquos vias tuas: * et ímpii ad te converténtur.<br/>\n50:16 Líbera me de sanguínibus, Deus, Deus salútis meæ: * et exsultábit lingua mea justítiam tuam.<br/>\n50:17 Dómine, lábia mea apéries: * et os meum annuntiábit laudem tuam.<br/>\n50:18 Quóniam si voluísses sacrifícium, dedíssem útique: * holocáustis non delectáberis.<br/>\n50:19 Sacrifícium Deo spíritus contribulátus: * cor contrítum, et humiliátum, Deus, non despícies.<br/>\n50:20 Benígne fac, Dómine, in bona voluntáte tua Sion: * ut ædificéntur muri Jerúsalem.<br/>\n50:21 Tunc acceptábis sacrifícium justítiæ, oblatiónes, et holocáusta: * tunc impónent super altáre tuum vítulos.<br/>\nGloria omittitur<br/>\nAnt. Justificéris, Dómine, in sermónibus tuis, et vincas cum judicáris.<br/>\n",
+      "id": "do-1962-2026-04-02-laudes-002",
+      "raw": "#Psalmi{Laudes:2 Psalmi & antiphonæ  ex Proprio de Tempore}\nAnt. Justificéris, Dómine, * in sermónibus tuis, et vincas cum judicáris.\n&psalm(50)\nAnt. Justificéris, Dómine, in sermónibus tuis, et vincas cum judicáris.\n"
+    },
+    {
+      "html": "Ant. Dóminus * tamquam ovis ad víctimam ductus est, et non apéruit os suum.<br/>\nPsalmus 89 [2]<br/>\n89:1 Dómine, refúgium factus es nobis: * a generatióne in generatiónem.<br/>\n89:2 Priúsquam montes fíerent, aut formarétur terra et orbis: * a sǽculo et usque in sǽculum tu es, Deus.<br/>\n89:3 Ne avértas hóminem in humilitátem: * et dixísti: Convertímini, fílii hóminum.<br/>\n89:4 Quóniam mille anni ante óculos tuos, * tamquam dies hestérna, quæ prætériit,<br/>\n89:5 Et custódia in nocte, * quæ pro níhilo habéntur, eórum anni erunt.<br/>\n89:6 Mane sicut herba tránseat, mane flóreat, et tránseat: * véspere décidat, indúret et aréscat.<br/>\n89:7 Quia defécimus in ira tua, * et in furóre tuo turbáti sumus.<br/>\n89:8 Posuísti iniquitátes nostras in conspéctu tuo: * sǽculum nostrum in illuminatióne vultus tui.<br/>\n89:9 Quóniam omnes dies nostri defecérunt: * et in ira tua defécimus.<br/>\n89:9 Anni nostri sicut aránea meditabúntur: * dies annórum nostrórum in ipsis, septuagínta anni.<br/>\n89:10 Si autem in potentátibus, octogínta anni: * et ámplius eórum, labor et dolor.<br/>\n89:10 Quóniam supervénit mansuetúdo: * et corripiémur.<br/>\n89:11 Quis novit potestátem iræ tuæ: * et præ timóre tuo iram tuam dinumeráre?<br/>\n89:12 Déxteram tuam sic notam fac: * et erudítos corde in sapiéntia.<br/>\n89:13 Convértere, Dómine, úsquequo? * et deprecábilis esto super servos tuos.<br/>\n89:14 Repléti sumus mane misericórdia tua: * et exsultávimus, et delectáti sumus ómnibus diébus nostris.<br/>\n89:15 Lætáti sumus pro diébus, quibus nos humiliásti: * annis, quibus vídimus mala.<br/>\n89:16 Réspice in servos tuos, et in ópera tua: * et dírige fílios eórum.<br/>\n89:17 Et sit splendor Dómini, Dei nostri, super nos, et ópera mánuum nostrárum dírige super nos: * et opus mánuum nostrárum dírige.<br/>\nGloria omittitur<br/>\nAnt. Dóminus tamquam ovis ad víctimam ductus est, et non apéruit os suum.<br/>\n",
+      "id": "do-1962-2026-04-02-laudes-003",
+      "raw": "Ant. Dóminus * tamquam ovis ad víctimam ductus est, et non apéruit os suum.\n&psalm(89)\nAnt. Dóminus tamquam ovis ad víctimam ductus est, et non apéruit os suum.\n"
+    },
+    {
+      "html": "Ant. Contrítum est * cor meum in médio mei, contremuérunt ómnia ossa mea.<br/>\nPsalmus 35 [3]<br/>\n35:2 Dixit injústus ut delínquat in semetípso: * non est timor Dei ante óculos ejus.<br/>\n35:3 Quóniam dolóse egit in conspéctu ejus: * ut inveniátur iníquitas ejus ad ódium.<br/>\n35:4 Verba oris ejus iníquitas, et dolus: * nóluit intellégere ut bene ágeret.<br/>\n35:5 Iniquitátem meditátus est in cubíli suo: * ástitit omni viæ non bonæ, malítiam autem non odívit.<br/>\n35:6 Dómine, in cælo misericórdia tua: * et véritas tua usque ad nubes.<br/>\n35:7 Justítia tua sicut montes Dei: * judícia tua abýssus multa.<br/>\n35:7 Hómines, et juménta salvábis, Dómine: * quemádmodum multiplicásti misericórdiam tuam, Deus.<br/>\n35:8 Fílii autem hóminum, * in tégmine alárum tuárum sperábunt.<br/>\n35:9 Inebriabúntur ab ubertáte domus tuæ: * et torrénte voluptátis tuæ potábis eos.<br/>\n35:10 Quóniam apud te est fons vitæ: * et in lúmine tuo vidébimus lumen.<br/>\n35:11 Præténde misericórdiam tuam sciéntibus te, * et justítiam tuam his, qui recto sunt corde.<br/>\n35:12 Non véniat mihi pes supérbiæ: * et manus peccatóris non móveat me.<br/>\n35:13 Ibi cecidérunt qui operántur iniquitátem: * expúlsi sunt, nec potuérunt stare.<br/>\nGloria omittitur<br/>\nAnt. Contrítum est cor meum in médio mei, contremuérunt ómnia ossa mea.<br/>\n",
+      "id": "do-1962-2026-04-02-laudes-004",
+      "raw": "Ant. Contrítum est * cor meum in médio mei, contremuérunt ómnia ossa mea.\n&psalm(35)\nAnt. Contrítum est cor meum in médio mei, contremuérunt ómnia ossa mea.\n"
+    },
+    {
+      "html": "Ant. Exhortátus es * in virtúte tua, et in refectióne sancta tua, Dómine.<br/>\nCanticum Moysis [4]<br/>\nExod. 15:1-22<br/>\n15:1 Cantémus Dómino: glorióse enim magnificátus est, * equum et ascensórem dejécit in mare.<br/>\n15:2 Fortitúdo mea, et laus mea Dóminus, * et factus est mihi in salútem.<br/>\n15:3 Iste Deus meus, et glorificábo eum: * Deus patris mei, et exaltábo eum.<br/>\n15:4 Dóminus quasi vir pugnátor, Omnípotens nomen ejus. * Currus Pharaónis et exércitum ejus projécit in mare.<br/>\n15:5 Elécti príncipes ejus submérsi sunt in Mari Rubro: * abýssi operuérunt eos, descendérunt in profúndum quasi lapis.<br/>\n15:6 Déxtera tua, Dómine, magnificáta est in fortitúdine: déxtera tua, Dómine, percússit inimícum. * Et in multitúdine glóriæ tuæ deposuísti adversários tuos:<br/>\n15:7 Misísti iram tuam, quæ devorávit eos sicut stípulam. * Et in spíritu furóris tui congregátæ sunt aquæ:<br/>\n15:8 Stetit unda fluens, * congregátæ sunt abýssi in médio mari.<br/>\n15:9 Dixit inimícus: Pérsequar et comprehéndam, * dívidam spólia, implébitur ánima mea:<br/>\n15:10 Evaginábo gládium meum, * interfíciet eos manus mea.<br/>\n15:11 Flavit spíritus tuus, et opéruit eos mare: * submérsi sunt quasi plumbum in aquis veheméntibus.<br/>\n15:12 Quis símilis tui in fórtibus, Dómine? * quis símilis tui, magníficus in sanctitáte, terríbilis atque laudábilis, fáciens mirabília?<br/>\n15:13 Extendísti manum tuam, et devorávit eos terra. * Dux fuísti in misericórdia tua pópulo quem redemísti:<br/>\n15:14 Et portásti eum in fortitúdine tua, * ad habitáculum sanctum tuum.<br/>\n15:15 Ascendérunt pópuli, et iráti sunt: * dolóres obtinuérunt habitatóres Philísthiim.<br/>\n15:16 Tunc conturbáti sunt príncipes Edom, robústos Moab obtínuit tremor: * obriguérunt omnes habitatóres Chánaan.<br/>\n15:17 Írruat super eos formído et pavor, * in magnitúdine brácchii tui:<br/>\n15:18 Fiant immóbiles quasi lapis, donec pertránseat pópulus tuus, Dómine, * donec pertránseat pópulus tuus iste, quem possedísti.<br/>\n15:19 Introdúces eos, et plantábis in monte hereditátis tuæ, * firmíssimo habitáculo tuo quod operátus es, Dómine:<br/>\n15:20 Sanctuárium tuum, Dómine, quod firmavérunt manus tuæ. * Dóminus regnábit in ætérnum et ultra.<br/>\n15:21 Ingréssus est enim eques Phárao cum cúrribus et equítibus ejus in mare: * et redúxit super eos Dóminus aquas maris:<br/>\n15:22 Fílii autem Israël ambulavérunt per siccum * in médio ejus.<br/>\nGloria omittitur<br/>\nAnt. Exhortátus es in virtúte tua, et in refectióne sancta tua, Dómine.<br/>\n",
+      "id": "do-1962-2026-04-02-laudes-005",
+      "raw": "Ant. Exhortátus es * in virtúte tua, et in refectióne sancta tua, Dómine.\n&psalm(224)\nAnt. Exhortátus es in virtúte tua, et in refectióne sancta tua, Dómine.\n"
+    },
+    {
+      "html": "Ant. Oblátus est * quia ipse vóluit, et peccáta nostra ipse portávit.<br/>\nPsalmus 146 [5]<br/>\n146:1 Laudáte Dóminum quóniam bonus est psalmus: * Deo nostro sit jucúnda, decóraque laudátio.<br/>\n146:2 Ædíficans Jerúsalem Dóminus: * dispersiónes Israélis congregábit.<br/>\n146:3 Qui sanat contrítos corde: * et álligat contritiónes eórum.<br/>\n146:4 Qui númerat multitúdinem stellárum: * et ómnibus eis nómina vocat.<br/>\n146:5 Magnus Dóminus noster, et magna virtus ejus: * et sapiéntiæ ejus non est númerus.<br/>\n146:6 Suscípiens mansuétos Dóminus: * humílians autem peccatóres usque ad terram.<br/>\n146:7 Præcínite Dómino in confessióne: * psállite Deo nostro in cíthara.<br/>\n146:8a Qui óperit cælum núbibus: * et parat terræ plúviam.<br/>\n146:8b Qui prodúcit in móntibus fænum: * et herbam servitúti hóminum.<br/>\n146:9 Qui dat juméntis escam ipsórum: * et pullis corvórum invocántibus eum.<br/>\n146:10 Non in fortitúdine equi voluntátem habébit: * nec in tíbiis viri beneplácitum erit ei.<br/>\n146:11 Beneplácitum est Dómino super timéntes eum: * et in eis, qui sperant super misericórdia ejus.<br/>\nGloria omittitur<br/>\nAnt. Oblátus est quia ipse vóluit, et peccáta nostra ipse portávit.<br/>\n",
+      "id": "do-1962-2026-04-02-laudes-006",
+      "raw": "Ant. Oblátus est * quia ipse vóluit, et peccáta nostra ipse portávit.\n&psalm(146)\nAnt. Oblátus est quia ipse vóluit, et peccáta nostra ipse portávit.\n"
+    },
+    {
+      "html": "Versus (In loco Capituli)\n<br/>\n℣. Homo pacis meæ, in quo sperávi.<br/>\n℟. Qui edébat panes meos, ampliávit advérsum me supplantatiónem.<br/>\n",
+      "id": "do-1962-2026-04-02-laudes-007",
+      "raw": "#Versus (In loco Capituli)\nV. Homo pacis meæ, in quo sperávi.\nR. Qui edébat panes meos, ampliávit advérsum me supplantatiónem.\n\n"
+    },
+    {
+      "html": "Canticum: Benedictus {Antiphona ex Proprio de Tempore}\n<br/>\nAnt. Tráditor autem * dedit eis signum, dicens: Quem osculátus fúero, ipse est, tenéte eum.<br/>\nCanticum Zachariæ<br/>\nLuc. 1:68-79<br/>\n1:68 Benedíctus <span style='color:red; font-size:1.25em'>✠</span> Dóminus, Deus Israël: * quia visitávit, et fecit redemptiónem plebis suæ:<br/>\n1:69 Et eréxit cornu salútis nobis: * in domo David, púeri sui.<br/>\n1:70 Sicut locútus est per os sanctórum, * qui a sǽculo sunt, prophetárum ejus:<br/>\n1:71 Salútem ex inimícis nostris, * et de manu ómnium, qui odérunt nos.<br/>\n1:72 Ad faciéndam misericórdiam cum pátribus nostris: * et memorári testaménti sui sancti.<br/>\n1:73 Jusjurándum, quod jurávit ad Ábraham patrem nostrum, * datúrum se nobis:<br/>\n1:74 Ut sine timóre, de manu inimicórum nostrórum liberáti, * serviámus illi.<br/>\n1:75 In sanctitáte, et justítia coram ipso, * ómnibus diébus nostris.<br/>\n1:76 Et tu, puer, Prophéta Altíssimi vocáberis: * præíbis enim ante fáciem Dómini, paráre vias ejus:<br/>\n1:77 Ad dandam sciéntiam salútis plebi ejus: * in remissiónem peccatórum eórum:<br/>\n1:78 Per víscera misericórdiæ Dei nostri: * in quibus visitávit nos, óriens ex alto:<br/>\n1:79 Illumináre his, qui in ténebris, et in umbra mortis sedent: * ad dirigéndos pedes nostros in viam pacis.<br/>\nGloria omittitur<br/>\nAnt. Tráditor autem dedit eis signum, dicens: Quem osculátus fúero, ipse est, tenéte eum.<br/>\n",
+      "id": "do-1962-2026-04-02-laudes-008",
+      "raw": "#Canticum: Benedictus{Antiphona ex Proprio de Tempore}\nAnt. Tráditor autem * dedit eis signum, dicens: Quem osculátus fúero, ipse est, tenéte eum.\n&psalm(231)\nAnt. Tráditor autem dedit eis signum, dicens: Quem osculátus fúero, ipse est, tenéte eum.\n"
+    },
+    {
+      "html": "Preces Feriales{omittitur}<br/>\n",
+      "id": "do-1962-2026-04-02-laudes-009",
+      "raw": "#Preces Feriales{omittitur}\n"
+    },
+    {
+      "html": "Oratio {ex Proprio de Tempore}\n<br/>\nChristus factus est pro nobis obédiens usque ad mortem.<br/>\nsecreto<br/>\nPater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris: et ne nos indúcas in tentatiónem: sed líbera nos a malo. Amen.<br/>\naliquantulum altius<br/>\nRéspice, quǽsumus, Dómine, super hanc famíliam tuam, pro qua Dóminus noster Jesus Christus non dubitávit mánibus tradi nocéntium, et crucis subíre torméntum:<br/>\nEt sub silentio concluditur<br/>\nQui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-04-02-laudes-010",
+      "raw": "#Oratio{ex Proprio de Tempore}\nv. Christus factus est pro nobis obédiens usque ad mortem.\n!secreto\n$Pater noster\n!aliquantulum altius\nv. Réspice, quǽsumus, Dómine, super hanc famíliam tuam, pro qua Dóminus noster Jesus Christus non dubitávit mánibus tradi nocéntium, et crucis subíre torméntum:\n!Et sub silentio concluditur\n$Qui tecum\n\n"
+    },
+    {
+      "html": "Conclusio{omittitur}<br/>\n",
+      "id": "do-1962-2026-04-02-laudes-011",
+      "raw": "#Conclusio{omittitur}\n"
+    }
+  ],
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "warnings": []
+}

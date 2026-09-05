@@ -1,0 +1,58 @@
+{
+  "date": "2026-07-19",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "hour": "vesperae",
+  "language": "la",
+  "liturgicalTitle": "Dominica VIII Post Pentecosten ~ II. classis",
+  "rank": "Dominica VIII Post Pentecosten;;Semiduplex;;5\n\n",
+  "schemaVersion": "0.1.0",
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "units": [
+    {
+      "html": "Incipit\n<br/>\n℣. Deus <span style='color:red; font-size:1.25em'>✠</span> in adjutórium meum inténde.<br/>\n℟. Dómine, ad adjuvándum me festína.<br/>\nGlória Patri, et Fílio, * et Spirítui Sancto.<br/>\nSicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAllelúja.<br/>\n",
+      "id": "do-1962-2026-07-19-vesperae-001",
+      "raw": "#Incipit\n&Deus_in_adjutorium\n&Alleluia\n"
+    },
+    {
+      "html": "Psalmi {ex Psalterio secundum diem}\n<br/>\n",
+      "id": "do-1962-2026-07-19-vesperae-002",
+      "raw": "#Psalmi{ex Psalterio secundum diem}\n"
+    },
+    {
+      "html": "Hymnus\n<br/>\n",
+      "id": "do-1962-2026-07-19-vesperae-003",
+      "raw": "#Hymnus\n"
+    },
+    {
+      "html": "Canticum: Magnificat {Antiphona ex Proprio de Tempore}\n<br/>\nAnt. Quid fáciam, * quia dóminus meus aufert a me villicatiónem? Fódere non váleo, mendicáre erubésco. Scio quid fáciam, ut, cum amótus fúero a villicatióne, recípiant me in domos suas.<br/>\nCanticum B. Mariæ Virginis<br/>\nLuc. 1:46-55<br/>\n1:46 Magníficat <span style='color:red; font-size:1.25em'>✠</span> * ánima mea Dóminum.<br/>\n1:47 Et exsultávit spíritus meus: * in Deo, salutári meo.<br/>\n1:48 Quia respéxit humilitátem ancíllæ suæ: * ecce enim ex hoc beátam me dicent omnes generatiónes.<br/>\n1:49 Quia fecit mihi magna qui potens est: * et sanctum nomen ejus.<br/>\n1:50 Et misericórdia ejus, a progénie in progénies: * timéntibus eum.<br/>\n1:51 Fecit poténtiam in brácchio suo: * dispérsit supérbos mente cordis sui.<br/>\n1:52 Depósuit poténtes de sede: * et exaltávit húmiles.<br/>\n1:53 Esuriéntes implévit bonis: * et dívites dimísit inánes.<br/>\n1:54 Suscépit Israël púerum suum: * recordátus misericórdiæ suæ.<br/>\n1:55 Sicut locútus est ad patres nostros: * Ábraham, et sémini ejus in sǽcula.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Quid fáciam, quia dóminus meus aufert a me villicatiónem? Fódere non váleo, mendicáre erubésco. Scio quid fáciam, ut, cum amótus fúero a villicatióne, recípiant me in domos suas.<br/>\n",
+      "id": "do-1962-2026-07-19-vesperae-004",
+      "raw": "#Canticum: Magnificat{Antiphona ex Proprio de Tempore}\nAnt. Quid fáciam, * quia dóminus meus aufert a me villicatiónem? Fódere non váleo, mendicáre erubésco. Scio quid fáciam, ut, cum amótus fúero a villicatióne, recípiant me in domos suas.\n&psalm(232)\nAnt. Quid fáciam, quia dóminus meus aufert a me villicatiónem? Fódere non váleo, mendicáre erubésco. Scio quid fáciam, ut, cum amótus fúero a villicatióne, recípiant me in domos suas.\n"
+    },
+    {
+      "html": "Preces Feriales{omittitur}<br/>\n",
+      "id": "do-1962-2026-07-19-vesperae-005",
+      "raw": "#Preces Feriales{omittitur}\n"
+    },
+    {
+      "html": "Oratio {ex Proprio de Tempore}\n<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\nOrémus.<br/>\nLargíre nobis, quǽsumus, Dómine, semper spíritum cogitándi quæ recta sunt, propítius et agéndi: ut, qui sine te esse non póssumus, secúndum te vívere valeámus.<br/>\nPer Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-07-19-vesperae-006",
+      "raw": "#Oratio{ex Proprio de Tempore}\n&Dominus_vobiscum\nv. Orémus.\nv. Largíre nobis, quǽsumus, Dómine, semper spíritum cogitándi quæ recta sunt, propítius et agéndi: ut, qui sine te esse non póssumus, secúndum te vívere valeámus.\n$Per Dominum\n\n"
+    },
+    {
+      "html": "Conclusio\n<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\n℣. Benedicámus Dómino.<br/>\n℟. Deo grátias.<br/>\n℣. Fidélium ánimæ per misericórdiam Dei requiéscant in pace.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-07-19-vesperae-007",
+      "raw": "#Conclusio\n&Dominus_vobiscum\n&Benedicamus_Domino\n$Fidelium animae\n"
+    }
+  ],
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "warnings": []
+}

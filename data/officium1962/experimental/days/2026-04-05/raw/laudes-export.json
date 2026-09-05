@@ -1,0 +1,83 @@
+{
+  "date": "2026-04-05",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "hour": "laudes",
+  "language": "la",
+  "liturgicalTitle": "Dominica Resurrectionis ~ I. classis",
+  "rank": "Dominica Resurrectionis;;Duplex I classis cum Octava Privilegiata I;;7\n\n",
+  "schemaVersion": "0.1.0",
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "units": [
+    {
+      "html": "Cum solemnis vigiliæ paschalis celebratio locum obtineat officii nocturni dominicæ Resurrectionis, Matutino ejusdem dominicæ Resurrectionis omisso, statim inter Missarum vigiliæ solemnia, post communionem, cantatur Laudes. Officium dominicæ Resurrectionis prosequitur deínde cum Prima.<br/>\n_<br/>\nQui vero solemni vigiliæ paschali non interfuerunt, tenentur dicere Matutinum et Laudes dominicæ Resurrectionis.<br/>\n",
+      "id": "do-1962-2026-04-05-laudes-001",
+      "raw": "!Cum solemnis vigiliæ paschalis celebratio locum obtineat officii nocturni dominicæ Resurrectionis, Matutino ejusdem dominicæ Resurrectionis omisso, statim inter Missarum vigiliæ solemnia, post communionem, cantatur Laudes. Officium dominicæ Resurrectionis prosequitur deínde cum Prima.\n_\n!Qui vero solemni vigiliæ paschali non interfuerunt, tenentur dicere Matutinum et Laudes dominicæ Resurrectionis.\n\n"
+    },
+    {
+      "html": "Incipit\n<br/>\n℣. Deus <span style='color:red; font-size:1.25em'>✠</span> in adjutórium meum inténde.<br/>\n℟. Dómine, ad adjuvándum me festína.<br/>\nGlória Patri, et Fílio, * et Spirítui Sancto.<br/>\nSicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAllelúja.<br/>\n",
+      "id": "do-1962-2026-04-05-laudes-002",
+      "raw": "#Incipit\n&Deus_in_adjutorium\n&Alleluia\n"
+    },
+    {
+      "html": "Psalmi {Psalmi & antiphonæ  ex Proprio de Tempore}\n<br/>\nAnt. Angelus autem Dómini * descéndit de cælo, et accédens revólvit lápidem, et sedébat super eum, allelúja, allelúja.<br/>\nPsalmus 92 [1]<br/>\n92:1a Dóminus regnávit, decórem indútus est: * indútus est Dóminus fortitúdinem, et præcínxit se.<br/>\n92:1b Étenim firmávit orbem terræ, * qui non commovébitur.<br/>\n92:2 Paráta sedes tua ex tunc: * a sǽculo tu es.<br/>\n92:3a Elevavérunt flúmina, Dómine: * elevavérunt flúmina vocem suam.<br/>\n92:3b Elevavérunt flúmina fluctus suos, * (4a) a vócibus aquárum multárum.<br/>\n92:4b Mirábiles elatiónes maris: * mirábilis in altis Dóminus.<br/>\n92:5 Testimónia tua credibília facta sunt nimis: * domum tuam decet sanctitúdo, Dómine, in longitúdinem diérum.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Angelus autem Dómini descéndit de cælo, et accédens revólvit lápidem, et sedébat super eum, allelúja, allelúja.<br/>\n",
+      "id": "do-1962-2026-04-05-laudes-003",
+      "raw": "#Psalmi{Psalmi & antiphonæ  ex Proprio de Tempore}\nAnt. Angelus autem Dómini * descéndit de cælo, et accédens revólvit lápidem, et sedébat super eum, allelúja, allelúja.\n&psalm(92)\nAnt. Angelus autem Dómini descéndit de cælo, et accédens revólvit lápidem, et sedébat super eum, allelúja, allelúja.\n"
+    },
+    {
+      "html": "Ant. Et ecce terræmótus * factus est magnus: Angelus enim Dómini descéndit de cælo, allelúja.<br/>\nPsalmus 99 [2]<br/>\n99:2a Jubiláte Deo, omnis terra: * servíte Dómino in lætítia.<br/>\n99:2b Introíte in conspéctu ejus, * in exsultatióne.<br/>\n99:3a Scitóte quóniam Dóminus ipse est Deus: * ipse fecit nos, et non ipsi nos.<br/>\n99:3b Pópulus ejus, et oves páscuæ ejus: † (4a) introíte portas ejus in confessióne, * átria ejus in hymnis: confitémini illi.<br/>\n99:4b Laudáte nomen ejus: (5) quóniam suávis est Dóminus, † in ætérnum misericórdia ejus, * et usque in generatiónem et generatiónem véritas ejus.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Et ecce terræmótus factus est magnus: Angelus enim Dómini descéndit de cælo, allelúja.<br/>\n",
+      "id": "do-1962-2026-04-05-laudes-004",
+      "raw": "Ant. Et ecce terræmótus * factus est magnus: Angelus enim Dómini descéndit de cælo, allelúja.\n&psalm(99)\nAnt. Et ecce terræmótus factus est magnus: Angelus enim Dómini descéndit de cælo, allelúja.\n"
+    },
+    {
+      "html": "Ant. Erat autem * aspéctus ejus sicut fulgur, vestiménta autem ejus sicut nix, allelúja, allelúja.<br/>\nPsalmus 62 [3]<br/>\n62:2a Deus, Deus meus, * ad te de luce vígilo.<br/>\n62:2b Sitívit in te ánima mea, * quam multiplíciter tibi caro mea.<br/>\n62:3 In terra desérta, et ínvia, et inaquósa: † sic in sancto appárui tibi, * ut vidérem virtútem tuam, et glóriam tuam.<br/>\n62:4 Quóniam mélior est misericórdia tua super vitas: * lábia mea laudábunt te.<br/>\n62:5 Sic benedícam te in vita mea: * et in nómine tuo levábo manus meas.<br/>\n62:6 Sicut ádipe et pinguédine repleátur ánima mea: * et lábiis exsultatiónis laudábit os meum.<br/>\n62:7 Si memor fui tui super stratum meum, † in matutínis meditábor in te: * (8a) quia fuísti adjútor meus.<br/>\n62:8b Et in velaménto alárum tuárum exsultábo, † (9) adhǽsit ánima mea post te: * me suscépit déxtera tua.<br/>\n62:10 Ipsi vero in vanum quæsiérunt ánimam meam, † introíbunt in inferióra terræ: * (11) tradéntur in manus gládii, partes vúlpium erunt.<br/>\n62:12 Rex vero lætábitur in Deo, † laudabúntur omnes qui jurant in eo: * quia obstrúctum est os loquéntium iníqua.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Erat autem aspéctus ejus sicut fulgur, vestiménta autem ejus sicut nix, allelúja, allelúja.<br/>\n",
+      "id": "do-1962-2026-04-05-laudes-005",
+      "raw": "Ant. Erat autem * aspéctus ejus sicut fulgur, vestiménta autem ejus sicut nix, allelúja, allelúja.\n&psalm(62)\nAnt. Erat autem aspéctus ejus sicut fulgur, vestiménta autem ejus sicut nix, allelúja, allelúja.\n"
+    },
+    {
+      "html": "Ant. Præ timóre autem ejus * extérriti sunt custódes, et facti sunt velut mórtui, allelúja.<br/>\nCanticum Trium Puerorum [4]<br/>\nDan 3:57-88,56<br/>\n3:57 Benedícite, ómnia ópera Dómini, Dómino: * laudáte et superexaltáte eum in sǽcula.<br/>\n3:58 Benedícite, Ángeli Dómini, Dómino: * benedícite, cæli, Dómino.<br/>\n3:59 Benedícite, aquæ omnes, quæ super cælos sunt, Dómino: * benedícite, omnes virtútes Dómini, Dómino.<br/>\n3:60 Benedícite, sol et luna, Dómino: * benedícite, stellæ cæli, Dómino.<br/>\n3:61 Benedícite, omnis imber et ros, Dómino: * benedícite, omnes spíritus Dei, Dómino.<br/>\n3:62 Benedícite, ignis et æstus, Dómino: * benedícite, frigus et æstus, Dómino.<br/>\n3:63 Benedícite, rores et pruína, Dómino: * benedícite, gelu et frigus, Dómino.<br/>\n3:64 Benedícite, glácies et nives, Dómino: * benedícite, noctes et dies, Dómino.<br/>\n3:65 Benedícite, lux et ténebræ, Dómino: * benedícite, fúlgura et nubes, Dómino.<br/>\n3:66 Benedícat terra Dóminum: * laudet et superexáltet eum in sǽcula.<br/>\n3:67 Benedícite, montes et colles, Dómino: * benedícite, univérsa germinántia in terra, Dómino.<br/>\n3:68 Benedícite, fontes, Dómino: * benedícite, mária et flúmina, Dómino.<br/>\n3:69 Benedícite, cete, et ómnia, quæ movéntur in aquis, Dómino: * benedícite, omnes vólucres cæli, Dómino.<br/>\n3:70 Benedícite, omnes béstiæ et pécora, Dómino: * benedícite, fílii hóminum, Dómino.<br/>\n3:71 Benedícat Israël Dóminum: * laudet et superexáltet eum in sǽcula.<br/>\n3:72 Benedícite, sacerdótes Dómini, Dómino: * benedícite, servi Dómini, Dómino.<br/>\n3:73 Benedícite, spíritus, et ánimæ justórum, Dómino: * benedícite, sancti, et húmiles corde, Dómino.<br/>\n3:74 Benedícite, Ananía, Azaría, Mísaël, Dómino: * laudáte et superexaltáte eum in sǽcula.<br/>\n3:75 (Fit reverentia:) Benedicámus Patrem et Fílium cum Sancto Spíritu: * laudémus et superexaltémus eum in sǽcula.<br/>\n3:56 Benedíctus es, Dómine, in firmaménto cæli: * et laudábilis, et gloriósus, et superexaltátus in sǽcula.<br/>\nAnt. Præ timóre autem ejus extérriti sunt custódes, et facti sunt velut mórtui, allelúja.<br/>\n",
+      "id": "do-1962-2026-04-05-laudes-006",
+      "raw": "Ant. Præ timóre autem ejus * extérriti sunt custódes, et facti sunt velut mórtui, allelúja.\n&psalm(210)\nAnt. Præ timóre autem ejus extérriti sunt custódes, et facti sunt velut mórtui, allelúja.\n"
+    },
+    {
+      "html": "Ant. Respóndens autem Angelus, * dixit muliéribus: Nolíte timére: scio enim quod Jesum quǽritis, allelúja.<br/>\nPsalmus 148 [5]<br/>\n148:1 Laudáte Dóminum de cælis: * laudáte eum in excélsis.<br/>\n148:2 Laudáte eum, omnes Ángeli ejus: * laudáte eum, omnes virtútes ejus.<br/>\n148:3 Laudáte eum, sol et luna: * laudáte eum, omnes stellæ et lumen.<br/>\n148:4 Laudáte eum, cæli cælórum: * et aquæ omnes, quæ super cælos sunt, laudent nomen Dómini.<br/>\n148:5 Quia ipse dixit, et facta sunt: * ipse mandávit, et creáta sunt.<br/>\n148:6 Státuit ea in ætérnum, et in sǽculum sǽculi: * præcéptum pósuit, et non præteríbit.<br/>\n148:7 Laudáte Dóminum de terra, * dracónes, et omnes abýssi.<br/>\n148:8 Ignis, grando, nix, glácies, spíritus procellárum: * quæ fáciunt verbum ejus:<br/>\n148:9 Montes, et omnes colles: * ligna fructífera, et omnes cedri.<br/>\n148:10 Béstiæ, et univérsa pécora: * serpéntes, et vólucres pennátæ:<br/>\n148:11 Reges terræ, et omnes pópuli: * príncipes, et omnes júdices terræ.<br/>\n148:12 Júvenes, et vírgines: † senes cum junióribus laudent nomen Dómini: * (13) quia exaltátum est nomen ejus solíus.<br/>\n148:14a Conféssio ejus super cælum et terram: * et exaltávit cornu pópuli sui.<br/>\n148:14b Hymnus ómnibus sanctis ejus: * fíliis Israël, pópulo appropinquánti sibi.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Respóndens autem Angelus, dixit muliéribus: Nolíte timére: scio enim quod Jesum quǽritis, allelúja.<br/>\n",
+      "id": "do-1962-2026-04-05-laudes-007",
+      "raw": "Ant. Respóndens autem Angelus, * dixit muliéribus: Nolíte timére: scio enim quod Jesum quǽritis, allelúja.\n&psalm(148)\nAnt. Respóndens autem Angelus, dixit muliéribus: Nolíte timére: scio enim quod Jesum quǽritis, allelúja.\n"
+    },
+    {
+      "html": "Versus (In loco Capituli)\n<br/>\nAnt. Hæc dies * quam fecit Dóminus: exsultémus et lætémur in ea.<br/>\n",
+      "id": "do-1962-2026-04-05-laudes-008",
+      "raw": "#Versus (In loco Capituli)\nAnt. Hæc dies * quam fecit Dóminus: exsultémus et lætémur in ea.\n\n"
+    },
+    {
+      "html": "Canticum: Benedictus {Antiphona ex Proprio de Tempore}\n<br/>\nAnt. Et valde mane * una sabbatórum véniunt ad monuméntum, orto jam sole, allelúja.<br/>\nCanticum Zachariæ<br/>\nLuc. 1:68-79<br/>\n1:68 Benedíctus <span style='color:red; font-size:1.25em'>✠</span> Dóminus, Deus Israël: * quia visitávit, et fecit redemptiónem plebis suæ:<br/>\n1:69 Et eréxit cornu salútis nobis: * in domo David, púeri sui.<br/>\n1:70 Sicut locútus est per os sanctórum, * qui a sǽculo sunt, prophetárum ejus:<br/>\n1:71 Salútem ex inimícis nostris, * et de manu ómnium, qui odérunt nos.<br/>\n1:72 Ad faciéndam misericórdiam cum pátribus nostris: * et memorári testaménti sui sancti.<br/>\n1:73 Jusjurándum, quod jurávit ad Ábraham patrem nostrum, * datúrum se nobis:<br/>\n1:74 Ut sine timóre, de manu inimicórum nostrórum liberáti, * serviámus illi.<br/>\n1:75 In sanctitáte, et justítia coram ipso, * ómnibus diébus nostris.<br/>\n1:76 Et tu, puer, Prophéta Altíssimi vocáberis: * præíbis enim ante fáciem Dómini, paráre vias ejus:<br/>\n1:77 Ad dandam sciéntiam salútis plebi ejus: * in remissiónem peccatórum eórum:<br/>\n1:78 Per víscera misericórdiæ Dei nostri: * in quibus visitávit nos, óriens ex alto:<br/>\n1:79 Illumináre his, qui in ténebris, et in umbra mortis sedent: * ad dirigéndos pedes nostros in viam pacis.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Et valde mane una sabbatórum véniunt ad monuméntum, orto jam sole, allelúja.<br/>\n",
+      "id": "do-1962-2026-04-05-laudes-009",
+      "raw": "#Canticum: Benedictus{Antiphona ex Proprio de Tempore}\nAnt. Et valde mane * una sabbatórum véniunt ad monuméntum, orto jam sole, allelúja.\n&psalm(231)\nAnt. Et valde mane una sabbatórum véniunt ad monuméntum, orto jam sole, allelúja.\n"
+    },
+    {
+      "html": "Preces Feriales{omittitur}<br/>\n",
+      "id": "do-1962-2026-04-05-laudes-010",
+      "raw": "#Preces Feriales{omittitur}\n"
+    },
+    {
+      "html": "Oratio {ex Proprio de Tempore}\n<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\nOrémus.<br/>\nDeus, qui hodiérna die per Unigénitum tuum æternitátis nobis áditum devícta morte reserásti: vota nostra, quæ præveniéndo aspíras, étiam adjuvándo proséquere.<br/>\nPer eúmdem Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-04-05-laudes-011",
+      "raw": "#Oratio{ex Proprio de Tempore}\n&Dominus_vobiscum\nv. Orémus.\nv. Deus, qui hodiérna die per Unigénitum tuum æternitátis nobis áditum devícta morte reserásti: vota nostra, quæ præveniéndo aspíras, étiam adjuvándo proséquere.\n$Per eumdem\n\n"
+    },
+    {
+      "html": "Conclusio\n<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\n℣. Benedicámus Dómino, allelúja, allelúja.<br/>\n℟. Deo grátias, allelúja, allelúja.<br/>\n℣. Fidélium ánimæ per misericórdiam Dei requiéscant in pace.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-04-05-laudes-012",
+      "raw": "#Conclusio\n&Dominus_vobiscum\n&Benedicamus_Domino\n$Fidelium animae\n"
+    }
+  ],
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "warnings": []
+}

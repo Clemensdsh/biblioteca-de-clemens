@@ -1,0 +1,1917 @@
+{
+  "calendar": {
+    "checksum": "326931dff9f8d60a11f17436cafce0e94cfcb12705d0dee189d016d6b59e47fb",
+    "path": "calendar.json"
+  },
+  "dateHourCount": 2920,
+  "dateRange": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+  },
+  "dayCount": 365,
+  "days": [
+    {
+      "checksum": "a95131fdded4a6149634596a04331da9ee2759284d56ac06f4811ade8014be22",
+      "date": "2026-01-01",
+      "path": "days/2026-01-01.json"
+    },
+    {
+      "checksum": "e780e600f199e3ff5e7dc601f30efa5817856594b2859a09306dea523fc490cd",
+      "date": "2026-01-02",
+      "path": "days/2026-01-02.json"
+    },
+    {
+      "checksum": "c11c97c4b228488e243ef7f587af301a2ef67c6f1db7b6a0a7da3f58937b6d0b",
+      "date": "2026-01-03",
+      "path": "days/2026-01-03.json"
+    },
+    {
+      "checksum": "a9e3daff64b1776529c871dfd872b01363959501700592aad40de8315b975403",
+      "date": "2026-01-04",
+      "path": "days/2026-01-04.json"
+    },
+    {
+      "checksum": "cac6d78b18e4c43ff32f994f8b17f186c1210c8a394609f4802183e736e00e77",
+      "date": "2026-01-05",
+      "path": "days/2026-01-05.json"
+    },
+    {
+      "checksum": "3dc843e25997c21ae327dfccec9847bb002315fa11647389a3f12b14116156c6",
+      "date": "2026-01-06",
+      "path": "days/2026-01-06.json"
+    },
+    {
+      "checksum": "8f6e82606242226865659589c032268a4873f3e52d8e773742f044764466a535",
+      "date": "2026-01-07",
+      "path": "days/2026-01-07.json"
+    },
+    {
+      "checksum": "10d665ad3b7cb6249744743ad17a19246c8375767ef7a447410fbf9f5f4faa22",
+      "date": "2026-01-08",
+      "path": "days/2026-01-08.json"
+    },
+    {
+      "checksum": "479300a2707da57bf3622cf6a1089a2ffd0e3d24b4fd94803eb76dc74be5317a",
+      "date": "2026-01-09",
+      "path": "days/2026-01-09.json"
+    },
+    {
+      "checksum": "3faa2e525c9211cf93c0eba1493544a7d99aa4aa2c66e1942f0bab078b6df598",
+      "date": "2026-01-10",
+      "path": "days/2026-01-10.json"
+    },
+    {
+      "checksum": "68b591a39ceff421f2f23af66ef305bbe11d7eca986bfe4bc06228af51c17193",
+      "date": "2026-01-11",
+      "path": "days/2026-01-11.json"
+    },
+    {
+      "checksum": "530439ffe1ae7ab49b6eeb98a6c7b019d074c89c5fc1ee6ce9d5272ba1b074f5",
+      "date": "2026-01-12",
+      "path": "days/2026-01-12.json"
+    },
+    {
+      "checksum": "1bd0a283be1d17c1cd942841247f639ec76cb6422fe8939ba6f6ad0b2a26cad1",
+      "date": "2026-01-13",
+      "path": "days/2026-01-13.json"
+    },
+    {
+      "checksum": "ce9ad95944f02478d0df669e3ff70e507ac84200d3830e5561787771507c906a",
+      "date": "2026-01-14",
+      "path": "days/2026-01-14.json"
+    },
+    {
+      "checksum": "3dccdc493650343caf0e62e7314b7f48a09551d6dbb4d137122d23bc1b1a96b5",
+      "date": "2026-01-15",
+      "path": "days/2026-01-15.json"
+    },
+    {
+      "checksum": "7e720add1d04f8e2e5fa89c102bbf250e1cfd6d180f1ebfe24a4e68f3721b2f2",
+      "date": "2026-01-16",
+      "path": "days/2026-01-16.json"
+    },
+    {
+      "checksum": "40a046d2b160496d3aebd496baf4371ec9ec1c6738636e7cac4d5da6f7a98da8",
+      "date": "2026-01-17",
+      "path": "days/2026-01-17.json"
+    },
+    {
+      "checksum": "d308be110603eaaba5c357b934033115fc1d6907173e5bb043c63e7005af9397",
+      "date": "2026-01-18",
+      "path": "days/2026-01-18.json"
+    },
+    {
+      "checksum": "bc508c34134321659102467ffbfe2a87e8b2430eadd0e6b5e20f589ffb786b63",
+      "date": "2026-01-19",
+      "path": "days/2026-01-19.json"
+    },
+    {
+      "checksum": "d6e5d72bf18358ebaa94a48216591fac002a9ee39724127b11eb11581b99053c",
+      "date": "2026-01-20",
+      "path": "days/2026-01-20.json"
+    },
+    {
+      "checksum": "3d4b8d50d68294a15edd8a7e14d7c05c0cfb8cde86d6ee422eab78b0b1e6f93b",
+      "date": "2026-01-21",
+      "path": "days/2026-01-21.json"
+    },
+    {
+      "checksum": "41033cf5d3012082cb4c86786aeace0037918d2f4eb66ec80a87018732869792",
+      "date": "2026-01-22",
+      "path": "days/2026-01-22.json"
+    },
+    {
+      "checksum": "cbf33559b6c20396f02c0141ce2edfdadcd3524dfbd7b616691000be3ff380ef",
+      "date": "2026-01-23",
+      "path": "days/2026-01-23.json"
+    },
+    {
+      "checksum": "585c0e9e0ea0c71dd1316a608e131dd95e6dd6fb6543657f1f1ac39b3c7a0670",
+      "date": "2026-01-24",
+      "path": "days/2026-01-24.json"
+    },
+    {
+      "checksum": "2725f3da400fa48dd90c6502289e1ec06dfd691ae72f118f06c16c102efda9f8",
+      "date": "2026-01-25",
+      "path": "days/2026-01-25.json"
+    },
+    {
+      "checksum": "b353062319e6f081f5b5e3a4f1a8aee67913b5a58f61bc1c07a4276e559e6c04",
+      "date": "2026-01-26",
+      "path": "days/2026-01-26.json"
+    },
+    {
+      "checksum": "ceba94540ad3479d5fed75c9b02a6ec247d8b62fcaf1b82a8e24763bd5906b2c",
+      "date": "2026-01-27",
+      "path": "days/2026-01-27.json"
+    },
+    {
+      "checksum": "4d3f446894dcdc089120d6475b0cf368d0a007d80c353248212d643549b4a9bf",
+      "date": "2026-01-28",
+      "path": "days/2026-01-28.json"
+    },
+    {
+      "checksum": "652f190cc282cea9b1d795a825993a33e620ea8b01c92c1e444bccf8ac0e0169",
+      "date": "2026-01-29",
+      "path": "days/2026-01-29.json"
+    },
+    {
+      "checksum": "b1af713ef5d1844c5a642e5f49f25edf758eb9a2491f5f33f6d720020ebd07ca",
+      "date": "2026-01-30",
+      "path": "days/2026-01-30.json"
+    },
+    {
+      "checksum": "ce8b63fce4e3e3d7d81d35ef15c478dd37edec2f2d495c8696a06340dc7158d9",
+      "date": "2026-01-31",
+      "path": "days/2026-01-31.json"
+    },
+    {
+      "checksum": "18439f4a3a731458a3b80c5e2766e448bbd7fc6a436cd35f55f0c8fe3c77fbb9",
+      "date": "2026-02-01",
+      "path": "days/2026-02-01.json"
+    },
+    {
+      "checksum": "2c8661c66421238b6bfff93e2632d9a83845eeb194ebbfc8cd8e9c4af69ea202",
+      "date": "2026-02-02",
+      "path": "days/2026-02-02.json"
+    },
+    {
+      "checksum": "7ef7877ef5467529a3d6e7e760e2c6ec51ecbdedf7b7e8b5baef073f2d9a6d5c",
+      "date": "2026-02-03",
+      "path": "days/2026-02-03.json"
+    },
+    {
+      "checksum": "e79cbf0489d4c7f117dfc116c628f0c042021a0228764043d9d0845fb2a44c24",
+      "date": "2026-02-04",
+      "path": "days/2026-02-04.json"
+    },
+    {
+      "checksum": "ae1e5125e4409bf530adbc1a289261a56396a7a55af663fa996455f6018b02e3",
+      "date": "2026-02-05",
+      "path": "days/2026-02-05.json"
+    },
+    {
+      "checksum": "2257992d8782c6c2b090eae15e798a517dab668d4a6be4efadb6fee5c175f897",
+      "date": "2026-02-06",
+      "path": "days/2026-02-06.json"
+    },
+    {
+      "checksum": "c0cea675e7d05ca51e25ddb127afe45a870acee5eee363861d05257e2a297f83",
+      "date": "2026-02-07",
+      "path": "days/2026-02-07.json"
+    },
+    {
+      "checksum": "4037b93654fef710c1c88aef3aebf13b29bf67a0b5682a0ce9a79c105c2a3ab2",
+      "date": "2026-02-08",
+      "path": "days/2026-02-08.json"
+    },
+    {
+      "checksum": "693833133085c31d0f5ff82dd8328f9c624fecbbb8cab13ad02deaf5a4f15344",
+      "date": "2026-02-09",
+      "path": "days/2026-02-09.json"
+    },
+    {
+      "checksum": "e70f6823255082d951be69911a3056716f9b9031abb896c3e18783c5996041ca",
+      "date": "2026-02-10",
+      "path": "days/2026-02-10.json"
+    },
+    {
+      "checksum": "90c33eb1de90300fe80259df6ba9f5ccfac35f69d7c0b2346b72fcf7d4f2c397",
+      "date": "2026-02-11",
+      "path": "days/2026-02-11.json"
+    },
+    {
+      "checksum": "ee5e2404bbfe36dce2635c60ff395893dd7ed1203a2081d67896cb287a48f74e",
+      "date": "2026-02-12",
+      "path": "days/2026-02-12.json"
+    },
+    {
+      "checksum": "04b43894344c1fe1ceeab557c34a8c77230e30ffc2914aae9b148e31a3617e46",
+      "date": "2026-02-13",
+      "path": "days/2026-02-13.json"
+    },
+    {
+      "checksum": "985d4bed1a5205e4674e5689a29c5220e6820516bd9eb9371276d7cb887a284a",
+      "date": "2026-02-14",
+      "path": "days/2026-02-14.json"
+    },
+    {
+      "checksum": "ab169693c24c7592ef61593a380f7a9734b73d5f29906b843cc0232140236edb",
+      "date": "2026-02-15",
+      "path": "days/2026-02-15.json"
+    },
+    {
+      "checksum": "c925b9f308634b8b947c207c7f994b44737f31a55dbd9a66b5921543992df6ce",
+      "date": "2026-02-16",
+      "path": "days/2026-02-16.json"
+    },
+    {
+      "checksum": "34d2b37cf01cf6277c8be12dfb8653cbb1897e5063da1cd8e184752ca59c7d2f",
+      "date": "2026-02-17",
+      "path": "days/2026-02-17.json"
+    },
+    {
+      "checksum": "f41669ac159e657dd85e1f7cda17c9d407e8053761b0a73f810ff5a2859161d1",
+      "date": "2026-02-18",
+      "path": "days/2026-02-18.json"
+    },
+    {
+      "checksum": "d9929efd7b57001b463e93dfff3661fabccb68956204f5a118cab1da6eed68cb",
+      "date": "2026-02-19",
+      "path": "days/2026-02-19.json"
+    },
+    {
+      "checksum": "3b102055d757d88d640221b2a15110df04cd6a0ff61d86f5afbcfc3ad33fd713",
+      "date": "2026-02-20",
+      "path": "days/2026-02-20.json"
+    },
+    {
+      "checksum": "ed5905161cc26a9d067db7efccdef80eb14eba5429fe7a18b1eb3d3d3fb21d91",
+      "date": "2026-02-21",
+      "path": "days/2026-02-21.json"
+    },
+    {
+      "checksum": "9a9478770fc3c4787edf5b7f68b441a07df1d474042b4d31ac1a183695911a47",
+      "date": "2026-02-22",
+      "path": "days/2026-02-22.json"
+    },
+    {
+      "checksum": "b89547090cf407499ccc0ef2dcd37cef58e4e4194d8c9ba2d0a4936ed8a6065f",
+      "date": "2026-02-23",
+      "path": "days/2026-02-23.json"
+    },
+    {
+      "checksum": "0d044fafa8bdeb7138724167339efd673baf00db48e468be24ed8e03fbb02fe0",
+      "date": "2026-02-24",
+      "path": "days/2026-02-24.json"
+    },
+    {
+      "checksum": "558a56b24db23cb7d244ae24ba3d5c94c2217d7f2a8a47559195cbff741eddc1",
+      "date": "2026-02-25",
+      "path": "days/2026-02-25.json"
+    },
+    {
+      "checksum": "53b5f4a7d676a1b455395434da60a201ef9687b30e1cc34510f92784e0d8467e",
+      "date": "2026-02-26",
+      "path": "days/2026-02-26.json"
+    },
+    {
+      "checksum": "bc9887a683ba1c9a08176e3d764cc020486f5c1cc59a3ec40ec1d413c848c9dd",
+      "date": "2026-02-27",
+      "path": "days/2026-02-27.json"
+    },
+    {
+      "checksum": "e70c4b678d9805dc2bdda6abbc7282e42b84bc366c105e56a01d107259463ca8",
+      "date": "2026-02-28",
+      "path": "days/2026-02-28.json"
+    },
+    {
+      "checksum": "a34a208d97e760dda1965fd9b3a28e11a78118d0d1a4c3e11b1046e3ec9c2745",
+      "date": "2026-03-01",
+      "path": "days/2026-03-01.json"
+    },
+    {
+      "checksum": "f91bc4b9b3be36cd012b7409809fd33519c8f21cb560c877313c9a191b30cfea",
+      "date": "2026-03-02",
+      "path": "days/2026-03-02.json"
+    },
+    {
+      "checksum": "34849a52bb68ae252d339c66b8199732796aef2943d045db0674d22db5d60092",
+      "date": "2026-03-03",
+      "path": "days/2026-03-03.json"
+    },
+    {
+      "checksum": "b1e5f13943b1f882ffc16d5ca903aed753a1c28e6a8574703c061e56701af068",
+      "date": "2026-03-04",
+      "path": "days/2026-03-04.json"
+    },
+    {
+      "checksum": "4ab538002155094a111be1fa3ed19954769131d8cc0248b37d240360cf43f146",
+      "date": "2026-03-05",
+      "path": "days/2026-03-05.json"
+    },
+    {
+      "checksum": "000b51191e0771003c8445228b37f2f7e69ec0cdde3e31aa5bfa37a47b2ce6ce",
+      "date": "2026-03-06",
+      "path": "days/2026-03-06.json"
+    },
+    {
+      "checksum": "5044626c92f467c69167e0f8bea23f9b50c548eb4783b3839eb92a94f0772977",
+      "date": "2026-03-07",
+      "path": "days/2026-03-07.json"
+    },
+    {
+      "checksum": "24c2fcde38a40aa60f5a40fd56a74b0b63b58ba4751d34bafeca3a53b92e8c94",
+      "date": "2026-03-08",
+      "path": "days/2026-03-08.json"
+    },
+    {
+      "checksum": "040e9211f6738d16c4961d0429deeebb80158150a43a081730eb5d41e57b6364",
+      "date": "2026-03-09",
+      "path": "days/2026-03-09.json"
+    },
+    {
+      "checksum": "0c04d4fc3011560e46d3a33eab30f6d94fb8738d0def6074e3237b6d06e24f1e",
+      "date": "2026-03-10",
+      "path": "days/2026-03-10.json"
+    },
+    {
+      "checksum": "d1814b724739a6f6c42d0c4ed80256b015b1373e9c341b21421ee49ba886b967",
+      "date": "2026-03-11",
+      "path": "days/2026-03-11.json"
+    },
+    {
+      "checksum": "0ca5d44e56da9d02837f3e88f5e9600196e9db4888d413465bceddf5f70fbc0c",
+      "date": "2026-03-12",
+      "path": "days/2026-03-12.json"
+    },
+    {
+      "checksum": "4fedecef93f7787286d76e4ae87a2a1f25778ae639a1e554b9225f4a29265314",
+      "date": "2026-03-13",
+      "path": "days/2026-03-13.json"
+    },
+    {
+      "checksum": "29cd0573e21891cf20484951e8e79cfebb47cd16d998da5d1e27f339aa62c308",
+      "date": "2026-03-14",
+      "path": "days/2026-03-14.json"
+    },
+    {
+      "checksum": "4e8b30acfa5defe74e680f84ec208821a92437ee842c3bc9df328383581c0277",
+      "date": "2026-03-15",
+      "path": "days/2026-03-15.json"
+    },
+    {
+      "checksum": "0f2b3cea1e457b786946632614d6538c3422a38bc7f602ddfaeb1086150f05f6",
+      "date": "2026-03-16",
+      "path": "days/2026-03-16.json"
+    },
+    {
+      "checksum": "79a592a34dd21095188c8a56e05629e6af5028cede1c45c66dc3e36d91ca275e",
+      "date": "2026-03-17",
+      "path": "days/2026-03-17.json"
+    },
+    {
+      "checksum": "2bf7658f05f0c3cb1342acee30a22675c78b8d7c48bebfdf9334f2bb75468647",
+      "date": "2026-03-18",
+      "path": "days/2026-03-18.json"
+    },
+    {
+      "checksum": "1df2696031093fc021eb64d92e53721d4f34eba7180afbab67486a7bbed5302a",
+      "date": "2026-03-19",
+      "path": "days/2026-03-19.json"
+    },
+    {
+      "checksum": "cb838d2f73901e141db514c81f4d3f735a5b0e5409b139fbe82848023aa816e1",
+      "date": "2026-03-20",
+      "path": "days/2026-03-20.json"
+    },
+    {
+      "checksum": "7368612a1bcd0c61315eabef3bb9bb0b0221094c3018e68b864e0f493ae6e685",
+      "date": "2026-03-21",
+      "path": "days/2026-03-21.json"
+    },
+    {
+      "checksum": "e86e11f9661e99a6995e8f5e8b0b31d226b4947ba5864a065bac048c86de4d7b",
+      "date": "2026-03-22",
+      "path": "days/2026-03-22.json"
+    },
+    {
+      "checksum": "57191ca6d67c3d227eefb2c6db28d2ae4118139be56a9f6e9926803c0984696f",
+      "date": "2026-03-23",
+      "path": "days/2026-03-23.json"
+    },
+    {
+      "checksum": "a3134a550d436251435d982c0f2dad0c1d18c5aacf8553863889f74a6168da27",
+      "date": "2026-03-24",
+      "path": "days/2026-03-24.json"
+    },
+    {
+      "checksum": "ebb03853bfbddef8217008d6ad1dd54e51a649dcd28a235cd4acfadf05fe0fa0",
+      "date": "2026-03-25",
+      "path": "days/2026-03-25.json"
+    },
+    {
+      "checksum": "659c2c19c51810432a8a7e4b6137742d24284ce486a2c6030f6c3dd29eb7e223",
+      "date": "2026-03-26",
+      "path": "days/2026-03-26.json"
+    },
+    {
+      "checksum": "7f48a3ab7bb8e1d860bffbe36214660153726ba95df2b3b82bf9b916ba6c7d0b",
+      "date": "2026-03-27",
+      "path": "days/2026-03-27.json"
+    },
+    {
+      "checksum": "0158f1737eaf201a616123fd1b21c0c748aa56d5c7cbf175c96add2a82442609",
+      "date": "2026-03-28",
+      "path": "days/2026-03-28.json"
+    },
+    {
+      "checksum": "6047b96fb6ed916285a2a35595784a8ee82353b01f82fd1a35f85445b8ee15e4",
+      "date": "2026-03-29",
+      "path": "days/2026-03-29.json"
+    },
+    {
+      "checksum": "625b05f2bf8d8e16d1aea4ee3cb24b80e5c21db1ae54ca7fbebf5d5a78ec6b30",
+      "date": "2026-03-30",
+      "path": "days/2026-03-30.json"
+    },
+    {
+      "checksum": "7a442a6fff95e08385f86158551dafeeda305e15f28fd3eba2009043bf1abb44",
+      "date": "2026-03-31",
+      "path": "days/2026-03-31.json"
+    },
+    {
+      "checksum": "8c60b640827926fc7d06261433af13fa4a9949cfdc9c5082c5a899c19d3496ba",
+      "date": "2026-04-01",
+      "path": "days/2026-04-01.json"
+    },
+    {
+      "checksum": "452506bb790a1caa4ade9625537b5050771c8b368697a36659114fc9615b6e18",
+      "date": "2026-04-02",
+      "path": "days/2026-04-02.json"
+    },
+    {
+      "checksum": "2b43be2a85ea3d476d173bfe72687b4067b3bcfc11ba38a79e7339acc5671f4a",
+      "date": "2026-04-03",
+      "path": "days/2026-04-03.json"
+    },
+    {
+      "checksum": "889445aca22eb36e0366b5fe52d213788ebdc48cd967d231b623ef62e569267e",
+      "date": "2026-04-04",
+      "path": "days/2026-04-04.json"
+    },
+    {
+      "checksum": "b3866b1b0e8b05c32127c0664156d427d6521b933df2bc82498e0514782252bc",
+      "date": "2026-04-05",
+      "path": "days/2026-04-05.json"
+    },
+    {
+      "checksum": "ac856d7198030f2fd95b1d3f33e9a33d91ba0d2dd93a8e2c2b6f4979afa834bd",
+      "date": "2026-04-06",
+      "path": "days/2026-04-06.json"
+    },
+    {
+      "checksum": "d1ff8681aa5791b17738dc52c374249157fd940b5aad3176b4080bd76fdb4892",
+      "date": "2026-04-07",
+      "path": "days/2026-04-07.json"
+    },
+    {
+      "checksum": "a458a74c5345a217f1b4071aca728be7be146ac28595745929f9dfd70fb2a7f7",
+      "date": "2026-04-08",
+      "path": "days/2026-04-08.json"
+    },
+    {
+      "checksum": "3257a80ea616145ae3bbdb65f9362aa23d54a570faa7006f394c075d7179d207",
+      "date": "2026-04-09",
+      "path": "days/2026-04-09.json"
+    },
+    {
+      "checksum": "55f68f7c968b2b6745815a4eb5563dc8c887f2f2e145660079885a3bd65fe9a9",
+      "date": "2026-04-10",
+      "path": "days/2026-04-10.json"
+    },
+    {
+      "checksum": "53128c27ff144bbd67d5c180cfa84f4a2a4891f54a904b753f021917c8a9041e",
+      "date": "2026-04-11",
+      "path": "days/2026-04-11.json"
+    },
+    {
+      "checksum": "5ec66fef956104321b0f9df3ee7e135e098a030c157438e584b14cdf5c538df6",
+      "date": "2026-04-12",
+      "path": "days/2026-04-12.json"
+    },
+    {
+      "checksum": "61e48a289e8ae8a7cd75ba4ef7f34920fd5e67475f59f1b9087ad4b0e40194cb",
+      "date": "2026-04-13",
+      "path": "days/2026-04-13.json"
+    },
+    {
+      "checksum": "4fdbe7ba7acef0d51ab23ef6e06d0e45e4382c55df1fa773a3ae147638d4a732",
+      "date": "2026-04-14",
+      "path": "days/2026-04-14.json"
+    },
+    {
+      "checksum": "1f733650e33d743d34a3764fccf18791cc42f37845bed2a25419fdcb45ad7f78",
+      "date": "2026-04-15",
+      "path": "days/2026-04-15.json"
+    },
+    {
+      "checksum": "ddb2736c202b62aa7fc69bb78032cadcea1747ec3dcb58a7416188435a70c532",
+      "date": "2026-04-16",
+      "path": "days/2026-04-16.json"
+    },
+    {
+      "checksum": "95b6e8a1d9f2bdb7ea1ff683873f72cfb315c7299de97fb6e93ee86159a5b3fc",
+      "date": "2026-04-17",
+      "path": "days/2026-04-17.json"
+    },
+    {
+      "checksum": "0f004be6f73bb42272123bd102afb2c4d11d0d7ece5eeae5be7234aa243aae10",
+      "date": "2026-04-18",
+      "path": "days/2026-04-18.json"
+    },
+    {
+      "checksum": "0ed980c19198021ba2b5da9eea365c63e5d7952b229f49127fdfdd9515c1c718",
+      "date": "2026-04-19",
+      "path": "days/2026-04-19.json"
+    },
+    {
+      "checksum": "e124a997c51e0e48cd968e3b4583d644da18219dab57adf3acb033ef812bf641",
+      "date": "2026-04-20",
+      "path": "days/2026-04-20.json"
+    },
+    {
+      "checksum": "c05adf38f02f9a626f444c5a61b71e77180ee1906543e3ae69947377f2103ccb",
+      "date": "2026-04-21",
+      "path": "days/2026-04-21.json"
+    },
+    {
+      "checksum": "3d6fe5514bcffadf047e5d6c58ee41c92f4422f42fadc4afc020d40ca01d1db3",
+      "date": "2026-04-22",
+      "path": "days/2026-04-22.json"
+    },
+    {
+      "checksum": "941f2ac5651de1610209c19117632d6a9a3ae5fc69ae4928d615ddb41403b619",
+      "date": "2026-04-23",
+      "path": "days/2026-04-23.json"
+    },
+    {
+      "checksum": "34d108e859023f51a4f9b0c7c3ebc507fe1c00489ce7d3c5425b5b683f4ebdb3",
+      "date": "2026-04-24",
+      "path": "days/2026-04-24.json"
+    },
+    {
+      "checksum": "7d6ea2b48060a78bbee2431ef05c4a0c3a4c3a807fa9f3a59105ae662b94943b",
+      "date": "2026-04-25",
+      "path": "days/2026-04-25.json"
+    },
+    {
+      "checksum": "003759f02b7c47c1eea564e8294df4f0806ced9f0bf96b9f14039be56b5ed879",
+      "date": "2026-04-26",
+      "path": "days/2026-04-26.json"
+    },
+    {
+      "checksum": "7f38816732681baeb330b9e6398b88c35e3903638fa6720a05f22fe56bab65da",
+      "date": "2026-04-27",
+      "path": "days/2026-04-27.json"
+    },
+    {
+      "checksum": "99e49f1f15ed50d0195a866603a0dba9c8f9319d333ac730fabd6e5262374b16",
+      "date": "2026-04-28",
+      "path": "days/2026-04-28.json"
+    },
+    {
+      "checksum": "7f5b7436e9fc31f50bb4489744589e39b4acc0d253edb555d0c6303f3e50d3a7",
+      "date": "2026-04-29",
+      "path": "days/2026-04-29.json"
+    },
+    {
+      "checksum": "e1a93df68389479dbff0b1ae0100c45f832503955fb5475d3d30feea94ca8eb3",
+      "date": "2026-04-30",
+      "path": "days/2026-04-30.json"
+    },
+    {
+      "checksum": "57095de2b45cbbf885d38817331994a955024bce4d843afc0252c6c2f112c676",
+      "date": "2026-05-01",
+      "path": "days/2026-05-01.json"
+    },
+    {
+      "checksum": "77636952e92452d1439470dd2aa5dbb226680b644ee8db1bb70d9c5591e105b2",
+      "date": "2026-05-02",
+      "path": "days/2026-05-02.json"
+    },
+    {
+      "checksum": "893063e6f079fa3a17e0aeae8a5064aa99fe22e3f2cf457bc76410332926d774",
+      "date": "2026-05-03",
+      "path": "days/2026-05-03.json"
+    },
+    {
+      "checksum": "c29b14ad09f2b70b32a456fd77d054eb06ca8bec81847bc20f9dd4b630bc7dcf",
+      "date": "2026-05-04",
+      "path": "days/2026-05-04.json"
+    },
+    {
+      "checksum": "633e58ba27e404d9ccbbc6d03b810a6e2d16e982ba81d988eb04766e8b82e23d",
+      "date": "2026-05-05",
+      "path": "days/2026-05-05.json"
+    },
+    {
+      "checksum": "e2e62983408f64803771cc1eddb127142554729b61f533fc5cfd6f1c312469d2",
+      "date": "2026-05-06",
+      "path": "days/2026-05-06.json"
+    },
+    {
+      "checksum": "2190646c35fb0bbc10bb393ba4635721cff61950e0cc02ce555a0960d18d862d",
+      "date": "2026-05-07",
+      "path": "days/2026-05-07.json"
+    },
+    {
+      "checksum": "82ed7f4998e1a9f3e162d6f251fa1970c37f5e0db2485de9c79801c3e6454392",
+      "date": "2026-05-08",
+      "path": "days/2026-05-08.json"
+    },
+    {
+      "checksum": "87767def7d289d07c9b4eeddcd0ec0e7740d924d2bfa887125f73ccea16fdb76",
+      "date": "2026-05-09",
+      "path": "days/2026-05-09.json"
+    },
+    {
+      "checksum": "f86ddc215c8514f7bd82f7ed2bc5900c51e62bb180a7dd7e9cd112902bb00ac6",
+      "date": "2026-05-10",
+      "path": "days/2026-05-10.json"
+    },
+    {
+      "checksum": "3fc33f34a3e934e14be4a6e981bce77cd4d8455abb4b0d6a636f7583b936b249",
+      "date": "2026-05-11",
+      "path": "days/2026-05-11.json"
+    },
+    {
+      "checksum": "ea029d6b40fa846343da0368f0e7e7f50715cf198c9ffcd4f7b3477c0b546537",
+      "date": "2026-05-12",
+      "path": "days/2026-05-12.json"
+    },
+    {
+      "checksum": "9232743b4cd669ec137c9f1a073926f7f7d1066c61b05aa73c79bdb3dbfeef15",
+      "date": "2026-05-13",
+      "path": "days/2026-05-13.json"
+    },
+    {
+      "checksum": "ec6e2bf09b1e703a643b33b95c40bf8256bcf7f783aa917bb1847c1ec1c284f6",
+      "date": "2026-05-14",
+      "path": "days/2026-05-14.json"
+    },
+    {
+      "checksum": "6dec45423680558f0e9ec574736d98b80cc368e594420c4e6f3713b4bcb7469c",
+      "date": "2026-05-15",
+      "path": "days/2026-05-15.json"
+    },
+    {
+      "checksum": "ace923bdd6e69e191dbfd5f63f82735cceb5fc9807c151f8927e1e7ca2f7a985",
+      "date": "2026-05-16",
+      "path": "days/2026-05-16.json"
+    },
+    {
+      "checksum": "3505b7c9e26ec9f1f7ba9896a7af880d330ce09d58061aa4ac4f6a52676bc7b3",
+      "date": "2026-05-17",
+      "path": "days/2026-05-17.json"
+    },
+    {
+      "checksum": "e14d3def1058e74e29ed7de3820045916937f9c42ce5e285386635345165e7f4",
+      "date": "2026-05-18",
+      "path": "days/2026-05-18.json"
+    },
+    {
+      "checksum": "43bf1236657d14bd4a15203a0e684e3640ef4cd6f3c94cee73c42f120ccde9f5",
+      "date": "2026-05-19",
+      "path": "days/2026-05-19.json"
+    },
+    {
+      "checksum": "8dbe46114262b23a95c35b494af849d7a404b4e121bbb86b3cba5d2c46f3171a",
+      "date": "2026-05-20",
+      "path": "days/2026-05-20.json"
+    },
+    {
+      "checksum": "1e4d02024c487343d89f8027a75769bd02cd61361fb1b877708b4f79e2e14bd8",
+      "date": "2026-05-21",
+      "path": "days/2026-05-21.json"
+    },
+    {
+      "checksum": "58ab5f42b7cf9393237cf8e43870089098798cfe0cbb240e164b6693fb8e3344",
+      "date": "2026-05-22",
+      "path": "days/2026-05-22.json"
+    },
+    {
+      "checksum": "80c2d2b854ccfcd6200e5cd7459527e469552461e7278ce5ad80d25a0684f77f",
+      "date": "2026-05-23",
+      "path": "days/2026-05-23.json"
+    },
+    {
+      "checksum": "58c2c3397f793e73daedc91fb71b97cb364936d552390b9776187e731d5341d3",
+      "date": "2026-05-24",
+      "path": "days/2026-05-24.json"
+    },
+    {
+      "checksum": "813e117b1637519c79f37df9b9be3145c10a7213678cb319ff877d53ea2186b5",
+      "date": "2026-05-25",
+      "path": "days/2026-05-25.json"
+    },
+    {
+      "checksum": "4cb961bd4c96d121ea8ff815c61131284827dfcb72c753ec4871257db20de314",
+      "date": "2026-05-26",
+      "path": "days/2026-05-26.json"
+    },
+    {
+      "checksum": "2c131f54e398e35883741be2757830a1f26a071abfa04c8bd2a4d9eee099347b",
+      "date": "2026-05-27",
+      "path": "days/2026-05-27.json"
+    },
+    {
+      "checksum": "f71ace2eb8ac86921109623df53ca28a97bbea2447ce7aaa011f50c39a7f9336",
+      "date": "2026-05-28",
+      "path": "days/2026-05-28.json"
+    },
+    {
+      "checksum": "25f78b8016a75e46e18c090d98efa1cd73a02eb8df3cbbaf2b0dc9d3c0ae90c3",
+      "date": "2026-05-29",
+      "path": "days/2026-05-29.json"
+    },
+    {
+      "checksum": "d543f22f5f606a6cc36937e54a8e4351e58cb11540113a042c45d976f4ae01fe",
+      "date": "2026-05-30",
+      "path": "days/2026-05-30.json"
+    },
+    {
+      "checksum": "e12bba72c1844db1d1854bf2294aa666356f52aed794fac7f746f2dfe9cdc4ef",
+      "date": "2026-05-31",
+      "path": "days/2026-05-31.json"
+    },
+    {
+      "checksum": "fa39965820444c97a93c6f7829bcfb5dbd3516efeda1ef5546ded9a4ca7a8d81",
+      "date": "2026-06-01",
+      "path": "days/2026-06-01.json"
+    },
+    {
+      "checksum": "d42347a9235fb28b3ef47485cb9b4fef79feb5afc107248bbf4fececaef42699",
+      "date": "2026-06-02",
+      "path": "days/2026-06-02.json"
+    },
+    {
+      "checksum": "9aae45379ce263db248a45e71782c84149e5b1d1e174b4db6bdaf13c2968232a",
+      "date": "2026-06-03",
+      "path": "days/2026-06-03.json"
+    },
+    {
+      "checksum": "757454e09444ee2c2cea595cb91d78261a878218f96cb3452f31ba2a7520ff4f",
+      "date": "2026-06-04",
+      "path": "days/2026-06-04.json"
+    },
+    {
+      "checksum": "2f48791fade77227d1b078a4b3a507ab04ae78af38a4ff3618eed3876aa2545a",
+      "date": "2026-06-05",
+      "path": "days/2026-06-05.json"
+    },
+    {
+      "checksum": "ed4933fa381f9c1289ed9186e325be05111c164d7a38185474fd359324f40844",
+      "date": "2026-06-06",
+      "path": "days/2026-06-06.json"
+    },
+    {
+      "checksum": "64acee72a71a42e64f5c15008c807f075ccd28be26f72662a90ecc7e1fd477e4",
+      "date": "2026-06-07",
+      "path": "days/2026-06-07.json"
+    },
+    {
+      "checksum": "822f949594c387c03ec49da0cd55f26efdcf5029641d71beda9ad876a1d38b2d",
+      "date": "2026-06-08",
+      "path": "days/2026-06-08.json"
+    },
+    {
+      "checksum": "f09a4f1ac2911e93b45c419fbed8d78682a61246dcd21c4cf75813f77b450225",
+      "date": "2026-06-09",
+      "path": "days/2026-06-09.json"
+    },
+    {
+      "checksum": "b29392ec5bc8706790ce5e15e9ea15025f2d2bd9d606fc70c1a1bbc8a56c8fdc",
+      "date": "2026-06-10",
+      "path": "days/2026-06-10.json"
+    },
+    {
+      "checksum": "559b270b5c515275fab9cdd0583c0896410ab81ae0ce0e3590a6d85c4cb56473",
+      "date": "2026-06-11",
+      "path": "days/2026-06-11.json"
+    },
+    {
+      "checksum": "376264832f3ec5732e1442d21c27a54a3d41189ec97c8a419cf42a068b18f8c7",
+      "date": "2026-06-12",
+      "path": "days/2026-06-12.json"
+    },
+    {
+      "checksum": "3a0ee82908fff71fff81f657fef1316f4602aafb0b2caea690dd58d9a2ce5766",
+      "date": "2026-06-13",
+      "path": "days/2026-06-13.json"
+    },
+    {
+      "checksum": "d0668245dad61fe99752d145147837b57753b5642f58e22cb4ac98b490d79c68",
+      "date": "2026-06-14",
+      "path": "days/2026-06-14.json"
+    },
+    {
+      "checksum": "25ea6fb60c253d86018c361f6476bc925291e684e668a67fd7d8aa7c662d6b7b",
+      "date": "2026-06-15",
+      "path": "days/2026-06-15.json"
+    },
+    {
+      "checksum": "9a4cf14d835c77b622e0abc08feaffe537142d08132cbef0d54a9fdb623905bd",
+      "date": "2026-06-16",
+      "path": "days/2026-06-16.json"
+    },
+    {
+      "checksum": "71fde1a016541a7518ec5295900fc3b559155d446313d876814bf9c6934ec765",
+      "date": "2026-06-17",
+      "path": "days/2026-06-17.json"
+    },
+    {
+      "checksum": "79d5a83b0d3e73d4ab9eacb900fece00768461011db47ef04b3b6428673014ec",
+      "date": "2026-06-18",
+      "path": "days/2026-06-18.json"
+    },
+    {
+      "checksum": "f021a4f9726372ea5005c3b79e6cf7690c9d6de1c01dfdc14032a14b8ac4666c",
+      "date": "2026-06-19",
+      "path": "days/2026-06-19.json"
+    },
+    {
+      "checksum": "953b129850e9b6a0ea1d94fdb112ab620fdd61a72e2454028aa917d0ba0c7a05",
+      "date": "2026-06-20",
+      "path": "days/2026-06-20.json"
+    },
+    {
+      "checksum": "81d21950c0d61a631f2d7cd933a47c1ca10f9e6a119d1faba73a712c80fe382b",
+      "date": "2026-06-21",
+      "path": "days/2026-06-21.json"
+    },
+    {
+      "checksum": "3c5d17fa8d8a1b8fc2116b08ad8845068a14ee61bd525ff48c6e7ca0b14da16f",
+      "date": "2026-06-22",
+      "path": "days/2026-06-22.json"
+    },
+    {
+      "checksum": "ebb7f1feb1d0b7b9110f9e090943cfd45d3951c9411bb54924961856f5587183",
+      "date": "2026-06-23",
+      "path": "days/2026-06-23.json"
+    },
+    {
+      "checksum": "7c3b2bec3313beaa75b4c85398a462bb22139cad028affcf2ffbfca3e0a6b9c8",
+      "date": "2026-06-24",
+      "path": "days/2026-06-24.json"
+    },
+    {
+      "checksum": "576b15907b808a7afc2d1adf7f9a5717be7ee9bff08c9d9a271cdc5f4f7663d3",
+      "date": "2026-06-25",
+      "path": "days/2026-06-25.json"
+    },
+    {
+      "checksum": "992860196d357baab51d1fc8016554262d320c5b36a769569be6230781fc9996",
+      "date": "2026-06-26",
+      "path": "days/2026-06-26.json"
+    },
+    {
+      "checksum": "2c9afd2c419ee8d30cf21c035857857e21aceafc19ea22ad69f359b65e27a454",
+      "date": "2026-06-27",
+      "path": "days/2026-06-27.json"
+    },
+    {
+      "checksum": "6d2f75a0f38d9370e19e352ed62b5c41e3d8a69364083bb765f5e53d665dd791",
+      "date": "2026-06-28",
+      "path": "days/2026-06-28.json"
+    },
+    {
+      "checksum": "27a99c954c1f0ef589b827a63391a39caab6f37dab106e80fa33b211e1f896f7",
+      "date": "2026-06-29",
+      "path": "days/2026-06-29.json"
+    },
+    {
+      "checksum": "c66f4bafcce8f2056f9646e7ae7802ae3b3e307ae322f32649ec13e5cbb7cc1f",
+      "date": "2026-06-30",
+      "path": "days/2026-06-30.json"
+    },
+    {
+      "checksum": "40cf0e54bedd9f4bd2efb47e1d2b142a8044c447e2934fc7d716324bcb3a4d08",
+      "date": "2026-07-01",
+      "path": "days/2026-07-01.json"
+    },
+    {
+      "checksum": "1157402201f959dd0bdea7b806e2d051763ac5176c3a360cfeabf265944f7a10",
+      "date": "2026-07-02",
+      "path": "days/2026-07-02.json"
+    },
+    {
+      "checksum": "14fb740f94a39aaaa221bc527ed2c6a287aa276c9d84e2720ceca65866df921d",
+      "date": "2026-07-03",
+      "path": "days/2026-07-03.json"
+    },
+    {
+      "checksum": "ac84474318567d6ec229bae37eab50d143437e071a9d96a9fc27b8581407e6ad",
+      "date": "2026-07-04",
+      "path": "days/2026-07-04.json"
+    },
+    {
+      "checksum": "73788780199c95e99c7a9b2391976dea55a12ed812f3dfada200a532ba397b13",
+      "date": "2026-07-05",
+      "path": "days/2026-07-05.json"
+    },
+    {
+      "checksum": "d35d212222c0ae17ff81d86afb27924659fd6511b4c2814adbee0736f81a8699",
+      "date": "2026-07-06",
+      "path": "days/2026-07-06.json"
+    },
+    {
+      "checksum": "b011d89f5d9a28cd3b5e4ebdd60113864740d4e43bfe46e180e88a8cb3c562a9",
+      "date": "2026-07-07",
+      "path": "days/2026-07-07.json"
+    },
+    {
+      "checksum": "0d8f8393f43b922138e34b6cc82a786128d756ab52e3d1d15e8784461690812f",
+      "date": "2026-07-08",
+      "path": "days/2026-07-08.json"
+    },
+    {
+      "checksum": "3bdb02795bb8e3bf2ec6f258ecbd433818165058da009f3e960004c5f2896cf5",
+      "date": "2026-07-09",
+      "path": "days/2026-07-09.json"
+    },
+    {
+      "checksum": "327d573d2961259c0b69ca77d6be649dcc82220070e13a876ff7d5363e4a36d5",
+      "date": "2026-07-10",
+      "path": "days/2026-07-10.json"
+    },
+    {
+      "checksum": "b1325d1a850fde22029f84aa729d51da6424e55573ead67d7b0d7e9760f01f37",
+      "date": "2026-07-11",
+      "path": "days/2026-07-11.json"
+    },
+    {
+      "checksum": "1daf31bd03c94a6ec5f0f57a74299fce73a49f94a23e37ec95c7b343e85d24d1",
+      "date": "2026-07-12",
+      "path": "days/2026-07-12.json"
+    },
+    {
+      "checksum": "59f2963b3e782f86429ded319c0f8987c64988d08bf0a4407fbd76c961ebe634",
+      "date": "2026-07-13",
+      "path": "days/2026-07-13.json"
+    },
+    {
+      "checksum": "eb381ed5bcc0521712a0e6b8f46ba10ae6be71378912e634ea23b1c8e7fd513d",
+      "date": "2026-07-14",
+      "path": "days/2026-07-14.json"
+    },
+    {
+      "checksum": "54972fe72770078b61de25cbc65ea646701fa4296419fa26dc3221fa23e8fadd",
+      "date": "2026-07-15",
+      "path": "days/2026-07-15.json"
+    },
+    {
+      "checksum": "479228877e02dad544f1869ad33bff65390a0959570d6e275995ed8f3e9d58c2",
+      "date": "2026-07-16",
+      "path": "days/2026-07-16.json"
+    },
+    {
+      "checksum": "058b617885a4f79f355513c625480f02074687bf468735653463f3d24d41a3e8",
+      "date": "2026-07-17",
+      "path": "days/2026-07-17.json"
+    },
+    {
+      "checksum": "3be6052e1489f2247c5041229e2667eff123f949d4942f4c51e1ef0e40e83d8c",
+      "date": "2026-07-18",
+      "path": "days/2026-07-18.json"
+    },
+    {
+      "checksum": "43890faf82a0f18c02d927dff63fc6daf36731535b4837cdcf9ec276d084c446",
+      "date": "2026-07-19",
+      "path": "days/2026-07-19.json"
+    },
+    {
+      "checksum": "487040c37b73e7ebe04216988388f7fd9eda42b1e5ed5b01098c853054c7fc85",
+      "date": "2026-07-20",
+      "path": "days/2026-07-20.json"
+    },
+    {
+      "checksum": "a268bcdc5574facd326b585977834c4062329f666478237d9a7d7dccb7005b96",
+      "date": "2026-07-21",
+      "path": "days/2026-07-21.json"
+    },
+    {
+      "checksum": "a7a39f314e6125261407eb4213d66ef63bd0923b1e7389ce7e1e322e4c18aab8",
+      "date": "2026-07-22",
+      "path": "days/2026-07-22.json"
+    },
+    {
+      "checksum": "cc85c0ea52cd594bd3543ea695c9369bb84822d1e61232cbbbbcead91c984103",
+      "date": "2026-07-23",
+      "path": "days/2026-07-23.json"
+    },
+    {
+      "checksum": "c1dea1abd1062463cdaf1ff1a04820519d67e1ff31c7b85b4e1efb9aa8def6a4",
+      "date": "2026-07-24",
+      "path": "days/2026-07-24.json"
+    },
+    {
+      "checksum": "00b14e4a54e311fb9cab3d400ab0890afdfe85aa846a2398d5484fafbbc32d1c",
+      "date": "2026-07-25",
+      "path": "days/2026-07-25.json"
+    },
+    {
+      "checksum": "db7505821509ca905602bb4c046d2ee3903f62b23e33ab4a8aa3eb0a428bfc17",
+      "date": "2026-07-26",
+      "path": "days/2026-07-26.json"
+    },
+    {
+      "checksum": "c4f7faa6964ec6365aa9669dc53da0c4ad7c02481f534bc3879c63e77cf6b6b2",
+      "date": "2026-07-27",
+      "path": "days/2026-07-27.json"
+    },
+    {
+      "checksum": "b1a0f2b86595297da28967a1d7c0396ef152a44316cdc734dfe050ce235ea330",
+      "date": "2026-07-28",
+      "path": "days/2026-07-28.json"
+    },
+    {
+      "checksum": "664b6423934a92bef9e3f04c7f239a42e83b842b437266cc8353481e1b937aa9",
+      "date": "2026-07-29",
+      "path": "days/2026-07-29.json"
+    },
+    {
+      "checksum": "00c4270e9b830f8c47276f34fcc7351e34bda5921cbcb5a4f498c8efae2c6ed6",
+      "date": "2026-07-30",
+      "path": "days/2026-07-30.json"
+    },
+    {
+      "checksum": "746e60390a33b2a7970e2708ed5ca401d83011a7b994ec86a1501e5cc0480caa",
+      "date": "2026-07-31",
+      "path": "days/2026-07-31.json"
+    },
+    {
+      "checksum": "2912d8cc37ea7b02856d9e85bf23df1a9e139b901e1f20ff1105be19b47de342",
+      "date": "2026-08-01",
+      "path": "days/2026-08-01.json"
+    },
+    {
+      "checksum": "0884646e931452558d5b20d9ffb99e46b796b979af85cde07da1ee75943d4e1c",
+      "date": "2026-08-02",
+      "path": "days/2026-08-02.json"
+    },
+    {
+      "checksum": "d4e0c4a92e7452304beeef40250deeb1564ddc5c29d5f576c9c089003bd74c57",
+      "date": "2026-08-03",
+      "path": "days/2026-08-03.json"
+    },
+    {
+      "checksum": "a20048ca46702ec5ca4c0c0389fdf7289ea1f24bfbe474820f1bebc8099fcd89",
+      "date": "2026-08-04",
+      "path": "days/2026-08-04.json"
+    },
+    {
+      "checksum": "bb38dc8753079ec436c8e65d3e6b5fb5b8a35d65294327f2c059cc37e9d60b33",
+      "date": "2026-08-05",
+      "path": "days/2026-08-05.json"
+    },
+    {
+      "checksum": "ef3f118554f9435735752405fa2b59ea9fa5ab7ec92654a53ed7287ca97d6067",
+      "date": "2026-08-06",
+      "path": "days/2026-08-06.json"
+    },
+    {
+      "checksum": "2bf378c6a121371206ddb84a9b84f3137a16db0f2643fbe3132295e807eff17e",
+      "date": "2026-08-07",
+      "path": "days/2026-08-07.json"
+    },
+    {
+      "checksum": "ef5b790a4ec413da60236aa2613544a3975054f0477c91c37b967c576921e8e2",
+      "date": "2026-08-08",
+      "path": "days/2026-08-08.json"
+    },
+    {
+      "checksum": "1630ab7b826028e047d62b55c4019aed52e160523cbff3126f33b128e2af04f7",
+      "date": "2026-08-09",
+      "path": "days/2026-08-09.json"
+    },
+    {
+      "checksum": "1e6f67c1d443f59fd50d8baf1dc5917ec7c2524021f3b52626e0ec800076f290",
+      "date": "2026-08-10",
+      "path": "days/2026-08-10.json"
+    },
+    {
+      "checksum": "ee0c40caec62e54ed99b36590fd31917c7594bf387ed2cedd89e06a4aa8949f4",
+      "date": "2026-08-11",
+      "path": "days/2026-08-11.json"
+    },
+    {
+      "checksum": "f50000e9d5502cc6cb39f6c8da23132ac6f14c0e1e2e35a444166577610bb5dd",
+      "date": "2026-08-12",
+      "path": "days/2026-08-12.json"
+    },
+    {
+      "checksum": "7ef2087bba8484357a46c05dd2ad19282cbc2f5ec08eaf6545cc9c2386716ad0",
+      "date": "2026-08-13",
+      "path": "days/2026-08-13.json"
+    },
+    {
+      "checksum": "1024b76b259a776aafab6d964a5413bbf64f6fb911788ed1e715dcb0740c8479",
+      "date": "2026-08-14",
+      "path": "days/2026-08-14.json"
+    },
+    {
+      "checksum": "5c8206113f501d7d8480e31dc8d6b91ed2203695be433e734af1561bb0effbd6",
+      "date": "2026-08-15",
+      "path": "days/2026-08-15.json"
+    },
+    {
+      "checksum": "e3b1cbd5e5b6edb8071381b426df26e7a6941e5f04f92f5669738a6f9f24fe44",
+      "date": "2026-08-16",
+      "path": "days/2026-08-16.json"
+    },
+    {
+      "checksum": "519631445ee333771e3450af62b0dca54c890a9d80b289b79429d64e4ecae138",
+      "date": "2026-08-17",
+      "path": "days/2026-08-17.json"
+    },
+    {
+      "checksum": "a9c74f98920c92b1275fac9e017e34c74941434fb55c67d77deb41b8eae471e7",
+      "date": "2026-08-18",
+      "path": "days/2026-08-18.json"
+    },
+    {
+      "checksum": "06e113335e405dbbe06e58fbef5ef9b449fd39bee392aea7bd053f7e6476287a",
+      "date": "2026-08-19",
+      "path": "days/2026-08-19.json"
+    },
+    {
+      "checksum": "10c0baaa9943e13d13abccaae9e34fb84cf293fd9125ed1bca5919b266e2dc35",
+      "date": "2026-08-20",
+      "path": "days/2026-08-20.json"
+    },
+    {
+      "checksum": "71d8121c7f020cd2e6532d360e9da58d95c139ec30db12bda368ade14885b573",
+      "date": "2026-08-21",
+      "path": "days/2026-08-21.json"
+    },
+    {
+      "checksum": "df613b0d8cec3dd0c646414ef07f9b8a9d12e59fc52a313ca9709edae0c1280a",
+      "date": "2026-08-22",
+      "path": "days/2026-08-22.json"
+    },
+    {
+      "checksum": "d0e97d09d56683ba58e9000a3ac24a39c49b742021ea8a19b7a1e97371c4c42e",
+      "date": "2026-08-23",
+      "path": "days/2026-08-23.json"
+    },
+    {
+      "checksum": "c6c57a07261f47613425784dd17e9e04d4877f8ee36611a5e72d20b2298ebeca",
+      "date": "2026-08-24",
+      "path": "days/2026-08-24.json"
+    },
+    {
+      "checksum": "50276a0950d382c8f330a7cef700fae67b9a122eb1d6f8d6a88a53b2c944fcad",
+      "date": "2026-08-25",
+      "path": "days/2026-08-25.json"
+    },
+    {
+      "checksum": "1dd47715a9dcc68ae2dae3353e1349e5fda6449305f496d172690f4a3e3ed977",
+      "date": "2026-08-26",
+      "path": "days/2026-08-26.json"
+    },
+    {
+      "checksum": "753ee8a74b013ca16958a4b79e550fbc693ad11d3f47fb6d04e65721f034460a",
+      "date": "2026-08-27",
+      "path": "days/2026-08-27.json"
+    },
+    {
+      "checksum": "4347a2d19eab04396321e0cc3e02027338959bfd601fe48544684e9015d1b59d",
+      "date": "2026-08-28",
+      "path": "days/2026-08-28.json"
+    },
+    {
+      "checksum": "c94191ae5607406db658ab53094b748e52f3a931124d133c32eec611058de800",
+      "date": "2026-08-29",
+      "path": "days/2026-08-29.json"
+    },
+    {
+      "checksum": "3fe9d178d2222910abb83df81f6eee38ba3f50cea8a9845cc0574dbad911bc17",
+      "date": "2026-08-30",
+      "path": "days/2026-08-30.json"
+    },
+    {
+      "checksum": "fbd17e2f74d06d1f0ce26088b0aff42925b7e2525601fb0350f65a2f99d16e75",
+      "date": "2026-08-31",
+      "path": "days/2026-08-31.json"
+    },
+    {
+      "checksum": "4953f644fc675b061cabb1e4720211a0447b25fd1aa0f5e677e5bca8b7d47fa6",
+      "date": "2026-09-01",
+      "path": "days/2026-09-01.json"
+    },
+    {
+      "checksum": "18c32ac5a6652b1555c80b7a5f2213b02779f874231ac8f2a8bde493813ab5f0",
+      "date": "2026-09-02",
+      "path": "days/2026-09-02.json"
+    },
+    {
+      "checksum": "15bddec9b454139ac3211828fa9119292f3763bd09075b40a47efdf6bd2e6e8c",
+      "date": "2026-09-03",
+      "path": "days/2026-09-03.json"
+    },
+    {
+      "checksum": "62b086601f73d5159db96254f56410fab80bdedbf8cd61722a169c1d67bfaf8f",
+      "date": "2026-09-04",
+      "path": "days/2026-09-04.json"
+    },
+    {
+      "checksum": "4b9a8889212b0fd6d02a00eb99ac8f32de225fb313adcced8dfeb9491babc87c",
+      "date": "2026-09-05",
+      "path": "days/2026-09-05.json"
+    },
+    {
+      "checksum": "fba59b7f736445647ba739d234b2b26f7428e92dfea1942daed03c15dc2d8f68",
+      "date": "2026-09-06",
+      "path": "days/2026-09-06.json"
+    },
+    {
+      "checksum": "efb3e737d013e2dc3071c06c7f81427d88695f8ef281198779b59eb1e4ab25a6",
+      "date": "2026-09-07",
+      "path": "days/2026-09-07.json"
+    },
+    {
+      "checksum": "258fb108c1424ce49bbc04bf50e9c60ae35b018f0ccab65ac80acf0ec2ff2d30",
+      "date": "2026-09-08",
+      "path": "days/2026-09-08.json"
+    },
+    {
+      "checksum": "79bd9cb93fa1bde4d0515f9491467307c2e130ae20ae85d4b32df6f1f525d736",
+      "date": "2026-09-09",
+      "path": "days/2026-09-09.json"
+    },
+    {
+      "checksum": "2f3f1a9bf52a5bd9518ffee857d97225e299d2c69be392bc849f218999596916",
+      "date": "2026-09-10",
+      "path": "days/2026-09-10.json"
+    },
+    {
+      "checksum": "b8875d7c3867eefd94ca8b89003b49c3da73210794237836fc66fe243cdbee90",
+      "date": "2026-09-11",
+      "path": "days/2026-09-11.json"
+    },
+    {
+      "checksum": "433f338dd6ed70fa28cd30f397c6ed205569c5325f2b51254f3668309908b03e",
+      "date": "2026-09-12",
+      "path": "days/2026-09-12.json"
+    },
+    {
+      "checksum": "04a41d56c9d5348d5b8ef2f038d315c825cda8218431f8dc52602d8c74adf7a0",
+      "date": "2026-09-13",
+      "path": "days/2026-09-13.json"
+    },
+    {
+      "checksum": "2ebce3766233173eb0091b325e3ded8750f715a5fd6100ddf5ed140740042aa3",
+      "date": "2026-09-14",
+      "path": "days/2026-09-14.json"
+    },
+    {
+      "checksum": "2ada6d514e91f38a1af736784d44d44836557035842f0831ad6f249170b54006",
+      "date": "2026-09-15",
+      "path": "days/2026-09-15.json"
+    },
+    {
+      "checksum": "433bf60ac634f1bc0a124a5fb971a3090e58b01014de936d955f4f48511fe3bf",
+      "date": "2026-09-16",
+      "path": "days/2026-09-16.json"
+    },
+    {
+      "checksum": "6549df1cc91222dfe2c1e03cd15ef946f16365b03da080dbc5565e44e111fcfd",
+      "date": "2026-09-17",
+      "path": "days/2026-09-17.json"
+    },
+    {
+      "checksum": "b6c68631c36b404926d3da0bfbbc2cadbcd238b720a2c744857c50b62c8549e6",
+      "date": "2026-09-18",
+      "path": "days/2026-09-18.json"
+    },
+    {
+      "checksum": "e663b3bc97b31df2505c417b566ea7902c699e799891070cb7e58dc34911a187",
+      "date": "2026-09-19",
+      "path": "days/2026-09-19.json"
+    },
+    {
+      "checksum": "168c61156a57031c1f7e22c92874ce076d6694b9970a71096df11ac606341650",
+      "date": "2026-09-20",
+      "path": "days/2026-09-20.json"
+    },
+    {
+      "checksum": "5ba19633276a79f2896452881c525b4f1b0e36969e2b4da594bc1fe6397bb2c9",
+      "date": "2026-09-21",
+      "path": "days/2026-09-21.json"
+    },
+    {
+      "checksum": "97363281693257542a2b65d3749412124297de8e1c85397f7ee9e923cadcbe95",
+      "date": "2026-09-22",
+      "path": "days/2026-09-22.json"
+    },
+    {
+      "checksum": "c20a986b68fde49350043d663c2fb1099bb8fdea1e9055ecea0dfdb959531cc8",
+      "date": "2026-09-23",
+      "path": "days/2026-09-23.json"
+    },
+    {
+      "checksum": "a7be01010f0ce21d025cc0dd103abc88accb1c9f9cebcde7571dc188b8f0da94",
+      "date": "2026-09-24",
+      "path": "days/2026-09-24.json"
+    },
+    {
+      "checksum": "a81a30eef1eb6e0d2544b375e09f9e1d00d5d82afdb3ee6812a1683b32348171",
+      "date": "2026-09-25",
+      "path": "days/2026-09-25.json"
+    },
+    {
+      "checksum": "93cae8d7b1a8d5e4739c9826d043c286bfe03f75b4668374954cf60a49872b97",
+      "date": "2026-09-26",
+      "path": "days/2026-09-26.json"
+    },
+    {
+      "checksum": "fa122c087f922aea7fc7dae596155104f23c0311606fcd0ec6f0a9a48123de75",
+      "date": "2026-09-27",
+      "path": "days/2026-09-27.json"
+    },
+    {
+      "checksum": "6889e15576ae07ccda1af638bbf5b370bca8fa7bde189c46b41fa6bf7315b82f",
+      "date": "2026-09-28",
+      "path": "days/2026-09-28.json"
+    },
+    {
+      "checksum": "153088473c302d74dafce20d8bc864ea5c3e66857e8c34e46e0c96c8507f2b02",
+      "date": "2026-09-29",
+      "path": "days/2026-09-29.json"
+    },
+    {
+      "checksum": "a2668cbf9c1f5d4fbf78dde6e9ff21bead6807bb7e439bce3ec2447af5a3fe37",
+      "date": "2026-09-30",
+      "path": "days/2026-09-30.json"
+    },
+    {
+      "checksum": "66f9f8410f80075a49253905021c4c460bbe194d334da73f3ad9a46ab29eb8d0",
+      "date": "2026-10-01",
+      "path": "days/2026-10-01.json"
+    },
+    {
+      "checksum": "aacad6b1c08724a56dcb1d1edd277823cf7c4840c55a8d584cc6339ed77adb2c",
+      "date": "2026-10-02",
+      "path": "days/2026-10-02.json"
+    },
+    {
+      "checksum": "a3ac028c103d69feff40bb63f94f421f501cf8639fd770611190971c0d1e5765",
+      "date": "2026-10-03",
+      "path": "days/2026-10-03.json"
+    },
+    {
+      "checksum": "a6ec37efca11ff8bbcbe8dd5790ce6fb2262de87481353a7146fc33848478a6f",
+      "date": "2026-10-04",
+      "path": "days/2026-10-04.json"
+    },
+    {
+      "checksum": "156be90d6a539864d0685f84cb3804ef184c06a349cc9772ff997404a89c807b",
+      "date": "2026-10-05",
+      "path": "days/2026-10-05.json"
+    },
+    {
+      "checksum": "64ae160b91ed47726c98452ee4c818636824923257aea0cf4c687008a9cbae6a",
+      "date": "2026-10-06",
+      "path": "days/2026-10-06.json"
+    },
+    {
+      "checksum": "5be8c5f489ef540f35d644a6ce1fec431b874e22db042df13d93eb1f7b4c0ae0",
+      "date": "2026-10-07",
+      "path": "days/2026-10-07.json"
+    },
+    {
+      "checksum": "29de3ad6d1825e14d5e875bf25190f418eb71ab00606a762e5896eb6843a45ad",
+      "date": "2026-10-08",
+      "path": "days/2026-10-08.json"
+    },
+    {
+      "checksum": "7f014dd7a951a5c19a099aaf2381fbade3d586b3b72266df447eb0cb95e3b665",
+      "date": "2026-10-09",
+      "path": "days/2026-10-09.json"
+    },
+    {
+      "checksum": "97f26486454cd8d86b3b838b1402cf2fa311c7e9f20c4a6c36f3932150744706",
+      "date": "2026-10-10",
+      "path": "days/2026-10-10.json"
+    },
+    {
+      "checksum": "7e6d4245295f27f69f4c1eec69b4eadbba5bad3869f1f75fbd1089414f1a2b77",
+      "date": "2026-10-11",
+      "path": "days/2026-10-11.json"
+    },
+    {
+      "checksum": "9de2a5acc88f3ee46779c2fbc2471b43603eee415af0a6f99406b14f75a90f4f",
+      "date": "2026-10-12",
+      "path": "days/2026-10-12.json"
+    },
+    {
+      "checksum": "99b1438829b6f889590a87c79bf81319c5ef2ebde1b12c49dcf8a51b3b15d52f",
+      "date": "2026-10-13",
+      "path": "days/2026-10-13.json"
+    },
+    {
+      "checksum": "2f126a8eb93c3dbda77b3998269f8cb239e5e0dad47339b131754b6794ee8e38",
+      "date": "2026-10-14",
+      "path": "days/2026-10-14.json"
+    },
+    {
+      "checksum": "03b3eadbffeca1e8be4b5b150e90d990919c76cde236e698e4c8ec8ffca3636f",
+      "date": "2026-10-15",
+      "path": "days/2026-10-15.json"
+    },
+    {
+      "checksum": "a552d4beb0a00e039441d50e46b2e379e459d6f83e9f785b2e4d5c2c6b017b24",
+      "date": "2026-10-16",
+      "path": "days/2026-10-16.json"
+    },
+    {
+      "checksum": "f49efa970404acb90a6785d920c669472c12c3e75d8d92501e696f781dc99dfd",
+      "date": "2026-10-17",
+      "path": "days/2026-10-17.json"
+    },
+    {
+      "checksum": "642038143bb9846b528aec4d589c26a20473277af8b52645935dae047274a11c",
+      "date": "2026-10-18",
+      "path": "days/2026-10-18.json"
+    },
+    {
+      "checksum": "cc663c9733b7bf0e8698ddfd23557b62815609e599e2232dd4392b223eb2aa85",
+      "date": "2026-10-19",
+      "path": "days/2026-10-19.json"
+    },
+    {
+      "checksum": "b4db2563085c02398e3d4fe824fa8e212eeda44787905be25a125641911cb086",
+      "date": "2026-10-20",
+      "path": "days/2026-10-20.json"
+    },
+    {
+      "checksum": "18f95ae5f8647b528517b7a990f0807de5e22bb60fa91e8dea13b5f5ad4f08c2",
+      "date": "2026-10-21",
+      "path": "days/2026-10-21.json"
+    },
+    {
+      "checksum": "bad33feaaefb6f7d11cbbf4e1b631b095d4610d4f5e52d91de7752ab483327d2",
+      "date": "2026-10-22",
+      "path": "days/2026-10-22.json"
+    },
+    {
+      "checksum": "eded56057155d20488801d6bfa4e18017f7da6dbc2b053307d68170e5d03eb93",
+      "date": "2026-10-23",
+      "path": "days/2026-10-23.json"
+    },
+    {
+      "checksum": "9b4656549e3799afeb15836a492f8be48303e19c7d051c82be2911042999c8d7",
+      "date": "2026-10-24",
+      "path": "days/2026-10-24.json"
+    },
+    {
+      "checksum": "210c236f260c19b8d0eeabf57c24de753c58e17ef49d0c2fa8825dafc13165bf",
+      "date": "2026-10-25",
+      "path": "days/2026-10-25.json"
+    },
+    {
+      "checksum": "2519355de818a94fa0cc09ce2011b8aeba88518c8f203bcf9df3248885a6fc9c",
+      "date": "2026-10-26",
+      "path": "days/2026-10-26.json"
+    },
+    {
+      "checksum": "143765105279be85bb6c9dbe49de6e20ff9870c6c1f81a3b30a1e6a8a42d913e",
+      "date": "2026-10-27",
+      "path": "days/2026-10-27.json"
+    },
+    {
+      "checksum": "03633d95f08f7ff70384256e3303b884d93c8b50f56d031c68391bff5601e9e5",
+      "date": "2026-10-28",
+      "path": "days/2026-10-28.json"
+    },
+    {
+      "checksum": "5f2d95ef152f0ef9433c238d34842c36f8c5690c3aebae1fa08501d56b361f7b",
+      "date": "2026-10-29",
+      "path": "days/2026-10-29.json"
+    },
+    {
+      "checksum": "dc424fc9c26f70ebc3c69999525a0c42443c68b7fc7498323c4539c9baa9ca8a",
+      "date": "2026-10-30",
+      "path": "days/2026-10-30.json"
+    },
+    {
+      "checksum": "15db66294e038bd31c0b410003c0ba8b3ddfb335d0d9304893c587fbe42e5e0e",
+      "date": "2026-10-31",
+      "path": "days/2026-10-31.json"
+    },
+    {
+      "checksum": "30deea21f7e737f0b7f3de043260e782f62de528b42370343f4b8b2e25a9c18f",
+      "date": "2026-11-01",
+      "path": "days/2026-11-01.json"
+    },
+    {
+      "checksum": "5dd25b0231fdd7deb93206cf3d76abaf8b53699b37d488ab31c5ad21b1eebd48",
+      "date": "2026-11-02",
+      "path": "days/2026-11-02.json"
+    },
+    {
+      "checksum": "b16dc50608ee05c9013ab0fe47d10256903934c0696eb58393de102bbdb45ece",
+      "date": "2026-11-03",
+      "path": "days/2026-11-03.json"
+    },
+    {
+      "checksum": "a333eaf3e46f629977f7441e606388f70208097568a3258ddc8a3ab90c9e3d24",
+      "date": "2026-11-04",
+      "path": "days/2026-11-04.json"
+    },
+    {
+      "checksum": "b24f970000780de778a637ba59c9eb42ab0076b0b06b1b1e7851df41c0e7df6f",
+      "date": "2026-11-05",
+      "path": "days/2026-11-05.json"
+    },
+    {
+      "checksum": "ddcb6f99781264d05d41285d25df81e9ed8784767e5711d9766197f85445af09",
+      "date": "2026-11-06",
+      "path": "days/2026-11-06.json"
+    },
+    {
+      "checksum": "4dfd9f04d9a5f4eadb442839f4c0e6a3e5e6525bd797817461d9675bc77bf6e2",
+      "date": "2026-11-07",
+      "path": "days/2026-11-07.json"
+    },
+    {
+      "checksum": "336161ec1faebbe94a66b931c43e68d55a6c3afa1c1e4a86aa407a65a22fee9a",
+      "date": "2026-11-08",
+      "path": "days/2026-11-08.json"
+    },
+    {
+      "checksum": "1371b1bb0d277e8e2e46cfad33e5d00bcdac104f995bff98f9303d015a52b483",
+      "date": "2026-11-09",
+      "path": "days/2026-11-09.json"
+    },
+    {
+      "checksum": "6726c04a34e339e0b1105d07a691fe0387e2f8af2e60b2e33be7d988104d0a18",
+      "date": "2026-11-10",
+      "path": "days/2026-11-10.json"
+    },
+    {
+      "checksum": "a0636d05db0ddeea24c1c319d87ef1d2416343d935aee27e27ac20feee818eeb",
+      "date": "2026-11-11",
+      "path": "days/2026-11-11.json"
+    },
+    {
+      "checksum": "e513bcfafe1ecd859d947ebb30f61825b14dcb6a24b60f4946519fad623c649a",
+      "date": "2026-11-12",
+      "path": "days/2026-11-12.json"
+    },
+    {
+      "checksum": "b78fe5c5e5b6111cbdca4510ed8423f7f63edf6552e7c8bc99af77b5e5c45ada",
+      "date": "2026-11-13",
+      "path": "days/2026-11-13.json"
+    },
+    {
+      "checksum": "f259f76051e49a0d05beff5447f3e36e49d4cbfff46475f649223785422990cc",
+      "date": "2026-11-14",
+      "path": "days/2026-11-14.json"
+    },
+    {
+      "checksum": "69575de705e99ec1483c70b318a9da9d233d4fa49dedb0caa413c05bba628f8b",
+      "date": "2026-11-15",
+      "path": "days/2026-11-15.json"
+    },
+    {
+      "checksum": "6a05607ed9d55e2c38b3cb5a5e0c69bb48bb46f984210cb1d678d91bb5b8d8b3",
+      "date": "2026-11-16",
+      "path": "days/2026-11-16.json"
+    },
+    {
+      "checksum": "1ae865da41548c289c2e4a3712e717d970e1e25008277cc41ff0134d9e7730bf",
+      "date": "2026-11-17",
+      "path": "days/2026-11-17.json"
+    },
+    {
+      "checksum": "f6a7fa2cc9bdea233fc97783280348f97821001851292e2bc420d9f4f71b3b2a",
+      "date": "2026-11-18",
+      "path": "days/2026-11-18.json"
+    },
+    {
+      "checksum": "bc6c15dca08f98b52d8f07991b6fba4e67267768477ae370794f9294cef4f773",
+      "date": "2026-11-19",
+      "path": "days/2026-11-19.json"
+    },
+    {
+      "checksum": "040e817046b6d4c44e3f73ab85f37689de57f6ef11f2d51d963c8a51720f60f8",
+      "date": "2026-11-20",
+      "path": "days/2026-11-20.json"
+    },
+    {
+      "checksum": "bb23bcf3acfcc3ebc31e830632fd3cb36b3bd44dc9e02c918be2e3db5729636d",
+      "date": "2026-11-21",
+      "path": "days/2026-11-21.json"
+    },
+    {
+      "checksum": "3d3602a861e93acd4ed3fef90fcc3b9b635951bb1457a6a2deac405922a60e31",
+      "date": "2026-11-22",
+      "path": "days/2026-11-22.json"
+    },
+    {
+      "checksum": "dff3e148c45f48fcd5537b46c67e6d31b48593a9c2d13d548a93550798e0e686",
+      "date": "2026-11-23",
+      "path": "days/2026-11-23.json"
+    },
+    {
+      "checksum": "395660a1c0b56baa769befbd2a83da7c4a2f03383b63803ffc38b069d578ce8f",
+      "date": "2026-11-24",
+      "path": "days/2026-11-24.json"
+    },
+    {
+      "checksum": "67cb06ce755c61583cdbf77761ac62e9a5f6651efc8519ed3b126b3b499d0e56",
+      "date": "2026-11-25",
+      "path": "days/2026-11-25.json"
+    },
+    {
+      "checksum": "40a11881b6294490e6c0cb4ff136d5c5b91f2e7d5acf6724537bf1f373a94072",
+      "date": "2026-11-26",
+      "path": "days/2026-11-26.json"
+    },
+    {
+      "checksum": "b462b95f9f23e9bc5dd4aae9e140acf04dc75a4101f339cde286b1d7073a7bc6",
+      "date": "2026-11-27",
+      "path": "days/2026-11-27.json"
+    },
+    {
+      "checksum": "1d8df82ce46302e1b75b346f37c342011d173c6e0e06f83e66d50b180a924d95",
+      "date": "2026-11-28",
+      "path": "days/2026-11-28.json"
+    },
+    {
+      "checksum": "4453a15025e948064a822d52591db31e77eaa0acf56692c4803127c650787e6b",
+      "date": "2026-11-29",
+      "path": "days/2026-11-29.json"
+    },
+    {
+      "checksum": "1699ceb67f1cba49c003abfb577cdb983f58400049974bda07a6cdeb2b9e4a6b",
+      "date": "2026-11-30",
+      "path": "days/2026-11-30.json"
+    },
+    {
+      "checksum": "ce716107418a0cf058b9098b6205fa00dcc3564d1a1630fb03f7bd98948f9e88",
+      "date": "2026-12-01",
+      "path": "days/2026-12-01.json"
+    },
+    {
+      "checksum": "384d92d703f6533990facb2fe5468f347e0b663629fd92f5e2982eb2de7c7072",
+      "date": "2026-12-02",
+      "path": "days/2026-12-02.json"
+    },
+    {
+      "checksum": "ff31bfe83ca9bb7eea9027e73b13ef1e96894249c61668554080317ad2ae1696",
+      "date": "2026-12-03",
+      "path": "days/2026-12-03.json"
+    },
+    {
+      "checksum": "6e6fd66bc7afa48ad9bdee0553ae6774a40baa53464fe7b87e5f6bb2ae9861bf",
+      "date": "2026-12-04",
+      "path": "days/2026-12-04.json"
+    },
+    {
+      "checksum": "51ee3c48e2019a32850128f4d09cf8fdab9cdc27626e2dac7a06f178ddfc4861",
+      "date": "2026-12-05",
+      "path": "days/2026-12-05.json"
+    },
+    {
+      "checksum": "3d4c625efdea5abd178f89618919db946d56d35f3fe16aeeaccaebc50e22810e",
+      "date": "2026-12-06",
+      "path": "days/2026-12-06.json"
+    },
+    {
+      "checksum": "bab47829740e2b6dd07bdfc4acada53db7882e7b7d5d965df5af9b83da212454",
+      "date": "2026-12-07",
+      "path": "days/2026-12-07.json"
+    },
+    {
+      "checksum": "36363dd4b0ebdad978dd07e860dacdaabcfb3d77db3917e7294167b263276c66",
+      "date": "2026-12-08",
+      "path": "days/2026-12-08.json"
+    },
+    {
+      "checksum": "9d20813c8e217395bbef3415879c94b0e22dab7bcb7ac7c2125842ccd6adda1e",
+      "date": "2026-12-09",
+      "path": "days/2026-12-09.json"
+    },
+    {
+      "checksum": "eeaaddc021a1ebc284b8e1556369be6d14ae0b8aa933849c1ebd38091d653754",
+      "date": "2026-12-10",
+      "path": "days/2026-12-10.json"
+    },
+    {
+      "checksum": "f0ab0a288bf4903b78de0735737dac08e32d28667dd608130638e181df41fa5b",
+      "date": "2026-12-11",
+      "path": "days/2026-12-11.json"
+    },
+    {
+      "checksum": "e5abe178417fa5a7560dde1b0901bbd9baa357eb0dea7bbeccb8acaa23f54244",
+      "date": "2026-12-12",
+      "path": "days/2026-12-12.json"
+    },
+    {
+      "checksum": "efe1449a16c3d9879d357d6ff6f37939cd2809848098025b36aaddf1e3bb697e",
+      "date": "2026-12-13",
+      "path": "days/2026-12-13.json"
+    },
+    {
+      "checksum": "841fc325c0403682a6fbcfacc6be89ee3e8d5ffb9cbfd2a9db0d218910b2b459",
+      "date": "2026-12-14",
+      "path": "days/2026-12-14.json"
+    },
+    {
+      "checksum": "9c973a890ea9ceaedaf01f0fe8ed869287d21950c904c0eca13720d9ed2a124f",
+      "date": "2026-12-15",
+      "path": "days/2026-12-15.json"
+    },
+    {
+      "checksum": "747b58030db31c455c1a64b76f23c47fd993050bfd2f40af33161db147d41d5d",
+      "date": "2026-12-16",
+      "path": "days/2026-12-16.json"
+    },
+    {
+      "checksum": "fe23acfdeba9d77c0d424342765a45ad28b040225725b2822b45a62a6579a13e",
+      "date": "2026-12-17",
+      "path": "days/2026-12-17.json"
+    },
+    {
+      "checksum": "b22c819fe87d02b3bdca94f3d57f59b4bd17403d24c6e222c87b95542ade88c1",
+      "date": "2026-12-18",
+      "path": "days/2026-12-18.json"
+    },
+    {
+      "checksum": "c9a8e4468c86b151418546492114d89fe43d92d16ba9889c71d3fe661126d7fa",
+      "date": "2026-12-19",
+      "path": "days/2026-12-19.json"
+    },
+    {
+      "checksum": "d4f33880f28306747473b1cf7ff257b9aeedca5326b1b1cd5e9160244077705a",
+      "date": "2026-12-20",
+      "path": "days/2026-12-20.json"
+    },
+    {
+      "checksum": "22445f6c23bd6dc0ec9a18da760677f95e36b3af0562d227fe0d0ba2a5bcef8a",
+      "date": "2026-12-21",
+      "path": "days/2026-12-21.json"
+    },
+    {
+      "checksum": "b9ca5abc2ef46d74d7294fee43e7f8dcd51db4834343ebd667c8916a0d461b4e",
+      "date": "2026-12-22",
+      "path": "days/2026-12-22.json"
+    },
+    {
+      "checksum": "e6a7827a930fa8930509e73f5290f7b70b56313a945cb20ac7a21a6d6475e549",
+      "date": "2026-12-23",
+      "path": "days/2026-12-23.json"
+    },
+    {
+      "checksum": "22e99e6728b8953e8b81305180b547aa664afa51b1ebcbfea6567cb60d7ccee3",
+      "date": "2026-12-24",
+      "path": "days/2026-12-24.json"
+    },
+    {
+      "checksum": "6f0658410ba6f82a74fbecdf845f54de0b2e0e64b02e1254325c4489f6df0efe",
+      "date": "2026-12-25",
+      "path": "days/2026-12-25.json"
+    },
+    {
+      "checksum": "31d39c596fe03d51eb990dd2841db38a3a03c380b62a4fe632a55a31ec9cddb0",
+      "date": "2026-12-26",
+      "path": "days/2026-12-26.json"
+    },
+    {
+      "checksum": "8942a339f0f6cc1707333eb297c213b9c608057571b74a3810fe435acfd55e63",
+      "date": "2026-12-27",
+      "path": "days/2026-12-27.json"
+    },
+    {
+      "checksum": "94431a6fba7d3db907f5f33f55cf11790e9d5af0219f08ff06a7bed17cd22a52",
+      "date": "2026-12-28",
+      "path": "days/2026-12-28.json"
+    },
+    {
+      "checksum": "cbe4501d2e5362f79283d753c12c0fea60f8ced0fb0e686e1598d3e3faedf717",
+      "date": "2026-12-29",
+      "path": "days/2026-12-29.json"
+    },
+    {
+      "checksum": "a9fe01cf1d499578ab1363aeabfc77ce8602d4646157ae88ecb27e5505b73373",
+      "date": "2026-12-30",
+      "path": "days/2026-12-30.json"
+    },
+    {
+      "checksum": "6bf5cb97e5a3470a932f47bdc043222ada4608c687195babe9c12e593848b0e5",
+      "date": "2026-12-31",
+      "path": "days/2026-12-31.json"
+    }
+  ],
+  "generatedAt": "2026-07-21T04:53:24.997Z",
+  "generatorVersion": "phase6-year-builder-v1",
+  "hourCount": 8,
+  "hours": [
+    "matutinum",
+    "laudes",
+    "prima",
+    "tertia",
+    "sexta",
+    "nona",
+    "vesperae",
+    "completorium"
+  ],
+  "months": [
+    {
+      "checksum": "85fc776c1ea0007a50b53be21fd183379be70578c1ca817781ce76941979f436",
+      "month": "01",
+      "path": "months/01.json"
+    },
+    {
+      "checksum": "fc5c06a494ac41f45ecc369eb08baad9128a9bc24e4435a55ab745a0c58351ec",
+      "month": "02",
+      "path": "months/02.json"
+    },
+    {
+      "checksum": "110c61c19dacfdb5521637bad86ad9f04f6b13a4305d72699ddd86126899fa0d",
+      "month": "03",
+      "path": "months/03.json"
+    },
+    {
+      "checksum": "110b81b17a4f557ddd4a4acef00f1fdb6da5773c0d1b236ddfdf2e5d25b9a9ea",
+      "month": "04",
+      "path": "months/04.json"
+    },
+    {
+      "checksum": "5bcf16137cf65316acce384651d22524f5d0d6a624e4eb8d8b143c9d8484138d",
+      "month": "05",
+      "path": "months/05.json"
+    },
+    {
+      "checksum": "0e61e07f97fc81b898c32bc823541bcb21966b5cf90a2ed3ce7c021946b1e8c8",
+      "month": "06",
+      "path": "months/06.json"
+    },
+    {
+      "checksum": "fd429071101b55e1ad0426c3c5f168225fdccca70c0e3e2222ee0a09790693ae",
+      "month": "07",
+      "path": "months/07.json"
+    },
+    {
+      "checksum": "32318add025a000674088cd8f969672731fa5a3236af577bf401d6b573b90f74",
+      "month": "08",
+      "path": "months/08.json"
+    },
+    {
+      "checksum": "76f065188bffc7414298a7a72d36c85e65b0f8c281644cce04e766d620765c69",
+      "month": "09",
+      "path": "months/09.json"
+    },
+    {
+      "checksum": "cdc76b0288261a0785a3af95e930aa2a401dcadccbac56bbeb25d93e8238014c",
+      "month": "10",
+      "path": "months/10.json"
+    },
+    {
+      "checksum": "600270a9a34e845c38b186ebd77f1e78db116aa87f4108f631d012c26fdd6417",
+      "month": "11",
+      "path": "months/11.json"
+    },
+    {
+      "checksum": "5c5699add35bfdea9da071cd5e87ab3dd6d440428af59854eaaebaa0d064dc4c",
+      "month": "12",
+      "path": "months/12.json"
+    }
+  ],
+  "schemaVersion": "officium1962.v1",
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "year": 2026
+}

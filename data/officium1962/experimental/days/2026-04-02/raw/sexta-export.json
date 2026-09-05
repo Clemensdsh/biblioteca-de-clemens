@@ -1,0 +1,63 @@
+{
+  "date": "2026-04-02",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "hour": "sexta",
+  "language": "la",
+  "liturgicalTitle": "Feria Quinta in Cena Domini ~ I. classis",
+  "rank": "Feria Quinta in Cena Domini;;Feria privilegiata Duplex I classis;;7\n\n",
+  "schemaVersion": "0.1.0",
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "units": [
+    {
+      "html": "Incipit{omittitur}<br/>\n",
+      "id": "do-1962-2026-04-02-sexta-001",
+      "raw": "#Incipit{omittitur}\n"
+    },
+    {
+      "html": "Hymnus{omittitur}<br/>\n",
+      "id": "do-1962-2026-04-02-sexta-002",
+      "raw": "#Hymnus{omittitur}\n"
+    },
+    {
+      "html": "Psalmi {Psalmi Dominica & antiphonæ  ex Proprio de Tempore}\n<br/>\nPsalmus 118(81-96) [1]<br/>\n118:81 (Caph) Defécit in salutáre tuum ánima mea: * et in verbum tuum supersperávi.<br/>\n118:82 Defecérunt óculi mei in elóquium tuum, * dicéntes: Quando consoláberis me?<br/>\n118:83 Quia factus sum sicut uter in pruína: * justificatiónes tuas non sum oblítus.<br/>\n118:84 Quot sunt dies servi tui? * quando fácies de persequéntibus me judícium?<br/>\n118:85 Narravérunt mihi iníqui fabulatiónes: * sed non ut lex tua.<br/>\n118:86 Ómnia mandáta tua véritas: * iníque persecúti sunt me, ádjuva me.<br/>\n118:87 Paulo minus consummavérunt me in terra: * ego autem non derelíqui mandáta tua.<br/>\n118:88 Secúndum misericórdiam tuam vivífica me: * et custódiam testimónia oris tui.<br/>\n118:89 (Lamed) In ætérnum, Dómine, * verbum tuum pérmanet in cælo.<br/>\n118:90 In generatiónem et generatiónem véritas tua: * fundásti terram, et pérmanet.<br/>\n118:91 Ordinatióne tua persevérat dies: * quóniam ómnia sérviunt tibi.<br/>\n118:92 Nisi quod lex tua meditátio mea est: * tunc forte periíssem in humilitáte mea.<br/>\n118:93 In ætérnum non oblivíscar justificatiónes tuas: * quia in ipsis vivificásti me.<br/>\n118:94 Tuus sum ego, salvum me fac: * quóniam justificatiónes tuas exquisívi.<br/>\n118:95 Me exspectavérunt peccatóres ut pérderent me: * testimónia tua intelléxi.<br/>\n118:96 Omnis consummatiónis vidi finem: * latum mandátum tuum nimis.<br/>\nGloria omittitur<br/>\n",
+      "id": "do-1962-2026-04-02-sexta-003",
+      "raw": "#Psalmi{Psalmi Dominica & antiphonæ  ex Proprio de Tempore}\n&psalm(-118,81,96)\n"
+    },
+    {
+      "html": "Psalmus 118(97-112) [2]<br/>\n118:97 (Mem) Quómodo diléxi legem tuam, Dómine? * tota die meditátio mea est.<br/>\n118:98 Super inimícos meos prudéntem me fecísti mandáto tuo: * quia in ætérnum mihi est.<br/>\n118:99 Super omnes docéntes me intelléxi: * quia testimónia tua meditátio mea est.<br/>\n118:100 Super senes intelléxi: * quia mandáta tua quæsívi.<br/>\n118:101 Ab omni via mala prohíbui pedes meos: * ut custódiam verba tua.<br/>\n118:102 A judíciis tuis non declinávi: * quia tu legem posuísti mihi.<br/>\n118:103 Quam dúlcia fáucibus meis elóquia tua, * super mel ori meo!<br/>\n118:104 A mandátis tuis intelléxi: * proptérea odívi omnem viam iniquitátis.<br/>\n118:105 (Nun) Lucérna pédibus meis verbum tuum, * et lumen sémitis meis.<br/>\n118:106 Jurávi, et státui * custodíre judícia justítiæ tuæ.<br/>\n118:107 Humiliátus sum usquequáque, Dómine: * vivífica me secúndum verbum tuum.<br/>\n118:108 Voluntária oris mei beneplácita fac, Dómine: * et judícia tua doce me.<br/>\n118:109 Ánima mea in mánibus meis semper: * et legem tuam non sum oblítus.<br/>\n118:110 Posuérunt peccatóres láqueum mihi: * et de mandátis tuis non errávi.<br/>\n118:111 Hereditáte acquisívi testimónia tua in ætérnum: * quia exsultátio cordis mei sunt.<br/>\n118:112 Inclinávi cor meum ad faciéndas justificatiónes tuas in ætérnum, * propter retributiónem.<br/>\nGloria omittitur<br/>\n",
+      "id": "do-1962-2026-04-02-sexta-004",
+      "raw": "&psalm(- 118,97,112)\n"
+    },
+    {
+      "html": "Psalmus 118(113-128) [3]<br/>\n118:113 (Samech) Iníquos ódio hábui: * et legem tuam diléxi.<br/>\n118:114 Adjútor et suscéptor meus es tu: * et in verbum tuum supersperávi.<br/>\n118:115 Declináte a me, malígni: * et scrutábor mandáta Dei mei.<br/>\n118:116 Súscipe me secúndum elóquium tuum, et vivam: * et non confúndas me ab exspectatióne mea.<br/>\n118:117 Ádjuva me, et salvus ero: * et meditábor in justificatiónibus tuis semper.<br/>\n118:118 Sprevísti omnes discedéntes a judíciis tuis: * quia injústa cogitátio eórum.<br/>\n118:119 Prævaricántes reputávi omnes peccatóres terræ: * ídeo diléxi testimónia tua.<br/>\n118:120 Confíge timóre tuo carnes meas: * a judíciis enim tuis tímui.<br/>\n118:121 (Ain) Feci judícium et justítiam: * non tradas me calumniántibus me.<br/>\n118:122 Súscipe servum tuum in bonum: * non calumniéntur me supérbi.<br/>\n118:123 Óculi mei defecérunt in salutáre tuum: * et in elóquium justítiæ tuæ.<br/>\n118:124 Fac cum servo tuo secúndum misericórdiam tuam: * et justificatiónes tuas doce me.<br/>\n118:125 Servus tuus sum ego: * da mihi intelléctum, ut sciam testimónia tua.<br/>\n118:126 Tempus faciéndi, Dómine: * dissipavérunt legem tuam.<br/>\n118:127 Ídeo diléxi mandáta tua, * super aurum et topázion.<br/>\n118:128 Proptérea ad ómnia mandáta tua dirigébar: * omnem viam iníquam ódio hábui.<br/>\nGloria omittitur<br/>\n",
+      "id": "do-1962-2026-04-02-sexta-005",
+      "raw": "&psalm( 118,113,128)\n"
+    },
+    {
+      "html": "Capitulum Responsorium Versus{omittitur}<br/>\n",
+      "id": "do-1962-2026-04-02-sexta-006",
+      "raw": "#Capitulum Responsorium Versus{omittitur}\n"
+    },
+    {
+      "html": "Oratio {ex Proprio de Tempore}\n<br/>\nChristus factus est pro nobis obédiens usque ad mortem.<br/>\nsecreto<br/>\nPater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris: et ne nos indúcas in tentatiónem: sed líbera nos a malo. Amen.<br/>\naliquantulum altius<br/>\nRéspice, quǽsumus, Dómine, super hanc famíliam tuam, pro qua Dóminus noster Jesus Christus non dubitávit mánibus tradi nocéntium, et crucis subíre torméntum:<br/>\nEt sub silentio concluditur<br/>\nQui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-04-02-sexta-007",
+      "raw": "#Oratio{ex Proprio de Tempore}\nv. Christus factus est pro nobis obédiens usque ad mortem.\n!secreto\n$Pater noster\n!aliquantulum altius\nv. Réspice, quǽsumus, Dómine, super hanc famíliam tuam, pro qua Dóminus noster Jesus Christus non dubitávit mánibus tradi nocéntium, et crucis subíre torméntum:\n!Et sub silentio concluditur\n$Qui tecum\n\n"
+    },
+    {
+      "html": "Conclusio{omittitur}<br/>\n",
+      "id": "do-1962-2026-04-02-sexta-008",
+      "raw": "#Conclusio{omittitur}\n"
+    }
+  ],
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "warnings": []
+}
