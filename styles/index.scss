@@ -293,6 +293,29 @@ body:has(.saturday-mary-page-marker) {
   @include collapsible-page-toc;
 }
 
+body:has(.office-dead-page-marker) {
+  @include collapsible-page-toc;
+
+  .markdown-body blockquote {
+    line-height: 1.75;
+  }
+
+  .markdown-body table {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: normal;
+  }
+
+  .markdown-body th,
+  .markdown-body td {
+    min-width: min(22rem, 78vw);
+    vertical-align: top;
+    line-height: 1.7;
+  }
+}
+
 body:has(.aas-1960-rubricae-page-marker),
 body:has(.aas-1960-rubricae-latin-page-marker) {
   @include collapsible-page-toc;
