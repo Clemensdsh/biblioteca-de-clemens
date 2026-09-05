@@ -379,7 +379,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 **6.** 在小时辰经中诵读时，于该时辰结束词之后立即进行，如上所述。末尾加唱答词"在上主台前何其珍贵"，继以欢呼词"请赞美上主"（*Benedicámus Dómino*）及惯常的应答，或如上第4条所列程式。
 
 **7.** 诵读赞辞时，若有移动庆节，应先予宣报，使用下文所列之程式（原版第35-37页）。
-但在主复活日，在诵读次日赞辞之前，应先置入复活主日的纪念。
+但在复活主日，在诵读次日赞辞之前，应先置入本日纪念。
 
 **8.** 圣周星期四、主受难日（圣周星期五）及圣周六，殉道圣人录之诵读一律省略，当日圣人赞辞从缺。
 
@@ -1538,7 +1538,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **15\.** 在中国（Sínæ）湖南省（província Hunanénsis）衡州（urbs Hemceuvénsis，今衡阳），圣董哲西，方济各小兄弟会（Ordo Minórum）司铎、殉道。在义和团（Yihetuan）发动的迫害中，竭力保护至圣圣体（Sanctíssimum Sacraméntum）免受暴徒凌辱，遭乱石投击，复以浸油的布裹身，被活活烧死（1900年）。
 
-**16\*.** 在意大利的都灵（Augústa Taurinórum），真福伯多禄·乔治·弗拉萨蒂（Petrus Geórgius Frassati）。青年时即活跃于教友社团，满腔热忱致力于激励社会、力行仁爱、服务贫病，直至骤发暴发性瘫痪而安息主怀（1925年）。
+**16\*.** 在意大利的都灵（Augústa Taurinórum），真福皮耶•乔治•弗拉萨蒂（Petrus Geórgius Frassati）。青年时即活跃于教友社团，满腔热忱致力于激励社会、力行仁爱、服务贫病，直至骤发暴发性瘫痪而安息主怀（1925年）。
 
 **17\*.** 在波兰克拉科夫（Cracóvia）附近的奥斯维辛（*Oświęcim* / *Auschwitz*）灭绝营，真福若瑟·科瓦尔斯基（Iosépus Kowalski），殉道。战争期间因基督圣名被投入狱中，身受酷刑，终于狱中完成殉道（1942年）。
 
@@ -1550,7 +1550,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 3. **第15条地名与人名**：拉丁文作 *urbs Hemceuvénsis*，系衡州（Hengzhou）之拉丁化拼写。西语版作 *Wan-sha-wa*，来源不明，疑为异系转写或误植。据史实径作"衡州"。圣人中文教名"董哲西"据香港教区档案处名录确认。董哲西（意大利语 Cesidio Giacomantonio，1873-1900），意大利阿布鲁佐人，方济各会士，在湖南衡州传教，拉丁文作 *Cæsídius Giacomantonio*。
 
-4. **第16\*条圣品等级**：2004年版原文作 *beátus*（真福），本译从底本。惟伯多禄·乔治·弗拉萨蒂已于2025年由教宗方济各列入圣品，未来新版殉道圣人录当改作 *sanctus*。
+4. **第16\*条圣品等级**：2004年版原文作 *beátus*（真福），本译从底本。惟皮耶•乔治•弗拉萨蒂已于2025年由教宗方济各列入圣品，未来新版殉道圣人录当改作 *sanctus*。
 
 ---
 
@@ -1565,7 +1565,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 > A B C D E F F G H M N P
 > 29 30 1 2 3 4 4 5 6 7 8 9
 
-**1\.** 圣安多尼·匝加利（Antonio Maria Zaccaria），司铎。为革新信友的风俗，创立圣保禄正规司铎修会，又称巴尔纳伯会（Congregátio Clericórum Regulárium Sancti Pauli, seu Barnabitárum），在伦巴第（Langobárdia）的克雷莫纳（Cremóna）飞赴救主怀中（1539年）。
+**1\.** 圣安多尼•匝加利（Antonio Maria Zaccaria），司铎。为革新信友的风俗，创立圣保禄正规司铎修会，又称巴尔纳伯会（Congregátio Clericórum Regulárium Sancti Pauli, seu Barnabitárum），在伦巴第（Langobárdia）的克雷莫纳（Cremóna）飞赴救主怀中（1539年）。
 
 **2\.** 在卡拉布里亚（Calábria）的勒佐（Rhégium Iúlii），尼西亚的圣斯德望（Stéphanus de Nicǽa），主教、殉道（一世纪）。
 
@@ -1606,7 +1606,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 > A B C D E F F G H M N P
 > 30 1 2 3 4 5 5 6 7 8 9 10
 
-**1\.** 圣玛利亚·葛蕾蒂（Maria Goretti），童贞、殉道。自幼度过艰辛的童年，以操持家务辅助母亲，并恒心祈祷。年方十二岁时，为抵御侵犯者保全贞洁，在意大利拉齐奥（Látium）内图诺（Neptúnum）附近，遭匕首刺穿致死（1902年）。
+**1\.** 圣玛利亚•葛蕾蒂（Maria Goretti），童贞、殉道。自幼度过艰辛的童年，以操持家务辅助母亲，并恒心祈祷。年方十二岁时，为抵御侵犯者保全贞洁，在意大利拉齐奥（Látium）内图诺（Neptúnum）附近，遭匕首刺穿致死（1902年）。
 
 **2\*.** 在比提尼亚（Bithýnia）的尼科美迪亚（Nicomedía），圣奇里亚加（Cyríaca），童贞、殉道。殉于戴克里先帝在位时，在卡拉布里亚（Calábria）的特罗佩亚（Tropǽa）深受崇敬（四世纪）。
 
@@ -1632,7 +1632,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **13\.** 在中国（Sínæ）河北省（Hebei）蓟县（*Jixian*）附近的双忠（*Shuangzhong*），圣王作龙伯多禄（Petrus Wang Zuolong），殉道。在义和团（*Yihetuan*）发动的迫害中，被引至偶像前，因拒绝背弃基督信仰，遭悬吊处死（1900年）。
 
-**14\*.** 在罗马，真福玛利亚·德肋撒·莱多霍夫斯卡（María Terésia Ledóchowska），童贞。全心投身于服务受奴役压迫的非洲人，创立圣伯多禄·克拉维尔善会（Sodalítium Sancti Petri Claver）（1922年）。
+**14\*.** 在罗马，真福玛利亚·德肋撒·莱多霍夫斯卡（María Terésia Ledóchowska），童贞。全心投身于服务受奴役压迫的非洲人，创立圣伯多禄•格肋凡善会（Sodalítium Sancti Petri Claver）（1922年）。
 
 **15\*.** 在阿根廷布宜诺斯艾利斯（Bonǽrópolis），真福纳匝利亚（圣德肋撒）·马尔奇·梅萨（Nazária a Sancta Terésia March Mesa），童贞。生于西班牙，随家人移民墨西哥，满怀传教热忱，全身心投入拉丁美洲各国贫苦者与急需者的福传事业，创立教会传教十字军修女会（Instítutum Missionariárum Cruciatárum Ecclésiæ）（1943年）。
 
@@ -1779,7 +1779,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 ### 七月九日校注
 
-1. **第1条（中华殉道诸圣庆日）**：本条为120位中华殉道圣人之总庆日，正文仅列代表性二人：中国籍司铎赵荣（奥斯定，Augustinus Zhao Rong，1746-1815）及西班牙籍多明我会主教白多禄（桑实，Pedro Sans i Jordà, OP，1680-1747，福建宗座代牧）。中文教名据维基百科"中华殉道圣人"条目及香港教区档案处名录核实。拉丁原版第378-379页脚注1列出全部同伴圣人芳名，含主教6位、司铎24位、修士1位、修女7位及平信徒82位，分属方济各会、多明我会、耶稣会、巴黎外方传教会、宗座外方传教会、慈幼会、遣使会及各教区。各人之个别赞辞分布于全年各日，已翻译者见七月一日第13条（张怀禄）、七月三日第12条（赵明振、赵明喜）、七月四日第15条（董哲西）、七月五日第11条（陈金婕、陈爱婕）、七月六日第13条（王作龙）、七月七日第12-14条（范怀德、安守仁、冀天祥、郭李氏）、七月八日第13条（武文印）、本日第7-8条（郝开枝、太原殉道者）、七月十日第13条（阮有琼、阮克自）、七月十一日第15条（安辛、安郭、安焦、安灵花）、七月十二日第12条（王贵新）、七月十三日第16-17条（刘进德、王贵吉）、七月十四日第12条（王贵新）、七月十六日第16-17条（郎杨氏/郎福、张何氏）、七月十七日第15条（刘子玉）、七月十九日第11-12条（朱五瑞、秦边氏、秦春福）、七月二十日第12-16条（任德芬、汤爱玲、朱吴氏、朱日新、傅桂林、赵郭氏、赵罗撒、赵玛利亚、郗柱子）、七月二十一日第7-8条（郭西德、王玉梅）、七月二十二日第14-15条（王安纳、王王氏、王天庆、王李氏）、七月二十九日第13条（张文澜、陈昌品、娄廷荫、王骆氏）、七月三十日第9条（袁庚寅）、八月八日第13条（柯廷柱）、八月十六日第13条（樊惠）。
+1. **第1条（中华殉道诸圣庆日）**：本条为120位中华殉道圣人之总庆日，正文仅列代表性二人：中国籍司铎赵荣（奥斯定，Augustinus Zhao Rong，1746-1815）及西班牙籍多明我会主教白多禄（桑实，Pedro Sans i Jordà, OP，1680-1747，福建宗座代牧）。中文教名据维基百科"中华殉道圣人"条目及香港教区档案处名录核实。拉丁原版第378-379页脚注1列出全部同伴圣人芳名，含主教6位、司铎24位、修士1位、修女7位及平信徒82位，分属方济各会、多明我会、耶稣会、巴黎外方传教会、宗座外方传教会、慈幼会、遣使会及各教区。各人之个别赞辞分布于全年各日，已翻译者见七月一日第13条（张怀禄）、七月三日第12条（赵明振、赵明喜）、七月四日第15条（董哲西）、七月五日第11条（陈金婕、陈爱婕）、七月六日第13条（王作龙）、七月七日第12-14条（范怀德、安守仁、冀天祥、郭李氏）、七月八日第13条（武文印）、本日第7-8条（郝开枝、太原殉道者）、七月十日第13条（阮有琼、阮克自）、七月十一日第15条（安辛、安郭、安焦、安灵花）、七月十二日第12条（王贵新）、七月十三日第16-17条（刘进德、王贵吉）、七月十四日第12条（王贵新）、七月十六日第16-17条（郎杨氏/郎福、张何氏）、七月十七日第15条（刘子玉）、七月十九日第11-12条（朱五瑞、秦边氏、秦春福）、七月二十日第12-16条（任德芬、汤爱玲、朱吴氏、朱日新、傅桂林、赵郭氏、赵罗撒、赵玛利亚、郗柱子）、七月二十一日第7-8条（郭西德、王玉梅）、七月二十二日第14-15条（王安纳、王王氏、王天庆、王李氏）、七月二十九日第13条（张文澜、陈昌品、娄廷荫、王骆氏）、七月三十日第9条（袁庚寅）、八月八日第13条（柯廷柱）、八月十六日第13条（樊惠）、九月十四日第10条（徐德新）。
 
 2. **第4条（戈尔库姆殉道者）**：拉丁原版脚注2列出全部同伴芳名。此为1572年荷兰独立战争期间被加尔文派"海上乞丐"在布里勒杀害的19位天主教殉道者，含方济各会士11人及教区和修会司铎8人。
 
@@ -1891,7 +1891,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 2. **第5\*条译名（良齐奥）**：Leontius 与教宗名 Leo（良）同源，均出自希腊语 λέων（leōn，狮子）。译"良齐奥"以体现词源关系。
 
-3. **第9条地名**：*Vandálica Hispániae regione* 直译为"西班牙之汪达尔地区"，因公元5世纪汪达尔人途经此地而得名，即今安达卢西亚（Andalucía，一说源自 Vandalusia → al-Andalus）。
+3. **第9条地名**：*Vandálica Hispániae regione* 直译为"西班牙的汪达尔地区（今安达卢西亚）"，因公元5世纪汪达尔人途经此地而得名，Andalucía 一说源自 Vandalusia → al-Andalus。
 
 4. **第10条（圣奥尔加）**：奥尔加为东西方教会共同敬奉之圣人（东正教纪念日7月11日旧历）。弗拉基米尔从世俗通行译法。基辅（Kiovia）为今乌克兰首都。
 
@@ -2109,7 +2109,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **17\*.** 真福依纳爵·德·阿塞维多（Ignátius de Azevedo），司铎，及三十八位同伴殉道日，均出自耶稣会。在乘名为"圣雅各伯"的船前往巴西传教途中，遭海盗船袭击，海盗出于对天主教信仰的仇恨，以刀剑枪矛将他们刺杀（1570年）。
 
-**18\.** 在阿普利亚（Apúlia）的坎波萨伦蒂诺（Campus Salentinórum），圣庞皮利奥·玛利亚·皮罗蒂（Pompílius María Pirrotti），比亚会（Ordo Clericórum Regulárium Scholárum Piárum）司铎，以生活的严格克苦著称（1766年）。
+**18\.** 在阿普利亚（Apúlia）的坎波萨伦蒂诺（Campus Salentinórum），圣庞皮利奥·玛利亚·皮罗蒂（Pompílius María Pirrotti），公学司铎修会（Ordo Clericórum Regulárium Scholárum Piárum）司铎，以生活的严格克苦著称（1766年）。
 
 **19\*.** 在法国罗什福尔（Rupifórtium）海岸外停泊的囚船上，真福弥额尔·伯尔纳铎·马尔尚（Michaélis Bernárdi Marchand），司铎、殉道。法国大革命期间因司铎身份自鲁昂（Rothomágum）被转押至污秽的囚船上，染病而亡（1794年）。
 
@@ -2166,7 +2166,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **6\.** 在埃诺（Hannónia）的桑特（Sánto），圣雷尼尔迪斯（Reiníldis），童贞，圣格里莫阿尔德（Grimoáldus）与圣贡杜尔夫（Gondúlphus）诸圣殉道者，据传遭匪徒杀害（约680年）。
 
-**7\.** 在西班牙汪达尔地区（Vandálica，安达卢西亚）的科尔多瓦（Córduba），圣西塞南多（Sisenándus），执事、殉道，因基督信仰被摩尔人杀害（851年）。
+**7\.** 在西班牙汪达尔地区（Vandálica，今安达卢西亚）的科尔多瓦（Córduba），圣西塞南多（Sisenándus），执事、殉道，因基督信仰被摩尔人杀害（851年）。
 
 **8\*.** 在巴伐利亚基姆湖（lacus Auva）畔的修院，真福依尔门加德（Irmengárdis），女院长。自幼舍弃王室宫廷的荣华，立志事奉天主，引领众多贞女追随羔羊（866年）。
 
@@ -2349,7 +2349,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 3. **第4\*条（圣迪奥）**：不眠修士（Acoemetae，希腊文 Ἀκοίμητοι，"不寐者"）为五世纪君士坦丁堡之修道团体，以轮班不间断地咏唱圣咏著称。
 
-4. **第6条（圣奥雷亚）**：汪达尔地区（Vandalicia）为拉丁文古地名，与日耳曼民族汪达尔人（Vandali）有关，后演变为今日之安达卢西亚（Andalucía）。奥雷亚先因恐惧而背教，后悔改殉道，与七月十八日第12条之越南殉道者丁达多明我有相似经历。
+4. **第6条（圣奥雷亚）**：汪达尔地区（Vandalicia，今安达卢西亚）为拉丁文古地名，与日耳曼民族汪达尔人（Vandali）有关，Andalucía 一说即由其演变而来。奥雷亚先因恐惧而背教，后悔改殉道，与七月十八日第12条的越南殉道者丁达多明我有相似经历。
 
 5. **第10条（圣若望·普莱辛顿）**：西语版误标为"Jacobo II"（詹姆斯二世），拉丁原文正确作"Carolo rege Secundo"（查理二世）。普莱辛顿系1679年英格兰"天主教阴谋案"（Popish Plot）期间被处决之殉道司铎，当时在位者为查理二世（1660-1685在位），非詹姆斯二世（1685-1688在位）。
 
@@ -2386,7 +2386,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **7\.** 在高卢的布洛涅地区（pagus Bononiénsis Gálliæ），圣武尔马洛（Vulmárus），司铎。出身卑微的牧人，经人引导求学后获得司铎圣职。仿效古代教父，隐居旷野。后在其故乡埃诺（Hannónia）的奥特蒙（Altomónte）林中创建两座修院：一为男修士，一为贞女（约700年）。
 
-**8\.** 在西班牙汪达尔地区的科尔多瓦（Córduba in Vandalícia），圣保禄（Paulus），执事、殉道。受圣西瑟南多（Sisenándus）的言行激励，不惧在摩尔人的王公与权贵面前斥责其虚妄的崇拜，宣认基督为真天主而被处死（851年）。
+**8\.** 在西班牙汪达尔地区（Vandalícia，今安达卢西亚）的科尔多瓦（Córduba），圣保禄（Paulus），执事、殉道。受圣西瑟南多（Sisenándus）的言行激励，不惧在摩尔人的王公与权贵面前斥责其虚妄的崇拜，宣认基督为真天主而被处死（851年）。
 
 **9\*.** 在日耳曼萨克森的希尔德斯海姆（Hildésia in Saxónia），真福贝尔纳尔多（Bernárdus），主教。虽双目失明，仍在和平中治理教会二十三年（1153年）。
 
@@ -2441,7 +2441,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 > A B C D E F F G H M N P
 > 15 16 17 18 19 20 20 21 22 23 24 25
 
-**1\.** 布林迪西的圣老楞佐（Lauréntius de Brundúsio），司铎、教会圣师。入方济各嘉布遣小兄弟会（Fratres Minóres Capuccíni）后，在欧洲各地不倦地宣讲：保卫教会免受异教徒侵犯，调解诸侯纷争，治理本修会。一切职务皆以简朴与谦逊履行。实于七月二十二日在葡萄牙的里斯本（Ulyssipóne in Lusitánia）辞世（1619年）。
+**1\.** 圣老楞佐•炳德西（Lauréntius de Brundúsio），司铎、教会圣师。入方济各嘉布遣小兄弟会（Fratres Minóres Capuccíni）后，在欧洲各地不倦地宣讲：保卫教会免受异教徒侵犯，调解诸侯纷争，治理本修会。一切职务皆以简朴与谦逊履行。实于七月二十二日在葡萄牙的里斯本（Ulyssipóne in Lusitánia）辞世（1619年）。
 
 **2\.** 在高卢普罗旺斯的马赛（Massília in Província Gálliæ），圣维克多（Victor），殉道（约292年）。
 
@@ -2459,7 +2459,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 ### 七月二十一日校注
 
-1. **第1条（布林迪西的圣老楞佐）**：布林迪西的老楞佐（Laurentius de Brundusio, OFMCap, 1559-1619），教会圣师。出生于意大利南部之布林迪西（Brindisi），加入方济各嘉布遣会，精通多种语言（含希伯来文），以宣讲著称。1601年曾亲率基督宗教联军对抗奥斯曼军队。拉丁文特注其实际辞世日为七月二十二日，其忌日记录见七月二十二日第11条。
+1. **第1条（圣老楞佐•炳德西）**：圣老楞佐•炳德西（Laurentius de Brundusio, OFMCap, 1559-1619），教会圣师。出生于意大利南部的布林迪西（Brindisi），加入方济各嘉布遣会，精通多种语言（含希伯来文），以宣讲著称。1601年曾亲率基督宗教联军对抗奥斯曼军队。拉丁文特注其实际辞世日为七月二十二日，其忌日记录见七月二十二日第11条。
 
 2. **第3条（圣西默盎·萨洛）**：萨洛（Salos，希腊文 σαλός）意为"疯子"，为东方教会"佯狂者"传统之代表人物，自愿以癫狂行为隐藏圣德，以唤醒世人。厄默萨（Emesa）即今叙利亚之霍姆斯（Homs）。"死海"拉丁文作 *lacus Asphaltites*（沥青湖），为其古名。
 
@@ -2504,7 +2504,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **10\*.** 在威尼斯（Venétiæ），真福比耶拉的奥斯定·方吉（Augustínus de Bugélla Fangi），多明我会司铎，在松奇诺（Soncínum）、维杰瓦诺（Viglébanum）与威尼斯施行诸多善功（1493年）。
 
-**11\.** 在葡萄牙的里斯本（Ulyssipóne in Lusitánia），布林迪西的圣老楞佐的忌日（*natális*），其纪念已于前日举行（1619年）。
+**11\.** 在葡萄牙的里斯本（Ulyssipóne in Lusitánia），圣老楞佐•炳德西的忌日（*natális*），其纪念已于前日举行（1619年）。
 
 **12\.** 在威尔士的卡迪夫（Cardíffa in Cámbria），圣斐理伯·埃文斯（Philíppus Evans），耶稣会会士，及圣若望·劳埃德（Ioánnes Lloyd），司铎、殉道。因在本国行使司铎职务被发现，在查理二世（Cárolus rex Secúndus）治下同被处以绞刑（1679年）。
 
@@ -2524,7 +2524,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 4. **第6条（圣万德雷吉西洛）**：丰特内尔修院即今法国诺曼底之圣万德里耶修院（Abbaye de Saint-Wandrille）。达戈贝尔特（Dagobert I）从世俗通行译法。热梅蒂科森林（silva Gemmeticensis）为修院所在之森林。奥多恩主教（Audoenus）即圣旺（Saint Ouen）。
 
-5. **第11条（布林迪西的圣老楞佐忌日）**：其庆日赞辞（elogium）见七月二十一日第1条。"前日"（*prídie*）指七月二十一日。
+5. **第11条（圣老楞佐•炳德西忌日）**：其庆日赞辞（elogium）见七月二十一日第1条。"前日"（*prídie*）指七月二十一日。
 
 6. **第12条（威尔士殉道圣人）**：斐理伯·埃文斯（Philip Evans, SJ, 1645-1679）为威尔士籍耶稣会士，若望·劳埃德（John Lloyd, c.1630-1679）为威尔士籍教区司铎。二人因在本国秘密行使司铎职务，于查理二世治下依"天主教阴谋案"（Popish Plot）时期之法令被处决。与七月十九日第10条（若望·普莱辛顿）属同一历史背景。
 
@@ -2695,7 +2695,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **8\*.** 在比利时高卢的梅斯（Metis in Gállia Bélgica），圣格洛德辛德（Glodesíndis），女院长（六世纪）。
 
-**9\.** 在西班牙汪达尔地区的科尔多瓦（Córduba in Vandalícia），圣德奥德米洛（Theodemírus），卡莫纳（Carmonénsis）修士、殉道。年纪尚轻，即在摩尔人的迫害中殉难（851年）。
+**9\.** 在西班牙汪达尔地区（Vandalícia，今安达卢西亚）的科尔多瓦（Córduba），圣德奥德米洛（Theodemírus），卡莫纳（Carmonénsis）修士、殉道。年纪尚轻，即在摩尔人的迫害中殉难（851年）。
 
 **10\*.** 在法国的昂热（Andégavum in Gállia），真福若望·索雷特（Ioánnes Soreth），加尔默罗会司铎。引导修会迈向更严格的遵守，并增设修女会院（1471年）。
 
@@ -2713,7 +2713,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **17\*.** 同在西班牙托莱多省、塔拉韦拉德拉雷纳（Eboram Carpetanórum）附近，真福殉道者斐德理科（卡洛斯）·鲁维奥·阿尔瓦雷斯（Fridéricus [Cárolus] Rubio Alvarez），司铎，普里莫·马丁内斯·德·圣文森特·卡斯蒂略（Primus Martínez de San Vicente Castillo）、热罗尼莫·奥乔亚·乌尔丹加林（Hierónymus Ochoa Urdangarín）与若望（十字架）（厄利日奥）·德尔加多·帕斯托尔（Ioánnes a Cruce [Elígius] Delgado Pastor），均属天主教仁爱修会（Ordo Sancti Ioánnis a Deo）修士、殉道。在同一迫害中迅即获得光荣冠冕（1936年）。
 
-**18\*.** 在西班牙阿拉贡韦斯卡附近的蒙松（Monzon prope Oscam in Aragónia），真福狄奥尼削·潘普洛纳（Dionýsius Pamplona），圣母虔学会（Ordo Clericórum Regulárium Scholárum Piárum）司铎、殉道。在同一时期为信仰的缘故被杀害（1936年）。
+**18\*.** 在西班牙阿拉贡韦斯卡附近的蒙松（Monzon prope Oscam in Aragónia），真福狄奥尼削·潘普洛纳（Dionýsius Pamplona），公学司铎修会（Ordo Clericórum Regulárium Scholárum Piárum）司铎、殉道。在同一时期为信仰的缘故被杀害（1936年）。
 
 **19\*.** 在西班牙格拉纳达海滨的莫特里尔（Motril apud Granátam），真福殉道者德奥格拉齐亚斯·帕拉西奥斯（Deográtias Palacios）、莱翁·因乔斯蒂（Leo Inchausti）、若瑟·拉达（Iosephus Rada）与儒利安·莫雷诺（Iuliánus Moreno），司铎，及若瑟·里卡尔多·迪耶斯（Iosephus Richárds Díez），修士，均属奥斯定归省会（Ordo Augustinianórum Recollectórum）。在同一迫害中突遭暴民拘捕，即刻于路途中被枪杀（1936年）。
 
@@ -2731,7 +2731,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 5. **第12\*条（印度萨尔塞特殉道者）**：1583年耶稣会传教士在印度果阿附近之萨尔塞特（Salsette）半岛传教时，因竖立十字架被当地人杀害。鲁道夫·阿夸维瓦为那不勒斯总主教之侄。
 
-6. **第16\*-19\*条（西班牙内战殉道者）**：四条涉及1936年西班牙内战期间不同地区和修会的殉道者：乌尔达之苦难会修士（第16\*条）、塔拉韦拉德拉雷纳附近之天主教仁爱修会（第17\*条，Ordo Sancti Ioannis a Deo，即圣若望天主会）、蒙松之圣母虔学会司铎（第18\*条）、莫特里尔之奥斯定归省会会士（第19\*条）。
+6. **第16\*-19\*条（西班牙内战殉道者）**：四条涉及1936年西班牙内战期间不同地区和修会的殉道者：乌尔达之苦难会修士（第16\*条）、塔拉韦拉德拉雷纳附近之天主教仁爱修会（第17\*条，Ordo Sancti Ioannis a Deo，即圣若望天主会）、蒙松之公学司铎修会司铎（第18\*条）、莫特里尔之奥斯定归省会会士（第19\*条）。
 
 7. **第20\*条（波兰殉道真福）**：1941年第二次世界大战期间，纳粹德国占领波兰，真福玛利亚·德肋撒·科瓦尔斯卡在杰亚乌多沃（Działdowo）集中营殉难。嘉布遣佳兰修女会（Clarissae Capuccinae）为佳兰会之嘉布遣改革支派。
 
@@ -2835,7 +2835,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **9\.** 在奥诺里亚德（Honorías）克劳狄奥波利斯（Claudiópolis）附近的曼蒂内翁（Mantineióne），圣安图萨（Anthúsa），童贞。身为修女，在君士坦丁五世（Constantínus Coprónimus）皇帝治下因敬礼圣像而遭鞭笞与流放，终获召回故土，在平安中辞世（八世纪）。
 
-**10\.** 在西班牙汪达尔地区的科尔多瓦（Córduba in Vandalícia），殉道者圣乔尔乔（Geórgius），叙利亚人，执事兼修士；圣奥雷利奥（Aurélius）与圣萨比戈托纳（Sabigothóna），夫妇；及圣斐理斯（Felix）与圣莉利奥萨（Liliósa），亦为夫妇。在摩尔人的迫害中，怀着渴望为基督作证的热忱，在狱中不停地赞美基督，终被斩首（852年）。
+**10\.** 在西班牙汪达尔地区（Vandalícia，今安达卢西亚）的科尔多瓦（Córduba），殉道者圣乔尔乔（Geórgius），叙利亚人，执事兼修士；圣奥雷利奥（Aurélius）与圣萨比戈托纳（Sabigothóna），夫妇；及圣斐理斯（Felix）与圣莉利奥萨（Liliósa），亦为夫妇。在摩尔人的迫害中，怀着渴望为基督作证的热忱，在狱中不停地赞美基督，终被斩首（852年）。
 
 **11\*.** 在伊利里亚的奥赫里德（Achrídes in Illýrico），圣克肋孟（Clemens），韦利察（Velicénsis）主教。以博学与圣经知识卓著，将信仰的光带给保加利亚人民。与他一同纪念的有圣主教戈拉兹德（Gorázdus）、纳呼姆（Nahum）、萨巴（Sabas）与安杰拉里奥（Angelárius），他们在保加利亚延续了圣济利禄与圣美铎第的事业（九至十世纪）。
 
@@ -2914,7 +2914,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **10\.** 在西班牙的马德里（Matrítum），圣伯多禄·波韦达·卡斯特罗韦尔德（Petrus Poveda Castroverde），司铎、殉道。创立德兰善会（Institútum Teresiánum）以推广基督信仰教育。迫害教会的风暴甫起，即为信仰的缘故被杀害，为天主作出了明确的见证（1936年）。
 
-**11\*.** 同在西班牙萨拉戈萨省的加瓦萨（Gábasa），真福厄玛奴耳·塞古拉（Emmanuél Segura），司铎，与达味·卡洛斯（Dávid Carlos），修士，均属圣母虔学会，在同一迫害中殉道（1936年）。
+**11\*.** 同在西班牙萨拉戈萨省的加瓦萨（Gábasa），真福厄玛奴耳·塞古拉（Emmanuél Segura），司铎，与达味·卡洛斯（Dávid Carlos），修士，均属公学司铎修会，在同一迫害中殉道（1936年）。
 
 **12\.** 同在西班牙的塔拉戈纳（Tarráco），圣雅各伯·伊拉里奥（厄玛奴耳）·巴尔巴尔·科桑（Iacóbus Hilárius [Emmanuél] Barbal Cosán），喇沙修士会（Fratres Scholárum Christianárum）修士、殉道。迫害肆虐时，因仇恨教会而被判处死刑（1936年）。
 
@@ -2987,7 +2987,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 2. **第2条（圣拉匝禄与圣玛利亚）**：拉匝禄复活事迹见若十一章，"主为之哭泣"见若十一35。玛利亚坐在主脚前听道事迹见路十39-40。
 
-3. **第6条（圣路波）**：路波（Lupus, c.395-c.478），特鲁瓦主教。热尔马诺（Germanus）为欧塞尔（Auxerre）主教，二人约429年赴不列颠对抗白拉奇异端。路波以祈祷保护特鲁瓦免受匈人王阿提拉（Attila）之劫掠事迹为中世纪传说。
+3. **第6条（圣路波）**：路波（Lupus, c.395-c.478），特鲁瓦主教。热尔马诺（Germanus）为欧塞尔（Auxerre）主教，二人约429年赴不列颠对抗白拉奇异端。路波以祈祷保护特鲁瓦免受匈人之王阿提拉（Attila）之劫掠事迹为中世纪传说。
 
 4. **第8条（圣奥拉夫）**：奥拉夫二世（Olav II Haraldsson, c.995-1030），挪威国王（1015-1028），挪威主保圣人。尼达罗斯（Nidaros）即今挪威特隆赫姆（Trondheim）。
 
@@ -3067,7 +3067,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 > A B C D E F F G H M N P
 > 25 26 27 28 29 30 30 1 2 3 4 5
 
-**1\.** 圣依纳爵·罗耀拉（Ignátius de Loyola），司铎的纪念。生于西班牙巴斯克（Vascónia），早年在宫廷任侍从武士。负重伤后皈依天主，在巴黎完成神学学业，聚集最初的同伴，后在罗马创立耶稣会（Sociétas Iesu）。在罗马从事卓有成效的牧职，撰写著作、培育门生，一切为天主更大的光荣（1556年）。
+**1\.** 圣依纳爵•罗耀拉（Ignátius de Loyola），司铎的纪念。生于西班牙巴斯克（Vascónia），早年在宫廷任侍从武士。负重伤后皈依天主，在巴黎完成神学学业，聚集最初的同伴，后在罗马创立耶稣会（Sociétas Iesu）。在罗马从事卓有成效的牧职，撰写著作、培育门生，一切为天主更大的光荣（1556年）。
 
 **2\.** 在利古里亚的米兰（Mediolánum in Transpadána），圣加利美洛（Calimérus），主教（二世纪末）。
 
@@ -3105,7 +3105,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 ### 七月三十一日校注
 
-1. **第1条（圣依纳爵·罗耀拉）**：纪念（*memória*）。依纳爵·罗耀拉（Ignatius de Loyola, 1491-1556），耶稣会创始人。"愈显主容"（*ad maiórem Dei glóriam*，缩写 AMDG）为耶稣会格言。依纳爵（Ignatius）从方法论 -tius → 爵 规则，合为依纳爵。OCR首字母缺失，据西语版补全。
+1. **第1条（圣依纳爵•罗耀拉）**：纪念（*memória*）。依纳爵•罗耀拉（Ignatius de Loyola, 1491-1556），耶稣会创始人。"愈显主容"（*ad maiórem Dei glóriam*，缩写 AMDG）为耶稣会格言。依纳爵（Ignatius）从方法论 -tius → 爵 规则，合为依纳爵。OCR首字母缺失，据西语版补全。
 
 2. **第6条（欧塞尔主教圣热尔马诺）**：即七月二十九日第6条（特鲁瓦主教圣路波）之同行者。瓦伦丁尼安三世（Valentinian III, 425-455在位）与加拉·普拉齐迪亚（Galla Placidia, c.390-450）为罗马帝国西部之皇帝与摄政太后，均从世俗通行译法。阿尔莫里卡（Armorica）为布列塔尼之古地名。
 
@@ -3160,7 +3160,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **15\*.** 在东京（Tunquínum）的南定城（Nam Đinh），圣阮文幸（妙）多明我（Domínicus Nguyn Văn Hnh [Diêu]），多明我会会士，与圣武文叡贝尔纳尔多（Bernárdus Vǔ Văn Du），司铎、殉道。在明命帝（Minh Mạng）治下为基督被斩首（1838年）。
 
-**16\.** 在法国伊泽尔河（Isara）畔的拉米尔（La Mure），圣伯多禄·儒利亚诺·厄马尔（Petrus Iuliánus Eymard），司铎的忌日（*natális*），其纪念于明日举行（1868年）。
+**16\.** 在法国伊泽尔河（Isara）畔的拉米尔（La Mure），圣伯多禄•儒里安•爱麦（Petrus Iuliánus Eymard），司铎的忌日（*natális*），其纪念于明日举行（1868年）。
 
 **17\*.** 在西班牙的马德里（Matrítum），真福本文努托（若瑟）·德·米盖尔·阿拉阿尔（Benvenútus [Iosephus] de Miguel Arahal），方济各第三会苦难圣母嘉布遣会（Tértius Ordo Sancti Francísci Capulatórum a Beáta Vírgine Perdolénti）司铎、殉道。在信仰遭受猛烈迫害时，为基督倾洒了热血（1936年）。
 
@@ -3195,7 +3195,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **1\.** 圣欧瑟伯（Eusébius），利古里亚韦尔切利（Vercéllæ in Ligúria）首任主教的纪念。在整个阿尔卑斯山麓地区巩固了教会。因宣认尼西亚信经（*fides nicǽna*），遭君士坦提乌斯二世（Constántius II）流放至斯基托波利斯（Scythópolis），继而至卡帕多细雅（Cappadócia）及特拜德（Thebáis）。八年后重返本座，奋力抵抗亚略派以恢复正统信仰（371年）。
 
-**2\.** 圣伯多禄·儒利亚诺·厄马尔（Petrus Iuliánus Eymard），司铎的纪念。初为教区司铎，后入玛利亚会（Sociétas Maríæ）。为至圣圣体奥迹的卓越崇敬者，创立两个新修会，一为神职人员，一为侍女，以培育和推广对至圣圣体的虔敬。在其出生地法国格勒诺布尔（Gratianópolis）附近的拉米尔（La Mure）辞世（1868年）。
+**2\.** 圣伯多禄•儒里安•爱麦（Petrus Iuliánus Eymard），司铎的纪念。初为教区司铎，后入玛利亚会（Sociétas Maríæ）。为至圣圣体奥迹的卓越崇敬者，创立两个新修会，一为神职人员，一为侍女，以培育和推广对至圣圣体的虔敬。在其出生地法国格勒诺布尔（Gratianópolis）附近的拉米尔（La Mure）辞世（1868年）。
 
 **3\.** 在非洲，纪念圣鲁蒂略（Rutílius），殉道。多次四处逃避迫害，有时甚至以金钱赎免险境。某日突遭逮捕，被押至总督面前，经受诸多酷刑后被投入火中，蒙受了光荣殉道荣冠（约212年）。
 
@@ -3225,7 +3225,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 1. **第1条（圣欧瑟伯）**：纪念（*memória*）。欧瑟伯（Eusebius, d. 371），韦尔切利首任主教。君士坦提乌斯二世（Constantius II, 337-361在位）为亚略派同情者，从世俗通行译法。斯基托波利斯（Scythopolis）在今以色列贝特谢安。忌日记录见八月一日第5条。
 
-2. **第2条（圣伯多禄·儒利亚诺·厄马尔）**：纪念（*memória*）。厄马尔（Peter Julian Eymard, 1811-1868），创立圣体司铎会（Congregatio Presbyterorum a Sanctissimo Sacramento）及圣体侍女会。玛利亚会（Societas Mariae）即圣母会（Marists）。忌日记录见八月一日第16条。两条均OCR首字母缺失。
+2. **第2条（圣伯多禄•儒里安•爱麦）**：纪念（*memória*）。爱麦（Peter Julian Eymard, 1811-1868），创立圣体司铎会（Congregatio Presbyterorum a Sanctissimo Sacramento）及圣体侍女会。玛利亚会（Societas Mariae）即圣母会（Marists）。忌日记录见八月一日第16条。两条均OCR首字母缺失。
 
 3. **第3条（圣鲁蒂略）**：此殉道者"以金钱赎免险境"（*perículum pecúnia redemísset*）之细节为德尔都良（Tertullian）《论逃避迫害》中所讨论之道德案例。
 
@@ -3518,7 +3518,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **17\*.** 在西班牙巴伦西亚附近的萨莱尔（El Saler），真福安多尼·西尔韦斯特雷·莫亚（Antónius Silvestre Moya），司铎、殉道。在反信仰的猛烈迫害中，以不屈的基督见证抵达天上的国（1936年）。
 
-**18\*.** 同在西班牙的巴伦西亚（Valéntia），真福耶稣圣婴的玛利亚·巴尔迪略·伊·布利特（María a Iesu Infánte Baldillou y Bullit）及同伴，圣母虔学女儿会（Institútum Filiárum Maríæ Scholárum Piárum）童贞、殉道。在同一迫害中因教会仇敌的暴力，光荣地迎向了基督净配（1936年）。
+**18\*.** 同在西班牙的巴伦西亚（Valéntia），真福耶稣圣婴的玛利亚·巴尔迪略·伊·布利特（María a Iesu Infánte Baldillou y Bullit）及同伴，圣母公学女儿会（Institútum Filiárum Maríæ Scholárum Piárum）童贞、殉道。在同一迫害中因教会仇敌的暴力，光荣地迎向了基督净配（1936年）。
 
 **19\*.** 在德意志的古森（Gusen）集中营，真福弗拉基米尔·拉斯科夫斯基（Vladimírus Laskowski），司铎、殉道。波兰人，战争期间因信仰被投入集中营，遭受残酷折磨后获得殉道荣光（1940年）。
 
@@ -3575,7 +3575,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **13\*.** 同在西班牙的巴塞罗那（Barcínona），真福殉道者鲁本（耶稣）·洛佩斯·阿吉拉尔（Ruben a Iesu López Aguilar）及六位同伴，天主教仁爱修会修士。在同一迫害中因仇恨修道生活而被杀害，迁归于主（1936年）。
 
-**14\*.** 同在西班牙韦斯卡省的阿萨努伊（Azanuy），真福殉道者法乌斯蒂诺·奥泰萨（Faustínus Oteiza），司铎，与弗洛伦蒂诺·斐理伯（Florentínus Felipe），均属圣母虔学会修士。在同一迫害中为基督殉难（1936年）。
+**14\*.** 同在西班牙韦斯卡省的阿萨努伊（Azanuy），真福殉道者法乌斯蒂诺·奥泰萨（Faustínus Oteiza），司铎，与弗洛伦蒂诺·斐理伯（Florentínus Felipe），均属公学司铎修会会士。在同一迫害中为基督殉难（1936年）。
 
 **15\*.** 同在西班牙托莱多附近的阿尔赫斯（Argès prope Tolétum），真福纪廉·普拉萨·埃尔南德斯（Guliélmus Plaza Hernández），教区工人司铎善会司铎、殉道。在同日同一搏斗中交付了灵魂（1936年）。
 
@@ -3696,7 +3696,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 > A B C D E F F G H M N P
 > 7 8 9 10 11 12 12 13 14 15 16 17
 
-**1\.** 圣若安纳·方济加·弗雷米奥·德·尚达尔（Ioánna Francísca Frémiot de Chantal），修女的纪念。在基督徒婚姻中育有六名子女，以至虔的心教养。丈夫去世后，在圣方济各·沙雷（Francíscus de Sales）的引导下热忱地奔走成全道路，向穷人尤其向病人广施爱德工作。创立圣母往见会（Ordo Visitatiónis Sanctæ Maríæ），并以智慧加以领导。实于十二月十三日在法国讷韦尔（Nivérnum）附近阿利埃河（Eláver）畔的穆兰（Molínis）辞世（1641年）。
+**1\.** 圣若翰纳•方济加•尚达尔（Ioánna Francísca Frémiot de Chantal），修女的纪念。在基督徒婚姻中育有六名子女，以至虔的心教养。丈夫去世后，在圣方济各•沙雷（Francíscus de Sales）的引导下热忱地奔走成全道路，向穷人尤其向病人广施爱德工作。创立圣母往见会（Ordo Visitatiónis Sanctæ Maríæ），并以智慧加以领导。实于十二月十三日在法国讷韦尔（Nivérnum）附近阿利埃河（Eláver）畔的穆兰（Molínis）辞世（1641年）。
 
 **2\.** 在西西里的卡塔尼亚（Cátana in Sicília），圣厄乌普洛（Euplus），殉道。在戴克里先皇帝的迫害中，据传手持福音书卷，被总督加尔维西亚诺（Calvisiánus）投入监狱。再次受审时，他以光荣宣称"我将福音持于心中"作答，被棍棒活活打死（约304年）。
 
@@ -3732,7 +3732,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 ### 八月十二日校注
 
-1. **第1条（圣若安纳·方济加·德·尚达尔）**：纪念（*memória*）。若安纳·方济加·弗雷米奥·德·尚达尔（Jeanne-Françoise Frémyot de Chantal, 1572-1641），从法文名形式。圣方济各·沙雷（François de Sales, 1567-1622）为其灵修导师。沙雷（Sales）从法文发音。圣母往见会（Visitandines）1610年创立于安讷西（Annecy）。辞世日为十二月十三日，故本日非忌日。OCR首字母缺失。
+1. **第1条（圣若翰纳•方济加•尚达尔）**：纪念（*memória*）。圣若翰纳•方济加•尚达尔（Jeanne-Françoise Frémyot de Chantal, 1572-1641），正文主名按万有真原瞻礼单通用译名，括注保留拉丁全名。圣方济各•沙雷（François de Sales, 1567-1622）为其灵修导师。沙雷（Sales）从法文发音。圣母往见会（Visitandines）1610年创立于安讷西（Annecy）。辞世日为十二月十三日，故本日非忌日。OCR首字母缺失。
 
 2. **第2条（圣厄乌普洛）**："我将福音持于心中"（*se Evangélia in corde tenére*）：第一次受审时手持福音书卷（*volumina Evangeliorum in manu*），第二次受审时宣称已将福音刻于心中。
 
@@ -3783,7 +3783,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **14\*.** 在西班牙阿拉贡韦斯卡附近的巴尔巴斯特罗（Barbástrum），真福殉道者塞贡迪诺·玛利亚·奥尔特加·加西亚（Secundínus María Ortega García），司铎，及十九位同伴，均属圣母无玷圣心传教士会（Claretians）。在反教会的猛烈迫害中，因仇恨修道生活而被杀害（1936年）。
 
-**15\*.** 在西班牙卡斯特利翁（Castellón）海岸附近的阿尔马索拉（Almazora），真福若望·阿格拉蒙特（Ioánnes Agramunt），圣母虔学会司铎、殉道。在同一迫害中殉难（1936年）。
+**15\*.** 在西班牙卡斯特利翁（Castellón）海岸附近的阿尔马索拉（Almazora），真福若望·阿格拉蒙特（Ioánnes Agramunt），公学司铎修会司铎、殉道。在同一迫害中殉难（1936年）。
 
 **16\*.** 在西班牙卡斯特利翁省的阿尔博卡塞尔（Albocàsser）附近，真福莫德斯托·加西亚·马尔蒂（Modéstus García Martí），方济各嘉布遣会司铎、殉道。在反信仰的迫害中以殉道成就了福音的宣认（1936年）。
 
@@ -4017,7 +4017,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **12\*.** 在法国罗什福尔海岸外的海峡中，真福诺埃尔·伊莱尔·勒孔特（Noël-Hilaire Le Conte），殉道。他是布尔日主教座堂教士，负责音乐事务。迫害期间因仇视宗教而被囚于奴隶运输船上，染病后为基督而亡（1794年）。
 
-**13\*.** 在西班牙赫罗纳附近的卡斯特尔福利特德拉罗卡（Castellfollit de la Roca），真福恩里克·卡纳德尔（Enric Canadell），圣母虔学会司铎、殉道。因仇恨教会而被杀害（1936年）。
+**13\*.** 在西班牙赫罗纳附近的卡斯特尔福利特德拉罗卡（Castellfollit de la Roca），真福恩里克·卡纳德尔（Enric Canadell），公学司铎修会司铎、殉道。因仇恨教会而被杀害（1936年）。
 
 ### 八月十七日校注
 
@@ -4099,7 +4099,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 > A B C D E F F G H M N P
 > 14 15 16 17 18 19 19 20 21 22 23 24
 
-**1\.** 圣若望·欧德（Ioánnes Eudes），司铎。他多年致力于在各堂区宣讲；后来为在修院培育司铎创立耶稣玛利亚会，又为巩固悔改妇女的基督徒生活创立仁爱圣母修女会。他尤其促进对耶稣与玛利亚圣心的敬礼，最终在法国诺曼底的卡昂（Cadómum in Normánnia）虔诚安息主怀（1680年）。
+**1\.** 圣若望•欧德（Ioánnes Eudes），司铎。他多年致力于在各堂区宣讲；后来为在修院培育司铎创立耶稣玛利亚会，又为巩固悔改妇女的基督徒生活创立仁爱圣母修女会。他尤其促进对耶稣与玛利亚圣心的敬礼，最终在法国诺曼底的卡昂（Cadómum in Normánnia）虔诚安息主怀（1680年）。
 
 **2\.** 在拉齐奥的切卡诺（Ceccano，拉丁文作 Fabrateria Vetus），圣马尼奥（Magnus），殉道（年代不详）。
 
@@ -4143,7 +4143,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 ### 八月十九日校注
 
-1. **第1条（圣若望·欧德）**：若望·欧德（Jean Eudes, 1601-1680）创立耶稣玛利亚会与仁爱圣母修女会，并致力于推广对耶稣圣心和玛利亚圣心的敬礼。拉丁OCR因版面装饰大写字母脱落，将本条首词 *Sancti* 识别为 *ancti*；正文据西语参校本及原句补全。
+1. **第1条（圣若望•欧德）**：若望•欧德（Jean Eudes, 1601-1680）创立耶稣玛利亚会与仁爱圣母修女会，并致力于推广对耶稣圣心和玛利亚圣心的敬礼。拉丁OCR因版面装饰大写字母脱落，将本条首词 *Sancti* 识别为 *ancti*；正文据西语参校本及原句补全。
 
 2. **第4条（圣弟茂德的年代）**：拉丁底本页边年代与西语参校本均作"约350年"，但正文明确称其殉道发生于戴克里先皇帝的迫害中；戴克里先在位于284至305年，传统资料多记其于304年殉道。正文按事实改作"约304年"，并在此保留底本差异。
 
@@ -4180,7 +4180,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **4\.** 同在阿基坦海岸的埃尔岛努瓦尔穆捷修院（Noirmoutier in ínsula Hério），圣菲利贝尔托（Philibértus），院长。他在达戈贝尔一世国王的宫廷中受教，尚在青年时便成为修士，先后创立并治理瑞米耶日修院（Jumièges）与埃尔岛修院（约684年）。
 
-**5\.** 在西班牙汪达尔地区的科尔多瓦（Córduba in Vandalícia），殉道者圣莱奥维吉尔多（Leovigíldus）与圣克里斯托佛罗（Christóphorus），修士。他们在摩尔人的迫害中，自愿在法官面前宣认基督，因而被斩首，领受殉道棕枝（852年）。
+**5\.** 在西班牙汪达尔地区（Vandalícia，今安达卢西亚）的科尔多瓦（Córduba），殉道者圣莱奥维吉尔多（Leovigíldus）与圣克里斯托佛罗（Christóphorus），修士。他们在摩尔人的迫害中，自愿在法官面前宣认基督，因而被斩首，领受殉道棕枝（852年）。
 
 **6\*.** 在托斯卡纳的锡耶纳（Senæ in Etrúria），真福伯尔纳铎·托洛梅（Bernárdus Tolomei），院长的善终。他依圣本笃会规创立橄榄山会，悉心致力于修道纪律；瘟疫在意大利肆虐时，他在身陷险境的锡耶纳修士中间去世（1348年）。
 
@@ -4190,7 +4190,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **9\.** 在罗马，教宗圣庇护十世的忌日，其纪念于翌日举行（1914年）。
 
-**10\*.** 在西班牙卡斯特利翁省的巴利沃纳（Vallibona），真福玛弟亚·卡多纳（Matías Cardona），圣母虔学会司铎、殉道，在宗教迫害中殉难（1936年）。
+**10\*.** 在西班牙卡斯特利翁省的巴利沃纳（Vallibona），真福玛弟亚·卡多纳（Matías Cardona），公学司铎修会司铎、殉道，在宗教迫害中殉难（1936年）。
 
 **11\*.** 同在西班牙巴伦西亚地区的哈蒂瓦（Xàtiva），真福玛利亚·克利门特·马特乌（Maria Climent Mateu），童贞、殉道。在同一迫害期间，她因坚守信仰，堪当肖似基督（1936年）。
 
@@ -4294,7 +4294,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **3\.** 在罗马奥斯提恩塞大道旁其墓园中，圣弟茂德（Timótheus），殉道（303年）。
 
-**4\.** 在翁布里亚的托迪（Tudér），圣斐理伯·贝尼谛（Filippo Benizi），佛罗伦萨司铎。他极其谦逊，推广圣母仆人会，并将被钉十字架的基督视为自己唯一的书（1285年）。
+**4\.** 在翁布里亚的托迪（Tudér），圣斐理伯•贝尼谛（Filippo Benizi），佛罗伦萨司铎。他极其谦逊，推广圣母仆人会，并将被钉十字架的基督视为自己唯一的书（1285年）。
 
 **5\*.** 在翁布里亚的梅瓦尼亚（Mevánia，今贝瓦尼亚 Bevagna），真福雅各伯·比安科尼（Iacóbus Bianconi），多明我会司铎。他在当地创立会院，并驳斥尼各老党人的谬误（1301年）。
 
@@ -4320,7 +4320,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 2. **第2条（圣辛佛里亚诺）**：辛佛里亚诺为欧坦殉道者，其母在城墙上劝勉他的话为本条核心。正文中引语不用项目禁用之中文直角引号，改用双引号。
 
-3. **第4条（圣斐理伯·贝尼谛）**：斐理伯·贝尼谛（Filippo Benizi, 1233-1285）为圣母仆人会早期重要人物，曾任该会总会长。拉丁文称其为"圣母仆人会之推广者"（*Ordinis Servórum Maríæ propagátor*）。
+3. **第4条（圣斐理伯•贝尼谛）**：斐理伯•贝尼谛（Filippo Benizi, 1233-1285）为圣母仆人会早期重要人物，曾任该会总会长。拉丁文称其为"圣母仆人会之推广者"（*Ordinis Servórum Maríæ propagátor*）。
 
 4. **第5条（尼各老党人）**：尼各老党人（Nicolaitæ）见于默二6、15，早期教会传统多视为鼓吹淫乱及祭偶像之食物的异端群体。本条所谓"尼各老党人的谬误"在中世纪语境中亦常用于指称违反神职独身或纵欲的错误。
 
@@ -4457,7 +4457,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **1\.** 圣路易（圣王类思，路易九世，Ludovícus Nonus），法国国王。他无论在国内，或在为保卫基督徒而进行的战争中，都以活跃的信德、治国的公义、对穷人的爱以及逆境中的坚忍而著称。他成婚后有十一名子女，并以极佳且虔敬的方式教育他们。他为敬礼主的十字架、荆冠与圣墓，耗尽财富、力量乃至自己的生命，直到在北非海岸突尼斯附近的军营中染疫去世（1270年）。
 
-**2\.** 圣若瑟·加拉桑（José de Calasanz），司铎。他为在福音的爱与智慧中教育儿童和少年，设立平民学校，并在罗马创立天主之母虔诚学校贫穷正规司铎会（1648年）。
+**2\.** 圣若瑟·加拉桑（José de Calasanz），司铎。他为在福音的爱与智慧中教育儿童和少年，设立平民学校，并在罗马创立公学司铎修会（1648年）。
 
 **3\.** 在普罗旺斯的阿尔勒（Areláte），圣热内削（Genésius），殉道。他尚为慕道者，担任记录官职务；因拒绝参与迫害基督徒而逃走求生，却被士兵捕获，以自己的血受洗（303年）。
 
@@ -4485,7 +4485,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 1. **第1-2条（OCR缺字）**：拉丁OCR与西语OCR均因页首装饰大写缺失第1、2条开头，分别作 *ancti Ludovíci Noni*、*ancti Ioséphi de Calasanz*；正文据完整赞辞补为"圣路易"与"圣若瑟·加拉桑"。
 
-2. **第2条（圣若瑟·加拉桑）**：加拉桑（José de Calasanz, 1557-1648）为虔诚学校会（Piarists）创立者。正文中修会全称译自拉丁 *Ordo Clericórum Regulárium Páuperum Matris Dei Scholárum Piárum*，即"天主之母虔诚学校贫穷正规司铎会"。
+2. **第2条（圣若瑟·加拉桑）**：加拉桑（José de Calasanz, 1557-1648）为公学司铎修会（Piarists）创立者。拉丁全称 *Ordo Clericórum Regulárium Páuperum Matris Dei Scholárum Piárum* 即"天主之母公学贫穷正规司铎会"，正文按既有中文通名简译。
 
 3. **第3-4条（阿尔勒与伊塔利卡）**：阿尔勒为普罗旺斯古城；西帕利斯（Hispalis）即今塞维利亚。热内削尚为慕道者而以血受洗，故正文保留"以自己的血受洗"的殉道神学表达。
 
@@ -4694,7 +4694,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 4. **第9条（圣梅瑟埃塞俄比亚人）**：梅瑟埃塞俄比亚人（Moses the Black/Moses the Ethiopian, c.330-405）为埃及沙漠教父之一，传统称其先为强盗首领，后皈依并成为隐修士。为区别于旧约先知梅瑟，正文加括注"埃塞俄比亚人"。
 
-5. **第10条（圣佛罗伦蒂娜）**：佛罗伦蒂娜（Florentina）为西班牙修女，圣依西多禄与圣良德的姊妹。拉丁 *Vandalícia Hispániæ régio* 指西班牙汪达尔地区，即今安达卢西亚；西帕利斯为塞维利亚古名。
+5. **第10条（圣佛罗伦蒂娜）**：佛罗伦蒂娜（Florentina）为西班牙修女，圣依西多禄与圣良德的姊妹。拉丁 *Vandalícia Hispániæ régio* 指西班牙汪达尔地区（今安达卢西亚）；西帕利斯为塞维利亚古名。
 
 6. **第11\*条（威廉·迪安及同伴）**：拉丁底本第11条有脚注，正文"七位同伴"据脚注列为真福威廉·冈特（William Gunter）、罗伯特·莫顿（Robert Morton）、多默·霍尔福德（Thomas Holford）、雅各伯·克拉克斯顿（James Claxton）四位司铎，方济各小兄弟会神职人员多默·费尔顿（Thomas Felton），以及平信徒亨利·韦布利（Henry Webley）与休·莫尔（Hugh More）。本条加入英格兰殉道者追踪。
 
@@ -4735,7 +4735,7 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 
 **6\.** 在英格兰伦敦，纪念圣塞比（Sebbi）。他是极虔敬事奉天主的东撒克逊人国王，舍弃王位后，愿意身穿久已渴望的修道服而去世（约693年）。
 
-**7\.** 在纽斯特里亚的巴黎，圣梅德里科（Medericus），司铎、欧坦院长。他曾在城附近僻静处生活（约700年）。
+**7\.** 在纽斯特里亚的巴黎，圣梅德里科（Medericus/Médéric），司铎，曾任欧坦圣玛尔定修院院长。他曾在城附近僻静处生活（约700年）。
 
 **8\*.** 在西班牙瓦伦西亚，真福殉道者若望·佩鲁贾（Giovanni da Perugia），司铎，及伯多禄·萨索费拉托（Pietro da Sassoferrato），会士，二人均属方济各小兄弟会。他们因在瓦伦西亚的摩尔人中宣讲信仰，奉国王命令在公共广场被斩首，获得殉道棕枝（1231年）。
 
@@ -5140,5 +5140,1004 @@ XVI  XVII XVIII XIX XX   XXI  XXII XXIII XXIV XXV  XXV  XXVI XXVII XXVIII XXIX *
 6. **第12-14条（西班牙内战殉道者）**：三条均属1936年西班牙宗教迫害。卡斯特利翁在拉丁底本作 *Castalia*，此处仍指 Castellón，非历史地区卡斯蒂利亚。第12条若瑟·帕斯夸尔·卡尔达·萨波尔塔属教区工人司铎善会；第13条方济各·森德拉·伊瓦尔斯为阿利坎特地区司铎；第14条真福贝尔纳多（若瑟）·布莱达·格劳为嘉布遣会修士，修会名 Berardo de Lugar Nuevo de Fenollet。拉丁 OCR 及索引将其姓氏误作 Bieda，西语 OCR 作 Leda；圣座宣福名单作 Bleda，正文据此修正。
 
 7. **西语参校本与 OCR 情况**：西语版本日与拉丁底本条目一致，无增删。第3条西语增作"萨拉里亚新道"，拉丁底本仅作 *via Salaria*，正文从拉丁。第14条姓名差异见上一注。
+
+---
+
+## 九月五日
+
+**Die 5 septémbris** · 九月初五（*Nonis septémbris*）
+
+月龄表（*Luna*）：
+
+> a b c d e f g h i k l m n p q r s t u
+> 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+> A B C D E F F G H M N P
+> 1 2 3 4 5 6 6 7 8 9 10 11
+
+**1\.** 在罗马港（Portus Romanus），圣阿孔爵（Acontius）、农诺（Nonnus）、赫尔库拉诺（Herculanus）与陶里诺（Taurinus），殉道（年代不详）。
+
+**2\.** 在坎帕尼亚的卡普亚，圣昆托（Quintus），殉道（年代不详）。
+
+**3\.** 在比提尼亚的尼科美狄亚（Nicomedia），圣殉道者乌尔巴诺（Urbanus）、德奥多罗（Theodorus）、默内德莫（Menedemus）及同伴，包括圣职人员与平信徒。他们为天主教信仰，由瓦伦斯皇帝下令押上一艘小船，在海上被焚烧（370年）。
+
+**4\.** 在佛兰德的泰鲁阿讷地区（pagus Taruannensis，今法国 Thérouanne 一带），圣贝尔坦（Bertinus），锡坦（Sithiu）院长。他安葬于自己与圣穆莫利诺（Mummolinus）共同创建的修院；该修院后来以他的名字命名（约698年）。
+
+**5\*.** 在利古里亚的托尔托纳（Dertona/Tortona），圣阿尔佩托（Alpertus）。他被认为是布特里奥修院（monasterium Butriense，今 Palazzuolo）的创建者及首任院长（约1073年）。
+
+**6\*.** 在达尔马提亚，西蓬托的真福善人若望（Ioannes Bonus de Siponto），院长。他在达尔马提亚海岸、面对加尔加诺山的地方，建造圣弥额尔修院（十二世纪）。
+
+**7\*.** 在英格兰里彭（Ripon），真福威廉·布朗（William Browne），殉道。他在詹姆斯一世国王治下，因引导他人接受天主教信仰而被判死刑，遭绞刑后又被残酷肢解（1605年）。
+
+**8\*.** 在法国罗什福尔（Rupifortium/Rochefort）外海锚泊的一艘污秽船只上，真福弗洛朗·迪蒙泰·德·卡尔达亚克（Florent Dumontet de Cardaillac），司铎、殉道。他在法国动乱时期因司铎身份被判罪；照顾同囚病患时，成为自身爱德与热忱的牺牲，染病而完成殉道（1794年）。
+
+**9\.** 在东京（Tunquínum）的宁才城（Ninh Tai），圣阮文自伯多禄（Petrus Nguyễn Văn Tự）司铎，属多明我会，及圣黄良景若瑟（Iosephus Hoàng Lương Cảnh），医生，殉道。他们因基督徒名号遭人憎恨而被斩首（1838年）。
+
+**10\*.** 在印度加尔各答，真福加尔各答的德肋撒修女（依搦斯·龚莎·波雅舒，Teresa [Agnes] Gonxha Bojaxhiu），童贞。她生于斯科普里（Skopje），为阿尔巴尼亚裔，以对最贫穷弟兄姊妹的卓越爱德，止息被遗弃于十字架上的基督的干渴；又创立仁爱传教女修会与仁爱传教男修会，全心服务病患和被遗弃者（1997年）。
+
+### 九月五日校注
+
+1. **第1-6条（早期及中世纪圣人）**：罗马港即古代罗马外港 Portus Romanus，位于台伯河口附近。第3条尼科美狄亚在今土耳其伊兹米特一带，瓦伦斯皇帝为罗马皇帝 Valens。第4条泰鲁阿讷地区拉丁作 *pagus Taruannensis*，锡坦修院传统后来发展为圣奥梅尔的圣贝尔坦修院。第5条布特里奥修院所在地今多作 Palazzuolo；西语参校本称本圣人为 Alberto，正文从拉丁 *Alpertus*。第6条"善人若望"为意大利名 Giovanni il Buono da Siponto 的意译，西蓬托今属曼弗雷多尼亚一带。
+
+2. **第7条（真福威廉·布朗）**：威廉·布朗为平信徒殉道者，1605年九月五日在里彭受绞刑并遭肢解。拉丁 *Iacobus rex Primus* 指英格兰詹姆斯一世。本条加入英格兰殉道者追踪。
+
+3. **第8条（罗什福尔囚船殉道者）**：弗洛朗·迪蒙泰·德·卡尔达亚克全名亦作 Florent du Montet de Malussin de Cardaillac，为法国大革命时期罗什福尔囚船殉道者之一，1794年九月五日在囚船 Deux-Associés 上去世。本条加入罗什福尔囚船殉道者追踪。
+
+4. **第9条（越南殉道者）**：拉丁 OCR 将圣阮文自伯多禄姓名残缺为 *Nguyn Văn T*，并将圣黄良景若瑟误作 *Hoàng Lung Cånh*；正文据西语参校本、越南主教团资料及通行国语字修正为 Nguyễn Văn Tự 与 Hoàng Lương Cảnh。汉字"阮""文""黄"无歧义，"良""景"中等偏高，"自"对应 Tự 可信度较低，待日后据汉字原件复核。
+
+5. **第10条（真福加尔各答的德肋撒修女）**：德肋撒修女为加尔各答仁爱传教女修会创立者，2004年版为真福，2016年九月四日由教宗方济各封圣。拉丁底本作 *ex Epiro nata*，西语参校本作"生于阿尔巴尼亚"；按圣座传记资料，她生于斯科普里，属阿尔巴尼亚裔，正文据事实处理。本名中文写法参考梵蒂冈新闻网中文资料。
+
+6. **西语参校本与 OCR 情况**：西语版本日与拉丁底本条目一致，无增删。第3条西语增补今属土耳其，第4条增补今属法国，第5条增补今 Palazzuolo，第6条增补西蓬托今曼弗雷多尼亚，均已在正文或校注酌情标明。第9条拉丁 OCR 越南姓名缺损，见本日校注第4条。
+
+---
+
+## 九月六日
+
+**Die 6 septémbris** · 九月望日前第八日（*Octávo Idus septémbris*）
+
+月龄表（*Luna*）：
+
+> a b c d e f g h i k l m n p q r s t u
+> 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1
+> A B C D E F F G H M N P
+> 2 3 4 5 6 7 7 8 9 10 11 12
+
+**1\.** 纪念圣匝加利亚（Zacharias），先知。他预言被掳的子民将返回恩许之地，并向他们传报一位和平君王的消息；主基督凯旋进入圣城耶路撒冷时，奇妙地满全了这预告。
+
+**2\.** 又纪念圣敖乃息佛洛（Onesiphorus）。他在厄弗所屡次使真福保禄宗徒精神快慰，不以保禄的锁链为耻；来到罗马后，又热切寻找他，并找到了他（一世纪）。
+
+**3\.** 纪念非洲的圣多纳齐亚诺（Donatianus）、普雷西迪奥（Praesidius）、曼苏埃托（Mansuetus）、热尔马诺（Germanus）与富斯科洛（Fusculus），主教。他们在汪达尔迫害中，奉亚略派国王胡内里克的命，为捍卫天主教真理而被棍棒残酷殴打，并遭流放；同受纪念者还有拜匝切纳的内普特主教圣莱托（Laetus），他刚毅而博学，长期忍受污秽牢狱后，被火焚烧而死（五世纪）。
+
+**4\.** 在翁布里亚的斯波莱托，圣爱琉德理（Eleutherius），院长。教宗圣大额我略称赞他的纯朴和内心痛悔（六世纪）。
+
+**5\*.** 在高卢的拉昂（Laudunum/Laon），圣卡尼奥阿尔多（Cagnoaldus/Chagnoald），主教。他是圣高隆邦的门徒，也是高隆邦在布雷根茨（Brigantium/Bregenz）附近旷野中的唯一随侍者（约632年）。
+
+**6\*.** 在英格兰坎伯兰（Cumberland）海岸，后以她名字命名的村镇，圣贝加（Bega），修女（约660年）。
+
+**7\*.** 在巴伐利亚的菲森（Füssen）修院，圣马尼奥（Magnus，德语亦称 Mang），院长（八世纪）。
+
+**8\*.** 在法国普罗旺斯奥朗日附近布谢（Le Bouchet，拉丁 Bosquetum）的熙笃会修院，纪念真福贝尔特朗·德·加里格（Bertrand de Garrigues），司铎。他是圣多明我最早门徒中的一位，常努力效法导师的榜样（约1230年）。
+
+**9\*.** 在西班牙阿利坎特地区加塔德戈尔戈斯（Gata de Gorgos），真福迭戈·义奥尔卡·义奥皮斯（Diego Llorca Llopis），司铎、殉道。他在迫害教会时，因见证基督而荣获冠冕（1936年）。
+
+**10\*.** 同在西班牙巴伦西亚地区卡尔卡申特（Carcaixent），真福帕斯夸尔·托雷斯·义奥雷特（Pascual Torres Lloret），殉道。他是一个家庭的父亲，背负基督的十字架，堪获天上的赏报（1936年）。
+
+**11\*.** 在波兰华沙，真福弥额尔·恰尔托雷斯基（Michał Czartoryski），多明我会司铎、殉道。祖国波兰遭天主的仇敌入侵时，他因绝不背弃信仰，在当地堂区境内被枪杀（1944年）。
+
+### 九月六日校注
+
+1. **第1-2条（圣经人物）**：匝加利亚从思高圣经译名。第1条所指和平君王进入圣城的预告，参见匝九9及福音中主进入耶路撒冷的叙述。敖乃息佛洛从思高弟后一16-17译名；拉丁 *refrigeravit* 对应思高"使我精神快慰"。
+
+2. **第3条（非洲主教与汪达尔迫害）**：胡内里克（Hunneric, 477-484在位）为汪达尔王，信奉亚略派。内普特（Nepte/Nepta）为北非古城，属拜匝切纳（Byzacena），大致在今突尼斯境内。圣莱托（Laetus）在本条中与前五位流放主教一并纪念，但拉丁特别说明其死于火刑。
+
+3. **第4-7条（中世纪圣人及地名）**：圣爱琉德理为圣大额我略《对话录》中提及的院长。拉昂为法国城市 Laon，拉丁作 *Laudunum*。第5条 *Brigantium* 按圣高隆邦史事及古地名对照为今奥地利布雷根茨（Bregenz）；西语参校本作 Briançon，正文不从。圣贝加与今日英格兰坎布里亚郡圣比斯（St Bees）的地方敬礼有关；其早期史料不甚确定。圣马尼奥为菲森地方敬礼中的圣 Magnus，德语地区亦称 St. Mang。
+
+4. **第8条（真福贝尔特朗·德·加里格）**：贝尔特朗·德·加里格为圣多明我早期同伴中的一位，后在普罗旺斯及法国南部服务多明我会。拉丁 *monasterium Cisterciense Bosqueti* 指布谢的熙笃会女修院，原名 Notre-Dame-du-Bosquet，近奥朗日；他约于1230年在那里去世。
+
+5. **第9-10条（西班牙内战殉道者）**：二条均属1936年西班牙宗教迫害，并在2001年三月十一日由教宗若望保禄二世与233位西班牙殉道者同列真福品。Llorca、Llopis、Lloret 为巴伦西亚/加泰罗尼亚语姓氏，Ll- 按本项目既定规则译作"义"音。
+
+6. **第11条（真福弥额尔·恰尔托雷斯基）**：弥额尔·恰尔托雷斯基（Michał Czartoryski, OP, 1897-1944）属第二次世界大战波兰108位殉道者团体，1999年六月十三日由教宗若望保禄二世在华沙宣福。他在华沙起义期间留守照顾无法撤离的伤者，九月六日被枪杀。
+
+7. **西语参校本与 OCR 情况**：西语九月六日区段仅收拉丁第1-10条，第11条未在本日区段出现；同文在西语 OCR 中见于四月六日第15条，疑为参校本编排差异或 OCR 错置，正文从拉丁底本收录。第5条西语将 *Brigantium* 译作 Briançon，正文按高隆邦史事及古地名对照作布雷根茨。
+
+---
+
+## 九月七日
+
+**Die 7 septémbris** · 九月望日前第七日（*Séptimo Idus septémbris*）
+
+月龄表（*Luna*）：
+
+> a b c d e f g h i k l m n p q r s t u
+> 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2
+> A B C D E F F G H M N P
+> 3 4 5 6 7 8 8 9 10 11 12 13
+
+**1\.** 在高卢爱杜伊人地区的阿莱西亚（Alesia），圣女雷日娜（Regina/Reine），殉道（年代不详）。
+
+**2\.** 在基里基雅的庞培奥波利斯（Pompeiopolis），圣索宗（Sozon），殉道（年代不详）。
+
+**3\.** 在坎帕尼亚的贝内文托，圣殉道者费斯托（Festus）执事与德西德里奥（Desiderius）读经员（四世纪）。
+
+**4\.** 在里昂高卢的奥尔良（Aurelianum/Orléans），圣厄韦尔特（Evurtius/Euverte），主教（四世纪）。
+
+**5\*.** 在格拉耶阿尔卑斯的奥斯塔（Augusta Praetoria/Aosta），圣格拉托（Gratus/Grat），主教（五世纪）。
+
+**6\.** 在高卢特鲁瓦地区的布勒伊（Breuil），圣默莫里奥（Memorius，亦作 Nemorius）及同伴，殉道。按传统，他们被匈人之王阿提拉杀害（五世纪）。
+
+**7\*.** 在里昂高卢的沙隆（Catalaunum/Châlons），圣阿尔皮诺（Alpinus），主教。他曾是特鲁瓦的圣路波门徒（五世纪）。
+
+**8\.** 同在高卢巴黎地区的诺让村（Novigentum，今圣克卢 Saint-Cloud），圣克卢（克洛多阿尔多，Clodoaldus/Cloud），司铎。他出身王族；父亲与兄弟被杀后，由祖母圣克洛蒂尔德收养，后来轻看地上的王国，成为圣职人员（560年）。
+
+**9\*.** 在阿基坦的阿尔比，圣女卡里西玛（Carissima），隐修童贞（六至七世纪）。
+
+**10\*.** 在奥斯特拉西亚埃诺地区的莫伯日（Malbodium/Maubeuge），圣女玛德尔贝尔塔（Madelberta），女院长。她继承自己的姊妹圣阿德尔特鲁德（Adeltrudis）治理修院（约705年）。
+
+**11\*.** 在奥斯特拉西亚的佛兰德，纪念圣希尔杜阿尔多（Hilduardus），主教（约760年）。
+
+**12\*.** 在洛塔林吉亚的图勒（Tullum/Toul），圣戈兹兰（Gauzlinus/Gauzelin），主教。他扶植修道纪律（962年）。
+
+**13\*.** 在翁布里亚的古比奥，洛迪的圣若望（Ioannes Laudensis/Giovanni da Lodi），主教。他曾在使节事务中与圣伯多禄·达弥盎为伴（约1106年）。
+
+**14\*.** 在高卢的沃孔提人迪城（Dea Vocontiorum/Die），圣艾蒂安·德·沙蒂永（Stephanus de Castellione/Étienne de Châtillon），主教。他从波尔特隐修院（Cartusia Portarum，今 Portes-en-Bugey）的幽独中被选出，却丝毫没有减损加尔都西会的严厉克修，极其卓越地治理了这个教会（1208年）。
+
+**15\.** 在喀尔巴阡山中的科希策（Cassovia/Košice），圣殉道者马尔谷·克里辛（Marcus Crisinus/Marko Križevčanin），埃斯泰尔戈姆司铎，及圣斯德望·蓬格拉茨（Stephanus Pongracz/Štefan Pongrácz）、圣默基瑟德·格罗杰茨基（Melchior Grodziecki），耶稣会司铎。他们不为饥饿、轮刑或火刑的折磨所动，始终不肯背弃天主教信仰（1619年）。
+
+**16\*.** 在日本长崎，真福殉道者多默·辻（Thomas Tsuji），耶稣会司铎，及路易·牧宗悦（Ludovicus Maki Soetsu）与其子若望·牧治左卫门（Ioannes Maki Jizaemon）。他们因仇恨基督信仰被判火刑（1627年）。
+
+**17\*.** 在英格兰伦敦，真福赖福·科尔比（Ralph Corby/Randulphus Corby），耶稣会会士，及若望·达克特（John Duckett），司铎、殉道。他们在查理一世国王治下，因身为司铎进入英格兰而被判死刑，在泰伯恩以绞刑获得天上棕枝（1644年）。
+
+**18\*.** 在法国海岸罗什福尔外的一艘锚泊船只上，真福克洛德-巴尔纳贝·洛朗·德·马斯克卢（Claude-Barnabé Laurent de Mascloux）与方济各·杜迪诺·德·拉·布瓦西埃（François d'Oudinot de la Boissière），司铎、殉道。他们在法国动乱时期因司铎身份被捕，并被送往海上监禁；因饥饿而罹患重病，为基督而死（1794年）。
+
+**19\*.** 在大洋洲的伍德拉克岛（Woodlark Island，今巴布亚新几内亚），真福若望洗者·马祖科尼（Giovanni Battista Mazzucconi），米兰外方传教会司铎、殉道。他从事福音传播两年后，已因热病和溃疡耗尽体力，又因仇恨信仰，被斧击杀害（1855年）。
+
+**20\*.** 在意大利艾米利亚的帕尔马，真福欧杰尼亚·皮科（Eugenia Picco），童贞，属耶稣与玛利亚圣心小女儿会。她全心委顺天主旨意，促进妇女尊严，并照顾修女们的灵修培育和通识教育（1921年）。
+
+**21\*.** 在西班牙巴伦西亚地区的甘迪亚（Gandía），圣若瑟·加拉桑的真福亚森西翁·义奥雷特·马尔科（Ascensión de San José de Calasanz Lloret Marco），童贞，属仁爱加尔默罗修女会，殉道。她在迫害中完成了为信仰而受的争战（1936年）。
+
+### 九月七日校注
+
+1. **第1-8条（早期与墨洛温王朝圣人）**：雷日娜为法国阿莱西亚殉道童贞，法语作 Reine。庞培奥波利斯在基里基雅，今土耳其境内。圣默莫里奥及同伴殉道传统与匈人之王阿提拉有关。圣克卢即 Clodoaldus/Cloud，为法兰克王克洛多米尔之子、克洛维一世之孙；其隐退地诺让后来以他为名，成为今日巴黎近郊圣克卢。
+
+2. **第9-14条（中世纪高卢与意大利圣人）**：莫伯日在今法国北部，旧属埃诺及奥斯特拉西亚。希尔杜阿尔多为佛兰德地区传教主教，敬礼与今比利时登德尔蒙德等地相关。洛迪的圣若望曾属丰特阿韦拉纳传统，并为圣伯多禄·达弥盎撰写传记。第14条 Dea Vocontiorum 即今法国德龙省 Die；波尔特隐修院为加尔都西会 Chartreuse de Portes，在今 Portes-en-Bugey 一带。
+
+3. **第15条（科希策三圣）**：科希策三圣为马尔谷·克里辛、斯德望·蓬格拉茨、默基瑟德·格罗杰茨基，分别与克罗地亚、匈牙利及西里西亚传统相关。三人于1619年九月七日在今斯洛伐克科希策殉道，1905年由教宗庇护十世宣福，1995年七月二日由教宗若望保禄二世在科希策封圣。2004年拉丁底本已作 *sancti*。
+
+4. **第16条（长崎日本殉道者）**：多默·辻、路易·牧宗悦、若望·牧治左卫门属205位日本殉道者团体，1867年由教宗庇护九世宣福。辻为 Tsuji 的日文姓氏；Maki 多见作牧。宗悦、治左卫门据日文名 Soetsu、Jizaemon 推定，待日文原始名录进一步核定。本条加入日本殉道者追踪。
+
+5. **第17条（英格兰殉道者）**：赖福·科尔比亦作 Ralph Corbie/Corrington，为耶稣会司铎；若望·达克特为教区司铎。二人在英国内战时期被捕，1644年九月七日在泰伯恩殉道。本条加入英格兰殉道者追踪。
+
+6. **第18条（罗什福尔囚船殉道者）**：克洛德-巴尔纳贝·洛朗·德·马斯克卢与方济各·杜迪诺·德·拉·布瓦西埃均为利摩日教区司铎，法国大革命时期被囚于罗什福尔外海船只，死于饥饿、疾病及非人拘禁。本条加入罗什福尔囚船殉道者追踪。
+
+7. **第19条（真福若望洗者·马祖科尼）**：马祖科尼为米兰外方传教会司铎，该机构后来发展为宗座外方传教会（PIME）。他1855年九月七日在伍德拉克岛附近遇害，1984年二月十九日由教宗若望保禄二世宣福。西语参校本作"被斩首"，拉丁作"被斧击杀害"，正文从拉丁。
+
+8. **第20-21条（近现代真福）**：欧杰尼亚·皮科为耶稣与玛利亚圣心小女儿会修女，1901年起任总会长，2001年十月七日由教宗若望保禄二世宣福。亚森西翁·义奥雷特·马尔科属仁爱加尔默罗修女会，2001年三月十一日与西班牙宗教迫害中的233位殉道者同列真福品。第21条加入西班牙内战殉道者追踪。
+
+9. **西语参校本与 OCR 情况**：西语版本日与拉丁底本条目数量一致，无增删。第19条西语作"被斩首"，拉丁为 *securis ictu occisus*，正文按"被斧击杀害"处理。第21条西语作"基督学校修女会"相关表述，而拉丁底本作 *Institutum Sororum Carmelitarum a Caritate*，且外部传记资料亦确认为仁爱加尔默罗修女会，正文从拉丁。
+
+---
+
+## 九月八日
+
+**Die 8 septémbris** · 九月望日前第六日（*Sexto Idus septémbris*）
+
+月龄表（*Luna*）：
+
+> a b c d e f g h i k l m n p q r s t u
+> 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3
+> A B C D E F F G H M N P
+> 4 5 6 7 8 9 9 10 11 12 13 14
+
+**1\.** 圣母诞辰庆日。荣福童贞玛利亚出自亚巴郎的后裔，生于犹大支派和达味君王的家族；天主子由她诞生，并因圣神降孕成人，为使人类摆脱罪恶的古老奴役。
+
+**2\.** 在罗马，纪念圣亚德良（Hadrianus），殉道。他曾在彼提尼雅的尼科美狄亚受难；教宗何诺一世（Honorius I）为尊崇他，将罗马元老院议事厅改建为教堂（年代不详）。
+
+**3\.** 在埃及亚历山大里亚，圣浮斯托（Faustus）、狄翁（Dius/Dion）与阿摩尼奥（Ammonius），司铎、殉道。他们在戴克里先皇帝迫害中，与圣伯多禄主教一同领受殉道冠冕（约311年）。
+
+**4\.** 在大亚美尼亚的巴格列万德城（Bagrevand），圣依撒格（Isaac/Sahak），主教。为培育民众的基督徒生活，他将圣经与礼仪译成亚美尼亚语；他坚守厄弗所大公会议所确认的信仰，不久被逐出主教座，死于流放（438年）。
+
+**5\.** 在罗马圣伯多禄大殿，圣教宗色尔爵一世（Sergius I）安葬。他本为叙利亚人，为撒克逊人与弗利西亚人的福音传播大力操劳，平息了许多争端与诉讼；他宁愿选择死亡，也不愿附和谬误（701年）。
+
+**6\.** 在巴伐利亚的弗赖辛（Freising），圣科尔比尼安（Corbinianus/Korbinian）。他被祝圣为主教，受派往巴伐利亚宣讲福音，并结出丰盛果实（725年）。
+
+**7\*.** 在高卢勒皮地区的佩布拉克（Piperacum/Pébrac），沙瓦农的圣伯多禄（Petrus de Chavanon/Pierre de Chavanon），司铎。他渴望更成全的生活，隐退到那处僻静地方，并在那里建立了一座律修参议会士修院，自己也作了它的长上（约1080年）。
+
+**8\*.** 在意大利皮切诺的佩萨罗（Pesaro），真福塞拉菲娜·斯福尔扎（Seraphina/Serafina Sforza）。她在婚姻生活中经历许多逆境；守寡后，在圣佳兰会规下极其谦卑地度过余生（1478年）。
+
+**9\.** 在西班牙瓦伦西亚，圣多玛斯·德·维拉诺瓦（Thomas de Villanova/Tomás de Villanueva），主教。他原为圣奥斯定会规下的隐修士，因服从而接受主教职；在诸多牧德中，他尤其以对穷人火热的爱德卓然出众，竟将一切都分施给贫困者，连自己的床也不留下（1555年）。
+
+**10\*.** 在英格兰达勒姆（Durham），真福殉道者多玛斯·帕拉瑟（Thomas Palaser），司铎，及若望·诺顿（John Norton）与若望·塔尔博特（John Talbot）。他们在伊丽莎白一世女王治下被判死刑：第一位因以司铎身份返回英格兰，其余二人因帮助他，遂受绞刑之苦（1600年）。
+
+**11\.** 在哥伦比亚的卡塔赫纳（Cartagena de Indias，拉丁 Carthago Nova），圣伯多禄•格肋凡（Peter Claver/Pedro Claver），司铎，安息。他的纪念于明日举行（1654年）。
+
+**12\*.** 在日本长崎，真福圣文都辣的安多尼（Antonius a Sancto Bonaventura/Antonio de San Buenaventura），方济各小兄弟会司铎，及真福多明我·卡斯特列特（Dominicus Castellet/Domingo Castellet），多明我会司铎，和二十位同伴，殉道。其余同伴为平信徒，其中多人还是儿童；他们全都为基督或受刀剑、或受火刑而殉道（1628年）。
+
+**13\*.** 在高卢马赛，真福弗雷德里克·奥匝南（Frédéric Ozanam）安息。他学识与虔敬俱著，以卓越学问捍卫并传播信仰真理；在圣味增爵善会中，常以爱德服务穷人；作为杰出的家庭之父，又把自己的家庭建成家庭教会（1853年）。
+
+**14\*.** 在西班牙汪达尔地区（Vandalícia，今安达卢西亚）海岸的阿尔梅里亚，真福若瑟·塞西利奥（博尼法爵）·罗德里格斯·冈萨雷斯（José Cecilio [Bonifacio] Rodríguez González）、特奥德米罗·若亚敬（亚德良）·赛恩斯·赛恩斯（Teodomiro Joaquín [Adrián] Sainz Sainz）与埃文西奥·理查德（欧瑟伯·亚丰索）·乌尔胡拉（Evencio Ricardo [Eusebio Alfonso] Urjurra），殉道。他们是基督学校修士会会士，在内战时期因宗教迫害获得殉道者的棕枝（1936年）。
+
+**15\*.** 同在西班牙阿利坎特附近的阿尔科伊（Alcoy），真福马里诺·布拉内斯·希内尔（Marino Blanes Giner），殉道。他是一家之父，在同一迫害时期，从人手中接受死亡，却从天主那里接受永生（1936年）。
+
+**16\*.** 同在西班牙巴伦西亚地区的帕特尔纳城（Paterna），真福伊斯梅尔·埃斯克里韦拉·埃斯特韦（Ismael Escrihuela Esteve），殉道。他是一家之父，借殉道参与了基督的胜利（1936年）。
+
+**17\*.** 同在西班牙卡斯特利翁地区的比利亚雷亚尔-德洛斯因凡特斯（Villa Real de los Infantes，今 Villarreal/Vila-real），真福帕斯夸尔·福尔图尼奥·阿尔梅拉（Pascual Fortuño Almela），方济各小兄弟会司铎、殉道。他因见证基督而获冠冕（1936年）。
+
+**18\*.** 同在西班牙瓦伦西亚附近的布尼奥尔城（Buñol），真福天主圣若望的若瑟法·鲁阿诺·加西亚（Josefa de San Juan de Dios Ruano García）与圣欧拉利亚的痛苦玛利亚·普伊格·博纳尼（María Dolores de Santa Eulalia Puig Bonany），童贞，属无依老人小姊妹会，殉道。她们在同一反信仰的迫害中倾流鲜血，领受光荣的冠冕（1936年）。
+
+**19\*.** 在德国巴伐利亚慕尼黑附近的达豪（Dachau）集中营内，真福亚当·巴尔盖尔斯基（Adam Bargielski），司铎、殉道。战争期间，他自愿把自己交给信仰的仇敌，以代替自己的本堂神父；在监狱中忍受可怕折磨后，仍不屈服地迁入永远的光荣（1942年）。
+
+**20\*.** 在德国格罗斯-罗森（Groß-Rosen，今波兰下西里西亚罗戈日尼察 Rogoźnica），真福瓦迪斯瓦夫·布旺津斯基（Władysław Błądziński），圣弥额尔会司铎、殉道。在同一风暴中，他被教会的仇敌从祖国波兰押往采石场服劳役，并在那里被杀害（1944年）。
+
+### 九月八日校注
+
+1. **第1条（圣母诞辰）**：拉丁 OCR 因页首装饰大写缺失，将 *Festum* 误作 *estum*，且中段漏去"生于犹大支派和达味君王的家族"等文字；西语 OCR 亦缺开头，但保留了关键谱系内容。正文据完整赞辞补足。节名按通用礼仪译名作"圣母诞辰"。
+
+2. **第2-6条（早期与中世纪圣人）**：圣亚德良在尼科美狄亚殉道，其敬礼后来在罗马兴盛。教宗何诺一世将罗马元老院议事厅改建为献给圣亚德良的教堂。圣依撒格即亚美尼亚传统中的 Sahak，大亚美尼亚主教，参与亚美尼亚圣经与礼仪传统的奠基；Bagrevand 为亚美尼亚古地名。圣教宗色尔爵一世为叙利亚裔教宗，任内推动英格兰与弗利西亚地区传教，并拒绝接受有问题的宗教政策。科尔比尼安为弗赖辛及巴伐利亚地区传教主教。
+
+3. **第7-9条（修道与牧灵圣人）**：佩布拉克在今法国上卢瓦尔省一带，属勒皮传统地区。沙瓦农的圣伯多禄建立的是律修参议会士团体。塞拉菲娜·斯福尔扎本名 Sveva da Montefeltro，后入佩萨罗圣佳兰会修院。圣多玛斯·德·维拉诺瓦为奥斯定会士、瓦伦西亚总主教，以照顾穷人著称。
+
+4. **第10条（英格兰殉道者）**：多玛斯·帕拉瑟亦作 Thomas Palasor/Palaser，为英格兰司铎；若望·诺顿与若望·塔尔博特为协助他的平信徒。三人在伊丽莎白一世治下于达勒姆殉道。本条加入英格兰殉道者追踪。
+
+5. **第11条（圣伯多禄•格肋凡）**：圣伯多禄•格肋凡为耶稣会司铎，长期在哥伦比亚卡塔赫纳服务被贩运为奴的非洲人；其普世纪念日为九月九日，故本条仅于安息日预告"明日举行纪念"。
+
+6. **第12条（长崎日本殉道者）**：本条属205位日本殉道者团体，1867年由教宗庇护九世宣福。拉丁 OCR 保留脚注号但未收脚注正文；据拉丁索引及完整赞辞，二十位同伴为：长崎的多明我、圣亚钦多的多默、圣多明我的安多尼、路济亚·路易莎、若望·托马奇及其四子多明我、弥额尔、多默、保禄、若望·今村、保禄·三太夫·相原、罗马诺·相原及其子良、雅各伯·林田、玛窦·阿尔瓦雷斯、弥额尔·山田及其子老楞佐、路易·东及其二子方济各、多明我。本条加入日本殉道者追踪。
+
+7. **第13条（真福弗雷德里克·奥匝南）**：奥匝南为法国天主教学者、平信徒，参与创立圣味增爵善会，1997年八月二十二日由教宗若望保禄二世在巴黎宣福。"家庭教会"译拉丁 *domestica ecclesia*。
+
+8. **第14-18条（西班牙内战殉道者）**：五条均属1936年西班牙宗教迫害。第14条三位为基督学校修士会会士，属阿尔梅里亚殉道者团体；第17条帕斯夸尔·福尔图尼奥·阿尔梅拉为方济各小兄弟会司铎；第18条二位属无依老人小姊妹会。第14-18条均加入西班牙内战殉道者追踪。
+
+9. **第19-20条（二战集中营殉道者）**：亚当·巴尔盖尔斯基为波兰沃姆扎教区司铎，1940年自愿代替年迈本堂神父被捕，后在达豪集中营殉道。瓦迪斯瓦夫·布旺津斯基为圣弥额尔会司铎，2004年拉丁底本作死于德国格罗斯-罗森；今相关研究指出其可能死于萨克森豪森的一个分营，正文仍从2004年底本，校注保留此差异待复核。二人同属1999年六月十三日由教宗若望保禄二世在华沙宣福的第二次世界大战108位波兰殉道者。第19条加入达豪集中营殉道者追踪，第20条加入二战集中营殉道者追踪。
+
+10. **西语参校本与 OCR 情况**：西语版本日与拉丁底本条目数量一致，无增删。第1条两份 OCR 均缺页首开头，拉丁还漏谱系中段，正文据完整赞辞补全。第20条西语明确补出格罗斯-罗森在西里西亚；正文据历史地理括注今地。
+
+---
+
+## 九月九日
+
+**Die 9 septémbris** · 九月望日前第五日（*Quinto Idus septémbris*）
+
+月龄表（*Luna*）：
+
+> a b c d e f g h i k l m n p q r s t u
+> 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4
+> A B C D E F F G H M N P
+> 5 6 7 8 9 10 10 11 12 13 14 15
+
+**1\.** 圣伯多禄•格肋凡（Petrus Claver/Pedro Claver），耶稣会司铎。他在哥伦比亚的新卡塔赫纳（Carthago Nova，今 Cartagena de Indias），四十余年以奇妙的克己和卓越爱德，为被掳入奴役的黑人服务；他亲手以基督的洗礼使其中将近三十万人重生（1654年）。
+
+**2\.** 在罗马拉比卡纳道的双桂墓园（coemeterium ad Duas Lauros），圣戈尔戈尼奥（Gorgonius），殉道（203年以后）。
+
+**3\.** 在萨宾地区，距罗马城第三十里处，圣亚钦多（Hyacinthus），殉道（年代不详）。
+
+**4\.** 在爱尔兰香农河畔的克朗马克诺伊斯修院（Clonmacnoise），圣基兰（Ciarán，亦作 Kieran/Ciaranus），司铎、院长，亦为该修院创立者（六世纪）。
+
+**5\*.** 在西班牙卡斯蒂利亚地区，真福玛利亚·德拉卡韦萨（María de la Cabeza，亦名 Toribia），圣依西多禄农夫的妻子。她度了谦卑而勤劳的隐修生活（十二世纪）。
+
+**6\*.** 在德国明斯特（Münster），真福玛利亚·欧蒂米亚（艾玛）·于芬（Maria Euthymia [Emma] Üffing），童贞，属怜悯修女会。她以卓越虔敬、仁慈和忘我，在病人中侍奉天主（1955年）。
+
+**7\*.** 在英格兰约克，真福乔治·道格拉斯（George Douglas），司铎、殉道。他是苏格兰人，原为教师，后在巴黎成为司铎；在伊丽莎白一世女王治下，因劝人接受天主教信仰，受绞刑之苦，凯旋迁入天乡（1587年）。
+
+**8\*.** 在高卢卡奥尔地区的格拉马城（Gramat），真福伯多禄·博诺姆（Pierre Bonhomme），司铎。他极力从事民间传教和乡村福音化，又创立加尔瓦略山圣母修女会，将青年、病人和贫困者的需要托付给她们照顾（1861年）。
+
+**9\*.** 在印度洋毛里求斯岛的路易港（Port Louis），真福雅各伯·德西德雷·拉瓦尔（Jacques-Désiré Laval），司铎。他行医数年后，成为圣神会传教士，引领新近摆脱奴役的黑人进入天主子女的自由（1864年）。
+
+**10\*.** 在西班牙巴斯克地区的弗拉维奥布里加（Flaviobriga，今 Castro-Urdiales），真福弗朗西斯科·加拉特·阿兰古伦（Francisco Gárate Aranguren），耶稣会会士。他以基督徒的谦卑，履行门房职务四十二年（1929年）。
+
+### 九月九日校注
+
+1. **第1条（圣伯多禄•格肋凡）**：拉丁 OCR 因页首装饰大写缺失，将 *Sancti* 误作 *ancti*，并在 *Carthagine* 中夹入图像页码痕迹；西语 OCR 亦缺本条开头。正文据完整赞辞补全。圣伯多禄•格肋凡为耶稣会士，长期在哥伦比亚卡塔赫纳服务被贩运为奴的非洲人；中文名按万有真原瞻礼单通用译名作"圣伯多禄•格肋凡"。
+
+2. **第2-4条（早期及爱尔兰圣人）**：双桂墓园为罗马拉比卡纳道旁墓园。第3条圣亚钦多为萨宾地区殉道者，与八月十七日所译波兰多明我会圣亚钦多同名而非同人。圣基兰为克朗马克诺伊斯修院创立者；克朗马克诺伊斯位于今爱尔兰奥法利郡香农河畔，成为中世纪爱尔兰重要修道和学术中心。
+
+3. **第5条（真福玛利亚·德拉卡韦萨）**：她又名托里维亚（Toribia），为圣依西多禄农夫的妻子。西语参校本作"新卡斯蒂利亚"，拉丁仅作 *Castella Hispaniae regio*，正文从拉丁作卡斯蒂利亚地区。
+
+4. **第6条（真福玛利亚·欧蒂米亚·于芬）**：玛利亚·欧蒂米亚·于芬本名 Emma Üffing，属明斯特怜悯修女会/克莱孟修女会传统，2001年十月七日由教宗若望保禄二世宣福。2004年拉丁底本索引及西语 OCR 均作1855年，但官方传记载其生于1914年、卒于1955年；正文据事实改为1955年。
+
+5. **第7条（英格兰殉道者）**：乔治·道格拉斯为苏格兰人，在巴黎晋铎，后在英格兰传教；1587年九月九日在约克殉道，1987年十一月二十二日由教宗若望保禄二世宣福。本条加入英格兰殉道者追踪。
+
+6. **第8-9条（十九世纪传教与慈善真福）**：伯多禄·博诺姆为法国司铎，加尔瓦略山圣母修女会创立者，2003年三月二十三日由教宗若望保禄二世宣福。雅各伯·德西德雷·拉瓦尔先为医生，后入圣神会，在毛里求斯服务获释奴隶，1979年四月二十九日由教宗若望保禄二世宣福。
+
+7. **第10条（真福弗朗西斯科·加拉特）**：加拉特为巴斯克籍耶稣会辅理修士，长期任德乌斯托学院/大学门房，1985年十月六日由教宗若望保禄二世宣福。拉丁底本作弗拉维奥布里加（Flaviobriga），对应今卡斯特罗-乌尔迪亚莱斯；西语参校本作毕尔巴鄂，正文从拉丁地名。
+
+8. **西语参校本与 OCR 情况**：西语版本日与拉丁底本条目数量一致，均为十条；但西语将拉丁第6、7条对调，正文从拉丁顺序。第1条两份 OCR 均缺页首开头。第6条年份作1855年，与官方资料不合，正文改为1955年。第10条西语以毕尔巴鄂解释弗拉维奥布里加，正文仍从拉丁地名。
+
+---
+
+## 九月十日
+
+**Die 10 septémbris** · 九月望日前第四日（*Quarto Idus septémbris*）
+
+月龄表（*Luna*）：
+
+> a b c d e f g h i k l m n p q r s t u
+> 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5
+> A B C D E F F G H M N P
+> 6 7 8 9 10 11 11 12 13 14 15 16
+
+**1\.** 在埃及亚历山大里亚，圣内梅西奥（Nemesius），殉道。他起初因被诬为强盗而被带到法官前，又因该罪获释；不久，在德西乌斯皇帝迫害中，又因基督宗教的名义，在法官埃弥利亚诺（Aemilianus）前被控。法官以加倍酷刑折磨他，又命他与强盗一同被焚烧，使他显出救主的肖似，因为救主也曾与强盗一同忍受十字架（251年）。
+
+**2\.** 纪念圣内梅西亚诺（Nemesianus）及其同伴斐理斯（Felix）、路济奥（Lucius）、另一位斐理斯、利泰奥（Litteus）、波利亚诺（Polianus）、维克多（Victor）、雅德尔（Iader）和达蒂沃（Dativus）。他们是主教、司铎和执事；在非洲，瓦勒良与加里恩皇帝治下，迫害的狂暴兴起时，先为基督遭受严酷杖击，随后被脚镣锁住，派往矿坑挖矿。圣西彼廉以书信劝勉他们坚定忍受锁链，遵守主的诫命（257-258年）。
+
+**3\.** 在君士坦丁堡，圣普尔刻里亚（Pulcheria）。她捍卫并促进正统信仰（453年）。
+
+**4\.** 在利古里亚的诺瓦拉（Novaria，今意大利 Novara），圣阿加比奥（Agabius，亦作 Agapius），主教（五世纪）。
+
+**5\.** 在阿基坦的阿尔比（Albia/Albi，今法国），圣萨尔维奥（Salvius），主教。他从隐修院被召出，非出本愿而被祝圣到此主教座；瘟疫加剧时，这位善牧始终不愿离开本城（584年）。
+
+**6\.** 在奥斯特拉西亚莱茵兰的斯派尔（Spira，今德国 Speyer）附近，通格伦（Tungrensis/Tongeren）主教圣德奥达尔（Theodardus）蒙难，殉道。他在前往希尔德里克国王（Childericus）处的途中被杀害（约670年）。
+
+**7\*.** 在纽斯特里亚的阿夫朗什（Abrincae/Avranches，今法国），圣奥贝尔（Autbertus/Aubert），主教。因他的努力，圣弥额尔总领天神的敬礼在通巴山（mons Tumba）兴盛起来（约725年）。
+
+**8\*.** 在意大利皮埃蒙特的韦尔切利（Vercellae/Vercelli）附近的卢切迪奥修院（Locedium/Lucedio），真福奥列里奥（Oglerius/Oglerio），熙笃会院长（1214年）。
+
+**9\.** 在意大利皮切诺的多伦定（Tolentinum/Tolentino），圣尼各老•多伦定（Nicolaus Tolentinus/Nicola da Tolentino），圣奥斯定隐修会司铎。他专务极严厉的克己，恒常祈祷，待己严厉，待人仁慈，常常把别人的补赎加在自己身上（1305年）。
+
+**10\*.** 在日本长崎，真福塞巴斯蒂安木村（Sebastianus Kimura），耶稣会司铎，及真福方济各•莫拉莱斯（Franciscus Morales/Francisco Morales），多明我会司铎，和五十位同伴，殉道。他们包括司铎、修会士、夫妇、青年、传道员、寡妇和儿童；在一座山上，当着众多群众，因基督遭受极其残酷的折磨而死（1622年）。
+
+**11\.** 在英格兰伦敦，圣盎博罗削•厄德华•巴洛（Ambrosius Eduardus Barlow/Ambrose Edward Barlow），圣本笃会司铎、殉道。他在兰开斯特地区二十四年间坚固天主教徒的信德与虔敬；复活主日讲道时被捕，在查理一世国王治下，因司铎身份入狱，随后被判死刑，在泰伯恩刑架上受绞刑（1641年）。
+
+**12\*.** 在法国海岸罗什福尔（Rupifortium/Rochefort）外的海上，真福雅各伯•加尼奥（Iacobus Gagnot/Jacques Gagnot），加尔默罗会司铎、殉道。他在法国动乱时期因司铎身份，被非人道地投入一艘污秽船只；他扶助同被囚禁的病人，终因身体耗损而亡（1794年）。
+
+### 九月十日校注
+
+1. **第1-2条（非洲殉道者）**：圣内梅西奥与七月十八日第1条同伴中的内梅西奥同名而非同人。第1条以"与强盗同被处死"说明他肖似救主受难，但刑罚按本条为焚烧。第2条内梅西亚诺及同伴属于瓦勒良与加里恩迫害时期被罚往矿坑的非洲圣职人员；圣西彼廉书信曾劝勉他们在锁链中坚持遵守主的诫命。
+
+2. **第3-5条（东方与高卢、意大利圣人）**：普尔刻里亚为东罗马皇室圣女，拉丁赞辞着重其护卫正统信仰。诺瓦拉今属意大利皮埃蒙特，拉丁及西语均按古地理作利古里亚。阿尔比今属法国塔恩省；圣萨尔维奥原出修道生活，被推举为主教，瘟疫中仍留城牧养。
+
+3. **第6-8条（中世纪西欧圣人）**：斯派尔今属德国莱茵兰-普法尔茨；奥斯特拉西亚为墨洛温王朝东部法兰克王国。通格伦为今比利时 Tongeren。通巴山即 Mont Tombe，后来成为圣弥额尔山敬礼的核心地点；西语参校本括注作今 Saint-Michel de Tombelaine-sur-Mer，正文仍保留拉丁地名。卢切迪奥修院为意大利皮埃蒙特韦尔切利附近的熙笃会修院。
+
+4. **第9条（圣尼各老•多伦定）**：本条中文名按万有真原瞻礼单通用译名作"圣尼各老•多伦定"。他为圣奥斯定隐修会司铎，以严厉克己、恒常祈祷和替他人补赎著称。
+
+5. **第10条（长崎元和大殉教）**：本条属205位日本殉道者团体，1867年由教宗庇护九世宣福。西语 OCR 将第10条脚注置于九月十一日第1条之后，且在"保禄田中与"处截断；据西语脚注可见其列举五十位同伴，另据 Catholic.net 完整名单核对，五十位包括多明我会、方济各会、耶稣会成员及日本平信徒家庭。日本教会资料称1622年九月十日长崎西坂的本次殉道为元和大殉教。本条加入日本殉道者追踪。
+
+6. **第11条（圣盎博罗削•厄德华•巴洛）**：盎博罗削•厄德华•巴洛为英格兰本笃会司铎，长期在兰开斯特服务天主教徒，1641年九月十日在泰伯恩殉道，1970年由教宗保禄六世列入英格兰及威尔士四十殉道圣人。本条加入英格兰殉道者追踪。
+
+7. **第12条（罗什福尔囚船殉道者）**：雅各伯•加尼奥为加尔默罗会司铎，法国大革命时期因拒绝违背良心的誓言被囚于罗什福尔外海船只，照料患病同囚后病逝，1995年十月一日由教宗若望保禄二世宣福。本条加入罗什福尔囚船殉道者追踪。
+
+8. **西语参校本与 OCR 情况**：西语版本日与拉丁底本条目数量一致，均为十二条。西语为各条补出年代；第4条说明 Agabio 旧作 Agapio；第7条为通巴山加现代地名括注。第10条脚注在 OCR 中错置于九月十一日并被截断，正文从拉丁底本，校注据西语脚注和外部资料说明。
+
+---
+
+## 九月十一日
+
+**Die 11 septémbris** · 九月望日前第三日（*Tertio Idus septémbris*）
+
+月龄表（*Luna*）：
+
+> a b c d e f g h i k l m n p q r s t u
+> 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6
+> A B C D E F F G H M N P
+> 7 8 9 10 11 12 12 13 14 15 16 17
+
+**1\.** 在罗马萨拉里亚旧道（via Salaria Vetus）的巴西拉墓园（coemeterium Basillae），圣殉道者普罗托（Protus）与亚钦多（Hyacinthus）安葬。圣达玛稣教宗寻回他们埋藏地下的坟墓后，以诗句加以装饰。又在同一地点，约十五世纪后，圣亚钦多完整无损的墓穴及其火化后的遗体再次被发现（三世纪）。
+
+**2\*.** 在赫尔维提人地区的图里库姆（Turicum，今瑞士苏黎世 Zürich），圣斐理斯（Felix）与勒古拉（Regula），殉道（年代不详）。
+
+**3\.** 纪念圣彭诺许（Paphnutius），埃及主教。他是那些宣信者之一：在加莱里乌斯·马克西米努斯皇帝（Galerius Maximinus）治下，他们右眼被挖出，左膝筋被割断，被判往矿坑服役。后来，他参与尼西亚大公会议，并为天主教信仰奋勇反对亚略派（四世纪）。
+
+**4\.** 在高卢里昂，圣帕先斯（Patiens），主教。他为爱德所推动，在罗讷河与索恩河沿岸诸城，免费分发大量粮食，以救助饥荒所压迫的民众；又广泛投身宗徒事业，使异端者皈依，并照顾贫困者（约480年）。
+
+**5\.** 在高卢巴黎，里昂主教圣萨切尔多斯（Sacerdos）的迁逝。他生活在爱天主与敬畏天主中；来到此城出席会议时，就在那里去世（552年）。
+
+**6\*.** 在北威尔士（Cambria septentrionalis）海岸外的巴德西岛（Bardsey），圣达尼尔（Daniel/Deiniol Wyn），主教兼班戈院长（约584年）。
+
+**7\*.** 在勃艮第的吕克瑟伊修院（monasterium Luxoviense/Luxeuil），圣阿德尔福（Adelphius）的迁逝。他是勒米尔蒙修院（monasterium Romaricense/Remiremont）院长；一次短暂的不和，他以长久倾流的泪水作了补赎（约670年）。
+
+**8\*.** 在奥斯特拉西亚的图勒（Tullum/Toul），圣勒迪诺（Leudinus），又名博多（Bodo），主教。他原先有妻室，后来转向修道生活；其妻奥迪拉（Odila）也同时采取同一志向（680年以前）。
+
+**9\*.** 在卡拉布里亚的奥利纳修院（monasterium Aulinense），圣厄里亚（Elias），别号斯佩莱奥塔（Speleotes）。他是隐修生活与共修生活的卓越践行者（960年）。
+
+**10\*.** 在日本长崎，真福加斯帕尔·科特达（Gaspar Koteda），传道员，及儿童方济各·塔凯亚（Franciscus Takeya）与伯多禄·七右卫门（Petrus Shichiemon），殉道。他们的亲人已在前一日殉道；他们也在同一地点，以同样的坚定，为基督忍受了同样的斩首酷刑（1622年）。
+
+**11\*.** 在罗马，巴塞罗那的真福文都辣（米格尔）·格兰（Bonaventura de Barcinone [Michael] Gran），方济各小兄弟会修士。他热爱会规遵守，在罗马地区多处建立供神圣退省使用的会院，并始终表现出极严厉的生活和对穷人的爱德（1648年）。
+
+**12\*.** 在法国海岸罗什福尔（Rupifortium/Rochefort）附近一艘锚泊船上，真福方济各·马约东（Franciscus Mayaudon/François Mayaudon），司铎、殉道。他在法国动乱时期因司铎身份，被拘禁在奴役船上，最后因身体耗损而亡（1794年）。
+
+**13\.** 在中国湖北省武昌城（Uciamen/Wuchang，今武汉），圣董文学（Ioannes Gabriel Perboyre/Jean-Gabriel Perboyre），遣使会司铎、殉道。他为宣讲福音，依当地习俗取中国人的装束外貌；迫害来到时，在长久牢狱中遭受各种酷刑，最后被悬于十字架上，并以绳索绞杀（1840年）。
+
+**14\*.** 在西班牙巴塞罗那，真福伯多禄·德·阿尔坎塔拉（洛伦索）·比利亚努埃瓦·拉赖奥斯（Petrus de Alcantara [Laurentius] Villanueva Larrayoz），天主教仁爱修会修士、殉道。迫害信仰肆虐时，他因身为修会士而获得殉道（1936年）。
+
+**15\*.** 同在西班牙巴伦西亚地区的热诺韦斯村（Genovés），真福若瑟·玛利亚·塞古拉·佩纳德斯（Iosephus Maria Segura Penadés/José María Segura Penadés），司铎、殉道。他在同一迫害中为基督倾流了鲜血（1936年）。
+
+### 九月十一日校注
+
+1. **第1条（普罗托与亚钦多）**：萨拉里亚旧道为罗马古道 *via Salaria Vetus*；巴西拉墓园与八月二十八日第2条圣赫尔墨斯所在的巴西拉墓地同属萨拉里亚旧道区域。圣达玛稣教宗为多位殉道者撰写墓志诗，本条记述其修复二圣墓穴。亚钦多遗骸十五世纪后再度发现，印证本日古老敬礼。
+
+2. **第2-5条（早期及高卢圣人）**：图里库姆即今苏黎世，斐理斯与勒古拉为当地传统殉道者。圣彭诺许按万有真原瞻礼单译名处理；他为埃及主教及尼西亚大公会议参与者，属加莱里乌斯·马克西米努斯迫害下的宣信者传统。圣帕先斯为里昂主教，以饥荒时期分粮济民著称。圣萨切尔多斯之名 *Sacerdos* 原义为"司祭/司铎"，此处作人名音译。
+
+3. **第6-9条（威尔士、勃艮第与南意圣人）**：Deiniol Wyn 为威尔士本土名，拉丁作 Daniel；班戈指威尔士 Bangor。吕克瑟伊修院与勒米尔蒙修院均属早期法兰克修道传统。勒迪诺又名博多，其妻奥迪拉一同选择修道生活。厄里亚的别号 *Speleotes* 意为"穴居者"，因其隐修传统得名。
+
+4. **第10条（长崎日本殉道者）**：三人属205位日本殉道者团体，1867年由教宗庇护九世宣福。本条与九月十日长崎元和大殉教紧密相连；拉丁文 *patres* 与西语 *padres* 在此按史事泛指其亲人。Takeya 与 Koteda 之汉字未定，正文暂保留音译；Shichiemon 为日本名，暂按"七右卫门"处理。本条加入日本殉道者追踪。
+
+5. **第11条（巴塞罗那的真福文都辣）**：本名米格尔·格兰，方济各小兄弟会修士。"供神圣退省使用的会院"译拉丁 *conventus ad sacros recessus*，指其为严守会规与灵修退省所建立的会院传统。
+
+6. **第12条（罗什福尔囚船殉道者）**：方济各·马约东为法国大革命时期罗什福尔囚船殉道司铎。拉丁 *in navi servitutis comprehensus* 指被拘禁于奴役船/囚船；*carnis tabe consumptus* 按本系列通例译为"因身体耗损而亡"。本条加入罗什福尔囚船殉道者追踪。
+
+7. **第13条（圣董文学）**：圣董文学即法国遣使会司铎 Jean-Gabriel Perboyre，又名若望-加俾额尔·贝博尔；中文名按万有真原瞻礼单及香港天主教资料作"圣董文学"。他于1835年赴中国传教，1840年九月十一日在武昌殉道，1996年六月二日由教宗若望保禄二世封圣。圣董文学不属于2000年封圣的120位中华殉道圣人团体，故不回补七月九日第1条的120位交叉索引。
+
+8. **第14-15条（西班牙内战殉道者）**：伯多禄·德·阿尔坎塔拉·比利亚努埃瓦·拉赖奥斯属天主教仁爱修会，即圣若望天主会；若瑟·玛利亚·塞古拉·佩纳德斯为巴伦西亚地区教区司铎。二人均属1936年西班牙宗教迫害中的殉道者。本日第14-15条加入西班牙内战殉道者追踪。
+
+9. **西语参校本与 OCR 情况**：西语本日区段混入九月十日第10条的脚注48，且脚注在"保禄田中与"处截断。西语从本日第8条对应处起编号错位：拉丁第8条在西语作第9条，之后至末尾均比拉丁多一号；正文从拉丁底本顺序与编号。西语为各条补出年代，正文酌采。
+
+---
+
+## 九月十二日
+
+**Die 12 septémbris** · 九月望日前一日（*Prídie Idus septémbris*）
+
+月龄表（*Luna*）：
+
+> a b c d e f g h i k l m n p q r s t u
+> 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7
+> A B C D E F F G H M N P
+> 8 9 10 11 12 13 13 14 15 16 17 18
+
+**1\.** 圣母圣名的纪念。在本日，天主之母对她至圣圣子的不可言喻的爱被追念；救主母亲的形象也陈列在信友眼前，使人虔诚呼求。
+
+**2\.** 在彼提尼雅（Bithynia，今土耳其），圣奥托诺莫（Autonomus），主教、殉道（三世纪）。
+
+**3\.** 在埃及亚历山大里亚，圣克罗尼德（Cronides）、良齐奥（Leontius）与色辣彼翁（Serapion），殉道。据传，他们在马克西米努斯皇帝治下，因宣认基督的名，被沉入海中（约306年）。
+
+**4\*.** 在爱尔兰（Hibernia）芒斯特省（Momonia，今 Munster）的埃姆利（Emly），圣阿尔贝奥（Albeus/Ailbe），主教。他身为旅人，向许多人宣讲福音（约528年）。
+
+**5\.** 在布拉班特的安德莱赫特（Anderlecht），圣吉多（Guido/Guy）。他起初在拉肯圣母堂（ecclesia Mariae Laci/Notre-Dame de Laeken）任司事，后来因对穷人的慷慨而显著；他往圣地朝圣七年，最后回到自己的乡土，虔诚安逝（约1012年）。
+
+**6\*.** 在日本大村（Omura），真福阿波利纳尔·弗朗科（Apollinaris Franco/Apolinar Franco），方济各小兄弟会司铎，及真福多默·苏马拉加（Thomas Zumárraga/Tomás de Zumárraga），多明我会司铎，和四位同伴，殉道。他们因仇恨基督信仰被投入监狱，随后被火焚（1622年）。
+
+**7\*.** 在法国罗什福尔（Rupifortium/Rochefort）外海，真福伯多禄·苏尔皮斯·克里斯托夫·法韦日（Petrus Sulpitius Christophorus Faverge/Pierre-Sulpice-Christophe Faverge），基督学校修士会修士、殉道。他在法国动乱时期因身为修会士被囚，却全心照顾同囚，直到染疫耗尽而虔诚安逝（1794年）。
+
+**8\.** 在韩国首尔，圣崔京焕方济各（Franciscus Ch'oe Kyǒng-hwan/Francis Choe Kyong-hwan），殉道。他是传道员，被带到长官前时不肯否认基督信仰；在监狱中受拘押，仍从未停止祈祷和传授教理，并经由酷刑的折磨达到殉道（1839年）。
+
+### 九月十二日校注
+
+1. **第1条（圣母圣名）**：拉丁 OCR 因页首装饰大写缺失，将 *Sanctissimi* 误作 *anctissimi*；西语 OCR 开头亦有缺损。正文据拉丁完整赞辞补足。节名按万有真原瞻礼单通用译名作"圣母圣名"。
+
+2. **第2-5条（早期与中世纪圣人）**：彼提尼雅为小亚细亚古地区，今属土耳其。亚历山大里亚三位殉道者的年代西语参校本 OCR 作一世纪，与拉丁所载马克西米努斯皇帝治下不合；正文据圣人辞典及传统纪年作约306年。第3条 *ob Christi nominis confessionem* 译作"因宣认基督的名"。埃姆利为爱尔兰古老主教座，圣阿尔贝奥亦作 Ailbe。安德莱赫特今属比利时布鲁塞尔首都大区；拉肯圣母堂即布鲁塞尔拉肯地区圣母堂，拉丁作 *ecclesia Mariae Laci*。
+
+3. **第6条（日本大村殉道者）**：本条属205位日本殉道者团体，1867年由教宗庇护九世宣福。拉丁 OCR 仅保留脚注号而未收脚注正文；西语脚注49列四位同伴为：圣文都辣的方济各（Francisco de San Buenaventura）、圣佳兰的伯多禄（Pedro de Santa Clara）、多明我·马戈七（Domingo Magoshichi）及圣多默的玛窦·奇维亚托（Mateo de Santo Tomás Chiwiato）。本条加入日本殉道者追踪。
+
+4. **第7条（罗什福尔囚船殉道者）**：伯多禄·苏尔皮斯·克里斯托夫·法韦日为基督学校修士会修士，法国大革命时期因拒绝违背良心的誓言被囚于罗什福尔外海船只，照顾同囚后染疫病逝，1995年十月一日由教宗若望保禄二世宣福。本条加入罗什福尔囚船殉道者追踪。
+
+5. **第8条（韩国殉道圣人）**：圣崔京焕方济各属103位韩国殉道圣人。其韩文名为 최경환 프란치스코，汉字作崔京煥，正文用简体作崔京焕方济各。他为韩国第二位本籍司铎崔良业多默的父亲，1839年九月十二日在首尔监狱中殉道，1984年五月六日由教宗若望保禄二世在首尔封圣。本条加入韩国殉道圣人追踪。
+
+6. **西语参校本与 OCR 情况**：拉丁底本本日为八条，西语参校本增收第9条 Serrancolin 地方敬礼条目，纪念圣蓬西奥或厄邦西奥（Poncio/Eboncio），拉丁底本无，正文不译。第1条两份 OCR 均缺页首开头；第6条拉丁脚注号存在但 OCR 未收脚注正文，校注据西语脚注补列同伴姓名。
+
+---
+
+## 九月十三日
+
+**Die 13 septémbris** · 九月望日（*Idibus septémbris*）
+
+月龄表（*Luna*）：
+
+> a b c d e f g h i k l m n p q r s t u
+> 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8
+> A B C D E F F G H M N P
+> 9 10 11 12 13 14 14 15 16 17 18 19
+
+**1\.** 君士坦丁堡主教、教会圣师金口圣若望（Ioannes Chrysostomus）的纪念。他生于安提约基雅，晋铎后因金子般的口才赢得"金口"的称号；后来被选至君士坦丁堡主教座，显出自己是杰出的牧者和信仰导师。其后，他被敌人逐入流放；当他依圣教宗依诺增爵一世的命令被召回时，在途中受看守士兵诸多虐待，于九月十四日，在本都的科马纳（Comana in Ponto）将灵魂交还天主（407年）。
+
+**2\.** 在迦拉达的安基拉（Ancyra in Galatia，今土耳其安卡拉 Ankara），圣尤里安（Iulianus），司铎、殉道，于李锡尼皇帝治下受难（四世纪）。
+
+**3\.** 在耶路撒冷，纪念诸大殿奉献，这些大殿是君士坦丁皇帝虔诚命人在加尔瓦略山和主的圣墓上兴建的（335年）。
+
+**4\.** 在里昂高卢的图尔，圣利托里奥（Litorius），主教。他是第一位在城墙内建造教堂的人；此前当地已有基督徒（371年）。
+
+**5\.** 在里昂高卢的尤利娅瓦伦提亚（Iulia Valentia，今法国瓦朗斯 Valence），圣埃弥利亚诺（Aemilianus），被尊为该城首任主教（374年以后）。
+
+**6\.** 在迦太基，圣马尔切利诺（Marcellinus），殉道。他是护民官，也是圣奥斯定与圣热罗尼莫的友人；多纳图派异端者借赫拉克利亚诺叛乱的嫌疑陷害他，他因维护天主教信仰而清白被杀（413年）。
+
+**7\.** 在里昂高卢的昂热（Andegavum/Angers），圣毛里利奥（Maurilius），主教。他生于米兰，曾投奔图尔的圣玛尔定，由圣玛尔定祝圣为司铎，并被委任管理卡隆纳（Calonna，今 Chalonnes-sur-Loire）的教会；后来成为主教，致力于驱除乡间异教民众的迷信（453年）。
+
+**8\.** 在纽斯特里亚的孚日山中，圣阿马托（Amatus/Aimé），司铎、院长。他以严厉克己、禁食和爱慕独处著称；他与圣罗马里科（Romaricus）共同创建哈本德修院（monasterium Habendense，后为 Remiremont），并妥善治理该院（约629年）。
+
+**9\.** 在利古里亚卢尼湾（Lunae Sinus，今拉斯佩齐亚湾 Golfo della Spezia）的大提罗岛（Tyrus Maior，今蒂诺岛 Isola del Tino），圣维内里奥（Venerius），隐修士（七世纪）。
+
+**10\.** 在高卢亚眠地区的布勒伊（Broili/Breuil-sur-Lys），赫尔维提人地区锡永（Sedunum/Sion）主教圣阿马托（Amatus/Amet）的迁逝。他奉特乌德里克三世国王（Theodoricus III）命令被逐入流放，就在那里去世（约690年）。
+
+**11\*.** 在西班牙托莱多，真福耶稣的玛利亚·洛佩斯·德里瓦斯（Maria a Iesu López de Rivas/María de Jesús López de Rivas），童贞，属加尔默罗赤足修女会。她在灵魂与身体上都与主受难的痛苦相通，始终谦卑并忍受一切（1640年）。
+
+**12\*.** 在法国罗什福尔（Rupifortium/Rochefort）海岸外，一艘锚泊的污秽船只上，真福克洛德·迪莫内（Claudius Dumonet/Claude Dumonet），司铎、殉道。他本为文学教师，在迫害风暴中被投入污秽的囚船，双脚为锁链缠缚，因热病耗尽，为基督而亡（1794年）。
+
+**13\*.** 在西班牙汪达尔地区（Vandalícia，今安达卢西亚）的阿尔梅里亚，真福奥雷利奥·玛利亚（本韦尼多）·比利亚隆·阿塞夫龙（Aurelius Maria [Benvenutus] Villalón Acebrón/Aurelio María [Bienvenido] Villalón Acebrón），基督学校修士会修士、殉道。他因仇恨教会而被杀害（1936年）。
+
+### 九月十三日校注
+
+1. **第1条（金口圣若望）**：拉丁 OCR 因页首装饰大写缺失，漏去本条开头"君士坦丁堡主教、教会圣师金口圣若望的纪念"等文字；西语 OCR 同样缺开头。正文据完整拉丁赞辞补足。中文名按万有真原瞻礼单作"金口圣若望"。本条安息日期为九月十四日，但礼仪纪念置于九月十三日。
+
+2. **第2-5条（早期东方与高卢圣人）**：安基拉即今土耳其首都安卡拉，古属迦拉达。耶路撒冷加尔瓦略山与圣墓上诸大殿的奉献传统上在335年九月十三日举行；西语 OCR 作355年，与君士坦丁皇帝337年去世的事实不合，正文据史实改为335年。尤利娅瓦伦提亚即今法国瓦朗斯，不是西班牙瓦伦西亚。
+
+3. **第6条（圣马尔切利诺）**：马尔切利诺为罗马护民官及公证官，曾主持411年迦太基会议，判定天主教一方胜诉；圣奥斯定与圣热罗尼莫均与他通信或以著作题献给他。413年赫拉克利亚诺叛乱后，多纳图派借机诬告他参与叛乱，虽有圣奥斯定求情，仍被处死。正文"清白被杀"译拉丁 *innocens occisus est*。
+
+4. **第7-10条（高卢、孚日与利古里亚圣人）**：圣毛里利奥为昂热主教，卡隆纳对应今卢瓦尔河畔沙洛讷（Chalonnes-sur-Loire）。第8条圣阿马托为哈本德/勒米尔蒙修院院长，与第10条锡永主教圣阿马托同名而非同人。大提罗岛即今意大利拉斯佩齐亚湾入口的蒂诺岛；西语参校本作"今帕尔马罗拉岛"不合当地圣维内里奥传统，正文从拉丁地名并按意大利资料括注为蒂诺岛。第10条特乌德里克三世为墨洛温王朝法兰克国王，西语参校本作"西哥特王"不确。
+
+5. **第11条（真福耶稣的玛利亚）**：真福耶稣的玛利亚·洛佩斯·德里瓦斯为西班牙加尔默罗赤足修女，圣女大德肋撒的门徒，1577年入托莱多加尔默罗修院，1578年发愿，1976年十一月十四日由教宗保禄六世宣福。
+
+6. **第12条（罗什福尔囚船殉道者）**：克洛德·迪莫内为法国马孔教区司铎，法国大革命时期因拒绝在良心上不能接受的誓言被押往罗什福尔囚船，1794年九月十三日死于非人拘禁，1995年十月一日由教宗若望保禄二世宣福。本条加入罗什福尔囚船殉道者追踪。
+
+7. **第13条（阿尔梅里亚殉道者）**：奥雷利奥·玛利亚为基督学校修士会修士，本名 Bienvenido Villalón Acebrón，属阿尔梅里亚殉道者团体，与九月八日第14条三位同会真福同属一组，1993年十月十日由教宗若望保禄二世宣福。本条加入西班牙内战殉道者追踪。
+
+8. **西语参校本与 OCR 情况**：西语版本日与拉丁底本条目数量一致，均为十三条。第1条两份 OCR 均缺页首开头；第3条西语年份作355年，正文据史实改为335年；第8条西语地名作 Sens，拉丁为 *Apud Vosegos*，正文从拉丁作孚日山中；第9条西语括注为今帕尔马罗拉岛，与圣维内里奥所在的蒂诺岛不合；第10条西语称特乌德里克三世为西哥特王，正文据史实作法兰克国王；第12条西语增作双手双脚均被锁链缠缚，拉丁仅作双脚，正文从拉丁。
+
+---
+
+## 九月十四日
+
+**Die 14 septémbris** · 十月初一前第十八日（*Décimo octávo Kaléndas octóbris*）
+
+月龄表（*Luna*）：
+
+> a b c d e f g h i k l m n p q r s t u
+> 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9
+> A B C D E F F G H M N P
+> 10 11 12 13 14 15 15 16 17 18 19 20
+
+**1\.** 光荣十字圣架庆日。十字圣架在基督圣墓上所建复活大殿奉献的翌日受举扬和尊崇，作为基督逾越胜利的凯旋标帜，也作为将要显现于天上的记号，已经向普世预告他的第二次来临。
+
+**2\.** 在罗马阿庇亚道、加里斯多墓园的路济纳墓穴中，圣高尔内略（Cornelius）教宗、殉道者安葬。他勇敢抵抗诺瓦提安（Novatianus）的裂教，以极大爱德接纳许多跌倒者重归教会共融；最后被加洛皇帝流放至百室城（Centumcellae，今奇维塔韦基亚 Civitavecchia），如圣西彼廉所说，凡他所能承受的苦难，他都承受了。他的纪念于后日举行（252年）。
+
+**3\.** 在迦太基，圣西彼廉（Cyprianus）主教受难。他以圣德与学识极其显耀，在极悲惨的时期妥善治理教会，在困厄中坚固信仰宣认者；在瓦勒良与加里恩二帝治下，经历严酷流放后，由总督命令，在极众多民众面前被剑处死，完成殉道。他的纪念于后日举行（258年）。
+
+**4\.** 在日耳曼尼亚的科隆阿格里皮娜（Colonia Agrippina，今德国科隆 Köln），圣玛泰尔诺（Maternus），主教。他引领通格伦、科隆和特里尔的居民归向基督信仰（314年以后）。
+
+**5\.** 在本都的科马纳，金口圣若望（Ioannes Chrysostomus）主教的升天日；他的纪念已在前一日叙述（407年）。
+
+**6\.** 在高卢贝桑松地区的贝勒沃修院（monasterium Bellaevallense/Bellevaux），圣伯多禄（Petrus），主教的迁逝。他原为熙笃会院长，后被擢升至塔朗泰斯主教座（sedes Tarantasiensis/Tarentaise），以火热勤勉治理该座，并竭力促进民众之间的和睦（1174年）。
+
+**7\.** 在巴勒斯坦的托勒买（Ptolemais，今阿卡 Acre），圣阿尔贝托（Albertus de Castro Gualteri），主教。他由韦尔切利教会调任耶路撒冷教会，将会规授予加尔默耳山的隐修士；后来，当他举行圣十字架庆日时，被他曾谴责过的恶人以剑杀害（1215年）。
+
+**8\*.** 在蒂罗尔的埃本村（Eben），圣诺特布尔加（Notburga），童贞。她专务家内事务，在穷人身上服侍基督，成为农人圣德的榜样（1313年）。
+
+**9\*.** 在法国海岸罗什福尔（Rupifortium/Rochefort）外的海面上，真福克洛德·拉普拉斯（Claudius Laplace/Claude Laplace），司铎、殉道。他在法国动乱时期因司铎身份被投入一艘锚泊的货船，受严重疾病折磨，完成殉道（1794年）。
+
+**10\.** 在中国四川省成都城（Cemtuana/Chengdu），圣徐德新，主教、殉道。他以斩首殉道完成了自己四十年专务的勤勉牧职（1815年）。
+
+### 九月十四日校注
+
+1. **第1条（光荣十字圣架）**：拉丁 OCR 因页首装饰大写缺失，漏去本条开头"光荣十字圣架庆日"等文字；西语 OCR 同样缺开头。正文据完整拉丁赞辞补足。节名按万有真原瞻礼单作"光荣十字圣架"。复活大殿即圣墓大殿相关建筑群，传统奉献日为九月十三日，故本条言"翌日"。
+
+2. **第2-3条（圣高尔内略与圣西彼廉）**：二圣的普世纪念日为九月十六日，故本日赞辞均注明"后日举行"。高尔内略教宗反对诺瓦提安（Novatianus）裂教，接纳迫害中曾背教的"跌倒者"重归共融；百室城（Centumcellae）即今意大利奇维塔韦基亚。西彼廉为迦太基主教、教父，在瓦勒良迫害中被斩首。二圣中文名按万有真原瞻礼单作"圣高尔内略及圣西彼廉主教"的通用译名。
+
+3. **第4-7条（主教与修道传统）**：圣玛泰尔诺为科隆、通格伦及特里尔早期主教传统中的人物。第6条圣伯多禄即塔朗泰斯的圣伯多禄二世，原为贝勒沃熙笃会院长，后任塔朗泰斯主教。第7条圣阿尔贝托为韦尔切利主教，后任耶路撒冷拉丁宗主教；他授予加尔默耳山隐修士的会规，成为加尔默罗会传统的根基。
+
+4. **第8条（圣诺特布尔加）**：诺特布尔加为蒂罗尔民间敬礼中的童贞圣女，常被敬为女仆与农人主保。本条拉丁 *curae domesticae intenta* 指其在家务劳作中成圣。
+
+5. **第9条（罗什福尔囚船殉道者）**：克洛德·拉普拉斯为法国大革命时期罗什福尔囚船殉道司铎之一；拉丁 *corbita* 指货船或运输船。西语参校本增写"因饥饿和传染病而死"，拉丁仅作"受严重疾病折磨"，正文从拉丁。本条加入罗什福尔囚船殉道者追踪。
+
+6. **第10条（圣徐德新）**：圣徐德新即巴黎外方传教会主教 Gabriel-Taurin Dufresse，1750年生于法国勒祖，1775年启程赴中国，长期在四川传教，1801年任四川宗座代牧，1815年九月十四日在成都殉道。中文传教名据香港教区档案处120位中华殉道圣人名录及万有真原瞻礼单作"徐德新"。他属2000年十月一日由教宗若望保禄二世封圣的120位中华殉道圣人团体，本条已回补七月九日第1条交叉索引。
+
+7. **西语参校本与 OCR 情况**：西语版本日与拉丁底本条目数量一致，均为十条。第1条两份 OCR 均缺页首开头；第2条西语将 *lapsis* 解释为"陷入异端者"，正文按诺瓦提安裂教史译为迫害中跌倒者；第3条西语漏去瓦勒良，只列加里恩，正文从拉丁二帝并列；第9条西语增写饥饿和传染病，正文从拉丁严重疾病。
+
+---
+
+## 九月十五日
+
+**Die 15 septémbris** · 十月初一前第十七日（*Décimo séptimo Kaléndas octóbris*）
+
+月龄表（*Luna*）：
+
+> a b c d e f g h i k l m n p q r s t u
+> 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10
+> A B C D E F F G H M N P
+> 11 12 13 14 15 16 16 17 18 19 20 21
+
+**1\.** 痛苦圣母的纪念。荣福童贞玛利亚站在她圣子耶稣的十字架旁，亲密而忠信地与他的救赎苦难相结合；她成为新厄娃，正如第一位女子的悖命导致死亡，她奇妙的服从也带来生命。
+
+**2\.** 在罗马，圣尼科美德（Nicomedes），殉道者。他的遗体安葬于诺门塔纳道（via Nomentana）墓园，教宗博尼法爵五世以墓上大殿尊荣他的墓所（年代不详）。
+
+**3\.** 在里昂高卢索恩河畔的图尔努斯（Tinurtium/Tournus），圣瓦莱里亚诺（Valerianus），殉道者（年代不详）。
+
+**4\.** 在斯基泰的托米斯（Tomis，今罗马尼亚康斯坦察 Constanța），圣斯特拉托（Straton）、瓦莱里奥（Valerius）、马克罗比奥（Macrobius）与戈尔迪亚诺（Gordianus），殉道者。相传他们在李锡尼皇帝治下受难（四世纪）。
+
+**5\.** 在多瑙河岸，哥特人圣尼刻塔（Nicetas Gothus），殉道者。阿里乌派的阿塔纳里克王（Athanaricus）因天主教信仰命人以火杀害他（约370年）。
+
+**6\.** 在高卢里昂，圣阿尔皮诺（Alpinus），主教。他继承圣犹斯托（Iustus）为主教（四世纪）。
+
+**7\.** 同在里昂高卢、南锡附近的图勒（Tullum/Toul），圣阿佩尔（Aper/Èvre），主教（六世纪）。
+
+**8\.** 在纽斯特里亚（Neustria/Néustria）的瑞米耶日修院（monasterium Gemmeticense/Jumièges），圣艾沙德（Aichardus/Aicadre），院长。他是圣菲利贝尔托的门徒，并由圣菲利贝尔托任命在该处管理修院（七世纪）。
+
+**9\.** 在西班牙汪达尔地区（Vandalícia，今安达卢西亚）的科尔多瓦，圣殉道者埃米拉（Emilas），执事，及耶肋米亚（Ieremias/Jeremías）。他们在摩尔人的迫害中，久经牢狱折磨后，最后为基督被斩首，完成殉道（852年）。
+
+**10\*.** 在艾米利亚菲登扎辖区的布塞托（Busseto in territorio Fidentino），真福罗兰多·德·美第奇（Rolandus de Medicis/Rolando de' Medici），隐修士。他在阿尔卑斯的荒僻孤寂之处，以极大的节制生活，只与天主相交（1386年）。
+
+**11\.** 在意大利利古里亚的热那亚，圣加大利纳•热那亚（Catharina Fieschi/Caterina Fieschi Adorno），寡妇。她因轻看世俗、屡行禁食、爱慕天主并爱护贫病者而卓然出众（1510年）。
+
+**12\*.** 在日本平户城，真福加弥禄·科斯坦佐（Camillus Costanzo/Camillo Costanzo），耶稣会司铎、殉道者。他奉最高执政德川秀忠（Hidetada）的命令被火焚烧，仍在柴堆上不停宣讲基督（1622年）。
+
+**13\*.** 在墨西哥圣多明我-沙加西亚（Sanctus Dominicus Xagacia/Santo Domingo Xagacía），真福若望·包蒂斯塔（Ioannes Baptista/Juan Bautista）与真福哈辛托·德洛斯安赫莱斯（Hyacinthus ab Angelis/Jacinto de los Ángeles），殉道者。他们身为传道员，为基督拒绝敬拜偶像，遂遭残酷殴打；他们效法基督的苦难，堪得永恒赏报（1700年）。
+
+**14\*.** 在奥地利维也纳，真福安多尼·玛利亚·施瓦茨（Antonius Maria Schwartz/Anton Maria Schwartz），司铎。他为照顾学徒和青年工人的牧灵事务，并为维护他们的权利，创立圣若瑟·加拉桑基督徒工人会（Congregatio pro operariis christianis a Sancto Iosepho de Calasanz）（1929年）。
+
+**15\*.** 在西班牙瓦伦西亚地区义奥萨德拉内斯村（Llosa de Ranes），真福帕斯夸尔·佩纳德斯·若尔内特（Paschalis Penadés Jornet/Pascual Penadés Jornet），司铎、殉道者。他在迫害时期，历经尘世争战，达到永恒救恩的圆满（1936年）。
+
+**16\*.** 在德国巴伐利亚慕尼黑附近，真福瓦迪斯瓦夫·米耶贡（Ladislaus Miegoń/Władysław Miegoń），司铎、殉道者。他来自波兰，在敌视天主与人的政权下，因信仰被强行带往达豪集中营，并经由酷刑达到光荣的冠冕（1942年）。
+
+**17\*.** 在意大利那不勒斯，真福保禄·曼纳（Paulus Manna/Paolo Manna），宗座外方传教会司铎。他曾在缅甸履行传教士职务，后因健康虚弱而离任；此后极力推动福传热忱，并以最大勤奋促进天主圣言的宣讲和基督徒的合一（1952年）。
+
+### 九月十五日校注
+
+1. **第1条（痛苦圣母）**：拉丁 OCR 与西语 OCR 均缺页首开头，正文据完整赞辞补足为痛苦圣母纪念。中文节名按万有真原瞻礼单作"痛苦圣母"。本条以玛利亚站在十字架旁、参与基督救赎苦难为中心，并以"新厄娃"主题对照厄娃的悖命与玛利亚的服从。
+
+2. **第2-8条（罗马、高卢、哥特与修院传统）**：诺门塔纳道为罗马城外古道。图尔努斯位于索恩河畔，西语参校本补作今法国境内。斯基泰即拉丁 *Scythia*，此处指黑海西岸一带；托米斯即今罗马尼亚康斯坦察。圣尼刻塔为哥特殉道者，传统称其被阿里乌派西哥特王阿塔纳里克焚杀。纽斯特里亚为墨洛温、加洛林时期法兰克王国西部区域；瑞米耶日修院位于今法国诺曼底地区。
+
+3. **第9条（科尔多瓦殉道者）**：埃米拉执事与耶肋米亚为摩尔人治下科尔多瓦殉道者之一组，852年殉道。拉丁 *Vandalícia Hispániæ regio* 按项目既定译作"西班牙汪达尔地区（今安达卢西亚）"。本条加入科尔多瓦殉道者追踪。
+
+4. **第10-11条（隐修士与圣加大利纳•热那亚）**：罗兰多·德·美第奇为艾米利亚地区隐修士。拉丁 *territorium Fidentinum* 指菲登扎（古名 Fidentia）辖区，布塞托今属意大利艾米利亚-罗马涅大区帕尔马省。圣加大利纳•热那亚本名 Caterina Fieschi Adorno，中文主名按万有真原瞻礼单作"圣加大利纳•热那亚"，正文括注 Fieschi 以对应拉丁底本。
+
+5. **第12条（真福加弥禄·科斯坦佐）**：加弥禄·科斯坦佐为意大利耶稣会传教士，日本禁教时期在平户附近被火刑处死；据耶稣会资料，他在火刑中仍向在场者宣讲信仰。德川秀忠为江户幕府第二代将军，拉丁称 *supremus dux Hidetada*。本条加入日本殉道者追踪。
+
+6. **第13条（墨西哥殉道者）**：若望·包蒂斯塔与哈辛托·德洛斯安赫莱斯为瓦哈卡北部萨波特克传道员，因拒绝异教偶像崇拜而殉道，2002年八月一日由教宗若望保禄二世在墨西哥城宣福。拉丁 *Hyacinthus ab Angelis* 与西语通名 *Jacinto de los Ángeles* 相对应，正文以西语本名为主。
+
+7. **第14、17条（工人牧灵与传教事业）**：真福安多尼·玛利亚·施瓦茨在维也纳创立圣若瑟·加拉桑基督徒工人会，服务学徒和青年工人并维护其权益。真福保禄·曼纳为宗座外方传教会司铎，曾在缅甸传教，后因健康原因返回意大利，终身推动传教意识、天主圣言宣讲与基督徒合一。
+
+8. **第15-16条（西班牙内战与达豪殉道者）**：帕斯夸尔·佩纳德斯·若尔内特为西班牙内战宗教迫害中的巴伦西亚地区司铎殉道者，本条加入西班牙内战殉道者追踪。瓦迪斯瓦夫·米耶贡为波兰司铎，属108位波兰殉道者团体，1942年死于达豪集中营；本条加入达豪集中营殉道者追踪。
+
+9. **西语参校本与 OCR 情况**：西语版本日与拉丁底本条目数量一致，均为十七条。第1条两份 OCR 均缺页首开头，正文据完整赞辞补足。第3条西语增作沙隆地区，正文从拉丁仅作索恩河畔图尔努斯。第8条西语补作鲁昂附近，正文从拉丁作纽斯特里亚瑞米耶日修院。第15条西语将结句意译为"以尘世争战换得永恒喜乐"，正文从拉丁译作达到永恒救恩的圆满。
+
+---
+
+## 九月十六日
+
+**Die 16 septémbris** · 十月初一前第十六日（*Sextodécimo Kaléndas octóbris*）
+
+月龄表（*Luna*）：
+
+> a b c d e f g h i k l m n p q r s t u
+> 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10 11
+> A B C D E F F G H M N P
+> 12 13 14 15 16 17 17 18 19 20 21 22
+
+**1\.** 纪念圣高尔内略教宗与圣西彼廉主教，殉道者。前者的安葬与后者的受难已于九月十四日叙述；今日基督徒普世以同一声音赞美二圣，因为他们在动乱时期，在天主的教会与世界面前，为对永不失落真理的爱作证（252、258年）。
+
+**2\.** 在比提尼亚的加采东（Chalcedon），圣欧斐米亚（Euphemia），童贞、殉道者。她在戴克里先皇帝与普里斯科总督治下，为基督战胜许多酷刑，经由争战的痛苦被引至光荣冠冕（约303年）。
+
+**3\.** 在拉齐奥、弗拉米尼亚大道旁的索拉克特山（mons Soracte），圣阿本迪奥（Abundius）及同伴，殉道者（304年）。
+
+**4\.** 在罗马诺门塔纳道（via Nomentana）近卡普雷亚（Caprea）、大墓园中，圣维克多（Victor）、斐理斯（Felix）、亚历山大（Alexander）与帕庇亚（Papias），殉道者（年代不详）。
+
+**5\*.** 在坎帕尼亚的诺切拉-德帕加尼（Nuceria Paganorum/Nocera de' Pagani），圣普里斯科（Priscus），主教、殉道者。诺拉的圣保利诺（Paulinus Nolanus）曾以诗体赞歌称扬他（约四世纪）。
+
+**6\.** 在苏格兰的坎迪达卡萨（Candida Casa，今惠特霍恩 Whithorn），纪念圣尼尼安（Ninianus/Ninian），主教。他生为不列颠人，引领皮克特人归向信仰的真理，并在那里建立主教座（约432年）。
+
+**7\.** 在西班牙汪达尔地区（Vandalícia，今安达卢西亚）的科尔多瓦，圣殉道者罗赫略（Rogellus/Rogelio），年高修士，及青年塞尔维德奥（Servideus，阿卜杜拉 Abdallah）。他们来自东方，在撒拉森民众前勇敢宣讲基督；因此被判死刑，却毫无悲伤，先被砍去手足，最后又被斩首倒下（852年）。
+
+**8\*.** 在波希米亚的布拉格，圣路德米拉（Ludmilla/Ludmila），殉道者，波希米亚女公爵。她受托教养自己的孙子圣文策老（Venceslaus/Wenceslas），努力在他心中培植对基督的爱；后来因儿媳德拉霍米拉（Drahomira）及异教贵族的阴谋被勒死（921年）。
+
+**9\.** 在英格兰威尔顿（Viltonia/Wilton），圣依迪德（Editha/Edith），童贞。她是英格兰国王的女儿，自幼在修院中奉献于天主，与其说离弃此世，不如说从未认识此世（约984年）。
+
+**10\*.** 在蒙特卡西诺（Monte Cassino），真福教宗维克多三世（Victor papa III）的迁逝。他明智治理这座著名修院三十年，并使其宏伟富足；不久以后，他又接受罗马教会的治理职务（1087年）。
+
+**11\*.** 在高卢诺曼底的萨维尼（Saviniacum/Savigny），圣维塔利斯（Vitalis），院长。他放下世俗职务，在荒僻之处学习更严格的修道遵守，并召集许多人加入他所创立的共住修院（1122年）。
+
+**12\*.** 在西班牙卡斯蒂利亚的奥尔塔修院（monasterium Hortense/Santa María de Huerta），别号"司铎"的圣玛尔定（Martinus Sacerdos/Martín de Finojosa）的迁逝。他由熙笃会院长被祝圣为锡古恩萨主教，倾全力革新圣职界，后来又退隐同一修院（1213年）。
+
+**13\*.** 在高卢普罗旺斯的萨隆（Sali/Salon-de-Provence），阿尔勒主教真福路易·阿勒曼（Ludovicus Aleman/Louis Aleman）的迁逝。他在卓越的虔敬与补赎中度过一生（1450年）。
+
+**14\*.** 在日本长崎，真福殉道者多明我·正兵卫（Dominicus Shobioye/Dominic Shobyōye）、弥额尔·干物屋（Michael Timonoya/Michaël Himonoya）及其子保禄·干物屋（Paulus Himonoya）。他们为信仰被斩首（1628年）。
+
+**15\.** 在秘鲁利马，圣若望·马西亚斯（Ioannes Macías/Juan Macías），多明我会会士。他长期担任极卑微的职务，勤恳照顾穷人和病人，并恒常为亡者灵魂诵念玫瑰经（1645年）。
+
+**16\.** 在韩国今首尔龙山区二村洞的沙南基殉道地（Sai-Nam-Hte，韩文 새남터，现代罗马化 Saenamteo），圣金大建安德肋（Andreas Kim Taegŏn）司铎、殉道者的受难。他以极大热忱献身司铎职务两年后，被斩首，承受光荣殉道；他的纪念于九月二十日举行（1846年）。
+
+**17\*.** 在西班牙巴塞罗那地区的奥德纳城（Odena/Òdena），真福依纳爵·卡萨诺瓦斯（Ignatius Casanovas/Ignasi Casanovas Perramon），公学司铎修会司铎、殉道者。他在迫害风暴中为基督被杀害（1936年）。
+
+**18\*.** 同在西班牙瓦伦西亚地区的图里斯城（Turís），真福殉道者劳雷亚诺（萨尔瓦多）·费雷尔·卡尔德特（Laureanus [Salvator] Ferrer Cardet/Laureano [Salvador] Ferrer Cardet），司铎，及贝尼托（曼努埃尔）·费雷尔·若尔达（Benedictus [Emmanuel] Ferrer Jordá/Benito [Manuel] Ferrer Jordá）、贝尔纳迪诺（保禄）·马丁内斯·罗夫莱斯（Bernardinus [Paulus] Martínez Robles/Bernardino [Pablo] Martínez Robles），方济各第三会苦难圣母嘉布遣会会士。他们在同一迫害中为人所杀，天主却将他们高举至天上王国（1936年）。
+
+### 九月十六日校注
+
+1. **第1条（圣高尔内略与圣西彼廉）**：拉丁 OCR 与西语 OCR 均缺页首开头，正文据完整赞辞补足为圣高尔内略教宗与圣西彼廉主教殉道者纪念。中文纪念名按万有真原瞻礼单作"圣高尔内略及圣西彼廉主教"。二圣已在九月十四日第2、3条分别叙述安葬与受难，本日为合并纪念。
+
+2. **第2-6条（早期殉道者与圣尼尼安）**：加采东今属土耳其伊斯坦布尔附近，451年加采东大公会议亦在此举行。索拉克特山在罗马以北，邻近弗拉米尼亚大道。诺切拉-德帕加尼在今意大利坎帕尼亚大区，参八月一日第1条校注。坎迪达卡萨即 Whithorn，中文按原义音译作坎迪达卡萨，西语 OCR 作 Whitehorn，应为 Whithorn。
+
+3. **第7条（科尔多瓦殉道者）**：罗赫略与塞尔维德奥为摩尔人治下科尔多瓦殉道者之一组，852年殉道。塞尔维德奥（Servideus）与阿拉伯名 Abdallah 意义相近，均有"天主/真主的仆人"之意。拉丁 *Vandalícia Hispániæ regio* 按项目规则译作"西班牙汪达尔地区（今安达卢西亚）"。本条加入科尔多瓦殉道者追踪。
+
+4. **第8-13条（中世纪诸圣）**：圣文策老为波希米亚公爵，中文名按万有真原瞻礼单。第9条拉丁 *Viltonia* 指英格兰威尔顿，西语参校本作 Vintonia 并括注 Winchester，正文从拉丁作 Wilton。第12条圣玛尔定即 Martín de Finojosa，号 Sacerdos，曾任锡古恩萨主教。第13条真福路易·阿勒曼为阿尔勒总主教及枢机，曾卷入巴塞尔大公会议争端，后与教会和解，在虔敬与补赎中去世。
+
+5. **第14条（日本长崎殉道者）**：三位均属205位日本殉道者团体。多明我·正兵卫（Dominicus Shobyōye）与弥额尔·干物屋、保禄·干物屋为日本平信徒，均与多明我会第三会传统相关，1867年七月七日由教宗庇护九世宣福。本条加入日本殉道者追踪。
+
+6. **第15-16条（美洲与韩国圣人）**：圣若望·马西亚斯为西班牙出身、多明我会在秘鲁利马的会士，1975年九月二十八日由教宗保禄六世封圣。圣金大建安德肋为韩国首位本籍司铎，韩文名 김대건 안드레아，汉字金大建，1846年九月十六日在今首尔龙山区二村洞的沙南基殉道地被斩首；沙南基为韩语本土地名 새남터 的既有汉字音写。1984年五月六日，他由教宗若望保禄二世在首尔封圣；本条加入韩国殉道圣人追踪。
+
+7. **第17-18条（西班牙内战殉道者）**：依纳爵·卡萨诺瓦斯为加泰罗尼亚公学司铎修会司铎，1936年九月十六日在奥德纳附近被枪杀，1995年十月一日由教宗若望保禄二世宣福。第18条三位真福属方济各第三会苦难圣母嘉布遣会，又称阿米戈会士；他们在瓦伦西亚地区图里斯殉道。本两条加入西班牙内战殉道者追踪。
+
+8. **西语参校本与 OCR 情况**：西语版本日与拉丁底本条目数量一致，均为十八条。第1条两份 OCR 均缺页首开头，正文据完整赞辞补足。第6条西语将 Whithorn 误作 Whitehorn，正文按历史地名改为 Whithorn。第9条西语作 Vintonia 并释为 Winchester，与拉丁 *Viltonia* 不合，正文从拉丁作威尔顿。第14条拉丁作 Timonoya，日文名录多作 Himonoya，正文并列标注。
+
+---
+
+## 九月十七日
+
+**Die 17 septémbris** · 十月初一前第十五日（*Quintodécimo Kaléndas octóbris*）
+
+月龄表（*Luna*）：
+
+> a b c d e f g h i k l m n p q r s t u
+> 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12
+> A B C D E F F G H M N P
+> 13 14 15 16 17 18 18 19 20 21 22 23
+
+**1\.** 圣罗伯多•贝辣民（Robertus Bellarmino/Roberto Bellarmino）的纪念，主教、教会圣师，耶稣会士。他以卓越、独特且精细的方式，参与其时代神学争端的论辩；被擢升为枢机后，又在卡普亚教会尽心从事牧职，最后在罗马为护卫宗座与信仰道理，承受了许多劳苦（1621年）。
+
+**2\.** 在利古里亚的米兰，圣萨提罗（Satyrus）的安葬。他的卓著功德由其兄弟圣盎博罗削记述。他尚未领受基督奥迹时，曾遭遇船难，却不惧死亡；既从水中获救，便寻求天主的教会，免得未领奥迹便离世。他与兄弟盎博罗削以深切相互的爱德相连，并由盎博罗削安葬在圣殉道者维克多旁（377年）。
+
+**3\.** 在奥斯特拉西亚的列日（Leodium/Liège，今比利时），圣朗贝尔（Lambertus/Lambert）马斯特里赫特主教、殉道者的受难。他遭流放后，退隐至斯塔沃洛修院（monasterium Stabulense/Stavelot）；后来复位，卓越履行牧职，却无辜地被嫉恨他的人杀害（约705年）。
+
+**4\*.** 在奥斯特拉西亚、默兹河畔的阿尔贡森林（silva Argonnensis/Argonne，今法国），圣罗丁戈（Rodingus/Rouin），院长。他创立博略修院（Bellus Locus/Beaulieu-en-Argonne），并虔诚治理该院（八世纪初）。
+
+**5\.** 在西班牙汪达尔地区（Vandalícia，今安达卢西亚）的科尔多瓦，圣科伦巴（Columba），童贞、殉道者。她在摩尔人的迫害中，自愿在法官与长官团面前宣认信仰，随即在王宫门前被剑斩首（853年）。
+
+**6\*.** 在高卢昂热境内的梅利奈（Melina），圣雷纳尔多（Reginaldus/Renaud），隐修士。他退入克拉翁森林（silva Cratumnensis/Craon），为更圆满地履行主的诫命（约1104年）。
+
+**7\.** 在黑森、宾根附近圣鲁佩尔特山修院（monasterium Montis Sancti Ruperti/Rupertsberg），圣希德加（Hildegardis/Hildegard von Bingen），童贞。她精通自然科学、医学与音乐，并把自己在神秘默观中所经验的事，虔敬地在书中阐述并描写出来（1179年）。
+
+**8\*.** 在皮埃蒙特都灵辖区的阿维利亚纳（Aviliana/Avigliana），真福凯鲁比诺·泰斯塔（Cherubinus Testa/Cherubino Testa），圣奥斯定隐修会司铎，对主的苦难极其热爱（1479年）。
+
+**9\.** 在西班牙阿拉贡的萨拉戈萨（Caesaraugusta/Zaragoza），圣伯多禄·德·阿尔布埃斯（Petrus de Arbués/Pedro de Arbués），司铎、殉道者。他是圣奥斯定会正规咏经司铎，在阿拉贡王国致力反对迷信与异端；后被若干受审者在主教座堂祭台前击倒（1485年）。
+
+**10\.** 在安南的顺化（Huế），圣阮文兆厄玛奴耳（Emmanuel Nguyễn Văn Triệu），司铎、殉道者。他在景盛帝（Cảnh Thịnh）治下受难（1798年）。
+
+**11\.** 在利古里亚的热那亚，圣方济各·玛利亚·坎波罗索（Franciscus Maria de Camporosso/Francesco Maria da Camporosso），方济各嘉布遣会会士。他以对穷人的爱德著称；瘟疫肆虐时，为近人的安危把自己献作牺牲，亲染疫病而亡（1866年）。
+
+**12\*.** 在波兰克拉科夫，真福齐格蒙特·什琴斯内·费林斯基（Sigismundus Felix Feliński/Zygmunt Szczęsny Feliński），华沙总主教。他在极大的困苦中，为教会的自由与革新劳作，并为回应民众的各种需要，创立玛利亚家庭方济各修女会（Institutum Sororum Franciscálium Famíliæ Maríæ）（1895年）。
+
+**13\*.** 在西班牙卡斯特利翁附近的卡斯蒂略德比利亚马莱法村（Castillo de Villamalefa），真福若望·文图拉·索尔索纳（Ioannes Ventura Solsona/Juan Ventura Solsona），司铎、殉道者。他在迫害肆虐时，以不可战胜的信德坚忍迁入天上光荣（1936年）。
+
+**14\*.** 同在西班牙马德里，真福蒂莫特奥·瓦莱罗·佩雷斯（Timotheus Valero Pérez/Timoteo Valero Pérez），方济各第三会苦难圣母嘉布遣会司铎、殉道者。他在同一风暴中，为基督打了一场出色的仗（1936年）。
+
+**15\*.** 在波兰华沙附近的帕尔米里森林（silva Palmiry/Palmiry），真福齐格蒙特·萨伊纳（Sigismundus Sajna/Zygmunt Sajna），司铎、殉道者。战争时期，他在敌视天主的外来政权面前绝不背弃信仰，遂被枪弹射杀（1940年）。
+
+### 九月十七日校注
+
+1. **第1条（圣罗伯多•贝辣民）**：拉丁 OCR 与西语 OCR 均缺页首开头，正文据拉丁索引、万有真原瞻礼单及完整赞辞补为圣罗伯多•贝辣民的纪念。万有真原九月十七日亦列"圣方济各受五伤痕"，但此为地方或修会纪念，2004年拉丁底本本日未收为正文条目。
+
+2. **第2-4条（米兰、列日与阿尔贡）**：圣萨提罗为圣盎博罗削的兄弟，拉丁 *Christi mysteriis initiatus* 指尚未领受入门圣事。列日（Liège）本日拉丁置于奥斯特拉西亚，今属比利时；斯塔沃洛修院今在比利时境内。圣罗丁戈又称 Rouin，传统为博略-昂阿尔贡修院创立者；阿尔贡森林在今法国东北部。
+
+3. **第5条（圣科伦巴）**：本条为摩尔人治下科尔多瓦殉道者系列中的一位，圣科伦巴于853年在科尔多瓦殉道。拉丁 *Vandalícia Hispániæ regio* 按项目规则译作"西班牙汪达尔地区（今安达卢西亚）"。本条加入科尔多瓦殉道者追踪。
+
+4. **第6-9条（中世纪与近世圣人）**：第6条圣雷纳尔多为昂热一带隐修士，拉丁 *silva Cratumnensis* 对应克拉翁（Craon）地区。第7条圣希德加即宾根的希德加，2012年十月七日由教宗本笃十六世宣布为普世教会圣师，2021年列入罗马普世日历；2004年拉丁底本仍仅列"童贞"。第9条圣伯多禄·德·阿尔布埃斯为阿拉贡宗教裁判官，1867年六月二十九日由教宗庇护九世封圣。
+
+5. **第10条（圣阮文兆厄玛奴耳）**：拉丁 OCR 将其姓名作 *Emmanuelis Nguyn Văn Triu*，西语参校本作 Manuel Nguyen Van Trieu；据越南主教团资料应为 Emmanuel Nguyễn Văn Triệu。正文按项目越南姓名规则推作"阮文兆厄玛奴耳"：阮、文无歧义，兆=Triệu 中等偏高，待日后据汉字原件复核。景盛帝为 Tây Sơn 朝阮光缵年号 Cảnh Thịnh。本条加入越南殉道圣人追踪。
+
+6. **第11-12条（方济各嘉布遣会与波兰主教）**：圣方济各·玛利亚·坎波罗索本名 Giovanni Evangelista Croese，为热那亚嘉布遣会平修士，1962年十二月九日由教宗若望二十三世封圣。真福齐格蒙特·什琴斯内·费林斯基为华沙总主教，2004年版仍列真福，2009年十月十一日由教宗本笃十六世封圣；正文按底本圣品等级不改，封圣更新记于此。
+
+7. **第13-15条（西班牙内战与二战殉道者）**：若望·文图拉·索尔索纳为卡斯特利翁教区司铎，蒂莫特奥·瓦莱罗·佩雷斯属方济各第三会苦难圣母嘉布遣会，又称阿米戈会士；二人均在1936年西班牙宗教迫害中殉道。本两条加入西班牙内战殉道者追踪。齐格蒙特·萨伊纳为华沙总教区司铎，1940年九月十七日在帕尔米里大屠杀中被杀，属1999年六月十三日由教宗若望保禄二世宣福的第二次世界大战108位波兰殉道者；本条加入纳粹迫害相关条目追踪。
+
+8. **西语参校本与 OCR 情况**：西语版本日与拉丁底本条目数量一致，均为十五条。第1条两份 OCR 均缺页首开头，正文据完整赞辞补足。第3条西语将 *ab ínvidis* 解释为"教会仇敌"，正文从拉丁译为"被嫉恨他的人"。第4条西语补作今法国，并误称博略修院近里昂；正文从拉丁地理作阿尔贡森林与博略-昂阿尔贡。第10条拉丁 OCR 缺越南姓名变音，正文据西语与越南资料修正。
+
+---
+
+## 九月十八日
+
+**Die 18 septémbris** · 十月初一前第十四日（*Quartodécimo Kaléndas octóbris*）
+
+月龄表（*Luna*）：
+
+> a b c d e f g h i k l m n p q r s t u
+> 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 13
+> A B C D E F F G H M N P
+> 14 15 16 17 18 19 19 20 21 22 23 24
+
+**1\.** 在比提尼亚的尼科美底亚（Nicomedia，今土耳其伊兹密特附近），圣奥切亚诺（Oceanus），殉道者（年代不详）。
+
+**2\.** 在弗里吉亚的普里姆内索（Prymnessus），圣亚里亚德纳（Ariadna），殉道者（年代不详）。
+
+**3\.** 在高卢维埃纳地区（pagus Galliae Viennensis），圣斐理奥洛（Ferreolus），殉道者。相传他拥有护民官权柄，在迫害时期拒绝逮捕基督徒；因此奉总督命令被捕，遭残酷鞭打并投入监狱。他后来逃出，又被追捕者再次抓获，以斩首领受殉道棕枝（三世纪）。
+
+**4\.** 在利古里亚的米兰，圣欧斯托尔焦（Eustorgius），主教。圣亚大纳削赞扬他宣认真信仰、抵抗阿里乌派谬误（355年以前）。
+
+**5\*.** 在布列塔尼海岸边的阿夫朗什（Abrincae/Avranches），圣塞纳里奥（Senarius/Sénaire），主教（六世纪）。
+
+**6\*.** 在阿基坦的利摩日（Lemovicum/Limoges，今法国），圣斐理奥洛（Ferreolus），主教。他把希尔德贝尔特王的文书长官马尔谷（Marcus）从迫在眉睫的危险中救出；本城民众当时正想杀害他（六世纪末）。
+
+**7\.** 在克里特岛的戈尔廷（Gortyna），圣欧默尼奥（Eumenius/Eumenios），主教（约七世纪）。
+
+**8\*.** 在洛塔林吉亚阿尔萨斯的安德洛（Andlavia/Andlau），圣里夏尔迪斯（Richardis/Richarde），王后。她轻看尘世王国，在自己创立的修院中事奉天主（约895年）。
+
+**9\.** 在意大利皮切诺的奥西莫（Auximum/Osimo），圣若瑟•古白定（Iosephus de Cupertino/Giuseppe da Copertino），方济各住院小兄弟会司铎。他在艰难境遇中，以贫穷、谦逊和对贫乏者的爱德，在天主前显为卓著（1663年）。
+
+**10\.** 在东京的南定城（Nam Định，今越南），圣武（潘）德泽多明我（Dominicus Trạch/Đaminh Vũ [Phan] Đức Trạch），多明我会司铎、殉道者。他在明命帝治下，宁愿死去，也不愿践踏十字架，最后以斩首完成殉道（1840年）。
+
+**11\*.** 在乌干达卡隆吉传教站（missio Kalongi）附近的帕伊莫尔村（Paimol），真福达味·奥凯洛（David Okelo）与真福吉尔多·伊尔瓦（Gildus Irwa/Gildo Irwa），传道员、殉道者。他们自愿为自己的民族传授福音，被当地异教徒以长矛刺杀，以无畏的殉道彰显基督的德能（1918年）。
+
+**12\*.** 在西班牙雷阿尔城（Civitas Regalis/Ciudad Real），真福卡洛斯·埃拉尼亚·古鲁塞塔（Carolus Eraña Guruceta/Carlos Eraña Guruceta），玛利亚会会士、殉道者。在针对司铎和修会士的暴力肆虐时，他被民兵抓捕，未经审判便被枪杀（1936年）。
+
+**13\*.** 同在西班牙瓦伦西亚地区甘迪亚城附近，真福费尔南多·加西亚·森德拉（Ferdinandus García Sendra/Fernando García Sendra）与真福若瑟·加西亚·马斯（Iosephus García Mas/José García Mas），司铎、殉道者。他们在同一迫害时期，以自己的鲜血坚固了对主的忠信（1936年）。
+
+**14\*.** 同在西班牙瓦伦西亚地区蒙特塞拉特（Mons Serratus/Montserrat），真福殉道者安博罗削（萨尔瓦多）·丘利亚·费兰迪斯（Ambrosius [Salvator] Chuliá Ferrandis/Ambrosio [Salvador] Chuliá Ferrandis）与瓦伦丁（味增爵）·豪恩萨拉斯·戈麦斯（Valentinus [Vincentius] Jaunzarás Gómez/Valentín [Vicente] Jaunzarás Gómez），司铎；以及方济各（尤斯托）·莱尔马·马丁内斯（Franciscus [Iustus] Lerma Martínez/Francisco [Justo] Lerma Martínez）、里卡多（若瑟）·洛佩斯·莫拉（Richardus [Iosephus] López Mora/Ricardo [José] López Mora）与莫德斯托（味增爵）·加伊·萨尔索（Modestus [Vincentius] Gay Zarzo/Modesto [Vicente] Gay Zarzo），方济各第三会苦难圣母嘉布遣会会士。他们在同一风暴中，因见证基督而获得冠冕（1936年）。
+
+**15\*.** 在德国巴伐利亚慕尼黑附近的达豪集中营，真福若瑟·库特（Iosephus Kut/Józef Kut），司铎、殉道者。他是波兰人，战争肆虐时，因信仰被投入残酷监禁，遭受严刑后迁归于主（1942年）。
+
+### 九月十八日校注
+
+1. **第1-4条（比提尼亚、弗里吉亚、高卢与米兰）**：尼科美底亚即今土耳其伊兹密特附近，古属比提尼亚。普里姆内索为弗里吉亚古城。第3条高卢维埃纳地区指今日法国维埃纳一带；本条圣斐理奥洛常被称为维埃纳的斐理奥洛，传统作三世纪殉道。第4条圣欧斯托尔焦为米兰早期主教，圣亚大纳削在反阿里乌派语境中称扬他坚守真信仰。
+
+2. **第5-8条（高卢、克里特与阿尔萨斯）**：阿夫朗什在今法国诺曼底地区，拉丁称其位于布列塔尼海岸边。第6条希尔德贝尔特王的文书长官马尔谷，拉丁作 *referendarius*，为墨洛温王朝文书与请愿事务长官。圣欧默尼奥为克里特戈尔廷主教。圣里夏尔迪斯为加洛林帝国皇后，传统称其在安德洛创立修院。
+
+3. **第9条（圣若瑟•古白定）**：圣若瑟•古白定为意大利方济各住院小兄弟会司铎，以神魂超拔与深切谦逊著称，1767年由教宗克肋孟十三世封圣。中文名据万有真原九月十八日瞻礼单作"圣若瑟•古白定"。
+
+4. **第10条（圣武（潘）德泽多明我）**：拉丁 OCR 将越南姓名作 *Domínici Trąch*，且皇帝名 *Minh Mng* 缺变音；西语作 Domingo Trach。越南主教团资料作 Đaminh Vũ (Phan) Đức Trạch，1793年生，1840年九月十八日在南定七亩刑场被斩首，1900年五月二十七日宣福，1988年六月十九日封圣。正文按项目越南姓名规则推作"武（潘）德泽多明我"：武=Vũ、潘=Phan、德=Đức 均无歧义，泽=Trạch 中等偏高，待日后据汉字原件复核。本条加入越南殉道圣人追踪。
+
+5. **第11条（真福达味·奥凯洛与吉尔多·伊尔瓦）**：二人为乌干达阿乔利族青年传道员，自愿前往帕伊莫尔传教，1918年被反基督信仰势力杀害，2002年十月二十日由教宗若望保禄二世宣福。圣座传记将具体殉道地记为帕伊莫尔附近的 Palamuku，并记载遇害时间为1918年十月十九日黎明前；2004年拉丁底本将他们列于九月十八日，正文从底本日期。
+
+6. **第12-14条（西班牙内战殉道者）**：卡洛斯·埃拉尼亚·古鲁塞塔为玛利亚会会士，1936年九月十八日在雷阿尔城被枪杀。费尔南多·加西亚·森德拉与若瑟·加西亚·马斯为瓦伦西亚地区司铎，在甘迪亚附近殉道。第14条五位真福属方济各第三会苦难圣母嘉布遣会，又称阿米戈会士；拉丁底本修会名作 *Tértio Ordine Sancti Francísci Capulatórum a beáta Vírgine Perdolénti*，西语参校本明示为 *Terciarios Capuchinos de la Virgen de los Dolores*，正文按团体身份译出。本三条加入西班牙内战殉道者追踪。
+
+7. **第15条（真福若瑟·库特）**：真福若瑟·库特为波兰司铎，1905年生于 Sławin，1941年被捕后押往达豪集中营，1942年九月十八日死于饥饿、疾病与折磨，1999年六月十三日由教宗若望保禄二世在108位波兰殉道者团体中宣福。本条加入达豪集中营殉道者追踪。
+
+8. **西语参校本与 OCR 情况**：西语版本日与拉丁底本条目数量一致，均为十五条。拉丁第7条句末缺句号，正文补出。第10条拉丁 OCR 缺越南姓名及明命帝变音，正文据西语参校本与越南主教团资料修正。第11条拉丁 OCR 将 *Dávidis* 因换行断作 *Dá- vidis*，正文恢复；圣座传记所载殉道日期与本日编排不同，校注说明。第14条拉丁 OCR 中 *Martínez*、*testimónium* 等词因行末断字产生空格，正文恢复。
+
+---
+
+## 九月十九日
+
+**Die 19 septémbris** · 十月初一前第十三日（*Tertiodécimo Kaléndas octóbris*）
+
+月龄表（*Luna*）：
+
+> a b c d e f g h i k l m n p q r s t u
+> 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+> A B C D E F F G H M N P
+> 15 16 17 18 19 20 20 21 22 23 24 25
+
+**1\.** 圣雅纳略（Ianuarius/Gennaro），贝内文托主教、殉道者。他在信仰遭受迫害时期，于坎帕尼亚那不勒斯附近的波佐利（Puteoli/Pozzuoli）为基督蒙难（四世纪）。
+
+**2\.** 在弗里吉亚的辛纳达（Synnada），圣特洛斐莫（Trophimus），殉道者（年代不详）。
+
+**3\.** 在巴勒斯坦，圣殉道者佩莱奥（Peleus）与尼罗（Nilus），埃及主教；厄里亚（Elias），司铎；以及帕特尔穆提奥（Patermuthius）。他们在戴克里先皇帝迫害时期，与许多圣职人员一同为基督被火焚烧（310年）。
+
+**4\.** 在里昂高卢的图尔（Turones/Tours，今法国），圣欧斯托基奥（Eustochius），主教。他出身元老院阶层，是圣善而虔敬的人，接替圣布里齐奥（Brictius）任主教（461年）。
+
+**5\.** 同在高卢朗格勒地区的瑟斯特尔修院（monasterium Sistariense，今圣塞纳修院 Saint-Seine-l'Abbaye），圣塞夸诺（Sequanus/Seine），司铎兼院长（六世纪）。
+
+**6\.** 在阿基坦布尔日辖区，圣马里亚诺（Marianus），隐修士。他靠野果和觅得的蜂蜜度日（六世纪）。
+
+**7\*.** 在奥斯特拉西亚的梅斯（Metis/Metz，今法国），圣戈埃里科（Goericus），亦名阿博（Abbo），主教。他接替圣阿尔努尔夫（Arnulphus）任主教，并恭敬地将圣阿尔努尔夫的遗体迁入本城（约642年）。
+
+**8\.** 在英格兰坎特伯雷，圣戴多禄（Theodorus/Theodore），主教。他原是塔尔索修士，由圣教宗维塔利亚诺（Vitalianus）擢升主教；接近七十岁时被派往英格兰，以刚毅心志治理托付给他的教会（690年）。
+
+**9\.** 在西班牙汪达尔地区（Vandalícia，今安达卢西亚）的科尔多瓦，圣蓬波萨（Pomposa），童贞、殉道者。她在摩尔人的迫害中，听闻圣科伦巴殉道，便秘密离开佩尼亚梅利亚修院（monasterium Pinnæ Melláriæ/Peñamelera）；到科尔多瓦后，她在法官前无畏宣认基督，随即在王宫门前被剑斩首，遂获殉道荣冠（853年）。
+
+**10\*.** 在巴伐利亚的弗赖辛（Frisinga/Freising），圣兰特贝尔托（Lantbertus），主教（957年）。
+
+**11\*.** 在卡拉布里亚科森扎附近的布翁维奇诺（Bonivicinum/Buonvicino），圣奇里亚科（Cyriacus），院长（1030年）。
+
+**12\*.** 在高卢普罗旺斯的加普（Vapincum/Gap），圣阿尔努尔夫（Arnulphus），主教。他为重建教会生活的正确规制，忍受许多艰难（约1075年）。
+
+**13\*.** 在西班牙加泰罗尼亚地区的巴塞罗那，圣玛利亚·德·塞尔维略（Maria de Cervelló/María de Cervelló），赎虏圣母会童贞。因她援助呼求她的人，民间称她为救助玛利亚（1290年）。
+
+**14\.** 在西班牙马德里，圣亚丰索·德·奥罗斯科（Alphonsus de Orozco/Alonso de Orozco），圣奥斯定隐修会司铎。他被委任在国王宫廷宣道，表现出严格克苦与谦逊（1591年）。
+
+**15\.** 在韩国首尔，圣玄锡文嘉禄（Carolus Hyon Sǒng-mun/현석문 가롤로，汉字 玄錫文），殉道者。他是传道员，为引导传教士进入自己的国家，走过漫长艰难的路程；后来与其他基督徒一同入狱，始终不断劝勉同伴，最后为基督被斩首（1846年）。
+
+**16\.** 在高卢罗德兹地区的维尔弗朗什（Villa Franca/Villefranche，今法国），圣艾米莉·德·罗达（Maria Gulielma Aemilia de Rodat/Émilie de Rodat），童贞。她为教育女童、援助贫乏者，创立圣家修女会（Congregatio Sororum a Sancta Familia）（1852年）。
+
+**17\*.** 在西班牙马德里附近的先波苏埃洛斯（Ciempozuelos），真福哈辛托·奥尤埃洛斯·贡萨雷斯（Hyacinthus Hoyuelos González/Jacinto Hoyuelos González），天主教仁爱修会会士、殉道者。他在摧残教会的迫害中，以宣认基督完成光荣殉道（1936年）。
+
+**18\*.** 同在西班牙瓦伦西亚地区的贝尼法约村（Benifayó），真福弗朗西斯卡·夸利亚多·拜绍利（Francisca Cualladó Baixauli），童贞、殉道者。她在同一迫害信仰时期，为基督倾流鲜血（1936年）。
+
+**19\*.** 同在西班牙马德里，真福耶稣的玛利亚·德拉伊格莱西亚·德巴罗（Maria a Iesu de la Yglesia y de Varo/María de Jesús de la Yglesia y de Varo）、真福玛利亚·多洛雷斯·阿吉亚尔-梅利亚·迪亚斯（Maria a Doloribus Aguiar-Mella y Díaz/María Dolores Aguiar-Mella y Díaz）与真福孔苏埃洛·阿吉亚尔-梅利亚·迪亚斯（Consolata Aguiar-Mella y Díaz/Consuelo Aguiar-Mella y Díaz），圣母公学女儿会童贞、殉道者。她们为基督作证，获享殉道荣冠（1936年）。
+
+### 九月十九日校注
+
+1. **第1-3条（早期殉道者）**：拉丁 OCR 与西语 OCR 均因页首装饰大写缺失第1条开头，正文据完整赞辞补为圣雅纳略。中文名按万有真原九月十九日瞻礼单作"圣雅纳略"。第3条四位殉道者属巴勒斯坦戴克里先迫害末期殉道者，优西比乌《巴勒斯坦殉道者》亦保存相关记载；西语参校本补年代为310年，正文酌采。
+
+2. **第4-8条（高卢、奥斯特拉西亚与英格兰）**：图尔、朗格勒、布尔日、梅斯与加普均在今法国境内。圣塞夸诺的修院后来发展为圣塞纳修院。圣戈埃里科又名阿博，为梅斯主教，继承同座圣阿尔努尔夫。坎特伯雷圣戴多禄出身塔尔索，668年由教宗维塔利亚诺祝圣，669年抵达英格兰，690年安逝。
+
+3. **第9条（圣蓬波萨）**：蓬波萨为摩尔人治下科尔多瓦殉道者系列中的一位，853年殉道。拉丁 *Vandalícia Hispániæ regio* 按项目规则译作"西班牙汪达尔地区（今安达卢西亚）"。佩尼亚梅利亚修院为科尔多瓦附近女修院；本条加入科尔多瓦殉道者追踪。
+
+4. **第13-14条（圣玛利亚·德·塞尔维略与圣亚丰索·德·奥罗斯科）**：圣玛利亚·德·塞尔维略为巴塞罗那赎虏圣母会第三会传统中的童贞，俗称 María de Socós 或 María del Socorro，正文按拉丁 *Maria de Subsidio* 译作"救助玛利亚"。圣亚丰索·德·奥罗斯科为西班牙圣奥斯定隐修会司铎，长期在王室宫廷任宣道职，2002年五月十九日由教宗若望保禄二世封圣。
+
+5. **第15条（圣玄锡文嘉禄）**：圣玄锡文嘉禄为103位韩国殉道圣人团体成员，韩文名 현석문 가롤로，汉字玄錫文，字德昇，又名李在永；韩国资料记其1846年九月十九日在沙南基殉道。拉丁索引注明本日为其受难，九月二十日为韩国殉道圣人共同纪念。本条加入韩国殉道圣人追踪。
+
+6. **第16条（圣艾米莉·德·罗达）**：圣艾米莉·德·罗达本名 Marie Guillemette Émilie de Rodat，创立维尔弗朗什圣家修女会，服务女童教育与贫乏者，1950年四月二十三日由教宗庇护十二世封圣。
+
+7. **第17-19条（西班牙内战殉道者）**：哈辛托·奥尤埃洛斯·贡萨雷斯属天主教仁爱修会，即圣若望天主会，1936年在马德里附近殉道。先波苏埃洛斯为 Ciempozuelos 现有中文译名，马德里官方旅游中文页亦作此译。弗朗西斯卡·夸利亚多·拜绍利为瓦伦西亚地区童贞殉道者。第19条三位真福属圣母公学女儿会，即西语 Escolapias，是公学司铎修会灵修教育传统中的女修会；姓名中西语连接词 y 按项目规则省略不译。本三条加入西班牙内战殉道者追踪。
+
+8. **西语参校本与 OCR 情况**：西语版本日与拉丁底本条目数量一致，均为十九条。第1条两份 OCR 均缺页首开头，正文据完整赞辞补足。第8条西语句末缺句号，正文按拉丁补足。第9条西语在 *Peñamelera* 前断段，正文据拉丁恢复。第13条拉丁底本标星号，西语参校本未标，正文从拉丁底本。第19条西语明确说明玛利亚·多洛雷斯与孔苏埃洛为姐妹，拉丁未明言姐妹关系，正文从拉丁结构处理。
+
+---
+
+## 九月二十日
+
+**Die 20 septémbris** · 十月初一前第十二日（*Duodécimo Kaléndas octóbris*）
+
+月龄表（*Luna*）：
+
+> a b c d e f g h i k l m n p q r s t u
+> 27 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+> A B C D E F F G H M N P
+> 16 17 18 19 20 21 21 22 23 24 25 26
+
+**1\.** 圣金大建安德肋、圣丁夏祥保禄及同伴殉道者纪念。在韩国，今日也以共同庆典敬礼全部一百零三位殉道者。他们勇敢见证基督信仰；这信仰最初由几位平信徒热切传入本国，后来经传教士宣讲并举行圣事而得到培育和坚固。这些基督的健儿中，有三位主教、八位司铎，其余为平信徒，或已婚或未婚，有老年人、青年人和儿童；他们受刑致命，以宝血祝圣韩国教会的初芽（1839-1867年）。
+
+**2\.** 在弗里吉亚的辛纳达（Synnada），圣多里默冬（Dorymedon），殉道者（三世纪）。
+
+**3\.** 在罗马，纪念殉道者圣欧斯塔基奥（Eustachius/Eustachio）。他的名字在罗马城古老的执事区圣堂中受敬礼（年代不详）。
+
+**4\.** 在君士坦丁堡，圣殉道者伊帕提奥（Hypatius）与阿西亚诺（Asianus），主教；以及安德肋（Andreas），司铎。他们因敬礼圣像，在伊苏里亚人利奥三世皇帝治下，受尽严酷重刑后，被抛给狗吞噬（约740年）。
+
+**5\*.** 在意大利特伦托地区的阿尔科城（Arcum/Arco），真福阿德尔普雷托（Adelpretus/Adelpreto），主教。他勇敢保护穷人与孤儿，维护教会自由，被仇敌诱入陷阱，残酷击伤而死（1172年）。
+
+**6\*.** 在英格兰伦敦，真福多默·约翰逊（Thomas Johnson），本城加尔都西会院司铎、殉道者。他在亨利八世国王治下，因坚守对教会的忠信，被囚于纽盖特监狱（Newgate）；在同会弟兄中，他是第九位因饥饿和疾病交攻而死的人（1537年）。
+
+**7\*.** 在西班牙科尔多瓦，真福方济各·德·波萨达斯（Franciscus de Posadas/Francisco de Posadas），多明我会司铎。他以补赎、谦逊和爱德著称，在本地区宣讲基督四十年（1713年）。
+
+**8\.** 在东京（Tunquinum，越南北部）的山西城堡（Sơn Tây），圣若望•嘉禄•高尔内（Ioannes Carolus Cornay/Jean-Charles Cornay），巴黎外方传教会司铎、殉道者。他因宣认基督信仰，在受尽严酷刑罚后，奉明命帝诏令被肢解，最后斩首（1837年）。
+
+**9\.** 在韩国首尔，圣韩履亨劳楞佐（Laurentius Han I-hyǒng/한이형 라우렌시오，汉字 韓履亨），传道员，及六位同伴殉道者。他们在不同监狱中被绳索绞杀，为基督承受殉道。今日他们与这些地区其余殉道者一同受纪念（1837年）。
+
+**10\.** 在墨西哥普埃布拉（Puebla），圣若瑟•玛利亚•德·耶尔莫-帕雷斯（Iosephus Maria de Yermo y Parres/José María de Yermo y Parres），司铎。他创立耶稣圣心与穷人婢女会（Congregatio Servarum a Sacro Corde Iesu et Pauperibus），为在灵魂与身体需要上扶助被遗弃者（1904年）。
+
+### 九月二十日校注
+
+1. **第1条（圣金大建、圣丁夏祥及同伴）**：拉丁 OCR 因页首装饰大写缺失第1条开头，西语参校本亦缺完整题名；正文据罗马殉道录完整赞辞与万有真原九月二十日瞻礼单补为"圣金大建安德肋、圣丁夏祥保禄及同伴殉道者纪念"。圣金大建安德肋已见九月十六日第16条；圣丁夏祥保禄，韩文 정하상 바오로，汉字丁夏祥，为朝鲜早期教会平信徒领袖，1839年殉道。103位韩国殉道圣人于1984年五月六日由教宗若望保禄二世在首尔封圣。本条加入韩国殉道圣人追踪。
+
+2. **第2-4条（辛纳达、罗马与君士坦丁堡）**：圣多里默冬常与圣特洛斐莫、圣萨巴提奥同列辛纳达殉道者传统；第2条与九月十九日第2条圣特洛斐莫相邻。圣欧斯塔基奥的名字保存于罗马古执事区圣堂传统。第4条所称伊苏里亚人利奥三世皇帝，即拜占庭皇帝利奥三世，717至741年在位；相关殉道事迹属圣像破坏运动背景。
+
+3. **第5-7条（阿尔科、伦敦与科尔多瓦）**：阿尔科在今意大利特伦蒂诺地区。真福阿德尔普雷托为特伦托主教，1172年遇害。真福多默·约翰逊为伦敦加尔都西会院殉道者群体成员，1537年九月二十日在纽盖特监狱死于饥饿与疾病；本条加入英格兰殉道者追踪。真福方济各·德·波萨达斯为科尔多瓦多明我会司铎，1818年九月二十日由教宗庇护七世宣福。
+
+4. **第8条（圣若望•嘉禄•高尔内）**：圣若望•嘉禄•高尔内为法国巴黎外方传教会司铎，原拟前往中国四川传教，后滞留东京地区并在越南服务；越南资料称其为 Cố Tân。1837年九月二十日在山西殉道，1988年六月十九日由教宗若望保禄二世在117位越南殉道圣人团体中封圣。本条加入越南殉道圣人追踪；因其为法国籍传教士，正文从法文姓名音译，不按越南汉字姓名推定。
+
+5. **第9条（圣韩履亨劳楞佐及同伴）**：第9条七位韩国殉道者均属103位韩国殉道圣人团体。拉丁脚注未被 OCR 正文完整收录，西语脚注列同伴为：圣南景文伯多禄（Petrus Nam Kyǒng-mun/남경문 베드로，汉字 南景文）、圣金任伊德肋撒（Teresia Kim Im-i/김임이 데레사，汉字 金任伊）、圣禹述任苏撒纳（Susanna U Sur-im/우술임 수산나，汉字 禹述任）、圣李干兰亚加大（Agatha Yi Kan-nan/이간난 아가타，汉字 李干蘭）、圣郑铁艳加大利纳（Catharina Chong Ch'or-yom/정철염 가타리나，汉字 鄭鐵艶）及圣林致百若瑟（Iosephus Im Ch'i-baeg/임치백 요셉，汉字 林致百）。本条加入韩国殉道圣人追踪。
+
+6. **第10条（圣若瑟•玛利亚•德·耶尔莫-帕雷斯）**：拉丁 OCR 作 *beáti*，但圣若瑟•玛利亚•德·耶尔莫-帕雷斯已于2000年五月二十一日由教宗若望保禄二世封圣，2004年拉丁底本按理应作圣品；正文按事实作"圣"。地点拉丁 OCR 作 *Plebe*，西语参校本亦作 Plebe；圣座与墨西哥教区资料均作 Puebla，正文据事实译为"普埃布拉"。耶稣圣心与穷人婢女会为其1885年创立的修会，服务弃儿、病患、老人及贫困者。
+
+7. **西语参校本与 OCR 情况**：西语版本日与拉丁底本条目数量一致，均为十条。第1条两份 OCR 均缺页首完整题名，正文据完整赞辞补足；西语以脚注列全部103位同伴，正文不展开全表。第4条西语补年代约740年，正文酌采。第5-8、10条西语补年代，正文酌采。第8条西语称东京属印度支那，正文从拉丁作东京并括注越南北部。第9条西语 OCR 将第50号脚注末段及第51号脚注错夹入正文，正文据拉丁主文与脚注内容恢复。
+
+---
+
+## 九月二十一日
+
+**Die 21 septémbris** · 十月初一前第十一日（*Undécimo Kaléndas octóbris*）
+
+月龄表（*Luna*）：
+
+> a b c d e f g h i k l m n p q r s t u
+> 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+> A B C D E F F G H M N P
+> 17 18 19 20 21 22 22 23 24 25 26 27
+
+**1\.** 圣玛窦宗徒兼圣史（Matthaeus）的庆日。他又名肋未，蒙耶稣召叫跟随，便离开税吏或收税员的职务；被选入宗徒团后，撰写福音，主要宣告耶稣基督，达味之子、亚巴郎之子，成全了旧约（第一世纪）。
+
+**2\.** 纪念圣约纳（Ionas/Jonah），先知，阿米泰的儿子。旧约中有一卷书以他的名字命名；他从大鱼腹中出来的著名事迹，在福音中也被叙述为主复活的标记（公元前八世纪）。
+
+**3\.** 在希腊，纪念圣夸德拉托（Quadratus），宗徒们的门徒。据传，他在哈德良皇帝迫害时期，以自己的信德和勤勉，聚集因恐惧而四散的教会；又向皇帝呈上一部维护基督信仰的书，其文堪配宗徒传下的道理（二世纪）。
+
+**4\.** 在罗马萨拉里亚旧道（via Salaria Vetere），圣庞斐洛（Pamphilus），殉道者（年代不详）。
+
+**5\.** 在巴卡纳斯（Baccanae，今 Baccano），即距罗马城二十罗马里的卡西亚大道（via Cassia）旁，圣亚历山大（Alexander），殉道者（年代不详）。
+
+**6\.** 在巴勒斯坦的加沙，圣欧瑟伯（Eusebius）、内斯塔博（Nestabus）与泽诺（Zeno），殉道者，兄弟三人。他们在叛教者尤里安皇帝时期，被一群异教民众袭击，遭撕裂杀害。圣内斯托尔（Nestor）同他们一同受难；他因所受创伤，不久后完成殉道（362年）。
+
+**7\*.** 在普罗旺斯的阿普塔尤利亚（Apta Iulia，今 Apt），圣卡斯托尔（Castor），主教。他愿意向新修院的弟兄讲明修士生活，便请求圣若望·加西安（Ioannes Cassianus/Jean Cassien）写下埃及苦修士的卓越《会谈录》（约426年）。
+
+**8\*.** 在威尔士南部（Cambria meridionalis）的兰卡凡修院（monasterium Lancarvanense/Llancarfan），圣卡多克（Cadocus/Cadoc），院长。康沃尔（Cornubia/Cornwall）和布列塔尼（Britannia Minor）也有多座修院以他的名义创立（六世纪）。
+
+**9\*.** 在巴登地区埃滕海姆修院（monasterium Ettenheimense/Ettenheim），圣兰德利诺（Landelinus），修士，出生于希伯尼亚（Hibernia，今爱尔兰）（七世纪）。
+
+**10\*.** 在奥斯特拉西亚佛兰德的特龙希耶讷（Trunchinium/Tronchiennes，今比利时德龙恩 Drongen），圣杰鲁尔夫（Gerulphus），殉道者，少年（约750年）。
+
+**11\*.** 在高卢塞纳河畔的特鲁瓦（Trecæ/Troyes，今法国），圣玛乌拉（Maura），童贞，恒常从事虔敬与爱德工作（约850年）。
+
+**12\*.** 在意大利皮切诺的佩萨罗（Pisaurum/Pesaro），摩德纳的真福马尔谷·斯卡拉布里尼（Marcus de Mutina Scalabrini），多明我会司铎。他能把许多误入歧途的人带回正义的道路（1498年）。
+
+**13\.** 在安南的广治城堡（Quảng Trị，汉字 广治，今越南），圣方济各·雅卡尔（Franciscus Jaccard/François Jaccard，越南名 Phan），巴黎外方传教会司铎，与圣陈文善多默（Thomas Trân Văn Thiện），殉道者。他们在明命帝治下，为基督承受监禁和鞭打，最后被绞死（1838年）。
+
+**14\.** 在韩国沙南基（Sai-Nam-Hte/새남터/Saenamteo），圣殉道者范世亨劳楞佐（Laurentius Imbert/Laurent-Joseph-Marius Imbert）主教，以及巴黎外方传教会司铎圣罗伯多禄（Petrus Maubant/Pierre Philibert Maubant）与圣郑牙各伯（Iacobus Chastan/Jacques-Honoré Chastan）的蒙难。他们为保全基督徒的性命，自愿投到官兵手中，终被剑杀（1839年）。
+
+**15\*.** 在西班牙瓦伦西亚地区的贝尼索达村（Benisoda），真福殉道者味增爵·加尔比斯·希罗内斯（Vincentius Galbis Gironés/Vicente Galbis Gironés），家主，与厄玛奴耳·托罗·加西亚（Emmanuel Torró García/Manuel Torró García）。他们与所敬礼的基督在苦难中相合，又以殉道的胜利效法了他（1936年）。
+
+### 九月二十一日校注
+
+1. **第1-3条（圣玛窦、圣约纳与圣夸德拉托）**：拉丁 OCR 与西语 OCR 均因页首装饰大写缺失第1条开头，正文据完整赞辞补为"圣玛窦宗徒兼圣史的庆日"；中文名按万有真原九月二十一日瞻礼单作"圣玛窦"。第2条约纳、阿米泰从思高圣经译名；拉丁 *cetus* 依约纳书和玛窦福音语境译作"大鱼"。圣夸德拉托为早期护教者，按优西比乌记载曾向哈德良皇帝呈献护教文。
+
+2. **第4-6条（罗马与巴勒斯坦殉道者）**：第4条明确为萨拉里亚旧道，正文按用户既定要求括注原文 *via Salaria Vetere*。第5条拉丁作卡西亚大道 *via Cassia*，西语参校本误作克劳狄亚大道，正文从拉丁；巴卡纳斯对应今罗马以北的 Baccano 地区。第6条加沙殉道者欧瑟伯、内斯塔博、泽诺与内斯托尔传统上殉于362年尤里安治下的反基督徒暴动。
+
+3. **第7-12条（普罗旺斯、威尔士、巴登与高卢）**：阿普塔尤利亚即今法国普罗旺斯的 Apt。圣卡斯托尔为 Apt 主教，若望·加西安的《会谈录》据其请求而作。兰卡凡修院在威尔士南部；康沃尔与布列塔尼的多座修院也归于圣卡多克名下。希伯尼亚为古典拉丁对爱尔兰的称呼。特龙希耶讷即今比利时根特的德龙恩。摩德纳的真福马尔谷·斯卡拉布里尼为多明我会士，与六月一日第19条真福若望·巴蒂斯塔·斯卡拉布里尼不同。
+
+4. **第13条（圣方济各·雅卡尔与圣陈文善多默）**：拉丁 OCR 将地名与姓名变音漏作 *Qung-Tri*、*Trân Văn Thin*、*Minh Mng*；西语 OCR 又将 Trân 误作 Tramm。越南主教团资料作 François Jaccard-Phan 与 Tôma Trần Văn Thiện，二人于1838年九月二十一日在广治附近的颜瓢刑场被处绞刑，1900年五月二十七日宣福，1988年六月十九日列圣品。方济各·雅卡尔为法国籍巴黎外方传教会司铎，越南名 Phan，即汉字"潘"，正文仍从法文姓氏译名；陈文善多默按项目越南姓名规则推定汉字，陈、文无歧义，善=Thiện 中等偏高，待日后据汉字原件复核。本条加入越南殉道圣人追踪。
+
+5. **第14条（沙南基韩国殉道者）**：三位均属103位韩国殉道圣人团体。韩国主教团资料载范世亨劳楞佐为第二任朝鲜代牧区主教，韩文称 범 라우렌시오，汉字范世亨；罗伯多禄，韩文称 나 베드로，汉字羅伯多祿；郑牙各伯，韩文称 정 야고보，汉字鄭牙各伯。三人皆属巴黎外方传教会，1839年九月二十一日在沙南基殉道；新加坡善牧主教座堂中文资料亦称 Imbert 为圣乐伦·冉拔罗，并注明其朝鲜译名范世亨，正文按韩国殉道圣人体系采用汉字传教名。本条加入韩国殉道圣人追踪。
+
+6. **第15条（西班牙内战殉道者）**：味增爵·加尔比斯·希罗内斯与厄玛奴耳·托罗·加西亚均为西班牙天主教进行会平信徒，1936年九月二十一日在贝尼索达被枪杀，2001年三月十一日由教宗若望保禄二世宣福。拉丁作 Galbis，西语 OCR 作 Galvis，正文据拉丁及其他参校资料作 Galbis；本条加入西班牙内战殉道者追踪。
+
+7. **西语参校本与 OCR 情况**：西语版本日与拉丁底本条目数量一致，均为十五条。第1条两份 OCR 均缺页首开头，正文据完整赞辞补足。第3、6、7、9-12、15条西语补出年代，正文酌采。第5条西语将卡西亚大道误作克劳狄亚大道，正文从拉丁。第13条两份 OCR 均有姓名、地名变音缺失或误识，正文据越南主教团资料修正。第14条人名正文据韩国主教团资料补汉字传教名。
 
 ---
