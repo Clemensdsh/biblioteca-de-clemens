@@ -31,6 +31,8 @@ function isClientOnlyRoute(route: string) {
     '/posts/saturday-memorial-of-our-lady-office/',
     '/posts/office-of-the-dead-1962',
     '/posts/office-of-the-dead-1962/',
+    '/posts/nestorius-bazaar-of-heracleides-zh',
+    '/posts/nestorius-bazaar-of-heracleides-zh/',
     '/posts/aas-1960-rubricae-et-calendarium-zh',
     '/posts/aas-1960-rubricae-et-calendarium-zh/',
     '/posts/aas-1960-rubricae-et-calendarium-latin',

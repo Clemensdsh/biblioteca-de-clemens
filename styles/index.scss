@@ -316,6 +316,42 @@ body:has(.office-dead-page-marker) {
   }
 }
 
+body:has(.nestorius-bazaar-page-marker) {
+  @include collapsible-page-toc;
+
+  .markdown-body table {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .markdown-body th,
+  .markdown-body td {
+    vertical-align: top;
+    line-height: 1.7;
+  }
+
+  .markdown-body .nestorius-titlepage-author,
+  .markdown-body .nestorius-titlepage-title {
+    margin: 0.25rem 0;
+    color: var(--va-c-text) !important;
+    text-align: center;
+    letter-spacing: 0;
+  }
+
+  .markdown-body .nestorius-titlepage-author {
+    margin-top: 1rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+  }
+
+  .markdown-body .nestorius-titlepage-title {
+    font-size: 1.45rem;
+    font-weight: 700;
+  }
+}
+
 body:has(.aas-1960-rubricae-page-marker),
 body:has(.aas-1960-rubricae-latin-page-marker) {
   @include collapsible-page-toc;
