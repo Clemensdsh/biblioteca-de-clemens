@@ -1,0 +1,78 @@
+{
+  "date": "2026-07-20",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "hour": "laudes",
+  "language": "la",
+  "liturgicalTitle": "S. Hieronymi Æmiliani Confessoris ~ III. classis",
+  "rank": "S. Hieronymi Æmiliani Confessoris;;Duplex;;3;;vide C5\n\n",
+  "schemaVersion": "0.1.0",
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "units": [
+    {
+      "html": "Incipit\n<br/>\n℣. Deus <span style='color:red; font-size:1.25em'>✠</span> in adjutórium meum inténde.<br/>\n℟. Dómine, ad adjuvándum me festína.<br/>\nGlória Patri, et Fílio, * et Spirítui Sancto.<br/>\nSicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAllelúja.<br/>\n",
+      "id": "do-1962-2026-07-20-laudes-001",
+      "raw": "#Incipit\n&Deus_in_adjutorium\n&Alleluia\n"
+    },
+    {
+      "html": "Psalmi {Psalmi & antiphonæ  ex Psalterio secundum diem}\n<br/>\nAnt. Jubiláte * Deo in voce exsultatiónis.<br/>\nPsalmus 46 [1]<br/>\n46:2 Omnes gentes, pláudite mánibus: * jubiláte Deo in voce exsultatiónis.<br/>\n46:3 Quóniam Dóminus excélsus, terríbilis: * Rex magnus super omnem terram.<br/>\n46:4 Subjécit pópulos nobis: * et gentes sub pédibus nostris.<br/>\n46:5 Elégit nobis hereditátem suam: * spéciem Jacob, quam diléxit.<br/>\n46:6 Ascéndit Deus in júbilo: * et Dóminus in voce tubæ.<br/>\n46:7 Psállite Deo nostro, psállite: * psállite Regi nostro, psállite.<br/>\n46:8 Quóniam Rex omnis terræ Deus: * psállite sapiénter.<br/>\n46:9 Regnábit Deus super gentes: * Deus sedet super sedem sanctam suam.<br/>\n46:10 Príncipes populórum congregáti sunt cum Deo Ábraham: * quóniam dii fortes terræ veheménter eleváti sunt.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Jubiláte Deo in voce exsultatiónis.<br/>\n",
+      "id": "do-1962-2026-07-20-laudes-002",
+      "raw": "#Psalmi{Psalmi & antiphonæ  ex Psalterio secundum diem}\nAnt. Jubiláte * Deo in voce exsultatiónis.\n&psalm(46)\nAnt. Jubiláte Deo in voce exsultatiónis.\n"
+    },
+    {
+      "html": "Ant. Inténde * voci oratiónis meæ, Rex meus et Deus meus.<br/>\nPsalmus 5 [2]<br/>\n5:2 Verba mea áuribus pércipe, Dómine, * intéllege clamórem meum.<br/>\n5:3 Inténde voci oratiónis meæ, * Rex meus et Deus meus.<br/>\n5:4 Quóniam ad te orábo: * Dómine, mane exáudies vocem meam.<br/>\n5:5 Mane astábo tibi et vidébo: * quóniam non Deus volens iniquitátem tu es.<br/>\n5:6 Neque habitábit juxta te malígnus: * neque permanébunt injústi ante óculos tuos.<br/>\n5:7a Odísti omnes, qui operántur iniquitátem: * perdes omnes, qui loquúntur mendácium.<br/>\n5:7b Virum sánguinum et dolósum abominábitur Dóminus: * (8a) ego autem in multitúdine misericórdiæ tuæ.<br/>\n5:8b Introíbo in domum tuam: * adorábo ad templum sanctum tuum in timóre tuo.<br/>\n5:9 Dómine, deduc me in justítia tua: * propter inimícos meos dírige in conspéctu tuo viam meam.<br/>\n5:10 Quóniam non est in ore eórum véritas: * cor eórum vanum est.<br/>\n5:11a Sepúlcrum patens est guttur eórum, † linguis suis dolóse agébant, * júdica illos, Deus.<br/>\n5:11b Décidant a cogitatiónibus suis, † secúndum multitúdinem impietátum eórum expélle eos, * quóniam irritavérunt te, Dómine.<br/>\n5:12a Et læténtur omnes, qui sperant in te, * in ætérnum exsultábunt: et habitábis in eis.<br/>\n5:12b Et gloriabúntur in te omnes, qui díligunt nomen tuum, * (13a) quóniam tu benedíces justo.<br/>\n5:13b Dómine, ut scuto bonæ voluntátis tuæ * coronásti nos.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Inténde voci oratiónis meæ, Rex meus et Deus meus.<br/>\n",
+      "id": "do-1962-2026-07-20-laudes-003",
+      "raw": "Ant. Inténde * voci oratiónis meæ, Rex meus et Deus meus.\n&psalm(5)\nAnt. Inténde voci oratiónis meæ, Rex meus et Deus meus.\n"
+    },
+    {
+      "html": "Ant. Deus majestátis * intónuit: afférte glóriam nómini ejus.<br/>\nPsalmus 28 [3]<br/>\n28:1 Afférte Dómino, fílii Dei: * afférte Dómino fílios aríetum.<br/>\n28:2 Afférte Dómino glóriam et honórem, afférte Dómino glóriam nómini ejus: * adoráte Dóminum in átrio sancto ejus.<br/>\n28:3 Vox Dómini super aquas, Deus majestátis intónuit: * Dóminus super aquas multas.<br/>\n28:4 Vox Dómini in virtúte: * vox Dómini in magnificéntia.<br/>\n28:5 Vox Dómini confringéntis cedros: * et confrínget Dóminus cedros Líbani:<br/>\n28:6 Et commínuet eas tamquam vítulum Líbani: * et diléctus quemádmodum fílius unicórnium.<br/>\n28:7 Vox Dómini intercidéntis flammam ignis: * vox Dómini concutiéntis desértum: et commovébit Dóminus desértum Cades.<br/>\n28:9 Vox Dómini præparántis cervos, et revelábit condénsa: * et in templo ejus omnes dicent glóriam.<br/>\n28:10 Dóminus dilúvium inhabitáre facit: * et sedébit Dóminus Rex in ætérnum.<br/>\n28:11 Dóminus virtútem pópulo suo dabit: * Dóminus benedícet pópulo suo in pace.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Deus majestátis intónuit: afférte glóriam nómini ejus.<br/>\n",
+      "id": "do-1962-2026-07-20-laudes-004",
+      "raw": "Ant. Deus majestátis * intónuit: afférte glóriam nómini ejus.\n&psalm(28)\nAnt. Deus majestátis intónuit: afférte glóriam nómini ejus.\n"
+    },
+    {
+      "html": "Ant. Laudámus nomen tuum * ínclitum, Deus noster.<br/>\nCanticum David [4]<br/>\n1 Par. 29:10-13<br/>\n29:10 Benedíctus es, Dómine, Deus Israël patris nostri, * ab ætérno in ætérnum.<br/>\n29:11 Tua est, Dómine, magnificéntia, et poténtia, * et glória, atque victória:<br/>\n29:11 Et tibi laus: * cuncta enim quæ in cælo sunt, et in terra, tua sunt:<br/>\n29:11 Tuum, Dómine, regnum, * et tu es super omnes príncipes.<br/>\n29:12 Tuæ divítiæ, et tua est glória: * tu domináris ómnium,<br/>\n29:12 In manu tua virtus et poténtia: * in manu tua magnitúdo, et impérium ómnium.<br/>\n29:13 Nunc ígitur, Deus noster, confitémur tibi, * et laudámus nomen tuum ínclitum.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Laudámus nomen tuum ínclitum, Deus noster.<br/>\n",
+      "id": "do-1962-2026-07-20-laudes-005",
+      "raw": "Ant. Laudámus nomen tuum * ínclitum, Deus noster.\n&psalm(211)\nAnt. Laudámus nomen tuum ínclitum, Deus noster.\n"
+    },
+    {
+      "html": "Ant. Laudáte * Dóminum omnes gentes. ‡<br/>\nPsalmus 116 [5]<br/>\n116:1  Laudáte Dóminum, omnes gentes: * ‡ laudáte eum, omnes pópuli:<br/>\n116:2 Quóniam confirmáta est super nos misericórdia ejus: * et véritas Dómini manet in ætérnum.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Laudáte Dóminum omnes gentes.<br/>\n",
+      "id": "do-1962-2026-07-20-laudes-006",
+      "raw": "Ant. Laudáte * Dóminum omnes gentes.\n&psalm(116)\nAnt. Laudáte Dóminum omnes gentes.\n"
+    },
+    {
+      "html": "Capitulum Hymnus Versus {ex Commune aut Festo}\n<br/>\nSir 31:8-9<br/>\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua.<br/>\n℟. Deo grátias.<br/>\n_<br/>\nHymnus<br/>\nJesu, coróna célsior,<br/>\nEt véritas sublímior,<br/>\nQui confiténti sérvulo<br/>\nReddis perénne prǽmium:<br/>\n_<br/>\nDa supplicánti cœ́tui,<br/>\nHujus rogátu, nóxii<br/>\nRemissiónem críminis,<br/>\nRumpéndo nexum vínculi.<br/>\n_<br/>\nAnni revérso témpore,<br/>\nDies refúlsit lúmine,<br/>\nQuo Sanctus hic de córpore<br/>\nMigrávit inter sídera.<br/>\n_<br/>\nHic vana terræ gáudia,<br/>\nEt luculénta prǽdia,<br/>\nPollúta sorde députans,<br/>\nOvans tenet cæléstia.<br/>\n_<br/>\nTe, Christe, Rex piíssime,<br/>\nHic confiténdo júgiter,<br/>\nCalcávit artes dǽmonum,<br/>\nSævúmque avérni príncipem.<br/>\n_<br/>\nVirtúte clarus, et fide,<br/>\nConfessióne sédulus,<br/>\nJejúna membra déferens,<br/>\nDapes supérnas óbtinet.<br/>\n_<br/>\nProínde te piíssime<br/>\nPrecámur omnes súpplices:<br/>\nNobis ut hujus grátia<br/>\nPœnas remíttas débitas.<br/>\n_<br/>\nPatri perénnis glória,<br/>\nNatóque Patris único,<br/>\nSanctóque sit Paráclito,<br/>\nPer omne semper sǽculum.<br/>\nAmen.<br/>\n_<br/>\n℣. Justum dedúxit Dóminus per vias rectas.<br/>\n℟. Et osténdit illi regnum Dei.<br/>\n",
+      "id": "do-1962-2026-07-20-laudes-007",
+      "raw": "#Capitulum Hymnus Versus{ex Commune aut Festo}\n!Sir 31:8-9\nv. Beátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua.\n$Deo gratias\n_\n!Hymnus\n{:H-Jesucoronacelsior:}v. Jesu, coróna célsior,\nEt véritas sublímior,\nQui confiténti sérvulo\nReddis perénne prǽmium:\n_\nr. Da supplicánti cœ́tui,\nHujus rogátu, nóxii\nRemissiónem críminis,\nRumpéndo nexum vínculi.\n_\nr. Anni revérso témpore,\nDies refúlsit lúmine,\nQuo Sanctus hic de córpore\nMigrávit inter sídera.\n_\nr. Hic vana terræ gáudia,\nEt luculénta prǽdia,\nPollúta sorde députans,\nOvans tenet cæléstia.\n_\nr. Te, Christe, Rex piíssime,\nHic confiténdo júgiter,\nCalcávit artes dǽmonum,\nSævúmque avérni príncipem.\n_\nr. Virtúte clarus, et fide,\nConfessióne sédulus,\nJejúna membra déferens,\nDapes supérnas óbtinet.\n_\nr. Proínde te piíssime\nPrecámur omnes súpplices:\nNobis ut hujus grátia\nPœnas remíttas débitas.\n_\nr. Patri perénnis glória,\nNatóque Patris único,\nSanctóque sit Paráclito,\nPer omne semper sǽculum.\nAmen.\n\n_\nV. Justum dedúxit Dóminus per vias rectas.\nR. Et osténdit illi regnum Dei.\n\n"
+    },
+    {
+      "html": "Canticum: Benedictus {Antiphona ex Proprio Sanctorum}\n<br/>\nAnt. Euge, serve bone * et fidélis, quia in pauca fuísti fidélis, supra multa te constítuam, intra in gáudium Dómini tui.<br/>\nCanticum Zachariæ<br/>\nLuc. 1:68-79<br/>\n1:68 Benedíctus <span style='color:red; font-size:1.25em'>✠</span> Dóminus, Deus Israël: * quia visitávit, et fecit redemptiónem plebis suæ:<br/>\n1:69 Et eréxit cornu salútis nobis: * in domo David, púeri sui.<br/>\n1:70 Sicut locútus est per os sanctórum, * qui a sǽculo sunt, prophetárum ejus:<br/>\n1:71 Salútem ex inimícis nostris, * et de manu ómnium, qui odérunt nos.<br/>\n1:72 Ad faciéndam misericórdiam cum pátribus nostris: * et memorári testaménti sui sancti.<br/>\n1:73 Jusjurándum, quod jurávit ad Ábraham patrem nostrum, * datúrum se nobis:<br/>\n1:74 Ut sine timóre, de manu inimicórum nostrórum liberáti, * serviámus illi.<br/>\n1:75 In sanctitáte, et justítia coram ipso, * ómnibus diébus nostris.<br/>\n1:76 Et tu, puer, Prophéta Altíssimi vocáberis: * præíbis enim ante fáciem Dómini, paráre vias ejus:<br/>\n1:77 Ad dandam sciéntiam salútis plebi ejus: * in remissiónem peccatórum eórum:<br/>\n1:78 Per víscera misericórdiæ Dei nostri: * in quibus visitávit nos, óriens ex alto:<br/>\n1:79 Illumináre his, qui in ténebris, et in umbra mortis sedent: * ad dirigéndos pedes nostros in viam pacis.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Euge, serve bone et fidélis, quia in pauca fuísti fidélis, supra multa te constítuam, intra in gáudium Dómini tui.<br/>\n",
+      "id": "do-1962-2026-07-20-laudes-008",
+      "raw": "#Canticum: Benedictus{Antiphona ex Proprio Sanctorum}\nAnt. Euge, serve bone * et fidélis, quia in pauca fuísti fidélis, supra multa te constítuam, intra in gáudium Dómini tui.\n&psalm(231)\nAnt. Euge, serve bone et fidélis, quia in pauca fuísti fidélis, supra multa te constítuam, intra in gáudium Dómini tui.\n"
+    },
+    {
+      "html": "Preces Feriales{omittitur}<br/>\n",
+      "id": "do-1962-2026-07-20-laudes-009",
+      "raw": "#Preces Feriales{omittitur}\n"
+    },
+    {
+      "html": "Oratio {ex Proprio Sanctorum}\n<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\nOrémus.<br/>\nDeus, misericordiárum pater, per mérita et intercessiónem beáti Hierónymi, quem órphanis adjutórem et patrem esse voluísti: concéde; ut spíritum adoptiónis, quo fílii tui nominámur et sumus, fidéliter custodiámus.<br/>\nPer Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.<br/>\n℟. Amen.<br/>\n<br/>\n_<br/>\nCommemoratio S. Margaritæ, Virginis et Martyris<br/>\nAnt. Símile est regnum cælórum hómini negotiatóri quærénti bonas margarítas: invénta una pretiósa, dedit ómnia sua, et comparávit eam.<br/>\n<br/>\n_<br/>\n℣. Diffúsa est grátia in lábiis tuis.<br/>\n℟. Proptérea benedíxit te Deus in ætérnum.<br/>\n<br/>\n_<br/>\nOrémus.<br/>\nIndulgéntiam nobis, quǽsumus, Dómine, beáta Margaríta Virgo et Martyr implóret: quæ tibi grata semper éxstitit, et mérito castitátis, et tuæ professióne virtútis.<br/>\nPer Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-07-20-laudes-010",
+      "raw": "#Oratio{ex Proprio Sanctorum}\n&Dominus_vobiscum\nv. Orémus.\nv. Deus, misericordiárum pater, per mérita et intercessiónem beáti Hierónymi, quem órphanis adjutórem et patrem esse voluísti: concéde; ut spíritum adoptiónis, quo fílii tui nominámur et sumus, fidéliter custodiámus.\n$Per Dominum\n\n_\n!Commemoratio S. Margaritæ, Virginis et Martyris\nAnt. Símile est regnum cælórum hómini negotiatóri quærénti bonas margarítas: invénta una pretiósa, dedit ómnia sua, et comparávit eam.\n\n_\nV. Diffúsa est grátia in lábiis tuis.\nR. Proptérea benedíxit te Deus in ætérnum.\n\n_\n$Oremus\nv. Indulgéntiam nobis, quǽsumus, Dómine, beáta Margaríta Virgo et Martyr implóret: quæ tibi grata semper éxstitit, et mérito castitátis, et tuæ professióne virtútis.\n$Per Dominum\n\n"
+    },
+    {
+      "html": "Conclusio\n<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\n℣. Benedicámus Dómino.<br/>\n℟. Deo grátias.<br/>\n℣. Fidélium ánimæ per misericórdiam Dei requiéscant in pace.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-07-20-laudes-011",
+      "raw": "#Conclusio\n&Dominus_vobiscum\n&Benedicamus_Domino\n$Fidelium animae\n"
+    }
+  ],
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "warnings": []
+}

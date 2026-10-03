@@ -1,0 +1,74 @@
+{
+  "Per Annum": {
+    "id": "lectio.per-annum",
+    "type": "reading",
+    "latin": "℣. Dóminus autem dírigat corda et córpora nostra in caritáte Dei et patiéntia Christi.",
+    "chinese": "愿主指引我们的心神和身体，使我们爱天主，并学习基督的坚忍。",
+    "translationStatus": "existing-project-translation",
+    "sourceRefs": []
+  },
+  "Adv": {
+    "id": "lectio.adv",
+    "type": "reading",
+    "latin": "℣. Dómine, miserére nostri: te enim exspectávimus: esto brácchium nostrum in mane, et salus nostra in témpore tribulatiónis.",
+    "chinese": "上主，求你怜悯我们，因为我们仰望你；求你每日清晨作我们的臂膊，在患难时期作我们的救援。",
+    "translationStatus": "temporary-translation",
+    "sourceRefs": []
+  },
+  "Nat": {
+    "id": "lectio.nat",
+    "type": "reading",
+    "latin": "℣. Ipsi períbunt, tu autem permanébis; et omnes sicut vestiméntum veteráscent: et velut amíctum mutábis eos, et mutabúntur: tu autem idem ipse es, et anni tui non defícient.",
+    "chinese": "诸天必要灭亡，你却永存；万物都要像衣服一样陈旧；你要把它们像外衣一样更换，它们就要改变；可是你仍是同一位，你的岁月永无穷尽。",
+    "translationStatus": "temporary-translation",
+    "sourceRefs": []
+  },
+  "Epi": {
+    "id": "lectio.epi",
+    "type": "reading",
+    "latin": "℣. Omnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino annuntiántes.",
+    "chinese": "众人都要由舍巴前来，携带黄金和乳香，传扬对上主的赞颂。",
+    "translationStatus": "temporary-translation",
+    "sourceRefs": []
+  },
+  "Asc": {
+    "id": "lectio.asc",
+    "type": "reading",
+    "latin": "℣. Viri Galilǽi, quid statis aspiciéntes in cælum? Hic Iesus, qui assúmptus est a vobis in cælum, sic véniet, quemádmodum vidístis eum eúntem in cælum.",
+    "chinese": "加里肋亚人，你们为什么站着望天？这位离开你们、被接到天上去的耶稣，你们看见他怎样升了天，也要怎样降来。",
+    "translationStatus": "temporary-translation",
+    "sourceRefs": []
+  },
+  "Quad": {
+    "id": "lectio.quad",
+    "type": "reading",
+    "latin": "℣. Quǽrite Dóminum dum inveníri potest: invocáte eum, dum prope est.",
+    "chinese": "趁上主可找到的时候寻找他；趁他临近的时候呼求他。",
+    "translationStatus": "temporary-translation",
+    "sourceRefs": []
+  },
+  "Quad5": {
+    "id": "lectio.quad5",
+    "type": "reading",
+    "latin": "℣. Fáciem meam non avérti ab increpántibus, et conspuéntibus in me. Dóminus Deus auxiliátor meus, et ídeo non sum confúsus.",
+    "chinese": "我没有转面躲避斥责我和唾污我的人。上主天主是我的助佑，因此我不至蒙羞。",
+    "translationStatus": "temporary-translation",
+    "sourceRefs": []
+  },
+  "Pasch": {
+    "id": "lectio.pasch",
+    "type": "reading",
+    "latin": "℣. Si consurrexístis cum Christo, quæ sursum sunt quǽrite, ubi Christus est in déxtera Dei sedens: quæ sursum sunt sápite, non quæ super terram.",
+    "chinese": "你们既然与基督一同复活，就该寻求天上的事，那里有基督坐在天主右边；你们该思念天上的事，不该思念地上的事。",
+    "translationStatus": "temporary-translation",
+    "sourceRefs": []
+  },
+  "Pent": {
+    "id": "lectio.pent",
+    "type": "reading",
+    "latin": "℣. Iudǽi quoque, et Prosélyti, Cretes, et Arabes: audívimus eos loquéntes nostris linguis magnália Dei.",
+    "chinese": "犹太人和归依犹太教的人、克里特人和阿剌伯人，我们都听见他们用我们的语言讲论天主的奇事。",
+    "translationStatus": "temporary-translation",
+    "sourceRefs": []
+  }
+}

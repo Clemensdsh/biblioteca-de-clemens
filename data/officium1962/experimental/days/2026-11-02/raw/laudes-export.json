@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-02",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "hour": "laudes",
+  "language": "la",
+  "liturgicalTitle": "In Commemoratione Omnium Fidelium Defunctorum ~ I. classis",
+  "rank": "In Commemoratione Omnium Fidelium Defunctorum;;I. classis;;6;;ex C9\n\n",
+  "schemaVersion": "0.1.0",
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "units": [
+    {
+      "html": "Incipit{omittitur}<br/>\n",
+      "id": "do-1962-2026-11-02-laudes-001",
+      "raw": "#Incipit{omittitur}\n"
+    },
+    {
+      "html": "Psalmi {Psalmi & antiphonæ  ex Commune aut Festo}\n<br/>\nAnt. Exsultábunt Dómino * ossa humiliáta.<br/>\nPsalmus 50 [1]<br/>\n50:3a Miserére mei, Deus, * secúndum magnam misericórdiam tuam.<br/>\n50:3b Et secúndum multitúdinem miseratiónum tuárum, * dele iniquitátem meam.<br/>\n50:4 Ámplius lava me ab iniquitáte mea: * et a peccáto meo munda me.<br/>\n50:5 Quóniam iniquitátem meam ego cognósco: * et peccátum meum contra me est semper.<br/>\n50:6 Tibi soli peccávi, et malum coram te feci: * ut justificéris in sermónibus tuis, et vincas cum judicáris.<br/>\n50:7 Ecce enim, in iniquitátibus concéptus sum: * et in peccátis concépit me mater mea.<br/>\n50:8 Ecce enim, veritátem dilexísti: * incérta et occúlta sapiéntiæ tuæ manifestásti mihi.<br/>\n50:9 Aspérges me hyssópo, et mundábor: * lavábis me, et super nivem dealbábor.<br/>\n50:10 Audítui meo dabis gáudium et lætítiam: * et exsultábunt ossa humiliáta.<br/>\n50:11 Avérte fáciem tuam a peccátis meis: * et omnes iniquitátes meas dele.<br/>\n50:12 Cor mundum crea in me, Deus: * et spíritum rectum ínnova in viscéribus meis.<br/>\n50:13 Ne proícias me a fácie tua: * et spíritum sanctum tuum ne áuferas a me.<br/>\n50:14 Redde mihi lætítiam salutáris tui: * et spíritu principáli confírma me.<br/>\n50:15 Docébo iníquos vias tuas: * et ímpii ad te converténtur.<br/>\n50:16 Líbera me de sanguínibus, Deus, Deus salútis meæ: * et exsultábit lingua mea justítiam tuam.<br/>\n50:17 Dómine, lábia mea apéries: * et os meum annuntiábit laudem tuam.<br/>\n50:18 Quóniam si voluísses sacrifícium, dedíssem útique: * holocáustis non delectáberis.<br/>\n50:19 Sacrifícium Deo spíritus contribulátus: * cor contrítum, et humiliátum, Deus, non despícies.<br/>\n50:20 Benígne fac, Dómine, in bona voluntáte tua Sion: * ut ædificéntur muri Jerúsalem.<br/>\n50:21 Tunc acceptábis sacrifícium justítiæ, oblatiónes, et holocáusta: * tunc impónent super altáre tuum vítulos.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\nAnt. Exsultábunt Dómino ossa humiliáta.<br/>\n",
+      "id": "do-1962-2026-11-02-laudes-002",
+      "raw": "#Psalmi{Psalmi & antiphonæ  ex Commune aut Festo}\nAnt. Exsultábunt Dómino * ossa humiliáta.\n&psalm(50)\nAnt. Exsultábunt Dómino ossa humiliáta.\n"
+    },
+    {
+      "html": "Ant. Exáudi, Dómine, * oratiónem meam: ad te omnis caro véniet.<br/>\nPsalmus 64 [2]<br/>\n64:2 Te decet hymnus, Deus, in Sion: * et tibi reddétur votum in Jerúsalem.<br/>\n64:3 Exáudi oratiónem meam: * ad te omnis caro véniet.<br/>\n64:4 Verba iniquórum prævaluérunt super nos: * et impietátibus nostris tu propitiáberis.<br/>\n64:5 Beátus, quem elegísti, et assumpsísti: * inhabitábit in átriis tuis.<br/>\n64:5 Replébimur in bonis domus tuæ: * sanctum est templum tuum, mirábile in æquitáte.<br/>\n64:6 Exáudi nos, Deus, salutáris noster, * spes ómnium fínium terræ, et in mari longe.<br/>\n64:7 Prǽparans montes in virtúte tua, accínctus poténtia: * qui contúrbas profúndum maris sonum flúctuum ejus.<br/>\n64:8 Turbabúntur gentes, et timébunt qui hábitant términos a signis tuis: * éxitus matutíni, et véspere delectábis.<br/>\n64:10 Visitásti terram, et inebriásti eam: * multiplicásti locupletáre eam.<br/>\n64:10 Flumen Dei replétum est aquis, parásti cibum illórum: * quóniam ita est præparátio ejus.<br/>\n64:11 Rivos ejus inébria, multíplica genímina ejus: * in stillicídiis ejus lætábitur gérminans.<br/>\n64:12 Benedíces corónæ anni benignitátis tuæ: * et campi tui replebúntur ubertáte.<br/>\n64:13 Pinguéscent speciósa desérti: * et exsultatióne colles accingéntur.<br/>\n64:14 Indúti sunt aríetes óvium, et valles abundábunt fruménto: * clamábunt, étenim hymnum dicent.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\nAnt. Exáudi, Dómine, oratiónem meam: ad te omnis caro véniet.<br/>\n",
+      "id": "do-1962-2026-11-02-laudes-003",
+      "raw": "Ant. Exáudi, Dómine, * oratiónem meam: ad te omnis caro véniet.\n&psalm(64)\nAnt. Exáudi, Dómine, oratiónem meam: ad te omnis caro véniet.\n"
+    },
+    {
+      "html": "Ant. Me suscépit * déxtera tua, Dómine.<br/>\nPsalmus 62 [3]<br/>\n62:2a Deus, Deus meus, * ad te de luce vígilo.<br/>\n62:2b Sitívit in te ánima mea, * quam multiplíciter tibi caro mea.<br/>\n62:3 In terra desérta, et ínvia, et inaquósa: † sic in sancto appárui tibi, * ut vidérem virtútem tuam, et glóriam tuam.<br/>\n62:4 Quóniam mélior est misericórdia tua super vitas: * lábia mea laudábunt te.<br/>\n62:5 Sic benedícam te in vita mea: * et in nómine tuo levábo manus meas.<br/>\n62:6 Sicut ádipe et pinguédine repleátur ánima mea: * et lábiis exsultatiónis laudábit os meum.<br/>\n62:7 Si memor fui tui super stratum meum, † in matutínis meditábor in te: * (8a) quia fuísti adjútor meus.<br/>\n62:8b Et in velaménto alárum tuárum exsultábo, † (9) adhǽsit ánima mea post te: * me suscépit déxtera tua.<br/>\n62:10 Ipsi vero in vanum quæsiérunt ánimam meam, † introíbunt in inferióra terræ: * (11) tradéntur in manus gládii, partes vúlpium erunt.<br/>\n62:12 Rex vero lætábitur in Deo, † laudabúntur omnes qui jurant in eo: * quia obstrúctum est os loquéntium iníqua.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\nAnt. Me suscépit déxtera tua, Dómine.<br/>\n",
+      "id": "do-1962-2026-11-02-laudes-004",
+      "raw": "Ant. Me suscépit * déxtera tua, Dómine.\n&psalm(62)\nAnt. Me suscépit déxtera tua, Dómine.\n"
+    },
+    {
+      "html": "Ant. A porta ínferi * érue, Dómine, ánimam meam.<br/>\nCanticum Ezechiæ [4]<br/>\nIsa 38:10-24<br/>\n38:10 Ego dixi: In dimídio diérum meórum * vadam ad portas ínferi.<br/>\n38:11 Quæsívi resíduum annórum meórum. * Dixi: Non vidébo Dóminum Deum in terra vivéntium.<br/>\n38:12 Non aspíciam hóminem ultra, * et habitatórem quiétis.<br/>\n38:13 Generátio mea abláta est, et convolúta est a me, * quasi tabernáculum pastórum.<br/>\n38:14 Præcísa est velut a texénte, vita mea: dum adhuc ordírer, succídit me: * de mane usque ad vésperam fínies me.<br/>\n38:15 Sperábam usque ad mane, * quasi leo sic contrívit ómnia ossa mea:<br/>\n38:16 De mane usque ad vésperam fínies me: * sicut pullus hirúndinis sic clamábo, meditábor ut colúmba:<br/>\n38:17 Attenuáti sunt óculi mei, * suspiciéntes in excélsum.<br/>\n38:18 Dómine, vim pátior, respónde pro me. * Quid dicam, aut quid respondébit mihi, cum ipse fécerit?<br/>\n38:19 Recogitábo tibi omnes annos meos * in amaritúdine ánimæ meæ.<br/>\n38:20 Dómine, si sic vívitur, et in tálibus vita spíritus mei, corrípies me, et vivificábis me. * Ecce, in pace amaritúdo mea amaríssima:<br/>\n38:21 Tu autem eruísti ánimam meam ut non períret: * projecísti post tergum tuum ómnia peccáta mea.<br/>\n38:22 Quia non inférnus confitébitur tibi, neque mors laudábit te: * non exspectábunt qui descéndunt in lacum, veritátem tuam.<br/>\n38:23 Vivens vivens ipse confitébitur tibi, sicut et ego hódie: * pater fíliis notam fáciet veritátem tuam.<br/>\n38:24 Dómine, salvum me fac * et psalmos nostros cantábimus cunctis diébus vitæ nostræ in domo Dómini.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\nAnt. A porta ínferi érue, Dómine, ánimam meam.<br/>\n",
+      "id": "do-1962-2026-11-02-laudes-005",
+      "raw": "Ant. A porta ínferi * érue, Dómine, ánimam meam.\n&psalm(222)\nAnt. A porta ínferi érue, Dómine, ánimam meam.\n"
+    },
+    {
+      "html": "Ant. Omnis spíritus * laudet Dóminum.<br/>\nPsalmus 150 [5]<br/>\n150:1 Laudáte Dóminum in sanctis ejus: * laudáte eum in firmaménto virtútis ejus.<br/>\n150:2 Laudáte eum in virtútibus ejus: * laudáte eum secúndum multitúdinem magnitúdinis ejus.<br/>\n150:3 Laudáte eum in sono tubæ: * laudáte eum in psaltério, et cíthara.<br/>\n150:4 Laudáte eum in týmpano, et choro: * laudáte eum in chordis, et órgano.<br/>\n150:5 Laudáte eum in cýmbalis benesonántibus: † laudáte eum in cýmbalis jubilatiónis: * (6) omnis spíritus laudet Dóminum.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\nAnt. Omnis spíritus laudet Dóminum.<br/>\n",
+      "id": "do-1962-2026-11-02-laudes-006",
+      "raw": "Ant. Omnis spíritus * laudet Dóminum.\n&psalm(150)\nAnt. Omnis spíritus laudet Dóminum.\n"
+    },
+    {
+      "html": "Versus (In loco Capituli)\n<br/>\n℣. Audívi vocem de cælo dicéntem mihi.<br/>\n℟. Beáti mórtui qui in Dómino moriúntur.<br/>\n",
+      "id": "do-1962-2026-11-02-laudes-007",
+      "raw": "#Versus (In loco Capituli)\nV. Audívi vocem de cælo dicéntem mihi.\nR. Beáti mórtui qui in Dómino moriúntur.\n\n"
+    },
+    {
+      "html": "Canticum: Benedictus {Antiphona ex Proprio Sanctorum}\n<br/>\nAnt. Ego sum * resurréctio et vita: qui credit in me, étiam si mórtuus fúerit, vivet; et omnis qui vivit et credit in me, non moriétur in ætérnum.<br/>\nCanticum Zachariæ<br/>\nLuc. 1:68-79<br/>\n1:68 Benedíctus <span style='color:red; font-size:1.25em'>✠</span> Dóminus, Deus Israël: * quia visitávit, et fecit redemptiónem plebis suæ:<br/>\n1:69 Et eréxit cornu salútis nobis: * in domo David, púeri sui.<br/>\n1:70 Sicut locútus est per os sanctórum, * qui a sǽculo sunt, prophetárum ejus:<br/>\n1:71 Salútem ex inimícis nostris, * et de manu ómnium, qui odérunt nos.<br/>\n1:72 Ad faciéndam misericórdiam cum pátribus nostris: * et memorári testaménti sui sancti.<br/>\n1:73 Jusjurándum, quod jurávit ad Ábraham patrem nostrum, * datúrum se nobis:<br/>\n1:74 Ut sine timóre, de manu inimicórum nostrórum liberáti, * serviámus illi.<br/>\n1:75 In sanctitáte, et justítia coram ipso, * ómnibus diébus nostris.<br/>\n1:76 Et tu, puer, Prophéta Altíssimi vocáberis: * præíbis enim ante fáciem Dómini, paráre vias ejus:<br/>\n1:77 Ad dandam sciéntiam salútis plebi ejus: * in remissiónem peccatórum eórum:<br/>\n1:78 Per víscera misericórdiæ Dei nostri: * in quibus visitávit nos, óriens ex alto:<br/>\n1:79 Illumináre his, qui in ténebris, et in umbra mortis sedent: * ad dirigéndos pedes nostros in viam pacis.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\nAnt. Ego sum resurréctio et vita: qui credit in me, étiam si mórtuus fúerit, vivet; et omnis qui vivit et credit in me, non moriétur in ætérnum.<br/>\n",
+      "id": "do-1962-2026-11-02-laudes-008",
+      "raw": "#Canticum: Benedictus{Antiphona ex Proprio Sanctorum}\nAnt. Ego sum * resurréctio et vita: qui credit in me, étiam si mórtuus fúerit, vivet; et omnis qui vivit et credit in me, non moriétur in ætérnum.\n&psalm(231)\nAnt. Ego sum resurréctio et vita: qui credit in me, étiam si mórtuus fúerit, vivet; et omnis qui vivit et credit in me, non moriétur in ætérnum.\n"
+    },
+    {
+      "html": "Preces Feriales{omittitur}<br/>\n",
+      "id": "do-1962-2026-11-02-laudes-009",
+      "raw": "#Preces Feriales{omittitur}\n"
+    },
+    {
+      "html": "Oratio {ex Proprio Sanctorum}\n<br/>\nPater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris:<br/>\n℣. Et ne nos indúcas in tentatiónem:<br/>\n℟. Sed líbera nos a malo.<br/>\n℣. A porta ínferi.<br/>\n℟. Erue, Dómine, ánimas eórum.<br/>\n℣. Requiéscant in pace.<br/>\n℟. Amen.<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\nsecunda <span class='nigra'>Domine, exaudi</span> omittitur<br/>\nOrémus.<br/>\nFidélium, Deus, ómnium Cónditor et Redémptor, animábus famulórum famularúmque tuárum remissiónem cunctórum tríbue peccatórum: ut indulgéntiam, quam semper optavérunt, piis supplicatiónibus consequántur:<br/>\nQui vivis et regnas cum Deo Patre, in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-11-02-laudes-010",
+      "raw": "#Oratio{ex Proprio Sanctorum}\n$Pater noster Et\n$A porta inferi\n$Oremus\nv. Fidélium, Deus, ómnium Cónditor et Redémptor, animábus famulórum famularúmque tuárum remissiónem cunctórum tríbue peccatórum: ut indulgéntiam, quam semper optavérunt, piis supplicatiónibus consequántur:\n$Qui vivis\n\n"
+    },
+    {
+      "html": "Conclusio\n<br/>\nConclusio specialis<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\n℣. Requiéscant in pace.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-11-02-laudes-011",
+      "raw": "#Conclusio\n!Conclusio specialis\n&Gloria\nV. Requiéscant in pace.\nR. Amen.\n\n"
+    }
+  ],
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "warnings": []
+}

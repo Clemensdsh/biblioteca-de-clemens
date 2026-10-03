@@ -1,0 +1,1218 @@
+{
+  "schemaVersion": "0.2.0",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "language": "la",
+  "date": "2026-12-25",
+  "liturgicalTitle": "In Nativitate Domini ~ I. classis",
+  "rank": "In Nativitate Domini;;Duplex I Classis;;7\n\n",
+  "commemorations": [],
+  "hours": {
+    "tertia": {
+      "name": "tertia",
+      "title": "Tertia",
+      "blocks": [
+        {
+          "id": "office-1962-2026-12-25-tertia-incipit",
+          "type": "dialogue",
+          "title": "Incipit",
+          "text": [
+            "℣. Deus ✠ in adjutórium meum inténde.",
+            "℟. Dómine, ad adjuvándum me festína.",
+            "Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.",
+            "Allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "includesGloriaPatri": true,
+            "includesAlleluia": true,
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Incipit",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Deus in adjutorium",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-tertia-hymnus",
+          "type": "hymn",
+          "title": "Hymnus",
+          "text": [
+            "Nunc, Sancte, nobis, Spíritus,",
+            "Unum Patri cum Fílio,",
+            "Dignáre promptus íngeri",
+            "Nostro refúsus péctori.",
+            "_",
+            "Os, lingua, mens, sensus, vigor",
+            "Confessiónem pérsonent.",
+            "Flamméscat igne cáritas,",
+            "Accéndat ardor próximos.",
+            "_",
+            "Præsta, Pater piíssime,",
+            "Patríque compar Únice,",
+            "Cum Spíritu Paráclito",
+            "Regnans per omne sǽculum.",
+            "Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "stanzas": [
+              [
+                "Hymnus",
+                "Nunc, Sancte, nobis, Spíritus,",
+                "Unum Patri cum Fílio,",
+                "Dignáre promptus íngeri",
+                "Nostro refúsus péctori."
+              ],
+              [
+                "Os, lingua, mens, sensus, vigor",
+                "Confessiónem pérsonent.",
+                "Flamméscat igne cáritas,",
+                "Accéndat ardor próximos."
+              ],
+              [
+                "Præsta, Pater piíssime,",
+                "Patríque compar Únice,",
+                "Cum Spíritu Paráclito",
+                "Regnans per omne sǽculum.",
+                "Amen."
+              ]
+            ],
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Hymnus",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Hymnus",
+              "transformation": [
+                "specials",
+                "tertia special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-tertia-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona",
+          "text": [
+            "Ant. Génuit puérpera * Regem, cui nomen ætérnum, et gáudia matris habens cum virginitátis honóre: nec primam símilem visa est, nec habére sequéntem, allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "before-psalmody",
+            "repeated": false,
+            "antiphonKey": "genuit-puerpera-regem-cui-nomen-aeternum-et-gaudia-matris-habens-cum-virginitatis-honore-nec-primam-similem-visa-est-nec-habere-sequentem-alleluja",
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "specials",
+                "tertia special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-tertia-psalm-118-33-48-1",
+          "type": "psalm",
+          "title": "Psalmus 118(33-48) [1]",
+          "text": [
+            "118:33 (He) Legem pone mihi, Dómine, viam justificatiónum tuárum: * et exquíram eam semper.",
+            "118:34 Da mihi intelléctum, et scrutábor legem tuam: * et custódiam illam in toto corde meo.",
+            "118:35 Deduc me in sémitam mandatórum tuórum: * quia ipsam vólui.",
+            "118:36 Inclína cor meum in testimónia tua: * et non in avarítiam.",
+            "118:37 Avérte óculos meos ne vídeant vanitátem: * in via tua vivífica me.",
+            "118:38 Státue servo tuo elóquium tuum, * in timóre tuo.",
+            "118:39 Ámputa oppróbrium meum quod suspicátus sum: * quia judícia tua jucúnda.",
+            "118:40 Ecce, concupívi mandáta tua: * in æquitáte tua vivífica me.",
+            "118:41 (Vav) Et véniat super me misericórdia tua, Dómine: * salutáre tuum secúndum elóquium tuum.",
+            "118:42 Et respondébo exprobrántibus mihi verbum: * quia sperávi in sermónibus tuis.",
+            "118:43 Et ne áuferas de ore meo verbum veritátis usquequáque: * quia in judíciis tuis supersperávi.",
+            "118:44 Et custódiam legem tuam semper: * in sǽculum et in sǽculum sǽculi.",
+            "118:45 Et ambulábam in latitúdine: * quia mandáta tua exquisívi.",
+            "118:46 Et loquébar in testimóniis tuis in conspéctu regum: * et non confundébar.",
+            "118:47 Et meditábar in mandátis tuis, * quæ diléxi.",
+            "118:48 Et levávi manus meas ad mandáta tua, quæ diléxi: * et exercébar in justificatiónibus tuis.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "118:33 (He) Legem pone mihi, Dómine, viam justificatiónum tuárum: * et exquíram eam semper.",
+            "118:34 Da mihi intelléctum, et scrutábor legem tuam: * et custódiam illam in toto corde meo.",
+            "118:35 Deduc me in sémitam mandatórum tuórum: * quia ipsam vólui.",
+            "118:36 Inclína cor meum in testimónia tua: * et non in avarítiam.",
+            "118:37 Avérte óculos meos ne vídeant vanitátem: * in via tua vivífica me.",
+            "118:38 Státue servo tuo elóquium tuum, * in timóre tuo.",
+            "118:39 Ámputa oppróbrium meum quod suspicátus sum: * quia judícia tua jucúnda.",
+            "118:40 Ecce, concupívi mandáta tua: * in æquitáte tua vivífica me.",
+            "118:41 (Vav) Et véniat super me misericórdia tua, Dómine: * salutáre tuum secúndum elóquium tuum.",
+            "118:42 Et respondébo exprobrántibus mihi verbum: * quia sperávi in sermónibus tuis.",
+            "118:43 Et ne áuferas de ore meo verbum veritátis usquequáque: * quia in judíciis tuis supersperávi.",
+            "118:44 Et custódiam legem tuam semper: * in sǽculum et in sǽculum sǽculi.",
+            "118:45 Et ambulábam in latitúdine: * quia mandáta tua exquisívi.",
+            "118:46 Et loquébar in testimóniis tuis in conspéctu regum: * et non confundébar.",
+            "118:47 Et meditábar in mandátis tuis, * quæ diléxi.",
+            "118:48 Et levávi manus meas ad mandáta tua, quæ diléxi: * et exercébar in justificatiónibus tuis."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "118",
+            "segment": "33-48",
+            "verses": [
+              "118:33 (He) Legem pone mihi, Dómine, viam justificatiónum tuárum: * et exquíram eam semper.",
+              "118:34 Da mihi intelléctum, et scrutábor legem tuam: * et custódiam illam in toto corde meo.",
+              "118:35 Deduc me in sémitam mandatórum tuórum: * quia ipsam vólui.",
+              "118:36 Inclína cor meum in testimónia tua: * et non in avarítiam.",
+              "118:37 Avérte óculos meos ne vídeant vanitátem: * in via tua vivífica me.",
+              "118:38 Státue servo tuo elóquium tuum, * in timóre tuo.",
+              "118:39 Ámputa oppróbrium meum quod suspicátus sum: * quia judícia tua jucúnda.",
+              "118:40 Ecce, concupívi mandáta tua: * in æquitáte tua vivífica me.",
+              "118:41 (Vav) Et véniat super me misericórdia tua, Dómine: * salutáre tuum secúndum elóquium tuum.",
+              "118:42 Et respondébo exprobrántibus mihi verbum: * quia sperávi in sermónibus tuis.",
+              "118:43 Et ne áuferas de ore meo verbum veritátis usquequáque: * quia in judíciis tuis supersperávi.",
+              "118:44 Et custódiam legem tuam semper: * in sǽculum et in sǽculum sǽculi.",
+              "118:45 Et ambulábam in latitúdine: * quia mandáta tua exquisívi.",
+              "118:46 Et loquébar in testimóniis tuis in conspéctu regum: * et non confundébar.",
+              "118:47 Et meditábar in mandátis tuis, * quæ diléxi.",
+              "118:48 Et levávi manus meas ad mandáta tua, quæ diléxi: * et exercébar in justificatiónibus tuis."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false,
+            "antiphonKey": "genuit-puerpera-regem-cui-nomen-aeternum-et-gaudia-matris-habens-cum-virginitatis-honore-nec-primam-similem-visa-est-nec-habere-sequentem-alleluja",
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Psalmus 118(33-48) [1]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm118.txt",
+              "section": "Psalm 118",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-tertia-psalm-118-49-64-2",
+          "type": "psalm",
+          "title": "Psalmus 118(49-64) [2]",
+          "text": [
+            "118:49 (Zai) Memor esto verbi tui servo tuo, * in quo mihi spem dedísti.",
+            "118:50 Hæc me consoláta est in humilitáte mea: * quia elóquium tuum vivificávit me.",
+            "118:51 Supérbi iníque agébant usquequáque: * a lege autem tua non declinávi.",
+            "118:52 Memor fui judiciórum tuórum a sǽculo, Dómine: * et consolátus sum.",
+            "118:53 Deféctio ténuit me, * pro peccatóribus derelinquéntibus legem tuam.",
+            "118:54 Cantábiles mihi erant justificatiónes tuæ, * in loco peregrinatiónis meæ.",
+            "118:55 Memor fui nocte nóminis tui, Dómine: * et custodívi legem tuam.",
+            "118:56 Hæc facta est mihi: * quia justificatiónes tuas exquisívi.",
+            "118:57 (Heth) Pórtio mea, Dómine, * dixi custodíre legem tuam.",
+            "118:58 Deprecátus sum fáciem tuam in toto corde meo: * miserére mei secúndum elóquium tuum.",
+            "118:59 Cogitávi vias meas: * et convérti pedes meos in testimónia tua.",
+            "118:60 Parátus sum, et non sum turbátus: * ut custódiam mandáta tua.",
+            "118:61 Funes peccatórum circumpléxi sunt me: * et legem tuam non sum oblítus.",
+            "118:62 Média nocte surgébam ad confiténdum tibi, * super judícia justificatiónis tuæ.",
+            "118:63 Párticeps ego sum ómnium timéntium te: * et custodiéntium mandáta tua.",
+            "118:64 Misericórdia tua, Dómine, plena est terra: * justificatiónes tuas doce me.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "118:49 (Zai) Memor esto verbi tui servo tuo, * in quo mihi spem dedísti.",
+            "118:50 Hæc me consoláta est in humilitáte mea: * quia elóquium tuum vivificávit me.",
+            "118:51 Supérbi iníque agébant usquequáque: * a lege autem tua non declinávi.",
+            "118:52 Memor fui judiciórum tuórum a sǽculo, Dómine: * et consolátus sum.",
+            "118:53 Deféctio ténuit me, * pro peccatóribus derelinquéntibus legem tuam.",
+            "118:54 Cantábiles mihi erant justificatiónes tuæ, * in loco peregrinatiónis meæ.",
+            "118:55 Memor fui nocte nóminis tui, Dómine: * et custodívi legem tuam.",
+            "118:56 Hæc facta est mihi: * quia justificatiónes tuas exquisívi.",
+            "118:57 (Heth) Pórtio mea, Dómine, * dixi custodíre legem tuam.",
+            "118:58 Deprecátus sum fáciem tuam in toto corde meo: * miserére mei secúndum elóquium tuum.",
+            "118:59 Cogitávi vias meas: * et convérti pedes meos in testimónia tua.",
+            "118:60 Parátus sum, et non sum turbátus: * ut custódiam mandáta tua.",
+            "118:61 Funes peccatórum circumpléxi sunt me: * et legem tuam non sum oblítus.",
+            "118:62 Média nocte surgébam ad confiténdum tibi, * super judícia justificatiónis tuæ.",
+            "118:63 Párticeps ego sum ómnium timéntium te: * et custodiéntium mandáta tua.",
+            "118:64 Misericórdia tua, Dómine, plena est terra: * justificatiónes tuas doce me."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "118",
+            "segment": "49-64",
+            "verses": [
+              "118:49 (Zai) Memor esto verbi tui servo tuo, * in quo mihi spem dedísti.",
+              "118:50 Hæc me consoláta est in humilitáte mea: * quia elóquium tuum vivificávit me.",
+              "118:51 Supérbi iníque agébant usquequáque: * a lege autem tua non declinávi.",
+              "118:52 Memor fui judiciórum tuórum a sǽculo, Dómine: * et consolátus sum.",
+              "118:53 Deféctio ténuit me, * pro peccatóribus derelinquéntibus legem tuam.",
+              "118:54 Cantábiles mihi erant justificatiónes tuæ, * in loco peregrinatiónis meæ.",
+              "118:55 Memor fui nocte nóminis tui, Dómine: * et custodívi legem tuam.",
+              "118:56 Hæc facta est mihi: * quia justificatiónes tuas exquisívi.",
+              "118:57 (Heth) Pórtio mea, Dómine, * dixi custodíre legem tuam.",
+              "118:58 Deprecátus sum fáciem tuam in toto corde meo: * miserére mei secúndum elóquium tuum.",
+              "118:59 Cogitávi vias meas: * et convérti pedes meos in testimónia tua.",
+              "118:60 Parátus sum, et non sum turbátus: * ut custódiam mandáta tua.",
+              "118:61 Funes peccatórum circumpléxi sunt me: * et legem tuam non sum oblítus.",
+              "118:62 Média nocte surgébam ad confiténdum tibi, * super judícia justificatiónis tuæ.",
+              "118:63 Párticeps ego sum ómnium timéntium te: * et custodiéntium mandáta tua.",
+              "118:64 Misericórdia tua, Dómine, plena est terra: * justificatiónes tuas doce me."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false,
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Psalmus 118(49-64) [2]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm118.txt",
+              "section": "Psalm 118",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-tertia-psalm-118-65-80-3",
+          "type": "psalm",
+          "title": "Psalmus 118(65-80) [3]",
+          "text": [
+            "118:65 (Teth) Bonitátem fecísti cum servo tuo, Dómine, * secúndum verbum tuum.",
+            "118:66 Bonitátem, et disciplínam, et sciéntiam doce me: * quia mandátis tuis crédidi.",
+            "118:67 Priúsquam humiliárer ego delíqui: * proptérea elóquium tuum custodívi.",
+            "118:68 Bonus es tu: * et in bonitáte tua doce me justificatiónes tuas.",
+            "118:69 Multiplicáta est super me iníquitas superbórum: * ego autem in toto corde meo scrutábor mandáta tua.",
+            "118:70 Coagulátum est sicut lac cor eórum: * ego vero legem tuam meditátus sum.",
+            "118:71 Bonum mihi quia humiliásti me: * ut discam justificatiónes tuas.",
+            "118:72 Bonum mihi lex oris tui, * super míllia auri et argénti.",
+            "118:73 (Joth) Manus tuæ fecérunt me, et plasmavérunt me: * da mihi intelléctum, et discam mandáta tua.",
+            "118:74 Qui timent te vidébunt me, et lætabúntur: * quia in verba tua supersperávi.",
+            "118:75 Cognóvi, Dómine, quia ǽquitas judícia tua: * et in veritáte tua humiliásti me.",
+            "118:76 Fiat misericórdia tua ut consolétur me, * secúndum elóquium tuum servo tuo.",
+            "118:77 Véniant mihi miseratiónes tuæ, et vivam: * quia lex tua meditátio mea est.",
+            "118:78 Confundántur supérbi, quia injúste iniquitátem fecérunt in me: * ego autem exercébor in mandátis tuis.",
+            "118:79 Convertántur mihi timéntes te: * et qui novérunt testimónia tua.",
+            "118:80 Fiat cor meum immaculátum in justificatiónibus tuis, * ut non confúndar.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "118:65 (Teth) Bonitátem fecísti cum servo tuo, Dómine, * secúndum verbum tuum.",
+            "118:66 Bonitátem, et disciplínam, et sciéntiam doce me: * quia mandátis tuis crédidi.",
+            "118:67 Priúsquam humiliárer ego delíqui: * proptérea elóquium tuum custodívi.",
+            "118:68 Bonus es tu: * et in bonitáte tua doce me justificatiónes tuas.",
+            "118:69 Multiplicáta est super me iníquitas superbórum: * ego autem in toto corde meo scrutábor mandáta tua.",
+            "118:70 Coagulátum est sicut lac cor eórum: * ego vero legem tuam meditátus sum.",
+            "118:71 Bonum mihi quia humiliásti me: * ut discam justificatiónes tuas.",
+            "118:72 Bonum mihi lex oris tui, * super míllia auri et argénti.",
+            "118:73 (Joth) Manus tuæ fecérunt me, et plasmavérunt me: * da mihi intelléctum, et discam mandáta tua.",
+            "118:74 Qui timent te vidébunt me, et lætabúntur: * quia in verba tua supersperávi.",
+            "118:75 Cognóvi, Dómine, quia ǽquitas judícia tua: * et in veritáte tua humiliásti me.",
+            "118:76 Fiat misericórdia tua ut consolétur me, * secúndum elóquium tuum servo tuo.",
+            "118:77 Véniant mihi miseratiónes tuæ, et vivam: * quia lex tua meditátio mea est.",
+            "118:78 Confundántur supérbi, quia injúste iniquitátem fecérunt in me: * ego autem exercébor in mandátis tuis.",
+            "118:79 Convertántur mihi timéntes te: * et qui novérunt testimónia tua.",
+            "118:80 Fiat cor meum immaculátum in justificatiónibus tuis, * ut non confúndar."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "118",
+            "segment": "65-80",
+            "verses": [
+              "118:65 (Teth) Bonitátem fecísti cum servo tuo, Dómine, * secúndum verbum tuum.",
+              "118:66 Bonitátem, et disciplínam, et sciéntiam doce me: * quia mandátis tuis crédidi.",
+              "118:67 Priúsquam humiliárer ego delíqui: * proptérea elóquium tuum custodívi.",
+              "118:68 Bonus es tu: * et in bonitáte tua doce me justificatiónes tuas.",
+              "118:69 Multiplicáta est super me iníquitas superbórum: * ego autem in toto corde meo scrutábor mandáta tua.",
+              "118:70 Coagulátum est sicut lac cor eórum: * ego vero legem tuam meditátus sum.",
+              "118:71 Bonum mihi quia humiliásti me: * ut discam justificatiónes tuas.",
+              "118:72 Bonum mihi lex oris tui, * super míllia auri et argénti.",
+              "118:73 (Joth) Manus tuæ fecérunt me, et plasmavérunt me: * da mihi intelléctum, et discam mandáta tua.",
+              "118:74 Qui timent te vidébunt me, et lætabúntur: * quia in verba tua supersperávi.",
+              "118:75 Cognóvi, Dómine, quia ǽquitas judícia tua: * et in veritáte tua humiliásti me.",
+              "118:76 Fiat misericórdia tua ut consolétur me, * secúndum elóquium tuum servo tuo.",
+              "118:77 Véniant mihi miseratiónes tuæ, et vivam: * quia lex tua meditátio mea est.",
+              "118:78 Confundántur supérbi, quia injúste iniquitátem fecérunt in me: * ego autem exercébor in mandátis tuis.",
+              "118:79 Convertántur mihi timéntes te: * et qui novérunt testimónia tua.",
+              "118:80 Fiat cor meum immaculátum in justificatiónibus tuis, * ut non confúndar."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false,
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Psalmus 118(65-80) [3]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm118.txt",
+              "section": "Psalm 118",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-tertia-psalm-118-65-80-3-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita",
+          "text": [
+            "Ant. Génuit puérpera Regem, cui nomen ætérnum, et gáudia matris habens cum virginitátis honóre: nec primam símilem visa est, nec habére sequéntem, allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "after-psalmody",
+            "repeated": true,
+            "antiphonKey": "genuit-puerpera-regem-cui-nomen-aeternum-et-gaudia-matris-habens-cum-virginitatis-honore-nec-primam-similem-visa-est-nec-habere-sequentem-alleluja",
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "specials",
+                "tertia special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-tertia-capitulum",
+          "type": "capitulum",
+          "title": "Capitulum",
+          "text": [
+            "Capitulum Responsorium Versus {ex Proprio Sanctorum}",
+            "Heb 1:1-2",
+            "Multifáriam, multísque modis olim Deus loquens pátribus in prophétis: novíssime diébus istis locútus est nobis in Fílio, quem constítuit herédem universórum, per quem fecit et sǽcula.",
+            "℟. Deo grátias."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "citation": "Heb 1:1-2",
+            "includesTuAutem": false,
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Capitulum",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Capitulum",
+              "transformation": [
+                "specials",
+                "tertia special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-tertia-responsorium-breve",
+          "type": "responsory",
+          "title": "Responsorium breve",
+          "text": [
+            "℟.br. Verbum caro factum est, * Allelúja, allelúja.",
+            "℟. Verbum caro factum est, * Allelúja, allelúja.",
+            "℣. Et habitávit in nobis.",
+            "℟. Allelúja, allelúja.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Verbum caro factum est, * Allelúja, allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "incipit": "℟.br. Verbum caro factum est, * Allelúja, allelúja.",
+            "repeat": "℟. Verbum caro factum est, * Allelúja, allelúja.",
+            "versicle": "℣. Et habitávit in nobis.",
+            "response": "℟. Verbum caro factum est, * Allelúja, allelúja.",
+            "includesGloriaPatri": true,
+            "seasonalVariant": "ordinary",
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Responsorium breve",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Responsorium breve",
+              "transformation": [
+                "specials",
+                "tertia special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-tertia-versus-custodi-nos",
+          "type": "versicle",
+          "title": "Versus",
+          "text": [
+            "℣. Ipse invocábit me, allelúja.",
+            "℟. Pater meus es tu, allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "versicle": "℣. Ipse invocábit me, allelúja.",
+            "response": "℟. Pater meus es tu, allelúja.",
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Versus",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Versus",
+              "transformation": [
+                "specials",
+                "tertia special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-tertia-oratio",
+          "type": "prayer",
+          "title": "Oratio{ex Proprio Sanctorum}",
+          "text": [
+            "Oratio {ex Proprio Sanctorum}",
+            "℣. Dómine, exáudi oratiónem meam.",
+            "℟. Et clamor meus ad te véniat.",
+            "Orémus.",
+            "Concéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per carnem Natívitas líberet; quos sub peccáti jugo vetústa sérvitus tenet.",
+            "Per eúmdem Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "sourceKind": "proper",
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Oratio{ex Proprio Sanctorum}",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Dominus_vobiscum",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-tertia-conclusio",
+          "type": "blessing",
+          "title": "Conclusio",
+          "text": [
+            "℣. Dómine, exáudi oratiónem meam.",
+            "℟. Et clamor meus ad te véniat.",
+            "℣. Benedicámus Dómino.",
+            "℟. Deo grátias.",
+            "℣. Fidélium ánimæ per misericórdiam Dei requiéscant in pace.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "formula": "minor-hour-conclusion",
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "capitulumSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Capitulum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "responsorySource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Responsorium breve",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Conclusio",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Dominus_vobiscum",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "web/cgi-bin/horas/horas.pl",
+          "section": "getordinarium/specials/getunit/resolve_refs",
+          "transformation": [
+            "Divinum Officium internal script array exported before print_content"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "warnings": []
+}

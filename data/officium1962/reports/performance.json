@@ -1,0 +1,48 @@
+{
+  "browser": {
+    "cacheHitSwitchRequestCountEstimate": 0,
+    "crossMonthSwitchRequestCountEstimate": 2,
+    "hourSwitchRequestCountEstimate": 0,
+    "matutinumInitialRequestCountEstimate": 6,
+    "mobile": "Same release loader and CSS media rules; no annual data is bundled into JavaScript.",
+    "ordinaryInitialFiles": [
+      "manifest.json",
+      "years/2026/manifest.json",
+      "years/2026/calendar.json",
+      "years/2026/days/2026-07-20.json",
+      "shared/manifest.json",
+      "needed shared block chunks"
+    ],
+    "ordinaryInitialRequestCountEstimate": 6,
+    "sameMonthSwitchRequestCountEstimate": 1
+  },
+  "build": {
+    "averageDayMs": 9718,
+    "completeYearMs": 3547092,
+    "dockerInvocationCount": 1983,
+    "peakMemoryRssBytes": 889417728,
+    "slowestDateHour": {
+      "date": "2026-07-09",
+      "hour": "matutinum",
+      "milliseconds": 21,
+      "source": "cache"
+    },
+    "resumeRepackageMs": 199571
+  },
+  "files": {
+    "averageDayFileBytes": 405308,
+    "brotliEstimateBytes": 2989578,
+    "calendarBytes": 193273,
+    "gzipEstimateBytes": 15137598,
+    "largestDayFile": {
+      "date": "2026-12-25",
+      "bytes": 631899
+    },
+    "releaseSizeBytes": 164920912,
+    "rootManifestBytes": 590,
+    "sharedBlocksBytes": 15462508
+  },
+  "generatedAt": "2026-07-21T04:53:24.997Z",
+  "schemaVersion": "officium1962.v1",
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+}
