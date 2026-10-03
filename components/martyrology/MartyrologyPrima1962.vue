@@ -265,7 +265,12 @@ const triduumOratioBlocks = computed(() => {
         :block="item"
         :bilingual="bilingual"
       />
-      <BilingualLiturgicalBlock :block="block('chapter.gloria-short', 'verse', '℣. Glória Patri, et Fílio, et Spirítui Sancto.', '愿光荣归于父、及子、及圣神。')" :bilingual="bilingual" />
+      <BilingualLiturgicalBlock
+        v-for="item in chapterBlocks.filter(block => ['chapter.gloria-patri.final', 'chapter.sicut-erat.final'].includes(block.id))"
+        :key="item.id"
+        :block="item"
+        :bilingual="bilingual"
+      />
 
       <BilingualLiturgicalBlock :block="block('chapter.oremus', 'prayer', 'Orémus.', '请大家祈祷。')" :bilingual="bilingual" />
       <BilingualLiturgicalBlock :block="chapterBlocks.find(item => item.id === 'chapter.dirigere')!" :bilingual="bilingual" />

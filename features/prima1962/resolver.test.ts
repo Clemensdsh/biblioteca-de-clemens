@@ -194,6 +194,35 @@ describe('prima1962 resolver', () => {
     expect(responsory).not.toContain('Jesu Christe')
   })
 
+  it('repeats the leading response for every seasonal short-responsory form', async () => {
+    for (const date of ['2026-07-13', '2026-03-22', '2026-04-06']) {
+      const blocks = (await resolvePrima1962(parseLocalDate(date))).responsory.blocks
+
+      expect(blocks[0].type).toBe('response')
+      expect(blocks[1]).toMatchObject({
+        id: `${blocks[0].id}.repeat-initial`,
+        type: 'response',
+        latin: blocks[0].latin,
+        chinese: blocks[0].chinese,
+      })
+    }
+  })
+
+  it('places the same Alleluia-free Sicut erat response after both chapter doxologies', async () => {
+    const chapter = (await resolvePrima1962(parseLocalDate('2026-07-13'))).blocks
+    const initial = chapter.find(block => block.id === 'chapter.sicut-erat')
+    const final = chapter.find(block => block.id === 'chapter.sicut-erat.final')
+
+    expect(initial?.latin).not.toMatch(/allelúia/i)
+    expect(initial?.chinese).not.toContain('阿肋路亚')
+    expect(final).toMatchObject({
+      type: 'response',
+      latin: initial?.latin,
+      chinese: initial?.chinese,
+    })
+    expect(chapter.findIndex(block => block.id === 'chapter.sicut-erat.final')).toBeGreaterThan(chapter.findIndex(block => block.id === 'chapter.gloria-patri.final'))
+  })
+
   it('keeps the Versus pair before Et libera in the rendered block list', async () => {
     const result = await resolvePrima1962(parseLocalDate('2026-07-13'))
     const exsurgeIndex = result.blocks.findIndex(block => block.id === 'responsory.exsurge')

@@ -91,7 +91,8 @@ const chinese = {
   'chapter.deus-in-adiutorium.3': '天主，求你快来拯救我。',
   'chapter.deus-in-adiutorium.3.response': '上主，求你速来扶助我。',
   'chapter.gloria-patri': '愿光荣归于父、及子、及圣神。',
-  'chapter.sicut-erat': '起初如何，今日亦然，直到永远。阿们。阿肋路亚。',
+  'chapter.gloria-patri.final': '愿光荣归于父、及子、及圣神。',
+  'chapter.sicut-erat': '起初如何，今日亦然，直到永远。阿们。',
   'chapter.kyrie': '上主，求你垂怜。基督，求你垂怜。上主，求你垂怜。',
   'chapter.pater-secret': '我们的天父，愿你的名受显扬，愿你的国来临，愿你的旨意奉行在人间，如同在天上。求你今天赏给我们日用的食粮；求你宽恕我们的罪过，如同我们宽恕别人一样。',
   'chapter.et-ne-nos': '不要让我们陷于诱惑；',
@@ -412,6 +413,46 @@ function block(id, type, latin, status = undefined) {
   }
 }
 
+function repeatBlock(id, source) {
+  return {
+    ...source,
+    id,
+    sourceRefs: [...source.sourceRefs],
+  }
+}
+
+function withRepeatedResponsoryIncipit(blocks) {
+  const [incipit, ...remaining] = blocks
+  if (!incipit || incipit.type !== 'response')
+    throw new Error('A short responsory must begin with a response.')
+
+  return [incipit, repeatBlock(`${incipit.id}.repeat-initial`, incipit), ...remaining]
+}
+
+function chapterOfficeBlocks() {
+  const sicutErat = block('chapter.sicut-erat', 'response', '℟. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen.')
+
+  return [
+    block('chapter.deus-in-adiutorium.1', 'verse', '℣. Deus, in adiutórium meum inténde.'),
+    block('chapter.deus-in-adiutorium.1.response', 'response', '℟. Dómine, ad adiuvándum me festína.'),
+    block('chapter.deus-in-adiutorium.2', 'verse', '℣. Deus, in adiutórium meum inténde.'),
+    block('chapter.deus-in-adiutorium.2.response', 'response', '℟. Dómine, ad adiuvándum me festína.'),
+    block('chapter.deus-in-adiutorium.3', 'verse', '℣. Deus, in adiutórium meum inténde.'),
+    block('chapter.deus-in-adiutorium.3.response', 'response', '℟. Dómine, ad adiuvándum me festína.'),
+    block('chapter.gloria-patri', 'verse', '℣. Glória Patri, et Fílio, et Spirítui Sancto.'),
+    sicutErat,
+    block('chapter.kyrie', 'verse', 'Kýrie, eléison. Christe, eléison. Kýrie, eléison.'),
+    block('chapter.pater-secret', 'prayer', 'Pater noster, qui es in cælis, sanctificétur nomen tuum. Advéniat regnum tuum. Fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie. Et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris.'),
+    block('chapter.et-ne-nos', 'verse', '℣. Et ne nos indúcas in tentatiónem.'),
+    block('chapter.sed-libera', 'response', '℟. Sed líbera nos a malo.'),
+    block('chapter.respice', 'verse', '℣. Réspice in servos tuos, Dómine, et in ópera tua, et dírige fílios eórum.'),
+    block('chapter.respice.response', 'response', '℟. Et sit splendor Dómini Dei nostri super nos, et ópera mánuum nostrárum dírige super nos, et opus mánuum nostrárum dírige.'),
+    block('chapter.gloria-patri.final', 'verse', '℣. Glória Patri, et Fílio, et Spirítui Sancto.'),
+    repeatBlock('chapter.sicut-erat.final', sicutErat),
+    block('chapter.dirigere', 'prayer', 'Dirígere et sanctificáre, régere et gubernáre dignáre, Dómine Deus, Rex cæli et terræ, hódie corda et córpora nostra, sensus, sermónes et actus nostros in lege tua, et in opéribus mandatórum tuórum: ut hic et in ætérnum, te auxiliánte, salvi et líberi esse mereámur, Salvátor mundi: qui vivis et regnas in sǽcula sæculórum. Amen.'),
+  ]
+}
+
 function parsePrimaPsalmody() {
   const psalmiMinorSections = sections(read(sourceFiles.psalmiMinor))
   const section = psalmiMinorSections.Prima
@@ -705,19 +746,19 @@ function main() {
     quicumque: parseQuicumque(),
     capitulum: block('capitulum.regi', 'reading', 'Regi sæculórum immortáli et invisíbili, soli Deo honor et glória in sǽcula sæculórum. Amen.'),
     responsory: {
-      ordinary: primaResponsoryOrdinary(),
-      passion: [
+      ordinary: withRepeatedResponsoryIncipit(primaResponsoryOrdinary()),
+      passion: withRepeatedResponsoryIncipit([
         block('responsory.christe', 'response', '℟. Christe, Fili Dei vivi, miserére nobis.'),
         block('responsory.qui-sedes', 'verse', '℣. Qui sedes ad déxteram Patris.'),
         block('responsory.christe.repeat', 'response', '℟. Christe, Fili Dei vivi, miserére nobis.', 'temporary-translation'),
-      ],
-      paschal: [
+      ]),
+      paschal: withRepeatedResponsoryIncipit([
         block('responsory.paschal.1', 'response', '℟. Christe, Fili Dei vivi, miserére nobis, allelúia, allelúia.', 'temporary-translation'),
         block('responsory.qui-surrexisti', 'verse', '℣. Qui surrexísti a mórtuis, allelúia.', 'temporary-translation'),
         block('responsory.paschal.2', 'response', '℟. Miserére nobis, allelúia, allelúia.', 'temporary-translation'),
         block('responsory.paschal.gloria', 'verse', '℣. Glória Patri, et Fílio, et Spirítui Sancto.'),
         block('responsory.paschal.3', 'response', '℟. Christe, Fili Dei vivi, miserére nobis, allelúia, allelúia.', 'temporary-translation'),
-      ],
+      ]),
       versum: [
         block('responsory.exsurge', 'verse', '℣. Exsúrge, Christe, ádiuva nos.'),
         block('responsory.libera', 'response', '℟. Et líbera nos propter nomen tuum.'),
@@ -730,23 +771,7 @@ function main() {
       block('martyrology.pretiosa.response', 'response', '℟. Mors Sanctórum eius.'),
       block('martyrology.sancta-maria', 'prayer', 'Sancta María et omnes Sancti intercédant pro nobis ad Dóminum, ut nos mereámur ab eo adiuvári et salvári, qui vivit et regnat in sǽcula sæculórum. Amen.'),
     ],
-    chapter: [
-      block('chapter.deus-in-adiutorium.1', 'verse', '℣. Deus, in adiutórium meum inténde.'),
-      block('chapter.deus-in-adiutorium.1.response', 'response', '℟. Dómine, ad adiuvándum me festína.'),
-      block('chapter.deus-in-adiutorium.2', 'verse', '℣. Deus, in adiutórium meum inténde.'),
-      block('chapter.deus-in-adiutorium.2.response', 'response', '℟. Dómine, ad adiuvándum me festína.'),
-      block('chapter.deus-in-adiutorium.3', 'verse', '℣. Deus, in adiutórium meum inténde.'),
-      block('chapter.deus-in-adiutorium.3.response', 'response', '℟. Dómine, ad adiuvándum me festína.'),
-      block('chapter.gloria-patri', 'verse', '℣. Glória Patri, et Fílio, et Spirítui Sancto.'),
-      block('chapter.sicut-erat', 'response', '℟. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen. Allelúia.'),
-      block('chapter.kyrie', 'verse', 'Kýrie, eléison. Christe, eléison. Kýrie, eléison.'),
-      block('chapter.pater-secret', 'prayer', 'Pater noster, qui es in cælis, sanctificétur nomen tuum. Advéniat regnum tuum. Fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie. Et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris.'),
-      block('chapter.et-ne-nos', 'verse', '℣. Et ne nos indúcas in tentatiónem.'),
-      block('chapter.sed-libera', 'response', '℟. Sed líbera nos a malo.'),
-      block('chapter.respice', 'verse', '℣. Réspice in servos tuos, Dómine, et in ópera tua, et dírige fílios eórum.'),
-      block('chapter.respice.response', 'response', '℟. Et sit splendor Dómini Dei nostri super nos, et ópera mánuum nostrárum dírige super nos, et opus mánuum nostrárum dírige.'),
-      block('chapter.dirigere', 'prayer', 'Dirígere et sanctificáre, régere et gubernáre dignáre, Dómine Deus, Rex cæli et terræ, hódie corda et córpora nostra, sensus, sermónes et actus nostros in lege tua, et in opéribus mandatórum tuórum: ut hic et in ætérnum, te auxiliánte, salvi et líberi esse mereámur, Salvátor mundi: qui vivis et regnas in sǽcula sæculórum. Amen.'),
-    ],
+    chapter: chapterOfficeBlocks(),
     lectioFormulae: {
       privateBlessing: block('lectio.iube-domine', 'verse', 'Iube, Dómine, benedícere.'),
       choirBlessing: block('lectio.iube-domne', 'verse', 'Iube, domne, benedícere.'),

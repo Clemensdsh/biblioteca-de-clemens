@@ -728,6 +728,20 @@
     "notes": ""
   },
   {
+    "id": "responsory.ordinary.1.repeat-initial",
+    "latin": "℟. Christe, Fili Dei vivi, * miserére nobis.",
+    "chinese": "基督，永生天主之子，求你垂怜我们。",
+    "type": "response",
+    "usage": "/martyrology/ Prima mode",
+    "latinSourceFile": "Divinum Officium Latin Prima/Psalterium data",
+    "chineseSourceFile": "",
+    "translationStatus": "temporary-translation",
+    "automaticallyMatched": false,
+    "codexTemporaryTranslation": true,
+    "needsUserConfirmation": true,
+    "notes": ""
+  },
+  {
     "id": "responsory.ordinary.2",
     "latin": "℣. Qui sedes ad déxteram Patris.",
     "chinese": "坐在圣父之右者。",
@@ -798,6 +812,20 @@
     "notes": ""
   },
   {
+    "id": "responsory.christe.repeat-initial",
+    "latin": "℟. Christe, Fili Dei vivi, miserére nobis.",
+    "chinese": "基督，永生天主之子，求你垂怜我们。",
+    "type": "response",
+    "usage": "/martyrology/ Prima mode",
+    "latinSourceFile": "Divinum Officium Latin Prima/Psalterium data",
+    "chineseSourceFile": "",
+    "translationStatus": "temporary-translation",
+    "automaticallyMatched": false,
+    "codexTemporaryTranslation": true,
+    "needsUserConfirmation": true,
+    "notes": ""
+  },
+  {
     "id": "responsory.qui-sedes",
     "latin": "℣. Qui sedes ad déxteram Patris.",
     "chinese": "坐在圣父之右者。",
@@ -827,6 +855,20 @@
   },
   {
     "id": "responsory.paschal.1",
+    "latin": "℟. Christe, Fili Dei vivi, miserére nobis, allelúia, allelúia.",
+    "chinese": "基督，永生天主之子，求你垂怜我们，阿肋路亚，阿肋路亚。",
+    "type": "response",
+    "usage": "/martyrology/ Prima mode",
+    "latinSourceFile": "Divinum Officium Latin Prima/Psalterium data",
+    "chineseSourceFile": "",
+    "translationStatus": "temporary-translation",
+    "automaticallyMatched": false,
+    "codexTemporaryTranslation": true,
+    "needsUserConfirmation": true,
+    "notes": ""
+  },
+  {
+    "id": "responsory.paschal.1.repeat-initial",
     "latin": "℟. Christe, Fili Dei vivi, miserére nobis, allelúia, allelúia.",
     "chinese": "基督，永生天主之子，求你垂怜我们，阿肋路亚，阿肋路亚。",
     "type": "response",
@@ -1205,8 +1247,8 @@
   },
   {
     "id": "chapter.sicut-erat",
-    "latin": "℟. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen. Allelúia.",
-    "chinese": "起初如何，今日亦然，直到永远。阿们。阿肋路亚。",
+    "latin": "℟. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen.",
+    "chinese": "起初如何，今日亦然，直到永远。阿们。",
     "type": "response",
     "usage": "/martyrology/ Prima mode",
     "latinSourceFile": "Divinum Officium Latin Prima/Psalterium data",
@@ -1291,6 +1333,34 @@
     "id": "chapter.respice.response",
     "latin": "℟. Et sit splendor Dómini Dei nostri super nos, et ópera mánuum nostrárum dírige super nos, et opus mánuum nostrárum dírige.",
     "chinese": "愿上主、我们的天主，以他的光辉照临我们；求你促使我们双手所作的工作顺利成功，求你促使我们双手所作的工作顺利成功。",
+    "type": "response",
+    "usage": "/martyrology/ Prima mode",
+    "latinSourceFile": "Divinum Officium Latin Prima/Psalterium data",
+    "chineseSourceFile": "",
+    "translationStatus": "temporary-translation",
+    "automaticallyMatched": false,
+    "codexTemporaryTranslation": true,
+    "needsUserConfirmation": true,
+    "notes": ""
+  },
+  {
+    "id": "chapter.gloria-patri.final",
+    "latin": "℣. Glória Patri, et Fílio, et Spirítui Sancto.",
+    "chinese": "愿光荣归于父、及子、及圣神。",
+    "type": "verse",
+    "usage": "/martyrology/ Prima mode",
+    "latinSourceFile": "Divinum Officium Latin Prima/Psalterium data",
+    "chineseSourceFile": "",
+    "translationStatus": "temporary-translation",
+    "automaticallyMatched": false,
+    "codexTemporaryTranslation": true,
+    "needsUserConfirmation": true,
+    "notes": ""
+  },
+  {
+    "id": "chapter.sicut-erat.final",
+    "latin": "℟. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen.",
+    "chinese": "起初如何，今日亦然，直到永远。阿们。",
     "type": "response",
     "usage": "/martyrology/ Prima mode",
     "latinSourceFile": "Divinum Officium Latin Prima/Psalterium data",

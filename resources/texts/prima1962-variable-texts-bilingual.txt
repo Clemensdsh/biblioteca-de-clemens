@@ -15,6 +15,8 @@ Chinese: 上主，永恒光荣的君王，赞美归于你。
 [ordinary]
 Latin: ℟. Christe, Fili Dei vivi, * miserére nobis.
 Chinese: 基督，永生天主之子，求你垂怜我们。
+Latin: ℟. Christe, Fili Dei vivi, * miserére nobis.
+Chinese: 基督，永生天主之子，求你垂怜我们。
 Latin: ℣. Qui sedes ad déxteram Patris.
 Chinese: 坐在圣父之右者。
 Latin: ℟. Miserére nobis.
@@ -27,12 +29,16 @@ Chinese: 基督，永生天主之子，求你垂怜我们。
 [passion]
 Latin: ℟. Christe, Fili Dei vivi, miserére nobis.
 Chinese: 基督，永生天主之子，求你垂怜我们。
+Latin: ℟. Christe, Fili Dei vivi, miserére nobis.
+Chinese: 基督，永生天主之子，求你垂怜我们。
 Latin: ℣. Qui sedes ad déxteram Patris.
 Chinese: 坐在圣父之右者。
 Latin: ℟. Christe, Fili Dei vivi, miserére nobis.
 Chinese: 基督，永生天主之子，求你垂怜我们。
 
 [paschal]
+Latin: ℟. Christe, Fili Dei vivi, miserére nobis, allelúia, allelúia.
+Chinese: 基督，永生天主之子，求你垂怜我们，阿肋路亚，阿肋路亚。
 Latin: ℟. Christe, Fili Dei vivi, miserére nobis, allelúia, allelúia.
 Chinese: 基督，永生天主之子，求你垂怜我们，阿肋路亚，阿肋路亚。
 Latin: ℣. Qui surrexísti a mórtuis, allelúia.

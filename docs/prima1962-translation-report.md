@@ -6,10 +6,10 @@ Generated for the `/martyrology/` Prima mode:
 
 ## Summary
 
-- Prima Latin units in translation status file: 114
+- Prima Latin units in translation status file: 119
 - Directly reused project or existing page wording: 7
 - Mapped from project readings or existing wording: 1
-- New temporary translations: 107
+- New temporary translations: 112
 - Missing translations in fixed-text status list: 0
 - Ambiguous candidate translations awaiting decision: 0
 - Psalm verse Chinese translations: missing by design in this iteration and shown with explicit `missing` status in `psalms-latin.json`.
@@ -744,6 +744,20 @@ The martyrology body itself continues to use the existing project translation in
 - 需要用户确认：是
 - 备注：项目内未找到可直接复用的正式中文译文。
 
+### responsory.ordinary.1.repeat-initial
+
+- 类型：response
+- 拉丁文：℟. Christe, Fili Dei vivi, * miserére nobis.
+- 中文：基督，永生天主之子，求你垂怜我们。
+- 状态：暂译
+- 使用位置：/martyrology/ Prima mode
+- 拉丁文来源：Divinum Officium Latin Prima/Psalterium data
+- 中文来源：Codex 暂译
+- 是否由程序自动匹配：否
+- 是否由 Codex 自行暂译：是
+- 需要用户确认：是
+- 备注：项目内未找到可直接复用的正式中文译文。
+
 ### responsory.ordinary.2
 
 - 类型：verse
@@ -814,6 +828,20 @@ The martyrology body itself continues to use the existing project translation in
 - 需要用户确认：是
 - 备注：项目内未找到可直接复用的正式中文译文。
 
+### responsory.christe.repeat-initial
+
+- 类型：response
+- 拉丁文：℟. Christe, Fili Dei vivi, miserére nobis.
+- 中文：基督，永生天主之子，求你垂怜我们。
+- 状态：暂译
+- 使用位置：/martyrology/ Prima mode
+- 拉丁文来源：Divinum Officium Latin Prima/Psalterium data
+- 中文来源：Codex 暂译
+- 是否由程序自动匹配：否
+- 是否由 Codex 自行暂译：是
+- 需要用户确认：是
+- 备注：项目内未找到可直接复用的正式中文译文。
+
 ### responsory.qui-sedes
 
 - 类型：verse
@@ -843,6 +871,20 @@ The martyrology body itself continues to use the existing project translation in
 - 备注：项目内未找到可直接复用的正式中文译文。
 
 ### responsory.paschal.1
+
+- 类型：response
+- 拉丁文：℟. Christe, Fili Dei vivi, miserére nobis, allelúia, allelúia.
+- 中文：基督，永生天主之子，求你垂怜我们，阿肋路亚，阿肋路亚。
+- 状态：暂译
+- 使用位置：/martyrology/ Prima mode
+- 拉丁文来源：Divinum Officium Latin Prima/Psalterium data
+- 中文来源：Codex 暂译
+- 是否由程序自动匹配：否
+- 是否由 Codex 自行暂译：是
+- 需要用户确认：是
+- 备注：项目内未找到可直接复用的正式中文译文。
+
+### responsory.paschal.1.repeat-initial
 
 - 类型：response
 - 拉丁文：℟. Christe, Fili Dei vivi, miserére nobis, allelúia, allelúia.
@@ -1195,8 +1237,8 @@ The martyrology body itself continues to use the existing project translation in
 ### chapter.sicut-erat
 
 - 类型：response
-- 拉丁文：℟. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen. Allelúia.
-- 中文：起初如何，今日亦然，直到永远。阿们。阿肋路亚。
+- 拉丁文：℟. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
+- 中文：起初如何，今日亦然，直到永远。阿们。
 - 状态：暂译
 - 使用位置：/martyrology/ Prima mode
 - 拉丁文来源：Divinum Officium Latin Prima/Psalterium data
@@ -1281,6 +1323,34 @@ The martyrology body itself continues to use the existing project translation in
 - 类型：response
 - 拉丁文：℟. Et sit splendor Dómini Dei nostri super nos, et ópera mánuum nostrárum dírige super nos, et opus mánuum nostrárum dírige.
 - 中文：愿上主、我们的天主，以他的光辉照临我们；求你促使我们双手所作的工作顺利成功，求你促使我们双手所作的工作顺利成功。
+- 状态：暂译
+- 使用位置：/martyrology/ Prima mode
+- 拉丁文来源：Divinum Officium Latin Prima/Psalterium data
+- 中文来源：Codex 暂译
+- 是否由程序自动匹配：否
+- 是否由 Codex 自行暂译：是
+- 需要用户确认：是
+- 备注：项目内未找到可直接复用的正式中文译文。
+
+### chapter.gloria-patri.final
+
+- 类型：verse
+- 拉丁文：℣. Glória Patri, et Fílio, et Spirítui Sancto.
+- 中文：愿光荣归于父、及子、及圣神。
+- 状态：暂译
+- 使用位置：/martyrology/ Prima mode
+- 拉丁文来源：Divinum Officium Latin Prima/Psalterium data
+- 中文来源：Codex 暂译
+- 是否由程序自动匹配：否
+- 是否由 Codex 自行暂译：是
+- 需要用户确认：是
+- 备注：项目内未找到可直接复用的正式中文译文。
+
+### chapter.sicut-erat.final
+
+- 类型：response
+- 拉丁文：℟. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen.
+- 中文：起初如何，今日亦然，直到永远。阿们。
 - 状态：暂译
 - 使用位置：/martyrology/ Prima mode
 - 拉丁文来源：Divinum Officium Latin Prima/Psalterium data
