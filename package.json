@@ -14,6 +14,7 @@
     "officium1962:validate-year": "node scripts/officium1962/validate-year.mjs",
     "officium1962:compare": "node scripts/officium1962/compare-with-upstream.mjs",
     "officium1962:compare-year-sample": "node scripts/officium1962/compare-year-sample.mjs",
+    "officium1962:audit-release": "node scripts/officium1962/audit-release-vs-upstream.mjs",
     "officium1962:extract-corpus": "node scripts/officium1962/extract-translation-corpus.mjs",
     "officium1962:validate-corpus": "node scripts/officium1962/validate-translation-corpus.mjs",
     "officium1962:translation-workspace": "node scripts/officium1962/generate-structured-translation-workspace.mjs",

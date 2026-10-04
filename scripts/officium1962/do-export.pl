@@ -41,14 +41,53 @@ my %hour_map = (
   tertia => 'Tertia',
   sexta => 'Sexta',
   nona => 'Nona',
-  vesperae => 'Vesperae',
+  # The upstream engine dispatches Vespers under the singular internal name.
+  vesperae => 'Vespera',
   completorium => 'Completorium',
 );
 
 my @requested_hours = $hours
   ? map { s/^\s+|\s+$//gr } split /,/, $hours
   : ($hour);
+my @export_hours = map { lc($_) } @requested_hours;
 my @canonical_hours = map { $hour_map{lc($_)} || die "Unsupported hour: $_\n" } @requested_hours;
+
+# Divinum Officium's hour resolution uses package globals.  In particular,
+# precedence and the Vespers concurrence selection retain state after another
+# hour has been rendered.  A --hours request must therefore not render all
+# hours in one interpreter.  Reinvoke this adapter once per hour and merge the
+# independently resolved documents so batch generation has the same result as
+# a single-hour request.
+if ($hours) {
+  my %exports;
+  for my $index (0 .. $#requested_hours) {
+    my @command = (
+      $^X,
+      $0,
+      "--date=$date",
+      "--hour=$requested_hours[$index]",
+      "--version=$requested_version",
+      "--language=$language",
+      "--upstream=$upstream",
+      "--commit=$commit",
+    );
+    open my $worker, '-|', @command or die "Could not start isolated export for $requested_hours[$index]: $!\n";
+    local $/;
+    my $output = <$worker>;
+    close $worker or die "Isolated export failed for $requested_hours[$index]\n";
+    $exports{$export_hours[$index]} = JSON::PP::decode_json($output);
+  }
+
+  my $json = JSON::PP->new->utf8(1)->canonical(1);
+  print $json->encode({
+    schemaVersion => '0.1.0',
+    date => $date,
+    upstreamCommit => $commit,
+    hours => \%exports,
+  }) . "\n";
+  exit 0;
+}
+
 my $canonical_hour = $canonical_hours[0];
 my ($yyyy, $mm, $dd) = split /-/, $date;
 my $do_date = int($mm) . '-' . int($dd) . '-' . int($yyyy);
@@ -117,28 +156,11 @@ load_languages_data($lang1, $lang2, $langfb, $version, $missa);
 precedence($date1);
 setsecondcol();
 
-my %exports;
-for my $current_hour (@canonical_hours) {
-  $hora = $current_hour;
-  $command = "pray$current_hour";
-  $exports{lc($current_hour)} = export_hour($current_hour);
-}
-
 my $json = JSON::PP->new->utf8(1)->canonical(1);
-if ($hours) {
-  print $json->encode({
-    schemaVersion => '0.1.0',
-    date => $date,
-    upstreamCommit => $commit,
-    hours => \%exports,
-  }) . "\n";
-}
-else {
-  print $json->encode($exports{lc($canonical_hour)}) . "\n";
-}
+print $json->encode(export_hour($canonical_hour, $export_hours[0])) . "\n";
 
 sub export_hour {
-  my ($current_hour) = @_;
+  my ($current_hour, $export_hour) = @_;
   my $headline = setheadline();
   my @script = specials([getordinarium($lang1, $current_hour)], $lang1);
   my @units;
@@ -164,7 +186,7 @@ sub export_hour {
     engineVersion => $requested_version,
     language => 'la',
     date => $date,
-    hour => lc($current_hour),
+    hour => $export_hour,
     liturgicalTitle => normalize_text($headline),
     rank => normalize_text($rank_value),
     upstreamCommit => $commit,

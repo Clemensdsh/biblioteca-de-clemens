@@ -389,11 +389,13 @@ describe('officium1962 Phase 4 Laudes and Vesperae', () => {
     expect(commemoration?.sourceRefs.some(ref => ref.path.includes('Common/Prayers.txt'))).toBe(true)
   })
 
-  it('models Vesperae Magnificat and upstream-resolved empty sections without inventing psalmody', () => {
+  it('models Vesperae psalmody, hymn, and Magnificat from the upstream-resolved office', () => {
     const vesperae = blocks('2026-07-20', 'vesperae')
     expect(loadDay('2026-07-20', 'vesperae').hours.vesperae?.metadata?.concurrenceResolvedByUpstream).toBe(true)
-    expect(vesperae.find(block => block.id.endsWith('psalmi-empty'))?.metadata?.emptyMajorSection).toBe('psalmi')
-    expect(vesperae.find(block => block.id.endsWith('hymnus-empty'))?.metadata?.emptyMajorSection).toBe('hymnus')
+    expect(vesperae.filter(block => block.type === 'psalm').map(block => block.metadata?.psalmNumber)).toEqual(['114', '115', '119', '120', '121'])
+    expect(vesperae.some(block => block.metadata?.emptyMajorSection === 'psalmi')).toBe(false)
+    expect(vesperae.find(block => block.type === 'hymn')?.text[0]).toBe('Iste Conféssor Dómini, coléntes')
+    expect(vesperae.some(block => block.metadata?.emptyMajorSection === 'hymnus')).toBe(false)
 
     const magnificat = vesperae.find(block => block.id.endsWith('-magnificat'))
     expect(magnificat?.type).toBe('canticle')

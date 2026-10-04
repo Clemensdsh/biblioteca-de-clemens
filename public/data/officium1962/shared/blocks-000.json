@@ -6070,13 +6070,22 @@
       "verses": []
     },
     {
-      "contentHash": "8a9d0360c2f20c1f66129fccfc27e7d937a7100f9c0434614d004988ca14a7d7",
-      "id": "shared-8a9d0360c2f20c1f6612",
+      "contentHash": "c5d5ab7270885c0cad522b675bcf1a9b1990e70cad326899c7def1da57539efd",
+      "id": "shared-c5d5ab7270885c0cad52",
       "rubricLines": [],
       "sourceRefs": [
         {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
           "path": "web/www/horas/Ordinarium/Vespera.txt",
-          "section": "Psalmi{Psalmi Dominica & antiphonæ  ex Proprio Sanctorum}",
+          "section": "Antiphona",
           "transformation": [
             "getordinarium",
             "specials",
@@ -6086,18 +6095,599 @@
         }
       ],
       "text": [
-        "Psalmi {Psalmi Dominica & antiphonæ  ex Proprio Sanctorum}",
-        "Ant. Ecce María génuit nobis Salvatórem, quem Joánnes videns, exclamávit, dicens: Ecce Agnus Dei, ecce qui tollit peccáta mundi, allelúja."
+        "Ant. O admirábile commércium: * Creátor géneris humáni, animátum corpus sumens, de Vírgine nasci dignátus est; et procédens homo sine sémine, largítus est nobis suam Deitátem."
       ],
-      "title": "Psalmi{Psalmi Dominica & antiphonæ  ex Proprio Sanctorum}",
-      "type": "rubric",
+      "title": "Antiphona",
+      "type": "antiphon",
       "verses": []
     },
     {
-      "contentHash": "4f8ccc096792bc4245207154363438e4ce6dd6703d5c8b900a6941acdc4a583b",
-      "id": "shared-4f8ccc096792bc424520",
+      "contentHash": "3067b3aa8d1513520d0644d05b12b25d163882d45c6d5c098c859a8adec72492",
+      "id": "shared-3067b3aa8d1513520d06",
       "rubricLines": [],
       "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm109.txt",
+          "section": "Psalm 109",
+          "transformation": [
+            "resolve_refs",
+            "psalm expansion"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Psalmus 109 [1]",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "109:1a Dixit Dóminus Dómino meo: * Sede a dextris meis:",
+        "109:1b Donec ponam inimícos tuos, * scabéllum pedum tuórum.",
+        "109:2 Virgam virtútis tuæ emíttet Dóminus ex Sion: * domináre in médio inimicórum tuórum.",
+        "109:3 Tecum princípium in die virtútis tuæ in splendóribus sanctórum: * ex útero ante lucíferum génui te.",
+        "109:4 Jurávit Dóminus, et non pœnitébit eum: * Tu es sacérdos in ætérnum secúndum órdinem Melchísedech.",
+        "109:5 Dóminus a dextris tuis, * confrégit in die iræ suæ reges.",
+        "109:6 Judicábit in natiónibus, implébit ruínas: * conquassábit cápita in terra multórum.",
+        "109:7 De torrénte in via bibet: * proptérea exaltábit caput.",
+        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+      ],
+      "title": "Psalmus 109 [1]",
+      "type": "psalm",
+      "verses": [
+        "109:1a Dixit Dóminus Dómino meo: * Sede a dextris meis:",
+        "109:1b Donec ponam inimícos tuos, * scabéllum pedum tuórum.",
+        "109:2 Virgam virtútis tuæ emíttet Dóminus ex Sion: * domináre in médio inimicórum tuórum.",
+        "109:3 Tecum princípium in die virtútis tuæ in splendóribus sanctórum: * ex útero ante lucíferum génui te.",
+        "109:4 Jurávit Dóminus, et non pœnitébit eum: * Tu es sacérdos in ætérnum secúndum órdinem Melchísedech.",
+        "109:5 Dóminus a dextris tuis, * confrégit in die iræ suæ reges.",
+        "109:6 Judicábit in natiónibus, implébit ruínas: * conquassábit cápita in terra multórum.",
+        "109:7 De torrénte in via bibet: * proptérea exaltábit caput."
+      ]
+    },
+    {
+      "contentHash": "3029d8931ea8855b49d97114a1989f325f312ee937f063561315e5fb7bf8f0a9",
+      "id": "shared-3029d8931ea8855b49d9",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. O admirábile commércium: Creátor géneris humáni, animátum corpus sumens, de Vírgine nasci dignátus est; et procédens homo sine sémine, largítus est nobis suam Deitátem."
+      ],
+      "title": "Antiphona repetita",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "c7b722ef54a2c8e236848c3de8243943619afac6fa2272cf7199526d24f10966",
+      "id": "shared-c7b722ef54a2c8e23684",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Quando natus es * ineffabíliter ex Vírgine, tunc implétæ sunt Scriptúræ: sicut plúvia in vellus descendísti, ut salvum fáceres genus humánum: te laudámus, Deus noster."
+      ],
+      "title": "Antiphona",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "dd13f3c4f6da2b402bf0c6735e14b25539139ec2ee69530b40c99a0c68279eb4",
+      "id": "shared-dd13f3c4f6da2b402bf0",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm112.txt",
+          "section": "Psalm 112",
+          "transformation": [
+            "resolve_refs",
+            "psalm expansion"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Psalmus 112 [2]",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "112:1 Laudáte, púeri, Dóminum: * laudáte nomen Dómini.",
+        "112:2 (fit reverentia) Sit nomen Dómini benedíctum, * ex hoc nunc, et usque in sǽculum.",
+        "112:3 A solis ortu usque ad occásum, * laudábile nomen Dómini.",
+        "112:4 Excélsus super omnes gentes Dóminus, * et super cælos glória ejus.",
+        "112:5 Quis sicut Dóminus, Deus noster, qui in altis hábitat, * (6) et humília réspicit in cælo et in terra?",
+        "112:7 Súscitans a terra ínopem, * et de stércore érigens páuperem:",
+        "112:8 Ut cóllocet eum cum princípibus, * cum princípibus pópuli sui.",
+        "112:9 Qui habitáre facit stérilem in domo, * matrem filiórum lætántem.",
+        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+      ],
+      "title": "Psalmus 112 [2]",
+      "type": "psalm",
+      "verses": [
+        "112:1 Laudáte, púeri, Dóminum: * laudáte nomen Dómini.",
+        "112:2 (fit reverentia) Sit nomen Dómini benedíctum, * ex hoc nunc, et usque in sǽculum.",
+        "112:3 A solis ortu usque ad occásum, * laudábile nomen Dómini.",
+        "112:4 Excélsus super omnes gentes Dóminus, * et super cælos glória ejus.",
+        "112:5 Quis sicut Dóminus, Deus noster, qui in altis hábitat, * (6) et humília réspicit in cælo et in terra?",
+        "112:7 Súscitans a terra ínopem, * et de stércore érigens páuperem:",
+        "112:8 Ut cóllocet eum cum princípibus, * cum princípibus pópuli sui.",
+        "112:9 Qui habitáre facit stérilem in domo, * matrem filiórum lætántem."
+      ]
+    },
+    {
+      "contentHash": "bd77bf9a732073fb1fd341eb3e2ddc2535ffb8371211a74dbdaaec9f489c655c",
+      "id": "shared-bd77bf9a732073fb1fd3",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Quando natus es ineffabíliter ex Vírgine, tunc implétæ sunt Scriptúræ: sicut plúvia in vellus descendísti, ut salvum fáceres genus humánum: te laudámus, Deus noster."
+      ],
+      "title": "Antiphona repetita",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "20c39b70ac898154f0d54364c18144e766b0d77ec6bf0ba828f93f7a5a05d6e4",
+      "id": "shared-20c39b70ac898154f0d5",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Rubum, quem víderat Móyses * incombústum, conservátam agnóvimus tuam laudábilem virginitátem: Dei Génetrix, intercéde pro nobis."
+      ],
+      "title": "Antiphona",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "0376108ee83b86deab40867abd4be02c54449ade9b1126d3bf423727ff0f3cd2",
+      "id": "shared-0376108ee83b86deab40",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm121.txt",
+          "section": "Psalm 121",
+          "transformation": [
+            "resolve_refs",
+            "psalm expansion"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Psalmus 121 [3]",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "121:1 Lætátus sum in his, quæ dicta sunt mihi: * In domum Dómini íbimus.",
+        "121:2 Stantes erant pedes nostri, * in átriis tuis, Jerúsalem.",
+        "121:3 Jerúsalem, quæ ædificátur ut cívitas: * cujus participátio ejus in idípsum.",
+        "121:4 Illuc enim ascendérunt tribus, tribus Dómini: * testimónium Israël ad confiténdum nómini Dómini.",
+        "121:5 Quia illic sedérunt sedes in judício, * sedes super domum David.",
+        "121:6 Rogáte quæ ad pacem sunt Jerúsalem: * et abundántia diligéntibus te:",
+        "121:7 Fiat pax in virtúte tua: * et abundántia in túrribus tuis.",
+        "121:8 Propter fratres meos, et próximos meos, * loquébar pacem de te:",
+        "121:9 Propter domum Dómini, Dei nostri, * quæsívi bona tibi.",
+        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+      ],
+      "title": "Psalmus 121 [3]",
+      "type": "psalm",
+      "verses": [
+        "121:1 Lætátus sum in his, quæ dicta sunt mihi: * In domum Dómini íbimus.",
+        "121:2 Stantes erant pedes nostri, * in átriis tuis, Jerúsalem.",
+        "121:3 Jerúsalem, quæ ædificátur ut cívitas: * cujus participátio ejus in idípsum.",
+        "121:4 Illuc enim ascendérunt tribus, tribus Dómini: * testimónium Israël ad confiténdum nómini Dómini.",
+        "121:5 Quia illic sedérunt sedes in judício, * sedes super domum David.",
+        "121:6 Rogáte quæ ad pacem sunt Jerúsalem: * et abundántia diligéntibus te:",
+        "121:7 Fiat pax in virtúte tua: * et abundántia in túrribus tuis.",
+        "121:8 Propter fratres meos, et próximos meos, * loquébar pacem de te:",
+        "121:9 Propter domum Dómini, Dei nostri, * quæsívi bona tibi."
+      ]
+    },
+    {
+      "contentHash": "5e02ace39e48b9c4d8e88c2f6b635a8e477f05f6eca13ebfa52ba0b1d34f8281",
+      "id": "shared-5e02ace39e48b9c4d8e8",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Rubum, quem víderat Móyses incombústum, conservátam agnóvimus tuam laudábilem virginitátem: Dei Génetrix, intercéde pro nobis."
+      ],
+      "title": "Antiphona repetita",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "dbb223cd87b0a404959ae025ff600d39f0b63735c5f5a3fe699fabc78b01b612",
+      "id": "shared-dbb223cd87b0a404959a",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Germinávit radix Jesse, * orta est stella ex Jacob: Virgo péperit Salvatórem; te laudámus, Deus noster."
+      ],
+      "title": "Antiphona",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "72012dbaab495e4bf53a58e7ba2756815d250ad4cda551d6df361b01dab196c4",
+      "id": "shared-72012dbaab495e4bf53a",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm126.txt",
+          "section": "Psalm 126",
+          "transformation": [
+            "resolve_refs",
+            "psalm expansion"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Psalmus 126 [4]",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "126:1a Nisi Dóminus ædificáverit domum, * in vanum laboravérunt qui ædíficant eam.",
+        "126:1b Nisi Dóminus custodíerit civitátem, * frustra vígilat qui custódit eam.",
+        "126:2a Vanum est vobis ante lucem súrgere: * súrgite postquam sedéritis, qui manducátis panem dolóris.",
+        "126:2b Cum déderit diléctis suis somnum: * (3) ecce heréditas Dómini fílii: merces, fructus ventris.",
+        "126:4 Sicut sagíttæ in manu poténtis: * ita fílii excussórum.",
+        "126:5 Beátus vir, qui implévit desidérium suum ex ipsis: * non confundétur cum loquétur inimícis suis in porta.",
+        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+      ],
+      "title": "Psalmus 126 [4]",
+      "type": "psalm",
+      "verses": [
+        "126:1a Nisi Dóminus ædificáverit domum, * in vanum laboravérunt qui ædíficant eam.",
+        "126:1b Nisi Dóminus custodíerit civitátem, * frustra vígilat qui custódit eam.",
+        "126:2a Vanum est vobis ante lucem súrgere: * súrgite postquam sedéritis, qui manducátis panem dolóris.",
+        "126:2b Cum déderit diléctis suis somnum: * (3) ecce heréditas Dómini fílii: merces, fructus ventris.",
+        "126:4 Sicut sagíttæ in manu poténtis: * ita fílii excussórum.",
+        "126:5 Beátus vir, qui implévit desidérium suum ex ipsis: * non confundétur cum loquétur inimícis suis in porta."
+      ]
+    },
+    {
+      "contentHash": "b9226a74840cda08df835d8fc97f72cbf80237ba49844f6ec778a73c5eb42f03",
+      "id": "shared-b9226a74840cda08df83",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Germinávit radix Jesse, orta est stella ex Jacob: Virgo péperit Salvatórem; te laudámus, Deus noster."
+      ],
+      "title": "Antiphona repetita",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "61db5368f0d905af68beeeb805ae0faacb9e220e11e13016313c95c19fbc43ea",
+      "id": "shared-61db5368f0d905af68be",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Ecce María génuit * nobis Salvatórem, quem Joánnes videns, exclamávit, dicens: Ecce Agnus Dei, ecce qui tollit peccáta mundi, allelúja."
+      ],
+      "title": "Antiphona",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "098441d5c2682336f267a1b07b063b0f0d195485e7675b40074610605aed879f",
+      "id": "shared-098441d5c2682336f267",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm147.txt",
+          "section": "Psalm 147",
+          "transformation": [
+            "resolve_refs",
+            "psalm expansion"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Psalmus 147 [5]",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "147:1 Lauda, Jerúsalem, Dóminum: * lauda Deum tuum, Sion.",
+        "147:2 Quóniam confortávit seras portárum tuárum: * benedíxit fíliis tuis in te.",
+        "147:3 Qui pósuit fines tuos pacem: * et ádipe fruménti sátiat te.",
+        "147:4 Qui emíttit elóquium suum terræ: * velóciter currit sermo ejus.",
+        "147:5 Qui dat nivem sicut lanam: * nébulam sicut cínerem spargit.",
+        "147:6 Mittit crystállum suam sicut buccéllas: * ante fáciem frígoris ejus quis sustinébit?",
+        "147:7 Emíttet verbum suum, et liquefáciet ea: * flabit spíritus ejus, et fluent aquæ.",
+        "147:8 Qui annúntiat verbum suum Jacob: * justítias, et judícia sua Israël.",
+        "147:9 Non fecit táliter omni natióni: * et judícia sua non manifestávit eis.",
+        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+      ],
+      "title": "Psalmus 147 [5]",
+      "type": "psalm",
+      "verses": [
+        "147:1 Lauda, Jerúsalem, Dóminum: * lauda Deum tuum, Sion.",
+        "147:2 Quóniam confortávit seras portárum tuárum: * benedíxit fíliis tuis in te.",
+        "147:3 Qui pósuit fines tuos pacem: * et ádipe fruménti sátiat te.",
+        "147:4 Qui emíttit elóquium suum terræ: * velóciter currit sermo ejus.",
+        "147:5 Qui dat nivem sicut lanam: * nébulam sicut cínerem spargit.",
+        "147:6 Mittit crystállum suam sicut buccéllas: * ante fáciem frígoris ejus quis sustinébit?",
+        "147:7 Emíttet verbum suum, et liquefáciet ea: * flabit spíritus ejus, et fluent aquæ.",
+        "147:8 Qui annúntiat verbum suum Jacob: * justítias, et judícia sua Israël.",
+        "147:9 Non fecit táliter omni natióni: * et judícia sua non manifestávit eis."
+      ]
+    },
+    {
+      "contentHash": "213e5f5aef37ff9bf22f7945c769f7b117854f7654360d23faa9152e9e175d80",
+      "id": "shared-213e5f5aef37ff9bf22f",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Ecce María génuit nobis Salvatórem, quem Joánnes videns, exclamávit, dicens: Ecce Agnus Dei, ecce qui tollit peccáta mundi, allelúja."
+      ],
+      "title": "Antiphona repetita",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "24068909ecb6920cbba0f8b68cede9bfc6917eec1940b85f270d286a668968e0",
+      "id": "shared-24068909ecb6920cbba0",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Capitulum",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Capitulum",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Capitulum Hymnus Versus {ex Proprio Sanctorum}",
+        "Titus 2:11-12",
+        "Appáruit grátia Dei Salvatóris nostri ómnibus homínibus, erúdiens nos, ut abnegántes impietátem, et sæculária desidéria, sóbrie, et juste, et pie vivámus in hoc sǽculo.",
+        "℟. Deo grátias."
+      ],
+      "title": "Capitulum",
+      "type": "capitulum",
+      "verses": []
+    },
+    {
+      "contentHash": "15b03b201caf7d5aadc5f043d7f027a27c72f9106e9ff5fd9ddef2afc2ee7dce",
+      "id": "shared-15b03b201caf7d5aadc5",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Hymnus",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
         {
           "path": "web/www/horas/Ordinarium/Vespera.txt",
           "section": "Hymnus",
@@ -6109,14 +6699,83 @@
           "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
         }
       ],
-      "text": [],
+      "text": [
+        "Jesu, Redémptor ómnium,",
+        "Quem lucis ante oríginem",
+        "Parem patérnæ glóriæ",
+        "Pater suprémus édidit.",
+        "_",
+        "Tu lumen, et splendor Patris,",
+        "Tu spes perénnis ómnium,",
+        "Inténde quas fundunt preces",
+        "Tui per orbem sérvuli.",
+        "_",
+        "Meménto, rerum Cónditor,",
+        "Nostri quod olim córporis,",
+        "Sacráta ab alvo Vírginis",
+        "Nascéndo, formam súmpseris.",
+        "_",
+        "Testátur hoc præsens dies,",
+        "Currens per anni círculum,",
+        "Quod solus e sinu Patris",
+        "Mundi salus advéneris.",
+        "_",
+        "Hunc astra, tellus, ǽquora,",
+        "Hunc omne, quod cælo subest,",
+        "Salútis auctórem novæ",
+        "Novo salútat cántico.",
+        "_",
+        "Et nos, beáta quos sacri",
+        "Rigávit unda sánguinis,",
+        "Natális ob diem tui",
+        "Hymni tribútum sólvimus.",
+        "_",
+        "Jesu, tibi sit glória,",
+        "Qui natus es de Vírgine,",
+        "Cum Patre et almo Spíritu,",
+        "In sempitérna sǽcula.",
+        "Amen."
+      ],
       "title": "Hymnus",
-      "type": "rubric",
+      "type": "hymn",
       "verses": []
     },
     {
-      "contentHash": "39b19bd642278390701c9911466d487618c513448ef701dee9068b3b306c50cd",
-      "id": "shared-39b19bd642278390701c",
+      "contentHash": "8773480e87805daa8399523ab84d9dcfd937bb9dc61c968c23c448be61233499",
+      "id": "shared-8773480e87805daa8399",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Versus",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Versus",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "℣. Notum fecit Dóminus, allelúja.",
+        "℟. Salutáre suum, allelúja."
+      ],
+      "title": "Versus",
+      "type": "versicle",
+      "verses": []
+    },
+    {
+      "contentHash": "139550730870e4e16bc2ef38c61d5fb3b3d6389ec7c0f323513bf9f038fedbba",
+      "id": "shared-139550730870e4e16bc2",
       "rubricLines": [],
       "sourceRefs": [
         {
@@ -6140,7 +6799,7 @@
         }
       ],
       "text": [
-        "Ant. Mirábile mystérium * declarátur hódie: innovántur natúræ, Deus homo factus est: id quod fuit permánsit, et quod non erat assúmpsit; non commixtiónem passus, neque divisiónem."
+        "Ant. Magnum * hereditátis mystérium: templum Dei factus est úterus nesciéntis virum: non est pollútus ex ea carnem assúmens; omnes gentes vénient dicéntes: Glória tibi, Dómine."
       ],
       "title": "Antiphona ad magnificat",
       "type": "antiphon",
@@ -6202,8 +6861,8 @@
       ]
     },
     {
-      "contentHash": "29b91b48e3843d3186774591c98e173b39b21daf84fd119faee13cb3c35fbb60",
-      "id": "shared-29b91b48e3843d318677",
+      "contentHash": "4344f2cc51add3ba4b46e46b5d639bb998d1e4cf361aea5fbd975858aa059c97",
+      "id": "shared-4344f2cc51add3ba4b46",
       "rubricLines": [],
       "sourceRefs": [
         {
@@ -6227,7 +6886,7 @@
         }
       ],
       "text": [
-        "Ant. Mirábile mystérium declarátur hódie: innovántur natúræ, Deus homo factus est: id quod fuit permánsit, et quod non erat assúmpsit; non commixtiónem passus, neque divisiónem."
+        "Ant. Magnum hereditátis mystérium: templum Dei factus est úterus nesciéntis virum: non est pollútus ex ea carnem assúmens; omnes gentes vénient dicéntes: Glória tibi, Dómine."
       ],
       "title": "Antiphona repetita ad magnificat",
       "type": "antiphon",
@@ -10284,13 +10943,22 @@
       "verses": []
     },
     {
-      "contentHash": "a6457f49e5a42a682d9b6137101845a5ec2c4ca59445c17d6cad3afa6bbb4239",
-      "id": "shared-a6457f49e5a42a682d9b",
+      "contentHash": "a17bae699e9fe24ec5d9a68f4d24d8f8c6606f109891bcee259ac7630447321a",
+      "id": "shared-a17bae699e9fe24ec5d9",
       "rubricLines": [],
       "sourceRefs": [
         {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
           "path": "web/www/horas/Ordinarium/Vespera.txt",
-          "section": "Psalmi{ex Psalterio secundum diem}",
+          "section": "Antiphona",
           "transformation": [
             "getordinarium",
             "specials",
@@ -10300,10 +10968,619 @@
         }
       ],
       "text": [
-        "Psalmi {ex Psalterio secundum diem}"
+        "Ant. Dómine, * probásti me et cognovísti me. ‡"
       ],
-      "title": "Psalmi{ex Psalterio secundum diem}",
-      "type": "rubric",
+      "title": "Antiphona",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "e98798cd1184f4c178e5f207a5ec5608d93bd681a9eb7e46868e4987373dbd25",
+      "id": "shared-e98798cd1184f4c178e5",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm138.txt",
+          "section": "Psalm 138",
+          "transformation": [
+            "resolve_refs",
+            "psalm expansion"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Psalmus 138(1-13) [1]",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "138:1  Dómine, probásti me, et cognovísti me: * ‡ (2) tu cognovísti sessiónem meam, et resurrectiónem meam.",
+        "138:3 Intellexísti cogitatiónes meas de longe: * sémitam meam, et funículum meum investigásti.",
+        "138:4 Et omnes vias meas prævidísti: * quia non est sermo in lingua mea.",
+        "138:5 Ecce, Dómine, tu cognovísti ómnia novíssima, et antíqua: * tu formásti me, et posuísti super me manum tuam.",
+        "138:6 Mirábilis facta est sciéntia tua ex me: * confortáta est, et non pótero ad eam.",
+        "138:7 Quo ibo a spíritu tuo? * et quo a fácie tua fúgiam?",
+        "138:8 Si ascéndero in cælum, tu illic es: * si descéndero in inférnum, ades.",
+        "138:9 Si súmpsero pennas meas dilúculo, * et habitávero in extrémis maris:",
+        "138:10 Étenim illuc manus tua dedúcet me: * et tenébit me déxtera tua.",
+        "138:11 Et dixi: Fórsitan ténebræ conculcábunt me: * et nox illuminátio mea in delíciis meis.",
+        "138:12 Quia ténebræ non obscurabúntur a te, † et nox sicut dies illuminábitur: * sicut ténebræ ejus, ita et lumen ejus.",
+        "138:13 Quia tu possedísti renes meos: * suscepísti me de útero matris meæ.",
+        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+      ],
+      "title": "Psalmus 138(1-13) [1]",
+      "type": "psalm",
+      "verses": [
+        "138:1  Dómine, probásti me, et cognovísti me: * ‡ (2) tu cognovísti sessiónem meam, et resurrectiónem meam.",
+        "138:3 Intellexísti cogitatiónes meas de longe: * sémitam meam, et funículum meum investigásti.",
+        "138:4 Et omnes vias meas prævidísti: * quia non est sermo in lingua mea.",
+        "138:5 Ecce, Dómine, tu cognovísti ómnia novíssima, et antíqua: * tu formásti me, et posuísti super me manum tuam.",
+        "138:6 Mirábilis facta est sciéntia tua ex me: * confortáta est, et non pótero ad eam.",
+        "138:7 Quo ibo a spíritu tuo? * et quo a fácie tua fúgiam?",
+        "138:8 Si ascéndero in cælum, tu illic es: * si descéndero in inférnum, ades.",
+        "138:9 Si súmpsero pennas meas dilúculo, * et habitávero in extrémis maris:",
+        "138:10 Étenim illuc manus tua dedúcet me: * et tenébit me déxtera tua.",
+        "138:11 Et dixi: Fórsitan ténebræ conculcábunt me: * et nox illuminátio mea in delíciis meis.",
+        "138:12 Quia ténebræ non obscurabúntur a te, † et nox sicut dies illuminábitur: * sicut ténebræ ejus, ita et lumen ejus.",
+        "138:13 Quia tu possedísti renes meos: * suscepísti me de útero matris meæ."
+      ]
+    },
+    {
+      "contentHash": "ace0614467804c418ee38afd4118fdfc6a668ebfa8e813b3555a59a626c7402b",
+      "id": "shared-ace0614467804c418ee3",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Dómine, probásti me et cognovísti me."
+      ],
+      "title": "Antiphona repetita",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "db7e577576951e6c65cede95033569cc75a7cf8089c3773cea372f6eac6ba878",
+      "id": "shared-db7e577576951e6c65ce",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Mirabília ópera tua, * Dómine, et ánima mea cognóscit nimis."
+      ],
+      "title": "Antiphona",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "421d0d9169bae081150195d02ed2efa1efca0fa2df5ffea85ecbb1286b7eceb1",
+      "id": "shared-421d0d9169bae0811501",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm138.txt",
+          "section": "Psalm 138",
+          "transformation": [
+            "resolve_refs",
+            "psalm expansion"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Psalmus 138(14-24) [2]",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "138:14 Confitébor tibi quia terribíliter magnificátus es: † mirabília ópera tua, * et ánima mea cognóscit nimis.",
+        "138:15 Non est occultátum os meum a te, quod fecísti in occúlto: * et substántia mea in inferióribus terræ.",
+        "138:16 Imperféctum meum vidérunt óculi tui, † et in libro tuo omnes scribéntur: * dies formabúntur, et nemo in eis.",
+        "138:17 Mihi autem nimis honorificáti sunt amíci tui, Deus: * nimis confortátus est principátus eórum.",
+        "138:18 Dinumerábo eos, et super arénam multiplicabúntur: * exsurréxi, et adhuc sum tecum.",
+        "138:19 Si occíderis, Deus, peccatóres: * viri sánguinum, declináte a me:",
+        "138:20 Quia dícitis in cogitatióne: * Accípient in vanitáte civitátes tuas.",
+        "138:21 Nonne qui odérunt te, Dómine, óderam? * et super inimícos tuos tabescébam?",
+        "138:22 Perfécto ódio óderam illos: * et inimíci facti sunt mihi.",
+        "138:23 Proba me, Deus, et scito cor meum: * intérroga me, et cognósce sémitas meas.",
+        "138:24 Et vide, si via iniquitátis in me est: * et deduc me in via ætérna.",
+        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+      ],
+      "title": "Psalmus 138(14-24) [2]",
+      "type": "psalm",
+      "verses": [
+        "138:14 Confitébor tibi quia terribíliter magnificátus es: † mirabília ópera tua, * et ánima mea cognóscit nimis.",
+        "138:15 Non est occultátum os meum a te, quod fecísti in occúlto: * et substántia mea in inferióribus terræ.",
+        "138:16 Imperféctum meum vidérunt óculi tui, † et in libro tuo omnes scribéntur: * dies formabúntur, et nemo in eis.",
+        "138:17 Mihi autem nimis honorificáti sunt amíci tui, Deus: * nimis confortátus est principátus eórum.",
+        "138:18 Dinumerábo eos, et super arénam multiplicabúntur: * exsurréxi, et adhuc sum tecum.",
+        "138:19 Si occíderis, Deus, peccatóres: * viri sánguinum, declináte a me:",
+        "138:20 Quia dícitis in cogitatióne: * Accípient in vanitáte civitátes tuas.",
+        "138:21 Nonne qui odérunt te, Dómine, óderam? * et super inimícos tuos tabescébam?",
+        "138:22 Perfécto ódio óderam illos: * et inimíci facti sunt mihi.",
+        "138:23 Proba me, Deus, et scito cor meum: * intérroga me, et cognósce sémitas meas.",
+        "138:24 Et vide, si via iniquitátis in me est: * et deduc me in via ætérna."
+      ]
+    },
+    {
+      "contentHash": "d4a350d0ee58777c0c4830b6c9c9902c48aeea987bced38a0d66d48cb066bf17",
+      "id": "shared-d4a350d0ee58777c0c48",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Mirabília ópera tua, Dómine, et ánima mea cognóscit nimis."
+      ],
+      "title": "Antiphona repetita",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "f892be364019b577c594e959d53fe2b5755e13c51042e6659c5d047f164a9a3c",
+      "id": "shared-f892be364019b577c594",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Ne derelínquas me, * Dómine, virtus salútis meæ."
+      ],
+      "title": "Antiphona",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "8f85592f6093fd099b7a0f250affc04e47e3fd0e1c49d8777afea9a0c77d4d61",
+      "id": "shared-8f85592f6093fd099b7a",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm139.txt",
+          "section": "Psalm 139",
+          "transformation": [
+            "resolve_refs",
+            "psalm expansion"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Psalmus 139 [3]",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "139:2 Éripe me, Dómine, ab hómine malo: * a viro iníquo éripe me.",
+        "139:3 Qui cogitavérunt iniquitátes in corde: * tota die constituébant prǽlia.",
+        "139:4 Acuérunt linguas suas sicut serpéntis: * venénum áspidum sub lábiis eórum.",
+        "139:5 Custódi me, Dómine, de manu peccatóris: * et ab homínibus iníquis éripe me.",
+        "139:5 Qui cogitavérunt supplantáre gressus meos: * abscondérunt supérbi láqueum mihi:",
+        "139:6 Et funes extendérunt in láqueum: * juxta iter scándalum posuérunt mihi.",
+        "139:7 Dixi Dómino: Deus meus es tu: * exáudi, Dómine, vocem deprecatiónis meæ.",
+        "139:8 Dómine, Dómine, virtus salútis meæ: * obumbrásti super caput meum in die belli.",
+        "139:9 Ne tradas me, Dómine, a desidério meo peccatóri: * cogitavérunt contra me, ne derelínquas me, ne forte exalténtur.",
+        "139:10 Caput circúitus eórum: * labor labiórum ipsórum opériet eos.",
+        "139:11 Cadent super eos carbónes, in ignem deícies eos: * in misériis non subsístent.",
+        "139:12 Vir linguósus non dirigétur in terra: * virum injústum mala cápient in intéritu.",
+        "139:13 Cognóvi quia fáciet Dóminus judícium ínopis: * et vindíctam páuperum.",
+        "139:14 Verúmtamen justi confitebúntur nómini tuo: * et habitábunt recti cum vultu tuo.",
+        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+      ],
+      "title": "Psalmus 139 [3]",
+      "type": "psalm",
+      "verses": [
+        "139:2 Éripe me, Dómine, ab hómine malo: * a viro iníquo éripe me.",
+        "139:3 Qui cogitavérunt iniquitátes in corde: * tota die constituébant prǽlia.",
+        "139:4 Acuérunt linguas suas sicut serpéntis: * venénum áspidum sub lábiis eórum.",
+        "139:5 Custódi me, Dómine, de manu peccatóris: * et ab homínibus iníquis éripe me.",
+        "139:5 Qui cogitavérunt supplantáre gressus meos: * abscondérunt supérbi láqueum mihi:",
+        "139:6 Et funes extendérunt in láqueum: * juxta iter scándalum posuérunt mihi.",
+        "139:7 Dixi Dómino: Deus meus es tu: * exáudi, Dómine, vocem deprecatiónis meæ.",
+        "139:8 Dómine, Dómine, virtus salútis meæ: * obumbrásti super caput meum in die belli.",
+        "139:9 Ne tradas me, Dómine, a desidério meo peccatóri: * cogitavérunt contra me, ne derelínquas me, ne forte exalténtur.",
+        "139:10 Caput circúitus eórum: * labor labiórum ipsórum opériet eos.",
+        "139:11 Cadent super eos carbónes, in ignem deícies eos: * in misériis non subsístent.",
+        "139:12 Vir linguósus non dirigétur in terra: * virum injústum mala cápient in intéritu.",
+        "139:13 Cognóvi quia fáciet Dóminus judícium ínopis: * et vindíctam páuperum.",
+        "139:14 Verúmtamen justi confitebúntur nómini tuo: * et habitábunt recti cum vultu tuo."
+      ]
+    },
+    {
+      "contentHash": "5d01f158a6e4864ec251410fb40f952a6917931d04a407e937dcb272aae252da",
+      "id": "shared-5d01f158a6e4864ec251",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Ne derelínquas me, Dómine, virtus salútis meæ."
+      ],
+      "title": "Antiphona repetita",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "5fcc41d54d3a375789f78112cf1bab761426a944b841e2234821364733864cf4",
+      "id": "shared-5fcc41d54d3a375789f7",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Dómine, * clamávi ad te, exáudi me. ‡"
+      ],
+      "title": "Antiphona",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "0d20f66ec8a7ff9537fd38ead0dcc0a7ede45dc36425642650318749ceb15eec",
+      "id": "shared-0d20f66ec8a7ff9537fd",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm140.txt",
+          "section": "Psalm 140",
+          "transformation": [
+            "resolve_refs",
+            "psalm expansion"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Psalmus 140 [4]",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "140:1  Dómine, clamávi ad te, exáudi me: * ‡ inténde voci meæ, cum clamávero ad te.",
+        "140:2 Dirigátur orátio mea sicut incénsum in conspéctu tuo: * elevátio mánuum meárum sacrifícium vespertínum.",
+        "140:3 Pone, Dómine, custódiam ori meo: * et óstium circumstántiæ lábiis meis.",
+        "140:4 Non declínes cor meum in verba malítiæ, * ad excusándas excusatiónes in peccátis.",
+        "140:4 Cum homínibus operántibus iniquitátem: * et non communicábo cum eléctis eórum.",
+        "140:5 Corrípiet me justus in misericórdia, et increpábit me: * óleum autem peccatóris non impínguet caput meum.",
+        "140:6 Quóniam adhuc et orátio mea in beneplácitis eórum: * absórpti sunt juncti petræ júdices eórum.",
+        "140:7 Áudient verba mea quóniam potuérunt: * sicut crassitúdo terræ erúpta est super terram.",
+        "140:8 Dissipáta sunt ossa nostra secus inférnum: * quia ad te, Dómine, Dómine, óculi mei: in te sperávi, non áuferas ánimam meam.",
+        "140:9 Custódi me a láqueo, quem statuérunt mihi: * et a scándalis operántium iniquitátem.",
+        "140:10 Cadent in retiáculo ejus peccatóres: * singuláriter sum ego donec tránseam.",
+        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+      ],
+      "title": "Psalmus 140 [4]",
+      "type": "psalm",
+      "verses": [
+        "140:1  Dómine, clamávi ad te, exáudi me: * ‡ inténde voci meæ, cum clamávero ad te.",
+        "140:2 Dirigátur orátio mea sicut incénsum in conspéctu tuo: * elevátio mánuum meárum sacrifícium vespertínum.",
+        "140:3 Pone, Dómine, custódiam ori meo: * et óstium circumstántiæ lábiis meis.",
+        "140:4 Non declínes cor meum in verba malítiæ, * ad excusándas excusatiónes in peccátis.",
+        "140:4 Cum homínibus operántibus iniquitátem: * et non communicábo cum eléctis eórum.",
+        "140:5 Corrípiet me justus in misericórdia, et increpábit me: * óleum autem peccatóris non impínguet caput meum.",
+        "140:6 Quóniam adhuc et orátio mea in beneplácitis eórum: * absórpti sunt juncti petræ júdices eórum.",
+        "140:7 Áudient verba mea quóniam potuérunt: * sicut crassitúdo terræ erúpta est super terram.",
+        "140:8 Dissipáta sunt ossa nostra secus inférnum: * quia ad te, Dómine, Dómine, óculi mei: in te sperávi, non áuferas ánimam meam.",
+        "140:9 Custódi me a láqueo, quem statuérunt mihi: * et a scándalis operántium iniquitátem.",
+        "140:10 Cadent in retiáculo ejus peccatóres: * singuláriter sum ego donec tránseam."
+      ]
+    },
+    {
+      "contentHash": "28be498ecc05dd9c56ccdc310157f51a2fed9f2fc842e3b8b00f7a5ad54161ca",
+      "id": "shared-28be498ecc05dd9c56cc",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Dómine, clamávi ad te, exáudi me."
+      ],
+      "title": "Antiphona repetita",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "50338c84ffa565bacc423b7bf0136f6c8d08ae53a07bd74a4f30f10c312d7618",
+      "id": "shared-50338c84ffa565bacc42",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Educ de custódia * ánimam meam, Dómine, ad confiténdum nómini tuo."
+      ],
+      "title": "Antiphona",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "59d38f53d1897cc6e7e83fc87bed5e93e418bbbde14f598b15ecfbd317f40cab",
+      "id": "shared-59d38f53d1897cc6e7e8",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm141.txt",
+          "section": "Psalm 141",
+          "transformation": [
+            "resolve_refs",
+            "psalm expansion"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Psalmus 141 [5]",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "141:2 Voce mea ad Dóminum clamávi: * voce mea ad Dóminum deprecátus sum:",
+        "141:3 Effúndo in conspéctu ejus oratiónem meam, * et tribulatiónem meam ante ipsum pronúntio.",
+        "141:4 In deficiéndo ex me spíritum meum, * et tu cognovísti sémitas meas.",
+        "141:4 In via hac, qua ambulábam, * abscondérunt láqueum mihi.",
+        "141:5 Considerábam ad déxteram, et vidébam: * et non erat qui cognósceret me.",
+        "141:5 Périit fuga a me, * et non est qui requírat ánimam meam.",
+        "141:6 Clamávi ad te, Dómine, * dixi: Tu es spes mea, pórtio mea in terra vivéntium.",
+        "141:7 Inténde ad deprecatiónem meam: * quia humiliátus sum nimis.",
+        "141:7 Líbera me a persequéntibus me: * quia confortáti sunt super me.",
+        "141:8 Educ de custódia ánimam meam ad confiténdum nómini tuo: * me exspéctant justi, donec retríbuas mihi.",
+        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+      ],
+      "title": "Psalmus 141 [5]",
+      "type": "psalm",
+      "verses": [
+        "141:2 Voce mea ad Dóminum clamávi: * voce mea ad Dóminum deprecátus sum:",
+        "141:3 Effúndo in conspéctu ejus oratiónem meam, * et tribulatiónem meam ante ipsum pronúntio.",
+        "141:4 In deficiéndo ex me spíritum meum, * et tu cognovísti sémitas meas.",
+        "141:4 In via hac, qua ambulábam, * abscondérunt láqueum mihi.",
+        "141:5 Considerábam ad déxteram, et vidébam: * et non erat qui cognósceret me.",
+        "141:5 Périit fuga a me, * et non est qui requírat ánimam meam.",
+        "141:6 Clamávi ad te, Dómine, * dixi: Tu es spes mea, pórtio mea in terra vivéntium.",
+        "141:7 Inténde ad deprecatiónem meam: * quia humiliátus sum nimis.",
+        "141:7 Líbera me a persequéntibus me: * quia confortáti sunt super me.",
+        "141:8 Educ de custódia ánimam meam ad confiténdum nómini tuo: * me exspéctant justi, donec retríbuas mihi."
+      ]
+    },
+    {
+      "contentHash": "309e85f21786cf4648fe67dc37b828994d1b2474ebe5cf59ffd4878d4716904a",
+      "id": "shared-309e85f21786cf4648fe",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Educ de custódia ánimam meam, Dómine, ad confiténdum nómini tuo."
+      ],
+      "title": "Antiphona repetita",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "88d043d8ce4f5f6f3acecc5bc3802b9e2a7268acb65fc47cdccdf9859c6d7a43",
+      "id": "shared-88d043d8ce4f5f6f3ace",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Capitulum",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Capitulum",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Capitulum Hymnus Versus {ex Commune aut Festo}",
+        "Titus 2:11-12",
+        "Appáruit grátia Dei Salvatóris nostri ómnibus homínibus, erúdiens nos, ut abnegántes impietátem, et sæculária desidéria, sóbrie, et juste, et pie vivámus in hoc sǽculo.",
+        "℟. Deo grátias."
+      ],
+      "title": "Capitulum",
+      "type": "capitulum",
       "verses": []
     },
     {
@@ -14217,6 +15494,758 @@
       "verses": []
     },
     {
+      "contentHash": "1478cd59e88b760be4eed30790087c21b9068990ec457fb9c7959f8f675935a1",
+      "id": "shared-1478cd59e88b760be4ee",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Omnis * qui invocáverit nomen Dómini, salvus erit."
+      ],
+      "title": "Antiphona",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "2e994c5f830caea533702592321d2f0a3a554d7b428bdfa3921d05774a5d0c1d",
+      "id": "shared-2e994c5f830caea53370",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Omnis qui invocáverit nomen Dómini, salvus erit."
+      ],
+      "title": "Antiphona repetita",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "958bf640353ca40c11b4a09b79a0ee8a850d3197cdd732ab19c8bde74ae13d5e",
+      "id": "shared-958bf640353ca40c11b4",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Sanctum et terríbile * nomen ejus, inítium sapiéntiæ timor Dómini."
+      ],
+      "title": "Antiphona",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "09521a15674c78c1d4a87b31afcb03191bcdafbc253238d76e51e46e3914f539",
+      "id": "shared-09521a15674c78c1d4a8",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm110.txt",
+          "section": "Psalm 110",
+          "transformation": [
+            "resolve_refs",
+            "psalm expansion"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Psalmus 110 [2]",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "110:1 Confitébor tibi, Dómine, in toto corde meo: * in consílio justórum, et congregatióne.",
+        "110:2 Magna ópera Dómini: * exquisíta in omnes voluntátes ejus.",
+        "110:3 Conféssio et magnificéntia opus ejus: * et justítia ejus manet in sǽculum sǽculi.",
+        "110:4 Memóriam fecit mirabílium suórum, † miséricors et miserátor Dóminus: * (5a) escam dedit timéntibus se.",
+        "110:5b Memor erit in sǽculum testaménti sui: * (6) virtútem óperum suórum annuntiábit pópulo suo:",
+        "110:7 Ut det illis hereditátem géntium: * ópera mánuum ejus véritas, et judícium.",
+        "110:8 Fidélia ómnia mandáta ejus: † confirmáta in sǽculum sǽculi, * facta in veritáte et æquitáte.",
+        "110:9a Redemptiónem misit pópulo suo: * mandávit in ætérnum testaméntum suum.",
+        "110:9b (fit reverentia) Sanctum, et terríbile nomen ejus: * (10a) inítium sapiéntiæ timor Dómini.",
+        "110:10b Intelléctus bonus ómnibus faciéntibus eum: * laudátio ejus manet in sǽculum sǽculi.",
+        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+      ],
+      "title": "Psalmus 110 [2]",
+      "type": "psalm",
+      "verses": [
+        "110:1 Confitébor tibi, Dómine, in toto corde meo: * in consílio justórum, et congregatióne.",
+        "110:2 Magna ópera Dómini: * exquisíta in omnes voluntátes ejus.",
+        "110:3 Conféssio et magnificéntia opus ejus: * et justítia ejus manet in sǽculum sǽculi.",
+        "110:4 Memóriam fecit mirabílium suórum, † miséricors et miserátor Dóminus: * (5a) escam dedit timéntibus se.",
+        "110:5b Memor erit in sǽculum testaménti sui: * (6) virtútem óperum suórum annuntiábit pópulo suo:",
+        "110:7 Ut det illis hereditátem géntium: * ópera mánuum ejus véritas, et judícium.",
+        "110:8 Fidélia ómnia mandáta ejus: † confirmáta in sǽculum sǽculi, * facta in veritáte et æquitáte.",
+        "110:9a Redemptiónem misit pópulo suo: * mandávit in ætérnum testaméntum suum.",
+        "110:9b (fit reverentia) Sanctum, et terríbile nomen ejus: * (10a) inítium sapiéntiæ timor Dómini.",
+        "110:10b Intelléctus bonus ómnibus faciéntibus eum: * laudátio ejus manet in sǽculum sǽculi."
+      ]
+    },
+    {
+      "contentHash": "b0574dadda00f890629267e8080318f6116e519c7d0004c07a4ac4c56d61a77b",
+      "id": "shared-b0574dadda00f8906292",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Sanctum et terríbile nomen ejus, inítium sapiéntiæ timor Dómini."
+      ],
+      "title": "Antiphona repetita",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "55af32fdee9fa05eff35ed2e8bdddc9b8d80e8ce1ca98054db7b2d5b184565e8",
+      "id": "shared-55af32fdee9fa05eff35",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Ego autem * in Dómino gaudébo, et exsultábo in Deo Jesu meo."
+      ],
+      "title": "Antiphona",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "61748e4d96625acfa6d8a9b4723bc13e6790610296eece1c1e0885b5931018bf",
+      "id": "shared-61748e4d96625acfa6d8",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm111.txt",
+          "section": "Psalm 111",
+          "transformation": [
+            "resolve_refs",
+            "psalm expansion"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Psalmus 111 [3]",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "111:1 Beátus vir, qui timet Dóminum: * in mandátis ejus volet nimis.",
+        "111:2 Potens in terra erit semen ejus: * generátio rectórum benedicétur.",
+        "111:3 Glória, et divítiæ in domo ejus: * et justítia ejus manet in sǽculum sǽculi.",
+        "111:4 Exórtum est in ténebris lumen rectis: * miséricors, et miserátor, et justus.",
+        "111:5 Jucúndus homo qui miserétur et cómmodat, † dispónet sermónes suos in judício: * (6) quia in ætérnum non commovébitur.",
+        "111:7a In memória ætérna erit justus: * ab auditióne mala non timébit.",
+        "111:7b Parátum cor ejus speráre in Dómino, † (8) confirmátum est cor ejus: * non commovébitur donec despíciat inimícos suos.",
+        "111:9 Dispérsit, dedit paupéribus: † justítia ejus manet in sǽculum sǽculi, * cornu ejus exaltábitur in glória.",
+        "111:10 Peccátor vidébit, et irascétur, † déntibus suis fremet et tabéscet: * desidérium peccatórum períbit.",
+        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+      ],
+      "title": "Psalmus 111 [3]",
+      "type": "psalm",
+      "verses": [
+        "111:1 Beátus vir, qui timet Dóminum: * in mandátis ejus volet nimis.",
+        "111:2 Potens in terra erit semen ejus: * generátio rectórum benedicétur.",
+        "111:3 Glória, et divítiæ in domo ejus: * et justítia ejus manet in sǽculum sǽculi.",
+        "111:4 Exórtum est in ténebris lumen rectis: * miséricors, et miserátor, et justus.",
+        "111:5 Jucúndus homo qui miserétur et cómmodat, † dispónet sermónes suos in judício: * (6) quia in ætérnum non commovébitur.",
+        "111:7a In memória ætérna erit justus: * ab auditióne mala non timébit.",
+        "111:7b Parátum cor ejus speráre in Dómino, † (8) confirmátum est cor ejus: * non commovébitur donec despíciat inimícos suos.",
+        "111:9 Dispérsit, dedit paupéribus: † justítia ejus manet in sǽculum sǽculi, * cornu ejus exaltábitur in glória.",
+        "111:10 Peccátor vidébit, et irascétur, † déntibus suis fremet et tabéscet: * desidérium peccatórum períbit."
+      ]
+    },
+    {
+      "contentHash": "24f2f48d9a2bac0dc94504b95735c105395090cffbb46755a9ca544fbe82db73",
+      "id": "shared-24f2f48d9a2bac0dc945",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Ego autem in Dómino gaudébo, et exsultábo in Deo Jesu meo."
+      ],
+      "title": "Antiphona repetita",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "f0d2e34d401c7e5f86b002cd232627df51b8a7b8719e369270f75e3d281525eb",
+      "id": "shared-f0d2e34d401c7e5f86b0",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. A solis ortu * usque ad occásum laudábile nomen Dómini."
+      ],
+      "title": "Antiphona",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "a65dc79c8d02522f92b83048b9d19688618537f8f60563cce8eb31f448b36888",
+      "id": "shared-a65dc79c8d02522f92b8",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm112.txt",
+          "section": "Psalm 112",
+          "transformation": [
+            "resolve_refs",
+            "psalm expansion"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Psalmus 112 [4]",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "112:1 Laudáte, púeri, Dóminum: * laudáte nomen Dómini.",
+        "112:2 (fit reverentia) Sit nomen Dómini benedíctum, * ex hoc nunc, et usque in sǽculum.",
+        "112:3 A solis ortu usque ad occásum, * laudábile nomen Dómini.",
+        "112:4 Excélsus super omnes gentes Dóminus, * et super cælos glória ejus.",
+        "112:5 Quis sicut Dóminus, Deus noster, qui in altis hábitat, * (6) et humília réspicit in cælo et in terra?",
+        "112:7 Súscitans a terra ínopem, * et de stércore érigens páuperem:",
+        "112:8 Ut cóllocet eum cum princípibus, * cum princípibus pópuli sui.",
+        "112:9 Qui habitáre facit stérilem in domo, * matrem filiórum lætántem.",
+        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+      ],
+      "title": "Psalmus 112 [4]",
+      "type": "psalm",
+      "verses": [
+        "112:1 Laudáte, púeri, Dóminum: * laudáte nomen Dómini.",
+        "112:2 (fit reverentia) Sit nomen Dómini benedíctum, * ex hoc nunc, et usque in sǽculum.",
+        "112:3 A solis ortu usque ad occásum, * laudábile nomen Dómini.",
+        "112:4 Excélsus super omnes gentes Dóminus, * et super cælos glória ejus.",
+        "112:5 Quis sicut Dóminus, Deus noster, qui in altis hábitat, * (6) et humília réspicit in cælo et in terra?",
+        "112:7 Súscitans a terra ínopem, * et de stércore érigens páuperem:",
+        "112:8 Ut cóllocet eum cum princípibus, * cum princípibus pópuli sui.",
+        "112:9 Qui habitáre facit stérilem in domo, * matrem filiórum lætántem."
+      ]
+    },
+    {
+      "contentHash": "62a119b7ef9ed9a18b6a5f770dab26cd28438b3cf7137571d96e653f197461c0",
+      "id": "shared-62a119b7ef9ed9a18b6a",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. A solis ortu usque ad occásum laudábile nomen Dómini."
+      ],
+      "title": "Antiphona repetita",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "14b1537cb35b9f67c535c3e7359da1326043471d93757c138ac1216f8d1d82ca",
+      "id": "shared-14b1537cb35b9f67c535",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Sacrificábo * hóstiam laudis, et nomen Dómini invocábo."
+      ],
+      "title": "Antiphona",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "29f7937705ce4ebc74b42158cab2c27bf368a45026c2316adb3471e5f3c8a0e4",
+      "id": "shared-29f7937705ce4ebc74b4",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm115.txt",
+          "section": "Psalm 115",
+          "transformation": [
+            "resolve_refs",
+            "psalm expansion"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Psalmus 115 [5]",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "115:1 Crédidi, propter quod locútus sum: * ego autem humiliátus sum nimis.",
+        "115:2 Ego dixi in excéssu meo: * Omnis homo mendax.",
+        "115:3 Quid retríbuam Dómino, * pro ómnibus, quæ retríbuit mihi?",
+        "115:4 Cálicem salutáris accípiam: * et nomen Dómini invocábo.",
+        "115:5 Vota mea Dómino reddam coram omni pópulo ejus: * (6) pretiósa in conspéctu Dómini mors sanctórum ejus:",
+        "115:7a O Dómine, quia ego servus tuus: * ego servus tuus, et fílius ancíllæ tuæ.",
+        "115:7b Dirupísti víncula mea: † (8) tibi sacrificábo hóstiam laudis, * et nomen Dómini invocábo.",
+        "115:9 Vota mea Dómino reddam in conspéctu omnis pópuli ejus: * (10) in átriis domus Dómini, in médio tui, Jerúsalem.",
+        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+      ],
+      "title": "Psalmus 115 [5]",
+      "type": "psalm",
+      "verses": [
+        "115:1 Crédidi, propter quod locútus sum: * ego autem humiliátus sum nimis.",
+        "115:2 Ego dixi in excéssu meo: * Omnis homo mendax.",
+        "115:3 Quid retríbuam Dómino, * pro ómnibus, quæ retríbuit mihi?",
+        "115:4 Cálicem salutáris accípiam: * et nomen Dómini invocábo.",
+        "115:5 Vota mea Dómino reddam coram omni pópulo ejus: * (6) pretiósa in conspéctu Dómini mors sanctórum ejus:",
+        "115:7a O Dómine, quia ego servus tuus: * ego servus tuus, et fílius ancíllæ tuæ.",
+        "115:7b Dirupísti víncula mea: † (8) tibi sacrificábo hóstiam laudis, * et nomen Dómini invocábo.",
+        "115:9 Vota mea Dómino reddam in conspéctu omnis pópuli ejus: * (10) in átriis domus Dómini, in médio tui, Jerúsalem."
+      ]
+    },
+    {
+      "contentHash": "32de9c1452a605733f9d0efedcf5b6f91e686d31389084453ab61c6338a7fb54",
+      "id": "shared-32de9c1452a605733f9d",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona repetita",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Sacrificábo hóstiam laudis, et nomen Dómini invocábo."
+      ],
+      "title": "Antiphona repetita",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "5b5758e781b502ad034133c68ffdc23c0d7194a3d70cd2a571808e908a48810d",
+      "id": "shared-5b5758e781b502ad0341",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Capitulum",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Capitulum",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Capitulum Hymnus Versus {ex Proprio de Tempore}",
+        "Phil 2:8-10",
+        "Fratres: Christus humiliávit semetípsum, factus obédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum, et donávit illi nomen, quod est super omne nomen, ut in nómine Jesu omne genu flectátur.",
+        "℟. Deo grátias."
+      ],
+      "title": "Capitulum",
+      "type": "capitulum",
+      "verses": []
+    },
+    {
+      "contentHash": "b665ce97375dcfbb3e039e298ae95165cb7680636ece107875f25b43736dee6e",
+      "id": "shared-b665ce97375dcfbb3e03",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Hymnus",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Hymnus",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Jesu, dulcis memória,",
+        "Dans vera cordis gáudia:",
+        "Sed super mel, et ómnia,",
+        "Ejus dulcis præséntia.",
+        "_",
+        "Nil cánitur suávius,",
+        "Nil audítur jucúndius,",
+        "Nil cogitátur dúlcius,",
+        "Quam Jesus Dei Fílius.",
+        "_",
+        "Jesu, spes pœniténtibus,",
+        "Quam pius es peténtibus!",
+        "Quam bonus te quæréntibus!",
+        "Sed quid inveniéntibus?",
+        "_",
+        "Nec lingua valet dícere,",
+        "Nec líttera exprímere:",
+        "Expértus potest crédere,",
+        "Quid sit Jesum dilígere.",
+        "_",
+        "Sis, Jesu, nostrum gáudium,",
+        "Qui es futúrus prǽmium:",
+        "Sit nostra in te glória,",
+        "Per cuncta semper sǽcula.",
+        "Amen."
+      ],
+      "title": "Hymnus",
+      "type": "hymn",
+      "verses": []
+    },
+    {
+      "contentHash": "bd85aa3d4f2963cbd9316057fce81edff44cdb99965f05d40f9af02e696508b7",
+      "id": "shared-bd85aa3d4f2963cbd931",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Versus",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Versus",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "℣. Sit nomen Dómini benedíctum, allelúja.",
+        "℟. Ex hoc nunc et usque in sǽculum, allelúja."
+      ],
+      "title": "Versus",
+      "type": "versicle",
+      "verses": []
+    },
+    {
+      "contentHash": "489a2329fda96711e8dbcb1bcbced95fd31252fa00dd8d43baaa6843d4f11b78",
+      "id": "shared-489a2329fda96711e8db",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona ad magnificat",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona ad magnificat",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Fecit * mihi magna qui potens est, et sanctum Nomen ejus, allelúja."
+      ],
+      "title": "Antiphona ad magnificat",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "f9c798604eb5dac40b55d6e42fd5145f7033a2b2b20fae275034e71ca891d790",
+      "id": "shared-f9c798604eb5dac40b55",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+          "section": "Antiphona repetita ad magnificat",
+          "transformation": [
+            "specials",
+            "vesperae special text"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona repetita ad magnificat",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Ant. Fecit mihi magna qui potens est, et sanctum Nomen ejus, allelúja."
+      ],
+      "title": "Antiphona repetita ad magnificat",
+      "type": "antiphon",
+      "verses": []
+    },
+    {
+      "contentHash": "07943ff7e102a268a140845f83ebbab61de9eb09b037a2a6fb2c7cdc72673a39",
+      "id": "shared-07943ff7e102a268a140",
+      "rubricLines": [],
+      "sourceRefs": [
+        {
+          "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+          "section": "Dominus_vobiscum",
+          "transformation": [
+            "resolve_refs",
+            "common prayers"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Oratio{ex Proprio de Tempore}",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "text": [
+        "Oratio {ex Proprio de Tempore}",
+        "℣. Dómine, exáudi oratiónem meam.",
+        "℟. Et clamor meus ad te véniat.",
+        "Orémus.",
+        "Deus, qui unigénitum Fílium tuum constituísti humáni géneris Salvatórem, et Jesum vocári jussísti: concéde propítius; ut, cujus sanctum nomen venerámur in terris, ejus quoque aspéctu perfruámur in cælis.",
+        "Per eúmdem Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+        "℟. Amen."
+      ],
+      "title": "Oratio{ex Proprio de Tempore}",
+      "type": "prayer",
+      "verses": []
+    },
+    {
       "contentHash": "5ab3e361b022b5f6f59c6bcf4521c2725002d3d0027aaa1827d9eb188e35fd2c",
       "id": "shared-5ab3e361b022b5f6f59c",
       "rubricLines": [],
@@ -16448,1948 +18477,6 @@
       "title": "Antiphona repetita",
       "type": "antiphon",
       "verses": []
-    },
-    {
-      "contentHash": "a36242b5aef1e8b57e379121661d7958baac9c7222b70634524f1257557b54c2",
-      "id": "shared-a36242b5aef1e8b57e37",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "specials",
-            "laudes special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Laudes.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-laudes-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Sitívit * ánima mea ad nomen sanctum tuum, Dómine."
-      ],
-      "title": "Antiphona",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "61e046b2f5d9f98e3ed464c461520f6bc4200d3a242d281f1214ea45a3d61ecb",
-      "id": "shared-61e046b2f5d9f98e3ed4",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "specials",
-            "laudes special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Laudes.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-laudes-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Sitívit ánima mea ad nomen sanctum tuum, Dómine."
-      ],
-      "title": "Antiphona repetita",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "d4621e75f444ce4ae1929b12b5edc834a7a0420235577565b98100d27be37713",
-      "id": "shared-d4621e75f444ce4ae192",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "specials",
-            "laudes special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Laudes.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-laudes-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Benedíctum * nomen glóriæ tuæ sanctum, et laudábile, et superexaltátum in sǽcula."
-      ],
-      "title": "Antiphona",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "578ea68cfc1b0444d618913da6c0337205cb3f7464f377c5e3f983b162aeabdd",
-      "id": "shared-578ea68cfc1b0444d618",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "specials",
-            "laudes special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Laudes.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-laudes-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Benedíctum nomen glóriæ tuæ sanctum, et laudábile, et superexaltátum in sǽcula."
-      ],
-      "title": "Antiphona repetita",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "693848eeea57b48cc3ef2daa611a0d6eb86c454e9babdec7d19eea7a4e4f4c2e",
-      "id": "shared-693848eeea57b48cc3ef",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "specials",
-            "laudes special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Laudes.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-laudes-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Júvenes et vírgines, * senes cum junióribus laudáte nomen Dómini, quia exaltátum est nomen ejus solíus."
-      ],
-      "title": "Antiphona",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "500d69ccf46c7bb3cb8eb6f60092f9ac18d24312875129d258e227aaf762e0b3",
-      "id": "shared-500d69ccf46c7bb3cb8e",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "specials",
-            "laudes special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Laudes.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-laudes-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Júvenes et vírgines, senes cum junióribus laudáte nomen Dómini, quia exaltátum est nomen ejus solíus."
-      ],
-      "title": "Antiphona repetita",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "97ed3fe77db0d71356ea0df9ba3d8ccd2a0134df348cbb1a6ad33fee45ad6502",
-      "id": "shared-97ed3fe77db0d71356ea",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
-          "section": "Capitulum",
-          "transformation": [
-            "specials",
-            "laudes special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Laudes.txt",
-          "section": "Capitulum",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-laudes-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Capitulum Hymnus Versus {ex Proprio de Tempore}",
-        "Phil 2:8-10",
-        "Fratres: Christus humiliávit semetípsum, factus obédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum, et donávit illi nomen, quod est super omne nomen, ut in nómine Jesu omne genu flectátur.",
-        "℟. Deo grátias."
-      ],
-      "title": "Capitulum",
-      "type": "capitulum",
-      "verses": []
-    },
-    {
-      "contentHash": "f59479c39c9e4c2b5a981f709276e8831659759610e804f0003765952582a645",
-      "id": "shared-f59479c39c9e4c2b5a98",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
-          "section": "Hymnus",
-          "transformation": [
-            "specials",
-            "laudes special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Laudes.txt",
-          "section": "Hymnus",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-laudes-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Jesu decus angélicum,",
-        "In aure dulce cánticum,",
-        "In ore mel miríficum,",
-        "In corde nectar cǽlicum.",
-        "_",
-        "Qui te gustant, esúriunt;",
-        "Qui bibunt, adhuc sítiunt;",
-        "Desideráre nésciunt,",
-        "Nisi Jesum, quem díligunt.",
-        "_",
-        "O Jesu mi dulcíssime,",
-        "Spes suspirántis ánimæ!",
-        "Te quærunt piæ lácrimæ,",
-        "Te clamor mentis íntimæ.",
-        "_",
-        "Mane nobíscum, Dómine,",
-        "Et nos illústra lúmine;",
-        "Pulsa mentis calígine,",
-        "Mundum reple dulcédine.",
-        "_",
-        "Jesu, flos Matris Vírginis,",
-        "Amor nostræ dulcédinis,",
-        "Tibi laus, honor nóminis,",
-        "Regnum beatitúdinis.",
-        "Amen."
-      ],
-      "title": "Hymnus",
-      "type": "hymn",
-      "verses": []
-    },
-    {
-      "contentHash": "6c4d6d8f3f741157edfdf74721e4aef6ee484f8394e53173fda14910762da8af",
-      "id": "shared-6c4d6d8f3f741157edfd",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
-          "section": "Versus",
-          "transformation": [
-            "specials",
-            "laudes special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Laudes.txt",
-          "section": "Versus",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-laudes-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "℣. Adjutórium nostrum in nómine Dómini.",
-        "℟. Qui fecit cælum et terram."
-      ],
-      "title": "Versus",
-      "type": "versicle",
-      "verses": []
-    },
-    {
-      "contentHash": "8d8f1a4b313dc072a929ebbcdcbbd5a88a5d406029eecf928239b0c5c673cac0",
-      "id": "shared-8d8f1a4b313dc072a929",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
-          "section": "Antiphona ad benedictus",
-          "transformation": [
-            "specials",
-            "laudes special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Laudes.txt",
-          "section": "Antiphona ad benedictus",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-laudes-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Dedit se, * ut liberáret pópulum, et acquíreret sibi nomen ætérnum, allelúja."
-      ],
-      "title": "Antiphona ad benedictus",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "df1cb3d465987f2a57c2c1431be2c9c67676054ab30b6923ef3c4f166ead80d9",
-      "id": "shared-df1cb3d465987f2a57c2",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
-          "section": "Antiphona repetita ad benedictus",
-          "transformation": [
-            "specials",
-            "laudes special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Laudes.txt",
-          "section": "Antiphona repetita ad benedictus",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-laudes-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Dedit se, ut liberáret pópulum, et acquíreret sibi nomen ætérnum, allelúja."
-      ],
-      "title": "Antiphona repetita ad benedictus",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "6e2fc55fd33b51764f21b0cce7a5318e81cce491cb6f69dee55d28a73c450c2d",
-      "id": "shared-6e2fc55fd33b51764f21",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
-          "section": "Dominus_vobiscum",
-          "transformation": [
-            "resolve_refs",
-            "common prayers"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Laudes.txt",
-          "section": "Oratio{ex Proprio de Tempore}",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-laudes-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Oratio {ex Proprio de Tempore}",
-        "℣. Dómine, exáudi oratiónem meam.",
-        "℟. Et clamor meus ad te véniat.",
-        "Orémus.",
-        "Deus, qui unigénitum Fílium tuum constituísti humáni géneris Salvatórem, et Jesum vocári jussísti: concéde propítius; ut, cujus sanctum nomen venerámur in terris, ejus quoque aspéctu perfruámur in cælis.",
-        "Per eúmdem Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
-        "℟. Amen."
-      ],
-      "title": "Oratio{ex Proprio de Tempore}",
-      "type": "prayer",
-      "verses": []
-    },
-    {
-      "contentHash": "66cede00114d6338a1b93e378b87ff826c58554f977f47cb7a93d4400ebf133c",
-      "id": "shared-66cede00114d6338a1b9",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Prima Special.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "specials",
-            "prima special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Prima.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-prima-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Allelúja, * confitémini Dómino, quóniam in sǽculum misericórdia ejus, allelúja, allelúja."
-      ],
-      "title": "Antiphona",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "d6dedd9f2c210c956f071c699e987aed899bf83a9119b6a0e38cde85fc4f1b57",
-      "id": "shared-d6dedd9f2c210c956f07",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm117.txt",
-          "section": "Psalm 117",
-          "transformation": [
-            "resolve_refs",
-            "psalm expansion"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Prima.txt",
-          "section": "Psalmus 117 [1]",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-prima-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "117:1 Confitémini Dómino quóniam bonus: * quóniam in sǽculum misericórdia ejus.",
-        "117:2 Dicat nunc Israël quóniam bonus: * quóniam in sǽculum misericórdia ejus.",
-        "117:3 Dicat nunc domus Aaron: * quóniam in sǽculum misericórdia ejus.",
-        "117:4 Dicant nunc qui timent Dóminum: * quóniam in sǽculum misericórdia ejus.",
-        "117:5 De tribulatióne invocávi Dóminum: * et exaudívit me in latitúdine Dóminus.",
-        "117:6 Dóminus mihi adjútor: * non timébo quid fáciat mihi homo.",
-        "117:7 Dóminus mihi adjútor: * et ego despíciam inimícos meos.",
-        "117:8 Bonum est confídere in Dómino, * quam confídere in hómine:",
-        "117:9 Bonum est speráre in Dómino, * quam speráre in princípibus.",
-        "117:10 Omnes gentes circuiérunt me: * et in nómine Dómini quia ultus sum in eos.",
-        "117:11 Circumdántes circumdedérunt me: * et in nómine Dómini quia ultus sum in eos.",
-        "117:12 Circumdedérunt me sicut apes, † et exarsérunt sicut ignis in spinis: * et in nómine Dómini quia ultus sum in eos.",
-        "117:13 Impúlsus evérsus sum ut cáderem: * et Dóminus suscépit me.",
-        "117:14 Fortitúdo mea, et laus mea Dóminus: * et factus est mihi in salútem.",
-        "117:15 Vox exsultatiónis, et salútis * in tabernáculis justórum.",
-        "117:16 Déxtera Dómini fecit virtútem: † déxtera Dómini exaltávit me, * déxtera Dómini fecit virtútem.",
-        "117:17 Non móriar, sed vivam: * et narrábo ópera Dómini.",
-        "117:18 Castígans castigávit me Dóminus: * et morti non trádidit me.",
-        "117:19 Aperíte mihi portas justítiæ, † ingréssus in eas confitébor Dómino: * (20) hæc porta Dómini, justi intrábunt in eam.",
-        "117:21 Confitébor tibi quóniam exaudísti me: * et factus es mihi in salútem.",
-        "117:22 Lápidem, quem reprobavérunt ædificántes: * hic factus est in caput ánguli.",
-        "117:23 A Dómino factum est istud: * et est mirábile in óculis nostris.",
-        "117:24 Hæc est dies, quam fecit Dóminus: * exsultémus, et lætémur in ea.",
-        "117:25 O Dómine, salvum me fac, † o Dómine, bene prosperáre: * (26a) benedíctus qui venit in nómine Dómini.",
-        "117:26b Benedíximus vobis de domo Dómini: * (27a) Deus Dóminus, et illúxit nobis.",
-        "117:27b Constitúite diem solémnem in condénsis, * usque ad cornu altáris.",
-        "117:28a Deus meus es tu, et confitébor tibi: * Deus meus es tu, et exaltábo te.",
-        "117:28b Confitébor tibi quóniam exaudísti me * et factus es mihi in salútem.",
-        "117:29 Confitémini Dómino quóniam bonus: * quóniam in sǽculum misericórdia ejus.",
-        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
-        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
-      ],
-      "title": "Psalmus 117 [1]",
-      "type": "psalm",
-      "verses": [
-        "117:1 Confitémini Dómino quóniam bonus: * quóniam in sǽculum misericórdia ejus.",
-        "117:2 Dicat nunc Israël quóniam bonus: * quóniam in sǽculum misericórdia ejus.",
-        "117:3 Dicat nunc domus Aaron: * quóniam in sǽculum misericórdia ejus.",
-        "117:4 Dicant nunc qui timent Dóminum: * quóniam in sǽculum misericórdia ejus.",
-        "117:5 De tribulatióne invocávi Dóminum: * et exaudívit me in latitúdine Dóminus.",
-        "117:6 Dóminus mihi adjútor: * non timébo quid fáciat mihi homo.",
-        "117:7 Dóminus mihi adjútor: * et ego despíciam inimícos meos.",
-        "117:8 Bonum est confídere in Dómino, * quam confídere in hómine:",
-        "117:9 Bonum est speráre in Dómino, * quam speráre in princípibus.",
-        "117:10 Omnes gentes circuiérunt me: * et in nómine Dómini quia ultus sum in eos.",
-        "117:11 Circumdántes circumdedérunt me: * et in nómine Dómini quia ultus sum in eos.",
-        "117:12 Circumdedérunt me sicut apes, † et exarsérunt sicut ignis in spinis: * et in nómine Dómini quia ultus sum in eos.",
-        "117:13 Impúlsus evérsus sum ut cáderem: * et Dóminus suscépit me.",
-        "117:14 Fortitúdo mea, et laus mea Dóminus: * et factus est mihi in salútem.",
-        "117:15 Vox exsultatiónis, et salútis * in tabernáculis justórum.",
-        "117:16 Déxtera Dómini fecit virtútem: † déxtera Dómini exaltávit me, * déxtera Dómini fecit virtútem.",
-        "117:17 Non móriar, sed vivam: * et narrábo ópera Dómini.",
-        "117:18 Castígans castigávit me Dóminus: * et morti non trádidit me.",
-        "117:19 Aperíte mihi portas justítiæ, † ingréssus in eas confitébor Dómino: * (20) hæc porta Dómini, justi intrábunt in eam.",
-        "117:21 Confitébor tibi quóniam exaudísti me: * et factus es mihi in salútem.",
-        "117:22 Lápidem, quem reprobavérunt ædificántes: * hic factus est in caput ánguli.",
-        "117:23 A Dómino factum est istud: * et est mirábile in óculis nostris.",
-        "117:24 Hæc est dies, quam fecit Dóminus: * exsultémus, et lætémur in ea.",
-        "117:25 O Dómine, salvum me fac, † o Dómine, bene prosperáre: * (26a) benedíctus qui venit in nómine Dómini.",
-        "117:26b Benedíximus vobis de domo Dómini: * (27a) Deus Dóminus, et illúxit nobis.",
-        "117:27b Constitúite diem solémnem in condénsis, * usque ad cornu altáris.",
-        "117:28a Deus meus es tu, et confitébor tibi: * Deus meus es tu, et exaltábo te.",
-        "117:28b Confitébor tibi quóniam exaudísti me * et factus es mihi in salútem.",
-        "117:29 Confitémini Dómino quóniam bonus: * quóniam in sǽculum misericórdia ejus."
-      ]
-    },
-    {
-      "contentHash": "9efd0bffbdbc8be6472e97061a7db4278b71ba653840435731c8595a21d00732",
-      "id": "shared-9efd0bffbdbc8be6472e",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Prima Special.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "specials",
-            "prima special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Prima.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-prima-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Allelúja, confitémini Dómino, quóniam in sǽculum misericórdia ejus, allelúja, allelúja."
-      ],
-      "title": "Antiphona repetita",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "33699db8ceae8316b92d5218a3ee2c1212432d855cada21c8145e3b9c207642a",
-      "id": "shared-33699db8ceae8316b92d",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Martyrologium",
-          "section": "anticipated day from Divinum Officium Latin Martyrologium",
-          "transformation": [
-            "specials",
-            "martyrologium anticipatum"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Prima.txt",
-          "section": "Martyrologium{anticipatur}",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-prima-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Martyrologium {anticipatur}",
-        "Nonis Januárii Luna sexta décima Anno Dómini 2026",
-        "_",
-        "Romæ sancti Telésphori, Papæ et Mártyris; qui, sub Antoníno Pio, post multos labóres, pro Christi confessióne, illústre martýrium duxit.",
-        "In Anglia natális sancti Eduárdi, Regis Anglórum et Confessóris; qui virtúte castitátis et grátia miraculórum fuit insígnis. Ejus autem festívitas, ex decréto Innocéntii Papæ Undécimi, tértio Idus Octóbris, quo die sacrum ejus corpus translátum fuit, potíssimum celebrátur.",
-        "In Ægýpto commemorátio plurimórum sanctórum Mártyrum, qui in Thebáide, sub persecutióne Diocletiáni, divérso tormentórum génere cæsi sunt.",
-        "Antiochíæ sancti Simeónis Mónachi, qui, multos annos in colúmna stans vixit, unde et Stylítæ cognómen accépit; cujus vita et conversátio éxstitit admirábilis.",
-        "Romæ sanctæ Æmiliánæ Vírginis, amitæ sancti Gregórii Papæ; quæ, vocánte Tharsílla soróre, quæ ad Deum præcésserat, hac ipsa die migrávit ad Dóminum.",
-        "Alexandríæ sanctæ Syncléticæ Vírginis, cujus res præcláre gestas sanctus Athanásius monuméntis litterárum commendávit.",
-        "In Ægýpto sanctæ Apollináris Vírginis.",
-        "℣. Et álibi aliórum plurimórum sanctórum Mártyrum et Confessórum, atque sanctárum Vírginum.",
-        "℟. Deo grátias."
-      ],
-      "title": "Martyrologium{anticipatur}",
-      "type": "martyrology",
-      "verses": []
-    },
-    {
-      "contentHash": "fc2b6e3150ca607c613117682b31352bedfb68fdf0079f5b099e42ce1fa919ce",
-      "id": "shared-fc2b6e3150ca607c6131",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "specials",
-            "tertia special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Minor.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-tertia-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Allelúja, * deduc me, Dómine, in sémitam mandatórum tuórum, allelúja, allelúja."
-      ],
-      "title": "Antiphona",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "b17abf57ebb4a05f55ace88c5cee10183e6d0fb554730762c856082d7cf8ee25",
-      "id": "shared-b17abf57ebb4a05f55ac",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "specials",
-            "tertia special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Minor.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-tertia-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Allelúja, deduc me, Dómine, in sémitam mandatórum tuórum, allelúja, allelúja."
-      ],
-      "title": "Antiphona repetita",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "787c11525f83a4b9046229cd911b7b60243bb26fe58e6cad0fa3716ba9fd286e",
-      "id": "shared-787c11525f83a4b90462",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
-          "section": "Capitulum",
-          "transformation": [
-            "specials",
-            "tertia special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Minor.txt",
-          "section": "Capitulum",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-tertia-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Capitulum Responsorium Versus {ex Proprio de Tempore}",
-        "Phil 2:8-10",
-        "Fratres: Christus humiliávit semetípsum, factus obédiens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum, et donávit illi nomen, quod est super omne nomen, ut in nómine Jesu omne genu flectátur.",
-        "℟. Deo grátias."
-      ],
-      "title": "Capitulum",
-      "type": "capitulum",
-      "verses": []
-    },
-    {
-      "contentHash": "09468b4621969754b6f7458c3c78dd0afc8b592112acc2f705bc11beae3a5df1",
-      "id": "shared-09468b4621969754b6f7",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
-          "section": "Responsorium breve",
-          "transformation": [
-            "specials",
-            "tertia special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Minor.txt",
-          "section": "Responsorium breve",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-tertia-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "℟.br. Sit nomen Dómini benedíctum, * Allelúja, allelúja.",
-        "℟. Sit nomen Domini benedíctum, * Allelúja, allelúja.",
-        "℣. Ex hoc nunc et usque in sǽculum.",
-        "℟. Allelúja, allelúja.",
-        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
-        "℟. Sit nomen Dómini benedíctum, * Allelúja, allelúja."
-      ],
-      "title": "Responsorium breve",
-      "type": "responsory",
-      "verses": []
-    },
-    {
-      "contentHash": "1dca75e0a1f8fe7bd6927042482d77b81e369deeea94bbdad5c4b510e22b854f",
-      "id": "shared-1dca75e0a1f8fe7bd692",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
-          "section": "Versus",
-          "transformation": [
-            "specials",
-            "tertia special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Minor.txt",
-          "section": "Versus",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-tertia-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "℣. Afférte Dómino glóriam et honórem, allelúja.",
-        "℟. Afférte Dómino glóriam nómini ejus, allelúja."
-      ],
-      "title": "Versus",
-      "type": "versicle",
-      "verses": []
-    },
-    {
-      "contentHash": "3935a16bd425bb0d90477a6af93f73b9756f802c04272a6f2c0e4133d4ec7e11",
-      "id": "shared-3935a16bd425bb0d9047",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
-          "section": "Dominus_vobiscum",
-          "transformation": [
-            "resolve_refs",
-            "common prayers"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Minor.txt",
-          "section": "Oratio{ex Proprio de Tempore}",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-tertia-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Oratio {ex Proprio de Tempore}",
-        "℣. Dómine, exáudi oratiónem meam.",
-        "℟. Et clamor meus ad te véniat.",
-        "Orémus.",
-        "Deus, qui unigénitum Fílium tuum constituísti humáni géneris Salvatórem, et Jesum vocári jussísti: concéde propítius; ut, cujus sanctum nomen venerámur in terris, ejus quoque aspéctu perfruámur in cælis.",
-        "Per eúmdem Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
-        "℟. Amen."
-      ],
-      "title": "Oratio{ex Proprio de Tempore}",
-      "type": "prayer",
-      "verses": []
-    },
-    {
-      "contentHash": "0024f57bb35c1a54d6ae9b0c33074398e46bb6724d6d093c2d24e9bfff567d7d",
-      "id": "shared-0024f57bb35c1a54d6ae",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "specials",
-            "sexta special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Minor.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-sexta-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Allelúja, * tuus sum ego, salvum me fac, Dómine, allelúja, allelúja."
-      ],
-      "title": "Antiphona",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "1bf65d6adf87c1ca2f78f3e7f0ae3174f91c1b9e4d7b9eb64923442628185f31",
-      "id": "shared-1bf65d6adf87c1ca2f78",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "specials",
-            "sexta special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Minor.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-sexta-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Allelúja, tuus sum ego, salvum me fac, Dómine, allelúja, allelúja."
-      ],
-      "title": "Antiphona repetita",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "5f66405f573f02a775de41fa0167d606650f737078759f60f4d0ee6a1f1fa629",
-      "id": "shared-5f66405f573f02a775de",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
-          "section": "Capitulum",
-          "transformation": [
-            "specials",
-            "sexta special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Minor.txt",
-          "section": "Capitulum",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-sexta-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Capitulum Responsorium Versus {ex Proprio de Tempore}",
-        "Phil 2:10-11",
-        "In nómine Jesu omne genu flectátur cæléstium, terréstrium, et infernórum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris.",
-        "℟. Deo grátias."
-      ],
-      "title": "Capitulum",
-      "type": "capitulum",
-      "verses": []
-    },
-    {
-      "contentHash": "a6442793817a11bfd8e334052593a4272b56c46569d6c214ad3f75062bd23b07",
-      "id": "shared-a6442793817a11bfd8e3",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
-          "section": "Responsorium breve",
-          "transformation": [
-            "specials",
-            "sexta special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Minor.txt",
-          "section": "Responsorium breve",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-sexta-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "℟.br. Afférte Dómino glóriam et honórem, * Allelúja, allelúja.",
-        "℟. Afférte Dómino glóriam et honórem, * Allelúja, allelúja.",
-        "℣. Afférte Dómino glóriam nómini ejus.",
-        "℟. Allelúja, allelúja.",
-        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
-        "℟. Afférte Dómino glóriam et honórem, * Allelúja, allelúja."
-      ],
-      "title": "Responsorium breve",
-      "type": "responsory",
-      "verses": []
-    },
-    {
-      "contentHash": "3c92ac71a056d5cee16bd4e5cb7fb4b9446297535ec31acf1d247a780c2dbfc5",
-      "id": "shared-3c92ac71a056d5cee16b",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
-          "section": "Versus",
-          "transformation": [
-            "specials",
-            "sexta special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Minor.txt",
-          "section": "Versus",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-sexta-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "℣. Magnificáte Dóminum mecum, allelúja.",
-        "℟. Et exaltémus nomen ejus in idípsum, allelúja."
-      ],
-      "title": "Versus",
-      "type": "versicle",
-      "verses": []
-    },
-    {
-      "contentHash": "73f45ce2c10cff47c295a933e3c4e7e70e83a14173489be4ba6df1e9f822ec1e",
-      "id": "shared-73f45ce2c10cff47c295",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
-          "section": "Dominus_vobiscum",
-          "transformation": [
-            "resolve_refs",
-            "common prayers"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Minor.txt",
-          "section": "Oratio{ex Proprio de Tempore}",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-sexta-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Oratio {ex Proprio de Tempore}",
-        "℣. Dómine, exáudi oratiónem meam.",
-        "℟. Et clamor meus ad te véniat.",
-        "Orémus.",
-        "Deus, qui unigénitum Fílium tuum constituísti humáni géneris Salvatórem, et Jesum vocári jussísti: concéde propítius; ut, cujus sanctum nomen venerámur in terris, ejus quoque aspéctu perfruámur in cælis.",
-        "Per eúmdem Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
-        "℟. Amen."
-      ],
-      "title": "Oratio{ex Proprio de Tempore}",
-      "type": "prayer",
-      "verses": []
-    },
-    {
-      "contentHash": "18e0b945fd8d91c580d7db40db81032383bd388dd3ebddb92d5ebaf39f249b6e",
-      "id": "shared-18e0b945fd8d91c580d7",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "specials",
-            "nona special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Minor.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-nona-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Allelúja, * fáciem tuam, Dómine, illúmina super servum tuum, allelúja, allelúja."
-      ],
-      "title": "Antiphona",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "1311af5e13ee03df9f1e0f7fc65338670e702ec7af4966cd732ba5ed74a25001",
-      "id": "shared-1311af5e13ee03df9f1e",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "specials",
-            "nona special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Minor.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-nona-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Allelúja, fáciem tuam, Dómine, illúmina super servum tuum, allelúja, allelúja."
-      ],
-      "title": "Antiphona repetita",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "b2693ecba2474e466b86025d5243bed67c8b85c936fd3a9feecab054a777a1fa",
-      "id": "shared-b2693ecba2474e466b86",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
-          "section": "Capitulum",
-          "transformation": [
-            "specials",
-            "nona special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Minor.txt",
-          "section": "Capitulum",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-nona-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Capitulum Responsorium Versus {ex Proprio de Tempore}",
-        "Col 3:17",
-        "Omne quodcúmque fácitis in verbo, aut in ópere: ómnia in nómine Dómini Jesu Christi fácite, grátias agéntes Deo et Patri per ipsum.",
-        "℟. Deo grátias."
-      ],
-      "title": "Capitulum",
-      "type": "capitulum",
-      "verses": []
-    },
-    {
-      "contentHash": "c0d6a9a4f63ce05ac7315b087ad85ef13a7dc137fdd020affc78b9892734b518",
-      "id": "shared-c0d6a9a4f63ce05ac731",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
-          "section": "Responsorium breve",
-          "transformation": [
-            "specials",
-            "nona special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Minor.txt",
-          "section": "Responsorium breve",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-nona-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "℟.br. Magnificáte Dóminum mecum, * Allelúja, allelúja.",
-        "℟. Magnificáte Dóminum mecum, * Allelúja, allelúja.",
-        "℣. Et exaltémus nomen ejus in idípsum.",
-        "℟. Allelúja, allelúja.",
-        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
-        "℟. Magnificáte Dóminum mecum, * Allelúja, allelúja."
-      ],
-      "title": "Responsorium breve",
-      "type": "responsory",
-      "verses": []
-    },
-    {
-      "contentHash": "eaf113c60dd9ba93c46d9b939602c1ca5358c4c62b4411bcbf958fe53c1dd927",
-      "id": "shared-eaf113c60dd9ba93c46d",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
-          "section": "Versus",
-          "transformation": [
-            "specials",
-            "nona special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Minor.txt",
-          "section": "Versus",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-nona-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "℣. Adjutórium nostrum in nómine Dómini, allelúja.",
-        "℟. Qui fecit cælum et terram, allelúja."
-      ],
-      "title": "Versus",
-      "type": "versicle",
-      "verses": []
-    },
-    {
-      "contentHash": "c34dfe02b8b6f98c49ae95a28bad7fe953bccaed7b823518099e1d7ce5af6591",
-      "id": "shared-c34dfe02b8b6f98c49ae",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
-          "section": "Dominus_vobiscum",
-          "transformation": [
-            "resolve_refs",
-            "common prayers"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Minor.txt",
-          "section": "Oratio{ex Proprio de Tempore}",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-nona-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Oratio {ex Proprio de Tempore}",
-        "℣. Dómine, exáudi oratiónem meam.",
-        "℟. Et clamor meus ad te véniat.",
-        "Orémus.",
-        "Deus, qui unigénitum Fílium tuum constituísti humáni géneris Salvatórem, et Jesum vocári jussísti: concéde propítius; ut, cujus sanctum nomen venerámur in terris, ejus quoque aspéctu perfruámur in cælis.",
-        "Per eúmdem Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
-        "℟. Amen."
-      ],
-      "title": "Oratio{ex Proprio de Tempore}",
-      "type": "prayer",
-      "verses": []
-    },
-    {
-      "contentHash": "6001895397a619d0b5b877f31049fead327c3361a576f69a84b1c7c15e9c2a22",
-      "id": "shared-6001895397a619d0b5b8",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
-          "section": "Antiphona ad magnificat",
-          "transformation": [
-            "specials",
-            "vesperae special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Vespera.txt",
-          "section": "Antiphona ad magnificat",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-vesperae-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Dedit se, * ut liberáret pópulum, et acquíreret sibi nomen ætérnum, allelúja."
-      ],
-      "title": "Antiphona ad magnificat",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "acfaab73c48672007ea461aef59cc7c1975b8e1185767f75945cfb2aae1b8770",
-      "id": "shared-acfaab73c48672007ea4",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
-          "section": "Antiphona repetita ad magnificat",
-          "transformation": [
-            "specials",
-            "vesperae special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Vespera.txt",
-          "section": "Antiphona repetita ad magnificat",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-vesperae-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Dedit se, ut liberáret pópulum, et acquíreret sibi nomen ætérnum, allelúja."
-      ],
-      "title": "Antiphona repetita ad magnificat",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "07943ff7e102a268a140845f83ebbab61de9eb09b037a2a6fb2c7cdc72673a39",
-      "id": "shared-07943ff7e102a268a140",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
-          "section": "Dominus_vobiscum",
-          "transformation": [
-            "resolve_refs",
-            "common prayers"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Vespera.txt",
-          "section": "Oratio{ex Proprio de Tempore}",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-vesperae-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Oratio {ex Proprio de Tempore}",
-        "℣. Dómine, exáudi oratiónem meam.",
-        "℟. Et clamor meus ad te véniat.",
-        "Orémus.",
-        "Deus, qui unigénitum Fílium tuum constituísti humáni géneris Salvatórem, et Jesum vocári jussísti: concéde propítius; ut, cujus sanctum nomen venerámur in terris, ejus quoque aspéctu perfruámur in cælis.",
-        "Per eúmdem Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
-        "℟. Amen."
-      ],
-      "title": "Oratio{ex Proprio de Tempore}",
-      "type": "prayer",
-      "verses": []
-    },
-    {
-      "contentHash": "63d0c10ecd83a6e392b9e9d3a3db3da1327b87e610645ca4d3518ffd9cf4f419",
-      "id": "shared-63d0c10ecd83a6e392b9",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "specials",
-            "matutinum special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Matutinum.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-matutinum-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Dóminus de cælo * prospéxit super fílios hóminum."
-      ],
-      "title": "Antiphona",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "18e0a21dff8054992552d3dd916ef9eb3f552dff14cb6d61833ed854835b2ade",
-      "id": "shared-18e0a21dff8054992552",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm13.txt",
-          "section": "Psalm 13",
-          "transformation": [
-            "resolve_refs",
-            "psalm expansion"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Matutinum.txt",
-          "section": "Psalmus 13 [1]",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-matutinum-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "13:1a Dixit insípiens in corde suo: * non est Deus.",
-        "13:1b Corrúpti sunt, et abominábiles facti sunt in stúdiis suis: * non est qui fáciat bonum, non est usque ad unum.",
-        "13:2 Dóminus de cælo prospéxit super fílios hóminum, * ut vídeat si est intéllegens, aut requírens Deum.",
-        "13:3a Omnes declinavérunt, simul inútiles facti sunt: * non est qui fáciat bonum, non est usque ad unum.",
-        "13:3b Sepúlcrum patens est guttur eórum: † linguis suis dolóse agébant * venénum áspidum sub lábiis eórum.",
-        "13:3c Quorum os maledictióne et amaritúdine plenum est: * velóces pedes eórum ad effundéndum sánguinem.",
-        "13:3d Contrítio et infelícitas in viis eórum, † et viam pacis non cognovérunt: * non est timor Dei ante óculos eórum.",
-        "13:4 Nonne cognóscent omnes qui operántur iniquitátem, * qui dévorant plebem meam sicut escam panis?",
-        "13:5 Dóminum non invocavérunt, * illic trepidavérunt timóre, ubi non erat timor.",
-        "13:6 Quóniam Dóminus in generatióne justa est, † consílium ínopis confudístis: * quóniam Dóminus spes ejus est.",
-        "13:7 Quis dabit ex Sion salutáre Israël? * cum avérterit Dóminus captivitátem plebis suæ, exsultábit Jacob, et lætábitur Israël.",
-        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
-        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
-      ],
-      "title": "Psalmus 13 [1]",
-      "type": "psalm",
-      "verses": [
-        "13:1a Dixit insípiens in corde suo: * non est Deus.",
-        "13:1b Corrúpti sunt, et abominábiles facti sunt in stúdiis suis: * non est qui fáciat bonum, non est usque ad unum.",
-        "13:2 Dóminus de cælo prospéxit super fílios hóminum, * ut vídeat si est intéllegens, aut requírens Deum.",
-        "13:3a Omnes declinavérunt, simul inútiles facti sunt: * non est qui fáciat bonum, non est usque ad unum.",
-        "13:3b Sepúlcrum patens est guttur eórum: † linguis suis dolóse agébant * venénum áspidum sub lábiis eórum.",
-        "13:3c Quorum os maledictióne et amaritúdine plenum est: * velóces pedes eórum ad effundéndum sánguinem.",
-        "13:3d Contrítio et infelícitas in viis eórum, † et viam pacis non cognovérunt: * non est timor Dei ante óculos eórum.",
-        "13:4 Nonne cognóscent omnes qui operántur iniquitátem, * qui dévorant plebem meam sicut escam panis?",
-        "13:5 Dóminum non invocavérunt, * illic trepidavérunt timóre, ubi non erat timor.",
-        "13:6 Quóniam Dóminus in generatióne justa est, † consílium ínopis confudístis: * quóniam Dóminus spes ejus est.",
-        "13:7 Quis dabit ex Sion salutáre Israël? * cum avérterit Dóminus captivitátem plebis suæ, exsultábit Jacob, et lætábitur Israël."
-      ]
-    },
-    {
-      "contentHash": "a705658e8891a6f0ed38c7ee09d7d87c093daba5ce855813e1ad17399309343e",
-      "id": "shared-a705658e8891a6f0ed38",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "specials",
-            "matutinum special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Matutinum.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-matutinum-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Dóminus de cælo prospéxit super fílios hóminum."
-      ],
-      "title": "Antiphona repetita",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "6b6e540fdd2c56e30c9497c7a2cb1b81114f938015248d80b086b497f5a644fe",
-      "id": "shared-6b6e540fdd2c56e30c94",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "specials",
-            "matutinum special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Matutinum.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-matutinum-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Qui operátur justítiam * requiéscet in monte sancto tuo, Dómine."
-      ],
-      "title": "Antiphona",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "be2c3f86ef7e0f33832030c274dd0b5c49ab859b86d475732bb2ae31de1af32d",
-      "id": "shared-be2c3f86ef7e0f338320",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm14.txt",
-          "section": "Psalm 14",
-          "transformation": [
-            "resolve_refs",
-            "psalm expansion"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Matutinum.txt",
-          "section": "Psalmus 14 [2]",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-matutinum-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "14:1 Dómine, quis habitábit in tabernáculo tuo? * aut quis requiéscet in monte sancto tuo?",
-        "14:2 Qui ingréditur sine mácula, * et operátur justítiam:",
-        "14:3a Qui lóquitur veritátem in corde suo, * qui non egit dolum in lingua sua:",
-        "14:3b Nec fecit próximo suo malum, * et oppróbrium non accépit advérsus próximos suos.",
-        "14:4a Ad níhilum dedúctus est in conspéctu ejus malígnus: * timéntes autem Dóminum gloríficat:",
-        "14:4b Qui jurat próximo suo, et non décipit, * (5a) qui pecúniam suam non dedit ad usúram, et múnera super innocéntem non accépit.",
-        "14:5b Qui facit hæc: * non movébitur in ætérnum.",
-        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
-        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
-      ],
-      "title": "Psalmus 14 [2]",
-      "type": "psalm",
-      "verses": [
-        "14:1 Dómine, quis habitábit in tabernáculo tuo? * aut quis requiéscet in monte sancto tuo?",
-        "14:2 Qui ingréditur sine mácula, * et operátur justítiam:",
-        "14:3a Qui lóquitur veritátem in corde suo, * qui non egit dolum in lingua sua:",
-        "14:3b Nec fecit próximo suo malum, * et oppróbrium non accépit advérsus próximos suos.",
-        "14:4a Ad níhilum dedúctus est in conspéctu ejus malígnus: * timéntes autem Dóminum gloríficat:",
-        "14:4b Qui jurat próximo suo, et non décipit, * (5a) qui pecúniam suam non dedit ad usúram, et múnera super innocéntem non accépit.",
-        "14:5b Qui facit hæc: * non movébitur in ætérnum."
-      ]
-    },
-    {
-      "contentHash": "30c182e112efe533c4dbb64f244a363d6d6ac4ce9f9b766764c41d4a36c07f79",
-      "id": "shared-30c182e112efe533c4db",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "specials",
-            "matutinum special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Matutinum.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-matutinum-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Qui operátur justítiam requiéscet in monte sancto tuo, Dómine."
-      ],
-      "title": "Antiphona repetita",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "f4345f4ffec33ac719b4f1f67f595e06e71048cce94126ccf079e75c18b249c0",
-      "id": "shared-f4345f4ffec33ac719b4",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "specials",
-            "matutinum special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Matutinum.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-matutinum-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Inclína, Dómine, * aurem tuam mihi, et exáudi verba mea."
-      ],
-      "title": "Antiphona",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "ee73dd51506333d1133bbdac0f42ecf2c7cb9bfe4c7ffa19fb05060adcc5929f",
-      "id": "shared-ee73dd51506333d1133b",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm16.txt",
-          "section": "Psalm 16",
-          "transformation": [
-            "resolve_refs",
-            "psalm expansion"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Matutinum.txt",
-          "section": "Psalmus 16 [3]",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-matutinum-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "16:1a Exáudi, Dómine, justítiam meam: * inténde deprecatiónem meam.",
-        "16:1b Áuribus pércipe oratiónem meam, * non in lábiis dolósis.",
-        "16:2 De vultu tuo judícium meum pródeat: * óculi tui vídeant æquitátes.",
-        "16:3 Probásti cor meum, et visitásti nocte: * igne me examinásti, et non est invénta in me iníquitas.",
-        "16:4 Ut non loquátur os meum ópera hóminum: * propter verba labiórum tuórum ego custodívi vias duras.",
-        "16:5 Pérfice gressus meos in sémitis tuis: * ut non moveántur vestígia mea.",
-        "16:6 Ego clamávi, quóniam exaudísti me, Deus: * inclína aurem tuam mihi, et exáudi verba mea.",
-        "16:7 Mirífica misericórdias tuas, * qui salvos facis sperántes in te.",
-        "16:8a A resisténtibus déxteræ tuæ custódi me, * ut pupíllam óculi.",
-        "16:8b Sub umbra alárum tuárum prótege me: * (9a) a fácie impiórum qui me afflixérunt.",
-        "16:9b Inimíci mei ánimam meam circumdedérunt, † (10) ádipem suum conclusérunt: * os eórum locútum est supérbiam.",
-        "16:11 Proiciéntes me nunc circumdedérunt me: * óculos suos statuérunt declináre in terram.",
-        "16:12 Suscepérunt me sicut leo parátus ad prædam: * et sicut cátulus leónis hábitans in ábditis.",
-        "16:13 Exsúrge, Dómine, prǽveni eum, et supplánta eum: * éripe ánimam meam ab ímpio, frámeam tuam (14a) ab inimícis manus tuæ.",
-        "16:14b Dómine, a paucis de terra dívide eos in vita eórum: * de abscónditis tuis adimplétus est venter eórum.",
-        "16:14c Saturáti sunt fíliis: * et dimisérunt relíquias suas párvulis suis.",
-        "16:15 Ego autem in justítia apparébo conspéctui tuo: * satiábor cum apparúerit glória tua.",
-        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
-        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
-      ],
-      "title": "Psalmus 16 [3]",
-      "type": "psalm",
-      "verses": [
-        "16:1a Exáudi, Dómine, justítiam meam: * inténde deprecatiónem meam.",
-        "16:1b Áuribus pércipe oratiónem meam, * non in lábiis dolósis.",
-        "16:2 De vultu tuo judícium meum pródeat: * óculi tui vídeant æquitátes.",
-        "16:3 Probásti cor meum, et visitásti nocte: * igne me examinásti, et non est invénta in me iníquitas.",
-        "16:4 Ut non loquátur os meum ópera hóminum: * propter verba labiórum tuórum ego custodívi vias duras.",
-        "16:5 Pérfice gressus meos in sémitis tuis: * ut non moveántur vestígia mea.",
-        "16:6 Ego clamávi, quóniam exaudísti me, Deus: * inclína aurem tuam mihi, et exáudi verba mea.",
-        "16:7 Mirífica misericórdias tuas, * qui salvos facis sperántes in te.",
-        "16:8a A resisténtibus déxteræ tuæ custódi me, * ut pupíllam óculi.",
-        "16:8b Sub umbra alárum tuárum prótege me: * (9a) a fácie impiórum qui me afflixérunt.",
-        "16:9b Inimíci mei ánimam meam circumdedérunt, † (10) ádipem suum conclusérunt: * os eórum locútum est supérbiam.",
-        "16:11 Proiciéntes me nunc circumdedérunt me: * óculos suos statuérunt declináre in terram.",
-        "16:12 Suscepérunt me sicut leo parátus ad prædam: * et sicut cátulus leónis hábitans in ábditis.",
-        "16:13 Exsúrge, Dómine, prǽveni eum, et supplánta eum: * éripe ánimam meam ab ímpio, frámeam tuam (14a) ab inimícis manus tuæ.",
-        "16:14b Dómine, a paucis de terra dívide eos in vita eórum: * de abscónditis tuis adimplétus est venter eórum.",
-        "16:14c Saturáti sunt fíliis: * et dimisérunt relíquias suas párvulis suis.",
-        "16:15 Ego autem in justítia apparébo conspéctui tuo: * satiábor cum apparúerit glória tua."
-      ]
-    },
-    {
-      "contentHash": "0d9d567537acd7dd2578d0e28137c545393f580039e92a69454ecf84ca03c9e8",
-      "id": "shared-0d9d567537acd7dd2578",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "specials",
-            "matutinum special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Matutinum.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-matutinum-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Inclína, Dómine, aurem tuam mihi, et exáudi verba mea."
-      ],
-      "title": "Antiphona repetita",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "baf5f689f8429d4db36604cf82ee3176f10be546c90566a1064ec32ae5d57da7",
-      "id": "shared-baf5f689f8429d4db366",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "specials",
-            "matutinum special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Matutinum.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-matutinum-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Díligam te, * Dómine, virtus mea."
-      ],
-      "title": "Antiphona",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "3fe2726614b51288566538ca683fd4b7788f4af46e777a6f80491828a2858547",
-      "id": "shared-3fe2726614b512885665",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm17.txt",
-          "section": "Psalm 17",
-          "transformation": [
-            "resolve_refs",
-            "psalm expansion"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Matutinum.txt",
-          "section": "Psalmus 17(2-16b) [4]",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-matutinum-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "17:2 Díligam te, Dómine, fortitúdo mea: * (3a) Dóminus firmaméntum meum, et refúgium meum, et liberátor meus.",
-        "17:3b Deus meus adjútor meus, * et sperábo in eum.",
-        "17:3c Protéctor meus, et cornu salútis meæ, * et suscéptor meus.",
-        "17:4 Laudans invocábo Dóminum: * et ab inimícis meis salvus ero.",
-        "17:5 Circumdedérunt me dolóres mortis: * et torréntes iniquitátis conturbavérunt me.",
-        "17:6 Dolóres inférni circumdedérunt me: * præoccupavérunt me láquei mortis.",
-        "17:7a In tribulatióne mea invocávi Dóminum, * et ad Deum meum clamávi.",
-        "17:7b Et exaudívit de templo sancto suo vocem meam: * et clamor meus in conspéctu ejus, introívit in aures ejus.",
-        "17:8 Commóta est, et contrémuit terra: * fundaménta móntium conturbáta sunt, et commóta sunt, quóniam irátus est eis.",
-        "17:9 Ascéndit fumus in ira ejus: † et ignis a fácie ejus exársit: * carbónes succénsi sunt ab eo.",
-        "17:10 Inclinávit cælos, et descéndit: * et calígo sub pédibus ejus.",
-        "17:11 Et ascéndit super Chérubim, et volávit: * volávit super pennas ventórum.",
-        "17:12 Et pósuit ténebras latíbulum suum, † in circúitu ejus tabernáculum ejus: * tenebrósa aqua in núbibus áëris.",
-        "17:13 Præ fulgóre in conspéctu ejus nubes transiérunt, * grando et carbónes ignis.",
-        "17:14 Et intónuit de cælo Dóminus, † et Altíssimus dedit vocem suam: * grando et carbónes ignis.",
-        "17:15 Et misit sagíttas suas, et dissipávit eos: * fúlgura multiplicávit, et conturbávit eos.",
-        "17:16a Et apparuérunt fontes aquárum, * et reveláta sunt fundaménta orbis terrárum:",
-        "17:16b Ab increpatióne tua, Dómine, * ab inspiratióne spíritus iræ tuæ.",
-        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
-        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
-      ],
-      "title": "Psalmus 17(2-16b) [4]",
-      "type": "psalm",
-      "verses": [
-        "17:2 Díligam te, Dómine, fortitúdo mea: * (3a) Dóminus firmaméntum meum, et refúgium meum, et liberátor meus.",
-        "17:3b Deus meus adjútor meus, * et sperábo in eum.",
-        "17:3c Protéctor meus, et cornu salútis meæ, * et suscéptor meus.",
-        "17:4 Laudans invocábo Dóminum: * et ab inimícis meis salvus ero.",
-        "17:5 Circumdedérunt me dolóres mortis: * et torréntes iniquitátis conturbavérunt me.",
-        "17:6 Dolóres inférni circumdedérunt me: * præoccupavérunt me láquei mortis.",
-        "17:7a In tribulatióne mea invocávi Dóminum, * et ad Deum meum clamávi.",
-        "17:7b Et exaudívit de templo sancto suo vocem meam: * et clamor meus in conspéctu ejus, introívit in aures ejus.",
-        "17:8 Commóta est, et contrémuit terra: * fundaménta móntium conturbáta sunt, et commóta sunt, quóniam irátus est eis.",
-        "17:9 Ascéndit fumus in ira ejus: † et ignis a fácie ejus exársit: * carbónes succénsi sunt ab eo.",
-        "17:10 Inclinávit cælos, et descéndit: * et calígo sub pédibus ejus.",
-        "17:11 Et ascéndit super Chérubim, et volávit: * volávit super pennas ventórum.",
-        "17:12 Et pósuit ténebras latíbulum suum, † in circúitu ejus tabernáculum ejus: * tenebrósa aqua in núbibus áëris.",
-        "17:13 Præ fulgóre in conspéctu ejus nubes transiérunt, * grando et carbónes ignis.",
-        "17:14 Et intónuit de cælo Dóminus, † et Altíssimus dedit vocem suam: * grando et carbónes ignis.",
-        "17:15 Et misit sagíttas suas, et dissipávit eos: * fúlgura multiplicávit, et conturbávit eos.",
-        "17:16a Et apparuérunt fontes aquárum, * et reveláta sunt fundaménta orbis terrárum:",
-        "17:16b Ab increpatióne tua, Dómine, * ab inspiratióne spíritus iræ tuæ."
-      ]
-    },
-    {
-      "contentHash": "8331feefcf193a5dbcbcb767d8bc580b3dedcf9991e1a463c74ac07613b53150",
-      "id": "shared-8331feefcf193a5dbcbc",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "specials",
-            "matutinum special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Matutinum.txt",
-          "section": "Antiphona repetita",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-matutinum-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Díligam te, Dómine, virtus mea."
-      ],
-      "title": "Antiphona repetita",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "6afcdd1b64a4a45df3182c62afd71363c023d84607c1eeb09b0fd20065c65338",
-      "id": "shared-6afcdd1b64a4a45df318",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "specials",
-            "matutinum special text"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Matutinum.txt",
-          "section": "Antiphona",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-matutinum-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "Ant. Retríbuet mihi Dóminus * secúndum justítiam meam."
-      ],
-      "title": "Antiphona",
-      "type": "antiphon",
-      "verses": []
-    },
-    {
-      "contentHash": "9cfa6bd31d04d69fc7cbe17c3d15a9498b44c85c1eed4ba500dbfd5c4ed9ebf1",
-      "id": "shared-9cfa6bd31d04d69fc7cb",
-      "rubricLines": [],
-      "sourceRefs": [
-        {
-          "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm17.txt",
-          "section": "Psalm 17",
-          "transformation": [
-            "resolve_refs",
-            "psalm expansion"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        },
-        {
-          "path": "web/www/horas/Ordinarium/Matutinum.txt",
-          "section": "Psalmus 17(17-35) [5]",
-          "transformation": [
-            "getordinarium",
-            "specials",
-            "parse-matutinum-block"
-          ],
-          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
-        }
-      ],
-      "text": [
-        "17:17 Misit de summo, et accépit me: * et assúmpsit me de aquis multis.",
-        "17:18 Erípuit me de inimícis meis fortíssimis, † et ab his qui odérunt me: * quóniam confortáti sunt super me.",
-        "17:19 Prævenérunt me in die afflictiónis meæ: * et factus est Dóminus protéctor meus.",
-        "17:20 Et edúxit me in latitúdinem: * salvum me fecit, quóniam vóluit me.",
-        "17:21 Et retríbuet mihi Dóminus secúndum justítiam meam: * et secúndum puritátem mánuum meárum retríbuet mihi:",
-        "17:22 Quia custodívi vias Dómini, * nec ímpie gessi a Deo meo.",
-        "17:23 Quóniam ómnia judícia ejus in conspéctu meo: * et justítias ejus non répuli a me.",
-        "17:24 Et ero immaculátus cum eo: * et observábo me ab iniquitáte mea.",
-        "17:25 Et retríbuet mihi Dóminus secúndum justítiam meam: * et secúndum puritátem mánuum meárum in conspéctu oculórum ejus.",
-        "17:26 Cum sancto sanctus eris, * et cum viro innocénte ínnocens eris:",
-        "17:27 Et cum elécto eléctus eris: * et cum pervérso pervertéris.",
-        "17:28 Quóniam tu pópulum húmilem salvum fácies: * et óculos superbórum humiliábis.",
-        "17:29 Quóniam tu illúminas lucérnam meam, Dómine: * Deus meus, illúmina ténebras meas.",
-        "17:30 Quóniam in te erípiar a tentatióne, * et in Deo meo transgrédiar murum.",
-        "17:31 Deus meus, impollúta via ejus: † elóquia Dómini igne examináta: * protéctor est ómnium sperántium in se.",
-        "17:32 Quóniam quis Deus præter Dóminum? * aut quis Deus præter Deum nostrum?",
-        "17:33 Deus, qui præcínxit me virtúte: * et pósuit immaculátam viam meam.",
-        "17:34 Qui perfécit pedes meos tamquam cervórum, * et super excélsa státuens me.",
-        "17:35 Qui docet manus meas ad prǽlium: * et posuísti, ut arcum ǽreum, brácchia mea.",
-        "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
-        "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
-      ],
-      "title": "Psalmus 17(17-35) [5]",
-      "type": "psalm",
-      "verses": [
-        "17:17 Misit de summo, et accépit me: * et assúmpsit me de aquis multis.",
-        "17:18 Erípuit me de inimícis meis fortíssimis, † et ab his qui odérunt me: * quóniam confortáti sunt super me.",
-        "17:19 Prævenérunt me in die afflictiónis meæ: * et factus est Dóminus protéctor meus.",
-        "17:20 Et edúxit me in latitúdinem: * salvum me fecit, quóniam vóluit me.",
-        "17:21 Et retríbuet mihi Dóminus secúndum justítiam meam: * et secúndum puritátem mánuum meárum retríbuet mihi:",
-        "17:22 Quia custodívi vias Dómini, * nec ímpie gessi a Deo meo.",
-        "17:23 Quóniam ómnia judícia ejus in conspéctu meo: * et justítias ejus non répuli a me.",
-        "17:24 Et ero immaculátus cum eo: * et observábo me ab iniquitáte mea.",
-        "17:25 Et retríbuet mihi Dóminus secúndum justítiam meam: * et secúndum puritátem mánuum meárum in conspéctu oculórum ejus.",
-        "17:26 Cum sancto sanctus eris, * et cum viro innocénte ínnocens eris:",
-        "17:27 Et cum elécto eléctus eris: * et cum pervérso pervertéris.",
-        "17:28 Quóniam tu pópulum húmilem salvum fácies: * et óculos superbórum humiliábis.",
-        "17:29 Quóniam tu illúminas lucérnam meam, Dómine: * Deus meus, illúmina ténebras meas.",
-        "17:30 Quóniam in te erípiar a tentatióne, * et in Deo meo transgrédiar murum.",
-        "17:31 Deus meus, impollúta via ejus: † elóquia Dómini igne examináta: * protéctor est ómnium sperántium in se.",
-        "17:32 Quóniam quis Deus præter Dóminum? * aut quis Deus præter Deum nostrum?",
-        "17:33 Deus, qui præcínxit me virtúte: * et pósuit immaculátam viam meam.",
-        "17:34 Qui perfécit pedes meos tamquam cervórum, * et super excélsa státuens me.",
-        "17:35 Qui docet manus meas ad prǽlium: * et posuísti, ut arcum ǽreum, brácchia mea."
-      ]
     }
   ],
   "schemaVersion": "officium1962.v1",

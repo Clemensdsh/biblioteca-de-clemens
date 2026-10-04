@@ -19,37 +19,57 @@
   "units": [
     {
       "html": "Incipit\n<br/>\n℣. Deus <span style='color:red; font-size:1.25em'>✠</span> in adjutórium meum inténde.<br/>\n℟. Dómine, ad adjuvándum me festína.<br/>\nGlória Patri, et Fílio, * et Spirítui Sancto.<br/>\nSicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAllelúja.<br/>\n",
-      "id": "do-1962-2026-07-20-vesperae-001",
+      "id": "do-1962-2026-07-20-vespera-001",
       "raw": "#Incipit\n&Deus_in_adjutorium\n&Alleluia\n"
     },
     {
-      "html": "Psalmi {ex Psalterio secundum diem}\n<br/>\n",
-      "id": "do-1962-2026-07-20-vesperae-002",
-      "raw": "#Psalmi{ex Psalterio secundum diem}\n"
+      "html": "Psalmi {Psalmi & antiphonæ  ex Psalterio secundum diem}\n<br/>\nAnt. Inclinávit Dóminus * aurem suam mihi.<br/>\nPsalmus 114 [1]<br/>\n114:1 Diléxi, quóniam exáudiet Dóminus * vocem oratiónis meæ.<br/>\n114:2 Quia inclinávit aurem suam mihi: * et in diébus meis invocábo.<br/>\n114:3a Circumdedérunt me dolóres mortis: * et perícula inférni invenérunt me.<br/>\n114:3b Tribulatiónem et dolórem invéni: * (4a) et nomen Dómini invocávi.<br/>\n114:4b O Dómine, líbera ánimam meam: † (5) miséricors Dóminus, et justus, * et Deus noster miserétur.<br/>\n114:6 Custódiens párvulos Dóminus: * humiliátus sum, et liberávit me.<br/>\n114:7 Convértere, ánima mea, in réquiem tuam: * quia Dóminus benefécit tibi.<br/>\n114:8 Quia erípuit ánimam meam de morte: † óculos meos a lácrimis, * pedes meos a lapsu.<br/>\n114:9 Placébo Dómino * in regióne vivórum.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Inclinávit Dóminus aurem suam mihi.<br/>\n",
+      "id": "do-1962-2026-07-20-vespera-002",
+      "raw": "#Psalmi{Psalmi & antiphonæ  ex Psalterio secundum diem}\nAnt. Inclinávit Dóminus * aurem suam mihi.\n&psalm(114)\nAnt. Inclinávit Dóminus aurem suam mihi.\n"
     },
     {
-      "html": "Hymnus\n<br/>\n",
-      "id": "do-1962-2026-07-20-vesperae-003",
-      "raw": "#Hymnus\n"
+      "html": "Ant. Vota mea * Dómino reddam coram omni pópulo ejus.<br/>\nPsalmus 115 [2]<br/>\n115:1 Crédidi, propter quod locútus sum: * ego autem humiliátus sum nimis.<br/>\n115:2 Ego dixi in excéssu meo: * Omnis homo mendax.<br/>\n115:3 Quid retríbuam Dómino, * pro ómnibus, quæ retríbuit mihi?<br/>\n115:4 Cálicem salutáris accípiam: * et nomen Dómini invocábo.<br/>\n115:5 Vota mea Dómino reddam coram omni pópulo ejus: * (6) pretiósa in conspéctu Dómini mors sanctórum ejus:<br/>\n115:7a O Dómine, quia ego servus tuus: * ego servus tuus, et fílius ancíllæ tuæ.<br/>\n115:7b Dirupísti víncula mea: † (8) tibi sacrificábo hóstiam laudis, * et nomen Dómini invocábo.<br/>\n115:9 Vota mea Dómino reddam in conspéctu omnis pópuli ejus: * (10) in átriis domus Dómini, in médio tui, Jerúsalem.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Vota mea Dómino reddam coram omni pópulo ejus.<br/>\n",
+      "id": "do-1962-2026-07-20-vespera-003",
+      "raw": "Ant. Vota mea * Dómino reddam coram omni pópulo ejus.\n&psalm(115)\nAnt. Vota mea Dómino reddam coram omni pópulo ejus.\n"
+    },
+    {
+      "html": "Ant. Clamávi * et Dóminus exaudívit me.<br/>\nPsalmus 119 [3]<br/>\n119:1 Ad Dóminum cum tribulárer clamávi: * et exaudívit me.<br/>\n119:2 Dómine, líbera ánimam meam a lábiis iníquis, * et a lingua dolósa.<br/>\n119:3 Quid detur tibi, aut quid apponátur tibi * ad linguam dolósam?<br/>\n119:4 Sagíttæ poténtis acútæ, * cum carbónibus desolatóriis.<br/>\n119:5 Heu mihi, quia incolátus meus prolongátus est: † habitávi cum habitántibus Cedar: * (6) multum íncola fuit ánima mea.<br/>\n119:7 Cum his, qui odérunt pacem, eram pacíficus: * cum loquébar illis, impugnábant me gratis.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Clamávi et Dóminus exaudívit me.<br/>\n",
+      "id": "do-1962-2026-07-20-vespera-004",
+      "raw": "Ant. Clamávi * et Dóminus exaudívit me.\n&psalm(119)\nAnt. Clamávi et Dóminus exaudívit me.\n"
+    },
+    {
+      "html": "Ant. Auxílium meum * a Dómino, qui fecit cælum et terram.<br/>\nPsalmus 120 [4]<br/>\n120:1 Levávi óculos meos in montes, * unde véniet auxílium mihi.<br/>\n120:2 Auxílium meum a Dómino, * qui fecit cælum et terram.<br/>\n120:3 Non det in commotiónem pedem tuum: * neque dormítet qui custódit te.<br/>\n120:4 Ecce, non dormitábit neque dórmiet, * qui custódit Israël.<br/>\n120:5 Dóminus custódit te, Dóminus protéctio tua, * super manum déxteram tuam.<br/>\n120:6 Per diem sol non uret te: * neque luna per noctem.<br/>\n120:7 Dóminus custódit te ab omni malo: * custódiat ánimam tuam Dóminus.<br/>\n120:8 Dóminus custódiat intróitum tuum, et éxitum tuum: * ex hoc nunc, et usque in sǽculum.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Auxílium meum a Dómino, qui fecit cælum et terram.<br/>\n",
+      "id": "do-1962-2026-07-20-vespera-005",
+      "raw": "Ant. Auxílium meum * a Dómino, qui fecit cælum et terram.\n&psalm(120)\nAnt. Auxílium meum a Dómino, qui fecit cælum et terram.\n"
+    },
+    {
+      "html": "Ant. Lætátus sum * in his, quæ dicta sunt mihi. ‡<br/>\nPsalmus 121 [5]<br/>\n121:1  Lætátus sum in his, quæ dicta sunt mihi: * ‡ In domum Dómini íbimus.<br/>\n121:2 Stantes erant pedes nostri, * in átriis tuis, Jerúsalem.<br/>\n121:3 Jerúsalem, quæ ædificátur ut cívitas: * cujus participátio ejus in idípsum.<br/>\n121:4 Illuc enim ascendérunt tribus, tribus Dómini: * testimónium Israël ad confiténdum nómini Dómini.<br/>\n121:5 Quia illic sedérunt sedes in judício, * sedes super domum David.<br/>\n121:6 Rogáte quæ ad pacem sunt Jerúsalem: * et abundántia diligéntibus te:<br/>\n121:7 Fiat pax in virtúte tua: * et abundántia in túrribus tuis.<br/>\n121:8 Propter fratres meos, et próximos meos, * loquébar pacem de te:<br/>\n121:9 Propter domum Dómini, Dei nostri, * quæsívi bona tibi.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Lætátus sum in his, quæ dicta sunt mihi.<br/>\n",
+      "id": "do-1962-2026-07-20-vespera-006",
+      "raw": "Ant. Lætátus sum * in his, quæ dicta sunt mihi.\n&psalm(121)\nAnt. Lætátus sum in his, quæ dicta sunt mihi.\n"
+    },
+    {
+      "html": "Capitulum Hymnus Versus {ex Commune aut Festo}\n<br/>\nSir 31:8-9<br/>\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua.<br/>\n℟. Deo grátias.<br/>\n_<br/>\nHymnus<br/>\nIste Conféssor Dómini, coléntes<br/>\nQuem pie laudant pópuli per orbem,<br/>\nHac die lætus méruit suprémos<br/>\nLaudis honóres.<br/>\n_<br/>\nQui pius, prudens, húmilis, pudícus,<br/>\nSóbriam duxit sine labe vitam,<br/>\nDonec humános animávit auræ<br/>\nSpíritus artus.<br/>\n_<br/>\nCujus ob præstans méritum, frequénter,<br/>\nÆgra quæ passim jacuére membra,<br/>\nVíribus morbi dómitis, salúti<br/>\nRestituúntur.<br/>\n_<br/>\nNoster hinc illi chorus obsequéntem<br/>\nCóncinit laudem celebrésque palmas,<br/>\nUt piis ejus précibus juvémur<br/>\nOmne per ævum.<br/>\n_<br/>\nSit salus illi, decus atque virtus,<br/>\nQui, super cæli sólio corúscans,<br/>\nTótius mundi sériem gubérnat,<br/>\nTrinus et unus.<br/>\nAmen.<br/>\n_<br/>\n℣. Justum dedúxit Dóminus per vias rectas.<br/>\n℟. Et osténdit illi regnum Dei.<br/>\n",
+      "id": "do-1962-2026-07-20-vespera-007",
+      "raw": "#Capitulum Hymnus Versus{ex Commune aut Festo}\n!Sir 31:8-9\nv. Beátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua.\n$Deo gratias\n_\n!Hymnus\n{:H-Isteconfessor:}v. Iste Conféssor Dómini, coléntes\nQuem pie laudant pópuli per orbem,\nHac die lætus méruit suprémos\nLaudis honóres.\n_\nr. Qui pius, prudens, húmilis, pudícus,\nSóbriam duxit sine labe vitam,\nDonec humános animávit auræ\nSpíritus artus.\n_\nr. Cujus ob præstans méritum, frequénter,\nÆgra quæ passim jacuére membra,\nVíribus morbi dómitis, salúti\nRestituúntur.\n_\nr. Noster hinc illi chorus obsequéntem\nCóncinit laudem celebrésque palmas,\nUt piis ejus précibus juvémur\nOmne per ævum.\n_\nr. Sit salus illi, decus atque virtus,\nQui, super cæli sólio corúscans,\nTótius mundi sériem gubérnat,\nTrinus et unus.\nAmen.\n\n_\nV. Justum dedúxit Dóminus per vias rectas.\nR. Et osténdit illi regnum Dei.\n\n"
     },
     {
       "html": "Canticum: Magnificat {Antiphona ex Proprio Sanctorum}\n<br/>\nAnt. Hic vir despíciens mundum * et terréna, triúmphans, divítias cælo cóndidit ore, manu.<br/>\nCanticum B. Mariæ Virginis<br/>\nLuc. 1:46-55<br/>\n1:46 Magníficat <span style='color:red; font-size:1.25em'>✠</span> * ánima mea Dóminum.<br/>\n1:47 Et exsultávit spíritus meus: * in Deo, salutári meo.<br/>\n1:48 Quia respéxit humilitátem ancíllæ suæ: * ecce enim ex hoc beátam me dicent omnes generatiónes.<br/>\n1:49 Quia fecit mihi magna qui potens est: * et sanctum nomen ejus.<br/>\n1:50 Et misericórdia ejus, a progénie in progénies: * timéntibus eum.<br/>\n1:51 Fecit poténtiam in brácchio suo: * dispérsit supérbos mente cordis sui.<br/>\n1:52 Depósuit poténtes de sede: * et exaltávit húmiles.<br/>\n1:53 Esuriéntes implévit bonis: * et dívites dimísit inánes.<br/>\n1:54 Suscépit Israël púerum suum: * recordátus misericórdiæ suæ.<br/>\n1:55 Sicut locútus est ad patres nostros: * Ábraham, et sémini ejus in sǽcula.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Hic vir despíciens mundum et terréna, triúmphans, divítias cælo cóndidit ore, manu.<br/>\n",
-      "id": "do-1962-2026-07-20-vesperae-004",
+      "id": "do-1962-2026-07-20-vespera-008",
       "raw": "#Canticum: Magnificat{Antiphona ex Proprio Sanctorum}\nAnt. Hic vir despíciens mundum * et terréna, triúmphans, divítias cælo cóndidit ore, manu.\n&psalm(232)\nAnt. Hic vir despíciens mundum et terréna, triúmphans, divítias cælo cóndidit ore, manu.\n"
     },
     {
       "html": "Preces Feriales{omittitur}<br/>\n",
-      "id": "do-1962-2026-07-20-vesperae-005",
+      "id": "do-1962-2026-07-20-vespera-009",
       "raw": "#Preces Feriales{omittitur}\n"
     },
     {
       "html": "Oratio {ex Proprio Sanctorum}\n<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\nOrémus.<br/>\nDeus, misericordiárum pater, per mérita et intercessiónem beáti Hierónymi, quem órphanis adjutórem et patrem esse voluísti: concéde; ut spíritum adoptiónis, quo fílii tui nominámur et sumus, fidéliter custodiámus.<br/>\nPer Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.<br/>\n℟. Amen.<br/>\n",
-      "id": "do-1962-2026-07-20-vesperae-006",
+      "id": "do-1962-2026-07-20-vespera-010",
       "raw": "#Oratio{ex Proprio Sanctorum}\n&Dominus_vobiscum\nv. Orémus.\nv. Deus, misericordiárum pater, per mérita et intercessiónem beáti Hierónymi, quem órphanis adjutórem et patrem esse voluísti: concéde; ut spíritum adoptiónis, quo fílii tui nominámur et sumus, fidéliter custodiámus.\n$Per Dominum\n\n"
     },
     {
       "html": "Conclusio\n<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\n℣. Benedicámus Dómino.<br/>\n℟. Deo grátias.<br/>\n℣. Fidélium ánimæ per misericórdiam Dei requiéscant in pace.<br/>\n℟. Amen.<br/>\n",
-      "id": "do-1962-2026-07-20-vesperae-007",
+      "id": "do-1962-2026-07-20-vespera-011",
       "raw": "#Conclusio\n&Dominus_vobiscum\n&Benedicamus_Domino\n$Fidelium animae\n"
     }
   ],

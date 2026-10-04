@@ -25,15 +25,15 @@ describe('Officium 1962 structured translation workspace', () => {
   it('migrates the legacy flat template into canonical translation memory without changing IDs', () => {
     expect(manifest.schemaVersion).toBe(WORKSPACE_SCHEMA_VERSION)
     expect(manifest.legacyFlatTemplate).toContain('translation-template.zh-Hans.jsonl')
-    expect(translationMemory).toHaveLength(9102)
+    expect(translationMemory).toHaveLength(10019)
     expect(translationMemory.map(entry => entry.id)).toEqual(corpus.map(entry => entry.id))
     expect(translationMemory.every(entry => entry.translation === '' && entry.status === 'untranslated')).toBe(true)
   })
 
   it('assigns exactly one primary workbook to each corpus ID', () => {
     const owners = workbookManifest.primaryWorkbookById
-    expect(Object.keys(owners)).toHaveLength(9102)
-    expect(new Set(Object.keys(owners)).size).toBe(9102)
+    expect(Object.keys(owners)).toHaveLength(10019)
+    expect(new Set(Object.keys(owners)).size).toBe(10019)
     expect(workbookManifest.primaryWorkbooks).toHaveLength(manifest.counts.primaryWorkbooks)
   })
 
@@ -128,10 +128,10 @@ describe('Officium 1962 structured translation workspace', () => {
     expect(structureManifest).toMatchObject({
       dayCount: 365,
       hourCount: 2920,
-      releaseOccurrenceCount: 55184,
-      metadataOccurrenceCount: 3716,
+      releaseOccurrenceCount: 60739,
+      metadataOccurrenceCount: 3722,
     })
-    expect(Object.keys(occurrenceToCorpus)).toHaveLength(58900)
+    expect(Object.keys(occurrenceToCorpus)).toHaveLength(64461)
   })
 
   it('keeps Matutinum hierarchy and lesson units queryable', () => {

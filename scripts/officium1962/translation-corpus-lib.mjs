@@ -621,8 +621,8 @@ function loadRelease(releaseRoot) {
     }
     days.set(day.date, day)
   }
-  if (releaseOccurrenceCount !== 55184)
-    throw new Error(`Occurrence count ${releaseOccurrenceCount}, expected 55184`)
+  if (releaseOccurrenceCount !== 60739)
+    throw new Error(`Occurrence count ${releaseOccurrenceCount}, expected 60739`)
   return { root, yearManifest, sharedManifest, blocks, calendarByDate, days, releaseOccurrenceCount }
 }
 

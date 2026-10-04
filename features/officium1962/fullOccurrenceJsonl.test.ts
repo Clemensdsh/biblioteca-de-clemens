@@ -18,9 +18,9 @@ const summary = json(`${root}/reports/full-occurrence-export-summary.json`)
 describe('Officium 1962 full occurrence JSONL', () => {
   it('exports every release occurrence and metadata/display occurrence into one JSONL file', () => {
     expect(summary.schemaVersion).toBe(FULL_OCCURRENCE_SCHEMA_VERSION)
-    expect(records).toHaveLength(58900)
-    expect(records.filter(record => record.recordKind === 'liturgical-occurrence')).toHaveLength(55184)
-    expect(records.filter(record => record.recordKind !== 'liturgical-occurrence')).toHaveLength(3716)
+    expect(records).toHaveLength(64461)
+    expect(records.filter(record => record.recordKind === 'liturgical-occurrence')).toHaveLength(60739)
+    expect(records.filter(record => record.recordKind !== 'liturgical-occurrence')).toHaveLength(3722)
   })
 
   it('keeps occurrence IDs unique while intentionally repeating canonical IDs and Latin', () => {

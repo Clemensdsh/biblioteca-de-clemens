@@ -1,6 +1,6 @@
 {
   "schemaVersion": "officium1962.v1",
-  "generatedAt": "2026-07-21T05:01:50.559Z",
+  "generatedAt": "2026-10-04T00:41:24.954Z",
   "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
   "year": 2026,
   "fullOracleFixtures": {
@@ -66,7 +66,7 @@
       "unresolved": 0
     },
     "blockCounts": {
-      "exact": 3826,
+      "exact": 4210,
       "normalized-equivalent": 0,
       "expected-structural-difference": 0,
       "mismatch": 0,
@@ -900,7 +900,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 25,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -913,13 +913,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-01-06-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-01-06-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-01-06-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-01-06-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-06-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-06-vesperae-psalm-110-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-06-vesperae-psalm-110-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-06-vesperae-psalm-110-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-06-vesperae-psalm-111-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-06-vesperae-psalm-111-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-06-vesperae-psalm-111-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-06-vesperae-psalm-112-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-06-vesperae-psalm-112-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-06-vesperae-psalm-112-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-06-vesperae-psalm-116-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-06-vesperae-psalm-116-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-06-vesperae-psalm-116-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-06-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-06-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-06-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -1777,7 +1857,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 25,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -1790,13 +1870,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-01-18-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-01-18-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-01-18-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-01-18-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-18-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-18-vesperae-psalm-110-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-18-vesperae-psalm-110-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-18-vesperae-psalm-110-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-18-vesperae-psalm-111-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-18-vesperae-psalm-111-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-18-vesperae-psalm-111-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-18-vesperae-psalm-112-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-18-vesperae-psalm-112-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-18-vesperae-psalm-112-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-18-vesperae-psalm-113-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-18-vesperae-psalm-113-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-18-vesperae-psalm-113-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-18-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-18-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-01-18-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -2649,7 +2809,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 25,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -2662,13 +2822,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-02-08-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-02-08-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-02-08-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-02-08-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-08-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-08-vesperae-psalm-110-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-08-vesperae-psalm-110-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-08-vesperae-psalm-110-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-08-vesperae-psalm-111-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-08-vesperae-psalm-111-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-08-vesperae-psalm-111-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-08-vesperae-psalm-112-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-08-vesperae-psalm-112-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-08-vesperae-psalm-112-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-08-vesperae-psalm-113-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-08-vesperae-psalm-113-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-08-vesperae-psalm-113-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-08-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-08-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-08-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -3521,7 +3761,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 25,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -3534,13 +3774,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-02-18-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-02-18-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-02-18-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-02-18-vesperae-psalm-127-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-18-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-18-vesperae-psalm-128-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-18-vesperae-psalm-128-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-18-vesperae-psalm-128-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-18-vesperae-psalm-129-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-18-vesperae-psalm-129-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-18-vesperae-psalm-129-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-18-vesperae-psalm-130-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-18-vesperae-psalm-130-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-18-vesperae-psalm-130-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-18-vesperae-psalm-131-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-18-vesperae-psalm-131-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-18-vesperae-psalm-131-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-18-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-18-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-02-18-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -4523,7 +4843,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 26,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -4536,13 +4856,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-03-19-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-03-19-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-03-19-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-03-19-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-19-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-19-vesperae-psalm-110-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-19-vesperae-psalm-110-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-19-vesperae-psalm-110-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-19-vesperae-psalm-111-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-19-vesperae-psalm-111-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-19-vesperae-psalm-111-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-19-vesperae-psalm-112-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-19-vesperae-psalm-112-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-19-vesperae-psalm-112-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-19-vesperae-psalm-116-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-19-vesperae-psalm-116-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-19-vesperae-psalm-116-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-19-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-19-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-19-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -4568,6 +4968,11 @@
         {
           "blockId": "office-1962-2026-03-19-vesperae-oratio",
           "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-19-vesperae-commemoratio-1",
+          "type": "commemoration",
           "status": "exact"
         },
         {
@@ -5395,7 +5800,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 25,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -5408,13 +5813,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-03-29-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-03-29-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-03-29-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-03-29-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-29-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-29-vesperae-psalm-110-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-29-vesperae-psalm-110-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-29-vesperae-psalm-110-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-29-vesperae-psalm-111-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-29-vesperae-psalm-111-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-29-vesperae-psalm-111-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-29-vesperae-psalm-112-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-29-vesperae-psalm-112-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-29-vesperae-psalm-112-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-29-vesperae-psalm-113-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-29-vesperae-psalm-113-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-29-vesperae-psalm-113-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-29-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-29-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-03-29-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -6247,7 +6732,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 24,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -6255,13 +6740,88 @@
       },
       "blockResults": [
         {
+          "blockId": "office-1962-2026-04-02-vesperae-rubric-001",
+          "type": "rubric",
+          "status": "exact"
+        },
+        {
           "blockId": "office-1962-2026-04-02-vesperae-incipit-omittitur",
           "type": "rubric",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-04-02-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-04-02-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-psalm-115-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-psalm-119-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-psalm-119-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-psalm-119-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-psalm-139-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-psalm-139-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-psalm-139-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-psalm-140-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-psalm-140-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-psalm-140-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-psalm-141-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-psalm-141-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-02-vesperae-psalm-141-full-5-antiphon-close",
+          "type": "antiphon",
           "status": "exact"
         },
         {
@@ -6319,17 +6879,17 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-04-02-completorium-psalm-4-full-1",
+          "blockId": "office-1962-2026-04-02-completorium-psalm-4-full-6",
           "type": "psalm",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-04-02-completorium-psalm-90-full-2",
+          "blockId": "office-1962-2026-04-02-completorium-psalm-90-full-7",
           "type": "psalm",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-04-02-completorium-psalm-133-full-3",
+          "blockId": "office-1962-2026-04-02-completorium-psalm-133-full-8",
           "type": "psalm",
           "status": "exact"
         },
@@ -6874,7 +7434,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 23,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -6887,8 +7447,78 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-04-05-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-04-05-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-psalm-110-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-psalm-110-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-psalm-110-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-psalm-111-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-psalm-111-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-psalm-111-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-psalm-112-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-psalm-112-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-psalm-112-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-psalm-113-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-psalm-113-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-04-05-vesperae-psalm-113-full-5-antiphon-close",
+          "type": "antiphon",
           "status": "exact"
         },
         {
@@ -7846,7 +8476,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 25,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -7859,13 +8489,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-05-14-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-05-14-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-05-14-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-05-14-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-14-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-14-vesperae-psalm-110-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-14-vesperae-psalm-110-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-14-vesperae-psalm-110-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-14-vesperae-psalm-111-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-14-vesperae-psalm-111-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-14-vesperae-psalm-111-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-14-vesperae-psalm-112-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-14-vesperae-psalm-112-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-14-vesperae-psalm-112-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-14-vesperae-psalm-116-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-14-vesperae-psalm-116-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-14-vesperae-psalm-116-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-14-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-14-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-14-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -8628,7 +9338,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 25,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -8641,13 +9351,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-05-24-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-05-24-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-05-24-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-05-24-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-24-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-24-vesperae-psalm-110-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-24-vesperae-psalm-110-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-24-vesperae-psalm-110-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-24-vesperae-psalm-111-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-24-vesperae-psalm-111-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-24-vesperae-psalm-111-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-24-vesperae-psalm-112-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-24-vesperae-psalm-112-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-24-vesperae-psalm-112-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-24-vesperae-psalm-116-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-24-vesperae-psalm-116-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-24-vesperae-psalm-116-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-24-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-24-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-05-24-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -9625,7 +10415,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 25,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -9638,13 +10428,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-06-04-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-06-04-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-06-04-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-06-04-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-04-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-04-vesperae-psalm-110-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-04-vesperae-psalm-110-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-04-vesperae-psalm-110-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-04-vesperae-psalm-115-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-04-vesperae-psalm-115-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-04-vesperae-psalm-115-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-04-vesperae-psalm-127-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-04-vesperae-psalm-127-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-04-vesperae-psalm-127-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-04-vesperae-psalm-147-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-04-vesperae-psalm-147-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-04-vesperae-psalm-147-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-04-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-04-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-04-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -10622,7 +11492,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 25,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -10635,13 +11505,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-06-29-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-06-29-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-06-29-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-06-29-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-29-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-29-vesperae-psalm-110-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-29-vesperae-psalm-110-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-29-vesperae-psalm-110-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-29-vesperae-psalm-111-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-29-vesperae-psalm-111-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-29-vesperae-psalm-111-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-29-vesperae-psalm-112-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-29-vesperae-psalm-112-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-29-vesperae-psalm-112-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-29-vesperae-psalm-116-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-29-vesperae-psalm-116-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-29-vesperae-psalm-116-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-29-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-29-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-06-29-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -11499,7 +12449,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 25,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -11512,13 +12462,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-07-19-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-07-19-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-07-19-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-07-19-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-psalm-110-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-psalm-110-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-psalm-110-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-psalm-111-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-psalm-111-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-psalm-111-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-psalm-112-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-psalm-112-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-psalm-112-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-psalm-113-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-psalm-113-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-psalm-113-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-19-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -12376,7 +13406,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 26,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -12389,13 +13419,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-07-20-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-07-20-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-07-20-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-07-20-vesperae-psalm-114-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-psalm-115-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-psalm-115-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-psalm-115-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-psalm-119-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-psalm-119-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-psalm-119-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-psalm-120-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-psalm-120-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-psalm-120-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-psalm-121-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-psalm-121-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-psalm-121-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -12421,6 +13531,11 @@
         {
           "blockId": "office-1962-2026-07-20-vesperae-oratio",
           "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-07-20-vesperae-commemoratio-1",
+          "type": "commemoration",
           "status": "exact"
         },
         {
@@ -13373,7 +14488,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 25,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -13386,13 +14501,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-08-15-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-08-15-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-08-15-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-08-15-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-psalm-112-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-psalm-112-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-psalm-112-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-psalm-121-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-psalm-121-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-psalm-121-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-psalm-126-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-psalm-126-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-psalm-126-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-psalm-147-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-psalm-147-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-psalm-147-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-15-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -14250,7 +15445,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 25,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -14263,13 +15458,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-08-23-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-08-23-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-08-23-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-08-23-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-23-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-23-vesperae-psalm-110-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-23-vesperae-psalm-110-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-23-vesperae-psalm-110-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-23-vesperae-psalm-111-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-23-vesperae-psalm-111-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-23-vesperae-psalm-111-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-23-vesperae-psalm-112-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-23-vesperae-psalm-112-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-23-vesperae-psalm-112-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-23-vesperae-psalm-113-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-23-vesperae-psalm-113-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-23-vesperae-psalm-113-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-23-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-23-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-08-23-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -15247,7 +16522,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 25,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -15260,13 +16535,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-09-14-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-09-14-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-09-14-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-09-14-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-14-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-14-vesperae-psalm-110-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-14-vesperae-psalm-110-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-14-vesperae-psalm-110-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-14-vesperae-psalm-111-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-14-vesperae-psalm-111-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-14-vesperae-psalm-111-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-14-vesperae-psalm-112-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-14-vesperae-psalm-112-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-14-vesperae-psalm-112-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-14-vesperae-psalm-116-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-14-vesperae-psalm-116-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-14-vesperae-psalm-116-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-14-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-14-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-14-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -16124,7 +17479,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 25,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -16137,13 +17492,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-09-27-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-09-27-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-09-27-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-09-27-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-27-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-27-vesperae-psalm-110-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-27-vesperae-psalm-110-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-27-vesperae-psalm-110-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-27-vesperae-psalm-111-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-27-vesperae-psalm-111-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-27-vesperae-psalm-111-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-27-vesperae-psalm-112-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-27-vesperae-psalm-112-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-27-vesperae-psalm-112-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-27-vesperae-psalm-113-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-27-vesperae-psalm-113-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-27-vesperae-psalm-113-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-27-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-27-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-09-27-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -17006,7 +18441,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 26,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -17019,13 +18454,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-10-18-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-10-18-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-10-18-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-10-18-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-18-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-18-vesperae-psalm-110-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-18-vesperae-psalm-110-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-18-vesperae-psalm-110-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-18-vesperae-psalm-111-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-18-vesperae-psalm-111-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-18-vesperae-psalm-111-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-18-vesperae-psalm-112-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-18-vesperae-psalm-112-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-18-vesperae-psalm-112-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-18-vesperae-psalm-113-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-18-vesperae-psalm-113-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-18-vesperae-psalm-113-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-18-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-18-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-18-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -17051,6 +18566,11 @@
         {
           "blockId": "office-1962-2026-10-18-vesperae-oratio",
           "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-18-vesperae-commemoratio-1",
+          "type": "commemoration",
           "status": "exact"
         },
         {
@@ -18003,7 +19523,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 25,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -18016,13 +19536,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-10-25-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-10-25-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-10-25-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-10-25-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-25-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-25-vesperae-psalm-110-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-25-vesperae-psalm-110-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-25-vesperae-psalm-110-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-25-vesperae-psalm-111-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-25-vesperae-psalm-111-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-25-vesperae-psalm-111-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-25-vesperae-psalm-112-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-25-vesperae-psalm-112-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-25-vesperae-psalm-112-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-25-vesperae-psalm-116-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-25-vesperae-psalm-116-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-25-vesperae-psalm-116-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-25-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-25-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-10-25-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -19005,7 +20605,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 26,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -19018,13 +20618,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-11-01-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-11-01-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-11-01-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-11-01-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-01-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-01-vesperae-psalm-110-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-01-vesperae-psalm-110-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-01-vesperae-psalm-110-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-01-vesperae-psalm-111-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-01-vesperae-psalm-111-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-01-vesperae-psalm-111-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-01-vesperae-psalm-112-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-01-vesperae-psalm-112-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-01-vesperae-psalm-112-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-01-vesperae-psalm-116-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-01-vesperae-psalm-116-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-01-vesperae-psalm-116-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-01-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-01-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-01-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -19050,6 +20730,11 @@
         {
           "blockId": "office-1962-2026-11-01-vesperae-oratio",
           "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-01-vesperae-commemoratio-1",
+          "type": "commemoration",
           "status": "exact"
         },
         {
@@ -19787,7 +21472,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 23,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -19800,13 +21485,83 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-11-02-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-11-02-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-11-02-vesperae-capitulum-hymnus-versus-omittitur",
-          "type": "rubric",
+          "blockId": "office-1962-2026-11-02-vesperae-psalm-114-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-psalm-119-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-psalm-119-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-psalm-119-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-psalm-120-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-psalm-120-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-psalm-120-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-psalm-129-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-psalm-129-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-psalm-129-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-psalm-137-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-psalm-137-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-psalm-137-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-11-02-vesperae-versus-in-loco-capituli",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -19859,17 +21614,17 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-11-02-completorium-psalm-122-full-1",
+          "blockId": "office-1962-2026-11-02-completorium-psalm-122-full-6",
           "type": "psalm",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-11-02-completorium-psalm-141-full-2",
+          "blockId": "office-1962-2026-11-02-completorium-psalm-141-full-7",
           "type": "psalm",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-11-02-completorium-psalm-142-full-3",
+          "blockId": "office-1962-2026-11-02-completorium-psalm-142-full-8",
           "type": "psalm",
           "status": "exact"
         },
@@ -20719,7 +22474,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 26,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -20732,13 +22487,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-12-08-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-12-08-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-12-08-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-12-08-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-08-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-08-vesperae-psalm-112-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-08-vesperae-psalm-112-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-08-vesperae-psalm-112-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-08-vesperae-psalm-121-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-08-vesperae-psalm-121-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-08-vesperae-psalm-121-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-08-vesperae-psalm-126-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-08-vesperae-psalm-126-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-08-vesperae-psalm-126-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-08-vesperae-psalm-147-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-08-vesperae-psalm-147-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-08-vesperae-psalm-147-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-08-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-08-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-08-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {
@@ -20764,6 +22599,11 @@
         {
           "blockId": "office-1962-2026-12-08-vesperae-oratio",
           "type": "prayer",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-08-vesperae-commemoratio-1",
+          "type": "commemoration",
           "status": "exact"
         },
         {
@@ -21721,7 +23561,7 @@
       "hour": "vesperae",
       "status": "exact",
       "counts": {
-        "exact": 9,
+        "exact": 25,
         "normalized-equivalent": 0,
         "expected-structural-difference": 0,
         "mismatch": 0,
@@ -21734,13 +23574,93 @@
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-12-25-vesperae-psalmi-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-12-25-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
           "status": "exact"
         },
         {
-          "blockId": "office-1962-2026-12-25-vesperae-hymnus-empty",
-          "type": "rubric",
+          "blockId": "office-1962-2026-12-25-vesperae-psalm-109-full-1",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-psalm-110-full-2-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-psalm-110-full-2",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-psalm-110-full-2-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-psalm-111-full-3-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-psalm-111-full-3",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-psalm-111-full-3-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-psalm-112-full-4-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-psalm-112-full-4",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-psalm-112-full-4-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-psalm-116-full-5-antiphon-open",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-psalm-116-full-5",
+          "type": "psalm",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-psalm-116-full-5-antiphon-close",
+          "type": "antiphon",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-capitulum",
+          "type": "capitulum",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-hymnus",
+          "type": "hymn",
+          "status": "exact"
+        },
+        {
+          "blockId": "office-1962-2026-12-25-vesperae-versus",
+          "type": "versicle",
           "status": "exact"
         },
         {

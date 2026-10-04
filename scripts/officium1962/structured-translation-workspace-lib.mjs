@@ -116,10 +116,10 @@ export function validateStructuredTranslationWorkspace(options = {}) {
       errors.push(`structured day count ${structureManifest.dayCount}, expected 365`)
     if (structureManifest.hourCount !== 2920)
       errors.push(`structured hour count ${structureManifest.hourCount}, expected 2920`)
-    if (structureManifest.releaseOccurrenceCount !== 55184)
-      errors.push(`structured occurrence count ${structureManifest.releaseOccurrenceCount}, expected 55184`)
-    if (structureManifest.metadataOccurrenceCount !== 3716)
-      errors.push(`metadata/display occurrence count ${structureManifest.metadataOccurrenceCount}, expected 3716`)
+    if (structureManifest.releaseOccurrenceCount !== 60739)
+      errors.push(`structured occurrence count ${structureManifest.releaseOccurrenceCount}, expected 60739`)
+    if (structureManifest.metadataOccurrenceCount !== 3722)
+      errors.push(`metadata/display occurrence count ${structureManifest.metadataOccurrenceCount}, expected 3722`)
 
     const usage = readJson(join(workspaceRoot, 'usage/usage-graph.json'))
     const relations = readJson(join(workspaceRoot, 'usage/relations.json'))
@@ -146,8 +146,8 @@ export function validateStructuredTranslationWorkspace(options = {}) {
     }
 
     const occurrenceToCorpus = readJson(join(workspaceRoot, 'usage/occurrence-to-corpus.json'))
-    if (Object.keys(occurrenceToCorpus).length !== 58900)
-      errors.push(`occurrence-to-corpus coverage ${Object.keys(occurrenceToCorpus).length}, expected 58900`)
+    if (Object.keys(occurrenceToCorpus).length !== 64461)
+      errors.push(`occurrence-to-corpus coverage ${Object.keys(occurrenceToCorpus).length}, expected 64461`)
 
     const overrides = readJsonLines(join(workspaceRoot, 'translations/zh-Hans-overrides.jsonl'))
     const overrideOccurrences = new Set()
@@ -1268,7 +1268,7 @@ function buildReports({ latin, structureState, usage, workbooks, translations, o
   const untranslatedEntries = translations.filter(entry => entry.status === 'untranslated')
   return {
     generationSummary: markdownText(`# Generation Summary\n\n${summaryBullets(summary)}\n`),
-    structureCoverage: markdownText(`# Structure Coverage\n\n- Structured days: ${summary.structuredDays}/365\n- Structured hours: ${summary.structuredHours}/2920\n- Release occurrences: ${summary.occurrences}/55184\n- Metadata/display occurrences: ${summary.metadataOccurrences}/3716\n- Corpus workbook coverage: ${summary.canonicalTranslationUnits}/9102\n- Matutinum hierarchy: present\n- Major/minor hours: present\n`),
+    structureCoverage: markdownText(`# Structure Coverage\n\n- Structured days: ${summary.structuredDays}/365\n- Structured hours: ${summary.structuredHours}/2920\n- Release occurrences: ${summary.occurrences}/60739\n- Metadata/display occurrences: ${summary.metadataOccurrences}/3722\n- Corpus workbook coverage: ${summary.canonicalTranslationUnits}/10019\n- Matutinum hierarchy: present\n- Major/minor hours: present\n`),
     relationCoverage: markdownText(`# Relation Coverage\n\n- Relations: ${summary.relations}\n- Invalid relations: ${summary.invalidRelations}\n- Contains cycles: 0\n- Order reconstruction: ${summary.roundtripMismatch === 0 ? 'ok' : 'mismatch'}\n`),
     roundtripValidation: roundtripReport(summary, [], []),
     migration: markdownText(`# Migration From Flat Template\n\n- Legacy flat template: \`resources/officium1962-latin/translation-template.zh-Hans.jsonl\`\n- Migrated entries: ${latin.template.length}\n- Preserved translation/status/translator/reviewer/notes fields: yes\n- Deprecated entries: ${summary.deprecatedEntries}\n- Current translated entries: ${(translated.draft || 0) + (translated['machine-draft'] || 0) + (translated.reviewed || 0) + (translated.approved || 0)}\n`),

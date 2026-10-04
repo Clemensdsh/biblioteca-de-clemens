@@ -17,32 +17,31 @@
     "sameMonthSwitchRequestCountEstimate": 1
   },
   "build": {
-    "averageDayMs": 9718,
-    "completeYearMs": 3547092,
-    "dockerInvocationCount": 1983,
-    "peakMemoryRssBytes": 889417728,
+    "averageDayMs": 2798,
+    "completeYearMs": 1021285,
+    "dockerInvocationCount": 365,
+    "peakMemoryRssBytes": 915107840,
     "slowestDateHour": {
-      "date": "2026-07-09",
-      "hour": "matutinum",
-      "milliseconds": 21,
-      "source": "cache"
-    },
-    "resumeRepackageMs": 199571
+      "date": "2026-05-08",
+      "hour": "vesperae",
+      "milliseconds": 6827,
+      "source": "generated"
+    }
   },
   "files": {
-    "averageDayFileBytes": 405308,
-    "brotliEstimateBytes": 2989578,
+    "averageDayFileBytes": 280682,
+    "brotliEstimateBytes": 3297824,
     "calendarBytes": 193273,
-    "gzipEstimateBytes": 15137598,
+    "gzipEstimateBytes": 16732322,
     "largestDayFile": {
-      "date": "2026-12-25",
-      "bytes": 631899
+      "bytes": 422488,
+      "date": "2026-12-25"
     },
-    "releaseSizeBytes": 164920912,
+    "releaseSizeBytes": 185437193,
     "rootManifestBytes": 590,
-    "sharedBlocksBytes": 15462508
+    "sharedBlocksBytes": 11286017
   },
-  "generatedAt": "2026-07-21T04:53:24.997Z",
+  "generatedAt": "2026-10-04T00:14:16.277Z",
   "schemaVersion": "officium1962.v1",
   "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
 }

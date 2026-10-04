@@ -30,8 +30,8 @@ describe('Officium 1962 Latin translation corpus', () => {
     expect(manifest.productionCommit).toBe(PRODUCTION_COMMIT)
     expect(manifest.releaseYear).toBe(2026)
     expect(manifest.counts).toMatchObject({
-      sharedBlockEntries: 8713,
-      releaseOccurrences: 55184,
+      sharedBlockEntries: 9630,
+      releaseOccurrences: 60739,
       calendarDays: 365,
       corpusEntries: corpus.length,
     })
@@ -43,7 +43,7 @@ describe('Officium 1962 Latin translation corpus', () => {
     const corpusSharedIds = corpus.filter(entry => entry.subtype === 'shared-block').map(entry => entry.id).sort()
     expect(corpusSharedIds).toEqual(releaseIds)
     const occurrenceCount = corpusSharedIds.reduce((sum, id) => sum + occurrenceMap[id].length, 0)
-    expect(occurrenceCount).toBe(55184)
+    expect(occurrenceCount).toBe(60739)
   })
 
   it('retains hour-specific occurrence context needed for translation review', () => {
@@ -77,7 +77,7 @@ describe('Officium 1962 Latin translation corpus', () => {
   it('extracts all calendar titles, ranks, and commemorations', () => {
     expect(calendar).toHaveLength(365)
     expect(calendar.every(row => corpusById.has(row.titleId) && (!row.rankId || corpusById.has(row.rankId)))).toBe(true)
-    expect(calendar.reduce((sum, row) => sum + row.commemorations.length, 0)).toBe(67)
+    expect(calendar.reduce((sum, row) => sum + row.commemorations.length, 0)).toBe(88)
     expect(calendar.flatMap(row => row.commemorations).every(item => corpusById.has(item.id))).toBe(true)
   })
 
