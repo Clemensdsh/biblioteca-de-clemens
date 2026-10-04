@@ -1,0 +1,63 @@
+{
+  "date": "2026-12-25",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "hour": "nona",
+  "language": "la",
+  "liturgicalTitle": "In Nativitate Domini ~ I. classis",
+  "rank": "In Nativitate Domini;;Duplex I Classis;;7\n\n",
+  "schemaVersion": "0.1.0",
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "units": [
+    {
+      "html": "Incipit\n<br/>\n℣. Deus <span style='color:red; font-size:1.25em'>✠</span> in adjutórium meum inténde.<br/>\n℟. Dómine, ad adjuvándum me festína.<br/>\nGlória Patri, et Fílio, * et Spirítui Sancto.<br/>\nSicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAllelúja.<br/>\n",
+      "id": "do-1962-2026-12-25-nona-001",
+      "raw": "#Incipit\n$Deus in adjutorium\n&Alleluia\n"
+    },
+    {
+      "html": "Hymnus\n<br/>\nRerum, Deus, tenax vigor,<br/>\nImmótus in te pérmanens,<br/>\nLucis diúrnæ témpora<br/>\nSuccéssibus detérminans:<br/>\n_<br/>\nLargíre lumen véspere,<br/>\nQuo vita nusquam décidat,<br/>\nSed prǽmium mortis sacræ<br/>\nPerénnis instet glória.<br/>\n_<br/>\nPræsta, Pater piíssime,<br/>\nPatríque compar Únice,<br/>\nCum Spíritu Paráclito<br/>\nRegnans per omne sǽculum.<br/>\nAmen.<br/>\n",
+      "id": "do-1962-2026-12-25-nona-002",
+      "raw": "#Hymnus\nv. Rerum, Deus, tenax vigor,\nImmótus in te pérmanens,\nLucis diúrnæ témpora\nSuccéssibus detérminans:\n_\nr. Largíre lumen véspere,\nQuo vita nusquam décidat,\nSed prǽmium mortis sacræ\nPerénnis instet glória.\n_\nr. Præsta, Pater piíssime,\nPatríque compar Únice,\nCum Spíritu Paráclito\nRegnans per omne sǽculum.\nAmen.\n\n"
+    },
+    {
+      "html": "Psalmi {Psalmi Dominica & antiphonæ  ex Proprio Sanctorum}\n<br/>\nAnt. Párvulus fílius * hódie natus est nobis: et vocábitur Deus, Fortis, allelúja, allelúja.<br/>\nPsalmus 118(129-144) [1]<br/>\n118:129 (Phe) Mirabília testimónia tua: * ídeo scrutáta est ea ánima mea.<br/>\n118:130 Declarátio sermónum tuórum illúminat: * et intelléctum dat párvulis.<br/>\n118:131 Os meum apérui, et attráxi spíritum: * quia mandáta tua desiderábam.<br/>\n118:132 Áspice in me, et miserére mei, * secúndum judícium diligéntium nomen tuum.<br/>\n118:133 Gressus meos dírige secúndum elóquium tuum: * et non dominétur mei omnis injustítia.<br/>\n118:134 Rédime me a calúmniis hóminum: * ut custódiam mandáta tua.<br/>\n118:135 Fáciem tuam illúmina super servum tuum: * et doce me justificatiónes tuas.<br/>\n118:136 Éxitus aquárum deduxérunt óculi mei: * quia non custodiérunt legem tuam.<br/>\n118:137 (Sade) Justus es, Dómine: * et rectum judícium tuum.<br/>\n118:138 Mandásti justítiam testimónia tua: * et veritátem tuam nimis.<br/>\n118:139 Tabéscere me fecit zelus meus: * quia oblíti sunt verba tua inimíci mei.<br/>\n118:140 Ignítum elóquium tuum veheménter: * et servus tuus diléxit illud.<br/>\n118:141 Adolescéntulus sum ego et contémptus: * justificatiónes tuas non sum oblítus.<br/>\n118:142 Justítia tua, justítia in ætérnum: * et lex tua véritas.<br/>\n118:143 Tribulátio, et angústia invenérunt me: * mandáta tua meditátio mea est.<br/>\n118:144 Ǽquitas testimónia tua in ætérnum: * intelléctum da mihi, et vivam.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\n",
+      "id": "do-1962-2026-12-25-nona-003",
+      "raw": "#Psalmi{Psalmi Dominica & antiphonæ  ex Proprio Sanctorum}\nAnt. Párvulus fílius * hódie natus est nobis: et vocábitur Deus, Fortis, allelúja, allelúja.\n&psalm(-118,129,144)\n"
+    },
+    {
+      "html": "Psalmus 118(145-160) [2]<br/>\n118:145 (Coph) Clamávi in toto corde meo, exáudi me, Dómine: * justificatiónes tuas requíram.<br/>\n118:146 Clamávi ad te, salvum me fac: * ut custódiam mandáta tua.<br/>\n118:147 Prævéni in maturitáte, et clamávi: * quia in verba tua supersperávi.<br/>\n118:148 Prævenérunt óculi mei ad te dilúculo: * ut meditárer elóquia tua.<br/>\n118:149 Vocem meam audi secúndum misericórdiam tuam, Dómine: * et secúndum judícium tuum vivífica me.<br/>\n118:150 Appropinquavérunt persequéntes me iniquitáti: * a lege autem tua longe facti sunt.<br/>\n118:151 Prope es tu, Dómine: * et omnes viæ tuæ véritas.<br/>\n118:152 Inítio cognóvi de testimóniis tuis: * quia in ætérnum fundásti ea.<br/>\n118:153 (Res) Vide humilitátem meam, et éripe me: * quia legem tuam non sum oblítus.<br/>\n118:154 Júdica judícium meum, et rédime me: * propter elóquium tuum vivífica me.<br/>\n118:155 Longe a peccatóribus salus: * quia justificatiónes tuas non exquisiérunt.<br/>\n118:156 Misericórdiæ tuæ multæ, Dómine: * secúndum judícium tuum vivífica me.<br/>\n118:157 Multi qui persequúntur me, et tríbulant me: * a testimóniis tuis non declinávi.<br/>\n118:158 Vidi prævaricántes, et tabescébam: * quia elóquia tua non custodiérunt.<br/>\n118:159 Vide quóniam mandáta tua diléxi, Dómine: * in misericórdia tua vivífica me.<br/>\n118:160 Princípium verbórum tuórum, véritas: * in ætérnum ómnia judícia justítiæ tuæ.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\n",
+      "id": "do-1962-2026-12-25-nona-004",
+      "raw": "&psalm(- 118,145,160)\n"
+    },
+    {
+      "html": "Psalmus 118(161-176) [3]<br/>\n118:161 (Sin) Príncipes persecúti sunt me gratis: * et a verbis tuis formidávit cor meum.<br/>\n118:162 Lætábor ego super elóquia tua: * sicut qui invénit spólia multa.<br/>\n118:163 Iniquitátem ódio hábui, et abominátus sum: * legem autem tuam diléxi.<br/>\n118:164 Sépties in die laudem dixi tibi, * super judícia justítiæ tuæ.<br/>\n118:165 Pax multa diligéntibus legem tuam: * et non est illis scándalum.<br/>\n118:166 Exspectábam salutáre tuum, Dómine: * et mandáta tua diléxi.<br/>\n118:167 Custodívit ánima mea testimónia tua: * et diléxit ea veheménter.<br/>\n118:168 Servávi mandáta tua, et testimónia tua: * quia omnes viæ meæ in conspéctu tuo.<br/>\n118:169 (Thau) Appropínquet deprecátio mea in conspéctu tuo, Dómine: * juxta elóquium tuum da mihi intelléctum.<br/>\n118:170 Intret postulátio mea in conspéctu tuo: * secúndum elóquium tuum éripe me.<br/>\n118:171 Eructábunt lábia mea hymnum, * cum docúeris me justificatiónes tuas.<br/>\n118:172 Pronuntiábit lingua mea elóquium tuum: * quia ómnia mandáta tua ǽquitas.<br/>\n118:173 Fiat manus tua ut salvet me: * quóniam mandáta tua elégi.<br/>\n118:174 Concupívi salutáre tuum, Dómine: * et lex tua meditátio mea est.<br/>\n118:175 Vivet ánima mea, et laudábit te: * et judícia tua adjuvábunt me.<br/>\n118:176 Errávi, sicut ovis, quæ périit: * quære servum tuum, quia mandáta tua non sum oblítus.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Párvulus fílius hódie natus est nobis: et vocábitur Deus, Fortis, allelúja, allelúja.<br/>\n",
+      "id": "do-1962-2026-12-25-nona-005",
+      "raw": "&psalm( 118,161,176)\nAnt. Párvulus fílius hódie natus est nobis: et vocábitur Deus, Fortis, allelúja, allelúja.\n"
+    },
+    {
+      "html": "Capitulum Responsorium Versus {ex Proprio Sanctorum}\n<br/>\nHeb 1:11-12<br/>\nIpsi períbunt, tu autem permanébis; et omnes sicut vestiméntum veteráscent: et velut amíctum mutábis eos, et mutabúntur: tu autem idem ipse es, et anni tui non defícient.<br/>\n℟. Deo grátias.<br/>\n_<br/>\n℟.br. Vidérunt omnes fines terræ, * Allelúja, allelúja.<br/>\n℟. Vidérunt omnes fines terræ, * Allelúja, allelúja.<br/>\n℣. Salutáre Dei nostri.<br/>\n℟. Allelúja, allelúja.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Vidérunt omnes fines terræ, * Allelúja, allelúja.<br/>\n_<br/>\n℣. Verbum caro factum est, allelúja.<br/>\n℟. Et habitávit in nobis, allelúja.<br/>\n",
+      "id": "do-1962-2026-12-25-nona-006",
+      "raw": "#Capitulum Responsorium Versus{ex Proprio Sanctorum}\n!Heb 1:11-12\nv. Ipsi períbunt, tu autem permanébis; et omnes sicut vestiméntum veteráscent: et velut amíctum mutábis eos, et mutabúntur: tu autem idem ipse es, et anni tui non defícient.\n$Deo gratias\n_\nR.br. Vidérunt omnes fines terræ, * Allelúja, allelúja.\nR. Vidérunt omnes fines terræ, * Allelúja, allelúja.\nV. Salutáre Dei nostri.\nR. Allelúja, allelúja.\n&Gloria1\nR. Vidérunt omnes fines terræ, * Allelúja, allelúja.\n_\nV. Verbum caro factum est, allelúja.\nR. Et habitávit in nobis, allelúja.\n"
+    },
+    {
+      "html": "Oratio {ex Proprio Sanctorum}\n<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\nOrémus.<br/>\nConcéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per carnem Natívitas líberet; quos sub peccáti jugo vetústa sérvitus tenet.<br/>\nPer eúmdem Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-12-25-nona-007",
+      "raw": "#Oratio{ex Proprio Sanctorum}\n&Dominus_vobiscum\nv. Orémus.\nv. Concéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per carnem Natívitas líberet; quos sub peccáti jugo vetústa sérvitus tenet.\n$Per eumdem\n\n"
+    },
+    {
+      "html": "Conclusio\n<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\n℣. Benedicámus Dómino.<br/>\n℟. Deo grátias.<br/>\n℣. Fidélium ánimæ per misericórdiam Dei requiéscant in pace.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-12-25-nona-008",
+      "raw": "#Conclusio\n&Dominus_vobiscum\n&Benedicamus_Domino\n$Fidelium animae\n"
+    }
+  ],
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "warnings": []
+}

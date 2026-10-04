@@ -1,0 +1,437 @@
+{
+  "schemaVersion": "0.2.0",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "language": "la",
+  "date": "2026-11-02",
+  "liturgicalTitle": "In Commemoratione Omnium Fidelium Defunctorum ~ I. classis",
+  "rank": "In Commemoratione Omnium Fidelium Defunctorum;;I. classis;;6;;ex C9\n\n",
+  "commemorations": [],
+  "hours": {
+    "completorium": {
+      "name": "completorium",
+      "title": "Completorium",
+      "blocks": [
+        {
+          "id": "office-1962-2026-11-02-completorium-defunctorum-confiteor",
+          "type": "dialogue",
+          "title": "Confiteor",
+          "text": [
+            "Confíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto Michaéli Archángelo, beáto Joánni Baptístæ, sanctis Apóstolis Petro et Paulo, et ómnibus Sanctis, quia peccávi nimis, cogitatióne, verbo et ópere: (percutit sibi pectus) mea culpa, mea culpa, mea máxima culpa. Ídeo precor beátam Maríam semper Vírginem, beátum Michaélem Archángelum, beátum Joánnem Baptístam, sanctos Apóstolos Petrum et Paulum, et omnes Sanctos, oráre pro me ad Dóminum Deum nostrum.",
+            "Misereátur nostri omnípotens Deus, et dimíssis peccátis nostris, perdúcat nos ad vitam ætérnam. Amen.",
+            "Indulgéntiam, ✠ absolutiónem et remissiónem peccatórum nostrórum tríbuat nobis omnípotens et miséricors Dóminus. Amen."
+          ],
+          "rubricLines": [
+            "Confíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto Michaéli Archángelo, beáto Joánni Baptístæ, sanctis Apóstolis Petro et Paulo, et ómnibus Sanctis, quia peccávi nimis, cogitatióne, verbo et ópere: (percutit sibi pectus) mea culpa, mea culpa, mea máxima culpa. Ídeo precor beátam Maríam semper Vírginem, beátum Michaélem Archángelum, beátum Joánnem Baptístam, sanctos Apóstolos Petrum et Paulum, et omnes Sanctos, oráre pro me ad Dóminum Deum nostrum."
+          ],
+          "metadata": {
+            "specialStructure": "defunctorum",
+            "includesConfiteor": true,
+            "ordinaryOpeningOmitted": true
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Confiteor",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Confiteor",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-completorium-psalm-122-full-1",
+          "type": "psalm",
+          "title": "Psalmus 122 [1]",
+          "text": [
+            "122:1 Ad te levávi óculos meos, * qui hábitas in cælis.",
+            "122:2a Ecce, sicut óculi servórum * in mánibus dominórum suórum,",
+            "122:2b Sicut óculi ancíllæ in mánibus dóminæ suæ: * ita óculi nostri ad Dóminum, Deum nostrum, donec misereátur nostri.",
+            "122:3 Miserére nostri, Dómine, miserére nostri: * quia multum repléti sumus despectióne:",
+            "122:4 Quia multum repléta est ánima nostra: * oppróbrium abundántibus, et despéctio supérbis.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "122:1 Ad te levávi óculos meos, * qui hábitas in cælis.",
+            "122:2a Ecce, sicut óculi servórum * in mánibus dominórum suórum,",
+            "122:2b Sicut óculi ancíllæ in mánibus dóminæ suæ: * ita óculi nostri ad Dóminum, Deum nostrum, donec misereátur nostri.",
+            "122:3 Miserére nostri, Dómine, miserére nostri: * quia multum repléti sumus despectióne:",
+            "122:4 Quia multum repléta est ánima nostra: * oppróbrium abundántibus, et despéctio supérbis."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "122",
+            "verses": [
+              "122:1 Ad te levávi óculos meos, * qui hábitas in cælis.",
+              "122:2a Ecce, sicut óculi servórum * in mánibus dominórum suórum,",
+              "122:2b Sicut óculi ancíllæ in mánibus dóminæ suæ: * ita óculi nostri ad Dóminum, Deum nostrum, donec misereátur nostri.",
+              "122:3 Miserére nostri, Dómine, miserére nostri: * quia multum repléti sumus despectióne:",
+              "122:4 Quia multum repléta est ánima nostra: * oppróbrium abundántibus, et despéctio supérbis."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": true
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Psalmus 122 [1]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm122.txt",
+              "section": "Psalm 122",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-completorium-psalm-141-full-2",
+          "type": "psalm",
+          "title": "Psalmus 141 [2]",
+          "text": [
+            "141:2 Voce mea ad Dóminum clamávi: * voce mea ad Dóminum deprecátus sum:",
+            "141:3 Effúndo in conspéctu ejus oratiónem meam, * et tribulatiónem meam ante ipsum pronúntio.",
+            "141:4 In deficiéndo ex me spíritum meum, * et tu cognovísti sémitas meas.",
+            "141:4 In via hac, qua ambulábam, * abscondérunt láqueum mihi.",
+            "141:5 Considerábam ad déxteram, et vidébam: * et non erat qui cognósceret me.",
+            "141:5 Périit fuga a me, * et non est qui requírat ánimam meam.",
+            "141:6 Clamávi ad te, Dómine, * dixi: Tu es spes mea, pórtio mea in terra vivéntium.",
+            "141:7 Inténde ad deprecatiónem meam: * quia humiliátus sum nimis.",
+            "141:7 Líbera me a persequéntibus me: * quia confortáti sunt super me.",
+            "141:8 Educ de custódia ánimam meam ad confiténdum nómini tuo: * me exspéctant justi, donec retríbuas mihi.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "141:2 Voce mea ad Dóminum clamávi: * voce mea ad Dóminum deprecátus sum:",
+            "141:3 Effúndo in conspéctu ejus oratiónem meam, * et tribulatiónem meam ante ipsum pronúntio.",
+            "141:4 In deficiéndo ex me spíritum meum, * et tu cognovísti sémitas meas.",
+            "141:4 In via hac, qua ambulábam, * abscondérunt láqueum mihi.",
+            "141:5 Considerábam ad déxteram, et vidébam: * et non erat qui cognósceret me.",
+            "141:5 Périit fuga a me, * et non est qui requírat ánimam meam.",
+            "141:6 Clamávi ad te, Dómine, * dixi: Tu es spes mea, pórtio mea in terra vivéntium.",
+            "141:7 Inténde ad deprecatiónem meam: * quia humiliátus sum nimis.",
+            "141:7 Líbera me a persequéntibus me: * quia confortáti sunt super me.",
+            "141:8 Educ de custódia ánimam meam ad confiténdum nómini tuo: * me exspéctant justi, donec retríbuas mihi."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "141",
+            "verses": [
+              "141:2 Voce mea ad Dóminum clamávi: * voce mea ad Dóminum deprecátus sum:",
+              "141:3 Effúndo in conspéctu ejus oratiónem meam, * et tribulatiónem meam ante ipsum pronúntio.",
+              "141:4 In deficiéndo ex me spíritum meum, * et tu cognovísti sémitas meas.",
+              "141:4 In via hac, qua ambulábam, * abscondérunt láqueum mihi.",
+              "141:5 Considerábam ad déxteram, et vidébam: * et non erat qui cognósceret me.",
+              "141:5 Périit fuga a me, * et non est qui requírat ánimam meam.",
+              "141:6 Clamávi ad te, Dómine, * dixi: Tu es spes mea, pórtio mea in terra vivéntium.",
+              "141:7 Inténde ad deprecatiónem meam: * quia humiliátus sum nimis.",
+              "141:7 Líbera me a persequéntibus me: * quia confortáti sunt super me.",
+              "141:8 Educ de custódia ánimam meam ad confiténdum nómini tuo: * me exspéctant justi, donec retríbuas mihi."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": true
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Psalmus 141 [2]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm141.txt",
+              "section": "Psalm 141",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-completorium-psalm-142-full-3",
+          "type": "psalm",
+          "title": "Psalmus 142 [3]",
+          "text": [
+            "142:1 Dómine, exáudi oratiónem meam: áuribus pércipe obsecratiónem meam in veritáte tua: * exáudi me in tua justítia.",
+            "142:2 Et non intres in judícium cum servo tuo: * quia non justificábitur in conspéctu tuo omnis vivens.",
+            "142:3a Quia persecútus est inimícus ánimam meam: * humiliávit in terra vitam meam.",
+            "142:3b Collocávit me in obscúris sicut mórtuos sǽculi: * (4) et anxiátus est super me spíritus meus, in me turbátum est cor meum.",
+            "142:5 Memor fui diérum antiquórum, meditátus sum in ómnibus opéribus tuis: * in factis mánuum tuárum meditábar.",
+            "142:6 Expándi manus meas ad te: * ánima mea sicut terra sine aqua tibi.",
+            "142:7a Velóciter exáudi me, Dómine: * defécit spíritus meus.",
+            "142:7b Non avértas fáciem tuam a me: * et símilis ero descendéntibus in lacum.",
+            "142:8a Audítam fac mihi mane misericórdiam tuam: * quia in te sperávi.",
+            "142:8b Notam fac mihi viam, in qua ámbulem: * quia ad te levávi ánimam meam.",
+            "142:9 Éripe me de inimícis meis, Dómine, ad te confúgi: * (10a) doce me fácere voluntátem tuam, quia Deus meus es tu.",
+            "142:10b Spíritus tuus bonus dedúcet me in terram rectam: * (11a) propter nomen tuum, Dómine, vivificábis me, in æquitáte tua.",
+            "142:11b Edúces de tribulatióne ánimam meam: * (12a) et in misericórdia tua dispérdes inimícos meos.",
+            "142:12b Et perdes omnes, qui tríbulant ánimam meam: * quóniam ego servus tuus sum.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "142:1 Dómine, exáudi oratiónem meam: áuribus pércipe obsecratiónem meam in veritáte tua: * exáudi me in tua justítia.",
+            "142:2 Et non intres in judícium cum servo tuo: * quia non justificábitur in conspéctu tuo omnis vivens.",
+            "142:3a Quia persecútus est inimícus ánimam meam: * humiliávit in terra vitam meam.",
+            "142:3b Collocávit me in obscúris sicut mórtuos sǽculi: * (4) et anxiátus est super me spíritus meus, in me turbátum est cor meum.",
+            "142:5 Memor fui diérum antiquórum, meditátus sum in ómnibus opéribus tuis: * in factis mánuum tuárum meditábar.",
+            "142:6 Expándi manus meas ad te: * ánima mea sicut terra sine aqua tibi.",
+            "142:7a Velóciter exáudi me, Dómine: * defécit spíritus meus.",
+            "142:7b Non avértas fáciem tuam a me: * et símilis ero descendéntibus in lacum.",
+            "142:8a Audítam fac mihi mane misericórdiam tuam: * quia in te sperávi.",
+            "142:8b Notam fac mihi viam, in qua ámbulem: * quia ad te levávi ánimam meam.",
+            "142:9 Éripe me de inimícis meis, Dómine, ad te confúgi: * (10a) doce me fácere voluntátem tuam, quia Deus meus es tu.",
+            "142:10b Spíritus tuus bonus dedúcet me in terram rectam: * (11a) propter nomen tuum, Dómine, vivificábis me, in æquitáte tua.",
+            "142:11b Edúces de tribulatióne ánimam meam: * (12a) et in misericórdia tua dispérdes inimícos meos.",
+            "142:12b Et perdes omnes, qui tríbulant ánimam meam: * quóniam ego servus tuus sum."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "142",
+            "verses": [
+              "142:1 Dómine, exáudi oratiónem meam: áuribus pércipe obsecratiónem meam in veritáte tua: * exáudi me in tua justítia.",
+              "142:2 Et non intres in judícium cum servo tuo: * quia non justificábitur in conspéctu tuo omnis vivens.",
+              "142:3a Quia persecútus est inimícus ánimam meam: * humiliávit in terra vitam meam.",
+              "142:3b Collocávit me in obscúris sicut mórtuos sǽculi: * (4) et anxiátus est super me spíritus meus, in me turbátum est cor meum.",
+              "142:5 Memor fui diérum antiquórum, meditátus sum in ómnibus opéribus tuis: * in factis mánuum tuárum meditábar.",
+              "142:6 Expándi manus meas ad te: * ánima mea sicut terra sine aqua tibi.",
+              "142:7a Velóciter exáudi me, Dómine: * defécit spíritus meus.",
+              "142:7b Non avértas fáciem tuam a me: * et símilis ero descendéntibus in lacum.",
+              "142:8a Audítam fac mihi mane misericórdiam tuam: * quia in te sperávi.",
+              "142:8b Notam fac mihi viam, in qua ámbulem: * quia ad te levávi ánimam meam.",
+              "142:9 Éripe me de inimícis meis, Dómine, ad te confúgi: * (10a) doce me fácere voluntátem tuam, quia Deus meus es tu.",
+              "142:10b Spíritus tuus bonus dedúcet me in terram rectam: * (11a) propter nomen tuum, Dómine, vivificábis me, in æquitáte tua.",
+              "142:11b Edúces de tribulatióne ánimam meam: * (12a) et in misericórdia tua dispérdes inimícos meos.",
+              "142:12b Et perdes omnes, qui tríbulant ánimam meam: * quóniam ego servus tuus sum."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": true
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Psalmus 142 [3]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm142.txt",
+              "section": "Psalm 142",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-completorium-nunc-dimittis",
+          "type": "canticle",
+          "title": "Canticum Simeonis",
+          "text": [
+            "Luc. 2:29-32",
+            "2:29 Nunc dimíttis ✠ servum tuum, Dómine, * secúndum verbum tuum in pace:",
+            "2:30 Quia vidérunt óculi mei * salutáre tuum,",
+            "2:31 Quod parásti * ante fáciem ómnium populórum,",
+            "2:32 Lumen ad revelatiónem géntium, * et glóriam plebis tuæ Israël.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "2:29 Nunc dimíttis ✠ servum tuum, Dómine, * secúndum verbum tuum in pace:",
+            "2:30 Quia vidérunt óculi mei * salutáre tuum,",
+            "2:31 Quod parásti * ante fáciem ómnium populórum,",
+            "2:32 Lumen ad revelatiónem géntium, * et glóriam plebis tuæ Israël."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "canticle": "Nunc dimittis",
+            "source": "Luc. 2:29-32",
+            "verses": [
+              "2:29 Nunc dimíttis ✠ servum tuum, Dómine, * secúndum verbum tuum in pace:",
+              "2:30 Quia vidérunt óculi mei * salutáre tuum,",
+              "2:31 Quod parásti * ante fáciem ómnium populórum,",
+              "2:32 Lumen ad revelatiónem géntium, * et glóriam plebis tuæ Israël."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": true,
+            "specialStructure": "defunctorum"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Canticum Simeonis",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm233.txt",
+              "section": "Nunc dimittis",
+              "transformation": [
+                "resolve_refs",
+                "canticle expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-completorium-oratio-mortuorum",
+          "type": "prayer",
+          "title": "Oratio defunctorum",
+          "text": [
+            "Oratio",
+            "Pater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris:",
+            "℣. Et ne nos indúcas in tentatiónem:",
+            "℟. Sed líbera nos a malo.",
+            "℣. A porta ínferi.",
+            "℟. Erue, Dómine, ánimas eórum.",
+            "℣. Requiéscant in pace.",
+            "℟. Amen.",
+            "℣. Dómine, exáudi oratiónem meam.",
+            "℟. Et clamor meus ad te véniat.",
+            "secunda Domine, exaudi omittitur",
+            "Orémus.",
+            "Propitiáre, quǽsumus, Dómine, animábus ómnium famulórum famularúmque tuárum, pro quibus majestátem tuam supplíciter exorámus: ut, per hæc piæ deprecatiónis offícia, perveníre mereántur ad réquiem sempitérnam.",
+            "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "specialStructure": "defunctorum",
+            "prayerKey": "Oratio mortuorum1"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Oratio defunctorum",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "special",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-completorium-conclusio-defunctorum",
+          "type": "blessing",
+          "title": "Conclusio defunctorum",
+          "text": [
+            "Conclusio specialis",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis.",
+            "℣. Requiéscant in pace.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "specialStructure": "defunctorum",
+            "formula": "requiem-aeternam"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Conclusio defunctorum",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "special",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "web/cgi-bin/horas/horas.pl",
+          "section": "getordinarium/specials/getunit/resolve_refs",
+          "transformation": [
+            "Divinum Officium internal script array exported before print_content"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "warnings": []
+}

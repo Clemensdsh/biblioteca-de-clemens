@@ -1,0 +1,173 @@
+{
+  "date": "2026-04-04",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "hour": "matutinum",
+  "language": "la",
+  "liturgicalTitle": "Sabbato Sancto ~ I. classis",
+  "rank": "Sabbato Sancto;;Feria privilegiata Duplex I classis;;7\n\n",
+  "schemaVersion": "0.1.0",
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "units": [
+    {
+      "html": "Incipit{omittitur}<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-001",
+      "raw": "#Incipit{omittitur}\n"
+    },
+    {
+      "html": "Invitatorium{omittitur}<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-002",
+      "raw": "#Invitatorium{omittitur}\n"
+    },
+    {
+      "html": "Hymnus{omittitur}<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-003",
+      "raw": "#Hymnus{omittitur}\n"
+    },
+    {
+      "html": "Psalmi cum lectionibus {Antiphonæ et Psalmi ex Proprio de Tempore}\n<br/>\nNocturnus I<br/>\nAnt. In pace * in idípsum, dórmiam et requiéscam.<br/>\nPsalmus 4 [1]<br/>\n4:2a Cum invocárem exaudívit me Deus justítiæ meæ: * in tribulatióne dilatásti mihi.<br/>\n4:2b Miserére mei, * et exáudi oratiónem meam.<br/>\n4:3 Fílii hóminum, úsquequo gravi corde? * ut quid dilígitis vanitátem, et quǽritis mendácium?<br/>\n4:4 Et scitóte quóniam mirificávit Dóminus sanctum suum: * Dóminus exáudiet me cum clamávero ad eum.<br/>\n4:5 Irascímini, et nolíte peccáre: † quæ dícitis in córdibus vestris, * in cubílibus vestris compungímini.<br/>\n4:6 Sacrificáte sacrifícium justítiæ, † et speráte in Dómino. * Multi dicunt: Quis osténdit nobis bona?<br/>\n4:7 Signátum est super nos lumen vultus tui, Dómine: * dedísti lætítiam in corde meo.<br/>\n4:8 A fructu fruménti, vini, et ólei sui * multiplicáti sunt.<br/>\n4:9 In pace in idípsum * dórmiam, et requiéscam;<br/>\n4:10 Quóniam tu, Dómine, singuláriter in spe * constituísti me.<br/>\nGloria omittitur<br/>\nAnt. In pace in idípsum, dórmiam et requiéscam.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-004",
+      "raw": "#Psalmi cum lectionibus{Antiphonæ et Psalmi ex Proprio de Tempore}\n!Nocturnus I\nAnt. In pace * in idípsum, dórmiam et requiéscam.\n&psalm(4)\nAnt. In pace in idípsum, dórmiam et requiéscam.\n"
+    },
+    {
+      "html": "Ant. Habitábit * in tabernáculo tuo, requiéscet in monte sancto tuo.<br/>\nPsalmus 14 [2]<br/>\n14:1 Dómine, quis habitábit in tabernáculo tuo? * aut quis requiéscet in monte sancto tuo?<br/>\n14:2 Qui ingréditur sine mácula, * et operátur justítiam:<br/>\n14:3a Qui lóquitur veritátem in corde suo, * qui non egit dolum in lingua sua:<br/>\n14:3b Nec fecit próximo suo malum, * et oppróbrium non accépit advérsus próximos suos.<br/>\n14:4a Ad níhilum dedúctus est in conspéctu ejus malígnus: * timéntes autem Dóminum gloríficat:<br/>\n14:4b Qui jurat próximo suo, et non décipit, * (5a) qui pecúniam suam non dedit ad usúram, et múnera super innocéntem non accépit.<br/>\n14:5b Qui facit hæc: * non movébitur in ætérnum.<br/>\nGloria omittitur<br/>\nAnt. Habitábit in tabernáculo tuo, requiéscet in monte sancto tuo.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-005",
+      "raw": "Ant. Habitábit * in tabernáculo tuo, requiéscet in monte sancto tuo.\n&psalm(14)\nAnt. Habitábit in tabernáculo tuo, requiéscet in monte sancto tuo.\n"
+    },
+    {
+      "html": "Ant. Caro mea * requiéscet in spe.<br/>\nPsalmus 15 [3]<br/>\n15:1 Consérva me, Dómine, quóniam sperávi in te. † (2) Dixi Dómino: Deus meus es tu, * quóniam bonórum meórum non eges.<br/>\n15:3 Sanctis, qui sunt in terra ejus, * mirificávit omnes voluntátes meas in eis.<br/>\n15:4a Multiplicátæ sunt infirmitátes eórum: * póstea acceleravérunt.<br/>\n15:4b Non congregábo conventícula eórum de sanguínibus, * nec memor ero nóminum eórum per lábia mea.<br/>\n15:5 Dóminus pars hereditátis meæ, et cálicis mei: * tu es, qui restítues hereditátem meam mihi.<br/>\n15:6 Funes cecidérunt mihi in præcláris: * étenim heréditas mea præclára est mihi.<br/>\n15:7 Benedícam Dóminum, qui tríbuit mihi intelléctum: * ínsuper et usque ad noctem increpuérunt me renes mei.<br/>\n15:8 Providébam Dóminum in conspéctu meo semper: * quóniam a dextris est mihi, ne commóvear.<br/>\n15:9 Propter hoc lætátum est cor meum, et exsultávit lingua mea: * ínsuper et caro mea requiéscet in spe.<br/>\n15:10 Quóniam non derelínques ánimam meam in inférno: * nec dabis sanctum tuum vidére corruptiónem.<br/>\n15:11 Notas mihi fecísti vias vitæ, † adimplébis me lætítia cum vultu tuo: * delectatiónes in déxtera tua usque in finem.<br/>\nGloria omittitur<br/>\nAnt. Caro mea requiéscet in spe.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-006",
+      "raw": "Ant. Caro mea * requiéscet in spe.\n&psalm(15)\nAnt. Caro mea requiéscet in spe.\n"
+    },
+    {
+      "html": "℣. In pace in idípsum.<br/>\n℟. Dórmiam et requiéscam.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-007",
+      "raw": "V. In pace in idípsum.\nR. Dórmiam et requiéscam.\n"
+    },
+    {
+      "html": "<span class='nigra'>Pater Noster</span> dicitur totum secreto.<br/>\nPater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris: et ne nos indúcas in tentatiónem: sed líbera nos a malo. Amen.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-008",
+      "raw": "$Pater totum secreto\n"
+    },
+    {
+      "html": "<br/>\nLectio 1<br/>\nDe Lamentatióne Jeremíæ Prophétæ<br/>\nLam 3:22-30<br/>\n22 Heth. Misericórdiæ Dómini quia non sumus consúmpti: quia non defecérunt miseratiónes ejus.<br/>\n23 Heth. Novi dilúculo, multa est fides tua.<br/>\n24 Heth. Pars mea Dóminus, dixit ánima mea: proptérea exspectábo eum.<br/>\n25 Teth. Bonus est Dóminus sperántibus in eum, ánimæ quærénti illum.<br/>\n26 Teth. Bonum est præstolári cum siléntio salutáre Dei.<br/>\n27 Teth. Bonum est viro cum portáverit jugum ab adulescéntia sua.<br/>\n28 Jod. Sedébit solitárius, et tacébit: quia levávit super se.<br/>\n29 Jod. Ponet in púlvere os suum, si forte sit spes.<br/>\n30 Jod. Dabit percutiénti se maxíllam, saturábitur oppróbriis.<br/>\nJerúsalem, Jerúsalem, convértere ad Dóminum Deum tuum.<br/>\n_<br/>\n℟. Sicut ovis ad occisiónem ductus est, et dum male tractarétur, non apéruit os suum: tráditus est ad mortem,<br/>\n* Ut vivificáret pópulum suum.<br/>\n℣. Trádidit in mortem ánimam suam, et inter scelerátos reputátus est.<br/>\n℟. Ut vivificáret pópulum suum.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-009",
+      "raw": "&lectio(1)\n"
+    },
+    {
+      "html": "<br/>\nLectio 2<br/>\nLam 4:1-6<br/>\n1 Aleph. Quómodo obscurátum est aurum, mutátus est color óptimus, dispérsi sunt lápides sanctuárii in cápite ómnium plateárum?<br/>\n2 Beth. Fílii Sion íncliti, et amícti auro primo: quómodo reputáti sunt in vasa téstea, opus mánuum fíguli?<br/>\n3 Ghimel. Sed et lámiæ nudavérunt mammam, lactavérunt cátulos suos: fília pópuli mei crudélis, quasi strúthio in desérto.<br/>\n4 Daleth. Adhǽsit lingua lacténtis ad palátum ejus in siti: párvuli petiérunt panem, et non erat qui frángeret eis.<br/>\n5 He. Qui vescebántur voluptuóse, interiérunt in viis: qui nutriebántur in cróceis, amplexáti sunt stércora.<br/>\n6 Vau. Et major effécta est iníquitas fíliæ pópuli mei peccáto Sodomórum, quæ subvérsa est in moménto, et non cepérunt in ea manus.<br/>\nJerúsalem, Jerúsalem, convértere ad Dóminum Deum tuum.<br/>\n_<br/>\n℟. Jerúsalem, surge, et éxue te véstibus jucunditátis: indúere cínere et cilício,<br/>\n* Quia in te occísus est Salvátor Israël.<br/>\n℣. Deduc quasi torréntem lácrimas per diem et noctem, et non táceat pupílla óculi tui.<br/>\n℟. Quia in te occísus est Salvátor Israël.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-010",
+      "raw": "&lectio(2)\n"
+    },
+    {
+      "html": "<br/>\nLectio 3<br/>\nIncipit Orátio Jeremíæ Prophétæ<br/>\nLam 5:1-11<br/>\n1 Recordáre, Dómine, quid accíderit nobis: intuére, et réspice oppróbrium nostrum.<br/>\n2 Heréditas nostra versa est ad aliénos: domus nostræ ad extráneos.<br/>\n3 Pupílli facti sumus absque patre, matres nostræ quasi víduæ.<br/>\n4 Aquam nostram pecúnia bíbimus: ligna nostra prétio comparávimus.<br/>\n5 Cervícibus nostris minabámur, lassis non dabátur réquies.<br/>\n6 Ægýpto dédimus manum, et Assýriis, ut saturarémur pane.<br/>\n7 Patres nostri peccavérunt, et non sunt: et nos iniquitátes eórum portávimus.<br/>\n8 Servi domináti sunt nostri: non fuit qui redímeret de manu eórum.<br/>\n9 In animábus nostris afferebámus panem nobis, a fácie gládii in desérto.<br/>\n10 Pellis nostra quasi clíbanus exústa est a fácie tempestátum famis.<br/>\n11 Mulíeres in Sion humiliavérunt, et vírgines in civitátibus Juda.<br/>\nJerúsalem, Jerúsalem, convértere ad Dóminum Deum tuum.<br/>\n_<br/>\n℟. Plange quasi virgo, plebs mea: ululáte, pastóres, in cínere et cilício:<br/>\n* Quia venit dies Dómini magna, et amára valde.<br/>\n℣. Accíngite vos, sacerdótes, et plángite, minístri altáris, aspérgite vos cínere.<br/>\n℟. Quia venit dies Dómini magna, et amára valde.<br/>\nGloria omittitur<br/>\n℟. Plange quasi virgo, plebs mea: ululáte, pastóres, in cínere et cilício: * Quia venit dies Dómini magna, et amára valde.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-011",
+      "raw": "&lectio(3)\n"
+    },
+    {
+      "html": "Nocturnus II<br/>\nAnt. Elevámini, * portæ æternáles, et introíbit Rex glóriæ.<br/>\nPsalmus 23 [4]<br/>\n23:1 Dómini est terra, et plenitúdo ejus: * orbis terrárum, et univérsi qui hábitant in eo.<br/>\n23:2 Quia ipse super mária fundávit eum: * et super flúmina præparávit eum.<br/>\n23:3 Quis ascéndet in montem Dómini? * aut quis stabit in loco sancto ejus?<br/>\n23:4 Ínnocens mánibus et mundo corde, * qui non accépit in vano ánimam suam, nec jurávit in dolo próximo suo.<br/>\n23:5 Hic accípiet benedictiónem a Dómino: * et misericórdiam a Deo, salutári suo.<br/>\n23:6 Hæc est generátio quæréntium eum, * quæréntium fáciem Dei Jacob.<br/>\n23:7 Attóllite portas, príncipes, vestras, et elevámini, portæ æternáles: * et introíbit Rex glóriæ.<br/>\n23:8 Quis est iste Rex glóriæ? * Dóminus fortis et potens: Dóminus potens in prǽlio.<br/>\n23:9 Attóllite portas, príncipes, vestras, et elevámini, portæ æternáles: * et introíbit Rex glóriæ.<br/>\n23:10 Quis est iste Rex glóriæ? * Dóminus virtútum ipse est Rex glóriæ.<br/>\nGloria omittitur<br/>\nAnt. Elevámini, portæ æternáles, et introíbit Rex glóriæ.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-012",
+      "raw": "!Nocturnus II\nAnt. Elevámini, * portæ æternáles, et introíbit Rex glóriæ.\n&psalm(23)\nAnt. Elevámini, portæ æternáles, et introíbit Rex glóriæ.\n"
+    },
+    {
+      "html": "Ant. Credo vidére * bona Dómini in terra vivéntium.<br/>\nPsalmus 26 [5]<br/>\n26:1 Dóminus illuminátio mea, et salus mea, * quem timébo?<br/>\n26:1 Dóminus protéctor vitæ meæ, * a quo trepidábo?<br/>\n26:2 Dum apprópiant super me nocéntes, * ut edant carnes meas:<br/>\n26:2 Qui tríbulant me inimíci mei, * ipsi infirmáti sunt, et cecidérunt.<br/>\n26:3 Si consístant advérsum me castra, * non timébit cor meum.<br/>\n26:3 Si exsúrgat advérsum me prǽlium, * in hoc ego sperábo.<br/>\n26:4 Unam pétii a Dómino, hanc requíram, * ut inhábitem in domo Dómini ómnibus diébus vitæ meæ:<br/>\n26:4 Ut vídeam voluptátem Dómini, * et vísitem templum ejus.<br/>\n26:5 Quóniam abscóndit me in tabernáculo suo: * in die malórum protéxit me in abscóndito tabernáculi sui.<br/>\n26:6 In petra exaltávit me: * et nunc exaltávit caput meum super inimícos meos.<br/>\n26:6 Circuívi, et immolávi in tabernáculo ejus hóstiam vociferatiónis: * cantábo, et psalmum dicam Dómino.<br/>\n26:7 Exáudi, Dómine, vocem meam, qua clamávi ad te: * miserére mei, et exáudi me.<br/>\n26:8 Tibi dixit cor meum, exquisívit te fácies mea: * fáciem tuam, Dómine, requíram.<br/>\n26:9 Ne avértas fáciem tuam a me: * ne declínes in ira a servo tuo.<br/>\n26:9 Adjútor meus esto: * ne derelínquas me, neque despícias me, Deus, salutáris meus.<br/>\n26:10 Quóniam pater meus, et mater mea dereliquérunt me: * Dóminus autem assúmpsit me.<br/>\n26:11 Legem pone mihi, Dómine, in via tua: * et dírige me in sémitam rectam propter inimícos meos.<br/>\n26:12 Ne tradíderis me in ánimas tribulántium me: * quóniam insurrexérunt in me testes iníqui, et mentíta est iníquitas sibi.<br/>\n26:13 Credo vidére bona Dómini * in terra vivéntium.<br/>\n26:14 Exspécta Dóminum, viríliter age: * et confortétur cor tuum, et sústine Dóminum.<br/>\nGloria omittitur<br/>\nAnt. Credo vidére bona Dómini in terra vivéntium.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-013",
+      "raw": "Ant. Credo vidére * bona Dómini in terra vivéntium.\n&psalm(26)\nAnt. Credo vidére bona Dómini in terra vivéntium.\n"
+    },
+    {
+      "html": "Ant. Dómine, * abstraxísti ab ínferis ánimam meam.<br/>\nPsalmus 29 [6]<br/>\n29:2 Exaltábo te, Dómine, quóniam suscepísti me: * nec delectásti inimícos meos super me.<br/>\n29:3 Dómine, Deus meus, clamávi ad te, * et sanásti me.<br/>\n29:4 Dómine, eduxísti ab inférno ánimam meam: * salvásti me a descendéntibus in lacum.<br/>\n29:5 Psállite Dómino, sancti ejus: * et confitémini memóriæ sanctitátis ejus.<br/>\n29:6 Quóniam ira in indignatióne ejus: * et vita in voluntáte ejus.<br/>\n29:6 Ad vésperum demorábitur fletus: * et ad matutínum lætítia.<br/>\n29:7 Ego autem dixi in abundántia mea: * Non movébor in ætérnum.<br/>\n29:8 Dómine, in voluntáte tua, * præstitísti decóri meo virtútem.<br/>\n29:8 Avertísti fáciem tuam a me, * et factus sum conturbátus.<br/>\n29:9 Ad te, Dómine, clamábo: * et ad Deum meum deprecábor.<br/>\n29:10 Quæ utílitas in sánguine meo, * dum descéndo in corruptiónem?<br/>\n29:10 Numquid confitébitur tibi pulvis, * aut annuntiábit veritátem tuam?<br/>\n29:11 Audívit Dóminus, et misértus est mei: * Dóminus factus est adjútor meus.<br/>\n29:12 Convertísti planctum meum in gáudium mihi: * conscidísti saccum meum, et circumdedísti me lætítia:<br/>\n29:13 Ut cantet tibi glória mea, et non compúngar: * Dómine, Deus meus, in ætérnum confitébor tibi.<br/>\nGloria omittitur<br/>\nAnt. Dómine, abstraxísti ab ínferis ánimam meam.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-014",
+      "raw": "Ant. Dómine, * abstraxísti ab ínferis ánimam meam.\n&psalm(29)\nAnt. Dómine, abstraxísti ab ínferis ánimam meam.\n"
+    },
+    {
+      "html": "℣. Tu autem, Dómine, miserére mei.<br/>\n℟. Et resúscita me, et retríbuam eis.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-015",
+      "raw": "V. Tu autem, Dómine, miserére mei.\nR. Et resúscita me, et retríbuam eis.\n"
+    },
+    {
+      "html": "<span class='nigra'>Pater Noster</span> dicitur totum secreto.<br/>\nPater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris: et ne nos indúcas in tentatiónem: sed líbera nos a malo. Amen.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-016",
+      "raw": "$Pater totum secreto\n"
+    },
+    {
+      "html": "<br/>\nLectio 4<br/>\nEx Tractátu sancti Augustíni Epíscopi super Psalmos<br/>\nIn Psalmum 63 versum 7<br/>\nAccédet homo ad cor altum, et exaltábitur Deus. Illi dixérunt: Quis nos vidébit? Defecérunt scrutántes scrutatiónes, consília mala. Accéssit homo ad ipsa consília, passus est se tenéri ut homo. Non enim tenerétur nisi homo, aut viderétur nisi homo, aut cæderétur nisi homo, aut crucifigerétur, aut morerétur nisi homo. Accéssit ergo homo ad illas omnes passiónes, quæ in illo nihil valérent, nisi esset homo. Sed si ille non esset homo, non liberarétur homo. Accéssit homo ad cor altum, id est, cor secrétum, obíciens aspéctibus humánis hóminem, servans intus Deum: celans formam Dei, in qua æquális est Patri, et ófferens formam servi, qua minor est Patre.<br/>\n_<br/>\n℟. Recéssit pastor noster, fons aquæ vivæ, ad cujus tránsitum sol obscurátus est:<br/>\n* Nam et ille captus est, qui captívum tenébat primum hóminem: hódie portas mortis et seras páriter Salvátor noster disrúpit.<br/>\n℣. Destrúxit quidem claustra inférni, et subvértit poténtias diáboli.<br/>\n℟. Nam et ille captus est, qui captívum tenébat primum hóminem: hódie portas mortis et seras páriter Salvátor noster disrúpit.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-017",
+      "raw": "&lectio(4)\n"
+    },
+    {
+      "html": "<br/>\nLectio 5<br/>\nQuo perduxérunt illas scrutatiónes suas, quas perscrutántes defecérunt, ut étiam mórtuo Dómino et sepúlto, custódes pónerent ad sepúlcrum? Dixérunt enim Piláto: Sedúctor ille: hoc appellabátur nómine Dóminus Jesus Christus, ad solátium servórum suórum, quando dicúntur seductóres: ergo illi Piláto: Sedúctor ille, ínquiunt, dixit adhuc vivens: Post tres dies resúrgam. Jube ítaque custodíri sepúlcrum usque in diem tértium, ne forte véniant discípuli ejus, et furéntur eum, et dicant plebi: Surréxit a mórtuis: et erit novíssimus error pejor prióre. Ait illis Pilátus: Habétis custódiam, ite, custodíte sicut scitis. Illi autem abeúntes, muniérunt sepúlcrum, signántes lápidem cum custódibus.<br/>\n_<br/>\n℟. O vos omnes, qui transítis per viam, atténdite, et vidéte,<br/>\n* Si est dolor símilis sicut dolor meus.<br/>\n℣. Atténdite, univérsi pópuli, et vidéte dolórem meum.<br/>\n℟. Si est dolor símilis sicut dolor meus.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-018",
+      "raw": "&lectio(5)\n"
+    },
+    {
+      "html": "<br/>\nLectio 6<br/>\nPosuérunt custódes mílites ad sepúlcrum. Concússa terra Dóminus resurréxit: mirácula facta sunt tália circa sepúlcrum, ut et ipsi mílites, qui custódes advénerant, testes fíerent, si vellent vera nuntiáre. Sed avarítia illa, quæ captivávit discípulum cómitem Christi, captivávit et mílitem custódem sepúlcri. Damus, ínquiunt, vobis pecúniam: et dícite, quia vobis dormiéntibus venérunt discípuli ejus, et abstulérunt eum. Vere defecérunt scrutántes scrutatiónes. Quid est quod dixísti, o infélix astútia? Tantúmne déseris lucem consílii pietátis, et in profúnda versútiæ demérgeris, ut hoc dicas: Dícite quia vobis dormiéntibus venérunt discípuli ejus, et abstulérunt eum? Dormiéntes testes ádhibes: vere tu ipse obdormísti, qui scrutándo tália defecísti.<br/>\n_<br/>\n℟. Ecce quómodo móritur justus, et nemo pércipit corde: et viri justi tollúntur, et nemo consíderat: a fácie iniquitátis sublátus est justus:<br/>\n* Et erit in pace memória ejus.<br/>\n℣. Tamquam agnus coram tondénte se obmútuit, et non apéruit os suum: de angústia et de judício sublátus est.<br/>\n℟. Et erit in pace memória ejus.<br/>\nGloria omittitur<br/>\n℟. Ecce quómodo móritur justus, et nemo pércipit corde: et viri justi tollúntur, et nemo consíderat: a fácie iniquitátis sublátus est justus: * Et erit in pace memória ejus.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-019",
+      "raw": "&lectio(6)\n"
+    },
+    {
+      "html": "Nocturnus III<br/>\nAnt. Deus ádjuvat me, * et Dóminus suscéptor est ánimæ meæ.<br/>\nPsalmus 53 [7]<br/>\n53:3 Deus, in nómine tuo salvum me fac: * et in virtúte tua júdica me.<br/>\n53:4 Deus, exáudi oratiónem meam: * áuribus pércipe verba oris mei.<br/>\n53:5 Quóniam aliéni insurrexérunt advérsum me, et fortes quæsiérunt ánimam meam: * et non proposuérunt Deum ante conspéctum suum.<br/>\n53:6 Ecce enim, Deus ádjuvat me: * et Dóminus suscéptor est ánimæ meæ.<br/>\n53:7 Avérte mala inimícis meis: * et in veritáte tua dispérde illos.<br/>\n53:8 Voluntárie sacrificábo tibi, * et confitébor nómini tuo, Dómine: quóniam bonum est:<br/>\n53:9 Quóniam ex omni tribulatióne eripuísti me: * et super inimícos meos despéxit óculus meus.<br/>\nGloria omittitur<br/>\nAnt. Deus ádjuvat me, et Dóminus suscéptor est ánimæ meæ.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-020",
+      "raw": "!Nocturnus III\nAnt. Deus ádjuvat me, * et Dóminus suscéptor est ánimæ meæ.\n&psalm(53)\nAnt. Deus ádjuvat me, et Dóminus suscéptor est ánimæ meæ.\n"
+    },
+    {
+      "html": "Ant. In pace * factus est locus ejus, et in Sion habitátio ejus.<br/>\nPsalmus 75 [8]<br/>\n75:2 Notus in Judǽa Deus: * in Israël magnum nomen ejus.<br/>\n75:3 Et factus est in pace locus ejus: * et habitátio ejus in Sion.<br/>\n75:4 Ibi confrégit poténtias árcuum, * scutum, gládium, et bellum.<br/>\n75:5 Illúminans tu mirabíliter a móntibus ætérnis: * turbáti sunt omnes insipiéntes corde.<br/>\n75:6 Dormiérunt somnum suum: * et nihil invenérunt omnes viri divitiárum in mánibus suis.<br/>\n75:7 Ab increpatióne tua, Deus Jacob, * dormitavérunt qui ascendérunt equos.<br/>\n75:8 Tu terríbilis es, et quis resístet tibi? * ex tunc ira tua.<br/>\n75:9 De cælo audítum fecísti judícium: * terra trémuit et quiévit,<br/>\n75:10 Cum exsúrgeret in judícium Deus, * ut salvos fáceret omnes mansuétos terræ.<br/>\n75:11 Quóniam cogitátio hóminis confitébitur tibi: * et relíquiæ cogitatiónis diem festum agent tibi.<br/>\n75:12 Vovéte, et réddite Dómino, Deo vestro: * omnes, qui in circúitu ejus affértis múnera.<br/>\n75:13 Terríbili et ei qui aufert spíritum príncipum, * terríbili apud reges terræ.<br/>\nGloria omittitur<br/>\nAnt. In pace factus est locus ejus, et in Sion habitátio ejus.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-021",
+      "raw": "Ant. In pace * factus est locus ejus, et in Sion habitátio ejus.\n&psalm(75)\nAnt. In pace factus est locus ejus, et in Sion habitátio ejus.\n"
+    },
+    {
+      "html": "Ant. Factus sum * sicut homo sine adjutório, inter mórtuos liber.<br/>\nPsalmus 87 [9]<br/>\n87:2 Dómine, Deus salútis meæ: * in die clamávi, et nocte coram te.<br/>\n87:3 Intret in conspéctu tuo orátio mea: * inclína aurem tuam ad precem meam:<br/>\n87:4 Quia repléta est malis ánima mea: * et vita mea inférno appropinquávit.<br/>\n87:5 Æstimátus sum cum descendéntibus in lacum: * factus sum sicut homo sine adjutório, inter mórtuos liber.<br/>\n87:6 Sicut vulneráti dormiéntes in sepúlcris, quorum non es memor ámplius: * et ipsi de manu tua repúlsi sunt.<br/>\n87:7 Posuérunt me in lacu inferióri: * in tenebrósis, et in umbra mortis.<br/>\n87:8 Super me confirmátus est furor tuus: * et omnes fluctus tuos induxísti super me.<br/>\n87:9 Longe fecísti notos meos a me: * posuérunt me abominatiónem sibi.<br/>\n87:9 Tráditus sum, et non egrediébar: * óculi mei languérunt præ inópia.<br/>\n87:10 Clamávi ad te, Dómine, tota die: * expándi ad te manus meas.<br/>\n87:11 Numquid mórtuis fácies mirabília: * aut médici suscitábunt, et confitebúntur tibi?<br/>\n87:12 Numquid narrábit áliquis in sepúlcro misericórdiam tuam, * et veritátem tuam in perditióne?<br/>\n87:13 Numquid cognoscéntur in ténebris mirabília tua, * et justítia tua in terra obliviónis?<br/>\n87:14 Et ego ad te, Dómine, clamávi: * et mane orátio mea prævéniet te.<br/>\n87:15 Ut quid, Dómine, repéllis oratiónem meam: * avértis fáciem tuam a me?<br/>\n87:16 Pauper sum ego, et in labóribus a juventúte mea: * exaltátus autem, humiliátus sum et conturbátus.<br/>\n87:17 In me transiérunt iræ tuæ: * et terróres tui conturbavérunt me.<br/>\n87:18 Circumdedérunt me sicut aqua tota die: * circumdedérunt me simul.<br/>\n87:19 Elongásti a me amícum et próximum: * et notos meos a miséria.<br/>\nGloria omittitur<br/>\nAnt. Factus sum sicut homo sine adjutório, inter mórtuos liber.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-022",
+      "raw": "Ant. Factus sum * sicut homo sine adjutório, inter mórtuos liber.\n&psalm(87)\nAnt. Factus sum sicut homo sine adjutório, inter mórtuos liber.\n"
+    },
+    {
+      "html": "℣. In pace factus est locus ejus.<br/>\n℟. Et in Sion habitátio ejus.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-023",
+      "raw": "V. In pace factus est locus ejus.\nR. Et in Sion habitátio ejus.\n"
+    },
+    {
+      "html": "<span class='nigra'>Pater Noster</span> dicitur totum secreto.<br/>\nPater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris: et ne nos indúcas in tentatiónem: sed líbera nos a malo. Amen.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-024",
+      "raw": "$Pater totum secreto\n"
+    },
+    {
+      "html": "<br/>\nLectio 7<br/>\nDe Epístola beáti Pauli Apóstoli ad Hebrǽos<br/>\nHeb 9:11-14<br/>\n11 Christus assístens Póntifex futurórum bonórum, per ámplius et perféctius tabernáculum non manufáctum, id est, non hujus creatiónis:<br/>\n12 Neque per sánguinem hircórum, aut vitulórum, sed per próprium sánguinem introívit semel in Sancta, ætérna redemptióne invénta.<br/>\n13 Si enim sanguis hircórum, et taurórum, et cinis vítulæ aspérsus inquinátos sanctíficat ad emundatiónem carnis:<br/>\n14 Quanto magis sanguis Christi, qui per Spíritum Sanctum semetípsum óbtulit immaculátum Deo, emundábit consciéntiam nostram ab opéribus mórtuis, ad serviéndum Deo vivénti?<br/>\n_<br/>\n℟. Astitérunt reges terræ, et príncipes convenérunt in unum,<br/>\n* Advérsus Dóminum, et advérsus Christum ejus.<br/>\n℣. Quare fremuérunt gentes, et pópuli meditáti sunt inánia?<br/>\n℟. Advérsus Dóminum, et advérsus Christum ejus.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-025",
+      "raw": "&lectio(7)\n"
+    },
+    {
+      "html": "<br/>\nLectio 8<br/>\nHeb 9:15-18<br/>\n15 Et ídeo novi testaménti mediátor est: ut, morte intercedénte, in redemptiónem eárum prævaricatiónum, quæ erant sub prióri testaménto, repromissiónem accípiant, qui vocáti sunt ætérnæ hereditátis.<br/>\n16 Ubi enim testaméntum est: mors necésse est intercédat testatóris.<br/>\n17 Testaméntum enim in mórtuis confirmátum est: alióquin nondum valet, dum vivit qui testátus est.<br/>\n18 Unde nec primum quidem sine sánguine dedicátum est.<br/>\n_<br/>\n℟. Æstimátus sum cum descendéntibus in lacum:<br/>\n* Factus sum sicut homo sine adjutório, inter mórtuos liber.<br/>\n℣. Posuérunt me in lacu inferióri, in tenebrósis, et in umbra mortis.<br/>\n℟. Factus sum sicut homo sine adjutório, inter mórtuos liber.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-026",
+      "raw": "&lectio(8)\n"
+    },
+    {
+      "html": "<br/>\nLectio 9<br/>\nHeb 9:19-22<br/>\n19 Lecto enim omni mandáto legis a Móyse univérso pópulo: accípiens sánguinem vitulórum, et hircórum cum aqua et lana coccínea, et hyssópo: ipsum quoque librum, et omnem pópulum aspérsit,<br/>\n20 Dicens: Hic sanguis testaménti, quod mandávit ad vos Deus.<br/>\n21 Etiam tabernáculum, et ómnia vasa ministérii sánguine simíliter aspérsit:<br/>\n22 Et ómnia pene in sánguine secúndum legem mundántur: et sine sánguinis effusióne non fit remíssio.<br/>\n_<br/>\n℟. Sepúlto Dómino, signátum est monuméntum, volvéntes lápidem ad óstium monuménti:<br/>\n* Ponéntes mílites, qui custodírent illum.<br/>\n℣. Accedéntes príncipes sacerdótum ad Pilátum, petiérunt illum.<br/>\n℟. Ponéntes mílites, qui custodírent illum.<br/>\nGloria omittitur<br/>\n℟. Sepúlto Dómino, signátum est monuméntum, volvéntes lápidem ad óstium monuménti: * Ponéntes mílites, qui custodírent illum.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-027",
+      "raw": "&lectio(9)\n"
+    },
+    {
+      "html": "Reliqua omittuntur, nisi %Laudes% separandæ sint.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-028",
+      "raw": "$rubrica Matutinum\n"
+    },
+    {
+      "html": "Oratio {ex Proprio de Tempore}\n<br/>\nConcéde, quǽsumus, omnípotens Deus: ut, qui Fílii tui resurrectiónem devóta exspectatióne prævenímus; ejúsdem resurrectiónis glóriam consequámur.<br/>\nEt sub silentio concluditur<br/>\nPer eúmdem Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-029",
+      "raw": "#Oratio{ex Proprio de Tempore}\nv. Concéde, quǽsumus, omnípotens Deus: ut, qui Fílii tui resurrectiónem devóta exspectatióne prævenímus; ejúsdem resurrectiónis glóriam consequámur.\n!Et sub silentio concluditur\n$Per eumdem\n\n"
+    },
+    {
+      "html": "Conclusio{omittitur}<br/>\n",
+      "id": "do-1962-2026-04-04-matutinum-030",
+      "raw": "#Conclusio{omittitur}\n"
+    }
+  ],
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "warnings": []
+}
