@@ -3,7 +3,9 @@
 //   node scripts/liturgia-horarum/build-data.mjs <lh>/export/days
 //
 // Output, public/data/liturgia-horarum/ (format lh-site/1):
-//   manifest.json         years, date range, number of common chunks
+//   manifest.json         years, date range, number of common chunks, and a version
+//                         (hash of all the other files) the page adds to each request,
+//                         so a browser never mixes files from two builds
 //   years/YYYY.json       per date: mass year, default celebration, [titleKey, celebrationId] list
 //   cels/<id>.json        one celebration as it falls in some year (psalter week, weekday
 //                         and options differ between years, so one title has several)
@@ -25,9 +27,36 @@ if (!source)
   throw new Error('usage: build-data.mjs <lh>/export/days')
 
 const hash = text => createHash('sha256').update(text).digest('hex').slice(0, 12)
+const version = createHash('sha256')
 const write = (path, data) => {
+  const text = JSON.stringify(data)
   mkdirSync(join(OUT, path, '..'), { recursive: true })
-  writeFileSync(join(OUT, path), JSON.stringify(data))
+  writeFileSync(join(OUT, path), text)
+  if (path !== 'manifest.json')
+    version.update(path).update(text)
+}
+
+// Marks the printed book leaves to the reader, applied to the engine's text
+// (General Instruction 266): the sign of the cross at "Deus, in adiutorium" and
+// at the start of the Gospel canticles, the small cross on the lips at
+// "Domine, labia mea aperies". Placed as Divinum Officium places them.
+const CROSS = '<span class="lh-cross">✠</span>'
+const LIPS = '<span class="lh-cross">✙</span>'
+const MARKS = [
+  ['<p class="respV">Deus, in adiutórium', `<p class="respV">Deus, ${CROSS} in adiutórium`],
+  ['<p class="respV">Dómine, lábia mea apéries.', `<p class="respV">Dómine, lábia ${LIPS} mea apéries.`],
+  ['<sup>68</sup>Benedíctus Dóminus Deus Israel', `<sup>68</sup>Benedíctus ${CROSS} Dóminus Deus Israel`],
+  ['<sup>46</sup>Magníficat', `<sup>46</sup>Magníficat ${CROSS}`],
+  ['<sup>29</sup>Nunc dimíttis', `<sup>29</sup>Nunc dimíttis ${CROSS}`],
+]
+// A <br> inside a psalm line is the printed book's line end; the page wraps
+// lines itself with a hanging indent.
+const VERSE_BREAK = /(<p class="verse[^"]*">)([\s\S]*?)(<\/p>)/g
+
+function present(html) {
+  for (const [from, to] of MARKS)
+    html = html.replaceAll(from, to)
+  return html.replace(VERSE_BREAK, (_, open, text, close) => open + text.replace(/\s*<br\s*\/?>\s*/g, ' ') + close)
 }
 
 function* partBlocks(parts) {
@@ -60,7 +89,7 @@ for (const file of files) {
       for (const version of hour.versions) {
         for (const id of partBlocks(version.parts)) {
           if (!blocks.has(id))
-            blocks.set(id, day.blocks[id])
+            blocks.set(id, present(day.blocks[id]))
           if (!blockTitles.has(id))
             blockTitles.set(id, new Set())
           blockTitles.get(id).add(key)
@@ -122,6 +151,7 @@ write('manifest.json', {
   to: dates.at(-1),
   years: [...years.keys()].map(Number),
   commonChunks: chunkCount,
+  version: version.digest('hex').slice(0, 12),
 })
 
 console.log(`${dates.length} days, ${titles.size} titles, ${[...titles.values()].reduce((n, entry) => n + entry.cels.size, 0)} celebrations, ${blocks.size} blocks (${common.size} common in ${chunkCount} chunks)`)

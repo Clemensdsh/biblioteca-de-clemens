@@ -4,7 +4,7 @@ import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import LhHour from '../../components/liturgiaHorarum/LhHour.vue'
 import { addDays, type Day, HOURS, type HourSlug, isDate, LiturgiaHorarumLoader, localDate, type Manifest } from '../../features/liturgiaHorarum/data'
 
-const description = '新礼时辰礼仪（Liturgia Horarum）拉丁文在线版，每日八个时辰：邀请经、诵读日课、晨祷、日间祷、晚祷与夜祷。'
+const description = '新礼时辰礼仪（Liturgia Horarum）拉丁文在线版，每日八个时辰：序经、诵读日课、晨祷、日间祷、晚祷与夜祷。'
 useHead({
   title: '时辰礼仪',
   htmlAttrs: { lang: 'zh-CN' },
@@ -35,6 +35,13 @@ const atFirst = computed(() => !manifest.value || date.value <= manifest.value.f
 const atLast = computed(() => !manifest.value || date.value >= manifest.value.to)
 const current = computed(() => day.value?.celebrations[celebration.value])
 const currentHour = computed(() => current.value?.hours.find(item => item.code === HOURS[hourIndex.value].code))
+// The rank (or, on a weekday, the psalter week) at the end of a title goes on its own line
+const RANK = /^(.*?),?\s+(sollemnitas|festum|memoria(?: ad libitum)?|pro commemoratione|Hebdomada \d+ Psalterii)$/
+const titleParts = computed(() => {
+  const title = current.value?.title_la || ''
+  const match = RANK.exec(title)
+  return match ? [match[1], match[2]] : [title, '']
+})
 
 onMounted(async () => {
   try {
@@ -198,7 +205,9 @@ function selectCelebration(event: Event) {
             <option v-for="(item, index) in day.celebrations" :key="index" :value="index">{{ item.title_la }}</option>
           </select>
         </label>
-        <h2 lang="la">{{ current.title_la }}</h2>
+        <h2 lang="la">
+          {{ titleParts[0] }}<small v-if="titleParts[1]">{{ titleParts[1] }}</small>
+        </h2>
         <p class="lh-hour-title" lang="la">{{ currentHour.name_la }}</p>
       </header>
       <LhHour :key="`${day.date}-${celebration}-${hour}`" :hour="currentHour" :blocks="day.blocks" />
@@ -392,6 +401,14 @@ function selectCelebration(event: Event) {
   font-size: 1.45rem;
   line-height: 1.35;
   letter-spacing: 0;
+}
+
+.lh-office-header h2 small {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--va-c-text-light);
+  font-size: 0.68em;
+  font-weight: 400;
 }
 
 .lh-date {

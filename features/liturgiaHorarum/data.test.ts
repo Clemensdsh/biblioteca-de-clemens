@@ -6,7 +6,7 @@ const ROOT = 'public/data/liturgia-horarum/'
 const localFetch = (async (url: string) => {
   const path = String(url).replace('/data/liturgia-horarum/', ROOT)
   try {
-    return new Response(readFileSync(path))
+    return new Response(readFileSync(path.replace(/\?.*/, '')), { headers: { 'content-type': 'application/json' } })
   }
   catch {
     return new Response(null, { status: 404 })

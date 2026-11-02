@@ -142,21 +142,67 @@ function chosen(part: Extract<Part, { choice: string }>) {
   font-size: 0.9em;
 }
 
+/* Psalm lines: verse numbers in a left gutter, the second half-line indented,
+   and lines too long for the screen wrapped with a hanging indent. */
 .lh-text :deep(.verse) {
+  position: relative;
   margin: 0;
+  padding-left: 3em;
+  text-indent: -1em;
 }
 
 .lh-text :deep(.verse.cont) {
-  padding-left: 1.5em;
+  padding-left: 4em;
 }
 
 .lh-text :deep(.verse.start) {
-  margin-top: 0.35rem;
+  margin-top: 0.15rem;
+}
+
+.lh-text :deep(.verse.last) {
+  margin-bottom: 0.6rem;
 }
 
 .lh-text :deep(sup) {
+  margin-right: 0.2em;
   color: var(--va-c-text-light);
   font-size: 0.65em;
+}
+
+.lh-text :deep(.verse sup) {
+  position: absolute;
+  top: 0.45em;
+  left: 0;
+  width: 1.6em;
+  margin: 0;
+  text-align: right;
+  text-indent: 0;
+  line-height: 1;
+}
+
+.lh-text :deep(.lh-cross) {
+  color: var(--lh-red);
+}
+
+/* The responsory after a reading in the Office of Readings */
+.lh-text :deep(.reading .resp) {
+  margin: 1.4rem 0 0;
+  padding-bottom: 0.3rem;
+  color: var(--lh-red);
+  font-variant: small-caps;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.lh-text :deep(.reading .resp),
+.lh-text :deep(.reading .resp ~ p) {
+  padding-left: 0.9rem;
+  border-left: 2px solid var(--va-c-divider);
+}
+
+.lh-text :deep(.reading .resp ~ p) {
+  margin: 0;
+  padding-block: 0.2rem;
 }
 
 .lh-text :deep(.hymn p) {

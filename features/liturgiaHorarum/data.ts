@@ -2,7 +2,7 @@
 // written by scripts/liturgia-horarum/build-data.mjs (format lh-site/1).
 
 export const HOURS = [
-  { code: 'mi', slug: 'invitatorium', la: 'Invitatorium', zh: '邀请经' },
+  { code: 'mi', slug: 'invitatorium', la: 'Invitatorium', zh: '序经' },
   { code: 'mpc', slug: 'officium-lectionis', la: 'Officium lectionis', zh: '诵读日课' },
   { code: 'mrch', slug: 'laudes', la: 'Laudes', zh: '晨祷' },
   { code: 'mpred', slug: 'tertia', la: 'Tertia', zh: '午前祷' },
@@ -20,6 +20,7 @@ export interface Manifest {
   to: string
   years: number[]
   commonChunks: number
+  version: string
 }
 
 export type Part
@@ -66,8 +67,14 @@ export class LiturgiaHorarumLoader {
 
   private json<T>(path: string): Promise<T> {
     if (!this.cache.has(path)) {
-      const request = this.fetcher(ROOT + path).then((response) => {
-        if (!response.ok)
+      // The manifest is always revalidated; every other file is requested with
+      // its version, so files of an older build are never mixed in.
+      const request = (path === 'manifest.json'
+        ? this.fetcher(ROOT + path, { cache: 'no-cache' })
+        : this.manifest().then(manifest => this.fetcher(`${ROOT}${path}?v=${manifest.version}`))
+      ).then((response) => {
+        // A missing file comes back as the site's HTML page
+        if (!response.ok || !response.headers.get('content-type')?.includes('json'))
           throw new Error(`${path}: HTTP ${response.status}`)
         return response.json()
       })
