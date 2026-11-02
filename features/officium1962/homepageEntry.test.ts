@@ -13,7 +13,7 @@ const playground = [
 
 describe('1962 Roman Office homepage entry and product name', () => {
   it('keeps the six primary homepage destinations in the requested order', () => {
-    const labels = ['文章', '圣人录译稿', '周年瞻礼经', '1962罗马大日课', '关于', '时辰礼仪']
+    const labels = ['文章', '圣人录译稿', '周年瞻礼经', '罗马大日课', '关于', '时辰礼仪']
     const positions = labels.map(label => config.indexOf(`'${label}'`))
 
     expect(positions.every(position => position >= 0)).toBe(true)
@@ -23,7 +23,7 @@ describe('1962 Roman Office homepage entry and product name', () => {
 
   it('uses the production route once and keeps the feature enabled', () => {
     expect(config.match(/url: '\/officium-1962\/'/g)).toHaveLength(1)
-    expect(config).toContain("name: '1962罗马大日课'")
+    expect(config).toContain("name: '罗马大日课'")
     expect(flags).toContain('officium1962: true')
   })
 
@@ -39,8 +39,8 @@ describe('1962 Roman Office homepage entry and product name', () => {
   })
 
   it('uses the unified product name in page and social metadata', () => {
-    expect(page).toContain("title: '1962罗马大日课'")
-    expect(page).toContain("property: 'og:title', content: '1962罗马大日课'")
+    expect(page).toContain("title: '罗马大日课'")
+    expect(page).toContain("property: 'og:title', content: '罗马大日课'")
     expect(page).toContain('<h1>罗马大日课</h1>')
     expect(page).toContain('Officium Romanum · Rubrics 1960 · Latin')
   })

@@ -83,7 +83,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       },
       ...(featureFlags.officium1962
         ? [{
-            name: '1962罗马大日课',
+            name: '罗马大日课',
             url: '/officium-1962/',
             icon: 'i-ri-book-open-line',
             color: '#9A3F35',

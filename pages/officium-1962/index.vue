@@ -9,13 +9,13 @@ import { office1962HourNames, type Office1962Day, type OfficeHourName } from '..
 
 const description = 'Rubrics 1960 下的罗马大日课拉丁文在线版，包含 Matutinum、Laudes、Prima、Tertia、Sexta、Nona、Vesperae 和 Completorium。'
 useHead({
-  title: '1962罗马大日课',
+  title: '罗马大日课',
   htmlAttrs: { lang: 'zh-CN' },
   link: [{ rel: 'canonical', href: 'https://clemensdsh.xyz/officium-1962/' }],
   meta: [
     { name: 'description', content: description },
     { name: 'robots', content: 'index,follow' },
-    { property: 'og:title', content: '1962罗马大日课' },
+    { property: 'og:title', content: '罗马大日课' },
     { property: 'og:description', content: description },
     { property: 'og:type', content: 'website' },
     { property: 'og:url', content: 'https://clemensdsh.xyz/officium-1962/' },
