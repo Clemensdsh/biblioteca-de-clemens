@@ -112,6 +112,42 @@ export class LiturgiaHorarumLoader {
   }
 }
 
+// Posture of those taking part, General Instruction 263-265: standing for the
+// opening, the hymn, the Gospel canticle, the intercessions, the Lord's Prayer and
+// the concluding prayer; sitting for the readings except the Gospel; sitting or
+// standing for the psalms, as is customary. The Invitatory opens the whole Office.
+// Sections the Instruction does not name keep the posture before them.
+export const POSTURES = {
+  stand: 'Stantes · 立',
+  sit: 'Sedentes · 坐',
+  either: 'Sedentes vel stantes · 坐或立',
+} as const
+
+function postureOf(code: string, part: Part): keyof typeof POSTURES | undefined {
+  if (!('block' in part))
+    return undefined
+  const title = part.title
+  if (title === null || code === 'mi' || /^(HYMNUS|CANTICUM EVANGELICUM|PRECES|ORATIO|EVANGELIUM)/.test(title))
+    return 'stand'
+  if (title === 'PSALMODIA')
+    return 'either'
+  if (/^(LECTIO|EPISTOLA)/.test(title))
+    return 'sit'
+  return undefined
+}
+
+/** The posture to show before each part: only where it changes. */
+export function postureMarks(code: string, parts: Part[]): Array<string | undefined> {
+  let last: string | undefined
+  return parts.map((part) => {
+    const posture = postureOf(code, part)
+    if (!posture || posture === last)
+      return undefined
+    last = posture
+    return POSTURES[posture]
+  })
+}
+
 export function localDate(date = new Date()): string {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
 }

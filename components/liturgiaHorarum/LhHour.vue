@@ -1,15 +1,17 @@
 <script setup lang="ts">
 import { computed, reactive, ref } from 'vue'
-import type { Celebration, Part } from '../../features/liturgiaHorarum/data'
+import { type Celebration, type Part, postureMarks } from '../../features/liturgiaHorarum/data'
 
 const props = defineProps<{
   hour: Celebration['hours'][number]
   blocks: Record<string, string>
+  showPosture: boolean
 }>()
 
 const version = ref(0)
 const picked = reactive<Record<string, number>>({})
 const parts = computed(() => props.hour.versions[version.value].parts)
+const postures = computed(() => postureMarks(props.hour.code, parts.value))
 
 function chosen(part: Extract<Part, { choice: string }>) {
   return picked[part.choice] ?? part.default
@@ -26,6 +28,7 @@ function chosen(part: Extract<Part, { choice: string }>) {
     </label>
 
     <template v-for="(part, index) in parts" :key="`${version}-${index}`">
+      <p v-if="showPosture && postures[index]" class="lh-posture">{{ postures[index] }}</p>
       <div v-if="'block' in part" class="lh-text" v-html="blocks[part.block]" />
       <template v-else>
         <label class="lh-choice no-print" lang="zh-CN">
@@ -41,6 +44,18 @@ function chosen(part: Extract<Part, { choice: string }>) {
 </template>
 
 <style scoped>
+.lh-posture {
+  margin: 1.6rem 0 0;
+  color: var(--lh-red);
+  font-family: var(--va-font-sans, system-ui, sans-serif);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+}
+
+.lh-posture + .lh-text > :deep(:first-child) {
+  margin-top: 0.2rem;
+}
+
 .lh-choice {
   display: flex;
   flex-wrap: wrap;

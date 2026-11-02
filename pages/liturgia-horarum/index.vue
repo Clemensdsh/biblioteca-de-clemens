@@ -27,6 +27,7 @@ const celebration = ref(0)
 const loading = ref(false)
 const message = ref('')
 const fontScale = ref(1)
+const showPosture = ref(false)
 let loader: LiturgiaHorarumLoader | undefined
 let sequence = 0
 
@@ -46,6 +47,7 @@ const titleParts = computed(() => {
 onMounted(async () => {
   try {
     fontScale.value = Math.min(1.35, Math.max(0.9, Number(localStorage.getItem('liturgiaHorarum.font')) || 1))
+    showPosture.value = localStorage.getItem('liturgiaHorarum.posture') === 'true' || new URLSearchParams(window.location.search).has('posture')
   }
   catch {}
   loader = new LiturgiaHorarumLoader()
@@ -65,6 +67,13 @@ onBeforeUnmount(() => window.removeEventListener('popstate', fromUrl))
 watch(fontScale, (value) => {
   try {
     localStorage.setItem('liturgiaHorarum.font', String(value))
+  }
+  catch {}
+})
+
+watch(showPosture, (value) => {
+  try {
+    localStorage.setItem('liturgiaHorarum.posture', String(value))
   }
   catch {}
 })
@@ -182,6 +191,10 @@ function selectCelebration(event: Event) {
         <button class="lh-icon-button" type="button" :disabled="hourIndex === HOURS.length - 1" aria-label="下一时辰" title="下一时辰" @click="moveHour(1)">
           <span class="i-ri-arrow-right-line" aria-hidden="true" />
         </button>
+        <label class="lh-toggle">
+          <input v-model="showPosture" type="checkbox">
+          <span>姿势提示</span>
+        </label>
         <label class="lh-font-control">
           <span>正文字号</span>
           <input v-model.number="fontScale" type="range" min="0.9" max="1.35" step="0.05">
@@ -210,7 +223,7 @@ function selectCelebration(event: Event) {
         </h2>
         <p class="lh-hour-title" lang="la">{{ currentHour.name_la }}</p>
       </header>
-      <LhHour :key="`${day.date}-${celebration}-${hour}`" :hour="currentHour" :blocks="day.blocks" />
+      <LhHour :key="`${day.date}-${celebration}-${hour}`" :hour="currentHour" :blocks="day.blocks" :show-posture="showPosture" />
     </article>
 
     <aside class="lh-notes no-print" aria-labelledby="lh-help-title">
@@ -219,6 +232,7 @@ function selectCelebration(event: Event) {
         <div>
           <p>拉丁文本为 Liturgia Horarum editio typica altera，© Libreria Editrice Vaticana；按 2014 年四卷本校对。每日装配由 Breviar 引擎（breviar.sk）完成，采用普世教会礼历，不含地方礼历。</p>
           <p>礼文在本站之外预先生成，页面只读取静态数据。<span v-if="manifest">当前提供 {{ manifest.from }} 至 {{ manifest.to }}。</span></p>
+          <p>姿势提示依《时辰礼仪总论》263–265 条：开端、赞美诗、福音颂、祷文、天主经和结束祷词时站立；听读经时坐（福音除外）；念圣咏时按各地习惯坐或立。十字标记依 266 条：✠ 画十字，✙ 在口上画十字。</p>
           <p>页面上的选择框对应礼规允许的替代：当日庆典、整时辰的替代形式（另一首赞美诗、另一组圣咏等），以及夜祷的忏悔式和圣母歌。</p>
         </div>
       </details>
@@ -281,6 +295,7 @@ function selectCelebration(event: Event) {
 
 .lh-date-field,
 .lh-font-control,
+.lh-toggle,
 .lh-celebration {
   display: inline-flex;
   gap: 0.4rem;

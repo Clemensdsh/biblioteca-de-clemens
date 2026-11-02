@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
-import { addDays, blockIds, HOURS, isDate, LiturgiaHorarumLoader, type Manifest } from './data'
+import { addDays, blockIds, HOURS, isDate, LiturgiaHorarumLoader, type Manifest, postureMarks } from './data'
 
 const ROOT = 'public/data/liturgia-horarum/'
 const localFetch = (async (url: string) => {
@@ -30,6 +30,13 @@ describe('Liturgia Horarum data', () => {
 
   it('reports a date outside the data', async () => {
     await expect(new LiturgiaHorarumLoader(localFetch).day(addDays(manifest.to, 1))).rejects.toThrow()
+  })
+
+  it('marks posture only where it changes', () => {
+    const part = (title: string | null) => ({ title, block: 'x' })
+    expect(postureMarks('mrch', [part(null), part('HYMNUS'), part('PSALMODIA'), part('LECTIO BREVIS'), part('RESPONSORIUM BREVE'), part('CANTICUM EVANGELICUM'), part('PRECES'), part('ORATIO')]))
+      .toEqual(['Stantes · 立', undefined, 'Sedentes vel stantes · 坐或立', 'Sedentes · 坐', undefined, 'Stantes · 立', undefined, undefined])
+    expect(postureMarks('mi', [part(null)])).toEqual(['Stantes · 立'])
   })
 
   it('validates and steps civil dates', () => {
