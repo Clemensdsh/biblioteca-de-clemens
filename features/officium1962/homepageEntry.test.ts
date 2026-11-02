@@ -41,7 +41,7 @@ describe('1962 Roman Office homepage entry and product name', () => {
   it('uses the unified product name in page and social metadata', () => {
     expect(page).toContain("title: '1962罗马大日课'")
     expect(page).toContain("property: 'og:title', content: '1962罗马大日课'")
-    expect(page).toContain('<h1>1962罗马大日课</h1>')
+    expect(page).toContain('<h1>罗马大日课</h1>')
     expect(page).toContain('Officium Romanum · Rubrics 1960 · Latin')
   })
 

@@ -195,7 +195,7 @@ function persistPreference(key: string, value: string) {
   <main class="officium1962-page">
     <header class="officium1962-page-header">
       <p class="officium1962-eyebrow">Officium Romanum · Rubrics 1960 · Latin</p>
-      <h1>1962罗马大日课</h1>
+      <h1>罗马大日课</h1>
       <p class="officium1962-subtitle">罗马大日课，Rubrics 1960，拉丁文</p>
     </header>
 
