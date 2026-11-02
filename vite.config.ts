@@ -27,6 +27,8 @@ function isClientOnlyRoute(route: string) {
     '/martyrology/',
     '/officium-1962',
     '/officium-1962/',
+    '/liturgia-horarum',
+    '/liturgia-horarum/',
     '/posts/saturday-memorial-of-our-lady-office',
     '/posts/saturday-memorial-of-our-lady-office/',
     '/posts/office-of-the-dead-1962',

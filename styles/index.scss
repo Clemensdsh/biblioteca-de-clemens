@@ -135,7 +135,7 @@ html.dark {
   }
 }
 
-// Keep the five primary home destinations in one consistent grid. The daily
+// Keep the six primary home destinations in one consistent grid. The daily
 // martyrology remains the independent destination below them.
 .yun-square-container .info > div:has(> .link-item[href="/officium-1962/"]) {
   display: grid !important;
@@ -170,11 +170,15 @@ html.dark {
   }
 
   .yun-square-container .link-item[href="/officium-1962/"] {
-    grid-area: 2 / 2 / auto / span 2;
+    grid-area: 2 / 1 / auto / span 2;
   }
 
   .yun-square-container .link-item[href="/about/"] {
-    grid-area: 2 / 4 / auto / span 2;
+    grid-area: 2 / 3 / auto / span 2;
+  }
+
+  .yun-square-container .link-item[href="/liturgia-horarum/"] {
+    grid-area: 2 / 5 / auto / span 2;
   }
 
   .yun-square-container .link-item[href="/martyrology/"] {

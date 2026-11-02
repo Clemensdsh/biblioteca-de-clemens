@@ -96,6 +96,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: '#FF8C00',
       },
       {
+        name: '时辰礼仪',
+        url: '/liturgia-horarum/',
+        icon: 'i-ri-book-open-line',
+        color: '#9A3F35',
+      },
+      {
         name: '每日圣人录',
         url: '/martyrology/',
         icon: 'i-ri-calendar-event-line',
