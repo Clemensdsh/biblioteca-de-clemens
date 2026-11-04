@@ -13,12 +13,22 @@ const playground = [
 
 describe('1962 Roman Office homepage entry and product name', () => {
   it('keeps the six primary homepage destinations in the requested order', () => {
-    const labels = ['文章', '圣人录译稿', '周年瞻礼经', '罗马大日课', '关于', '时辰礼仪']
+    const labels = ['文章', '圣人录译稿', '周年瞻礼经', '罗马大日课', '哥特日课', '时辰礼仪']
     const positions = labels.map(label => config.indexOf(`'${label}'`))
 
     expect(positions.every(position => position >= 0)).toBe(true)
     expect(positions).toEqual([...positions].sort((left, right) => left - right))
     expect(config.indexOf("name: '每日圣人录'")).toBeGreaterThan(positions.at(-1)!)
+  })
+
+  it('moves 关于 into the social row, between X and Telegram', () => {
+    const site = readFileSync('site.config.ts', 'utf8')
+    const order = ["name: 'X'", "name: '关于'", "name: 'Telegram'"].map(name => site.indexOf(name))
+    expect(order.every(position => position >= 0)).toBe(true)
+    expect(order).toEqual([...order].sort((left, right) => left - right))
+    expect(config).not.toContain("url: '/about/'")
+    expect(styles).toContain('.link-item[href="/breviarium-gothicum/"]')
+    expect(readFileSync('components/YunSocialLinkItem.vue', 'utf8')).toContain("social.link.startsWith('/')")
   })
 
   it('uses the production route once and keeps the feature enabled', () => {

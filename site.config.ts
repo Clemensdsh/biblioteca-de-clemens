@@ -28,6 +28,12 @@ export default defineSiteConfig({
       color: '#000000',
     },
     {
+      name: '关于',
+      link: '/about/',
+      icon: 'i-ri-information-line',
+      color: '#FF8C00',
+    },
+    {
       name: 'Telegram',
       link: 'https://t.me/Clemens777hepta',
       icon: 'i-ri-telegram-line',

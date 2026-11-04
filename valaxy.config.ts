@@ -90,10 +90,10 @@ export default defineValaxyConfig<UserThemeConfig>({
           }]
         : []),
       {
-        name: '关于',
-        url: '/about/',
-        icon: 'i-ri-information-line',
-        color: '#FF8C00',
+        name: '哥特日课',
+        url: '/breviarium-gothicum/',
+        icon: 'i-ri-book-open-line',
+        color: '#8C5A2B',
       },
       {
         name: '时辰礼仪',

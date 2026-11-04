@@ -29,6 +29,8 @@ function isClientOnlyRoute(route: string) {
     '/officium-1962/',
     '/liturgia-horarum',
     '/liturgia-horarum/',
+    '/breviarium-gothicum',
+    '/breviarium-gothicum/',
     '/posts/saturday-memorial-of-our-lady-office',
     '/posts/saturday-memorial-of-our-lady-office/',
     '/posts/office-of-the-dead-1962',
