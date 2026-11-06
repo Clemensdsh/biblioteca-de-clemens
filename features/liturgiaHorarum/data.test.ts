@@ -28,6 +28,25 @@ describe('Liturgia Horarum data', () => {
     }
   })
 
+  it.each(sample)('loads both Chinese versions of %s', async (date) => {
+    const loader = new LiturgiaHorarumLoader(localFetch)
+    for (const version of ['hkdlc', 'wanyou'] as const) {
+      const blocks = await loader.chinese(date, version)
+      expect(Object.keys(blocks).length, `${version} ${date}`).toBeGreaterThan(0)
+      const day = await loader.day(date)
+      const textOf = (html: string) => html.replace(/<[^>]*>/g, '').replace(/\s+/g, '')
+      for (const [id, rows] of Object.entries(blocks)) {
+        expect(textOf(rows.map(row => row.la).join('')), id).toBe(textOf(day.blocks[id]))
+        for (const { zh } of rows) {
+          if (zh) {
+            expect(['t', 's', 'o', 'c']).toContain(zh[0])
+            expect(zh[1]).toEqual(expect.any(String))
+          }
+        }
+      }
+    }
+  })
+
   it('reports a date outside the data', async () => {
     await expect(new LiturgiaHorarumLoader(localFetch).day(addDays(manifest.to, 1))).rejects.toThrow()
   })

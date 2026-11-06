@@ -21,7 +21,11 @@ export interface Manifest {
   years: number[]
   commonChunks: number
   version: string
+  zh?: string[]
 }
+
+export type ZhVersion = 'hkdlc' | 'wanyou'
+export type ZhText = [kind: 't' | 's' | 'o' | 'c', text: string, borrowedFrom?: string]
 
 export type Part
   = | { title: string | null, block: string }
@@ -46,6 +50,11 @@ export interface Day {
   celebrations: Celebration[]
   blocks: Record<string, string>
 }
+
+export type ZhRow = { la: string, key: string | null, zh: ZhText | null }
+export type ZhBlocks = Record<string, ZhRow[]>
+type LatinRows = Record<string, Array<[string, string | null]>>
+type ChineseRows = Record<string, Array<ZhText | null>>
 
 interface YearEntry {
   m: string
@@ -109,6 +118,39 @@ export class LiturgiaHorarumLoader {
     for (const chunk of await Promise.all(chunks.map(n => this.json<Record<string, string>>(`common/${String(n).padStart(3, '0')}.json`))))
       Object.assign(blocks, chunk)
     return { date, massYear: entry.m, defaultCelebration: entry.d, celebrations, blocks }
+  }
+
+  /** Chinese text for the same title and common files used by a day. */
+  async chinese(date: string, version: ZhVersion): Promise<ZhBlocks> {
+    const year = await this.json<Record<string, YearEntry>>(`years/${date.slice(0, 4)}.json`)
+    const entry = year[date]
+    if (!entry)
+      throw new Error(`${date}: not in the data`)
+    const [celebrations, titles, rowTitles, index] = await Promise.all([
+      Promise.all(entry.c.map(([, cel]) => this.json<Celebration>(`cels/${cel}.json`))),
+      Promise.all(entry.c.map(([title]) => this.json<{ blocks: ChineseRows }>(`zh/${version}/titles/${title}.json`))),
+      Promise.all(entry.c.map(([title]) => this.json<LatinRows>(`zh/rows/titles/${title}.json`))),
+      this.json<Record<string, number>>('common/index.json'),
+    ])
+    const chinese: ChineseRows = Object.assign({}, ...titles.map(title => title.blocks))
+    const rows: LatinRows = Object.assign({}, ...rowTitles)
+    const chunks = [...new Set(celebrations.flatMap(blockIds).filter(id => id in index).map(id => index[id]))]
+    await Promise.all(chunks.map(async (n) => {
+      const name = String(n).padStart(3, '0')
+      const [latinChunk, chineseChunk] = await Promise.all([
+        this.json<LatinRows>(`zh/rows/common/${name}.json`),
+        this.json<ChineseRows>(`zh/${version}/common/${name}.json`),
+      ])
+      Object.assign(rows, latinChunk)
+      Object.assign(chinese, chineseChunk)
+    }))
+    const blocks: ZhBlocks = Object.fromEntries(Object.entries(rows).map(([id, lines]) => {
+      const values = chinese[id]
+      if (values && values.length !== lines.length)
+        throw new Error(`${id}: Chinese row count differs from Latin`)
+      return [id, lines.map(([la, key], i) => ({ la, key, zh: values?.[i] || null }))]
+    }))
+    return blocks
   }
 }
 

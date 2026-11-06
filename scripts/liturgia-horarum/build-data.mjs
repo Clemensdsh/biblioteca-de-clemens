@@ -1,6 +1,6 @@
 // Convert the lh project's day exports (format lh-day/1) into the site's data.
 //
-//   node scripts/liturgia-horarum/build-data.mjs <lh>/export/days
+//   node scripts/liturgia-horarum/build-data.mjs <lh>/export/days [<zh>/site]
 //
 // Output, public/data/liturgia-horarum/ (format lh-site/1):
 //   manifest.json         years, date range, number of common chunks, and a version
@@ -24,7 +24,8 @@ const OUT = 'public/data/liturgia-horarum'
 
 const source = process.argv[2]
 if (!source)
-  throw new Error('usage: build-data.mjs <lh>/export/days')
+  throw new Error('usage: build-data.mjs <lh>/export/days [<zh>/site]')
+const zhSource = process.argv[3]
 
 const hash = text => createHash('sha256').update(text).digest('hex').slice(0, 12)
 const version = createHash('sha256')
@@ -73,6 +74,12 @@ const blockTitles = new Map() // id -> Set of title keys
 const titles = new Map() // key -> { title, cels: Map(id -> celebration), blocks: Set }
 const years = new Map() // year -> { date: entry }
 
+const zhVersions = zhSource ? [
+  ['hkdlc', JSON.parse(readFileSync(join(zhSource, 'zh-hkdlc.json'), 'utf8'))],
+  ['wanyou', JSON.parse(readFileSync(join(zhSource, 'zh-wanyou.json'), 'utf8'))],
+] : []
+const zhRows = zhSource ? JSON.parse(readFileSync(join(zhSource, 'rows.json'), 'utf8')) : {}
+
 const files = readdirSync(source).sort().flatMap(year => readdirSync(join(source, year)).sort().map(name => join(source, year, name)))
 for (const file of files) {
   const day = JSON.parse(readFileSync(file, 'utf8'))
@@ -105,7 +112,7 @@ for (const file of files) {
   years.get(year)[day.date] = { m: day.mass_year, d: day.default_celebration, c: refs }
 }
 
-rmSync(OUT, { recursive: true, force: true })
+rmSync(OUT, { recursive: true, force: true, maxRetries: 10, retryDelay: 100 })
 
 const common = new Set([...blockTitles].filter(([, keys]) => keys.size >= COMMON_TITLES).map(([id]) => id))
 const index = {}
@@ -132,6 +139,13 @@ if (chunk.length)
   flush()
 write('common/index.json', index)
 
+const rowBlocks = new Map([...blocks].flatMap(([id]) =>
+  zhRows[id] ? [[id, zhRows[id].map(([html, key]) => [present(html), key])]] : []))
+const zhBlocks = new Map(zhVersions.map(([name, texts]) => [name, new Map([...rowBlocks].flatMap(([id, rows]) => {
+  const values = rows.map(([, key]) => texts[key] || null)
+  return values.some(Boolean) ? [[id, values]] : []
+}))]))
+
 for (const [key, entry] of titles) {
   for (const [celId, cel] of entry.cels)
     write(`cels/${celId}.json`, cel)
@@ -139,7 +153,25 @@ for (const [key, entry] of titles) {
     title: entry.title,
     blocks: Object.fromEntries([...entry.blocks].filter(id => !common.has(id)).map(id => [id, blocks.get(id)])),
   })
+  if (zhSource)
+    write(`zh/rows/titles/${key}.json`, Object.fromEntries([...entry.blocks].filter(id => !common.has(id) && rowBlocks.has(id)).map(id => [id, rowBlocks.get(id)])))
+  for (const [name] of zhVersions)
+    write(`zh/${name}/titles/${key}.json`, {
+      blocks: Object.fromEntries([...entry.blocks].filter(id => !common.has(id) && zhBlocks.get(name).has(id)).map(id => [id, zhBlocks.get(name).get(id)])),
+    })
 }
+
+if (zhSource)
+  for (let n = 0; n < chunkCount; n++) {
+    const ids = [...blocks.keys()].filter(id => common.has(id) && index[id] === n && rowBlocks.has(id))
+    write(`zh/rows/common/${String(n).padStart(3, '0')}.json`, Object.fromEntries(ids.map(id => [id, rowBlocks.get(id)])))
+  }
+
+for (const [name] of zhVersions)
+  for (let n = 0; n < chunkCount; n++) {
+    const ids = [...blocks.keys()].filter(id => common.has(id) && index[id] === n && zhBlocks.get(name).has(id))
+    write(`zh/${name}/common/${String(n).padStart(3, '0')}.json`, Object.fromEntries(ids.map(id => [id, zhBlocks.get(name).get(id)])))
+  }
 
 for (const [year, days] of years)
   write(`years/${year}.json`, days)
@@ -151,7 +183,9 @@ write('manifest.json', {
   to: dates.at(-1),
   years: [...years.keys()].map(Number),
   commonChunks: chunkCount,
+  ...(zhSource ? { zh: zhVersions.map(([name]) => name) } : {}),
   version: version.digest('hex').slice(0, 12),
 })
 
-console.log(`${dates.length} days, ${titles.size} titles, ${[...titles.values()].reduce((n, entry) => n + entry.cels.size, 0)} celebrations, ${blocks.size} blocks (${common.size} common in ${chunkCount} chunks)`)
+const zhSummary = zhVersions.map(([name]) => `${name}: ${zhBlocks.get(name).size} blocks`).join(', ')
+console.log(`${dates.length} days, ${titles.size} titles, ${[...titles.values()].reduce((n, entry) => n + entry.cels.size, 0)} celebrations, ${blocks.size} blocks (${common.size} common in ${chunkCount} chunks)${zhSummary ? `; ${zhSummary}` : ''}`)

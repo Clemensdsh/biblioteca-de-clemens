@@ -2,7 +2,7 @@
 import { useHead } from '@unhead/vue'
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import LhHour from '../../components/liturgiaHorarum/LhHour.vue'
-import { addDays, type Day, HOURS, type HourSlug, isDate, LiturgiaHorarumLoader, localDate, type Manifest } from '../../features/liturgiaHorarum/data'
+import { addDays, type Day, HOURS, type HourSlug, isDate, LiturgiaHorarumLoader, localDate, type Manifest, type ZhBlocks, type ZhVersion } from '../../features/liturgiaHorarum/data'
 
 const description = '新礼时辰礼仪（Liturgia Horarum）拉丁文在线版，每日八个时辰：序经、诵读日课、晨祷、日间祷、晚祷与夜祷。'
 useHead({
@@ -27,9 +27,15 @@ const celebration = ref(0)
 const loading = ref(false)
 const message = ref('')
 const fontScale = ref(1)
+const zhFontScale = ref(1)
+const columnWidth = ref(50)
 const showPosture = ref(false)
+const display = ref<'latin' | 'chinese' | 'parallel'>('latin')
+const chineseVersion = ref<ZhVersion>('wanyou')
+const zhBlocks = ref<ZhBlocks>({})
 let loader: LiturgiaHorarumLoader | undefined
 let sequence = 0
+let chineseSequence = 0
 
 const hourIndex = computed(() => HOURS.findIndex(item => item.slug === hour.value))
 const atFirst = computed(() => !manifest.value || date.value <= manifest.value.from)
@@ -47,7 +53,14 @@ const titleParts = computed(() => {
 onMounted(async () => {
   try {
     fontScale.value = Math.min(1.35, Math.max(0.9, Number(localStorage.getItem('liturgiaHorarum.font')) || 1))
+    zhFontScale.value = Math.min(1.35, Math.max(0.9, Number(localStorage.getItem('liturgiaHorarum.zhFont')) || 1))
+    columnWidth.value = Math.min(65, Math.max(35, Number(localStorage.getItem('liturgiaHorarum.columnWidth')) || 50))
     showPosture.value = localStorage.getItem('liturgiaHorarum.posture') === 'true' || new URLSearchParams(window.location.search).has('posture')
+    const savedDisplay = localStorage.getItem('liturgiaHorarum.display')
+    if (savedDisplay === 'chinese' || savedDisplay === 'parallel')
+      display.value = savedDisplay
+    if (localStorage.getItem('liturgiaHorarum.chinese') === 'hkdlc')
+      chineseVersion.value = 'hkdlc'
   }
   catch {}
   loader = new LiturgiaHorarumLoader()
@@ -71,11 +84,33 @@ watch(fontScale, (value) => {
   catch {}
 })
 
+watch(zhFontScale, (value) => {
+  try { localStorage.setItem('liturgiaHorarum.zhFont', String(value)) } catch {}
+})
+watch(columnWidth, (value) => {
+  try { localStorage.setItem('liturgiaHorarum.columnWidth', String(value)) } catch {}
+})
+
 watch(showPosture, (value) => {
   try {
     localStorage.setItem('liturgiaHorarum.posture', String(value))
   }
   catch {}
+})
+
+watch(display, (value) => {
+  try { localStorage.setItem('liturgiaHorarum.display', value) } catch {}
+  if (value === 'latin') {
+    zhBlocks.value = {}
+    return
+  }
+  loadChinese()
+})
+
+watch(chineseVersion, (value) => {
+  try { localStorage.setItem('liturgiaHorarum.chinese', value) } catch {}
+  if (display.value !== 'latin')
+    loadChinese()
 })
 
 function fromUrl() {
@@ -105,6 +140,7 @@ async function load(next: string, wantedCelebration?: number) {
       return
     day.value = result
     celebration.value = wantedCelebration !== undefined && result.celebrations[wantedCelebration] ? wantedCelebration : result.defaultCelebration
+    zhBlocks.value = display.value === 'latin' ? {} : await loader.chinese(next, chineseVersion.value)
   }
   catch (error) {
     if (mine === sequence) {
@@ -115,6 +151,21 @@ async function load(next: string, wantedCelebration?: number) {
   finally {
     if (mine === sequence)
       loading.value = false
+  }
+}
+
+async function loadChinese() {
+  if (!loader || !day.value || display.value === 'latin')
+    return
+  const mine = ++chineseSequence
+  try {
+    const result = await loader.chinese(day.value.date, chineseVersion.value)
+    if (mine === chineseSequence)
+      zhBlocks.value = result
+  }
+  catch (error) {
+    if (mine === chineseSequence)
+      message.value = `中文加载失败：${(error as Error).message}`
   }
 }
 
@@ -195,9 +246,32 @@ function selectCelebration(event: Event) {
           <input v-model="showPosture" type="checkbox">
           <span>姿势提示</span>
         </label>
+        <label class="lh-display-control">
+          <span>显示</span>
+          <select v-model="display">
+            <option value="latin">拉丁</option>
+            <option value="chinese">中文</option>
+            <option value="parallel">对照</option>
+          </select>
+        </label>
+        <label v-if="display !== 'latin'" class="lh-display-control">
+          <span>中文版本</span>
+          <select v-model="chineseVersion">
+            <option value="hkdlc">香港教区礼仪委员会</option>
+            <option value="wanyou">万有真原</option>
+          </select>
+        </label>
         <label class="lh-font-control">
           <span>正文字号</span>
           <input v-model.number="fontScale" type="range" min="0.9" max="1.35" step="0.05">
+        </label>
+        <label v-if="display !== 'latin'" class="lh-font-control">
+          <span>中文字号</span>
+          <input v-model.number="zhFontScale" type="range" min="0.9" max="1.35" step="0.05">
+        </label>
+        <label v-if="display === 'parallel'" class="lh-font-control lh-width-control">
+          <span>拉丁栏宽 {{ columnWidth }}%</span>
+          <input v-model.number="columnWidth" type="range" min="35" max="65" step="1">
         </label>
       </div>
     </section>
@@ -209,7 +283,7 @@ function selectCelebration(event: Event) {
       {{ message }}
     </section>
 
-    <article v-if="day && current && currentHour && !loading" class="lh-office" :style="{ '--lh-font-scale': fontScale }">
+    <article v-if="day && current && currentHour && !loading" class="lh-office" :style="{ '--lh-font-scale': fontScale, '--lh-zh-font-scale': zhFontScale, '--lh-column-width': `${columnWidth}%` }">
       <header class="lh-office-header">
         <p class="lh-date">{{ day.date }}</p>
         <label v-if="day.celebrations.length > 1" class="lh-celebration no-print">
@@ -223,7 +297,7 @@ function selectCelebration(event: Event) {
         </h2>
         <p class="lh-hour-title" lang="la">{{ currentHour.name_la }}</p>
       </header>
-      <LhHour :key="`${day.date}-${celebration}-${hour}`" :hour="currentHour" :blocks="day.blocks" :show-posture="showPosture" />
+      <LhHour :key="`${day.date}-${celebration}-${hour}`" :hour="currentHour" :blocks="day.blocks" :zh-blocks="zhBlocks" :display="display" :show-posture="showPosture" />
     </article>
 
     <aside class="lh-notes no-print" aria-labelledby="lh-help-title">
@@ -296,6 +370,7 @@ function selectCelebration(event: Event) {
 .lh-date-field,
 .lh-font-control,
 .lh-toggle,
+.lh-display-control,
 .lh-celebration {
   display: inline-flex;
   gap: 0.4rem;
@@ -303,6 +378,7 @@ function selectCelebration(event: Event) {
 }
 
 .lh-date-field input,
+.lh-display-control select,
 .lh-celebration select {
   min-height: 2.5rem;
   max-width: 100%;
@@ -483,6 +559,10 @@ function selectCelebration(event: Event) {
 :global(body:has(.lh-page) .yun-aside),
 :global(body:has(.lh-page) .toc-btn) {
   display: none !important;
+}
+
+@media (max-width: 42rem) {
+  .lh-width-control { display: none; }
 }
 
 @media (max-width: 760px) {
