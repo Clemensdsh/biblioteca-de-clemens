@@ -1,0 +1,78 @@
+{
+  "date": "2026-12-25",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "hour": "vesperae",
+  "language": "la",
+  "liturgicalTitle": "In Nativitate Domini ~ I. classis",
+  "rank": "In Nativitate Domini;;Duplex I Classis;;7\n\n",
+  "schemaVersion": "0.1.0",
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "units": [
+    {
+      "html": "Incipit\n<br/>\n℣. Deus <span style='color:red; font-size:1.25em'>✠</span> in adjutórium meum inténde.<br/>\n℟. Dómine, ad adjuvándum me festína.<br/>\nGlória Patri, et Fílio, * et Spirítui Sancto.<br/>\nSicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAllelúja.<br/>\n",
+      "id": "do-1962-2026-12-25-vespera-001",
+      "raw": "#Incipit\n&Deus_in_adjutorium\n&Alleluia\n"
+    },
+    {
+      "html": "Psalmi {Psalmi & antiphonæ  ex Proprio Sanctorum}\n<br/>\nAnt. Tecum princípium * in die virtútis tuæ, in splendóribus sanctórum, ex útero ante lucíferum génui te.<br/>\nPsalmus 109 [1]<br/>\n109:1a Dixit Dóminus Dómino meo: * Sede a dextris meis:<br/>\n109:1b Donec ponam inimícos tuos, * scabéllum pedum tuórum.<br/>\n109:2 Virgam virtútis tuæ emíttet Dóminus ex Sion: * domináre in médio inimicórum tuórum.<br/>\n109:3 Tecum princípium in die virtútis tuæ in splendóribus sanctórum: * ex útero ante lucíferum génui te.<br/>\n109:4 Jurávit Dóminus, et non pœnitébit eum: * Tu es sacérdos in ætérnum secúndum órdinem Melchísedech.<br/>\n109:5 Dóminus a dextris tuis, * confrégit in die iræ suæ reges.<br/>\n109:6 Judicábit in natiónibus, implébit ruínas: * conquassábit cápita in terra multórum.<br/>\n109:7 De torrénte in via bibet: * proptérea exaltábit caput.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Tecum princípium in die virtútis tuæ, in splendóribus sanctórum, ex útero ante lucíferum génui te.<br/>\n",
+      "id": "do-1962-2026-12-25-vespera-002",
+      "raw": "#Psalmi{Psalmi & antiphonæ  ex Proprio Sanctorum}\nAnt. Tecum princípium * in die virtútis tuæ, in splendóribus sanctórum, ex útero ante lucíferum génui te.\n&psalm(109)\nAnt. Tecum princípium in die virtútis tuæ, in splendóribus sanctórum, ex útero ante lucíferum génui te.\n"
+    },
+    {
+      "html": "Ant. Redemptiónem * misit Dóminus pópulo suo: mandávit in ætérnum testaméntum suum.<br/>\nPsalmus 110 [2]<br/>\n110:1 Confitébor tibi, Dómine, in toto corde meo: * in consílio justórum, et congregatióne.<br/>\n110:2 Magna ópera Dómini: * exquisíta in omnes voluntátes ejus.<br/>\n110:3 Conféssio et magnificéntia opus ejus: * et justítia ejus manet in sǽculum sǽculi.<br/>\n110:4 Memóriam fecit mirabílium suórum, † miséricors et miserátor Dóminus: * (5a) escam dedit timéntibus se.<br/>\n110:5b Memor erit in sǽculum testaménti sui: * (6) virtútem óperum suórum annuntiábit pópulo suo:<br/>\n110:7 Ut det illis hereditátem géntium: * ópera mánuum ejus véritas, et judícium.<br/>\n110:8 Fidélia ómnia mandáta ejus: † confirmáta in sǽculum sǽculi, * facta in veritáte et æquitáte.<br/>\n110:9a Redemptiónem misit pópulo suo: * mandávit in ætérnum testaméntum suum.<br/>\n110:9b (fit reverentia) Sanctum, et terríbile nomen ejus: * (10a) inítium sapiéntiæ timor Dómini.<br/>\n110:10b Intelléctus bonus ómnibus faciéntibus eum: * laudátio ejus manet in sǽculum sǽculi.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Redemptiónem misit Dóminus pópulo suo: mandávit in ætérnum testaméntum suum.<br/>\n",
+      "id": "do-1962-2026-12-25-vespera-003",
+      "raw": "Ant. Redemptiónem * misit Dóminus pópulo suo: mandávit in ætérnum testaméntum suum.\n&psalm(110)\nAnt. Redemptiónem misit Dóminus pópulo suo: mandávit in ætérnum testaméntum suum.\n"
+    },
+    {
+      "html": "Ant. Exórtum est * in ténebris lumen rectis corde: miséricors, et miserátor, et justus Dóminus.<br/>\nPsalmus 111 [3]<br/>\n111:1 Beátus vir, qui timet Dóminum: * in mandátis ejus volet nimis.<br/>\n111:2 Potens in terra erit semen ejus: * generátio rectórum benedicétur.<br/>\n111:3 Glória, et divítiæ in domo ejus: * et justítia ejus manet in sǽculum sǽculi.<br/>\n111:4 Exórtum est in ténebris lumen rectis: * miséricors, et miserátor, et justus.<br/>\n111:5 Jucúndus homo qui miserétur et cómmodat, † dispónet sermónes suos in judício: * (6) quia in ætérnum non commovébitur.<br/>\n111:7a In memória ætérna erit justus: * ab auditióne mala non timébit.<br/>\n111:7b Parátum cor ejus speráre in Dómino, † (8) confirmátum est cor ejus: * non commovébitur donec despíciat inimícos suos.<br/>\n111:9 Dispérsit, dedit paupéribus: † justítia ejus manet in sǽculum sǽculi, * cornu ejus exaltábitur in glória.<br/>\n111:10 Peccátor vidébit, et irascétur, † déntibus suis fremet et tabéscet: * desidérium peccatórum períbit.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Exórtum est in ténebris lumen rectis corde: miséricors, et miserátor, et justus Dóminus.<br/>\n",
+      "id": "do-1962-2026-12-25-vespera-004",
+      "raw": "Ant. Exórtum est * in ténebris lumen rectis corde: miséricors, et miserátor, et justus Dóminus.\n&psalm(111)\nAnt. Exórtum est in ténebris lumen rectis corde: miséricors, et miserátor, et justus Dóminus.\n"
+    },
+    {
+      "html": "Ant. Apud Dóminum * misericórdia, et copiósa apud eum redémptio.<br/>\nPsalmus 129 [4]<br/>\n129:1 De profúndis clamávi ad te, Dómine: * (2a) Dómine, exáudi vocem meam:<br/>\n129:2b Fiant aures tuæ intendéntes, * in vocem deprecatiónis meæ.<br/>\n129:3 Si iniquitátes observáveris, Dómine: * Dómine, quis sustinébit?<br/>\n129:4a Quia apud te propitiátio est: * et propter legem tuam sustínui te, Dómine.<br/>\n129:4b Sustínuit ánima mea in verbo ejus: * (5) sperávit ánima mea in Dómino.<br/>\n129:6 A custódia matutína usque ad noctem: * speret Israël in Dómino.<br/>\n129:7 Quia apud Dóminum misericórdia: * et copiósa apud eum redémptio.<br/>\n129:8 Et ipse rédimet Israël, * ex ómnibus iniquitátibus ejus.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Apud Dóminum misericórdia, et copiósa apud eum redémptio.<br/>\n",
+      "id": "do-1962-2026-12-25-vespera-005",
+      "raw": "Ant. Apud Dóminum * misericórdia, et copiósa apud eum redémptio.\n&psalm(129)\nAnt. Apud Dóminum misericórdia, et copiósa apud eum redémptio.\n"
+    },
+    {
+      "html": "Ant. De fructu * ventris tui ponam super sedem tuam.<br/>\nPsalmus 131 [5]<br/>\n131:1 Meménto, Dómine, David, * et omnis mansuetúdinis ejus:<br/>\n131:2 Sicut jurávit Dómino, * votum vovit Deo Jacob:<br/>\n131:3 Si introíero in tabernáculum domus meæ, * si ascéndero in lectum strati mei:<br/>\n131:4 Si dédero somnum óculis meis, * et pálpebris meis dormitatiónem:<br/>\n131:5 Et réquiem tempóribus meis: donec invéniam locum Dómino, * tabernáculum Deo Jacob.<br/>\n131:6 Ecce, audívimus eam in Éphrata: * invénimus eam in campis silvæ.<br/>\n131:7 Introíbimus in tabernáculum ejus: * adorábimus in loco, ubi stetérunt pedes ejus.<br/>\n131:8 Surge, Dómine, in réquiem tuam, * tu et arca sanctificatiónis tuæ.<br/>\n131:9 Sacerdótes tui induántur justítiam: * et sancti tui exsúltent.<br/>\n131:10 Propter David, servum tuum, * non avértas fáciem Christi tui.<br/>\n131:11 Jurávit Dóminus David veritátem, et non frustrábitur eam: * De fructu ventris tui ponam super sedem tuam.<br/>\n131:12a Si custodíerint fílii tui testaméntum meum, * et testimónia mea hæc, quæ docébo eos:<br/>\n131:12b Et fílii eórum usque in sǽculum, * sedébunt super sedem tuam.<br/>\n131:13 Quóniam elégit Dóminus Sion: * elégit eam in habitatiónem sibi.<br/>\n131:14 Hæc réquies mea in sǽculum sǽculi: * hic habitábo quóniam elégi eam.<br/>\n131:15 Víduam ejus benedícens benedícam: * páuperes ejus saturábo pánibus.<br/>\n131:16 Sacerdótes ejus índuam salutári: * et sancti ejus exsultatióne exsultábunt.<br/>\n131:17 Illuc prodúcam cornu David, * parávi lucérnam Christo meo.<br/>\n131:18 Inimícos ejus índuam confusióne: * super ipsum autem efflorébit sanctificátio mea.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. De fructu ventris tui ponam super sedem tuam.<br/>\n",
+      "id": "do-1962-2026-12-25-vespera-006",
+      "raw": "Ant. De fructu * ventris tui ponam super sedem tuam.\n&psalm(131)\nAnt. De fructu ventris tui ponam super sedem tuam.\n"
+    },
+    {
+      "html": "Capitulum Hymnus Versus {ex Proprio Sanctorum}\n<br/>\nHeb 1:1-2<br/>\nMultifáriam, multísque modis olim Deus loquens pátribus in prophétis: novíssime diébus istis locútus est nobis in Fílio, quem constítuit herédem universórum, per quem fecit et sǽcula.<br/>\n℟. Deo grátias.<br/>\n_<br/>\nHymnus<br/>\nJesu, Redémptor ómnium,<br/>\nQuem lucis ante oríginem<br/>\nParem patérnæ glóriæ<br/>\nPater suprémus édidit.<br/>\n_<br/>\nTu lumen, et splendor Patris,<br/>\nTu spes perénnis ómnium,<br/>\nInténde quas fundunt preces<br/>\nTui per orbem sérvuli.<br/>\n_<br/>\nMeménto, rerum Cónditor,<br/>\nNostri quod olim córporis,<br/>\nSacráta ab alvo Vírginis<br/>\nNascéndo, formam súmpseris.<br/>\n_<br/>\nTestátur hoc præsens dies,<br/>\nCurrens per anni círculum,<br/>\nQuod solus e sinu Patris<br/>\nMundi salus advéneris.<br/>\n_<br/>\nHunc astra, tellus, ǽquora,<br/>\nHunc omne, quod cælo subest,<br/>\nSalútis auctórem novæ<br/>\nNovo salútat cántico.<br/>\n_<br/>\nEt nos, beáta quos sacri<br/>\nRigávit unda sánguinis,<br/>\nNatális ob diem tui<br/>\nHymni tribútum sólvimus.<br/>\n_<br/>\nJesu, tibi sit glória,<br/>\nQui natus es de Vírgine,<br/>\nCum Patre et almo Spíritu,<br/>\nIn sempitérna sǽcula.<br/>\nAmen.<br/>\n_<br/>\n℣. Notum fecit Dóminus, allelúja.<br/>\n℟. Salutáre suum, allelúja.<br/>\n",
+      "id": "do-1962-2026-12-25-vespera-007",
+      "raw": "#Capitulum Hymnus Versus{ex Proprio Sanctorum}\n!Heb 1:1-2\nv. Multifáriam, multísque modis olim Deus loquens pátribus in prophétis: novíssime diébus istis locútus est nobis in Fílio, quem constítuit herédem universórum, per quem fecit et sǽcula.\n$Deo gratias\n_\n!Hymnus\n{:H-Jesuredemptoromnium:}v. Jesu, Redémptor ómnium,\nQuem lucis ante oríginem\nParem patérnæ glóriæ\nPater suprémus édidit.\n_\nr. Tu lumen, et splendor Patris,\nTu spes perénnis ómnium,\nInténde quas fundunt preces\nTui per orbem sérvuli.\n_\nr. Meménto, rerum Cónditor,\nNostri quod olim córporis,\nSacráta ab alvo Vírginis\nNascéndo, formam súmpseris.\n_\nr. Testátur hoc præsens dies,\nCurrens per anni círculum,\nQuod solus e sinu Patris\nMundi salus advéneris.\n_\nr. Hunc astra, tellus, ǽquora,\nHunc omne, quod cælo subest,\nSalútis auctórem novæ\nNovo salútat cántico.\n_\nr. Et nos, beáta quos sacri\nRigávit unda sánguinis,\nNatális ob diem tui\nHymni tribútum sólvimus.\n_\nr. Jesu, tibi sit glória,\nQui natus es de Vírgine,\nCum Patre et almo Spíritu,\nIn sempitérna sǽcula.\nAmen.\n\n_\nV. Notum fecit Dóminus, allelúja.\nR. Salutáre suum, allelúja.\n\n"
+    },
+    {
+      "html": "Canticum: Magnificat {Antiphona ex Proprio Sanctorum}\n<br/>\nAnt. Hódie * Christus natus est: hódie Salvátor appáruit: hódie in terra canunt Angeli, lætántur Archángeli: hódie exsúltant justi, dicéntes: Glória in excélsis Deo, allelúja.<br/>\nCanticum B. Mariæ Virginis<br/>\nLuc. 1:46-55<br/>\n1:46 Magníficat <span style='color:red; font-size:1.25em'>✠</span> * ánima mea Dóminum.<br/>\n1:47 Et exsultávit spíritus meus: * in Deo, salutári meo.<br/>\n1:48 Quia respéxit humilitátem ancíllæ suæ: * ecce enim ex hoc beátam me dicent omnes generatiónes.<br/>\n1:49 Quia fecit mihi magna qui potens est: * et sanctum nomen ejus.<br/>\n1:50 Et misericórdia ejus, a progénie in progénies: * timéntibus eum.<br/>\n1:51 Fecit poténtiam in brácchio suo: * dispérsit supérbos mente cordis sui.<br/>\n1:52 Depósuit poténtes de sede: * et exaltávit húmiles.<br/>\n1:53 Esuriéntes implévit bonis: * et dívites dimísit inánes.<br/>\n1:54 Suscépit Israël púerum suum: * recordátus misericórdiæ suæ.<br/>\n1:55 Sicut locútus est ad patres nostros: * Ábraham, et sémini ejus in sǽcula.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Hódie Christus natus est: hódie Salvátor appáruit: hódie in terra canunt Angeli, lætántur Archángeli: hódie exsúltant justi, dicéntes: Glória in excélsis Deo, allelúja.<br/>\n",
+      "id": "do-1962-2026-12-25-vespera-008",
+      "raw": "#Canticum: Magnificat{Antiphona ex Proprio Sanctorum}\nAnt. Hódie * Christus natus est: hódie Salvátor appáruit: hódie in terra canunt Angeli, lætántur Archángeli: hódie exsúltant justi, dicéntes: Glória in excélsis Deo, allelúja.\n&psalm(232)\nAnt. Hódie Christus natus est: hódie Salvátor appáruit: hódie in terra canunt Angeli, lætántur Archángeli: hódie exsúltant justi, dicéntes: Glória in excélsis Deo, allelúja.\n"
+    },
+    {
+      "html": "Preces Feriales{omittitur}<br/>\n",
+      "id": "do-1962-2026-12-25-vespera-009",
+      "raw": "#Preces Feriales{omittitur}\n"
+    },
+    {
+      "html": "Oratio {ex Proprio Sanctorum}\n<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\nOrémus.<br/>\nConcéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per carnem Natívitas líberet; quos sub peccáti jugo vetústa sérvitus tenet.<br/>\nPer eúmdem Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-12-25-vespera-010",
+      "raw": "#Oratio{ex Proprio Sanctorum}\n&Dominus_vobiscum\nv. Orémus.\nv. Concéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per carnem Natívitas líberet; quos sub peccáti jugo vetústa sérvitus tenet.\n$Per eumdem\n\n"
+    },
+    {
+      "html": "Conclusio\n<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\n℣. Benedicámus Dómino.<br/>\n℟. Deo grátias.<br/>\n℣. Fidélium ánimæ per misericórdiam Dei requiéscant in pace.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-12-25-vespera-011",
+      "raw": "#Conclusio\n&Dominus_vobiscum\n&Benedicamus_Domino\n$Fidelium animae\n"
+    }
+  ],
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "warnings": []
+}

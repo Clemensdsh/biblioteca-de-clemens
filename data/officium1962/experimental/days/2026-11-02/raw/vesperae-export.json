@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-02",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "hour": "vesperae",
+  "language": "la",
+  "liturgicalTitle": "In Commemoratione Omnium Fidelium Defunctorum ~ I. classis",
+  "rank": "In Commemoratione Omnium Fidelium Defunctorum;;I. classis;;6;;ex C9\n\n",
+  "schemaVersion": "0.1.0",
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "units": [
+    {
+      "html": "Incipit{omittitur}<br/>\n",
+      "id": "do-1962-2026-11-02-vespera-001",
+      "raw": "#Incipit{omittitur}\n"
+    },
+    {
+      "html": "Psalmi {Psalmi & antiphonæ  ex Commune aut Festo}\n<br/>\nAnt. Placébo Dómino * in regióne vivórum.<br/>\nPsalmus 114 [1]<br/>\n114:1 Diléxi, quóniam exáudiet Dóminus * vocem oratiónis meæ.<br/>\n114:2 Quia inclinávit aurem suam mihi: * et in diébus meis invocábo.<br/>\n114:3a Circumdedérunt me dolóres mortis: * et perícula inférni invenérunt me.<br/>\n114:3b Tribulatiónem et dolórem invéni: * (4a) et nomen Dómini invocávi.<br/>\n114:4b O Dómine, líbera ánimam meam: † (5) miséricors Dóminus, et justus, * et Deus noster miserétur.<br/>\n114:6 Custódiens párvulos Dóminus: * humiliátus sum, et liberávit me.<br/>\n114:7 Convértere, ánima mea, in réquiem tuam: * quia Dóminus benefécit tibi.<br/>\n114:8 Quia erípuit ánimam meam de morte: † óculos meos a lácrimis, * pedes meos a lapsu.<br/>\n114:9 Placébo Dómino * in regióne vivórum.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\nAnt. Placébo Dómino in regióne vivórum.<br/>\n",
+      "id": "do-1962-2026-11-02-vespera-002",
+      "raw": "#Psalmi{Psalmi & antiphonæ  ex Commune aut Festo}\nAnt. Placébo Dómino * in regióne vivórum.\n&psalm(114)\nAnt. Placébo Dómino in regióne vivórum.\n"
+    },
+    {
+      "html": "Ant. Heu mihi Dómine, * quia incolátus meus prolongátus est.<br/>\nPsalmus 119 [2]<br/>\n119:1 Ad Dóminum cum tribulárer clamávi: * et exaudívit me.<br/>\n119:2 Dómine, líbera ánimam meam a lábiis iníquis, * et a lingua dolósa.<br/>\n119:3 Quid detur tibi, aut quid apponátur tibi * ad linguam dolósam?<br/>\n119:4 Sagíttæ poténtis acútæ, * cum carbónibus desolatóriis.<br/>\n119:5 Heu mihi, quia incolátus meus prolongátus est: † habitávi cum habitántibus Cedar: * (6) multum íncola fuit ánima mea.<br/>\n119:7 Cum his, qui odérunt pacem, eram pacíficus: * cum loquébar illis, impugnábant me gratis.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\nAnt. Heu mihi Dómine, quia incolátus meus prolongátus est.<br/>\n",
+      "id": "do-1962-2026-11-02-vespera-003",
+      "raw": "Ant. Heu mihi Dómine, * quia incolátus meus prolongátus est.\n&psalm(119)\nAnt. Heu mihi Dómine, quia incolátus meus prolongátus est.\n"
+    },
+    {
+      "html": "Ant. Dóminus custódit te ab omni malo: * custódiat ánimam tuam Dóminus.<br/>\nPsalmus 120 [3]<br/>\n120:1 Levávi óculos meos in montes, * unde véniet auxílium mihi.<br/>\n120:2 Auxílium meum a Dómino, * qui fecit cælum et terram.<br/>\n120:3 Non det in commotiónem pedem tuum: * neque dormítet qui custódit te.<br/>\n120:4 Ecce, non dormitábit neque dórmiet, * qui custódit Israël.<br/>\n120:5 Dóminus custódit te, Dóminus protéctio tua, * super manum déxteram tuam.<br/>\n120:6 Per diem sol non uret te: * neque luna per noctem.<br/>\n120:7 Dóminus custódit te ab omni malo: * custódiat ánimam tuam Dóminus.<br/>\n120:8 Dóminus custódiat intróitum tuum, et éxitum tuum: * ex hoc nunc, et usque in sǽculum.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\nAnt. Dóminus custódit te ab omni malo: custódiat ánimam tuam Dóminus.<br/>\n",
+      "id": "do-1962-2026-11-02-vespera-004",
+      "raw": "Ant. Dóminus custódit te ab omni malo: * custódiat ánimam tuam Dóminus.\n&psalm(120)\nAnt. Dóminus custódit te ab omni malo: custódiat ánimam tuam Dóminus.\n"
+    },
+    {
+      "html": "Ant. Si iniquitátes * observáveris, Dómine: Dómine, quis sustinébit?<br/>\nPsalmus 129 [4]<br/>\n129:1 De profúndis clamávi ad te, Dómine: * (2a) Dómine, exáudi vocem meam:<br/>\n129:2b Fiant aures tuæ intendéntes, * in vocem deprecatiónis meæ.<br/>\n129:3 Si iniquitátes observáveris, Dómine: * Dómine, quis sustinébit?<br/>\n129:4a Quia apud te propitiátio est: * et propter legem tuam sustínui te, Dómine.<br/>\n129:4b Sustínuit ánima mea in verbo ejus: * (5) sperávit ánima mea in Dómino.<br/>\n129:6 A custódia matutína usque ad noctem: * speret Israël in Dómino.<br/>\n129:7 Quia apud Dóminum misericórdia: * et copiósa apud eum redémptio.<br/>\n129:8 Et ipse rédimet Israël, * ex ómnibus iniquitátibus ejus.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\nAnt. Si iniquitátes observáveris, Dómine: Dómine, quis sustinébit?<br/>\n",
+      "id": "do-1962-2026-11-02-vespera-005",
+      "raw": "Ant. Si iniquitátes * observáveris, Dómine: Dómine, quis sustinébit?\n&psalm(129)\nAnt. Si iniquitátes observáveris, Dómine: Dómine, quis sustinébit?\n"
+    },
+    {
+      "html": "Ant. Opera * mánuum tuárum, Dómine, ne despícias.<br/>\nPsalmus 137 [5]<br/>\n137:1a Confitébor tibi, Dómine, in toto corde meo: * quóniam audísti verba oris mei.<br/>\n137:1b In conspéctu Angelórum psallam tibi: * (2a) adorábo ad templum sanctum tuum, et confitébor nómini tuo.<br/>\n137:2b Super misericórdia tua, et veritáte tua: * quóniam magnificásti super omne, nomen sanctum tuum.<br/>\n137:3 In quacúmque die invocávero te, exáudi me: * multiplicábis in ánima mea virtútem.<br/>\n137:4 Confiteántur tibi, Dómine, omnes reges terræ: * quia audiérunt ómnia verba oris tui:<br/>\n137:5 Et cantent in viis Dómini: * quóniam magna est glória Dómini.<br/>\n137:6 Quóniam excélsus Dóminus, et humília réspicit: * et alta a longe cognóscit.<br/>\n137:7 Si ambulávero in médio tribulatiónis, vivificábis me: † et super iram inimicórum meórum extendísti manum tuam, * et salvum me fecit déxtera tua.<br/>\n137:8 Dóminus retríbuet pro me: † Dómine, misericórdia tua in sǽculum: * ópera mánuum tuárum ne despícias.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\nAnt. Opera mánuum tuárum, Dómine, ne despícias.<br/>\n",
+      "id": "do-1962-2026-11-02-vespera-006",
+      "raw": "Ant. Opera * mánuum tuárum, Dómine, ne despícias.\n&psalm(137)\nAnt. Opera mánuum tuárum, Dómine, ne despícias.\n"
+    },
+    {
+      "html": "Versus (In loco Capituli)\n<br/>\n℣. Audívi vocem de cælo dicéntem mihi.<br/>\n℟. Beáti mórtui qui in Dómino moriúntur.<br/>\n",
+      "id": "do-1962-2026-11-02-vespera-007",
+      "raw": "#Versus (In loco Capituli)\nV. Audívi vocem de cælo dicéntem mihi.\nR. Beáti mórtui qui in Dómino moriúntur.\n\n"
+    },
+    {
+      "html": "Canticum: Magnificat {Antiphona ex Proprio Sanctorum}\n<br/>\nAnt. Omne * quod dat mihi Pater, ad me véniet; et eum qui venit ad me, non eíciam foras.<br/>\nCanticum B. Mariæ Virginis<br/>\nLuc. 1:46-55<br/>\n1:46 Magníficat <span style='color:red; font-size:1.25em'>✠</span> * ánima mea Dóminum.<br/>\n1:47 Et exsultávit spíritus meus: * in Deo, salutári meo.<br/>\n1:48 Quia respéxit humilitátem ancíllæ suæ: * ecce enim ex hoc beátam me dicent omnes generatiónes.<br/>\n1:49 Quia fecit mihi magna qui potens est: * et sanctum nomen ejus.<br/>\n1:50 Et misericórdia ejus, a progénie in progénies: * timéntibus eum.<br/>\n1:51 Fecit poténtiam in brácchio suo: * dispérsit supérbos mente cordis sui.<br/>\n1:52 Depósuit poténtes de sede: * et exaltávit húmiles.<br/>\n1:53 Esuriéntes implévit bonis: * et dívites dimísit inánes.<br/>\n1:54 Suscépit Israël púerum suum: * recordátus misericórdiæ suæ.<br/>\n1:55 Sicut locútus est ad patres nostros: * Ábraham, et sémini ejus in sǽcula.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\nAnt. Omne quod dat mihi Pater, ad me véniet; et eum qui venit ad me, non eíciam foras.<br/>\n",
+      "id": "do-1962-2026-11-02-vespera-008",
+      "raw": "#Canticum: Magnificat{Antiphona ex Proprio Sanctorum}\nAnt. Omne * quod dat mihi Pater, ad me véniet; et eum qui venit ad me, non eíciam foras.\n&psalm(232)\nAnt. Omne quod dat mihi Pater, ad me véniet; et eum qui venit ad me, non eíciam foras.\n"
+    },
+    {
+      "html": "Preces Feriales{omittitur}<br/>\n",
+      "id": "do-1962-2026-11-02-vespera-009",
+      "raw": "#Preces Feriales{omittitur}\n"
+    },
+    {
+      "html": "Oratio {ex Proprio Sanctorum}\n<br/>\nPater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris:<br/>\n℣. Et ne nos indúcas in tentatiónem:<br/>\n℟. Sed líbera nos a malo.<br/>\n℣. A porta ínferi.<br/>\n℟. Erue, Dómine, ánimas eórum.<br/>\n℣. Requiéscant in pace.<br/>\n℟. Amen.<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\nsecunda <span class='nigra'>Domine, exaudi</span> omittitur<br/>\nOrémus.<br/>\nFidélium, Deus, ómnium Cónditor et Redémptor, animábus famulórum famularúmque tuárum remissiónem cunctórum tríbue peccatórum: ut indulgéntiam, quam semper optavérunt, piis supplicatiónibus consequántur:<br/>\nQui vivis et regnas cum Deo Patre, in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-11-02-vespera-010",
+      "raw": "#Oratio{ex Proprio Sanctorum}\n$Pater noster Et\n$A porta inferi\n$Oremus\nv. Fidélium, Deus, ómnium Cónditor et Redémptor, animábus famulórum famularúmque tuárum remissiónem cunctórum tríbue peccatórum: ut indulgéntiam, quam semper optavérunt, piis supplicatiónibus consequántur:\n$Qui vivis\n\n"
+    },
+    {
+      "html": "Conclusio\n<br/>\nConclusio specialis<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\n℣. Requiéscant in pace.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-11-02-vespera-011",
+      "raw": "#Conclusio\n!Conclusio specialis\n&Gloria\nV. Requiéscant in pace.\nR. Amen.\n\n"
+    }
+  ],
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "warnings": []
+}

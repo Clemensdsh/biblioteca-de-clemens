@@ -1,0 +1,2747 @@
+{
+  "schemaVersion": "0.2.0",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "language": "la",
+  "date": "2026-05-24",
+  "liturgicalTitle": "Dominica Pentecostes ~ I. classis",
+  "rank": "Dominica Pentecostes;;Duplex I Classis cum Octava privilegiata I ordinis;;7\n\n",
+  "commemorations": [],
+  "hours": {
+    "matutinum": {
+      "name": "matutinum",
+      "title": "Matutinum",
+      "metadata": {
+        "nocturnCount": 1,
+        "lessonCount": 3,
+        "officeForm": "sunday",
+        "teDeumIncluded": true,
+        "invitatoryIncluded": true,
+        "sourceClassifications": [
+          "web/www/horas/Ordinarium/Matutinum.txt",
+          "Psalterium/Common/Prayers.txt",
+          "Psalterium/Special/Matutinum Special.txt",
+          "Psalterium/Invitatorium.txt",
+          "Psalterium/Psalmorum/Psalm47.txt",
+          "Psalterium/Psalmorum/Psalm67.txt",
+          "Psalterium/Psalmorum/Psalm103.txt",
+          "Psalterium/Benedictions.txt",
+          "Tempora",
+          "Commune",
+          "Sancti"
+        ],
+        "nocturns": [
+          {
+            "number": 1,
+            "psalmBlockIds": [
+              "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+              "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+              "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+            ],
+            "lessonBlockIds": [
+              "office-1962-2026-05-24-matutinum-lesson-1",
+              "office-1962-2026-05-24-matutinum-lesson-2",
+              "office-1962-2026-05-24-matutinum-lesson-3"
+            ],
+            "responsoryBlockIds": [
+              "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+              "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+            ],
+            "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+            "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "id": "office-1962-2026-05-24-matutinum-incipit",
+          "type": "dialogue",
+          "title": "Incipit",
+          "text": [
+            "℣. Dómine, lábia + mea apéries.",
+            "℟. Et os meum annuntiábit laudem tuam.",
+            "℣. Deus ✠ in adjutórium meum inténde.",
+            "℟. Dómine, ad adjuvándum me festína.",
+            "Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.",
+            "Allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "includesDomineLabia": true,
+            "includesDeusInAdiutorium": true,
+            "includesGloriaPatri": true,
+            "includesAlleluia": true,
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Incipit",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Domine labia",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-invitatorium",
+          "type": "invitatory",
+          "title": "Invitatorium{Antiphona ex Proprio de Tempore}",
+          "text": [
+            "Invitatorium {Antiphona ex Proprio de Tempore}",
+            "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja.",
+            "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja.",
+            "Veníte, exsultémus Dómino, jubilémus Deo, salutári nostro: præoccupémus fáciem ejus in confessióne, et in psalmis jubilémus ei.",
+            "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja.",
+            "Quóniam Deus magnus Dóminus, et Rex magnus super omnes deos, quóniam non repéllet Dóminus plebem suam: quia in manu ejus sunt omnes fines terræ, et altitúdines móntium ipse cónspicit.",
+            "Ant.  Veníte, adorémus, allelúja.",
+            "Quóniam ipsíus est mare, et ipse fecit illud, et áridam fundavérunt manus ejus (genuflectitur) veníte, adorémus, et procidámus ante Deum: plorémus coram Dómino, qui fecit nos, quia ipse est Dóminus, Deus noster; nos autem pópulus ejus, et oves páscuæ ejus.",
+            "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja.",
+            "Hódie, si vocem ejus audiéritis, nolíte obduráre corda vestra, sicut in exacerbatióne secúndum diem tentatiónis in desérto: ubi tentavérunt me patres vestri, probavérunt et vidérunt ópera mea.",
+            "Ant.  Veníte, adorémus, allelúja.",
+            "Quadragínta annis próximus fui generatióni huic, et dixi: Semper hi errant corde, ipsi vero non cognovérunt vias meas: quibus jurávi in ira mea: Si introíbunt in réquiem meam.",
+            "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.",
+            "Ant.  Veníte, adorémus, allelúja.",
+            "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "antiphon": "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja.",
+            "antiphonRepetitions": [
+              "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja.",
+              "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja.",
+              "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja.",
+              "Ant.  Veníte, adorémus, allelúja.",
+              "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja.",
+              "Ant.  Veníte, adorémus, allelúja.",
+              "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja.",
+              "Ant.  Veníte, adorémus, allelúja.",
+              "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja."
+            ],
+            "psalmNumber": "94",
+            "psalmVerses": [
+              "Veníte, exsultémus Dómino, jubilémus Deo, salutári nostro: præoccupémus fáciem ejus in confessióne, et in psalmis jubilémus ei.",
+              "Quóniam Deus magnus Dóminus, et Rex magnus super omnes deos, quóniam non repéllet Dóminus plebem suam: quia in manu ejus sunt omnes fines terræ, et altitúdines móntium ipse cónspicit.",
+              "Quóniam ipsíus est mare, et ipse fecit illud, et áridam fundavérunt manus ejus (genuflectitur) veníte, adorémus, et procidámus ante Deum: plorémus coram Dómino, qui fecit nos, quia ipse est Dóminus, Deus noster; nos autem pópulus ejus, et oves páscuæ ejus.",
+              "Hódie, si vocem ejus audiéritis, nolíte obduráre corda vestra, sicut in exacerbatióne secúndum diem tentatiónis in desérto: ubi tentavérunt me patres vestri, probavérunt et vidérunt ópera mea.",
+              "Quadragínta annis próximus fui generatióni huic, et dixi: Semper hi errant corde, ipsi vero non cognovérunt vias meas: quibus jurávi in ira mea: Si introíbunt in réquiem meam."
+            ],
+            "repetitionPattern": [
+              {
+                "index": 0,
+                "kind": "antiphon",
+                "text": "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja."
+              },
+              {
+                "index": 1,
+                "kind": "antiphon",
+                "text": "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja."
+              },
+              {
+                "index": 2,
+                "kind": "psalm-verse",
+                "text": "Veníte, exsultémus Dómino, jubilémus Deo, salutári nostro: præoccupémus fáciem ejus in confessióne, et in psalmis jubilémus ei."
+              },
+              {
+                "index": 3,
+                "kind": "antiphon",
+                "text": "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja."
+              },
+              {
+                "index": 4,
+                "kind": "psalm-verse",
+                "text": "Quóniam Deus magnus Dóminus, et Rex magnus super omnes deos, quóniam non repéllet Dóminus plebem suam: quia in manu ejus sunt omnes fines terræ, et altitúdines móntium ipse cónspicit."
+              },
+              {
+                "index": 5,
+                "kind": "antiphon",
+                "text": "Ant.  Veníte, adorémus, allelúja."
+              },
+              {
+                "index": 6,
+                "kind": "psalm-verse",
+                "text": "Quóniam ipsíus est mare, et ipse fecit illud, et áridam fundavérunt manus ejus (genuflectitur) veníte, adorémus, et procidámus ante Deum: plorémus coram Dómino, qui fecit nos, quia ipse est Dóminus, Deus noster; nos autem pópulus ejus, et oves páscuæ ejus."
+              },
+              {
+                "index": 7,
+                "kind": "antiphon",
+                "text": "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja."
+              },
+              {
+                "index": 8,
+                "kind": "psalm-verse",
+                "text": "Hódie, si vocem ejus audiéritis, nolíte obduráre corda vestra, sicut in exacerbatióne secúndum diem tentatiónis in desérto: ubi tentavérunt me patres vestri, probavérunt et vidérunt ópera mea."
+              },
+              {
+                "index": 9,
+                "kind": "antiphon",
+                "text": "Ant.  Veníte, adorémus, allelúja."
+              },
+              {
+                "index": 10,
+                "kind": "psalm-verse",
+                "text": "Quadragínta annis próximus fui generatióni huic, et dixi: Semper hi errant corde, ipsi vero non cognovérunt vias meas: quibus jurávi in ira mea: Si introíbunt in réquiem meam."
+              },
+              {
+                "index": 11,
+                "kind": "antiphon",
+                "text": "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja."
+              },
+              {
+                "index": 12,
+                "kind": "gloria",
+                "text": "℣. Glória Patri, et Fílio, * et Spirítui Sancto."
+              },
+              {
+                "index": 13,
+                "kind": "gloria",
+                "text": "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+              },
+              {
+                "index": 14,
+                "kind": "antiphon",
+                "text": "Ant.  Veníte, adorémus, allelúja."
+              },
+              {
+                "index": 15,
+                "kind": "antiphon",
+                "text": "Ant. Allelúja, Spíritus Dómini replévit orbem terrárum: * Veníte, adorémus, allelúja."
+              }
+            ],
+            "includesGloriaPatri": true,
+            "sourceKind": "temporal",
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Invitatorium{Antiphona ex Proprio de Tempore}",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
+              "section": "Invitatorium",
+              "transformation": [
+                "invitatorium",
+                "resolve_refs"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Invitatorium.txt",
+              "section": "Psalmus 94",
+              "transformation": [
+                "invitatorium",
+                "psalm 94 expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-hymnus",
+          "type": "hymn",
+          "title": "Hymnus{ex Proprio de Tempore}",
+          "text": [
+            "Hymnus {ex Proprio de Tempore}",
+            "Jam Christus astra ascénderat,",
+            "Revérsus unde vénerat,",
+            "Patris fruéndum múnere,",
+            "Sanctum datúrus Spíritum.",
+            "_",
+            "Solémnis urgébat dies,",
+            "Quo mýstico septémplici",
+            "Orbis volútus sépties,",
+            "Signat beáta témpora.",
+            "_",
+            "Cum lucis hora tértia",
+            "Repénte mundus íntonat,",
+            "Apóstolis orántibus",
+            "Deum veníre núntiat.",
+            "_",
+            "De Patris ergo lúmine",
+            "Decórus ignis almus est,",
+            "Qui fida Christi péctora",
+            "Calóre Verbi cómpleat.",
+            "_",
+            "Impléta gaudent víscera,",
+            "Affláta Sancto Spíritu,",
+            "Vocésque divérsas sonant,",
+            "Fantur Dei magnália.",
+            "_",
+            "Notíque cunctis Géntibus,",
+            "Græcis, Latínis, Bárbaris,",
+            "Simúlque demirántibus,",
+            "Linguis loquúntur ómnium.",
+            "_",
+            "Judǽa tunc incrédula,",
+            "Vesána torvo spíritu,",
+            "Madére musto sóbrios",
+            "Christi fidéles íncrepat.",
+            "_",
+            "Sed éditis miráculis",
+            "Occúrrit, et docet Petrus,",
+            "Falsum profári pérfidos,",
+            "Joéle teste cómprobans.",
+            "_",
+            "Deo Patri sit glória,",
+            "Et Fílio, qui a mórtuis",
+            "Surréxit, ac Paráclito,",
+            "In sæculórum sǽcula.",
+            "Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "stanzas": [
+              [
+                "Hymnus {ex Proprio de Tempore}",
+                "Jam Christus astra ascénderat,",
+                "Revérsus unde vénerat,",
+                "Patris fruéndum múnere,",
+                "Sanctum datúrus Spíritum."
+              ],
+              [
+                "Solémnis urgébat dies,",
+                "Quo mýstico septémplici",
+                "Orbis volútus sépties,",
+                "Signat beáta témpora."
+              ],
+              [
+                "Cum lucis hora tértia",
+                "Repénte mundus íntonat,",
+                "Apóstolis orántibus",
+                "Deum veníre núntiat."
+              ],
+              [
+                "De Patris ergo lúmine",
+                "Decórus ignis almus est,",
+                "Qui fida Christi péctora",
+                "Calóre Verbi cómpleat."
+              ],
+              [
+                "Impléta gaudent víscera,",
+                "Affláta Sancto Spíritu,",
+                "Vocésque divérsas sonant,",
+                "Fantur Dei magnália."
+              ],
+              [
+                "Notíque cunctis Géntibus,",
+                "Græcis, Latínis, Bárbaris,",
+                "Simúlque demirántibus,",
+                "Linguis loquúntur ómnium."
+              ],
+              [
+                "Judǽa tunc incrédula,",
+                "Vesána torvo spíritu,",
+                "Madére musto sóbrios",
+                "Christi fidéles íncrepat."
+              ],
+              [
+                "Sed éditis miráculis",
+                "Occúrrit, et docet Petrus,",
+                "Falsum profári pérfidos,",
+                "Joéle teste cómprobans."
+              ],
+              [
+                "Deo Patri sit glória,",
+                "Et Fílio, qui a mórtuis",
+                "Surréxit, ac Paráclito,",
+                "In sæculórum sǽcula.",
+                "Amen."
+              ]
+            ],
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Hymnus{ex Proprio de Tempore}",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
+              "section": "Hymnus{ex Proprio de Tempore}",
+              "transformation": [
+                "specials",
+                "matutinum special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona",
+          "text": [
+            "Ant. Factus est * repénte de cælo sonus adveniéntis spíritus veheméntis, allelúja, allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "position": "before-psalm",
+            "repeated": true,
+            "antiphonKey": "factus-est-repente-de-caelo-sonus-advenientis-spiritus-vehementis-alleluja-alleluja",
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "specials",
+                "matutinum special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+          "type": "psalm",
+          "title": "Psalmus 47 [1]",
+          "text": [
+            "47:2 Magnus Dóminus, et laudábilis nimis * in civitáte Dei nostri, in monte sancto ejus.",
+            "47:3 Fundátur exsultatióne univérsæ terræ mons Sion, * látera Aquilónis, cívitas Regis magni.",
+            "47:4 Deus in dómibus ejus cognoscétur: * cum suscípiet eam.",
+            "47:5 Quóniam ecce reges terræ congregáti sunt: * convenérunt in unum.",
+            "47:6 Ipsi vidéntes sic admiráti sunt, conturbáti sunt, commóti sunt: * tremor apprehéndit eos.",
+            "47:7 Ibi dolóres ut parturiéntis: * in spíritu veheménti cónteres naves Tharsis.",
+            "47:9 Sicut audívimus, sic vídimus in civitáte Dómini virtútum, in civitáte Dei nostri: * Deus fundávit eam in ætérnum.",
+            "47:10 Suscépimus, Deus, misericórdiam tuam, * in médio templi tui.",
+            "47:11 Secúndum nomen tuum, Deus, sic et laus tua in fines terræ: * justítia plena est déxtera tua.",
+            "47:12 Lætétur mons Sion, et exsúltent fíliæ Judæ: * propter judícia tua, Dómine.",
+            "47:13 Circúmdate Sion, et complectímini eam: * narráte in túrribus ejus.",
+            "47:14 Pónite corda vestra in virtúte ejus: * et distribúite domos ejus, ut enarrétis in progénie áltera.",
+            "47:15 Quóniam hic est Deus, Deus noster in ætérnum et in sǽculum sǽculi: * ipse reget nos in sǽcula.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "47:2 Magnus Dóminus, et laudábilis nimis * in civitáte Dei nostri, in monte sancto ejus.",
+            "47:3 Fundátur exsultatióne univérsæ terræ mons Sion, * látera Aquilónis, cívitas Regis magni.",
+            "47:4 Deus in dómibus ejus cognoscétur: * cum suscípiet eam.",
+            "47:5 Quóniam ecce reges terræ congregáti sunt: * convenérunt in unum.",
+            "47:6 Ipsi vidéntes sic admiráti sunt, conturbáti sunt, commóti sunt: * tremor apprehéndit eos.",
+            "47:7 Ibi dolóres ut parturiéntis: * in spíritu veheménti cónteres naves Tharsis.",
+            "47:9 Sicut audívimus, sic vídimus in civitáte Dómini virtútum, in civitáte Dei nostri: * Deus fundávit eam in ætérnum.",
+            "47:10 Suscépimus, Deus, misericórdiam tuam, * in médio templi tui.",
+            "47:11 Secúndum nomen tuum, Deus, sic et laus tua in fines terræ: * justítia plena est déxtera tua.",
+            "47:12 Lætétur mons Sion, et exsúltent fíliæ Judæ: * propter judícia tua, Dómine.",
+            "47:13 Circúmdate Sion, et complectímini eam: * narráte in túrribus ejus.",
+            "47:14 Pónite corda vestra in virtúte ejus: * et distribúite domos ejus, ut enarrétis in progénie áltera.",
+            "47:15 Quóniam hic est Deus, Deus noster in ætérnum et in sǽculum sǽculi: * ipse reget nos in sǽcula."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "psalmNumber": "47",
+            "verses": [
+              "47:2 Magnus Dóminus, et laudábilis nimis * in civitáte Dei nostri, in monte sancto ejus.",
+              "47:3 Fundátur exsultatióne univérsæ terræ mons Sion, * látera Aquilónis, cívitas Regis magni.",
+              "47:4 Deus in dómibus ejus cognoscétur: * cum suscípiet eam.",
+              "47:5 Quóniam ecce reges terræ congregáti sunt: * convenérunt in unum.",
+              "47:6 Ipsi vidéntes sic admiráti sunt, conturbáti sunt, commóti sunt: * tremor apprehéndit eos.",
+              "47:7 Ibi dolóres ut parturiéntis: * in spíritu veheménti cónteres naves Tharsis.",
+              "47:9 Sicut audívimus, sic vídimus in civitáte Dómini virtútum, in civitáte Dei nostri: * Deus fundávit eam in ætérnum.",
+              "47:10 Suscépimus, Deus, misericórdiam tuam, * in médio templi tui.",
+              "47:11 Secúndum nomen tuum, Deus, sic et laus tua in fines terræ: * justítia plena est déxtera tua.",
+              "47:12 Lætétur mons Sion, et exsúltent fíliæ Judæ: * propter judícia tua, Dómine.",
+              "47:13 Circúmdate Sion, et complectímini eam: * narráte in túrribus ejus.",
+              "47:14 Pónite corda vestra in virtúte ejus: * et distribúite domos ejus, ut enarrétis in progénie áltera.",
+              "47:15 Quóniam hic est Deus, Deus noster in ætérnum et in sǽculum sǽculi: * ipse reget nos in sǽcula."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false,
+            "antiphonKey": "factus-est-repente-de-caelo-sonus-advenientis-spiritus-vehementis-alleluja-alleluja",
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Psalmus 47 [1]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm47.txt",
+              "section": "Psalm 47",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita",
+          "text": [
+            "Ant. Factus est repénte de cælo sonus adveniéntis spíritus veheméntis, allelúja, allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "position": "after-psalm",
+            "repeated": true,
+            "antiphonKey": "factus-est-repente-de-caelo-sonus-advenientis-spiritus-vehementis-alleluja-alleluja",
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "specials",
+                "matutinum special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona",
+          "text": [
+            "Ant. Confírma hoc, Deus, * quod operátus es in nobis: a templo sancto tuo, quod est in Jerúsalem, allelúja, allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "position": "before-psalm",
+            "repeated": true,
+            "antiphonKey": "confirma-hoc-deus-quod-operatus-es-in-nobis-a-templo-sancto-tuo-quod-est-in-jerusalem-alleluja-alleluja",
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "specials",
+                "matutinum special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+          "type": "psalm",
+          "title": "Psalmus 67 [2]",
+          "text": [
+            "67:2 Exsúrgat Deus, et dissipéntur inimíci ejus, * et fúgiant qui odérunt eum, a fácie ejus.",
+            "67:3 Sicut déficit fumus, defíciant: * sicut fluit cera a fácie ignis, sic péreant peccatóres a fácie Dei.",
+            "67:4 Et justi epuléntur, et exsúltent in conspéctu Dei: * et delecténtur in lætítia.",
+            "67:5a Cantáte Deo, psalmum dícite nómini ejus: * iter fácite ei, qui ascéndit super occásum: (fit reverentia) Dóminus nomen illi.",
+            "67:5b Exsultáte in conspéctu ejus: * turbabúntur a fácie ejus, (6a) patris orphanórum et júdicis viduárum.",
+            "67:6b Deus in loco sancto suo: * (7a) Deus, qui inhabitáre facit uníus moris in domo:",
+            "67:7b Qui edúcit vinctos in fortitúdine, * simíliter eos qui exásperant, qui hábitant in sepúlcris.",
+            "67:8 Deus, cum egrederéris in conspéctu pópuli tui, * cum pertransíres in desérto:",
+            "67:9 Terra mota est, étenim cæli distillavérunt a fácie Dei Sínai, * a fácie Dei Israël.",
+            "67:10 Plúviam voluntáriam segregábis, Deus, hereditáti tuæ: * et infirmáta est, tu vero perfecísti eam.",
+            "67:11 Animália tua habitábunt in ea: * parásti in dulcédine tua páuperi, Deus.",
+            "67:12 Dóminus dabit verbum evangelizántibus, * virtúte multa.",
+            "67:13 Rex virtútum dilécti, dilécti: * et speciéi domus divídere spólia.",
+            "67:14 Si dormiátis inter médios cleros, pennæ colúmbæ deargentátæ, * et posterióra dorsi ejus in pallóre auri.",
+            "67:15 Dum discérnit cæléstis reges super eam, nive dealbabúntur in Selmon: * (16a) mons Dei, mons pinguis.",
+            "67:16b Mons coagulátus, mons pinguis: * (17a) ut quid suspicámini montes coagulátos?",
+            "67:17b Mons, in quo beneplácitum est Deo habitáre in eo: * étenim Dóminus habitábit in finem.",
+            "67:18 Currus Dei decem míllibus múltiplex, míllia lætántium: * Dóminus in eis in Sina in sancto.",
+            "67:19a Ascendísti in altum, cepísti captivitátem: * accepísti dona in homínibus.",
+            "67:19b Étenim non credéntes, * inhabitáre Dóminum Deum.",
+            "67:20 Benedíctus Dóminus die cotídie: * prósperum iter fáciet nobis Deus salutárium nostrórum.",
+            "67:21 Deus noster, Deus salvos faciéndi: * et Dómini Dómini éxitus mortis.",
+            "67:22 Verúmtamen Deus confrínget cápita inimicórum suórum: * vérticem capílli perambulántium in delíctis suis.",
+            "67:23 Dixit Dóminus: Ex Basan convértam, * convértam in profúndum maris:",
+            "67:24 Ut intingátur pes tuus in sánguine: * lingua canum tuórum ex inimícis, ab ipso.",
+            "67:25 Vidérunt ingréssus tuos, Deus: * ingréssus Dei mei: regis mei qui est in sancto.",
+            "67:26 Prævenérunt príncipes conjúncti psalléntibus: * in médio juvenculárum tympanistriárum.",
+            "67:27 In ecclésiis benedícite Deo Dómino, * de fóntibus Israël.",
+            "67:28a Ibi Bénjamin adolescéntulus: * in mentis excéssu.",
+            "67:28b Príncipes Juda, duces eórum: * príncipes Zábulon, príncipes Néphtali.",
+            "67:29 Manda, Deus, virtúti tuæ: * confírma hoc, Deus, quod operátus es in nobis.",
+            "67:30 A templo tuo in Jerúsalem, * tibi ófferent reges múnera.",
+            "67:31a Íncrepa feras arúndinis, congregátio taurórum in vaccis populórum: * ut exclúdant eos, qui probáti sunt argénto.",
+            "67:31b Díssipa gentes, quæ bella volunt: (32) vénient legáti ex Ægýpto: * Æthiópia prævéniet manus ejus Deo.",
+            "67:33a Regna terræ, cantáte Deo: * psállite Dómino.",
+            "67:33b Psállite Deo, (34a) qui ascéndit super cælum cæli, * ad Oriéntem.",
+            "67:34b Ecce dabit voci suæ vocem virtútis, (35) date glóriam Deo super Israël, * magnificéntia ejus, et virtus ejus in núbibus.",
+            "67:36 Mirábilis Deus in sanctis suis, Deus Israël ipse dabit virtútem, et fortitúdinem plebi suæ, * benedíctus Deus.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "67:2 Exsúrgat Deus, et dissipéntur inimíci ejus, * et fúgiant qui odérunt eum, a fácie ejus.",
+            "67:3 Sicut déficit fumus, defíciant: * sicut fluit cera a fácie ignis, sic péreant peccatóres a fácie Dei.",
+            "67:4 Et justi epuléntur, et exsúltent in conspéctu Dei: * et delecténtur in lætítia.",
+            "67:5a Cantáte Deo, psalmum dícite nómini ejus: * iter fácite ei, qui ascéndit super occásum: (fit reverentia) Dóminus nomen illi.",
+            "67:5b Exsultáte in conspéctu ejus: * turbabúntur a fácie ejus, (6a) patris orphanórum et júdicis viduárum.",
+            "67:6b Deus in loco sancto suo: * (7a) Deus, qui inhabitáre facit uníus moris in domo:",
+            "67:7b Qui edúcit vinctos in fortitúdine, * simíliter eos qui exásperant, qui hábitant in sepúlcris.",
+            "67:8 Deus, cum egrederéris in conspéctu pópuli tui, * cum pertransíres in desérto:",
+            "67:9 Terra mota est, étenim cæli distillavérunt a fácie Dei Sínai, * a fácie Dei Israël.",
+            "67:10 Plúviam voluntáriam segregábis, Deus, hereditáti tuæ: * et infirmáta est, tu vero perfecísti eam.",
+            "67:11 Animália tua habitábunt in ea: * parásti in dulcédine tua páuperi, Deus.",
+            "67:12 Dóminus dabit verbum evangelizántibus, * virtúte multa.",
+            "67:13 Rex virtútum dilécti, dilécti: * et speciéi domus divídere spólia.",
+            "67:14 Si dormiátis inter médios cleros, pennæ colúmbæ deargentátæ, * et posterióra dorsi ejus in pallóre auri.",
+            "67:15 Dum discérnit cæléstis reges super eam, nive dealbabúntur in Selmon: * (16a) mons Dei, mons pinguis.",
+            "67:16b Mons coagulátus, mons pinguis: * (17a) ut quid suspicámini montes coagulátos?",
+            "67:17b Mons, in quo beneplácitum est Deo habitáre in eo: * étenim Dóminus habitábit in finem.",
+            "67:18 Currus Dei decem míllibus múltiplex, míllia lætántium: * Dóminus in eis in Sina in sancto.",
+            "67:19a Ascendísti in altum, cepísti captivitátem: * accepísti dona in homínibus.",
+            "67:19b Étenim non credéntes, * inhabitáre Dóminum Deum.",
+            "67:20 Benedíctus Dóminus die cotídie: * prósperum iter fáciet nobis Deus salutárium nostrórum.",
+            "67:21 Deus noster, Deus salvos faciéndi: * et Dómini Dómini éxitus mortis.",
+            "67:22 Verúmtamen Deus confrínget cápita inimicórum suórum: * vérticem capílli perambulántium in delíctis suis.",
+            "67:23 Dixit Dóminus: Ex Basan convértam, * convértam in profúndum maris:",
+            "67:24 Ut intingátur pes tuus in sánguine: * lingua canum tuórum ex inimícis, ab ipso.",
+            "67:25 Vidérunt ingréssus tuos, Deus: * ingréssus Dei mei: regis mei qui est in sancto.",
+            "67:26 Prævenérunt príncipes conjúncti psalléntibus: * in médio juvenculárum tympanistriárum.",
+            "67:27 In ecclésiis benedícite Deo Dómino, * de fóntibus Israël.",
+            "67:28a Ibi Bénjamin adolescéntulus: * in mentis excéssu.",
+            "67:28b Príncipes Juda, duces eórum: * príncipes Zábulon, príncipes Néphtali.",
+            "67:29 Manda, Deus, virtúti tuæ: * confírma hoc, Deus, quod operátus es in nobis.",
+            "67:30 A templo tuo in Jerúsalem, * tibi ófferent reges múnera.",
+            "67:31a Íncrepa feras arúndinis, congregátio taurórum in vaccis populórum: * ut exclúdant eos, qui probáti sunt argénto.",
+            "67:31b Díssipa gentes, quæ bella volunt: (32) vénient legáti ex Ægýpto: * Æthiópia prævéniet manus ejus Deo.",
+            "67:33a Regna terræ, cantáte Deo: * psállite Dómino.",
+            "67:33b Psállite Deo, (34a) qui ascéndit super cælum cæli, * ad Oriéntem.",
+            "67:34b Ecce dabit voci suæ vocem virtútis, (35) date glóriam Deo super Israël, * magnificéntia ejus, et virtus ejus in núbibus.",
+            "67:36 Mirábilis Deus in sanctis suis, Deus Israël ipse dabit virtútem, et fortitúdinem plebi suæ, * benedíctus Deus."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "psalmNumber": "67",
+            "verses": [
+              "67:2 Exsúrgat Deus, et dissipéntur inimíci ejus, * et fúgiant qui odérunt eum, a fácie ejus.",
+              "67:3 Sicut déficit fumus, defíciant: * sicut fluit cera a fácie ignis, sic péreant peccatóres a fácie Dei.",
+              "67:4 Et justi epuléntur, et exsúltent in conspéctu Dei: * et delecténtur in lætítia.",
+              "67:5a Cantáte Deo, psalmum dícite nómini ejus: * iter fácite ei, qui ascéndit super occásum: (fit reverentia) Dóminus nomen illi.",
+              "67:5b Exsultáte in conspéctu ejus: * turbabúntur a fácie ejus, (6a) patris orphanórum et júdicis viduárum.",
+              "67:6b Deus in loco sancto suo: * (7a) Deus, qui inhabitáre facit uníus moris in domo:",
+              "67:7b Qui edúcit vinctos in fortitúdine, * simíliter eos qui exásperant, qui hábitant in sepúlcris.",
+              "67:8 Deus, cum egrederéris in conspéctu pópuli tui, * cum pertransíres in desérto:",
+              "67:9 Terra mota est, étenim cæli distillavérunt a fácie Dei Sínai, * a fácie Dei Israël.",
+              "67:10 Plúviam voluntáriam segregábis, Deus, hereditáti tuæ: * et infirmáta est, tu vero perfecísti eam.",
+              "67:11 Animália tua habitábunt in ea: * parásti in dulcédine tua páuperi, Deus.",
+              "67:12 Dóminus dabit verbum evangelizántibus, * virtúte multa.",
+              "67:13 Rex virtútum dilécti, dilécti: * et speciéi domus divídere spólia.",
+              "67:14 Si dormiátis inter médios cleros, pennæ colúmbæ deargentátæ, * et posterióra dorsi ejus in pallóre auri.",
+              "67:15 Dum discérnit cæléstis reges super eam, nive dealbabúntur in Selmon: * (16a) mons Dei, mons pinguis.",
+              "67:16b Mons coagulátus, mons pinguis: * (17a) ut quid suspicámini montes coagulátos?",
+              "67:17b Mons, in quo beneplácitum est Deo habitáre in eo: * étenim Dóminus habitábit in finem.",
+              "67:18 Currus Dei decem míllibus múltiplex, míllia lætántium: * Dóminus in eis in Sina in sancto.",
+              "67:19a Ascendísti in altum, cepísti captivitátem: * accepísti dona in homínibus.",
+              "67:19b Étenim non credéntes, * inhabitáre Dóminum Deum.",
+              "67:20 Benedíctus Dóminus die cotídie: * prósperum iter fáciet nobis Deus salutárium nostrórum.",
+              "67:21 Deus noster, Deus salvos faciéndi: * et Dómini Dómini éxitus mortis.",
+              "67:22 Verúmtamen Deus confrínget cápita inimicórum suórum: * vérticem capílli perambulántium in delíctis suis.",
+              "67:23 Dixit Dóminus: Ex Basan convértam, * convértam in profúndum maris:",
+              "67:24 Ut intingátur pes tuus in sánguine: * lingua canum tuórum ex inimícis, ab ipso.",
+              "67:25 Vidérunt ingréssus tuos, Deus: * ingréssus Dei mei: regis mei qui est in sancto.",
+              "67:26 Prævenérunt príncipes conjúncti psalléntibus: * in médio juvenculárum tympanistriárum.",
+              "67:27 In ecclésiis benedícite Deo Dómino, * de fóntibus Israël.",
+              "67:28a Ibi Bénjamin adolescéntulus: * in mentis excéssu.",
+              "67:28b Príncipes Juda, duces eórum: * príncipes Zábulon, príncipes Néphtali.",
+              "67:29 Manda, Deus, virtúti tuæ: * confírma hoc, Deus, quod operátus es in nobis.",
+              "67:30 A templo tuo in Jerúsalem, * tibi ófferent reges múnera.",
+              "67:31a Íncrepa feras arúndinis, congregátio taurórum in vaccis populórum: * ut exclúdant eos, qui probáti sunt argénto.",
+              "67:31b Díssipa gentes, quæ bella volunt: (32) vénient legáti ex Ægýpto: * Æthiópia prævéniet manus ejus Deo.",
+              "67:33a Regna terræ, cantáte Deo: * psállite Dómino.",
+              "67:33b Psállite Deo, (34a) qui ascéndit super cælum cæli, * ad Oriéntem.",
+              "67:34b Ecce dabit voci suæ vocem virtútis, (35) date glóriam Deo super Israël, * magnificéntia ejus, et virtus ejus in núbibus.",
+              "67:36 Mirábilis Deus in sanctis suis, Deus Israël ipse dabit virtútem, et fortitúdinem plebi suæ, * benedíctus Deus."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false,
+            "antiphonKey": "confirma-hoc-deus-quod-operatus-es-in-nobis-a-templo-sancto-tuo-quod-est-in-jerusalem-alleluja-alleluja",
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Psalmus 67 [2]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm67.txt",
+              "section": "Psalm 67",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita",
+          "text": [
+            "Ant. Confírma hoc, Deus, quod operátus es in nobis: a templo sancto tuo, quod est in Jerúsalem, allelúja, allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "position": "after-psalm",
+            "repeated": true,
+            "antiphonKey": "confirma-hoc-deus-quod-operatus-es-in-nobis-a-templo-sancto-tuo-quod-est-in-jerusalem-alleluja-alleluja",
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "specials",
+                "matutinum special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona",
+          "text": [
+            "Ant. Emítte Spíritum tuum, * et creabúntur: et renovábis fáciem terræ, allelúja, allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "position": "before-psalm",
+            "repeated": true,
+            "antiphonKey": "emitte-spiritum-tuum-et-creabuntur-et-renovabis-faciem-terrae-alleluja-alleluja",
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "specials",
+                "matutinum special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3",
+          "type": "psalm",
+          "title": "Psalmus 103 [3]",
+          "text": [
+            "103:1 Bénedic, ánima mea, Dómino: * Dómine, Deus meus, magnificátus es veheménter.",
+            "103:1 Confessiónem, et decórem induísti: * amíctus lúmine sicut vestiménto:",
+            "103:2 Exténdens cælum sicut pellem: * qui tegis aquis superióra ejus.",
+            "103:3 Qui ponis nubem ascénsum tuum: * qui ámbulas super pennas ventórum.",
+            "103:4 Qui facis ángelos tuos, spíritus: * et minístros tuos ignem uréntem.",
+            "103:5 Qui fundásti terram super stabilitátem suam: * non inclinábitur in sǽculum sǽculi.",
+            "103:6 Abýssus, sicut vestiméntum, amíctus ejus: * super montes stabunt aquæ.",
+            "103:7 Ab increpatióne tua fúgient: * a voce tonítrui tui formidábunt.",
+            "103:8 Ascéndunt montes: et descéndunt campi * in locum, quem fundásti eis.",
+            "103:9 Términum posuísti, quem non transgrediéntur: * neque converténtur operíre terram.",
+            "103:10 Qui emíttis fontes in convállibus: * inter médium móntium pertransíbunt aquæ.",
+            "103:11 Potábunt omnes béstiæ agri: * exspectábunt ónagri in siti sua.",
+            "103:12 Super ea vólucres cæli habitábunt: * de médio petrárum dabunt voces.",
+            "103:13 Rigans montes de superióribus suis: * de fructu óperum tuórum satiábitur terra:",
+            "103:14 Prodúcens fænum juméntis, * et herbam servitúti hóminum:",
+            "103:14 Ut edúcas panem de terra: * et vinum lætíficet cor hóminis:",
+            "103:15 Ut exhílaret fáciem in óleo: * et panis cor hóminis confírmet.",
+            "103:16 Saturabúntur ligna campi, et cedri Líbani, quas plantávit: * illic pásseres nidificábunt.",
+            "103:17 Heródii domus dux est eórum: * montes excélsi cervis: petra refúgium herináciis.",
+            "103:19 Fecit lunam in témpora: * sol cognóvit occásum suum.",
+            "103:20 Posuísti ténebras, et facta est nox: * in ipsa pertransíbunt omnes béstiæ silvæ.",
+            "103:21 Cátuli leónum rugiéntes, ut rápiant, * et quærant a Deo escam sibi.",
+            "103:22 Ortus est sol, et congregáti sunt: * et in cubílibus suis collocabúntur.",
+            "103:23 Exíbit homo ad opus suum: * et ad operatiónem suam usque ad vésperum.",
+            "103:24 Quam magnificáta sunt ópera tua, Dómine! * ómnia in sapiéntia fecísti: impléta est terra possessióne tua.",
+            "103:25 Hoc mare magnum, et spatiósum mánibus: * illic reptília, quorum non est númerus.",
+            "103:26 Animália pusílla cum magnis: * illic naves pertransíbunt.",
+            "103:27 Draco iste, quem formásti ad illudéndum ei: * ómnia a te exspéctant ut des illis escam in témpore.",
+            "103:28 Dante te illis, cólligent: * aperiénte te manum tuam, ómnia implebúntur bonitáte.",
+            "103:29 Averténte autem te fáciem, turbabúntur: * áuferes spíritum eórum, et defícient, et in púlverem suum reverténtur.",
+            "103:30 Emíttes spíritum tuum, et creabúntur: * et renovábis fáciem terræ.",
+            "103:31 Sit glória Dómini in sǽculum: * lætábitur Dóminus in opéribus suis:",
+            "103:32 Qui réspicit terram, et facit eam trémere: * qui tangit montes, et fúmigant.",
+            "103:33 Cantábo Dómino in vita mea: * psallam Deo meo, quámdiu sum.",
+            "103:34 Jucúndum sit ei elóquium meum: * ego vero delectábor in Dómino.",
+            "103:35 Defíciant peccatóres a terra, et iníqui ita ut non sint: * bénedic, ánima mea, Dómino.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "103:1 Bénedic, ánima mea, Dómino: * Dómine, Deus meus, magnificátus es veheménter.",
+            "103:1 Confessiónem, et decórem induísti: * amíctus lúmine sicut vestiménto:",
+            "103:2 Exténdens cælum sicut pellem: * qui tegis aquis superióra ejus.",
+            "103:3 Qui ponis nubem ascénsum tuum: * qui ámbulas super pennas ventórum.",
+            "103:4 Qui facis ángelos tuos, spíritus: * et minístros tuos ignem uréntem.",
+            "103:5 Qui fundásti terram super stabilitátem suam: * non inclinábitur in sǽculum sǽculi.",
+            "103:6 Abýssus, sicut vestiméntum, amíctus ejus: * super montes stabunt aquæ.",
+            "103:7 Ab increpatióne tua fúgient: * a voce tonítrui tui formidábunt.",
+            "103:8 Ascéndunt montes: et descéndunt campi * in locum, quem fundásti eis.",
+            "103:9 Términum posuísti, quem non transgrediéntur: * neque converténtur operíre terram.",
+            "103:10 Qui emíttis fontes in convállibus: * inter médium móntium pertransíbunt aquæ.",
+            "103:11 Potábunt omnes béstiæ agri: * exspectábunt ónagri in siti sua.",
+            "103:12 Super ea vólucres cæli habitábunt: * de médio petrárum dabunt voces.",
+            "103:13 Rigans montes de superióribus suis: * de fructu óperum tuórum satiábitur terra:",
+            "103:14 Prodúcens fænum juméntis, * et herbam servitúti hóminum:",
+            "103:14 Ut edúcas panem de terra: * et vinum lætíficet cor hóminis:",
+            "103:15 Ut exhílaret fáciem in óleo: * et panis cor hóminis confírmet.",
+            "103:16 Saturabúntur ligna campi, et cedri Líbani, quas plantávit: * illic pásseres nidificábunt.",
+            "103:17 Heródii domus dux est eórum: * montes excélsi cervis: petra refúgium herináciis.",
+            "103:19 Fecit lunam in témpora: * sol cognóvit occásum suum.",
+            "103:20 Posuísti ténebras, et facta est nox: * in ipsa pertransíbunt omnes béstiæ silvæ.",
+            "103:21 Cátuli leónum rugiéntes, ut rápiant, * et quærant a Deo escam sibi.",
+            "103:22 Ortus est sol, et congregáti sunt: * et in cubílibus suis collocabúntur.",
+            "103:23 Exíbit homo ad opus suum: * et ad operatiónem suam usque ad vésperum.",
+            "103:24 Quam magnificáta sunt ópera tua, Dómine! * ómnia in sapiéntia fecísti: impléta est terra possessióne tua.",
+            "103:25 Hoc mare magnum, et spatiósum mánibus: * illic reptília, quorum non est númerus.",
+            "103:26 Animália pusílla cum magnis: * illic naves pertransíbunt.",
+            "103:27 Draco iste, quem formásti ad illudéndum ei: * ómnia a te exspéctant ut des illis escam in témpore.",
+            "103:28 Dante te illis, cólligent: * aperiénte te manum tuam, ómnia implebúntur bonitáte.",
+            "103:29 Averténte autem te fáciem, turbabúntur: * áuferes spíritum eórum, et defícient, et in púlverem suum reverténtur.",
+            "103:30 Emíttes spíritum tuum, et creabúntur: * et renovábis fáciem terræ.",
+            "103:31 Sit glória Dómini in sǽculum: * lætábitur Dóminus in opéribus suis:",
+            "103:32 Qui réspicit terram, et facit eam trémere: * qui tangit montes, et fúmigant.",
+            "103:33 Cantábo Dómino in vita mea: * psallam Deo meo, quámdiu sum.",
+            "103:34 Jucúndum sit ei elóquium meum: * ego vero delectábor in Dómino.",
+            "103:35 Defíciant peccatóres a terra, et iníqui ita ut non sint: * bénedic, ánima mea, Dómino."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "psalmNumber": "103",
+            "verses": [
+              "103:1 Bénedic, ánima mea, Dómino: * Dómine, Deus meus, magnificátus es veheménter.",
+              "103:1 Confessiónem, et decórem induísti: * amíctus lúmine sicut vestiménto:",
+              "103:2 Exténdens cælum sicut pellem: * qui tegis aquis superióra ejus.",
+              "103:3 Qui ponis nubem ascénsum tuum: * qui ámbulas super pennas ventórum.",
+              "103:4 Qui facis ángelos tuos, spíritus: * et minístros tuos ignem uréntem.",
+              "103:5 Qui fundásti terram super stabilitátem suam: * non inclinábitur in sǽculum sǽculi.",
+              "103:6 Abýssus, sicut vestiméntum, amíctus ejus: * super montes stabunt aquæ.",
+              "103:7 Ab increpatióne tua fúgient: * a voce tonítrui tui formidábunt.",
+              "103:8 Ascéndunt montes: et descéndunt campi * in locum, quem fundásti eis.",
+              "103:9 Términum posuísti, quem non transgrediéntur: * neque converténtur operíre terram.",
+              "103:10 Qui emíttis fontes in convállibus: * inter médium móntium pertransíbunt aquæ.",
+              "103:11 Potábunt omnes béstiæ agri: * exspectábunt ónagri in siti sua.",
+              "103:12 Super ea vólucres cæli habitábunt: * de médio petrárum dabunt voces.",
+              "103:13 Rigans montes de superióribus suis: * de fructu óperum tuórum satiábitur terra:",
+              "103:14 Prodúcens fænum juméntis, * et herbam servitúti hóminum:",
+              "103:14 Ut edúcas panem de terra: * et vinum lætíficet cor hóminis:",
+              "103:15 Ut exhílaret fáciem in óleo: * et panis cor hóminis confírmet.",
+              "103:16 Saturabúntur ligna campi, et cedri Líbani, quas plantávit: * illic pásseres nidificábunt.",
+              "103:17 Heródii domus dux est eórum: * montes excélsi cervis: petra refúgium herináciis.",
+              "103:19 Fecit lunam in témpora: * sol cognóvit occásum suum.",
+              "103:20 Posuísti ténebras, et facta est nox: * in ipsa pertransíbunt omnes béstiæ silvæ.",
+              "103:21 Cátuli leónum rugiéntes, ut rápiant, * et quærant a Deo escam sibi.",
+              "103:22 Ortus est sol, et congregáti sunt: * et in cubílibus suis collocabúntur.",
+              "103:23 Exíbit homo ad opus suum: * et ad operatiónem suam usque ad vésperum.",
+              "103:24 Quam magnificáta sunt ópera tua, Dómine! * ómnia in sapiéntia fecísti: impléta est terra possessióne tua.",
+              "103:25 Hoc mare magnum, et spatiósum mánibus: * illic reptília, quorum non est númerus.",
+              "103:26 Animália pusílla cum magnis: * illic naves pertransíbunt.",
+              "103:27 Draco iste, quem formásti ad illudéndum ei: * ómnia a te exspéctant ut des illis escam in témpore.",
+              "103:28 Dante te illis, cólligent: * aperiénte te manum tuam, ómnia implebúntur bonitáte.",
+              "103:29 Averténte autem te fáciem, turbabúntur: * áuferes spíritum eórum, et defícient, et in púlverem suum reverténtur.",
+              "103:30 Emíttes spíritum tuum, et creabúntur: * et renovábis fáciem terræ.",
+              "103:31 Sit glória Dómini in sǽculum: * lætábitur Dóminus in opéribus suis:",
+              "103:32 Qui réspicit terram, et facit eam trémere: * qui tangit montes, et fúmigant.",
+              "103:33 Cantábo Dómino in vita mea: * psallam Deo meo, quámdiu sum.",
+              "103:34 Jucúndum sit ei elóquium meum: * ego vero delectábor in Dómino.",
+              "103:35 Defíciant peccatóres a terra, et iníqui ita ut non sint: * bénedic, ánima mea, Dómino."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false,
+            "antiphonKey": "emitte-spiritum-tuum-et-creabuntur-et-renovabis-faciem-terrae-alleluja-alleluja",
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Psalmus 103 [3]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm103.txt",
+              "section": "Psalm 103",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita",
+          "text": [
+            "Ant. Emítte Spíritum tuum, et creabúntur: et renovábis fáciem terræ, allelúja, allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "position": "after-psalm",
+            "repeated": true,
+            "antiphonKey": "emitte-spiritum-tuum-et-creabuntur-et-renovabis-faciem-terrae-alleluja-alleluja",
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "specials",
+                "matutinum special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+          "type": "versicle",
+          "title": "Versiculus",
+          "text": [
+            "℣. Spíritus Dómini replévit orbem terrárum, allelúja.",
+            "℟. Et hoc quod cóntinet ómnia, sciéntiam habet vocis, allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "versicle": "℣. Spíritus Dómini replévit orbem terrárum, allelúja.",
+            "response": "℟. Et hoc quod cóntinet ómnia, sciéntiam habet vocis, allelúja.",
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Versiculus",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
+              "section": "Versiculus",
+              "transformation": [
+                "specials",
+                "matutinum special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio",
+          "type": "absolution",
+          "title": "Absolutio",
+          "text": [
+            "Pater Noster dicitur secreto usque ad Et ne nos indúcas in tentatiónem:",
+            "Pater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris:",
+            "℣. Et ne nos indúcas in tentatiónem:",
+            "℟. Sed líbera nos a malo.",
+            "Absolutio. Exáudi, Dómine Jesu Christe, preces servórum tuórum, et miserére nobis: Qui cum Patre et Spíritu Sancto vivis et regnas in sǽcula sæculórum.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "paterNosterMode": "secreto-usque-ad-et-ne-nos",
+            "absolution": "Absolutio. Exáudi, Dómine Jesu Christe, preces servórum tuórum, et miserére nobis: Qui cum Patre et Spíritu Sancto vivis et regnas in sǽcula sæculórum.",
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Absolutio",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Benedictions.txt",
+              "section": "Absolutio",
+              "transformation": [
+                "lectiones",
+                "benedictions"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-lesson-1-benedictio",
+          "type": "blessing",
+          "title": "Benedictio",
+          "text": [
+            "℣. Jube, Dómine, benedícere.",
+            "Benedictio. Evangélica léctio sit nobis salus et protéctio.",
+            "℟. Amen.",
+            "_"
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "lessonNumber": 1,
+            "formula": "Benedictio. Evangélica léctio sit nobis salus et protéctio.",
+            "includesJubeDomine": true,
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Benedictio",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Benedictions.txt",
+              "section": "Benedictio",
+              "transformation": [
+                "lectiones",
+                "benedictions"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-lesson-1",
+          "type": "reading",
+          "title": "Lectio 1",
+          "text": [
+            "Léctio sancti Evangélii secúndum Joánnem",
+            "Joannes 14:23-31",
+            "In illo témpore: Dixit Jesus discípulis suis: Si quis díligit me, sermónem meum servábit, et Pater meus díliget eum, et ad eum veniémus, et mansiónem apud eum faciémus. Et réliqua."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "lessonNumber": 1,
+            "readingKind": "homily",
+            "scriptureReference": "Joannes 14:23-31",
+            "author": "Léctio sancti Evangélii secúndum Joánnem",
+            "includesTuAutem": false,
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Lectio 1",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Tempora",
+              "section": "&lectio(1)",
+              "transformation": [
+                "lectiones",
+                "classify-homily",
+                "resolved by Divinum Officium Perl"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Commune",
+              "section": "&lectio(1)",
+              "transformation": [
+                "lectiones",
+                "classify-homily",
+                "resolved by Divinum Officium Perl"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Sancti",
+              "section": "&lectio(1)",
+              "transformation": [
+                "lectiones",
+                "classify-homily",
+                "resolved by Divinum Officium Perl"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+          "type": "matins-responsory",
+          "title": "Responsorium 1",
+          "text": [
+            "Homilía sancti Gregórii Papæ",
+            "Homilia 30 in Evangelia",
+            "Libet, fratres caríssimi, evangélicæ verba lectiónis sub brevitáte transcúrrere, ut post diútius líceat in contemplatióne tantæ solemnitátis immorári. Hódie namque Spíritus Sanctus repentíno sónitu super discípulos venit, mentésque carnálium in sui amórem permutávit, et foris apparéntibus linguis ígneis, intus facta sunt corda flammántia; quia dum Deum in ignis visióne suscepérunt, per amórem suáviter arsérunt. Ipse namque Spíritus Sanctus amor est: unde et Joánnes dicit Deus cáritas est. Qui ergo mente íntegra Deum desíderat, profécto jam habet, quem amat. Neque enim quisquam posset Deum dilígere, si eum quem díligit, non habéret.",
+            "℣. Tu autem, Dómine, miserére nobis.",
+            "℟. Deo grátias.",
+            "_",
+            "℟. Cum compleréntur dies Pentecóstes, erant omnes páriter in eódem loco, allelúja: et súbito factus est sonus de cælo, allelúja,",
+            "* Tamquam spíritus veheméntis, et replévit totam domum, allelúja, allelúja.",
+            "℣. Dum ergo essent in unum discípuli congregáti propter metum Judæórum, sonus repénte de cælo, venit super eos.",
+            "℟. Tamquam spíritus veheméntis, et replévit totam domum, allelúja, allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "lessonNumber": 1,
+            "responsoryNumber": 1,
+            "incipit": "℟. Deo grátias.",
+            "versicle": "℣. Tu autem, Dómine, miserére nobis.",
+            "response": "℟. Tamquam spíritus veheméntis, et replévit totam domum, allelúja, allelúja.",
+            "gloriaPatriIncluded": false,
+            "finalRepetitionIncluded": true,
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Responsorium 1",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
+              "section": "Responsorium 1",
+              "transformation": [
+                "specials",
+                "matutinum special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-lesson-2-benedictio",
+          "type": "blessing",
+          "title": "Benedictio",
+          "text": [
+            "℣. Jube, Dómine, benedícere.",
+            "Benedictio. Divínum auxílium máneat semper nobíscum.",
+            "℟. Amen.",
+            "_"
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "lessonNumber": 2,
+            "formula": "Benedictio. Divínum auxílium máneat semper nobíscum.",
+            "includesJubeDomine": true,
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Benedictio",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Benedictions.txt",
+              "section": "Benedictio",
+              "transformation": [
+                "lectiones",
+                "benedictions"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-lesson-2",
+          "type": "reading",
+          "title": "Lectio 2",
+          "text": [
+            "Sed ecce, si unusquísque vestrum requirátur an díligat Deum: tota fidúcia et secúra mente respóndet, Díligo. In ipso autem lectiónis exórdio audístis quid Véritas dicit: Si quis díligit me, sermónem meum servábit. Probátio ergo dilectiónis, exhibítio est óperis. Hinc in epístola sua idem Joánnes dicit: Qui dicit: Díligo Deum, et mandáta ejus non custódit, mendax est. Vere étenim Deum dilígimus et mandáta ejus custodímus, si nos a nostris voluptátibus coarctámus. Nam qui adhuc per illícita desidéria díffluit, profécto Deum non amat: quia ei in sua voluntáte contradícit.",
+            "℣. Tu autem, Dómine, miserére nobis.",
+            "℟. Deo grátias."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "lessonNumber": 2,
+            "readingKind": "common",
+            "includesTuAutem": true,
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Lectio 2",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Tempora",
+              "section": "&lectio(2)",
+              "transformation": [
+                "lectiones",
+                "classify-common",
+                "resolved by Divinum Officium Perl"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Sancti",
+              "section": "&lectio(2)",
+              "transformation": [
+                "lectiones",
+                "classify-common",
+                "resolved by Divinum Officium Perl"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Commune",
+              "section": "&lectio(2)",
+              "transformation": [
+                "lectiones",
+                "classify-common",
+                "resolved by Divinum Officium Perl"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-lesson-2-responsorium",
+          "type": "matins-responsory",
+          "title": "Responsorium 2",
+          "text": [
+            "℟. Repléti sunt omnes Spíritu Sancto: et cœpérunt loqui, prout Spíritus Sanctus dabat éloqui illis:",
+            "* Et convénit multitúdo dicéntium, allelúja.",
+            "℣. Loquebántur váriis linguis Apóstoli magnália Dei.",
+            "℟. Et convénit multitúdo dicéntium, allelúja.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Et convénit multitúdo dicéntium, allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "lessonNumber": 2,
+            "responsoryNumber": 2,
+            "incipit": "℟. Repléti sunt omnes Spíritu Sancto: et cœpérunt loqui, prout Spíritus Sanctus dabat éloqui illis:",
+            "versicle": "℣. Loquebántur váriis linguis Apóstoli magnália Dei.",
+            "response": "℟. Et convénit multitúdo dicéntium, allelúja.",
+            "gloriaPatriIncluded": true,
+            "finalRepetitionIncluded": true,
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Responsorium 2",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Matutinum Special.txt",
+              "section": "Responsorium 2",
+              "transformation": [
+                "specials",
+                "matutinum special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-lesson-3-benedictio",
+          "type": "blessing",
+          "title": "Benedictio",
+          "text": [
+            "℣. Jube, Dómine, benedícere.",
+            "Benedictio. Ad societátem cívium supernórum perdúcat nos Rex Angelórum.",
+            "℟. Amen.",
+            "_"
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "lessonNumber": 3,
+            "formula": "Benedictio. Ad societátem cívium supernórum perdúcat nos Rex Angelórum.",
+            "includesJubeDomine": true,
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Benedictio",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Benedictions.txt",
+              "section": "Benedictio",
+              "transformation": [
+                "lectiones",
+                "benedictions"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-lesson-3",
+          "type": "reading",
+          "title": "Lectio 3",
+          "text": [
+            "Et Pater meus díliget eum, et ad eum veniémus, et mansiónem apud eum faciémus. Pensáte, fratres caríssimi, quanta sit ista dígnitas, habére in cordis hospítio advéntum Dei. Certe, si domum nostram quisquam dives aut prǽpotens amícus intráret, omni festinántia domus tota mundarétur, ne quid fortásse esset, quod óculos amíci intrántis offénderet. Tergat ergo sordes pravi óperis, qui Deo prǽparat domum mentis. Sed vidéte quid Véritas dicat: Veniémus, et mansiónem apud eum faciémus. In quorúmdam étenim corda venit, et mansiónem non facit: quia, per compunctiónem quidem, Dei respéctum percípiunt, sed tentatiónis témpore hoc ipsum quo compúncti fúerant, obliviscúntur; sicque ad perpetránda peccáta rédeunt, ac si hæc mínime planxíssent.",
+            "℣. Tu autem, Dómine, miserére nobis.",
+            "℟. Deo grátias."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "nocturn": 1,
+            "lessonNumber": 3,
+            "readingKind": "common",
+            "includesTuAutem": true,
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Lectio 3",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Tempora",
+              "section": "&lectio(3)",
+              "transformation": [
+                "lectiones",
+                "classify-common",
+                "resolved by Divinum Officium Perl"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Sancti",
+              "section": "&lectio(3)",
+              "transformation": [
+                "lectiones",
+                "classify-common",
+                "resolved by Divinum Officium Perl"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Commune",
+              "section": "&lectio(3)",
+              "transformation": [
+                "lectiones",
+                "classify-common",
+                "resolved by Divinum Officium Perl"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-te-deum",
+          "type": "te-deum",
+          "title": "Te Deum",
+          "text": [
+            "Te Deum laudámus: * te Dóminum confitémur.",
+            "Te ætérnum Patrem * omnis terra venerátur.",
+            "Tibi omnes Ángeli, * tibi Cæli, et univérsæ Potestátes:",
+            "Tibi Chérubim et Séraphim * incessábili voce proclámant:",
+            "(Fit reverentia) Sanctus, Sanctus, Sanctus * Dóminus Deus Sábaoth.",
+            "Pleni sunt cæli et terra * majestátis glóriæ tuæ.",
+            "Te gloriósus * Apostolórum chorus,",
+            "Te Prophetárum * laudábilis númerus,",
+            "Te Mártyrum candidátus * laudat exércitus.",
+            "Te per orbem terrárum * sancta confitétur Ecclésia,",
+            "Patrem * imménsæ majestátis;",
+            "Venerándum tuum verum * et únicum Fílium;",
+            "Sanctum quoque * Paráclitum Spíritum.",
+            "Tu Rex glóriæ, * Christe.",
+            "Tu Patris * sempitérnus es Fílius.",
+            "(Fit reverentia) Tu, ad liberándum susceptúrus hóminem: * non horruísti Vírginis úterum.",
+            "Tu, devícto mortis acúleo, * aperuísti credéntibus regna cælórum.",
+            "Tu ad déxteram Dei sedes, * in glória Patris.",
+            "Judex créderis * esse ventúrus.",
+            "(Sequens versus dicitur flexis genibus)  Te ergo quǽsumus, tuis fámulis súbveni, * quos pretióso sánguine redemísti.",
+            "Ætérna fac cum Sanctis tuis * in glória numerári.",
+            "Salvum fac pópulum tuum, Dómine, * et bénedic hereditáti tuæ.",
+            "Et rege eos, * et extólle illos usque in ætérnum.",
+            "Per síngulos dies * benedícimus te.",
+            "(Fit reverentia, secundum consuetudinem) Et laudámus nomen tuum in sǽculum, * et in sǽculum sǽculi.",
+            "Dignáre, Dómine, die isto * sine peccáto nos custodíre.",
+            "Miserére nostri, Dómine, * miserére nostri.",
+            "Fiat misericórdia tua, Dómine, super nos, * quemádmodum sperávimus in te.",
+            "In te, Dómine, sperávi: * non confúndar in ætérnum."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "included": true,
+            "nocturn": 1,
+            "afterLessonNumber": 3,
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Te Deum",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Te Deum",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-reliqua-omittuntur",
+          "type": "rubric",
+          "text": [
+            "Reliqua omittuntur, nisi %Laudes% separandæ sint."
+          ],
+          "rubricLines": [
+            "Reliqua omittuntur, nisi %Laudes% separandæ sint."
+          ],
+          "metadata": {
+            "conclusionRubric": true,
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "expanded unit",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-oratio",
+          "type": "prayer",
+          "title": "Oratio{ex Proprio de Tempore}",
+          "text": [
+            "Oratio {ex Proprio de Tempore}",
+            "℣. Dómine, exáudi oratiónem meam.",
+            "℟. Et clamor meus ad te véniat.",
+            "Orémus.",
+            "Deus, qui hodiérna die corda fidélium Sancti Spíritus illustratióne docuísti: da nobis in eódem Spíritu recta sápere; et de ejus semper consolatióne gaudére.",
+            "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte ejúsdem Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "sourceKind": "temporal",
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Oratio{ex Proprio de Tempore}",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Dominus_vobiscum",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-05-24-matutinum-conclusio",
+          "type": "blessing",
+          "title": "Conclusio",
+          "text": [
+            "℣. Dómine, exáudi oratiónem meam.",
+            "℟. Et clamor meus ad te véniat.",
+            "℣. Benedicámus Dómino.",
+            "℟. Deo grátias.",
+            "℣. Fidélium ánimæ per misericórdiam Dei requiéscant in pace.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "formula": "matutinum-conclusion",
+            "matutinum": {
+              "nocturnCount": 1,
+              "lessonCount": 3,
+              "officeForm": "sunday",
+              "teDeumIncluded": true,
+              "invitatoryIncluded": true,
+              "sourceClassifications": [
+                "web/www/horas/Ordinarium/Matutinum.txt",
+                "Psalterium/Common/Prayers.txt",
+                "Psalterium/Special/Matutinum Special.txt",
+                "Psalterium/Invitatorium.txt",
+                "Psalterium/Psalmorum/Psalm47.txt",
+                "Psalterium/Psalmorum/Psalm67.txt",
+                "Psalterium/Psalmorum/Psalm103.txt",
+                "Psalterium/Benedictions.txt",
+                "Tempora",
+                "Commune",
+                "Sancti"
+              ],
+              "nocturns": [
+                {
+                  "number": 1,
+                  "psalmBlockIds": [
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-47-full-1",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-67-full-2",
+                    "office-1962-2026-05-24-matutinum-matutinum-psalm-103-full-3"
+                  ],
+                  "lessonBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1",
+                    "office-1962-2026-05-24-matutinum-lesson-2",
+                    "office-1962-2026-05-24-matutinum-lesson-3"
+                  ],
+                  "responsoryBlockIds": [
+                    "office-1962-2026-05-24-matutinum-lesson-1-responsorium",
+                    "office-1962-2026-05-24-matutinum-lesson-2-responsorium"
+                  ],
+                  "versicleBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-versicle",
+                  "absolutionBlockId": "office-1962-2026-05-24-matutinum-nocturn-1-absolutio"
+                }
+              ]
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Matutinum.txt",
+              "section": "Conclusio",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-matutinum-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Benedictions.txt",
+              "section": "Conclusio",
+              "transformation": [
+                "lectiones",
+                "benedictions"
+              ]
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "web/cgi-bin/horas/horas.pl",
+          "section": "getordinarium/specials/getunit/resolve_refs",
+          "transformation": [
+            "Divinum Officium internal script array exported before print_content"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "warnings": []
+}

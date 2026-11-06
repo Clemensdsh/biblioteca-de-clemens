@@ -1,0 +1,6942 @@
+{
+  "days": [
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-01",
+      "dayFile": "days/2026-01-01.json",
+      "liturgicalTitle": "Die Octavæ Nativitatis Domini ~ I. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "Die Octavæ Nativitatis Domini;;Duplex I classis;;6;;ex Sancti/12-25\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-02",
+      "dayFile": "days/2026-01-02.json",
+      "liturgicalTitle": "Die Secunda Januarii ~ IV. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "Die Secunda Januarii;;Feria;;1.2;;vide Sancti/01-01\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-03",
+      "dayFile": "days/2026-01-03.json",
+      "liturgicalTitle": "Sanctæ Mariæ Sabbato ~ IV. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "Sanctæ Mariæ Sabbato;;Simplex;;1.3;;ex C10b",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-04",
+      "dayFile": "days/2026-01-04.json",
+      "liturgicalTitle": "Sanctissimi Nominis Jesu ~ II. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "Sanctissimi Nominis Jesu;;Duplex 2 class;;5;;\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-05",
+      "dayFile": "days/2026-01-05.json",
+      "liturgicalTitle": "Die Quinta Januarii ~ IV. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "Die Quinta Januarii;;Feria;;1.2;;vide Sancti/01-01\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-06",
+      "dayFile": "days/2026-01-06.json",
+      "liturgicalTitle": "In Epiphania Domini ~ I. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "In Epiphania Domini;;Duplex I classis;;6.5\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-07",
+      "dayFile": "days/2026-01-07.json",
+      "liturgicalTitle": "Die Septima Januarii ~ IV. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "Die Septima Januarii;;Feria;;1.2;;vide Sancti/01-06\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-08",
+      "dayFile": "days/2026-01-08.json",
+      "liturgicalTitle": "Die Octava Januarii ~ IV. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "Die Octava Januarii;;Feria;;1.2;;vide Sancti/01-06\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-09",
+      "dayFile": "days/2026-01-09.json",
+      "liturgicalTitle": "Die Nona Januarii ~ IV. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "Die Nona Januarii;;Feria;;1.2;;vide Sancti/01-06\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-10",
+      "dayFile": "days/2026-01-10.json",
+      "liturgicalTitle": "Sanctæ Mariæ Sabbato ~ IV. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "Sanctæ Mariæ Sabbato;;Simplex;;1.3;;ex C10b",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-11",
+      "dayFile": "days/2026-01-11.json",
+      "liturgicalTitle": "Sanctæ Familiæ Jesu Mariæ Joseph ~ II. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "Sanctæ Familiæ Jesu Mariæ Joseph;;Duplex II classis;;5\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-12",
+      "dayFile": "days/2026-01-12.json",
+      "liturgicalTitle": "Die Duodecima Januarii ~ IV. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "Die Duodecima Januarii;;Feria;;1.8;;vide Sancti/01-06\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-13",
+      "dayFile": "days/2026-01-13.json",
+      "liturgicalTitle": "Commemoratio Baptismatis Domini Nostri Jesu Christi ~ II. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "Commemoratio Baptismatis Domini Nostri Jesu Christi;;Duplex II. classis;;5;;ex Sancti/01-06\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-14",
+      "dayFile": "days/2026-01-14.json",
+      "liturgicalTitle": "S. Hilarii Episcopi Confessoris Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "S. Hilarii Episcopi Confessoris Ecclesiæ Doctoris;;Duplex;;3;;vide C4a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-15",
+      "dayFile": "days/2026-01-15.json",
+      "liturgicalTitle": "S. Pauli Primi Eremitæ et Confessoris ~ III. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "S. Pauli Primi Eremitæ et Confessoris;;Duplex;;3;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-16",
+      "dayFile": "days/2026-01-16.json",
+      "liturgicalTitle": "S. Marcelli Papæ et Martyris ~ III. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "S. Marcelli Papæ et Martyris;;Semiduplex;;2.2;;vide C2b\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-17",
+      "dayFile": "days/2026-01-17.json",
+      "liturgicalTitle": "S. Antonii Abbatis ~ III. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "S. Antonii Abbatis;;Duplex;;3;;vide C5b\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-18",
+      "dayFile": "days/2026-01-18.json",
+      "liturgicalTitle": "Dominica II post Epiphaniam ~ II. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "Dominica II post Epiphaniam;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-19",
+      "dayFile": "days/2026-01-19.json",
+      "liturgicalTitle": "Feria II infra Hebdomadam II post Epiphaniam ~ IV. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "Feria II infra Hebdomadam II post Epiphaniam;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-20",
+      "dayFile": "days/2026-01-20.json",
+      "liturgicalTitle": "Ss. Fabiani et Sebastiani Martyrum ~ III. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "Ss. Fabiani et Sebastiani Martyrum;;Duplex;;3;;vide C3\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-21",
+      "dayFile": "days/2026-01-21.json",
+      "liturgicalTitle": "S. Agnetis Virginis et Martyris ~ III. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "S. Agnetis Virginis et Martyris;;Duplex;;3;;vide C6-1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-22",
+      "dayFile": "days/2026-01-22.json",
+      "liturgicalTitle": "Ss. Vincentii et Anastasii Martyrum ~ III. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "Ss. Vincentii et Anastasii Martyrum;;Semiduplex;;2.2;;vide C3\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-23",
+      "dayFile": "days/2026-01-23.json",
+      "liturgicalTitle": "S. Raymundi de Peñafort Confessoris ~ III. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "S. Raymundi de Peñafort Confessoris;;Semiduplex;;2.2;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-24",
+      "dayFile": "days/2026-01-24.json",
+      "liturgicalTitle": "S. Timothei Episcopi et Martyris ~ III. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "S. Timothei Episcopi et Martyris;;Duplex;;3;;vide C2\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-25",
+      "dayFile": "days/2026-01-25.json",
+      "liturgicalTitle": "Dominica III Post Epiphaniam ~ II. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "Dominica III Post Epiphaniam;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-26",
+      "dayFile": "days/2026-01-26.json",
+      "liturgicalTitle": "S. Polycarpi Episcopi et Martyris ~ III. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "S. Polycarpi Episcopi et Martyris;;Duplex;;3;;vide C2-1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-27",
+      "dayFile": "days/2026-01-27.json",
+      "liturgicalTitle": "S. Joannis Chrysostomi Episcopi Confessoris et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "S. Joannis Chrysostomi Episcopi Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C4a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-28",
+      "dayFile": "days/2026-01-28.json",
+      "liturgicalTitle": "S. Petri Nolasci Confessoris ~ III. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "S. Petri Nolasci Confessoris;;Duplex;;3;;vide C5-1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-29",
+      "dayFile": "days/2026-01-29.json",
+      "liturgicalTitle": "S. Francisci Salesii Episcopi Confessoris et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "S. Francisci Salesii Episcopi Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C4a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-30",
+      "dayFile": "days/2026-01-30.json",
+      "liturgicalTitle": "S. Martinæ Virginis et Martyris ~ III. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "S. Martinæ Virginis et Martyris;;Semiduplex;;2.2;;vide C6\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-01-31",
+      "dayFile": "days/2026-01-31.json",
+      "liturgicalTitle": "S. Joannis Bosco Confessoris ~ III. classis",
+      "monthChunk": "months/01.json",
+      "omittedHours": [],
+      "rank": "S. Joannis Bosco Confessoris;;Duplex;;3;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-01",
+      "dayFile": "days/2026-02-01.json",
+      "liturgicalTitle": "Dominica in Septuagesima ~ II. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Dominica in Septuagesima;;Semiduplex;;5\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-02",
+      "dayFile": "days/2026-02-02.json",
+      "liturgicalTitle": "In Purificatione Beatæ Mariæ Virginis ~ II. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "In Purificatione Beatæ Mariæ Virginis;;Duplex 2 class;;5.1;;ex C11\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-03",
+      "dayFile": "days/2026-02-03.json",
+      "liturgicalTitle": "Feria III infra Hebdomadam Septuagesimæ ~ IV. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Feria III infra Hebdomadam Septuagesimæ;;Feria;;1\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-04",
+      "dayFile": "days/2026-02-04.json",
+      "liturgicalTitle": "S. Andreæ Corsini Episcopi et Confessoris ~ III. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "S. Andreæ Corsini Episcopi et Confessoris;;Duplex;;3;;vide C4\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-05",
+      "dayFile": "days/2026-02-05.json",
+      "liturgicalTitle": "S. Agathæ Virginis et Martyris ~ III. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "S. Agathæ Virginis et Martyris;;Duplex;;3;;vide C6\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-06",
+      "dayFile": "days/2026-02-06.json",
+      "liturgicalTitle": "S. Titi Episcopi et Confessoris ~ III. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "S. Titi Episcopi et Confessoris;;Duplex;;3;;vide C4\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-07",
+      "dayFile": "days/2026-02-07.json",
+      "liturgicalTitle": "S. Romualdi Abbatis ~ III. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "S. Romualdi Abbatis;;Duplex;;3;;vide C5b\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-08",
+      "dayFile": "days/2026-02-08.json",
+      "liturgicalTitle": "Dominica in Sexagesima ~ II. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Dominica in Sexagesima;;Semiduplex;;5\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-09",
+      "dayFile": "days/2026-02-09.json",
+      "liturgicalTitle": "S. Cyrilli Episc. Alexandrini Confessoris et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "S. Cyrilli Episc. Alexandrini Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C4a\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-10",
+      "dayFile": "days/2026-02-10.json",
+      "liturgicalTitle": "S. Scholasticæ Virginis ~ III. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "S. Scholasticæ Virginis;;Duplex;;3;;vide C6a\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-11",
+      "dayFile": "days/2026-02-11.json",
+      "liturgicalTitle": "In Apparitione Beatæ Mariæ Virginis Immaculatæ ~ III. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "In Apparitione Beatæ Mariæ Virginis Immaculatæ;;Duplex;;3;;ex C11\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-12",
+      "dayFile": "days/2026-02-12.json",
+      "liturgicalTitle": "Ss. Septem Fundatorum Ordinis Servorum B. M. V. ~ III. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Ss. Septem Fundatorum Ordinis Servorum B. M. V.;;Duplex;;3;;vide C5c\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-13",
+      "dayFile": "days/2026-02-13.json",
+      "liturgicalTitle": "Feria VI infra Hebdomadam Sexagesimæ ~ IV. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Feria VI infra Hebdomadam Sexagesimæ;;Feria;;1\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-14",
+      "dayFile": "days/2026-02-14.json",
+      "liturgicalTitle": "Sanctæ Mariæ Sabbato ~ IV. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Sanctæ Mariæ Sabbato;;Simplex;;1.3;;ex C10c",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-15",
+      "dayFile": "days/2026-02-15.json",
+      "liturgicalTitle": "Dominica in Quinquagesima ~ II. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Dominica in Quinquagesima;;Semiduplex;;5\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-16",
+      "dayFile": "days/2026-02-16.json",
+      "liturgicalTitle": "Feria II infra Hebdomadam Quinquagesimæ ~ IV. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Feria II infra Hebdomadam Quinquagesimæ;;Feria;;1\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-17",
+      "dayFile": "days/2026-02-17.json",
+      "liturgicalTitle": "Feria III infra Hebdomadam Quinquagesimæ ~ IV. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Feria III infra Hebdomadam Quinquagesimæ;;Feria;;1\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-18",
+      "dayFile": "days/2026-02-18.json",
+      "liturgicalTitle": "Feria IV Cinerum ~ I. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Feria IV Cinerum;;Feria privilegiata;;7\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-19",
+      "dayFile": "days/2026-02-19.json",
+      "liturgicalTitle": "Feria V post Cineres ~ III. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Feria V post Cineres;;Feria major;;3.9\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-20",
+      "dayFile": "days/2026-02-20.json",
+      "liturgicalTitle": "Feria VI post Cineres ~ III. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Feria VI post Cineres;;Feria major;;3.9\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-21",
+      "dayFile": "days/2026-02-21.json",
+      "liturgicalTitle": "Sabbato post Cineres ~ III. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Sabbato post Cineres;;Feria major;;3.9\n\n",
+      "season": "septuagesima"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-22",
+      "dayFile": "days/2026-02-22.json",
+      "liturgicalTitle": "Dominica I in Quadragesima ~ I. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Dominica I in Quadragesima;;I classis Semiduplex;;6.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-23",
+      "dayFile": "days/2026-02-23.json",
+      "liturgicalTitle": "Feria Secunda infra Hebdomadam I in Quadragesima ~ III. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Feria Secunda infra Hebdomadam I in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-24",
+      "dayFile": "days/2026-02-24.json",
+      "liturgicalTitle": "S. Matthiæ Apostoli ~ II. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "S. Matthiæ Apostoli;;Duplex II classis;;5;;ex C1\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-25",
+      "dayFile": "days/2026-02-25.json",
+      "liturgicalTitle": "Feria Quarta Quattuor Temporum Quadragesimæ ~ II. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Feria Quarta Quattuor Temporum Quadragesimæ;;Feria major;;4.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-26",
+      "dayFile": "days/2026-02-26.json",
+      "liturgicalTitle": "Feria Quinta infra Hebdomadam I in Quadragesima ~ III. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Feria Quinta infra Hebdomadam I in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-27",
+      "dayFile": "days/2026-02-27.json",
+      "liturgicalTitle": "Feria Sexta Quattuor Temporum Quadragesimæ ~ II. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Feria Sexta Quattuor Temporum Quadragesimæ;;Feria major;;4.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-02-28",
+      "dayFile": "days/2026-02-28.json",
+      "liturgicalTitle": "Sabbato Quattuor Temporum Quadragesimæ ~ II. classis",
+      "monthChunk": "months/02.json",
+      "omittedHours": [],
+      "rank": "Sabbato Quattuor Temporum Quadragesimæ;;Feria major;;4.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-01",
+      "dayFile": "days/2026-03-01.json",
+      "liturgicalTitle": "Dominica II in Quadragesima ~ I. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Dominica II in Quadragesima;;I classis Semiduplex;;6.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-02",
+      "dayFile": "days/2026-03-02.json",
+      "liturgicalTitle": "Feria Secunda infra Hebdomadam II in Quadragesima ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Secunda infra Hebdomadam II in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-03",
+      "dayFile": "days/2026-03-03.json",
+      "liturgicalTitle": "Feria Tertia infra Hebdomadam II in Quadragesima ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Tertia infra Hebdomadam II in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-04",
+      "dayFile": "days/2026-03-04.json",
+      "liturgicalTitle": "Feria Quarta infra Hebdomadam II in Quadragesima ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Quarta infra Hebdomadam II in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-05",
+      "dayFile": "days/2026-03-05.json",
+      "liturgicalTitle": "Feria Quinta infra Hebdomadam II in Quadragesima ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Quinta infra Hebdomadam II in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-06",
+      "dayFile": "days/2026-03-06.json",
+      "liturgicalTitle": "Feria Sexta infra Hebdomadam II in Quadragesima ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Sexta infra Hebdomadam II in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-07",
+      "dayFile": "days/2026-03-07.json",
+      "liturgicalTitle": "Sabbato infra Hebdomadam II in Quadragesima ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Sabbato infra Hebdomadam II in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-08",
+      "dayFile": "days/2026-03-08.json",
+      "liturgicalTitle": "Dominica III in Quadragesima ~ I. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Dominica III in Quadragesima;;I classis Semiduplex;;6.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-09",
+      "dayFile": "days/2026-03-09.json",
+      "liturgicalTitle": "Feria Secunda infra Hebdomadam III in Quadragesima ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Secunda infra Hebdomadam III in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-10",
+      "dayFile": "days/2026-03-10.json",
+      "liturgicalTitle": "Feria Tertia infra Hebdomadam III in Quadragesima ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Tertia infra Hebdomadam III in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-11",
+      "dayFile": "days/2026-03-11.json",
+      "liturgicalTitle": "Feria Quarta infra Hebdomadam III in Quadragesima ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Quarta infra Hebdomadam III in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-12",
+      "dayFile": "days/2026-03-12.json",
+      "liturgicalTitle": "Feria Quinta infra Hebdomadam III in Quadragesima ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Quinta infra Hebdomadam III in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-13",
+      "dayFile": "days/2026-03-13.json",
+      "liturgicalTitle": "Feria Sexta infra Hebdomadam III in Quadragesima ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Sexta infra Hebdomadam III in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-14",
+      "dayFile": "days/2026-03-14.json",
+      "liturgicalTitle": "Sabbato infra Hebdomadam III in Quadragesima ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Sabbato infra Hebdomadam III in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-15",
+      "dayFile": "days/2026-03-15.json",
+      "liturgicalTitle": "Dominica IV in Quadragesima ~ I. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Dominica IV in Quadragesima;;I classis Semiduplex;;6.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-16",
+      "dayFile": "days/2026-03-16.json",
+      "liturgicalTitle": "Feria Secunda infra Hebdomadam IV in Quadragesima ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Secunda infra Hebdomadam IV in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-17",
+      "dayFile": "days/2026-03-17.json",
+      "liturgicalTitle": "Feria Tertia infra Hebdomadam IV in Quadragesima ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Tertia infra Hebdomadam IV in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-18",
+      "dayFile": "days/2026-03-18.json",
+      "liturgicalTitle": "Feria Quarta infra Hebdomadam IV in Quadragesima ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Quarta infra Hebdomadam IV in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-19",
+      "dayFile": "days/2026-03-19.json",
+      "liturgicalTitle": "S. Joseph Sponsi B.M.V. Confessoris ~ I. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "S. Joseph Sponsi B.M.V. Confessoris;;Duplex I classis;;6;;\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-20",
+      "dayFile": "days/2026-03-20.json",
+      "liturgicalTitle": "Feria Sexta infra Hebdomadam IV in Quadragesima ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Sexta infra Hebdomadam IV in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-21",
+      "dayFile": "days/2026-03-21.json",
+      "liturgicalTitle": "Sabbato infra Hebdomadam IV in Quadragesima ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Sabbato infra Hebdomadam IV in Quadragesima;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-22",
+      "dayFile": "days/2026-03-22.json",
+      "liturgicalTitle": "Dominica I Passionis ~ I. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Dominica I Passionis;;I classis Semiduplex;;6\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-23",
+      "dayFile": "days/2026-03-23.json",
+      "liturgicalTitle": "Feria Secunda infra Hebdomadam Passionis ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Secunda infra Hebdomadam Passionis;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-24",
+      "dayFile": "days/2026-03-24.json",
+      "liturgicalTitle": "Feria Tertia infra Hebdomadam Passionis ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Tertia infra Hebdomadam Passionis;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-25",
+      "dayFile": "days/2026-03-25.json",
+      "liturgicalTitle": "In Annuntiatione Beatæ Mariæ Virginis ~ I. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "In Annuntiatione Beatæ Mariæ Virginis;;Duplex I classis;;6;;ex C11\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-26",
+      "dayFile": "days/2026-03-26.json",
+      "liturgicalTitle": "Feria Quinta infra Hebdomadam Passionis ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Quinta infra Hebdomadam Passionis;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-27",
+      "dayFile": "days/2026-03-27.json",
+      "liturgicalTitle": "Feria Sexta infra Hebdomadam Passionis ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Sexta infra Hebdomadam Passionis;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-28",
+      "dayFile": "days/2026-03-28.json",
+      "liturgicalTitle": "Sabbato infra Hebdomadam Passionis ~ III. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Sabbato infra Hebdomadam Passionis;;Feria major;;3.9\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-29",
+      "dayFile": "days/2026-03-29.json",
+      "liturgicalTitle": "Dominica II Passionis seu in Palmis ~ I. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Dominica II Passionis seu in Palmis;;I classis Semiduplex;;6\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-30",
+      "dayFile": "days/2026-03-30.json",
+      "liturgicalTitle": "Feria Secunda Hebdomadæ Sanctæ ~ I. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Secunda Hebdomadæ Sanctæ;;Feria privilegiata;;7\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-03-31",
+      "dayFile": "days/2026-03-31.json",
+      "liturgicalTitle": "Feria Tertia Hebdomadæ Sanctæ ~ I. classis",
+      "monthChunk": "months/03.json",
+      "omittedHours": [],
+      "rank": "Feria Tertia Hebdomadæ Sanctæ;;Feria privilegiata;;7\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-01",
+      "dayFile": "days/2026-04-01.json",
+      "liturgicalTitle": "Feria Quarta Hebdomadæ Sanctæ ~ I. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Feria Quarta Hebdomadæ Sanctæ;;Feria privilegiata;;7\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-02",
+      "dayFile": "days/2026-04-02.json",
+      "liturgicalTitle": "Feria Quinta in Cena Domini ~ I. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Feria Quinta in Cena Domini;;Feria privilegiata Duplex I classis;;7\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-03",
+      "dayFile": "days/2026-04-03.json",
+      "liturgicalTitle": "Feria Sexta in Passione et Morte Domini ~ I. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Feria Sexta in Passione et Morte Domini;;Feria privilegiata Duplex I classis;;7\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-04",
+      "dayFile": "days/2026-04-04.json",
+      "liturgicalTitle": "Sabbato Sancto ~ I. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Sabbato Sancto;;Feria privilegiata Duplex I classis;;7\n\n",
+      "season": "lent-passiontide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-05",
+      "dayFile": "days/2026-04-05.json",
+      "liturgicalTitle": "Dominica Resurrectionis ~ I. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Dominica Resurrectionis;;Duplex I classis cum Octava Privilegiata I;;7\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-06",
+      "dayFile": "days/2026-04-06.json",
+      "liturgicalTitle": "Die II infra octavam Paschæ ~ Dies Octavæ I. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Die II infra octavam Paschæ;;Duplex I classis;;7;;ex Pasc0-0\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-07",
+      "dayFile": "days/2026-04-07.json",
+      "liturgicalTitle": "Die III infra octavam Paschæ ~ Dies Octavæ I. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Die III infra octavam Paschæ;;Duplex I classis;;7;;ex Pasc0-0\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-08",
+      "dayFile": "days/2026-04-08.json",
+      "liturgicalTitle": "Die IV infra octavam Paschæ ~ Dies Octavæ I. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Die IV infra octavam Paschæ;;Semiduplex I classis;;6.9;;ex Pasc0-0\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-09",
+      "dayFile": "days/2026-04-09.json",
+      "liturgicalTitle": "Die V infra octavam Paschæ ~ Dies Octavæ I. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Die V infra octavam Paschæ;;Semiduplex I classis;;6.9;;ex Pasc0-0\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-10",
+      "dayFile": "days/2026-04-10.json",
+      "liturgicalTitle": "Die VI infra octavam Paschæ ~ Dies Octavæ I. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Die VI infra octavam Paschæ;;Semiduplex I class;;6.9;;ex Pasc0-0\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-11",
+      "dayFile": "days/2026-04-11.json",
+      "liturgicalTitle": "Sabbato in Albis ~ Dies Octavæ I. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Sabbato in Albis;;Semiduplex I class;;6.9;;ex Pasc0-0\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-12",
+      "dayFile": "days/2026-04-12.json",
+      "liturgicalTitle": "Dominica in Albis in Octava Paschæ ~ I. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Dominica in Albis in Octava Paschæ;;Duplex I classis;;6;;\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-13",
+      "dayFile": "days/2026-04-13.json",
+      "liturgicalTitle": "S. Hermenegildi Martyris ~ III. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "S. Hermenegildi Martyris;;Semiduplex;;2.2;;vide C2a\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-14",
+      "dayFile": "days/2026-04-14.json",
+      "liturgicalTitle": "S. Justini Martyris ~ III. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "S. Justini Martyris;;Duplex;;3;;vide C2a\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-15",
+      "dayFile": "days/2026-04-15.json",
+      "liturgicalTitle": "Feria Quarta infra Hebdomadam I post Octavam Paschæ ~ IV. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Feria Quarta infra Hebdomadam I post Octavam Paschæ;;Feria;;1\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-16",
+      "dayFile": "days/2026-04-16.json",
+      "liturgicalTitle": "Feria Quinta infra Hebdomadam I post Octavam Paschæ ~ IV. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Feria Quinta infra Hebdomadam I post Octavam Paschæ;;Feria;;1\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-17",
+      "dayFile": "days/2026-04-17.json",
+      "liturgicalTitle": "Feria Sexta infra Hebdomadam I post Octavam Paschæ ~ IV. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Feria Sexta infra Hebdomadam I post Octavam Paschæ;;Feria;;1\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-18",
+      "dayFile": "days/2026-04-18.json",
+      "liturgicalTitle": "Sanctæ Mariæ Sabbato ~ IV. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Sanctæ Mariæ Sabbato;;Simplex;;1.3;;ex C10Pasc",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-19",
+      "dayFile": "days/2026-04-19.json",
+      "liturgicalTitle": "Dominica II Post Pascha ~ II. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Dominica II Post Pascha;;Semiduplex;;5;;\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-20",
+      "dayFile": "days/2026-04-20.json",
+      "liturgicalTitle": "Feria Secunda infra Hebdomadam II post Octavam Paschæ ~ IV. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Feria Secunda infra Hebdomadam II post Octavam Paschæ;;Feria;;1\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-21",
+      "dayFile": "days/2026-04-21.json",
+      "liturgicalTitle": "S. Anselmi Episcopi Confessoris et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "S. Anselmi Episcopi Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C4a\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-22",
+      "dayFile": "days/2026-04-22.json",
+      "liturgicalTitle": "SS. Soteris et Caii Summorum Pontificum et Martyrum ~ III. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "SS. Soteris et Caii Summorum Pontificum et Martyrum;;Semiduplex;;2.2;;vide C3b\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-23",
+      "dayFile": "days/2026-04-23.json",
+      "liturgicalTitle": "Feria Quinta infra Hebdomadam II post Octavam Paschæ ~ IV. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Feria Quinta infra Hebdomadam II post Octavam Paschæ;;Feria;;1\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-24",
+      "dayFile": "days/2026-04-24.json",
+      "liturgicalTitle": "S. Fidelis de Sigmaringa Martyris ~ III. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "S. Fidelis de Sigmaringa Martyris;;Duplex;;3;;vide C2a\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-25",
+      "dayFile": "days/2026-04-25.json",
+      "liturgicalTitle": "S. Marci Evangelistæ ~ II. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "S. Marci Evangelistæ;;Duplex II classis;;5;;ex C1a\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-26",
+      "dayFile": "days/2026-04-26.json",
+      "liturgicalTitle": "Dominica III Post Pascha ~ II. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "Dominica III Post Pascha;;Semiduplex;;5;;\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-27",
+      "dayFile": "days/2026-04-27.json",
+      "liturgicalTitle": "S. Petri Canisii Confessoris et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "S. Petri Canisii Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C5a\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-28",
+      "dayFile": "days/2026-04-28.json",
+      "liturgicalTitle": "S. Pauli a Cruce Confessoris ~ III. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "S. Pauli a Cruce Confessoris;;Duplex;;3;;vide C5\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-29",
+      "dayFile": "days/2026-04-29.json",
+      "liturgicalTitle": "S. Petri Martyris ~ III. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "S. Petri Martyris;;Duplex;;3;;vide C2a-1\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-04-30",
+      "dayFile": "days/2026-04-30.json",
+      "liturgicalTitle": "S. Catharinæ Senensis Virginis ~ III. classis",
+      "monthChunk": "months/04.json",
+      "omittedHours": [],
+      "rank": "S. Catharinæ Senensis Virginis;;Duplex;;3;;vide C6a\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-01",
+      "dayFile": "days/2026-05-01.json",
+      "liturgicalTitle": "S. Joseph Opificis ~ I. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "S. Joseph Opificis;;Duplex I classis;;6;;\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-02",
+      "dayFile": "days/2026-05-02.json",
+      "liturgicalTitle": "S. Athanasii Episcopi Confessoris et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "S. Athanasii Episcopi Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C4a\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-03",
+      "dayFile": "days/2026-05-03.json",
+      "liturgicalTitle": "Dominica IV Post Pascha ~ II. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "Dominica IV Post Pascha;;Semiduplex;;5;;\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-04",
+      "dayFile": "days/2026-05-04.json",
+      "liturgicalTitle": "S. Monicæ Viduæ ~ III. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "S. Monicæ Viduæ;;Duplex;;3;;vide C7a\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-05",
+      "dayFile": "days/2026-05-05.json",
+      "liturgicalTitle": "S. Pii V Papæ et Confessoris ~ III. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "S. Pii V Papæ et Confessoris;;Duplex;;3;;vide C4b\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-06",
+      "dayFile": "days/2026-05-06.json",
+      "liturgicalTitle": "Feria Quarta infra Hebdomadam IV post Octavam Paschæ ~ IV. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "Feria Quarta infra Hebdomadam IV post Octavam Paschæ;;Feria;;1\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-07",
+      "dayFile": "days/2026-05-07.json",
+      "liturgicalTitle": "S. Stanislai Episcopi et Martyris ~ III. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "S. Stanislai Episcopi et Martyris;;Duplex;;3;;vide C2-1\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-08",
+      "dayFile": "days/2026-05-08.json",
+      "liturgicalTitle": "Feria Sexta infra Hebdomadam IV post Octavam Paschæ ~ IV. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "Feria Sexta infra Hebdomadam IV post Octavam Paschæ;;Feria;;1\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-09",
+      "dayFile": "days/2026-05-09.json",
+      "liturgicalTitle": "S. Gregorii Nazianzeni Episcopi Confessoris et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "S. Gregorii Nazianzeni Episcopi Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C4a\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-10",
+      "dayFile": "days/2026-05-10.json",
+      "liturgicalTitle": "Dominica V Post Pascha ~ II. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "Dominica V Post Pascha;;Semiduplex;;5;;\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-11",
+      "dayFile": "days/2026-05-11.json",
+      "liturgicalTitle": "Ss. Philippi et Jacobi Apostolorum ~ II. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "Ss. Philippi et Jacobi Apostolorum;;Duplex II classis;;5;;ex C1\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-12",
+      "dayFile": "days/2026-05-12.json",
+      "liturgicalTitle": "Ss. Nerei, Achillei et Domitillæ Virg. atque Pancratii Martyrum ~ III. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "Ss. Nerei, Achillei et Domitillæ Virg. atque Pancratii Martyrum;;Semiduplex;;2.2;;vide C3a-1\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-13",
+      "dayFile": "days/2026-05-13.json",
+      "liturgicalTitle": "In Vigilia Ascensionis ~ II. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "In Vigilia Ascensionis;;Feria;;5\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-14",
+      "dayFile": "days/2026-05-14.json",
+      "liturgicalTitle": "In Ascensione Domini ~ I. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "In Ascensione Domini;;Duplex I classis;;7\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-15",
+      "dayFile": "days/2026-05-15.json",
+      "liturgicalTitle": "S. Joannis Baptistæ de la Salle Confessoris ~ III. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "S. Joannis Baptistæ de la Salle Confessoris;;Duplex;;3;;vide C5\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-16",
+      "dayFile": "days/2026-05-16.json",
+      "liturgicalTitle": "S. Ubaldi Episcopi et Confessoris ~ III. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "S. Ubaldi Episcopi et Confessoris;;Semiduplex;;2.2;;vide C4\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-17",
+      "dayFile": "days/2026-05-17.json",
+      "liturgicalTitle": "Dominica post Ascensionem ~ II. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "Dominica post Ascensionem;;Semiduplex;;5;;vide Tempora/Pasc5-4\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-18",
+      "dayFile": "days/2026-05-18.json",
+      "liturgicalTitle": "S. Venantii Martyris ~ III. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "S. Venantii Martyris;;Duplex;;3;;vide C2a\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-19",
+      "dayFile": "days/2026-05-19.json",
+      "liturgicalTitle": "S. Petri Celestini Papæ et Confessoris ~ III. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "S. Petri Celestini Papæ et Confessoris;;Duplex;;3;;vide C4b\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-20",
+      "dayFile": "days/2026-05-20.json",
+      "liturgicalTitle": "S. Bernardini Senensis Confessoris ~ III. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "S. Bernardini Senensis Confessoris;;Semiduplex;;2.2;;vide C5\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-21",
+      "dayFile": "days/2026-05-21.json",
+      "liturgicalTitle": "Feria V infra Hebdomadam post Ascensionem ~ IV. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "Feria V infra Hebdomadam post Ascensionem;;Feria;;1;;vide Tempora/Pasc5-4\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-22",
+      "dayFile": "days/2026-05-22.json",
+      "liturgicalTitle": "Feria VI infra Hebdomadam post Ascensionem ~ IV. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "Feria VI infra Hebdomadam post Ascensionem;;Feria;;1;;vide Tempora/Pasc5-4\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-23",
+      "dayFile": "days/2026-05-23.json",
+      "liturgicalTitle": "Sabbato in Vigilia Pentecostes ~ I. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "Sabbato in Vigilia Pentecostes;;I classis Semiduplex;;6;;vide Tempora/Pasc5-4\n\n",
+      "season": "eastertide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-24",
+      "dayFile": "days/2026-05-24.json",
+      "liturgicalTitle": "Dominica Pentecostes ~ I. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "Dominica Pentecostes;;Duplex I Classis cum Octava privilegiata I ordinis;;7\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-25",
+      "dayFile": "days/2026-05-25.json",
+      "liturgicalTitle": "Die II infra octavam Pentecostes ~ Dies Octavæ I. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "Die II infra octavam Pentecostes;;Duplex I classis;;7;;ex Pasc7-0\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-26",
+      "dayFile": "days/2026-05-26.json",
+      "liturgicalTitle": "Die III infra octavam Pentecostes ~ Dies Octavæ I. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "Die III infra octavam Pentecostes;;Duplex I classis;;7;;ex Pasc7-0\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-27",
+      "dayFile": "days/2026-05-27.json",
+      "liturgicalTitle": "Feria Quarta Quattuor Temporum Pentecostes ~ Dies Octavæ I. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "Feria Quarta Quattuor Temporum Pentecostes;;Semiduplex I classis;;6;;ex Pasc7-0\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-28",
+      "dayFile": "days/2026-05-28.json",
+      "liturgicalTitle": "Die Quinta infra octavam Pentecostes ~ Dies Octavæ I. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "Die Quinta infra octavam Pentecostes;;Semiduplex I classis;;6;;ex Pasc7-0\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-29",
+      "dayFile": "days/2026-05-29.json",
+      "liturgicalTitle": "Feria Sexta Quattuor Temporum Pentecostes ~ Dies Octavæ I. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "Feria Sexta Quattuor Temporum Pentecostes;;Semiduplex I classis;;6.9;;ex Pasc7-0\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-30",
+      "dayFile": "days/2026-05-30.json",
+      "liturgicalTitle": "Sabbato Quattuor Temporum Pentecostes ~ Dies Octavæ I. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "Sabbato Quattuor Temporum Pentecostes;;Semiduplex I classis;;6.9;;ex Pasc7-0\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-05-31",
+      "dayFile": "days/2026-05-31.json",
+      "liturgicalTitle": "Dominica Sanctissimæ Trinitatis ~ I. classis",
+      "monthChunk": "months/05.json",
+      "omittedHours": [],
+      "rank": "Dominica Sanctissimæ Trinitatis;;Duplex I classis;;7\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-01",
+      "dayFile": "days/2026-06-01.json",
+      "liturgicalTitle": "S. Angelæ Mericiæ Virginis ~ III. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "S. Angelæ Mericiæ Virginis;;Duplex;;3;;vide C6a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-02",
+      "dayFile": "days/2026-06-02.json",
+      "liturgicalTitle": "Feria Tertia infra Hebdomadam I post Octavam Pentecostes ~ IV. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "Feria Tertia infra Hebdomadam I post Octavam Pentecostes;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-03",
+      "dayFile": "days/2026-06-03.json",
+      "liturgicalTitle": "Feria Quarta infra Hebdomadam I post Octavam Pentecostes ~ IV. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "Feria Quarta infra Hebdomadam I post Octavam Pentecostes;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-04",
+      "dayFile": "days/2026-06-04.json",
+      "liturgicalTitle": "Festum Sanctissimi Corporis Christi ~ I. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "Festum Sanctissimi Corporis Christi;;Duplex I classis;;7\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-05",
+      "dayFile": "days/2026-06-05.json",
+      "liturgicalTitle": "S. Bonifatii Episcopi et Martyris ~ III. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "S. Bonifatii Episcopi et Martyris;;Duplex;;3;;vide C2\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-06",
+      "dayFile": "days/2026-06-06.json",
+      "liturgicalTitle": "S. Norberti Episcopi et Confessoris ~ III. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "S. Norberti Episcopi et Confessoris;;Duplex;;3;;vide C4\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-07",
+      "dayFile": "days/2026-06-07.json",
+      "liturgicalTitle": "Dominica II Post Pentecosten ~ II. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "Dominica II Post Pentecosten;;Semiduplex I classis;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-08",
+      "dayFile": "days/2026-06-08.json",
+      "liturgicalTitle": "Feria II infra Hebdomadam II post Octavam Pentecostes ~ IV. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "Feria II infra Hebdomadam II post Octavam Pentecostes;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-09",
+      "dayFile": "days/2026-06-09.json",
+      "liturgicalTitle": "Feria III infra Hebdomadam II post Octavam Pentecostes ~ IV. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "Feria III infra Hebdomadam II post Octavam Pentecostes;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-10",
+      "dayFile": "days/2026-06-10.json",
+      "liturgicalTitle": "S. Margaritæ Reginæ Viduæ ~ III. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "S. Margaritæ Reginæ Viduæ;;Semiduplex;;2.2;;vide C7a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-11",
+      "dayFile": "days/2026-06-11.json",
+      "liturgicalTitle": "S. Barnabæ Apostoli ~ III. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "S. Barnabæ Apostoli;;Duplex;;3;;vide C1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-12",
+      "dayFile": "days/2026-06-12.json",
+      "liturgicalTitle": "Sacratissimi Cordis Domini Nostri Jesu Christi ~ I. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "Sacratissimi Cordis Domini Nostri Jesu Christi;;Duplex I classis;;6\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-13",
+      "dayFile": "days/2026-06-13.json",
+      "liturgicalTitle": "S. Antonii de Padua Confessoris et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "S. Antonii de Padua Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C5a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-14",
+      "dayFile": "days/2026-06-14.json",
+      "liturgicalTitle": "Dominica III Post Pentecosten ~ II. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "Dominica III Post Pentecosten;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-15",
+      "dayFile": "days/2026-06-15.json",
+      "liturgicalTitle": "Feria secunda infra Hebdomadam III post Octavam Pentecostes ~ IV. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "Feria secunda infra Hebdomadam III post Octavam Pentecostes;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-16",
+      "dayFile": "days/2026-06-16.json",
+      "liturgicalTitle": "Feria tertia infra Hebdomadam III post Octavam Pentecostes ~ IV. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "Feria tertia infra Hebdomadam III post Octavam Pentecostes;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-17",
+      "dayFile": "days/2026-06-17.json",
+      "liturgicalTitle": "S. Gregorii Barbadici Episcopi et Confessoris ~ III. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "S. Gregorii Barbadici Episcopi et Confessoris;;Duplex;;3;;vide C4\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-18",
+      "dayFile": "days/2026-06-18.json",
+      "liturgicalTitle": "S. Ephræm Syri Confessoris et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "S. Ephræm Syri Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C5a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-19",
+      "dayFile": "days/2026-06-19.json",
+      "liturgicalTitle": "S. Julianæ de Falconeriis Virginis ~ III. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "S. Julianæ de Falconeriis Virginis;;Duplex;;3;;vide C6a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-20",
+      "dayFile": "days/2026-06-20.json",
+      "liturgicalTitle": "Sanctæ Mariæ Sabbato ~ IV. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "Sanctæ Mariæ Sabbato;;Simplex;;1.3;;ex C10",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-21",
+      "dayFile": "days/2026-06-21.json",
+      "liturgicalTitle": "Dominica IV Post Pentecosten ~ II. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "Dominica IV Post Pentecosten;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-22",
+      "dayFile": "days/2026-06-22.json",
+      "liturgicalTitle": "S. Paulini Episcopi et Confessoris ~ III. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "S. Paulini Episcopi et Confessoris;;Duplex;;3;;vide C4\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-23",
+      "dayFile": "days/2026-06-23.json",
+      "liturgicalTitle": "In Vigilia S. Joannis Baptistæ ~ II. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "In Vigilia S. Joannis Baptistæ;;Duplex II classis;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-24",
+      "dayFile": "days/2026-06-24.json",
+      "liturgicalTitle": "In Nativitate S. Joannis Baptistæ ~ I. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "In Nativitate S. Joannis Baptistæ;;Duplex I classis;;6;;\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-25",
+      "dayFile": "days/2026-06-25.json",
+      "liturgicalTitle": "S. Gulielmi Abbatis ~ III. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "S. Gulielmi Abbatis;;Duplex;;3;;vide C5b\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-26",
+      "dayFile": "days/2026-06-26.json",
+      "liturgicalTitle": "Ss. Joannis et Pauli Martyrum ~ III. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "Ss. Joannis et Pauli Martyrum;;Duplex;;3;;vide C3\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-27",
+      "dayFile": "days/2026-06-27.json",
+      "liturgicalTitle": "Sanctæ Mariæ Sabbato ~ IV. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "Sanctæ Mariæ Sabbato;;Simplex;;1.3;;ex C10",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-28",
+      "dayFile": "days/2026-06-28.json",
+      "liturgicalTitle": "Dominica V Post Pentecosten ~ II. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "Dominica V Post Pentecosten;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-29",
+      "dayFile": "days/2026-06-29.json",
+      "liturgicalTitle": "SS. Apostolorum Petri et Pauli ~ I. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "SS. Apostolorum Petri et Pauli;;Duplex I classis;;6;;ex C1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-06-30",
+      "dayFile": "days/2026-06-30.json",
+      "liturgicalTitle": "In Commemoratione S. Pauli Apostoli ~ III. classis",
+      "monthChunk": "months/06.json",
+      "omittedHours": [],
+      "rank": "In Commemoratione S. Pauli Apostoli;;Duplex;;3;;vide C1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-01",
+      "dayFile": "days/2026-07-01.json",
+      "liturgicalTitle": "Pretiosissimi Sanguinis Domini Nostri Jesu Christi ~ I. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "Pretiosissimi Sanguinis Domini Nostri Jesu Christi;;Duplex I classis;;6;;\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-02",
+      "dayFile": "days/2026-07-02.json",
+      "liturgicalTitle": "In Visitatione Beatæ Mariæ Virginis ~ II. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "In Visitatione Beatæ Mariæ Virginis;;Duplex II classis;;5;;ex C11\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-03",
+      "dayFile": "days/2026-07-03.json",
+      "liturgicalTitle": "S. Irenæi Episcopi et Martyris ~ III. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "S. Irenæi Episcopi et Martyris;;Duplex;;3;;vide C2\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-04",
+      "dayFile": "days/2026-07-04.json",
+      "liturgicalTitle": "Sanctæ Mariæ Sabbato ~ IV. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "Sanctæ Mariæ Sabbato;;Simplex;;1.3;;ex C10",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-05",
+      "dayFile": "days/2026-07-05.json",
+      "liturgicalTitle": "Dominica VI Post Pentecosten ~ II. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "Dominica VI Post Pentecosten;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-06",
+      "dayFile": "days/2026-07-06.json",
+      "liturgicalTitle": "Feria secunda infra Hebdomadam VI post Octavam Pentecostes ~ IV. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "Feria secunda infra Hebdomadam VI post Octavam Pentecostes;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-07",
+      "dayFile": "days/2026-07-07.json",
+      "liturgicalTitle": "Ss. Cyrilli et Methodii Pont. et Conf. ~ III. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "Ss. Cyrilli et Methodii Pont. et Conf.;;Duplex;;3;;vide C4-1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-08",
+      "dayFile": "days/2026-07-08.json",
+      "liturgicalTitle": "S. Elisabeth Reg. Portugaliæ Viduæ ~ III. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "S. Elisabeth Reg. Portugaliæ Viduæ;;Semiduplex;;2.2;;vide C7a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-09",
+      "dayFile": "days/2026-07-09.json",
+      "liturgicalTitle": "Feria quinta infra Hebdomadam VI post Octavam Pentecostes ~ IV. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "Feria quinta infra Hebdomadam VI post Octavam Pentecostes;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-10",
+      "dayFile": "days/2026-07-10.json",
+      "liturgicalTitle": "Ss. Septem Fratrum Martyrum, ac Rufinæ et Secundæ Virginum et Martyrum ~ III. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "Ss. Septem Fratrum Martyrum, ac Rufinæ et Secundæ Virginum et Martyrum;;Semiduplex;;2.2;;vide C3\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-11",
+      "dayFile": "days/2026-07-11.json",
+      "liturgicalTitle": "Sanctæ Mariæ Sabbato ~ IV. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "Sanctæ Mariæ Sabbato;;Simplex;;1.3;;ex C10",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-12",
+      "dayFile": "days/2026-07-12.json",
+      "liturgicalTitle": "Dominica VII Post Pentecosten ~ II. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "Dominica VII Post Pentecosten;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-13",
+      "dayFile": "days/2026-07-13.json",
+      "liturgicalTitle": "Feria secunda infra Hebdomadam VII post Octavam Pentecostes ~ IV. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "Feria secunda infra Hebdomadam VII post Octavam Pentecostes;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-14",
+      "dayFile": "days/2026-07-14.json",
+      "liturgicalTitle": "S. Bonaventuræ Episcopi Confessoris et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "S. Bonaventuræ Episcopi Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C4a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-15",
+      "dayFile": "days/2026-07-15.json",
+      "liturgicalTitle": "S. Henrici Imperatoris Confessoris ~ III. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "S. Henrici Imperatoris Confessoris;;Semiduplex;;2.2;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-16",
+      "dayFile": "days/2026-07-16.json",
+      "liturgicalTitle": "Feria quinta infra Hebdomadam VII post Octavam Pentecostes ~ IV. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "Feria quinta infra Hebdomadam VII post Octavam Pentecostes;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-17",
+      "dayFile": "days/2026-07-17.json",
+      "liturgicalTitle": "Feria sexta infra Hebdomadam VII post Octavam Pentecostes ~ IV. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "Feria sexta infra Hebdomadam VII post Octavam Pentecostes;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-18",
+      "dayFile": "days/2026-07-18.json",
+      "liturgicalTitle": "S. Camilli de Lellis Confessoris ~ III. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "S. Camilli de Lellis Confessoris;;Duplex;;3;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-19",
+      "dayFile": "days/2026-07-19.json",
+      "liturgicalTitle": "Dominica VIII Post Pentecosten ~ II. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "Dominica VIII Post Pentecosten;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-20",
+      "dayFile": "days/2026-07-20.json",
+      "liturgicalTitle": "S. Hieronymi Æmiliani Confessoris ~ III. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "S. Hieronymi Æmiliani Confessoris;;Duplex;;3;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-21",
+      "dayFile": "days/2026-07-21.json",
+      "liturgicalTitle": "S. Laurentii a Brundusio Confessoris et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "S. Laurentii a Brundusio Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C5a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-22",
+      "dayFile": "days/2026-07-22.json",
+      "liturgicalTitle": "S. Mariæ Magdalenæ Pœnitentis ~ III. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "S. Mariæ Magdalenæ Pœnitentis;;Duplex;;3;;vide C7a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-23",
+      "dayFile": "days/2026-07-23.json",
+      "liturgicalTitle": "S. Apollinaris Episcopi et Martyris ~ III. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "S. Apollinaris Episcopi et Martyris;;Duplex;;3;;vide C2-1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-24",
+      "dayFile": "days/2026-07-24.json",
+      "liturgicalTitle": "Feria sexta infra Hebdomadam VIII post Octavam Pentecostes ~ IV. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "Feria sexta infra Hebdomadam VIII post Octavam Pentecostes;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-25",
+      "dayFile": "days/2026-07-25.json",
+      "liturgicalTitle": "S. Jacobi Apostoli ~ II. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "S. Jacobi Apostoli;;Duplex II classis;;5;;ex C1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-26",
+      "dayFile": "days/2026-07-26.json",
+      "liturgicalTitle": "Dominica IX Post Pentecosten ~ II. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "Dominica IX Post Pentecosten;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-27",
+      "dayFile": "days/2026-07-27.json",
+      "liturgicalTitle": "Feria secunda infra Hebdomadam IX post Octavam Pentecostes ~ IV. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "Feria secunda infra Hebdomadam IX post Octavam Pentecostes;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-28",
+      "dayFile": "days/2026-07-28.json",
+      "liturgicalTitle": "Ss. Nazarii et Celsi Martyrum, Victoris I Papæ et Martyris ac Innocentii I Papæ et Confessoris ~ III. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "Ss. Nazarii et Celsi Martyrum, Victoris I Papæ et Martyris ac Innocentii I Papæ et Confessoris;;Semiduplex;;3;;vide C3\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-29",
+      "dayFile": "days/2026-07-29.json",
+      "liturgicalTitle": "S. Marthæ Virginis ~ III. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "S. Marthæ Virginis;;Duplex;;3;;vide C6a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-30",
+      "dayFile": "days/2026-07-30.json",
+      "liturgicalTitle": "Feria quinta infra Hebdomadam IX post Octavam Pentecostes ~ IV. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "Feria quinta infra Hebdomadam IX post Octavam Pentecostes;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-07-31",
+      "dayFile": "days/2026-07-31.json",
+      "liturgicalTitle": "S. Ignatii Confessoris ~ III. classis",
+      "monthChunk": "months/07.json",
+      "omittedHours": [],
+      "rank": "S. Ignatii Confessoris;;Duplex majus;;4;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-01",
+      "dayFile": "days/2026-08-01.json",
+      "liturgicalTitle": "Sanctæ Mariæ Sabbato ~ IV. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "Sanctæ Mariæ Sabbato;;Simplex;;1.3;;ex C10",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-02",
+      "dayFile": "days/2026-08-02.json",
+      "liturgicalTitle": "Dominica X Post Pentecosten I. Augusti ~ II. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "Dominica X Post Pentecosten I. Augusti;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-03",
+      "dayFile": "days/2026-08-03.json",
+      "liturgicalTitle": "Feria secunda infra Hebdomadam X post Octavam Pentecostes I. Augusti ~ IV. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "Feria secunda infra Hebdomadam X post Octavam Pentecostes I. Augusti;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-04",
+      "dayFile": "days/2026-08-04.json",
+      "liturgicalTitle": "S. Dominici Confessoris ~ III. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "S. Dominici Confessoris;;Duplex majus;;4;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-05",
+      "dayFile": "days/2026-08-05.json",
+      "liturgicalTitle": "Sanctæ Mariæ Virginis ad Nives ~ III. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "Sanctæ Mariæ Virginis ad Nives;;Duplex;;3;;vide C11\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-06",
+      "dayFile": "days/2026-08-06.json",
+      "liturgicalTitle": "In Transfiguratione Domini Nostri Jesu Christi ~ II. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "In Transfiguratione Domini Nostri Jesu Christi;;Duplex II classis;;5;;\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-07",
+      "dayFile": "days/2026-08-07.json",
+      "liturgicalTitle": "S. Cajetani Confessoris ~ III. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "S. Cajetani Confessoris;;Duplex;;3;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-08",
+      "dayFile": "days/2026-08-08.json",
+      "liturgicalTitle": "S. Joannis Mariæ Vianney Confessoris ~ III. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "S. Joannis Mariæ Vianney Confessoris;;Duplex;;3;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-09",
+      "dayFile": "days/2026-08-09.json",
+      "liturgicalTitle": "Dominica XI Post Pentecosten II. Augusti ~ II. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "Dominica XI Post Pentecosten II. Augusti;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-10",
+      "dayFile": "days/2026-08-10.json",
+      "liturgicalTitle": "S. Laurentii Martyris ~ II. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "S. Laurentii Martyris;;Duplex II classis;;5;;ex C2a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-11",
+      "dayFile": "days/2026-08-11.json",
+      "liturgicalTitle": "Feria tertia infra Hebdomadam XI post Octavam Pentecostes II. Augusti ~ IV. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "Feria tertia infra Hebdomadam XI post Octavam Pentecostes II. Augusti;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-12",
+      "dayFile": "days/2026-08-12.json",
+      "liturgicalTitle": "S. Claræ Virginis ~ III. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "S. Claræ Virginis;;Duplex;;3;;vide C6a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-13",
+      "dayFile": "days/2026-08-13.json",
+      "liturgicalTitle": "Feria quinta infra Hebdomadam XI post Octavam Pentecostes II. Augusti ~ IV. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "Feria quinta infra Hebdomadam XI post Octavam Pentecostes II. Augusti;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-14",
+      "dayFile": "days/2026-08-14.json",
+      "liturgicalTitle": "In Vigilia Assumptionis B.M.V. ~ II. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "In Vigilia Assumptionis B.M.V.;;Duplex II classis;;5;;\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-15",
+      "dayFile": "days/2026-08-15.json",
+      "liturgicalTitle": "In Assumptione Beatæ Mariæ Virginis ~ I. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "In Assumptione Beatæ Mariæ Virginis;;Duplex I classis;;6.5;;ex C11\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-16",
+      "dayFile": "days/2026-08-16.json",
+      "liturgicalTitle": "Dominica XII Post Pentecosten III. Augusti ~ II. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "Dominica XII Post Pentecosten III. Augusti;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-17",
+      "dayFile": "days/2026-08-17.json",
+      "liturgicalTitle": "S. Hyacinthi Confessoris ~ III. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "S. Hyacinthi Confessoris;;Duplex;;3;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-18",
+      "dayFile": "days/2026-08-18.json",
+      "liturgicalTitle": "Feria Tertia infra Hebdomadam XII post Octavam Pentecostes III. Augusti ~ IV. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "Feria Tertia infra Hebdomadam XII post Octavam Pentecostes III. Augusti;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-19",
+      "dayFile": "days/2026-08-19.json",
+      "liturgicalTitle": "S. Joannis Eudes Confessoris ~ III. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "S. Joannis Eudes Confessoris;;Duplex;;3;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-20",
+      "dayFile": "days/2026-08-20.json",
+      "liturgicalTitle": "S. Bernardi Abbatis et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "S. Bernardi Abbatis et Ecclesiæ Doctoris;;Duplex;;3;;vide C5a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-21",
+      "dayFile": "days/2026-08-21.json",
+      "liturgicalTitle": "S. Joannæ Franciscæ Frémiot de Chantal Viduæ ~ III. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "S. Joannæ Franciscæ Frémiot de Chantal Viduæ;;Duplex;;3;;vide C7a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-22",
+      "dayFile": "days/2026-08-22.json",
+      "liturgicalTitle": "Immaculati Cordis Beatæ Mariæ Virginis ~ II. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "Immaculati Cordis Beatæ Mariæ Virginis;;Duplex II classis;;5;;ex C11\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-23",
+      "dayFile": "days/2026-08-23.json",
+      "liturgicalTitle": "Dominica XIII Post Pentecosten IV. Augusti ~ II. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "Dominica XIII Post Pentecosten IV. Augusti;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-24",
+      "dayFile": "days/2026-08-24.json",
+      "liturgicalTitle": "S. Bartholomæi Apostoli ~ II. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "S. Bartholomæi Apostoli;;Duplex II classis;;5;;ex C1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-25",
+      "dayFile": "days/2026-08-25.json",
+      "liturgicalTitle": "S. Ludovici Regis Franciæ Confessoris ~ III. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "S. Ludovici Regis Franciæ Confessoris;;Duplex;;3;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-26",
+      "dayFile": "days/2026-08-26.json",
+      "liturgicalTitle": "Feria Quarta infra Hebdomadam XIII post Octavam Pentecostes IV. Augusti ~ IV. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "Feria Quarta infra Hebdomadam XIII post Octavam Pentecostes IV. Augusti;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-27",
+      "dayFile": "days/2026-08-27.json",
+      "liturgicalTitle": "S. Josephi Calasanctii Confessoris ~ III. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "S. Josephi Calasanctii Confessoris;;Duplex;;3;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-28",
+      "dayFile": "days/2026-08-28.json",
+      "liturgicalTitle": "S. Augustini Episcopi et Confessoris et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "S. Augustini Episcopi et Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C4a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-29",
+      "dayFile": "days/2026-08-29.json",
+      "liturgicalTitle": "In Decollatione S. Joannis Baptistæ ~ III. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "In Decollatione S. Joannis Baptistæ;;Duplex;;3;;vide C2a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-30",
+      "dayFile": "days/2026-08-30.json",
+      "liturgicalTitle": "Dominica XIV Post Pentecosten V. Augusti ~ II. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "Dominica XIV Post Pentecosten V. Augusti;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-08-31",
+      "dayFile": "days/2026-08-31.json",
+      "liturgicalTitle": "S. Raymundi Nonnati Confessoris ~ III. classis",
+      "monthChunk": "months/08.json",
+      "omittedHours": [],
+      "rank": "S. Raymundi Nonnati Confessoris;;Duplex;;3;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-01",
+      "dayFile": "days/2026-09-01.json",
+      "liturgicalTitle": "Feria Tertia infra Hebdomadam XIV post Octavam Pentecostes V. Augusti ~ IV. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "Feria Tertia infra Hebdomadam XIV post Octavam Pentecostes V. Augusti;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-02",
+      "dayFile": "days/2026-09-02.json",
+      "liturgicalTitle": "S. Stephani Hungariæ Regis Confessoris ~ III. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "S. Stephani Hungariæ Regis Confessoris;;Semiduplex;;2.2;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-03",
+      "dayFile": "days/2026-09-03.json",
+      "liturgicalTitle": "S. Pii X Papæ Confessoris ~ III. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "S. Pii X Papæ Confessoris;;Duplex;;3;;vide C4b\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-04",
+      "dayFile": "days/2026-09-04.json",
+      "liturgicalTitle": "Feria Sexta infra Hebdomadam XIV post Octavam Pentecostes V. Augusti ~ IV. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "Feria Sexta infra Hebdomadam XIV post Octavam Pentecostes V. Augusti;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-05",
+      "dayFile": "days/2026-09-05.json",
+      "liturgicalTitle": "S. Laurentii Justiniani Episcopi et Confessoris ~ III. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "S. Laurentii Justiniani Episcopi et Confessoris;;Semiduplex;;2.2;;vide C4\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-06",
+      "dayFile": "days/2026-09-06.json",
+      "liturgicalTitle": "Dominica XV Post Pentecosten I. Septembris ~ II. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "Dominica XV Post Pentecosten I. Septembris;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-07",
+      "dayFile": "days/2026-09-07.json",
+      "liturgicalTitle": "Feria Secunda infra Hebdomadam XV post Octavam Pentecostes I. Septembris ~ IV. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "Feria Secunda infra Hebdomadam XV post Octavam Pentecostes I. Septembris;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-08",
+      "dayFile": "days/2026-09-08.json",
+      "liturgicalTitle": "In Nativitate Beatæ Mariæ Virginis ~ II. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "In Nativitate Beatæ Mariæ Virginis;;Duplex II classis cum Octava simplici;;5;;ex C11\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-09",
+      "dayFile": "days/2026-09-09.json",
+      "liturgicalTitle": "Feria Quarta infra Hebdomadam XV post Octavam Pentecostes I. Septembris ~ IV. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "Feria Quarta infra Hebdomadam XV post Octavam Pentecostes I. Septembris;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-10",
+      "dayFile": "days/2026-09-10.json",
+      "liturgicalTitle": "S. Nicolai de Tolentino Confessoris ~ III. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "S. Nicolai de Tolentino Confessoris;;Duplex;;3;;vide C5-1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-11",
+      "dayFile": "days/2026-09-11.json",
+      "liturgicalTitle": "Feria Sexta infra Hebdomadam XV post Octavam Pentecostes I. Septembris ~ IV. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "Feria Sexta infra Hebdomadam XV post Octavam Pentecostes I. Septembris;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-12",
+      "dayFile": "days/2026-09-12.json",
+      "liturgicalTitle": "S. Nominis Beatæ Mariæ Virginis ~ III. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "S. Nominis Beatæ Mariæ Virginis;;Duplex;;3;;vide C11\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-13",
+      "dayFile": "days/2026-09-13.json",
+      "liturgicalTitle": "Dominica XVI Post Pentecosten II. Septembris ~ II. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "Dominica XVI Post Pentecosten II. Septembris;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-14",
+      "dayFile": "days/2026-09-14.json",
+      "liturgicalTitle": "In Exaltatione Sanctæ Crucis ~ II. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "In Exaltatione Sanctæ Crucis;;Duplex II classis;;5.5;;ex Sancti/05-03\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-15",
+      "dayFile": "days/2026-09-15.json",
+      "liturgicalTitle": "Septem Dolorum Beatæ Mariæ Virginis ~ II. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "Septem Dolorum Beatæ Mariæ Virginis;;Duplex 2nd class;;5;;ex C11\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-16",
+      "dayFile": "days/2026-09-16.json",
+      "liturgicalTitle": "Ss. Cornelii Papæ et Cypriani Episcopi, Martyrum ~ III. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "Ss. Cornelii Papæ et Cypriani Episcopi, Martyrum;;Semiduplex;;2.2;;vide C3\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-17",
+      "dayFile": "days/2026-09-17.json",
+      "liturgicalTitle": "Feria Quinta infra Hebdomadam XVI post Octavam Pentecostes II. Septembris ~ IV. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "Feria Quinta infra Hebdomadam XVI post Octavam Pentecostes II. Septembris;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-18",
+      "dayFile": "days/2026-09-18.json",
+      "liturgicalTitle": "S. Josephi de Cupertino Confessoris ~ III. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "S. Josephi de Cupertino Confessoris;;Duplex;;3;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-19",
+      "dayFile": "days/2026-09-19.json",
+      "liturgicalTitle": "S. Januarii Episcopi et Sociorum Martyrum ~ III. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "S. Januarii Episcopi et Sociorum Martyrum;;Duplex;;3;;vide C3a-1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-20",
+      "dayFile": "days/2026-09-20.json",
+      "liturgicalTitle": "Dominica XVII Post Pentecosten III. Septembris ~ II. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "Dominica XVII Post Pentecosten III. Septembris;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-21",
+      "dayFile": "days/2026-09-21.json",
+      "liturgicalTitle": "S. Matthæi Apostoli et Evangelistæ ~ II. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "S. Matthæi Apostoli et Evangelistæ;;Duplex II classis;;5;;ex C1a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-22",
+      "dayFile": "days/2026-09-22.json",
+      "liturgicalTitle": "S. Thomæ de Villanova Episcopi et Confessoris ~ III. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "S. Thomæ de Villanova Episcopi et Confessoris;;Duplex;;3;;vide C4\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-23",
+      "dayFile": "days/2026-09-23.json",
+      "liturgicalTitle": "Feria Quarta Quattuor Temporum Septembris ~ II. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "Feria Quarta Quattuor Temporum Septembris;;Feria major;;4.9\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-24",
+      "dayFile": "days/2026-09-24.json",
+      "liturgicalTitle": "Feria Quinta infra Hebdomadam XVII post Octavam Pentecostes III. Septembris ~ IV. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "Feria Quinta infra Hebdomadam XVII post Octavam Pentecostes III. Septembris;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-25",
+      "dayFile": "days/2026-09-25.json",
+      "liturgicalTitle": "Feria Sexta Quattuor Temporum Septembris ~ II. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "Feria Sexta Quattuor Temporum Septembris;;Feria major;;4.9\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-26",
+      "dayFile": "days/2026-09-26.json",
+      "liturgicalTitle": "Sabbato Quattuor Temporum Septembris ~ II. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "Sabbato Quattuor Temporum Septembris;;Feria major;;4.9\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-27",
+      "dayFile": "days/2026-09-27.json",
+      "liturgicalTitle": "Dominica XVIII Post Pentecosten IV. Septembris ~ II. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "Dominica XVIII Post Pentecosten IV. Septembris;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-28",
+      "dayFile": "days/2026-09-28.json",
+      "liturgicalTitle": "S. Wenceslai Ducis et Martyris ~ III. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "S. Wenceslai Ducis et Martyris;;Semiduplex;;2.2;;vide C2a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-29",
+      "dayFile": "days/2026-09-29.json",
+      "liturgicalTitle": "In Dedicatione S. Michaëlis Archangelis ~ I. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "In Dedicatione S. Michaëlis Archangelis;;Duplex I classis;;6;;ex Sancti/05-08\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-09-30",
+      "dayFile": "days/2026-09-30.json",
+      "liturgicalTitle": "S. Hieronymi Presbyteris Confessoris et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/09.json",
+      "omittedHours": [],
+      "rank": "S. Hieronymi Presbyteris Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C5a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-01",
+      "dayFile": "days/2026-10-01.json",
+      "liturgicalTitle": "Feria Quinta infra Hebdomadam XVIII post Octavam Pentecostes IV. Septembris ~ IV. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "Feria Quinta infra Hebdomadam XVIII post Octavam Pentecostes IV. Septembris;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-02",
+      "dayFile": "days/2026-10-02.json",
+      "liturgicalTitle": "Ss. Angelorum Custodum ~ III. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "Ss. Angelorum Custodum;;Duplex majus;;4;;vide C4\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-03",
+      "dayFile": "days/2026-10-03.json",
+      "liturgicalTitle": "S. Theresiæ a Jesu Infante Virginis ~ III. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "S. Theresiæ a Jesu Infante Virginis;;Duplex;;3;;vide C6a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-04",
+      "dayFile": "days/2026-10-04.json",
+      "liturgicalTitle": "Dominica XIX Post Pentecosten I. Octobris ~ II. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "Dominica XIX Post Pentecosten I. Octobris;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-05",
+      "dayFile": "days/2026-10-05.json",
+      "liturgicalTitle": "Feria Secunda infra Hebdomadam XIX post Octavam Pentecostes I. Octobris ~ IV. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "Feria Secunda infra Hebdomadam XIX post Octavam Pentecostes I. Octobris;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-06",
+      "dayFile": "days/2026-10-06.json",
+      "liturgicalTitle": "S. Brunonis Confessoris ~ III. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "S. Brunonis Confessoris;;Duplex;;3;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-07",
+      "dayFile": "days/2026-10-07.json",
+      "liturgicalTitle": "Beatæ Mariæ Virginis a Rosario ~ II. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "Beatæ Mariæ Virginis a Rosario;;Duplex 2 classis;;5;;ex C11\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-08",
+      "dayFile": "days/2026-10-08.json",
+      "liturgicalTitle": "S. Birgittæ Viduæ ~ III. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "S. Birgittæ Viduæ;;Duplex;;3;;vide C7a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-09",
+      "dayFile": "days/2026-10-09.json",
+      "liturgicalTitle": "S. Joannis Leonardi Confessoris ~ III. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "S. Joannis Leonardi Confessoris;;Duplex;;3;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-10",
+      "dayFile": "days/2026-10-10.json",
+      "liturgicalTitle": "S. Francisci Borgiæ Confessoris ~ III. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "S. Francisci Borgiæ Confessoris;;Semiduplex;;2.2;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-11",
+      "dayFile": "days/2026-10-11.json",
+      "liturgicalTitle": "Dominica XX Post Pentecosten II. Octobris ~ II. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "Dominica XX Post Pentecosten II. Octobris;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-12",
+      "dayFile": "days/2026-10-12.json",
+      "liturgicalTitle": "Feria Secunda infra Hebdomadam XX post Octavam Pentecostes II. Octobris ~ IV. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "Feria Secunda infra Hebdomadam XX post Octavam Pentecostes II. Octobris;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-13",
+      "dayFile": "days/2026-10-13.json",
+      "liturgicalTitle": "S. Eduardi Regis Confessoris ~ III. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "S. Eduardi Regis Confessoris;;Semiduplex;;2.2;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-14",
+      "dayFile": "days/2026-10-14.json",
+      "liturgicalTitle": "S. Callisti Papæ et Martyris ~ III. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "S. Callisti Papæ et Martyris;;Duplex;;3;;vide C2b\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-15",
+      "dayFile": "days/2026-10-15.json",
+      "liturgicalTitle": "S. Teresiæ Virginis ~ III. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "S. Teresiæ Virginis;;Duplex;;3;;vide C6a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-16",
+      "dayFile": "days/2026-10-16.json",
+      "liturgicalTitle": "S. Hedwigis Viduæ ~ III. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "S. Hedwigis Viduæ;;Semiduplex;;2.2;;vide C7a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-17",
+      "dayFile": "days/2026-10-17.json",
+      "liturgicalTitle": "S. Margaritæ Mariæ Alacoque Virginis ~ III. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "S. Margaritæ Mariæ Alacoque Virginis;;Duplex;;3;;vide C6a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-18",
+      "dayFile": "days/2026-10-18.json",
+      "liturgicalTitle": "Dominica XXI Post Pentecosten IV. Octobris ~ II. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "Dominica XXI Post Pentecosten IV. Octobris;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-19",
+      "dayFile": "days/2026-10-19.json",
+      "liturgicalTitle": "S. Petri de Alcantara Confessoris ~ III. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "S. Petri de Alcantara Confessoris;;Duplex;;3;;vide C5-1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-20",
+      "dayFile": "days/2026-10-20.json",
+      "liturgicalTitle": "S. Joannis Cantii Confessoris ~ III. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "S. Joannis Cantii Confessoris;;Duplex;;3;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-21",
+      "dayFile": "days/2026-10-21.json",
+      "liturgicalTitle": "Feria Quarta infra Hebdomadam XXI post Octavam Pentecostes IV. Octobris ~ IV. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "Feria Quarta infra Hebdomadam XXI post Octavam Pentecostes IV. Octobris;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-22",
+      "dayFile": "days/2026-10-22.json",
+      "liturgicalTitle": "Feria Quinta infra Hebdomadam XXI post Octavam Pentecostes IV. Octobris ~ IV. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "Feria Quinta infra Hebdomadam XXI post Octavam Pentecostes IV. Octobris;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-23",
+      "dayFile": "days/2026-10-23.json",
+      "liturgicalTitle": "S. Antonii Mariæ Claret Episcopi et Confessoris ~ III. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "S. Antonii Mariæ Claret Episcopi et Confessoris;;Duplex;;3;;vide C4-1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-24",
+      "dayFile": "days/2026-10-24.json",
+      "liturgicalTitle": "S. Raphaëlis Archangeli ~ III. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "S. Raphaëlis Archangeli;;Duplex majus;;4;;ex Sancti/05-08\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-25",
+      "dayFile": "days/2026-10-25.json",
+      "liturgicalTitle": "Domini Nostri Jesu Christi Regis ~ I. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "Domini Nostri Jesu Christi Regis;;Duplex 1 class;;6.5;;\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-26",
+      "dayFile": "days/2026-10-26.json",
+      "liturgicalTitle": "Feria Secunda infra Hebdomadam XXII post Octavam Pentecostes V. Octobris ~ IV. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "Feria Secunda infra Hebdomadam XXII post Octavam Pentecostes V. Octobris;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-27",
+      "dayFile": "days/2026-10-27.json",
+      "liturgicalTitle": "Feria Tertia infra Hebdomadam XXII post Octavam Pentecostes V. Octobris ~ IV. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "Feria Tertia infra Hebdomadam XXII post Octavam Pentecostes V. Octobris;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-28",
+      "dayFile": "days/2026-10-28.json",
+      "liturgicalTitle": "Ss. Simonis et Judæ Apostolorum ~ II. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "Ss. Simonis et Judæ Apostolorum;;Duplex 2 classis;;5;;ex C1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-29",
+      "dayFile": "days/2026-10-29.json",
+      "liturgicalTitle": "Feria Quinta infra Hebdomadam XXII post Octavam Pentecostes V. Octobris ~ IV. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "Feria Quinta infra Hebdomadam XXII post Octavam Pentecostes V. Octobris;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-30",
+      "dayFile": "days/2026-10-30.json",
+      "liturgicalTitle": "Feria Sexta infra Hebdomadam XXII post Octavam Pentecostes V. Octobris ~ IV. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "Feria Sexta infra Hebdomadam XXII post Octavam Pentecostes V. Octobris;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-10-31",
+      "dayFile": "days/2026-10-31.json",
+      "liturgicalTitle": "Sanctæ Mariæ Sabbato ~ IV. classis",
+      "monthChunk": "months/10.json",
+      "omittedHours": [],
+      "rank": "Sanctæ Mariæ Sabbato;;Simplex;;1.3;;ex C10",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-01",
+      "dayFile": "days/2026-11-01.json",
+      "liturgicalTitle": "Omnium Sanctorum ~ I. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "Omnium Sanctorum;;Duplex I classis cum octava communi;;6.4;;vide C3\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-02",
+      "dayFile": "days/2026-11-02.json",
+      "liturgicalTitle": "In Commemoratione Omnium Fidelium Defunctorum ~ I. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "In Commemoratione Omnium Fidelium Defunctorum;;I. classis;;6;;ex C9\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-03",
+      "dayFile": "days/2026-11-03.json",
+      "liturgicalTitle": "Feria Tertia infra Hebdomadam XXIII post Octavam Pentecostes I. Novembris ~ IV. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "Feria Tertia infra Hebdomadam XXIII post Octavam Pentecostes I. Novembris;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-04",
+      "dayFile": "days/2026-11-04.json",
+      "liturgicalTitle": "S. Caroli Episcopi et Confessoris ~ III. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "S. Caroli Episcopi et Confessoris;;Duplex;;3;;vide C4\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-05",
+      "dayFile": "days/2026-11-05.json",
+      "liturgicalTitle": "Feria Quinta infra Hebdomadam XXIII post Octavam Pentecostes I. Novembris ~ IV. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "Feria Quinta infra Hebdomadam XXIII post Octavam Pentecostes I. Novembris;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-06",
+      "dayFile": "days/2026-11-06.json",
+      "liturgicalTitle": "Feria Sexta infra Hebdomadam XXIII post Octavam Pentecostes I. Novembris ~ IV. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "Feria Sexta infra Hebdomadam XXIII post Octavam Pentecostes I. Novembris;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-07",
+      "dayFile": "days/2026-11-07.json",
+      "liturgicalTitle": "Sanctæ Mariæ Sabbato ~ IV. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "Sanctæ Mariæ Sabbato;;Simplex;;1.3;;ex C10",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-08",
+      "dayFile": "days/2026-11-08.json",
+      "liturgicalTitle": "Dominica V Post Epiphaniam III. Novembris ~ II. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "Dominica V Post Epiphaniam III. Novembris;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-09",
+      "dayFile": "days/2026-11-09.json",
+      "liturgicalTitle": "In Dedicatione Archibasilicæ Ss. Salvatoris ~ II. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "In Dedicatione Archibasilicæ Ss. Salvatoris;;Duplex II. classis;;5;;ex C8\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-10",
+      "dayFile": "days/2026-11-10.json",
+      "liturgicalTitle": "S. Andreæ Avellini Confessoris ~ III. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "S. Andreæ Avellini Confessoris;;Duplex;;3;;vide C5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-11",
+      "dayFile": "days/2026-11-11.json",
+      "liturgicalTitle": "S. Martini Episcopi et Confessoris ~ III. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "S. Martini Episcopi et Confessoris;;Duplex;;3;;vide C4\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-12",
+      "dayFile": "days/2026-11-12.json",
+      "liturgicalTitle": "S. Martini Papæ et Martyris ~ III. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "S. Martini Papæ et Martyris;;Semiduplex;;2.2;;vide C2b-1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-13",
+      "dayFile": "days/2026-11-13.json",
+      "liturgicalTitle": "S. Didaci Confessoris ~ III. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "S. Didaci Confessoris;;Semiduplex;;2.2;;vide C5-1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-14",
+      "dayFile": "days/2026-11-14.json",
+      "liturgicalTitle": "S. Josaphat Episcopi et Martyris ~ III. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "S. Josaphat Episcopi et Martyris;;Duplex;;3;;vide C2\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-15",
+      "dayFile": "days/2026-11-15.json",
+      "liturgicalTitle": "Dominica VI Post Epiphaniam IV. Novembris ~ II. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "Dominica VI Post Epiphaniam IV. Novembris;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-16",
+      "dayFile": "days/2026-11-16.json",
+      "liturgicalTitle": "S. Gertrudis Virginis ~ III. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "S. Gertrudis Virginis;;Duplex;;3;;vide C6a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-17",
+      "dayFile": "days/2026-11-17.json",
+      "liturgicalTitle": "S. Gregorii Thaumaturgi Episcopi et Confessoris ~ III. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "S. Gregorii Thaumaturgi Episcopi et Confessoris;;Duplex;;3;;vide C4\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-18",
+      "dayFile": "days/2026-11-18.json",
+      "liturgicalTitle": "In Dedicatione Basilicarum Ss. Apostolorum Petri et Pauli ~ III. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "In Dedicatione Basilicarum Ss. Apostolorum Petri et Pauli;;Duplex;;3;;vide C8\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-19",
+      "dayFile": "days/2026-11-19.json",
+      "liturgicalTitle": "S. Elisabeth Viduæ ~ III. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "S. Elisabeth Viduæ;;Duplex;;3;;vide C7a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-20",
+      "dayFile": "days/2026-11-20.json",
+      "liturgicalTitle": "S. Felicis de Valois Confessoris ~ III. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "S. Felicis de Valois Confessoris;;Duplex;;3;;vide C5-1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-21",
+      "dayFile": "days/2026-11-21.json",
+      "liturgicalTitle": "In Præsentatione Beatæ Mariæ Virginis ~ III. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "In Præsentatione Beatæ Mariæ Virginis;;Duplex;;3;;vide C11\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-22",
+      "dayFile": "days/2026-11-22.json",
+      "liturgicalTitle": "Dominica XXIV et Ultima Post Pentecosten V. Novembris ~ II. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "Dominica XXIV et Ultima Post Pentecosten V. Novembris;;Semiduplex;;5\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-23",
+      "dayFile": "days/2026-11-23.json",
+      "liturgicalTitle": "S. Clementis Papæ et Martyris ~ III. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "S. Clementis Papæ et Martyris;;Duplex;;3;;vide C2b\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-24",
+      "dayFile": "days/2026-11-24.json",
+      "liturgicalTitle": "S. Joannis a Cruce Confessoris et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "S. Joannis a Cruce Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C5a\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-25",
+      "dayFile": "days/2026-11-25.json",
+      "liturgicalTitle": "S. Catharinæ Virginis et Martyris ~ III. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "S. Catharinæ Virginis et Martyris;;Duplex;;3;;vide C6\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-26",
+      "dayFile": "days/2026-11-26.json",
+      "liturgicalTitle": "S. Silvestri Abbatis ~ III. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "S. Silvestri Abbatis;;Duplex;;3;;vide C5b\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-27",
+      "dayFile": "days/2026-11-27.json",
+      "liturgicalTitle": "Feria Sexta infra Hebdomadam XXIV post Octavam Pentecostes V. Novembris ~ IV. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "Feria Sexta infra Hebdomadam XXIV post Octavam Pentecostes V. Novembris;;Feria;;1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-28",
+      "dayFile": "days/2026-11-28.json",
+      "liturgicalTitle": "Sanctæ Mariæ Sabbato ~ IV. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "Sanctæ Mariæ Sabbato;;Simplex;;1.3;;ex C10",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-29",
+      "dayFile": "days/2026-11-29.json",
+      "liturgicalTitle": "Dominica I Adventus ~ I. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "Dominica I Adventus;;Semiduplex;;6.9\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-11-30",
+      "dayFile": "days/2026-11-30.json",
+      "liturgicalTitle": "S. Andreæ Apostoli ~ II. classis",
+      "monthChunk": "months/11.json",
+      "omittedHours": [],
+      "rank": "S. Andreæ Apostoli;;Duplex 2 classis;;5;;ex C1\n\n",
+      "season": "time-after-pentecost"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-01",
+      "dayFile": "days/2026-12-01.json",
+      "liturgicalTitle": "Feria III infra Hebdomadam I Adventus ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria III infra Hebdomadam I Adventus;;Feria major;;2.1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-02",
+      "dayFile": "days/2026-12-02.json",
+      "liturgicalTitle": "S. Bibianæ Virginis et Martyris ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "S. Bibianæ Virginis et Martyris;;Semiduplex;;2.2;;vide C6-1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-03",
+      "dayFile": "days/2026-12-03.json",
+      "liturgicalTitle": "S. Francisci Xaverii Confessoris ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "S. Francisci Xaverii Confessoris;;Duplex majus;;4;;vide C5-1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-04",
+      "dayFile": "days/2026-12-04.json",
+      "liturgicalTitle": "S. Petri Chrysologi Episcopi Confessoris et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "S. Petri Chrysologi Episcopi Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C4a\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-05",
+      "dayFile": "days/2026-12-05.json",
+      "liturgicalTitle": "Sabbato infra Hebdomadam I Adventus ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Sabbato infra Hebdomadam I Adventus;;Feria major;;2.1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-06",
+      "dayFile": "days/2026-12-06.json",
+      "liturgicalTitle": "Dominica II Adventus ~ I. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Dominica II Adventus;;Semiduplex;;6.01\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-07",
+      "dayFile": "days/2026-12-07.json",
+      "liturgicalTitle": "S. Ambrosii Episcopi Confessoris et Ecclesiæ Doctoris ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "S. Ambrosii Episcopi Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C4a\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-08",
+      "dayFile": "days/2026-12-08.json",
+      "liturgicalTitle": "In Conceptione Immaculata Beatæ Mariæ Virginis ~ I. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "In Conceptione Immaculata Beatæ Mariæ Virginis;;Duplex I classis;;6.01;;ex C11\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-09",
+      "dayFile": "days/2026-12-09.json",
+      "liturgicalTitle": "Feria IV infra Hebdomadam II Adventus ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria IV infra Hebdomadam II Adventus;;Feria major;;2.1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-10",
+      "dayFile": "days/2026-12-10.json",
+      "liturgicalTitle": "Feria V infra Hebdomadam II Adventus ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria V infra Hebdomadam II Adventus;;Feria major;;2.1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-11",
+      "dayFile": "days/2026-12-11.json",
+      "liturgicalTitle": "S. Damasi Papæ et Confessoris ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "S. Damasi Papæ et Confessoris;;Duplex;;3;;vide C4b\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-12",
+      "dayFile": "days/2026-12-12.json",
+      "liturgicalTitle": "Sabbato infra Hebdomadam II Adventus ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Sabbato infra Hebdomadam II Adventus;;Feria major;;2.1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-13",
+      "dayFile": "days/2026-12-13.json",
+      "liturgicalTitle": "Dominica III Adventus ~ I. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Dominica III Adventus;;Semiduplex;;6.01\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-14",
+      "dayFile": "days/2026-12-14.json",
+      "liturgicalTitle": "Feria II infra Hebdomadam III Adventus ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria II infra Hebdomadam III Adventus;;Feria major;;2.1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-15",
+      "dayFile": "days/2026-12-15.json",
+      "liturgicalTitle": "Feria III infra Hebdomadam III Adventus ~ III. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria III infra Hebdomadam III Adventus;;Feria major;;2.1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-16",
+      "dayFile": "days/2026-12-16.json",
+      "liturgicalTitle": "Feria IV Quattuor Temporum Adventus ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria IV Quattuor Temporum Adventus;;Feria major;;4.9\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-17",
+      "dayFile": "days/2026-12-17.json",
+      "liturgicalTitle": "Feria V infra Hebdomadam III Adventus ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria V infra Hebdomadam III Adventus;;Feria major;;4.9\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-18",
+      "dayFile": "days/2026-12-18.json",
+      "liturgicalTitle": "Feria VI Quattuor Temporum Adventus ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria VI Quattuor Temporum Adventus;;Feria major;;4.9\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-19",
+      "dayFile": "days/2026-12-19.json",
+      "liturgicalTitle": "Sabbato Quattuor Temporum Adventus ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Sabbato Quattuor Temporum Adventus;;Feria major;;4.9\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-20",
+      "dayFile": "days/2026-12-20.json",
+      "liturgicalTitle": "Dominica IV Adventus ~ I. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Dominica IV Adventus;;Semiduplex;;6.01\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-21",
+      "dayFile": "days/2026-12-21.json",
+      "liturgicalTitle": "S. Thomæ Apostoli ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "S. Thomæ Apostoli;;Duplex II classis;;5;;ex C1\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-22",
+      "dayFile": "days/2026-12-22.json",
+      "liturgicalTitle": "Feria III infra Hebdomadam IV Adventus ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria III infra Hebdomadam IV Adventus;;Feria major;;4.9\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-23",
+      "dayFile": "days/2026-12-23.json",
+      "liturgicalTitle": "Feria IV infra Hebdomadam IV Adventus ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Feria IV infra Hebdomadam IV Adventus;;Feria major;;4.9\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-24",
+      "dayFile": "days/2026-12-24.json",
+      "liturgicalTitle": "In Vigilia Nativitatis Domini ~ I. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "In Vigilia Nativitatis Domini;;Duplex I classis;;6.9\n\n",
+      "season": "advent"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-25",
+      "dayFile": "days/2026-12-25.json",
+      "liturgicalTitle": "In Nativitate Domini ~ I. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "In Nativitate Domini;;Duplex I Classis;;7\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-26",
+      "dayFile": "days/2026-12-26.json",
+      "liturgicalTitle": "S. Stephani Protomartyris ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "S. Stephani Protomartyris;;Duplex II class;;5.4;;ex C2a\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-27",
+      "dayFile": "days/2026-12-27.json",
+      "liturgicalTitle": "Dominica Infra Octavam Nativitatis ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Dominica Infra Octavam Nativitatis;;Semiduplex;;5.4;;ex Sancti/12-25\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-28",
+      "dayFile": "days/2026-12-28.json",
+      "liturgicalTitle": "Ss. Innocentium ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Ss. Innocentium;;Duplex II class;;5.4;;ex C3\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-29",
+      "dayFile": "days/2026-12-29.json",
+      "liturgicalTitle": "Diei V infra Octavam Nativitatis ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Diei V infra Octavam Nativitatis;;Duplex II classis;;5;;ex Sancti/12-25\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-30",
+      "dayFile": "days/2026-12-30.json",
+      "liturgicalTitle": "Diei VI infra Octavam Nativitatis ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Diei VI infra Octavam Nativitatis;;Duplex II classis;;5;;ex Sancti/12-25\n\n",
+      "season": "christmastide"
+    },
+    {
+      "availableHours": [
+        "matutinum",
+        "laudes",
+        "prima",
+        "tertia",
+        "sexta",
+        "nona",
+        "vesperae",
+        "completorium"
+      ],
+      "date": "2026-12-31",
+      "dayFile": "days/2026-12-31.json",
+      "liturgicalTitle": "Diei VII infra Octavam Nativitatis ~ II. classis",
+      "monthChunk": "months/12.json",
+      "omittedHours": [],
+      "rank": "Diei VII infra Octavam Nativitatis;;Duplex II classis;;5;;ex Sancti/12-25\n\n",
+      "season": "christmastide"
+    }
+  ],
+  "schemaVersion": "officium1962.v1",
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "year": 2026
+}

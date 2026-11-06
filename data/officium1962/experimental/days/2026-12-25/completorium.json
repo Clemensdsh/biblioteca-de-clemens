@@ -1,0 +1,995 @@
+{
+  "schemaVersion": "0.2.0",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "language": "la",
+  "date": "2026-12-25",
+  "liturgicalTitle": "In Nativitate Domini ~ I. classis",
+  "rank": "In Nativitate Domini;;Duplex I Classis;;7\n\n",
+  "commemorations": [],
+  "hours": {
+    "completorium": {
+      "name": "completorium",
+      "title": "Completorium",
+      "blocks": [
+        {
+          "id": "office-1962-2026-12-25-completorium-incipit",
+          "type": "blessing",
+          "title": "Incipit",
+          "text": [
+            "℣. Jube, Dómine, benedícere.",
+            "Benedictio. Noctem quiétam et finem perféctum concédat nobis Dóminus omnípotens.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "formula": "private-opening-blessing"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Incipit",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "benedictio Completorium",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-lectio-brevis",
+          "type": "reading",
+          "title": "Lectio brevis",
+          "text": [
+            "1 Pet 5:8-9",
+            "Fratres: Sóbrii estóte, et vigiláte: quia adversárius vester diábolus tamquam leo rúgiens círcuit, quærens quem dévoret: cui resístite fortes in fide.",
+            "℣. Tu autem, Dómine, miserére nobis.",
+            "℟. Deo grátias."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "citation": "1 Pet 5:8-9",
+            "includesTuAutem": true
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Lectio brevis",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-confiteor-converte-nos",
+          "type": "dialogue",
+          "title": "Confiteor et Converte nos",
+          "text": [
+            "℣. Adjutórium nostrum ✠ in nómine Dómini.",
+            "℟. Qui fecit cælum et terram.",
+            "Examen conscientiæ vel Pater Noster totum secreto.",
+            "Pater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris: et ne nos indúcas in tentatiónem: sed líbera nos a malo. Amen.",
+            "Confíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto Michaéli Archángelo, beáto Joánni Baptístæ, sanctis Apóstolis Petro et Paulo, et ómnibus Sanctis, quia peccávi nimis, cogitatióne, verbo et ópere: (percutit sibi pectus) mea culpa, mea culpa, mea máxima culpa. Ídeo precor beátam Maríam semper Vírginem, beátum Michaélem Archángelum, beátum Joánnem Baptístam, sanctos Apóstolos Petrum et Paulum, et omnes Sanctos, oráre pro me ad Dóminum Deum nostrum.",
+            "Misereátur nostri omnípotens Deus, et dimíssis peccátis nostris, perdúcat nos ad vitam ætérnam. Amen.",
+            "Indulgéntiam, ✠ absolutiónem et remissiónem peccatórum nostrórum tríbuat nobis omnípotens et miséricors Dóminus. Amen.",
+            "℣. Convérte nos ✙︎ Deus, salutáris noster.",
+            "℟. Et avérte iram tuam a nobis."
+          ],
+          "rubricLines": [
+            "Examen conscientiæ vel Pater Noster totum secreto.",
+            "Confíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto Michaéli Archángelo, beáto Joánni Baptístæ, sanctis Apóstolis Petro et Paulo, et ómnibus Sanctis, quia peccávi nimis, cogitatióne, verbo et ópere: (percutit sibi pectus) mea culpa, mea culpa, mea máxima culpa. Ídeo precor beátam Maríam semper Vírginem, beátum Michaélem Archángelum, beátum Joánnem Baptístam, sanctos Apóstolos Petrum et Paulum, et omnes Sanctos, oráre pro me ad Dóminum Deum nostrum."
+          ],
+          "metadata": {
+            "privateRecitation": true,
+            "includesConfiteor": true,
+            "includesConverteNos": true
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Confiteor et Converte nos",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Adjutorium nostrum",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Rubricae.txt",
+              "section": "rubrica examen",
+              "transformation": [
+                "resolve_refs",
+                "rubric expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-deus-in-adjutorium",
+          "type": "dialogue",
+          "title": "Deus in adjutorium",
+          "text": [
+            "℣. Deus ✠ in adjutórium meum inténde.",
+            "℟. Dómine, ad adjuvándum me festína.",
+            "Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.",
+            "Allelúja."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "includesGloriaPatri": true,
+            "includesAlleluia": true
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Deus in adjutorium",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Deus in adjutorium",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona",
+          "text": [
+            "Ant. Miserére * mihi, Dómine, et exáudi oratiónem meam."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "before-psalmody",
+            "repeated": false,
+            "antiphonKey": "miserere-mihi-domine-et-exaudi-orationem-meam"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "specials",
+                "minor special complectorium"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-psalm-4-full-1",
+          "type": "psalm",
+          "title": "Psalmus 4 [1]",
+          "text": [
+            "4:2a Cum invocárem exaudívit me Deus justítiæ meæ: * in tribulatióne dilatásti mihi.",
+            "4:2b Miserére mei, * et exáudi oratiónem meam.",
+            "4:3 Fílii hóminum, úsquequo gravi corde? * ut quid dilígitis vanitátem, et quǽritis mendácium?",
+            "4:4 Et scitóte quóniam mirificávit Dóminus sanctum suum: * Dóminus exáudiet me cum clamávero ad eum.",
+            "4:5 Irascímini, et nolíte peccáre: † quæ dícitis in córdibus vestris, * in cubílibus vestris compungímini.",
+            "4:6 Sacrificáte sacrifícium justítiæ, † et speráte in Dómino. * Multi dicunt: Quis osténdit nobis bona?",
+            "4:7 Signátum est super nos lumen vultus tui, Dómine: * dedísti lætítiam in corde meo.",
+            "4:8 A fructu fruménti, vini, et ólei sui * multiplicáti sunt.",
+            "4:9 In pace in idípsum * dórmiam, et requiéscam;",
+            "4:10 Quóniam tu, Dómine, singuláriter in spe * constituísti me.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "4:2a Cum invocárem exaudívit me Deus justítiæ meæ: * in tribulatióne dilatásti mihi.",
+            "4:2b Miserére mei, * et exáudi oratiónem meam.",
+            "4:3 Fílii hóminum, úsquequo gravi corde? * ut quid dilígitis vanitátem, et quǽritis mendácium?",
+            "4:4 Et scitóte quóniam mirificávit Dóminus sanctum suum: * Dóminus exáudiet me cum clamávero ad eum.",
+            "4:5 Irascímini, et nolíte peccáre: † quæ dícitis in córdibus vestris, * in cubílibus vestris compungímini.",
+            "4:6 Sacrificáte sacrifícium justítiæ, † et speráte in Dómino. * Multi dicunt: Quis osténdit nobis bona?",
+            "4:7 Signátum est super nos lumen vultus tui, Dómine: * dedísti lætítiam in corde meo.",
+            "4:8 A fructu fruménti, vini, et ólei sui * multiplicáti sunt.",
+            "4:9 In pace in idípsum * dórmiam, et requiéscam;",
+            "4:10 Quóniam tu, Dómine, singuláriter in spe * constituísti me."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "4",
+            "verses": [
+              "4:2a Cum invocárem exaudívit me Deus justítiæ meæ: * in tribulatióne dilatásti mihi.",
+              "4:2b Miserére mei, * et exáudi oratiónem meam.",
+              "4:3 Fílii hóminum, úsquequo gravi corde? * ut quid dilígitis vanitátem, et quǽritis mendácium?",
+              "4:4 Et scitóte quóniam mirificávit Dóminus sanctum suum: * Dóminus exáudiet me cum clamávero ad eum.",
+              "4:5 Irascímini, et nolíte peccáre: † quæ dícitis in córdibus vestris, * in cubílibus vestris compungímini.",
+              "4:6 Sacrificáte sacrifícium justítiæ, † et speráte in Dómino. * Multi dicunt: Quis osténdit nobis bona?",
+              "4:7 Signátum est super nos lumen vultus tui, Dómine: * dedísti lætítiam in corde meo.",
+              "4:8 A fructu fruménti, vini, et ólei sui * multiplicáti sunt.",
+              "4:9 In pace in idípsum * dórmiam, et requiéscam;",
+              "4:10 Quóniam tu, Dómine, singuláriter in spe * constituísti me."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false,
+            "antiphonKey": "miserere-mihi-domine-et-exaudi-orationem-meam"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Psalmus 4 [1]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm4.txt",
+              "section": "Psalm 4",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-psalm-90-full-2",
+          "type": "psalm",
+          "title": "Psalmus 90 [2]",
+          "text": [
+            "90:1 Qui hábitat in adjutório Altíssimi, * in protectióne Dei cæli commorábitur.",
+            "90:2 Dicet Dómino: Suscéptor meus es tu, et refúgium meum: * Deus meus sperábo in eum.",
+            "90:3 Quóniam ipse liberávit me de láqueo venántium, * et a verbo áspero.",
+            "90:4 Scápulis suis obumbrábit tibi: * et sub pennis ejus sperábis.",
+            "90:5 Scuto circúmdabit te véritas ejus: * non timébis a timóre noctúrno,",
+            "90:6 A sagítta volánte in die, † a negótio perambulánte in ténebris: * ab incúrsu, et dæmónio meridiáno.",
+            "90:7 Cadent a látere tuo mille, † et decem míllia a dextris tuis: * ad te autem non appropinquábit.",
+            "90:8 Verúmtamen óculis tuis considerábis: * et retributiónem peccatórum vidébis.",
+            "90:9 Quóniam tu es, Dómine, spes mea: * Altíssimum posuísti refúgium tuum.",
+            "90:10 Non accédet ad te malum: * et flagéllum non appropinquábit tabernáculo tuo.",
+            "90:11 Quóniam Ángelis suis mandávit de te: * ut custódiant te in ómnibus viis tuis.",
+            "90:12 In mánibus portábunt te: * ne forte offéndas ad lápidem pedem tuum.",
+            "90:13 Super áspidem, et basilíscum ambulábis: * et conculcábis leónem et dracónem.",
+            "90:14 Quóniam in me sperávit, liberábo eum: * prótegam eum, quóniam cognóvit nomen meum.",
+            "90:15 Clamábit ad me, et ego exáudiam eum: † cum ipso sum in tribulatióne: * erípiam eum et glorificábo eum.",
+            "90:16 Longitúdine diérum replébo eum: * et osténdam illi salutáre meum.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "90:1 Qui hábitat in adjutório Altíssimi, * in protectióne Dei cæli commorábitur.",
+            "90:2 Dicet Dómino: Suscéptor meus es tu, et refúgium meum: * Deus meus sperábo in eum.",
+            "90:3 Quóniam ipse liberávit me de láqueo venántium, * et a verbo áspero.",
+            "90:4 Scápulis suis obumbrábit tibi: * et sub pennis ejus sperábis.",
+            "90:5 Scuto circúmdabit te véritas ejus: * non timébis a timóre noctúrno,",
+            "90:6 A sagítta volánte in die, † a negótio perambulánte in ténebris: * ab incúrsu, et dæmónio meridiáno.",
+            "90:7 Cadent a látere tuo mille, † et decem míllia a dextris tuis: * ad te autem non appropinquábit.",
+            "90:8 Verúmtamen óculis tuis considerábis: * et retributiónem peccatórum vidébis.",
+            "90:9 Quóniam tu es, Dómine, spes mea: * Altíssimum posuísti refúgium tuum.",
+            "90:10 Non accédet ad te malum: * et flagéllum non appropinquábit tabernáculo tuo.",
+            "90:11 Quóniam Ángelis suis mandávit de te: * ut custódiant te in ómnibus viis tuis.",
+            "90:12 In mánibus portábunt te: * ne forte offéndas ad lápidem pedem tuum.",
+            "90:13 Super áspidem, et basilíscum ambulábis: * et conculcábis leónem et dracónem.",
+            "90:14 Quóniam in me sperávit, liberábo eum: * prótegam eum, quóniam cognóvit nomen meum.",
+            "90:15 Clamábit ad me, et ego exáudiam eum: † cum ipso sum in tribulatióne: * erípiam eum et glorificábo eum.",
+            "90:16 Longitúdine diérum replébo eum: * et osténdam illi salutáre meum."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "90",
+            "verses": [
+              "90:1 Qui hábitat in adjutório Altíssimi, * in protectióne Dei cæli commorábitur.",
+              "90:2 Dicet Dómino: Suscéptor meus es tu, et refúgium meum: * Deus meus sperábo in eum.",
+              "90:3 Quóniam ipse liberávit me de láqueo venántium, * et a verbo áspero.",
+              "90:4 Scápulis suis obumbrábit tibi: * et sub pennis ejus sperábis.",
+              "90:5 Scuto circúmdabit te véritas ejus: * non timébis a timóre noctúrno,",
+              "90:6 A sagítta volánte in die, † a negótio perambulánte in ténebris: * ab incúrsu, et dæmónio meridiáno.",
+              "90:7 Cadent a látere tuo mille, † et decem míllia a dextris tuis: * ad te autem non appropinquábit.",
+              "90:8 Verúmtamen óculis tuis considerábis: * et retributiónem peccatórum vidébis.",
+              "90:9 Quóniam tu es, Dómine, spes mea: * Altíssimum posuísti refúgium tuum.",
+              "90:10 Non accédet ad te malum: * et flagéllum non appropinquábit tabernáculo tuo.",
+              "90:11 Quóniam Ángelis suis mandávit de te: * ut custódiant te in ómnibus viis tuis.",
+              "90:12 In mánibus portábunt te: * ne forte offéndas ad lápidem pedem tuum.",
+              "90:13 Super áspidem, et basilíscum ambulábis: * et conculcábis leónem et dracónem.",
+              "90:14 Quóniam in me sperávit, liberábo eum: * prótegam eum, quóniam cognóvit nomen meum.",
+              "90:15 Clamábit ad me, et ego exáudiam eum: † cum ipso sum in tribulatióne: * erípiam eum et glorificábo eum.",
+              "90:16 Longitúdine diérum replébo eum: * et osténdam illi salutáre meum."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Psalmus 90 [2]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm90.txt",
+              "section": "Psalm 90",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-psalm-133-full-3",
+          "type": "psalm",
+          "title": "Psalmus 133 [3]",
+          "text": [
+            "133:1a Ecce nunc benedícite Dóminum, * omnes servi Dómini:",
+            "133:1b Qui statis in domo Dómini, * in átriis domus Dei nostri.",
+            "133:2 In nóctibus extóllite manus vestras in sancta, * et benedícite Dóminum.",
+            "133:3 Benedícat te Dóminus ex Sion, * qui fecit cælum et terram.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "133:1a Ecce nunc benedícite Dóminum, * omnes servi Dómini:",
+            "133:1b Qui statis in domo Dómini, * in átriis domus Dei nostri.",
+            "133:2 In nóctibus extóllite manus vestras in sancta, * et benedícite Dóminum.",
+            "133:3 Benedícat te Dóminus ex Sion, * qui fecit cælum et terram."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "133",
+            "verses": [
+              "133:1a Ecce nunc benedícite Dóminum, * omnes servi Dómini:",
+              "133:1b Qui statis in domo Dómini, * in átriis domus Dei nostri.",
+              "133:2 In nóctibus extóllite manus vestras in sancta, * et benedícite Dóminum.",
+              "133:3 Benedícat te Dóminus ex Sion, * qui fecit cælum et terram."
+            ],
+            "includesGloriaPatri": true,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": false
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Psalmus 133 [3]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm133.txt",
+              "section": "Psalm 133",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-psalm-133-full-3-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita",
+          "text": [
+            "Ant. Miserére mihi, Dómine, et exáudi oratiónem meam."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "after-psalmody",
+            "repeated": true,
+            "antiphonKey": "miserere-mihi-domine-et-exaudi-orationem-meam"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "specials",
+                "minor special complectorium"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-hymnus",
+          "type": "hymn",
+          "title": "Hymnus",
+          "text": [
+            "Te lucis ante términum,",
+            "Rerum Creátor, póscimus,",
+            "Ut pro tua cleméntia",
+            "Sis præsul et custódia.",
+            "_",
+            "Procul recédant sómnia,",
+            "Et nóctium phantásmata;",
+            "Hostémque nostrum cómprime,",
+            "Ne polluántur córpora.",
+            "_",
+            "Præsta, Pater piíssime,",
+            "Patríque compar Únice,",
+            "Cum Spíritu Paráclito",
+            "Regnans per omne sǽculum.",
+            "Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "stanzas": [
+              [
+                "Hymnus",
+                "Te lucis ante términum,",
+                "Rerum Creátor, póscimus,",
+                "Ut pro tua cleméntia",
+                "Sis præsul et custódia."
+              ],
+              [
+                "Procul recédant sómnia,",
+                "Et nóctium phantásmata;",
+                "Hostémque nostrum cómprime,",
+                "Ne polluántur córpora."
+              ],
+              [
+                "Præsta, Pater piíssime,",
+                "Patríque compar Únice,",
+                "Cum Spíritu Paráclito",
+                "Regnans per omne sǽculum.",
+                "Amen."
+              ]
+            ]
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Hymnus",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Hymnus",
+              "transformation": [
+                "specials",
+                "minor special complectorium"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-capitulum",
+          "type": "capitulum",
+          "title": "Capitulum",
+          "text": [
+            "Jer 14:9",
+            "Tu autem in nobis es, Dómine, et nomen sanctum tuum invocátum est super nos: ne derelínquas nos, Dómine, Deus noster.",
+            "℟. Deo grátias."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "citation": "Jer 14:9",
+            "includesTuAutem": true
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Capitulum",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Capitulum",
+              "transformation": [
+                "specials",
+                "minor special complectorium"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-responsorium-breve",
+          "type": "responsory",
+          "title": "Responsorium breve",
+          "text": [
+            "℟.br. In manus tuas, Dómine, * Comméndo spíritum meum.",
+            "℟. In manus tuas, Dómine, * Comméndo spíritum meum.",
+            "℣. Redemísti nos, Dómine, Deus veritátis.",
+            "℟. Comméndo spíritum meum.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. In manus tuas, Dómine, * Comméndo spíritum meum."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "incipit": "℟.br. In manus tuas, Dómine, * Comméndo spíritum meum.",
+            "repeat": "℟. In manus tuas, Dómine, * Comméndo spíritum meum.",
+            "versicle": "℣. Redemísti nos, Dómine, Deus veritátis.",
+            "response": "℟. In manus tuas, Dómine, * Comméndo spíritum meum.",
+            "includesGloriaPatri": true,
+            "seasonalVariant": "ordinary"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Responsorium breve",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Responsorium breve",
+              "transformation": [
+                "specials",
+                "minor special complectorium"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-versus-custodi-nos",
+          "type": "versicle",
+          "title": "Versus",
+          "text": [
+            "℣. Custódi nos, Dómine, ut pupíllam óculi.",
+            "℟. Sub umbra alárum tuárum prótege nos."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "versicle": "℣. Custódi nos, Dómine, ut pupíllam óculi.",
+            "response": "℟. Sub umbra alárum tuárum prótege nos."
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Versus",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Versus",
+              "transformation": [
+                "specials",
+                "minor special complectorium"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-nunc-dimittis-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona ad Nunc dimittis",
+          "text": [
+            "Ant. Salva nos, * Dómine, vigilántes, custódi nos dormiéntes; ut vigilémus cum Christo, et requiescámus in pace."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "before-canticle",
+            "repeated": true,
+            "antiphonKey": "salva-nos-domine-vigilantes-custodi-nos-dormientes-ut-vigilemus-cum-christo-et-requiescamus-in-pace"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Antiphona ad Nunc dimittis",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Antiphona ad Nunc dimittis",
+              "transformation": [
+                "specials",
+                "minor special complectorium"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-nunc-dimittis",
+          "type": "canticle",
+          "title": "Canticum Simeonis",
+          "text": [
+            "Luc. 2:29-32",
+            "2:29 Nunc dimíttis ✠ servum tuum, Dómine, * secúndum verbum tuum in pace:",
+            "2:30 Quia vidérunt óculi mei * salutáre tuum,",
+            "2:31 Quod parásti * ante fáciem ómnium populórum,",
+            "2:32 Lumen ad revelatiónem géntium, * et glóriam plebis tuæ Israël.",
+            "℣. Glória Patri, et Fílio, * et Spirítui Sancto.",
+            "℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen."
+          ],
+          "verses": [
+            "2:29 Nunc dimíttis ✠ servum tuum, Dómine, * secúndum verbum tuum in pace:",
+            "2:30 Quia vidérunt óculi mei * salutáre tuum,",
+            "2:31 Quod parásti * ante fáciem ómnium populórum,",
+            "2:32 Lumen ad revelatiónem géntium, * et glóriam plebis tuæ Israël."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "canticle": "Nunc dimittis",
+            "source": "Luc. 2:29-32",
+            "verses": [
+              "2:29 Nunc dimíttis ✠ servum tuum, Dómine, * secúndum verbum tuum in pace:",
+              "2:30 Quia vidérunt óculi mei * salutáre tuum,",
+              "2:31 Quod parásti * ante fáciem ómnium populórum,",
+              "2:32 Lumen ad revelatiónem géntium, * et glóriam plebis tuæ Israël."
+            ],
+            "includesGloriaPatri": true,
+            "antiphonKey": "salva-nos-domine-vigilantes-custodi-nos-dormientes-ut-vigilemus-cum-christo-et-requiescamus-in-pace"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Canticum Simeonis",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm233.txt",
+              "section": "Nunc dimittis",
+              "transformation": [
+                "resolve_refs",
+                "canticle expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-nunc-dimittis-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita ad Nunc dimittis",
+          "text": [
+            "Ant. Salva nos, Dómine, vigilántes, custódi nos dormiéntes; ut vigilémus cum Christo, et requiescámus in pace."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "after-canticle",
+            "repeated": true,
+            "antiphonKey": "salva-nos-domine-vigilantes-custodi-nos-dormientes-ut-vigilemus-cum-christo-et-requiescamus-in-pace"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Antiphona repetita ad Nunc dimittis",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Minor Special.txt",
+              "section": "Antiphona repetita ad Nunc dimittis",
+              "transformation": [
+                "specials",
+                "minor special complectorium"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-oratio",
+          "type": "prayer",
+          "title": "Oratio",
+          "text": [
+            "℣. Dómine, exáudi oratiónem meam.",
+            "℟. Et clamor meus ad te véniat.",
+            "Orémus.",
+            "Vísita, quǽsumus, Dómine, habitatiónem istam, et omnes insídias inimíci ab ea longe repélle: Ángeli tui sancti hábitent in ea, qui nos in pace custódiant; et benedíctio tua sit super nos semper.",
+            "Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "prayerKey": "oratio_Visita"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Oratio",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Dominus_vobiscum",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-benedicamus-domino",
+          "type": "dialogue",
+          "title": "Benedicamus Domino",
+          "text": [
+            "Conclusio",
+            "℣. Dómine, exáudi oratiónem meam.",
+            "℟. Et clamor meus ad te véniat.",
+            "℣. Benedicámus Dómino.",
+            "℟. Deo grátias."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "formula": "benedicamus-domino"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Benedicamus Domino",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Dominus_vobiscum",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-final-blessing",
+          "type": "blessing",
+          "title": "Benedictio finalis",
+          "text": [
+            "Benedictio. Benedícat et custódiat nos omnípotens et miséricors Dóminus, ✠ Pater, et Fílius, et Spíritus Sanctus.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "formula": "completorium-final-blessing"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Benedictio finalis",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Dominus_vobiscum",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-marian-antiphon",
+          "type": "marian-antiphon",
+          "title": "Antiphona finalis B.M.V.",
+          "text": [
+            "Alma Redemptóris Mater, quæ pérvia cæli porta manes,",
+            "et stella maris, succúrre cadénti,",
+            "Súrgere qui curat, pópulo: tu quæ genuísti,",
+            "Natúra miránte, tuum sanctum Genitórem,",
+            "Virgo prius ac postérius, Gabriélis ab ore",
+            "Sumens illud Ave, peccatórum miserére.",
+            "_",
+            "℣. Ángelus Dómini nuntiávit Maríæ.",
+            "℟. Et concépit de Spíritu Sancto.",
+            "_",
+            "Orémus.",
+            "Grátiam tuam, quǽsumus, Dómine, méntibus nostris infúnde: ut, qui, Ángelo nuntiánte, Christi Fílii tui incarnatiónem cognóvimus; per passiónem ejus et crucem, ad resurrectiónis glóriam perducámur. Per eúmdem Christum Dóminum nostrum. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "antiphonKey": "alma-redemptoris-mater",
+            "seasonalVariant": "alma-redemptoris-mater",
+            "includesPrayer": true
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Antiphona finalis B.M.V.",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "ant Alma Redemptoris Mater",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-12-25-completorium-divinum-auxilium",
+          "type": "blessing",
+          "title": "Divinum auxilium",
+          "text": [
+            "℣. Divínum auxílium ✠ máneat semper nobíscum.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "formula": "divinum-auxilium"
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Completorium.txt",
+              "section": "Divinum auxilium",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-completorium-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "ant Alma Redemptoris Mater",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "web/cgi-bin/horas/horas.pl",
+          "section": "getordinarium/specials/getunit/resolve_refs",
+          "transformation": [
+            "Divinum Officium internal script array exported before print_content"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "warnings": []
+}
