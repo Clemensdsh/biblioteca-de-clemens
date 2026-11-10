@@ -1463,10 +1463,10 @@
     }
   ],
   "hourCount": 2920,
-  "metadataOccurrenceCount": 3716,
-  "releaseOccurrenceCount": 55184,
+  "metadataOccurrenceCount": 3722,
+  "releaseOccurrenceCount": 60739,
   "schemaVersion": "officium1962.structured-translation-workspace.v1",
-  "sectionCount": 22323,
+  "sectionCount": 23751,
   "sourceRefsCompletePercent": 100,
   "year": 2026
 }

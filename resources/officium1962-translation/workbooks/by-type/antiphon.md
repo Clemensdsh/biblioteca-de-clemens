@@ -89,6 +89,35 @@
 
 <!-- notes:end -->
 
+## `shared-02a66aa2164eed1e9d87`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-05-23 vesperae, 2026-05-24 vesperae, 2026-05-25 vesperae, 2026-05-26 vesperae, 2026-05-27 vesperae
+
+### Latin
+
+> Antiphona
+> Ant. Loquebántur * váriis linguis Apóstoli magnália Dei, allelúja, allelúja, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-02a66aa2164eed1e9d87" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-02a66aa2164eed1e9d87" -->
+
+<!-- notes:end -->
+
 ## `shared-02b982c23897bac82ace`
 
 **类型：** antiphon / shared-block
@@ -115,6 +144,35 @@
 ### 备注
 
 <!-- notes:start id="shared-02b982c23897bac82ace" -->
+
+<!-- notes:end -->
+
+## `shared-03ce66e39601bd626bcd`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona repetita]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-02-24 vesperae, 2026-06-29 vesperae, 2026-12-21 vesperae, 2026-07-25 vesperae, 2026-08-24 vesperae
+
+### Latin
+
+> Antiphona repetita
+> Ant. Jurávit Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum.
+
+### 中文
+
+<!-- translation:start id="shared-03ce66e39601bd626bcd" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-03ce66e39601bd626bcd" -->
 
 <!-- notes:end -->
 
@@ -205,6 +263,35 @@
 
 <!-- notes:end -->
 
+## `shared-05e97f8277025c0586cc`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona]
+**出现次数：** 3
+**使用时辰：** vesperae
+**代表日期：** 2026-02-11 vesperae, 2026-12-07 vesperae, 2026-12-08 vesperae
+
+### Latin
+
+> Antiphona
+> Ant. Tu glória Jerúsalem, * tu lætítia Israël, tu honorificéntia pópuli nostri.
+
+### 中文
+
+<!-- translation:start id="shared-05e97f8277025c0586cc" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-05e97f8277025c0586cc" -->
+
+<!-- notes:end -->
+
 ## `shared-05f0ffaa17bdb2ea6d63`
 
 **类型：** antiphon / shared-block
@@ -263,6 +350,64 @@
 
 <!-- notes:end -->
 
+## `shared-07f33a98097098efc868`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-05-23 vesperae, 2026-05-24 vesperae, 2026-05-25 vesperae, 2026-05-26 vesperae, 2026-05-27 vesperae
+
+### Latin
+
+> Antiphona
+> Ant. Fontes, et ómnia * quæ movéntur in aquis, hymnum dícite Deo, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-07f33a98097098efc868" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-07f33a98097098efc868" -->
+
+<!-- notes:end -->
+
+## `shared-08e5bcfa501b315940eb`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona repetita]
+**出现次数：** 3
+**使用时辰：** vesperae
+**代表日期：** 2026-02-11 vesperae, 2026-12-07 vesperae, 2026-12-08 vesperae
+
+### Latin
+
+> Antiphona repetita
+> Ant. Tu glória Jerúsalem, tu lætítia Israël, tu honorificéntia pópuli nostri.
+
+### 中文
+
+<!-- translation:start id="shared-08e5bcfa501b315940eb" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-08e5bcfa501b315940eb" -->
+
+<!-- notes:end -->
+
 ## `shared-09fea88773a45a524c26`
 
 **类型：** antiphon / shared-block
@@ -289,6 +434,35 @@
 ### 备注
 
 <!-- notes:start id="shared-09fea88773a45a524c26" -->
+
+<!-- notes:end -->
+
+## `shared-0cf76047cd78d4a16844`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona repetita]
+**出现次数：** 2
+**使用时辰：** vesperae
+**代表日期：** 2026-11-28 vesperae, 2026-11-29 vesperae
+
+### Latin
+
+> Antiphona repetita
+> Ant. Ecce Dóminus véniet, et omnes Sancti ejus cum eo: et erit in die illa lux magna, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-0cf76047cd78d4a16844" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-0cf76047cd78d4a16844" -->
 
 <!-- notes:end -->
 
@@ -379,6 +553,35 @@
 
 <!-- notes:end -->
 
+## `shared-113fa0eba2120e89b611`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona repetita]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-05-23 vesperae, 2026-05-24 vesperae, 2026-05-25 vesperae, 2026-05-26 vesperae, 2026-05-27 vesperae
+
+### Latin
+
+> Antiphona repetita
+> Ant. Cum compleréntur dies Pentecóstes, erant omnes páriter in eódem loco, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-113fa0eba2120e89b611" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-113fa0eba2120e89b611" -->
+
+<!-- notes:end -->
+
 ## `shared-1155bd825192c000053d`
 
 **类型：** antiphon / shared-block
@@ -463,6 +666,35 @@
 ### 备注
 
 <!-- notes:start id="shared-15548f160821f717ce23" -->
+
+<!-- notes:end -->
+
+## `shared-18172ec5697630d9f6b8`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona repetita]
+**出现次数：** 3
+**使用时辰：** vesperae
+**代表日期：** 2026-02-11 vesperae, 2026-12-07 vesperae, 2026-12-08 vesperae
+
+### Latin
+
+> Antiphona repetita
+> Ant. Benedícta es tu, Virgo María, a Dómino Deo excélso præ ómnibus muliéribus super terram.
+
+### 中文
+
+<!-- translation:start id="shared-18172ec5697630d9f6b8" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-18172ec5697630d9f6b8" -->
 
 <!-- notes:end -->
 
@@ -727,6 +959,35 @@
 
 <!-- notes:end -->
 
+## `shared-1f805d8378547cbe8071`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona repetita]
+**出现次数：** 2
+**使用时辰：** vesperae
+**代表日期：** 2026-11-28 vesperae, 2026-11-29 vesperae
+
+### Latin
+
+> Antiphona repetita
+> Ant. Omnes sitiéntes, veníte ad aquas: quǽrite Dóminum, dum inveníri potest, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-1f805d8378547cbe8071" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-1f805d8378547cbe8071" -->
+
+<!-- notes:end -->
+
 ## `shared-22b3984c1b8be1bf398b`
 
 **类型：** antiphon / shared-block
@@ -869,6 +1130,35 @@
 ### 备注
 
 <!-- notes:start id="shared-295f5e534ee7b299cf25" -->
+
+<!-- notes:end -->
+
+## `shared-3061a8495e8019e7b72f`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona repetita]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-02-24 vesperae, 2026-06-29 vesperae, 2026-12-21 vesperae, 2026-07-25 vesperae, 2026-08-24 vesperae
+
+### Latin
+
+> Antiphona repetita
+> Ant. Eúntes ibant et flebant, mitténtes sémina sua.
+
+### 中文
+
+<!-- translation:start id="shared-3061a8495e8019e7b72f" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-3061a8495e8019e7b72f" -->
 
 <!-- notes:end -->
 
@@ -1072,6 +1362,35 @@
 ### 备注
 
 <!-- notes:start id="shared-3d86faab0e7651ae4a83" -->
+
+<!-- notes:end -->
+
+## `shared-3d97f20c1885003307a0`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-05-23 vesperae, 2026-05-24 vesperae, 2026-05-25 vesperae, 2026-05-26 vesperae, 2026-05-27 vesperae
+
+### Latin
+
+> Antiphona
+> Ant. Repléti sunt omnes * Spíritu Sancto, et cœpérunt loqui, allelúja, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-3d97f20c1885003307a0" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-3d97f20c1885003307a0" -->
 
 <!-- notes:end -->
 
@@ -1423,6 +1742,35 @@
 
 <!-- notes:end -->
 
+## `shared-56cc0563611b1dc71251`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona repetita]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-05-23 vesperae, 2026-05-24 vesperae, 2026-05-25 vesperae, 2026-05-26 vesperae, 2026-05-27 vesperae
+
+### Latin
+
+> Antiphona repetita
+> Ant. Spíritus Dómini replévit orbem terrárum, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-56cc0563611b1dc71251" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-56cc0563611b1dc71251" -->
+
+<!-- notes:end -->
+
 ## `shared-576658bd0e0f1061aa6a`
 
 **类型：** antiphon / shared-block
@@ -1478,6 +1826,35 @@
 ### 备注
 
 <!-- notes:start id="shared-57f81b921bef46114841" -->
+
+<!-- notes:end -->
+
+## `shared-5841c813dbad1407c377`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-02-24 vesperae, 2026-06-29 vesperae, 2026-12-21 vesperae, 2026-07-25 vesperae, 2026-08-24 vesperae
+
+### Latin
+
+> Antiphona
+> Ant. Confortátus est * principátus eórum, et honoráti sunt amíci tui, Deus.
+
+### 中文
+
+<!-- translation:start id="shared-5841c813dbad1407c377" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-5841c813dbad1407c377" -->
 
 <!-- notes:end -->
 
@@ -1945,6 +2322,35 @@
 
 <!-- notes:end -->
 
+## `shared-73d0f38d69e852896c8e`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona]
+**出现次数：** 2
+**使用时辰：** vesperae
+**代表日期：** 2026-11-28 vesperae, 2026-11-29 vesperae
+
+### Latin
+
+> Antiphona
+> Ant. Ecce Dóminus véniet, * et omnes Sancti ejus cum eo: et erit in die illa lux magna, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-73d0f38d69e852896c8e" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-73d0f38d69e852896c8e" -->
+
+<!-- notes:end -->
+
 ## `shared-73e2e99bf65d56c463f4`
 
 **类型：** antiphon / shared-block
@@ -2003,6 +2409,35 @@
 
 <!-- notes:end -->
 
+## `shared-742d6448e0b01d859a16`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona repetita]
+**出现次数：** 2
+**使用时辰：** vesperae
+**代表日期：** 2026-11-28 vesperae, 2026-11-29 vesperae
+
+### Latin
+
+> Antiphona repetita
+> Ant. Jucundáre, fília Sion, et exsúlta satis, fília Jerúsalem, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-742d6448e0b01d859a16" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-742d6448e0b01d859a16" -->
+
+<!-- notes:end -->
+
 ## `shared-772baa97b8a440f7a9e8`
 
 **类型：** antiphon / shared-block
@@ -2029,6 +2464,35 @@
 ### 备注
 
 <!-- notes:start id="shared-772baa97b8a440f7a9e8" -->
+
+<!-- notes:end -->
+
+## `shared-78af787a1a977d50629e`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona]
+**出现次数：** 2
+**使用时辰：** vesperae
+**代表日期：** 2026-11-28 vesperae, 2026-11-29 vesperae
+
+### Latin
+
+> Antiphona
+> Ant. Ecce véniet * Prophéta magnus, et ipse renovábit Jerúsalem, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-78af787a1a977d50629e" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-78af787a1a977d50629e" -->
 
 <!-- notes:end -->
 
@@ -2090,6 +2554,35 @@
 
 <!-- notes:end -->
 
+## `shared-7cca04d69c92a43d739f`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona repetita]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-02-24 vesperae, 2026-06-29 vesperae, 2026-12-21 vesperae, 2026-07-25 vesperae, 2026-08-24 vesperae
+
+### Latin
+
+> Antiphona repetita
+> Ant. Cóllocet eum Dóminus cum princípibus pópuli sui.
+
+### 中文
+
+<!-- translation:start id="shared-7cca04d69c92a43d739f" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-7cca04d69c92a43d739f" -->
+
+<!-- notes:end -->
+
 ## `shared-7f973087a4fefe3060c2`
 
 **类型：** antiphon / shared-block
@@ -2116,6 +2609,35 @@
 ### 备注
 
 <!-- notes:start id="shared-7f973087a4fefe3060c2" -->
+
+<!-- notes:end -->
+
+## `shared-808c143a882a54d5637e`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-02-24 vesperae, 2026-06-29 vesperae, 2026-12-21 vesperae, 2026-07-25 vesperae, 2026-08-24 vesperae
+
+### Latin
+
+> Antiphona
+> Ant. Jurávit Dóminus, * et non pœnitébit eum: Tu es sacérdos in ætérnum.
+
+### 中文
+
+<!-- translation:start id="shared-808c143a882a54d5637e" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-808c143a882a54d5637e" -->
 
 <!-- notes:end -->
 
@@ -2148,6 +2670,35 @@
 
 <!-- notes:end -->
 
+## `shared-8400501b2516506febc6`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona repetita]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-05-23 vesperae, 2026-05-24 vesperae, 2026-05-25 vesperae, 2026-05-26 vesperae, 2026-05-27 vesperae
+
+### Latin
+
+> Antiphona repetita
+> Ant. Fontes, et ómnia quæ movéntur in aquis, hymnum dícite Deo, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-8400501b2516506febc6" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-8400501b2516506febc6" -->
+
+<!-- notes:end -->
+
 ## `shared-85199d5ef5b1c5a64d7b`
 
 **类型：** antiphon / shared-block
@@ -2174,6 +2725,35 @@
 ### 备注
 
 <!-- notes:start id="shared-85199d5ef5b1c5a64d7b" -->
+
+<!-- notes:end -->
+
+## `shared-88939e8bcc94d1be02b6`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona repetita]
+**出现次数：** 2
+**使用时辰：** vesperae
+**代表日期：** 2026-11-28 vesperae, 2026-11-29 vesperae
+
+### Latin
+
+> Antiphona repetita
+> Ant. Ecce véniet Prophéta magnus, et ipse renovábit Jerúsalem, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-88939e8bcc94d1be02b6" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-88939e8bcc94d1be02b6" -->
 
 <!-- notes:end -->
 
@@ -2261,6 +2841,93 @@
 ### 备注
 
 <!-- notes:start id="shared-8c6f5ed02e8093bf2f99" -->
+
+<!-- notes:end -->
+
+## `shared-8e1ebf40aa92efdf58a7`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona repetita]
+**出现次数：** 2
+**使用时辰：** vesperae
+**代表日期：** 2026-11-28 vesperae, 2026-11-29 vesperae
+
+### Latin
+
+> Antiphona repetita
+> Ant. In illa die stillábunt montes dulcédinem, et colles fluent lac et mel, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-8e1ebf40aa92efdf58a7" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-8e1ebf40aa92efdf58a7" -->
+
+<!-- notes:end -->
+
+## `shared-8e6773f0367ad6e190e5`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-05-23 vesperae, 2026-05-24 vesperae, 2026-05-25 vesperae, 2026-05-26 vesperae, 2026-05-27 vesperae
+
+### Latin
+
+> Antiphona
+> Ant. Spíritus Dómini * replévit orbem terrárum, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-8e6773f0367ad6e190e5" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-8e6773f0367ad6e190e5" -->
+
+<!-- notes:end -->
+
+## `shared-914b3f1d9f352d8bc8e8`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona repetita]
+**出现次数：** 2
+**使用时辰：** vesperae
+**代表日期：** 2026-01-11 vesperae, 2026-03-19 vesperae
+
+### Latin
+
+> Antiphona repetita
+> Ant. Descéndit Jesus cum eis, et venit Názareth, et erat súbditus illis.
+
+### 中文
+
+<!-- translation:start id="shared-914b3f1d9f352d8bc8e8" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-914b3f1d9f352d8bc8e8" -->
 
 <!-- notes:end -->
 
@@ -2438,6 +3105,93 @@
 
 <!-- notes:end -->
 
+## `shared-9f757aacb5e26ee48150`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-05-23 vesperae, 2026-05-24 vesperae, 2026-05-25 vesperae, 2026-05-26 vesperae, 2026-05-27 vesperae
+
+### Latin
+
+> Antiphona
+> Ant. Cum compleréntur * dies Pentecóstes, erant omnes páriter in eódem loco, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-9f757aacb5e26ee48150" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-9f757aacb5e26ee48150" -->
+
+<!-- notes:end -->
+
+## `shared-a2d9d9d57782ca7b00a9`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona]
+**出现次数：** 2
+**使用时辰：** vesperae
+**代表日期：** 2026-11-28 vesperae, 2026-11-29 vesperae
+
+### Latin
+
+> Antiphona
+> Ant. Jucundáre, * fília Sion, et exsúlta satis, fília Jerúsalem, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-a2d9d9d57782ca7b00a9" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-a2d9d9d57782ca7b00a9" -->
+
+<!-- notes:end -->
+
+## `shared-a3f395f88bc330117262`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-02-24 vesperae, 2026-06-29 vesperae, 2026-12-21 vesperae, 2026-07-25 vesperae, 2026-08-24 vesperae
+
+### Latin
+
+> Antiphona
+> Ant. Cóllocet eum * Dóminus cum princípibus pópuli sui.
+
+### 中文
+
+<!-- translation:start id="shared-a3f395f88bc330117262" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-a3f395f88bc330117262" -->
+
+<!-- notes:end -->
+
 ## `shared-a448c61fc16050b359b6`
 
 **类型：** antiphon / shared-block
@@ -2522,6 +3276,35 @@
 ### 备注
 
 <!-- notes:start id="shared-a6e4468bd248b5b3429f" -->
+
+<!-- notes:end -->
+
+## `shared-a73bc69111db50ad89a9`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona]
+**出现次数：** 3
+**使用时辰：** vesperae
+**代表日期：** 2026-02-11 vesperae, 2026-12-07 vesperae, 2026-12-08 vesperae
+
+### Latin
+
+> Antiphona
+> Ant. Benedícta es tu, * Virgo María, a Dómino Deo excélso præ ómnibus muliéribus super terram.
+
+### 中文
+
+<!-- translation:start id="shared-a73bc69111db50ad89a9" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-a73bc69111db50ad89a9" -->
 
 <!-- notes:end -->
 
@@ -2641,6 +3424,35 @@
 
 <!-- notes:end -->
 
+## `shared-b2251c1395041712986f`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona repetita]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-02-24 vesperae, 2026-06-29 vesperae, 2026-12-21 vesperae, 2026-07-25 vesperae, 2026-08-24 vesperae
+
+### Latin
+
+> Antiphona repetita
+> Ant. Confortátus est principátus eórum, et honoráti sunt amíci tui, Deus.
+
+### 中文
+
+<!-- translation:start id="shared-b2251c1395041712986f" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-b2251c1395041712986f" -->
+
+<!-- notes:end -->
+
 ## `shared-b3aed26447d81f66e7da`
 
 **类型：** antiphon / shared-block
@@ -2699,6 +3511,35 @@
 
 <!-- notes:end -->
 
+## `shared-b6fd9289c2745f29c694`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona repetita]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-05-23 vesperae, 2026-05-24 vesperae, 2026-05-25 vesperae, 2026-05-26 vesperae, 2026-05-27 vesperae
+
+### Latin
+
+> Antiphona repetita
+> Ant. Loquebántur váriis linguis Apóstoli magnália Dei, allelúja, allelúja, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-b6fd9289c2745f29c694" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-b6fd9289c2745f29c694" -->
+
+<!-- notes:end -->
+
 ## `shared-b7a2ea44e389c2e22835`
 
 **类型：** antiphon / shared-block
@@ -2725,6 +3566,35 @@
 ### 备注
 
 <!-- notes:start id="shared-b7a2ea44e389c2e22835" -->
+
+<!-- notes:end -->
+
+## `shared-bb5f36511a90f865228d`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona repetita]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-05-23 vesperae, 2026-05-24 vesperae, 2026-05-25 vesperae, 2026-05-26 vesperae, 2026-05-27 vesperae
+
+### Latin
+
+> Antiphona repetita
+> Ant. Repléti sunt omnes Spíritu Sancto, et cœpérunt loqui, allelúja, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-bb5f36511a90f865228d" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-bb5f36511a90f865228d" -->
 
 <!-- notes:end -->
 
@@ -2870,6 +3740,35 @@
 ### 备注
 
 <!-- notes:start id="shared-bfe289e17fbd7afc2cb0" -->
+
+<!-- notes:end -->
+
+## `shared-c0f9107a4b205ed4a8fa`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona]
+**出现次数：** 2
+**使用时辰：** vesperae
+**代表日期：** 2026-01-11 vesperae, 2026-03-19 vesperae
+
+### Latin
+
+> Antiphona
+> Ant. Descéndit Jesus * cum eis, et venit Názareth, et erat súbditus illis.
+
+### 中文
+
+<!-- translation:start id="shared-c0f9107a4b205ed4a8fa" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-c0f9107a4b205ed4a8fa" -->
 
 <!-- notes:end -->
 
@@ -3105,6 +4004,64 @@
 
 <!-- notes:end -->
 
+## `shared-d49ab60bcb6872374649`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona repetita]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-02-24 vesperae, 2026-06-29 vesperae, 2026-12-21 vesperae, 2026-07-25 vesperae, 2026-08-24 vesperae
+
+### Latin
+
+> Antiphona repetita
+> Ant. Dirupísti, Dómine, víncula mea: tibi sacrificábo hóstiam laudis.
+
+### 中文
+
+<!-- translation:start id="shared-d49ab60bcb6872374649" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-d49ab60bcb6872374649" -->
+
+<!-- notes:end -->
+
+## `shared-d592b5f337df8cb2756b`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-02-24 vesperae, 2026-06-29 vesperae, 2026-12-21 vesperae, 2026-07-25 vesperae, 2026-08-24 vesperae
+
+### Latin
+
+> Antiphona
+> Ant. Dirupísti, Dómine, * víncula mea: tibi sacrificábo hóstiam laudis.
+
+### 中文
+
+<!-- translation:start id="shared-d592b5f337df8cb2756b" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-d592b5f337df8cb2756b" -->
+
+<!-- notes:end -->
+
 ## `shared-dce5156c0aec4304023e`
 
 **类型：** antiphon / shared-block
@@ -3337,6 +4294,35 @@
 
 <!-- notes:end -->
 
+## `shared-e9d705406dd664c06d7b`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona]
+**出现次数：** 2
+**使用时辰：** vesperae
+**代表日期：** 2026-11-28 vesperae, 2026-11-29 vesperae
+
+### Latin
+
+> Antiphona
+> Ant. In illa die * stillábunt montes dulcédinem, et colles fluent lac et mel, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-e9d705406dd664c06d7b" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-e9d705406dd664c06d7b" -->
+
+<!-- notes:end -->
+
 ## `shared-ecee848427f45eb68f3e`
 
 **类型：** antiphon / shared-block
@@ -3421,6 +4407,35 @@
 ### 备注
 
 <!-- notes:start id="shared-f39a2a6805095c9599b0" -->
+
+<!-- notes:end -->
+
+## `shared-f4bec60ee2d0fd0d3d1f`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona]
+**出现次数：** 2
+**使用时辰：** vesperae
+**代表日期：** 2026-11-28 vesperae, 2026-11-29 vesperae
+
+### Latin
+
+> Antiphona
+> Ant. Omnes sitiéntes, * veníte ad aquas: quǽrite Dóminum, dum inveníri potest, allelúja.
+
+### 中文
+
+<!-- translation:start id="shared-f4bec60ee2d0fd0d3d1f" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-f4bec60ee2d0fd0d3d1f" -->
 
 <!-- notes:end -->
 
@@ -3537,6 +4552,35 @@
 ### 备注
 
 <!-- notes:start id="shared-f8dd9fd869dff754fe6b" -->
+
+<!-- notes:end -->
+
+## `shared-f92fb118e3fc8065d372`
+
+**类型：** antiphon / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Antiphona]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-02-24 vesperae, 2026-06-29 vesperae, 2026-12-21 vesperae, 2026-07-25 vesperae, 2026-08-24 vesperae
+
+### Latin
+
+> Antiphona
+> Ant. Eúntes ibant * et flebant, mitténtes sémina sua.
+
+### 中文
+
+<!-- translation:start id="shared-f92fb118e3fc8065d372" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-f92fb118e3fc8065d372" -->
 
 <!-- notes:end -->
 

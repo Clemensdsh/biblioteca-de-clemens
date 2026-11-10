@@ -45,6 +45,45 @@
 
 <!-- notes:end -->
 
+## `shared-0376108ee83b86deab40`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm121.txt [Psalm 121]
+**出现次数：** 17
+**使用时辰：** vesperae
+**代表日期：** 2026-01-01 vesperae, 2026-02-02 vesperae, 2026-03-24 vesperae, 2026-07-02 vesperae, 2026-12-07 vesperae
+
+### Latin
+
+> Psalmus 121 [3]
+> 121:1 Lætátus sum in his, quæ dicta sunt mihi: * In domum Dómini íbimus.
+> 121:2 Stantes erant pedes nostri, * in átriis tuis, Jerúsalem.
+> 121:3 Jerúsalem, quæ ædificátur ut cívitas: * cujus participátio ejus in idípsum.
+> 121:4 Illuc enim ascendérunt tribus, tribus Dómini: * testimónium Israël ad confiténdum nómini Dómini.
+> 121:5 Quia illic sedérunt sedes in judício, * sedes super domum David.
+> 121:6 Rogáte quæ ad pacem sunt Jerúsalem: * et abundántia diligéntibus te:
+> 121:7 Fiat pax in virtúte tua: * et abundántia in túrribus tuis.
+> 121:8 Propter fratres meos, et próximos meos, * loquébar pacem de te:
+> 121:9 Propter domum Dómini, Dei nostri, * quæsívi bona tibi.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-0376108ee83b86deab40" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-0376108ee83b86deab40" -->
+
+<!-- notes:end -->
+
 ## `shared-06bcc80569772aa95885`
 
 **类型：** psalm / shared-block
@@ -154,6 +193,45 @@
 ### 备注
 
 <!-- notes:start id="shared-09812c8999567905f341" -->
+
+<!-- notes:end -->
+
+## `shared-098441d5c2682336f267`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm147.txt [Psalm 147]
+**出现次数：** 24
+**使用时辰：** vesperae
+**代表日期：** 2026-01-01 vesperae, 2026-01-21 vesperae, 2026-02-02 vesperae, 2026-03-24 vesperae, 2026-12-07 vesperae
+
+### Latin
+
+> Psalmus 147 [5]
+> 147:1 Lauda, Jerúsalem, Dóminum: * lauda Deum tuum, Sion.
+> 147:2 Quóniam confortávit seras portárum tuárum: * benedíxit fíliis tuis in te.
+> 147:3 Qui pósuit fines tuos pacem: * et ádipe fruménti sátiat te.
+> 147:4 Qui emíttit elóquium suum terræ: * velóciter currit sermo ejus.
+> 147:5 Qui dat nivem sicut lanam: * nébulam sicut cínerem spargit.
+> 147:6 Mittit crystállum suam sicut buccéllas: * ante fáciem frígoris ejus quis sustinébit?
+> 147:7 Emíttet verbum suum, et liquefáciet ea: * flabit spíritus ejus, et fluent aquæ.
+> 147:8 Qui annúntiat verbum suum Jacob: * justítias, et judícia sua Israël.
+> 147:9 Non fecit táliter omni natióni: * et judícia sua non manifestávit eis.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-098441d5c2682336f267" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-098441d5c2682336f267" -->
 
 <!-- notes:end -->
 
@@ -318,6 +396,47 @@
 ### 备注
 
 <!-- notes:start id="shared-0d014949e9729ef7fc28" -->
+
+<!-- notes:end -->
+
+## `shared-0d20f66ec8a7ff9537fd`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm140.txt [Psalm 140]
+**出现次数：** 38
+**使用时辰：** vesperae
+**代表日期：** 2026-01-02 vesperae, 2026-01-16 vesperae, 2026-02-06 vesperae, 2026-02-27 vesperae, 2026-12-04 vesperae
+
+### Latin
+
+> Psalmus 140 [4]
+> 140:1  Dómine, clamávi ad te, exáudi me: * ‡ inténde voci meæ, cum clamávero ad te.
+> 140:2 Dirigátur orátio mea sicut incénsum in conspéctu tuo: * elevátio mánuum meárum sacrifícium vespertínum.
+> 140:3 Pone, Dómine, custódiam ori meo: * et óstium circumstántiæ lábiis meis.
+> 140:4 Non declínes cor meum in verba malítiæ, * ad excusándas excusatiónes in peccátis.
+> 140:4 Cum homínibus operántibus iniquitátem: * et non communicábo cum eléctis eórum.
+> 140:5 Corrípiet me justus in misericórdia, et increpábit me: * óleum autem peccatóris non impínguet caput meum.
+> 140:6 Quóniam adhuc et orátio mea in beneplácitis eórum: * absórpti sunt juncti petræ júdices eórum.
+> 140:7 Áudient verba mea quóniam potuérunt: * sicut crassitúdo terræ erúpta est super terram.
+> 140:8 Dissipáta sunt ossa nostra secus inférnum: * quia ad te, Dómine, Dómine, óculi mei: in te sperávi, non áuferas ánimam meam.
+> 140:9 Custódi me a láqueo, quem statuérunt mihi: * et a scándalis operántium iniquitátem.
+> 140:10 Cadent in retiáculo ejus peccatóres: * singuláriter sum ego donec tránseam.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-0d20f66ec8a7ff9537fd" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-0d20f66ec8a7ff9537fd" -->
 
 <!-- notes:end -->
 
@@ -1422,6 +1541,44 @@
 
 <!-- notes:end -->
 
+## `shared-259670153f278a55013d`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm123.txt [Psalm 123]
+**出现次数：** 39
+**使用时辰：** vesperae
+**代表日期：** 2026-01-20 vesperae, 2026-02-03 vesperae, 2026-03-03 vesperae, 2026-04-14 vesperae, 2026-12-01 vesperae
+
+### Latin
+
+> Psalmus 123 [2]
+> 123:1 Nisi quia Dóminus erat in nobis, dicat nunc Israël: * (2a) nisi quia Dóminus erat in nobis,
+> 123:2b Cum exsúrgerent hómines in nos, * (3a) forte vivos deglutíssent nos:
+> 123:3b Cum irascerétur furor eórum in nos, * (4) fórsitan aqua absorbuísset nos.
+> 123:5 Torréntem pertransívit ánima nostra: * fórsitan pertransísset ánima nostra aquam intolerábilem.
+> 123:6 Benedíctus Dóminus * qui non dedit nos in captiónem déntibus eórum.
+> 123:7a Ánima nostra sicut passer erépta est * de láqueo venántium:
+> 123:7b Láqueus contrítus est, * et nos liberáti sumus.
+> 123:8 Adjutórium nostrum in nómine Dómini, * qui fecit cælum et terram.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-259670153f278a55013d" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-259670153f278a55013d" -->
+
+<!-- notes:end -->
+
 ## `shared-2641fb9f5804d5469bed`
 
 **类型：** psalm / shared-block
@@ -1471,6 +1628,45 @@
 ### 备注
 
 <!-- notes:start id="shared-2641fb9f5804d5469bed" -->
+
+<!-- notes:end -->
+
+## `shared-275c8c361eda628710f4`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm144.txt [Psalm 144]
+**出现次数：** 9
+**使用时辰：** vesperae
+**代表日期：** 2026-04-11 vesperae, 2026-11-28 vesperae, 2026-12-05 vesperae, 2026-04-18 vesperae, 2026-05-02 vesperae
+
+### Latin
+
+> Psalmus 144(13b-21) [5]
+> 144:13b Fidélis Dóminus in ómnibus verbis suis: * et sanctus in ómnibus opéribus suis.
+> 144:14 Állevat Dóminus omnes qui córruunt: * et érigit omnes elísos.
+> 144:15 Óculi ómnium in te sperant, Dómine: * et tu das escam illórum in témpore opportúno.
+> 144:16 Áperis tu manum tuam: * et imples omne ánimal benedictióne.
+> 144:17 Justus Dóminus in ómnibus viis suis: * et sanctus in ómnibus opéribus suis.
+> 144:18 Prope est Dóminus ómnibus invocántibus eum: * ómnibus invocántibus eum in veritáte.
+> 144:19 Voluntátem timéntium se fáciet: † et deprecatiónem eórum exáudiet: * et salvos fáciet eos.
+> 144:20 Custódit Dóminus omnes diligéntes se: * et omnes peccatóres dispérdet.
+> 144:21 Laudatiónem Dómini loquétur os meum: * et benedícat omnis caro nómini sancto ejus in sǽculum, et in sǽculum sǽculi.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-275c8c361eda628710f4" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-275c8c361eda628710f4" -->
 
 <!-- notes:end -->
 
@@ -1557,6 +1753,44 @@
 ### 备注
 
 <!-- notes:start id="shared-27a39e7100c9e18d970f" -->
+
+<!-- notes:end -->
+
+## `shared-29f7937705ce4ebc74b4`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm115.txt [Psalm 115]
+**出现次数：** 5
+**使用时辰：** vesperae
+**代表日期：** 2026-01-03 vesperae, 2026-08-10 vesperae, 2026-01-04 vesperae, 2026-11-01 vesperae, 2026-11-23 vesperae
+
+### Latin
+
+> Psalmus 115 [5]
+> 115:1 Crédidi, propter quod locútus sum: * ego autem humiliátus sum nimis.
+> 115:2 Ego dixi in excéssu meo: * Omnis homo mendax.
+> 115:3 Quid retríbuam Dómino, * pro ómnibus, quæ retríbuit mihi?
+> 115:4 Cálicem salutáris accípiam: * et nomen Dómini invocábo.
+> 115:5 Vota mea Dómino reddam coram omni pópulo ejus: * (6) pretiósa in conspéctu Dómini mors sanctórum ejus:
+> 115:7a O Dómine, quia ego servus tuus: * ego servus tuus, et fílius ancíllæ tuæ.
+> 115:7b Dirupísti víncula mea: † (8) tibi sacrificábo hóstiam laudis, * et nomen Dómini invocábo.
+> 115:9 Vota mea Dómino reddam in conspéctu omnis pópuli ejus: * (10) in átriis domus Dómini, in médio tui, Jerúsalem.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-29f7937705ce4ebc74b4" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-29f7937705ce4ebc74b4" -->
 
 <!-- notes:end -->
 
@@ -1799,6 +2033,55 @@
 
 <!-- notes:end -->
 
+## `shared-313cead036ec57a068a8`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm131.txt [Psalm 131]
+**出现次数：** 45
+**使用时辰：** vesperae
+**代表日期：** 2026-01-07 vesperae, 2026-01-14 vesperae, 2026-02-04 vesperae, 2026-02-25 vesperae, 2026-04-15 vesperae
+
+### Latin
+
+> Psalmus 131 [5]
+> 131:1 Meménto, Dómine, David, * et omnis mansuetúdinis ejus:
+> 131:2 Sicut jurávit Dómino, * votum vovit Deo Jacob:
+> 131:3 Si introíero in tabernáculum domus meæ, * si ascéndero in lectum strati mei:
+> 131:4 Si dédero somnum óculis meis, * et pálpebris meis dormitatiónem:
+> 131:5 Et réquiem tempóribus meis: donec invéniam locum Dómino, * tabernáculum Deo Jacob.
+> 131:6 Ecce, audívimus eam in Éphrata: * invénimus eam in campis silvæ.
+> 131:7 Introíbimus in tabernáculum ejus: * adorábimus in loco, ubi stetérunt pedes ejus.
+> 131:8 Surge, Dómine, in réquiem tuam, * tu et arca sanctificatiónis tuæ.
+> 131:9 Sacerdótes tui induántur justítiam: * et sancti tui exsúltent.
+> 131:10 Propter David, servum tuum, * non avértas fáciem Christi tui.
+> 131:11 Jurávit Dóminus David veritátem, et non frustrábitur eam: * De fructu ventris tui ponam super sedem tuam.
+> 131:12a Si custodíerint fílii tui testaméntum meum, * et testimónia mea hæc, quæ docébo eos:
+> 131:12b Et fílii eórum usque in sǽculum, * sedébunt super sedem tuam.
+> 131:13 Quóniam elégit Dóminus Sion: * elégit eam in habitatiónem sibi.
+> 131:14 Hæc réquies mea in sǽculum sǽculi: * hic habitábo quóniam elégi eam.
+> 131:15 Víduam ejus benedícens benedícam: * páuperes ejus saturábo pánibus.
+> 131:16 Sacerdótes ejus índuam salutári: * et sancti ejus exsultatióne exsultábunt.
+> 131:17 Illuc prodúcam cornu David, * parávi lucérnam Christo meo.
+> 131:18 Inimícos ejus índuam confusióne: * super ipsum autem efflorébit sanctificátio mea.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-313cead036ec57a068a8" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-313cead036ec57a068a8" -->
+
+<!-- notes:end -->
+
 ## `shared-31adc91884e6f6d6b1c7`
 
 **类型：** psalm / shared-block
@@ -1966,6 +2249,45 @@
 
 <!-- notes:end -->
 
+## `shared-34fa53f1a09292ca8596`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm144.txt [Psalm 144]
+**出现次数：** 31
+**使用时辰：** vesperae
+**代表日期：** 2026-01-17 vesperae, 2026-02-07 vesperae, 2026-02-28 vesperae, 2026-01-24 vesperae, 2026-01-31 vesperae
+
+### Latin
+
+> Psalmus 144(13b-21) [5]
+> 144:13b  Fidélis Dóminus in ómnibus verbis suis: et sanctus in ómnibus opéribus suis.
+> 144:14 ‡ Állevat Dóminus omnes qui córruunt: * et érigit omnes elísos.
+> 144:15 Óculi ómnium in te sperant, Dómine: * et tu das escam illórum in témpore opportúno.
+> 144:16 Áperis tu manum tuam: * et imples omne ánimal benedictióne.
+> 144:17 Justus Dóminus in ómnibus viis suis: * et sanctus in ómnibus opéribus suis.
+> 144:18 Prope est Dóminus ómnibus invocántibus eum: * ómnibus invocántibus eum in veritáte.
+> 144:19 Voluntátem timéntium se fáciet: † et deprecatiónem eórum exáudiet: * et salvos fáciet eos.
+> 144:20 Custódit Dóminus omnes diligéntes se: * et omnes peccatóres dispérdet.
+> 144:21 Laudatiónem Dómini loquétur os meum: * et benedícat omnis caro nómini sancto ejus in sǽculum, et in sǽculum sǽculi.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-34fa53f1a09292ca8596" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-34fa53f1a09292ca8596" -->
+
+<!-- notes:end -->
+
 ## `shared-38fc133a65024ce2da28`
 
 **类型：** psalm / shared-block
@@ -2047,6 +2369,45 @@
 ### 备注
 
 <!-- notes:start id="shared-3904f8f6b48950346bad" -->
+
+<!-- notes:end -->
+
+## `shared-3bddbd7bad64fe3f1c24`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm121.txt [Psalm 121]
+**出现次数：** 29
+**使用时辰：** vesperae
+**代表日期：** 2026-01-12 vesperae, 2026-01-19 vesperae, 2026-02-09 vesperae, 2026-02-23 vesperae, 2026-12-14 vesperae
+
+### Latin
+
+> Psalmus 121 [5]
+> 121:1  Lætátus sum in his, quæ dicta sunt mihi: * ‡ In domum Dómini íbimus.
+> 121:2 Stantes erant pedes nostri, * in átriis tuis, Jerúsalem.
+> 121:3 Jerúsalem, quæ ædificátur ut cívitas: * cujus participátio ejus in idípsum.
+> 121:4 Illuc enim ascendérunt tribus, tribus Dómini: * testimónium Israël ad confiténdum nómini Dómini.
+> 121:5 Quia illic sedérunt sedes in judício, * sedes super domum David.
+> 121:6 Rogáte quæ ad pacem sunt Jerúsalem: * et abundántia diligéntibus te:
+> 121:7 Fiat pax in virtúte tua: * et abundántia in túrribus tuis.
+> 121:8 Propter fratres meos, et próximos meos, * loquébar pacem de te:
+> 121:9 Propter domum Dómini, Dei nostri, * quæsívi bona tibi.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-3bddbd7bad64fe3f1c24" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-3bddbd7bad64fe3f1c24" -->
 
 <!-- notes:end -->
 
@@ -2345,6 +2706,47 @@
 
 <!-- notes:end -->
 
+## `shared-421d0d9169bae0811501`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm138.txt [Psalm 138]
+**出现次数：** 43
+**使用时辰：** vesperae
+**代表日期：** 2026-01-02 vesperae, 2026-01-16 vesperae, 2026-02-06 vesperae, 2026-02-27 vesperae, 2026-04-17 vesperae
+
+### Latin
+
+> Psalmus 138(14-24) [2]
+> 138:14 Confitébor tibi quia terribíliter magnificátus es: † mirabília ópera tua, * et ánima mea cognóscit nimis.
+> 138:15 Non est occultátum os meum a te, quod fecísti in occúlto: * et substántia mea in inferióribus terræ.
+> 138:16 Imperféctum meum vidérunt óculi tui, † et in libro tuo omnes scribéntur: * dies formabúntur, et nemo in eis.
+> 138:17 Mihi autem nimis honorificáti sunt amíci tui, Deus: * nimis confortátus est principátus eórum.
+> 138:18 Dinumerábo eos, et super arénam multiplicabúntur: * exsurréxi, et adhuc sum tecum.
+> 138:19 Si occíderis, Deus, peccatóres: * viri sánguinum, declináte a me:
+> 138:20 Quia dícitis in cogitatióne: * Accípient in vanitáte civitátes tuas.
+> 138:21 Nonne qui odérunt te, Dómine, óderam? * et super inimícos tuos tabescébam?
+> 138:22 Perfécto ódio óderam illos: * et inimíci facti sunt mihi.
+> 138:23 Proba me, Deus, et scito cor meum: * intérroga me, et cognósce sémitas meas.
+> 138:24 Et vide, si via iniquitátis in me est: * et deduc me in via ætérna.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-421d0d9169bae0811501" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-421d0d9169bae0811501" -->
+
+<!-- notes:end -->
+
 ## `shared-428b9fbbad3940fdff33`
 
 **类型：** psalm / shared-block
@@ -2512,6 +2914,42 @@
 ### 备注
 
 <!-- notes:start id="shared-44c5a613401386168a45" -->
+
+<!-- notes:end -->
+
+## `shared-44ca9be3d93d2f74d2fb`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm119.txt [Psalm 119]
+**出现次数：** 34
+**使用时辰：** vesperae
+**代表日期：** 2026-01-12 vesperae, 2026-01-19 vesperae, 2026-02-09 vesperae, 2026-02-23 vesperae, 2026-04-13 vesperae
+
+### Latin
+
+> Psalmus 119 [3]
+> 119:1 Ad Dóminum cum tribulárer clamávi: * et exaudívit me.
+> 119:2 Dómine, líbera ánimam meam a lábiis iníquis, * et a lingua dolósa.
+> 119:3 Quid detur tibi, aut quid apponátur tibi * ad linguam dolósam?
+> 119:4 Sagíttæ poténtis acútæ, * cum carbónibus desolatóriis.
+> 119:5 Heu mihi, quia incolátus meus prolongátus est: † habitávi cum habitántibus Cedar: * (6) multum íncola fuit ánima mea.
+> 119:7 Cum his, qui odérunt pacem, eram pacíficus: * cum loquébar illis, impugnábant me gratis.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-44ca9be3d93d2f74d2fb" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-44ca9be3d93d2f74d2fb" -->
 
 <!-- notes:end -->
 
@@ -2711,6 +3149,43 @@
 ### 备注
 
 <!-- notes:start id="shared-47d09ca4de34bbe75f3c" -->
+
+<!-- notes:end -->
+
+## `shared-4883e35dfb56191c78ea`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm127.txt [Psalm 127]
+**出现次数：** 33
+**使用时辰：** vesperae
+**代表日期：** 2026-01-07 vesperae, 2026-01-14 vesperae, 2026-02-04 vesperae, 2026-02-25 vesperae, 2026-12-02 vesperae
+
+### Latin
+
+> Psalmus 127 [1]
+> 127:1  Beáti, omnes, qui timent Dóminum, * ‡ qui ámbulant in viis ejus.
+> 127:2 Labóres mánuum tuárum quia manducábis: * beátus es, et bene tibi erit.
+> 127:3a Uxor tua sicut vitis abúndans, * in latéribus domus tuæ.
+> 127:3b Fílii tui sicut novéllæ olivárum, * in circúitu mensæ tuæ.
+> 127:4 Ecce, sic benedicétur homo, * qui timet Dóminum.
+> 127:5 Benedícat tibi Dóminus ex Sion: * et vídeas bona Jerúsalem ómnibus diébus vitæ tuæ.
+> 127:6 Et vídeas fílios filiórum tuórum, * pacem super Israël.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-4883e35dfb56191c78ea" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-4883e35dfb56191c78ea" -->
 
 <!-- notes:end -->
 
@@ -3215,6 +3690,54 @@
 
 <!-- notes:end -->
 
+## `shared-53d00119a079af8e8240`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm135.txt [Psalm 135]
+**出现次数：** 39
+**使用时辰：** vesperae
+**代表日期：** 2026-01-08 vesperae, 2026-01-15 vesperae, 2026-02-12 vesperae, 2026-02-26 vesperae, 2026-04-16 vesperae
+
+### Latin
+
+> Psalmus 135(10-26) [3]
+> 135:10 Qui percússit Ægýptum cum primogénitis eórum: * quóniam in ætérnum misericórdia ejus.
+> 135:11 Qui edúxit Israël de médio eórum: * quóniam in ætérnum misericórdia ejus.
+> 135:12 In manu poténti, et brácchio excélso: * quóniam in ætérnum misericórdia ejus.
+> 135:13 Qui divísit Mare Rubrum in divisiónes: * quóniam in ætérnum misericórdia ejus.
+> 135:14 Et edúxit Israël per médium ejus: * quóniam in ætérnum misericórdia ejus.
+> 135:15 Et excússit Pharaónem, et virtútem ejus in Mari Rubro: * quóniam in ætérnum misericórdia ejus.
+> 135:16 Qui tradúxit pópulum suum per desértum: * quóniam in ætérnum misericórdia ejus.
+> 135:17 Qui percússit reges magnos: * quóniam in ætérnum misericórdia ejus.
+> 135:18 Et occídit reges fortes: * quóniam in ætérnum misericórdia ejus.
+> 135:19 Sehon, regem Amorrhæórum: * quóniam in ætérnum misericórdia ejus.
+> 135:20 Et Og, regem Basan: * quóniam in ætérnum misericórdia ejus.
+> 135:21 Et dedit terram eórum hereditátem: * quóniam in ætérnum misericórdia ejus.
+> 135:22 Hereditátem Israël, servo suo: * quóniam in ætérnum misericórdia ejus.
+> 135:23 Quia in humilitáte nostra memor fuit nostri: * quóniam in ætérnum misericórdia ejus.
+> 135:24 Et redémit nos ab inimícis nostris: * quóniam in ætérnum misericórdia ejus.
+> 135:25 Qui dat escam omni carni: * quóniam in ætérnum misericórdia ejus.
+> 135:26a Confitémini Deo cæli: * quóniam in ætérnum misericórdia ejus.
+> 135:26b Confitémini Dómino dominórum: * quóniam in ætérnum misericórdia ejus.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-53d00119a079af8e8240" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-53d00119a079af8e8240" -->
+
+<!-- notes:end -->
+
 ## `shared-54247ab89e14a2924ac8`
 
 **类型：** psalm / shared-block
@@ -3293,6 +3816,46 @@
 
 <!-- notes:end -->
 
+## `shared-59d38f53d1897cc6e7e8`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm141.txt [Psalm 141]
+**出现次数：** 43
+**使用时辰：** vesperae
+**代表日期：** 2026-01-02 vesperae, 2026-01-16 vesperae, 2026-02-06 vesperae, 2026-02-27 vesperae, 2026-04-17 vesperae
+
+### Latin
+
+> Psalmus 141 [5]
+> 141:2 Voce mea ad Dóminum clamávi: * voce mea ad Dóminum deprecátus sum:
+> 141:3 Effúndo in conspéctu ejus oratiónem meam, * et tribulatiónem meam ante ipsum pronúntio.
+> 141:4 In deficiéndo ex me spíritum meum, * et tu cognovísti sémitas meas.
+> 141:4 In via hac, qua ambulábam, * abscondérunt láqueum mihi.
+> 141:5 Considerábam ad déxteram, et vidébam: * et non erat qui cognósceret me.
+> 141:5 Périit fuga a me, * et non est qui requírat ánimam meam.
+> 141:6 Clamávi ad te, Dómine, * dixi: Tu es spes mea, pórtio mea in terra vivéntium.
+> 141:7 Inténde ad deprecatiónem meam: * quia humiliátus sum nimis.
+> 141:7 Líbera me a persequéntibus me: * quia confortáti sunt super me.
+> 141:8 Educ de custódia ánimam meam ad confiténdum nómini tuo: * me exspéctant justi, donec retríbuas mihi.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-59d38f53d1897cc6e7e8" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-59d38f53d1897cc6e7e8" -->
+
+<!-- notes:end -->
+
 ## `shared-5bf2131f92ac7d49c675`
 
 **类型：** psalm / shared-block
@@ -3342,6 +3905,115 @@
 
 <!-- notes:end -->
 
+## `shared-5d7ba7bb3492a81153c8`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm143.txt [Psalm 143]
+**出现次数：** 40
+**使用时辰：** vesperae
+**代表日期：** 2026-01-17 vesperae, 2026-02-07 vesperae, 2026-02-28 vesperae, 2026-04-11 vesperae, 2026-12-05 vesperae
+
+### Latin
+
+> Psalmus 143(9-15) [2]
+> 143:9 Deus, cánticum novum cantábo tibi: * in psaltério decachórdo psallam tibi.
+> 143:10 Qui das salútem régibus: * qui redemísti David, servum tuum, de gládio malígno: éripe me.
+> 143:11 Et érue me de manu filiórum alienórum, quorum os locútum est vanitátem: * et déxtera eórum, déxtera iniquitátis:
+> 143:12 Quorum fílii, sicut novéllæ plantatiónes * in juventúte sua.
+> 143:12 Fíliæ eórum compósitæ: * circumornátæ ut similitúdo templi.
+> 143:13 Promptuária eórum plena, * eructántia ex hoc in illud.
+> 143:13 Oves eórum fœtósæ, abundántes in egréssibus suis: * boves eórum crassæ.
+> 143:14 Non est ruína macériæ, neque tránsitus: * neque clamor in platéis eórum.
+> 143:15 Beátum dixérunt pópulum, cui hæc sunt: * beátus pópulus, cujus Dóminus Deus ejus.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-5d7ba7bb3492a81153c8" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-5d7ba7bb3492a81153c8" -->
+
+<!-- notes:end -->
+
+## `shared-60027488638e2b00c9c3`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm124.txt [Psalm 124]
+**出现次数：** 39
+**使用时辰：** vesperae
+**代表日期：** 2026-01-20 vesperae, 2026-02-03 vesperae, 2026-03-03 vesperae, 2026-04-14 vesperae, 2026-12-01 vesperae
+
+### Latin
+
+> Psalmus 124 [3]
+> 124:1 Qui confídunt in Dómino, sicut mons Sion: * non commovébitur in ætérnum, qui hábitat (2a) in Jerúsalem.
+> 124:2b Montes in circúitu ejus: † et Dóminus in circúitu pópuli sui, * ex hoc nunc et usque in sǽculum.
+> 124:3 Quia non relínquet Dóminus virgam peccatórum super sortem justórum: * ut non exténdant justi ad iniquitátem manus suas.
+> 124:4 Bénefac, Dómine, bonis, * et rectis corde.
+> 124:5 Declinántes autem in obligatiónes addúcet Dóminus cum operántibus iniquitátem: * pax super Israël.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-60027488638e2b00c9c3" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-60027488638e2b00c9c3" -->
+
+<!-- notes:end -->
+
+## `shared-60553078c6bf2a75e7f3`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm130.txt [Psalm 130]
+**出现次数：** 33
+**使用时辰：** vesperae
+**代表日期：** 2026-01-07 vesperae, 2026-01-14 vesperae, 2026-02-04 vesperae, 2026-02-25 vesperae, 2026-12-02 vesperae
+
+### Latin
+
+> Psalmus 130 [4]
+> 130:1a  Dómine, non est exaltátum cor meum: * ‡ neque eláti sunt óculi mei.
+> 130:1b Neque ambulávi in magnis: * neque in mirabílibus super me.
+> 130:2a Si non humíliter sentiébam: * sed exaltávi ánimam meam:
+> 130:2b Sicut ablactátus est super matre sua, * ita retribútio in ánima mea.
+> 130:3 Speret Israël in Dómino, * ex hoc nunc et usque in sǽculum.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-60553078c6bf2a75e7f3" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-60553078c6bf2a75e7f3" -->
+
+<!-- notes:end -->
+
 ## `shared-60c5f8fede1918d4558b`
 
 **类型：** psalm / shared-block
@@ -3378,6 +4050,59 @@
 ### 备注
 
 <!-- notes:start id="shared-60c5f8fede1918d4558b" -->
+
+<!-- notes:end -->
+
+## `shared-61abc65e3491c34ca8e9`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm138.txt [Psalm 138]
+**出现次数：** 10
+**使用时辰：** vesperae
+**代表日期：** 2026-02-24 vesperae, 2026-04-25 vesperae, 2026-06-29 vesperae, 2026-12-21 vesperae, 2026-05-11 vesperae
+
+### Latin
+
+> Psalmus 138 [5]
+> 138:1 Dómine, probásti me, et cognovísti me: * (2) tu cognovísti sessiónem meam, et resurrectiónem meam.
+> 138:3 Intellexísti cogitatiónes meas de longe: * sémitam meam, et funículum meum investigásti.
+> 138:4 Et omnes vias meas prævidísti: * quia non est sermo in lingua mea.
+> 138:5 Ecce, Dómine, tu cognovísti ómnia novíssima, et antíqua: * tu formásti me, et posuísti super me manum tuam.
+> 138:6 Mirábilis facta est sciéntia tua ex me: * confortáta est, et non pótero ad eam.
+> 138:7 Quo ibo a spíritu tuo? * et quo a fácie tua fúgiam?
+> 138:8 Si ascéndero in cælum, tu illic es: * si descéndero in inférnum, ades.
+> 138:9 Si súmpsero pennas meas dilúculo, * et habitávero in extrémis maris:
+> 138:10 Étenim illuc manus tua dedúcet me: * et tenébit me déxtera tua.
+> 138:11 Et dixi: Fórsitan ténebræ conculcábunt me: * et nox illuminátio mea in delíciis meis.
+> 138:12 Quia ténebræ non obscurabúntur a te, † et nox sicut dies illuminábitur: * sicut ténebræ ejus, ita et lumen ejus.
+> 138:13 Quia tu possedísti renes meos: * suscepísti me de útero matris meæ.
+> 138:14 Confitébor tibi quia terribíliter magnificátus es: † mirabília ópera tua, * et ánima mea cognóscit nimis.
+> 138:15 Non est occultátum os meum a te, quod fecísti in occúlto: * et substántia mea in inferióribus terræ.
+> 138:16 Imperféctum meum vidérunt óculi tui, † et in libro tuo omnes scribéntur: * dies formabúntur, et nemo in eis.
+> 138:17 Mihi autem nimis honorificáti sunt amíci tui, Deus: * nimis confortátus est principátus eórum.
+> 138:18 Dinumerábo eos, et super arénam multiplicabúntur: * exsurréxi, et adhuc sum tecum.
+> 138:19 Si occíderis, Deus, peccatóres: * viri sánguinum, declináte a me:
+> 138:20 Quia dícitis in cogitatióne: * Accípient in vanitáte civitátes tuas.
+> 138:21 Nonne qui odérunt te, Dómine, óderam? * et super inimícos tuos tabescébam?
+> 138:22 Perfécto ódio óderam illos: * et inimíci facti sunt mihi.
+> 138:23 Proba me, Deus, et scito cor meum: * intérroga me, et cognósce sémitas meas.
+> 138:24 Et vide, si via iniquitátis in me est: * et deduc me in via ætérna.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-61abc65e3491c34ca8e9" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-61abc65e3491c34ca8e9" -->
 
 <!-- notes:end -->
 
@@ -3504,6 +4229,44 @@
 ### 备注
 
 <!-- notes:start id="shared-64ae1b0c4a53b8bcd20b" -->
+
+<!-- notes:end -->
+
+## `shared-64ea11c04e0f58136605`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm125.txt [Psalm 125]
+**出现次数：** 49
+**使用时辰：** vesperae
+**代表日期：** 2026-01-20 vesperae, 2026-02-03 vesperae, 2026-02-24 vesperae, 2026-04-14 vesperae, 2026-12-01 vesperae
+
+### Latin
+
+> Psalmus 125 [4]
+> 125:1 In converténdo Dóminus captivitátem Sion: * facti sumus sicut consoláti:
+> 125:2a Tunc replétum est gáudio os nostrum: * et lingua nostra exsultatióne.
+> 125:2b Tunc dicent inter gentes: * Magnificávit Dóminus fácere cum eis.
+> 125:3 Magnificávit Dóminus fácere nobíscum: * facti sumus lætántes.
+> 125:4 Convérte, Dómine, captivitátem nostram, * sicut torrens in Austro.
+> 125:5 Qui séminant in lácrimis, * in exsultatióne metent.
+> 125:6a Eúntes ibant et flebant, * mitténtes sémina sua.
+> 125:6b Veniéntes autem vénient cum exsultatióne, * portántes manípulos suos.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-64ea11c04e0f58136605" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-64ea11c04e0f58136605" -->
 
 <!-- notes:end -->
 
@@ -3698,6 +4461,45 @@
 ### 备注
 
 <!-- notes:start id="shared-69d92be402ba4d75202c" -->
+
+<!-- notes:end -->
+
+## `shared-6b6cb84c6e4dc434b510`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm143.txt [Psalm 143]
+**出现次数：** 40
+**使用时辰：** vesperae
+**代表日期：** 2026-01-17 vesperae, 2026-02-07 vesperae, 2026-02-28 vesperae, 2026-04-11 vesperae, 2026-12-05 vesperae
+
+### Latin
+
+> Psalmus 143(1-8) [1]
+> 143:1 Benedíctus Dóminus, Deus meus, qui docet manus meas ad prǽlium, * et dígitos meos ad bellum.
+> 143:2 Misericórdia mea, et refúgium meum: * suscéptor meus, et liberátor meus:
+> 143:2 Protéctor meus, et in ipso sperávi: * qui subdit pópulum meum sub me.
+> 143:3 Dómine, quid est homo, quia innotuísti ei? * aut fílius hóminis, quia réputas eum?
+> 143:4 Homo vanitáti símilis factus est: * dies ejus sicut umbra prætéreunt.
+> 143:5 Dómine, inclína cælos tuos, et descénde: * tange montes, et fumigábunt.
+> 143:6 Fúlgura coruscatiónem, et dissipábis eos: * emítte sagíttas tuas, et conturbábis eos.
+> 143:7 Emítte manum tuam de alto, éripe me, et líbera me de aquis multis: * de manu filiórum alienórum.
+> 143:8 Quorum os locútum est vanitátem: * et déxtera eórum, déxtera iniquitátis.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-6b6cb84c6e4dc434b510" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-6b6cb84c6e4dc434b510" -->
 
 <!-- notes:end -->
 
@@ -3952,6 +4754,42 @@
 
 <!-- notes:end -->
 
+## `shared-72012dbaab495e4bf53a`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm126.txt [Psalm 126]
+**出现次数：** 17
+**使用时辰：** vesperae
+**代表日期：** 2026-01-01 vesperae, 2026-02-02 vesperae, 2026-03-24 vesperae, 2026-07-02 vesperae, 2026-12-07 vesperae
+
+### Latin
+
+> Psalmus 126 [4]
+> 126:1a Nisi Dóminus ædificáverit domum, * in vanum laboravérunt qui ædíficant eam.
+> 126:1b Nisi Dóminus custodíerit civitátem, * frustra vígilat qui custódit eam.
+> 126:2a Vanum est vobis ante lucem súrgere: * súrgite postquam sedéritis, qui manducátis panem dolóris.
+> 126:2b Cum déderit diléctis suis somnum: * (3) ecce heréditas Dómini fílii: merces, fructus ventris.
+> 126:4 Sicut sagíttæ in manu poténtis: * ita fílii excussórum.
+> 126:5 Beátus vir, qui implévit desidérium suum ex ipsis: * non confundétur cum loquétur inimícis suis in porta.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-72012dbaab495e4bf53a" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-72012dbaab495e4bf53a" -->
+
+<!-- notes:end -->
+
 ## `shared-720ddab254fe8bface62`
 
 **类型：** psalm / shared-block
@@ -3989,6 +4827,44 @@
 ### 备注
 
 <!-- notes:start id="shared-720ddab254fe8bface62" -->
+
+<!-- notes:end -->
+
+## `shared-7227fede0db3d707132a`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm129.txt [Psalm 129]
+**出现次数：** 33
+**使用时辰：** vesperae
+**代表日期：** 2026-01-07 vesperae, 2026-01-14 vesperae, 2026-02-04 vesperae, 2026-02-25 vesperae, 2026-12-02 vesperae
+
+### Latin
+
+> Psalmus 129 [3]
+> 129:1  De profúndis clamávi ad te, Dómine: * ‡ (2a) Dómine, exáudi vocem meam:
+> 129:2b Fiant aures tuæ intendéntes, * in vocem deprecatiónis meæ.
+> 129:3 Si iniquitátes observáveris, Dómine: * Dómine, quis sustinébit?
+> 129:4a Quia apud te propitiátio est: * et propter legem tuam sustínui te, Dómine.
+> 129:4b Sustínuit ánima mea in verbo ejus: * (5) sperávit ánima mea in Dómino.
+> 129:6 A custódia matutína usque ad noctem: * speret Israël in Dómino.
+> 129:7 Quia apud Dóminum misericórdia: * et copiósa apud eum redémptio.
+> 129:8 Et ipse rédimet Israël, * ex ómnibus iniquitátibus ejus.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-7227fede0db3d707132a" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-7227fede0db3d707132a" -->
 
 <!-- notes:end -->
 
@@ -4071,6 +4947,42 @@
 ### 备注
 
 <!-- notes:start id="shared-7297bf14064096864a5f" -->
+
+<!-- notes:end -->
+
+## `shared-745379f84a5dbc824656`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm144.txt [Psalm 144]
+**出现次数：** 40
+**使用时辰：** vesperae
+**代表日期：** 2026-01-17 vesperae, 2026-02-07 vesperae, 2026-02-28 vesperae, 2026-04-11 vesperae, 2026-12-05 vesperae
+
+### Latin
+
+> Psalmus 144(8-13a) [4]
+> 144:8 Miserátor, et miséricors Dóminus: * pátiens, et multum miséricors.
+> 144:9 Suávis Dóminus univérsis: * et miseratiónes ejus super ómnia ópera ejus.
+> 144:10 Confiteántur tibi, Dómine, ómnia ópera tua: * et sancti tui benedícant tibi.
+> 144:11 Glóriam regni tui dicent: * et poténtiam tuam loquéntur:
+> 144:12 Ut notam fáciant fíliis hóminum poténtiam tuam: * et glóriam magnificéntiæ regni tui.
+> 144:13a Regnum tuum regnum ómnium sæculórum: * et dominátio tua in omni generatióne et generatiónem.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-745379f84a5dbc824656" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-745379f84a5dbc824656" -->
 
 <!-- notes:end -->
 
@@ -4368,6 +5280,44 @@
 
 <!-- notes:end -->
 
+## `shared-79f298cedeed7946c34b`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm120.txt [Psalm 120]
+**出现次数：** 34
+**使用时辰：** vesperae
+**代表日期：** 2026-01-12 vesperae, 2026-01-19 vesperae, 2026-02-09 vesperae, 2026-02-23 vesperae, 2026-04-13 vesperae
+
+### Latin
+
+> Psalmus 120 [4]
+> 120:1 Levávi óculos meos in montes, * unde véniet auxílium mihi.
+> 120:2 Auxílium meum a Dómino, * qui fecit cælum et terram.
+> 120:3 Non det in commotiónem pedem tuum: * neque dormítet qui custódit te.
+> 120:4 Ecce, non dormitábit neque dórmiet, * qui custódit Israël.
+> 120:5 Dóminus custódit te, Dóminus protéctio tua, * super manum déxteram tuam.
+> 120:6 Per diem sol non uret te: * neque luna per noctem.
+> 120:7 Dóminus custódit te ab omni malo: * custódiat ánimam tuam Dóminus.
+> 120:8 Dóminus custódiat intróitum tuum, et éxitum tuum: * ex hoc nunc, et usque in sǽculum.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-79f298cedeed7946c34b" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-79f298cedeed7946c34b" -->
+
+<!-- notes:end -->
+
 ## `shared-7ad418f71aeb8af71313`
 
 **类型：** psalm / shared-block
@@ -4603,6 +5553,42 @@
 ### 备注
 
 <!-- notes:start id="shared-7d5d53eb4b304b2cf875" -->
+
+<!-- notes:end -->
+
+## `shared-7dffabffebb756ae22c2`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm126.txt [Psalm 126]
+**出现次数：** 39
+**使用时辰：** vesperae
+**代表日期：** 2026-01-20 vesperae, 2026-02-03 vesperae, 2026-03-03 vesperae, 2026-04-14 vesperae, 2026-12-01 vesperae
+
+### Latin
+
+> Psalmus 126 [5]
+> 126:1a Nisi Dóminus ædificáverit domum, * in vanum laboravérunt qui ædíficant eam.
+> 126:1b Nisi Dóminus custodíerit civitátem, * frustra vígilat qui custódit eam.
+> 126:2a Vanum est vobis ante lucem súrgere: * súrgite postquam sedéritis, qui manducátis panem dolóris.
+> 126:2b Cum déderit diléctis suis somnum: * (3) ecce heréditas Dómini fílii: merces, fructus ventris.
+> 126:4 Sicut sagíttæ in manu poténtis: * ita fílii excussórum.
+> 126:5 Beátus vir, qui implévit desidérium suum ex ipsis: * non confundétur cum loquétur inimícis suis in porta.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-7dffabffebb756ae22c2" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-7dffabffebb756ae22c2" -->
 
 <!-- notes:end -->
 
@@ -4851,6 +5837,84 @@
 ### 备注
 
 <!-- notes:start id="shared-83581561fe81e42e079c" -->
+
+<!-- notes:end -->
+
+## `shared-8367f6e86a01de5f7973`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm137.txt [Psalm 137]
+**出现次数：** 41
+**使用时辰：** vesperae
+**代表日期：** 2026-01-08 vesperae, 2026-01-15 vesperae, 2026-02-12 vesperae, 2026-02-26 vesperae, 2026-04-16 vesperae
+
+### Latin
+
+> Psalmus 137 [5]
+> 137:1a Confitébor tibi, Dómine, in toto corde meo: * quóniam audísti verba oris mei.
+> 137:1b In conspéctu Angelórum psallam tibi: * (2a) adorábo ad templum sanctum tuum, et confitébor nómini tuo.
+> 137:2b Super misericórdia tua, et veritáte tua: * quóniam magnificásti super omne, nomen sanctum tuum.
+> 137:3 In quacúmque die invocávero te, exáudi me: * multiplicábis in ánima mea virtútem.
+> 137:4 Confiteántur tibi, Dómine, omnes reges terræ: * quia audiérunt ómnia verba oris tui:
+> 137:5 Et cantent in viis Dómini: * quóniam magna est glória Dómini.
+> 137:6 Quóniam excélsus Dóminus, et humília réspicit: * et alta a longe cognóscit.
+> 137:7 Si ambulávero in médio tribulatiónis, vivificábis me: † et super iram inimicórum meórum extendísti manum tuam, * et salvum me fecit déxtera tua.
+> 137:8 Dóminus retríbuet pro me: † Dómine, misericórdia tua in sǽculum: * ópera mánuum tuárum ne despícias.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-8367f6e86a01de5f7973" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-8367f6e86a01de5f7973" -->
+
+<!-- notes:end -->
+
+## `shared-845c64da2396d48d04bf`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm114.txt [Psalm 114]
+**出现次数：** 34
+**使用时辰：** vesperae
+**代表日期：** 2026-01-12 vesperae, 2026-01-19 vesperae, 2026-02-09 vesperae, 2026-02-23 vesperae, 2026-04-13 vesperae
+
+### Latin
+
+> Psalmus 114 [1]
+> 114:1 Diléxi, quóniam exáudiet Dóminus * vocem oratiónis meæ.
+> 114:2 Quia inclinávit aurem suam mihi: * et in diébus meis invocábo.
+> 114:3a Circumdedérunt me dolóres mortis: * et perícula inférni invenérunt me.
+> 114:3b Tribulatiónem et dolórem invéni: * (4a) et nomen Dómini invocávi.
+> 114:4b O Dómine, líbera ánimam meam: † (5) miséricors Dóminus, et justus, * et Deus noster miserétur.
+> 114:6 Custódiens párvulos Dóminus: * humiliátus sum, et liberávit me.
+> 114:7 Convértere, ánima mea, in réquiem tuam: * quia Dóminus benefécit tibi.
+> 114:8 Quia erípuit ánimam meam de morte: † óculos meos a lácrimis, * pedes meos a lapsu.
+> 114:9 Placébo Dómino * in regióne vivórum.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-845c64da2396d48d04bf" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-845c64da2396d48d04bf" -->
 
 <!-- notes:end -->
 
@@ -5355,6 +6419,50 @@
 ### 备注
 
 <!-- notes:start id="shared-8f74571800bfb4955202" -->
+
+<!-- notes:end -->
+
+## `shared-8f85592f6093fd099b7a`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm139.txt [Psalm 139]
+**出现次数：** 43
+**使用时辰：** vesperae
+**代表日期：** 2026-01-02 vesperae, 2026-01-16 vesperae, 2026-02-06 vesperae, 2026-02-27 vesperae, 2026-04-17 vesperae
+
+### Latin
+
+> Psalmus 139 [3]
+> 139:2 Éripe me, Dómine, ab hómine malo: * a viro iníquo éripe me.
+> 139:3 Qui cogitavérunt iniquitátes in corde: * tota die constituébant prǽlia.
+> 139:4 Acuérunt linguas suas sicut serpéntis: * venénum áspidum sub lábiis eórum.
+> 139:5 Custódi me, Dómine, de manu peccatóris: * et ab homínibus iníquis éripe me.
+> 139:5 Qui cogitavérunt supplantáre gressus meos: * abscondérunt supérbi láqueum mihi:
+> 139:6 Et funes extendérunt in láqueum: * juxta iter scándalum posuérunt mihi.
+> 139:7 Dixi Dómino: Deus meus es tu: * exáudi, Dómine, vocem deprecatiónis meæ.
+> 139:8 Dómine, Dómine, virtus salútis meæ: * obumbrásti super caput meum in die belli.
+> 139:9 Ne tradas me, Dómine, a desidério meo peccatóri: * cogitavérunt contra me, ne derelínquas me, ne forte exalténtur.
+> 139:10 Caput circúitus eórum: * labor labiórum ipsórum opériet eos.
+> 139:11 Cadent super eos carbónes, in ignem deícies eos: * in misériis non subsístent.
+> 139:12 Vir linguósus non dirigétur in terra: * virum injústum mala cápient in intéritu.
+> 139:13 Cognóvi quia fáciet Dóminus judícium ínopis: * et vindíctam páuperum.
+> 139:14 Verúmtamen justi confitebúntur nómini tuo: * et habitábunt recti cum vultu tuo.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-8f85592f6093fd099b7a" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-8f85592f6093fd099b7a" -->
 
 <!-- notes:end -->
 
@@ -6340,6 +7448,43 @@
 
 <!-- notes:end -->
 
+## `shared-a38787da52cd30560875`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm144.txt [Psalm 144]
+**出现次数：** 40
+**使用时辰：** vesperae
+**代表日期：** 2026-01-17 vesperae, 2026-02-07 vesperae, 2026-02-28 vesperae, 2026-04-11 vesperae, 2026-12-05 vesperae
+
+### Latin
+
+> Psalmus 144(1-7) [3]
+> 144:1 Exaltábo te, Deus meus, rex: * et benedícam nómini tuo in sǽculum, et in sǽculum sǽculi.
+> 144:2 Per síngulos dies benedícam tibi: * et laudábo nomen tuum in sǽculum, et in sǽculum sǽculi.
+> 144:3 Magnus Dóminus, et laudábilis nimis: * et magnitúdinis ejus non est finis.
+> 144:4 Generátio et generátio laudábit ópera tua: * et poténtiam tuam pronuntiábunt.
+> 144:5 Magnificéntiam glóriæ sanctitátis tuæ loquéntur: * et mirabília tua narrábunt.
+> 144:6 Et virtútem terribílium tuórum dicent: * et magnitúdinem tuam narrábunt.
+> 144:7 Memóriam abundántiæ suavitátis tuæ eructábunt: * et justítia tua exsultábunt.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-a38787da52cd30560875" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-a38787da52cd30560875" -->
+
+<!-- notes:end -->
+
 ## `shared-a54965f09f5183446d0d`
 
 **类型：** psalm / shared-block
@@ -6376,6 +7521,48 @@
 ### 备注
 
 <!-- notes:start id="shared-a54965f09f5183446d0d" -->
+
+<!-- notes:end -->
+
+## `shared-a6fdde5a75fa0a490009`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm136.txt [Psalm 136]
+**出现次数：** 39
+**使用时辰：** vesperae
+**代表日期：** 2026-01-08 vesperae, 2026-01-15 vesperae, 2026-02-12 vesperae, 2026-02-26 vesperae, 2026-04-16 vesperae
+
+### Latin
+
+> Psalmus 136 [4]
+> 136:1 Super flúmina Babylónis, illic sédimus et flévimus: * cum recordarémur Sion:
+> 136:2 In salícibus in médio ejus, * suspéndimus órgana nostra.
+> 136:3a Quia illic interrogavérunt nos, qui captívos duxérunt nos, * verba cantiónum:
+> 136:3b Et qui abduxérunt nos: * Hymnum cantáte nobis de cánticis Sion.
+> 136:4 Quómodo cantábimus cánticum Dómini * in terra aliéna?
+> 136:5 Si oblítus fúero tui, Jerúsalem, * oblivióni detur déxtera mea.
+> 136:6a Adhǽreat lingua mea fáucibus meis, * si non memínero tui:
+> 136:6b Si non proposúero Jerúsalem, * in princípio lætítiæ meæ.
+> 136:7a Memor esto, Dómine, filiórum Edom, * in die Jerúsalem:
+> 136:7b Qui dicunt: Exinaníte, exinaníte * usque ad fundaméntum in ea.
+> 136:8 Fília Babylónis mísera: * beátus, qui retríbuet tibi retributiónem tuam, quam retribuísti nobis.
+> 136:9 Beátus, qui tenébit, * et allídet párvulos tuos ad petram.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-a6fdde5a75fa0a490009" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-a6fdde5a75fa0a490009" -->
 
 <!-- notes:end -->
 
@@ -6884,6 +8071,38 @@
 ### 备注
 
 <!-- notes:start id="shared-b5726a7743fed1a66fec" -->
+
+<!-- notes:end -->
+
+## `shared-b6163bdc4de79b1a28df`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm116.txt [Psalm 116]
+**出现次数：** 21
+**使用时辰：** vesperae
+**代表日期：** 2026-01-05 vesperae, 2026-03-18 vesperae, 2026-04-30 vesperae, 2026-05-30 vesperae, 2026-12-24 vesperae
+
+### Latin
+
+> Psalmus 116 [5]
+> 116:1 Laudáte Dóminum, omnes gentes: * laudáte eum, omnes pópuli:
+> 116:2 Quóniam confirmáta est super nos misericórdia ejus: * et véritas Dómini manet in ætérnum.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-b6163bdc4de79b1a28df" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-b6163bdc4de79b1a28df" -->
 
 <!-- notes:end -->
 
@@ -7419,6 +8638,44 @@
 
 <!-- notes:end -->
 
+## `shared-c6e15081cd2b2a8e900c`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm109.txt [Psalm 109]
+**出现次数：** 33
+**使用时辰：** vesperae
+**代表日期：** 2026-01-18 vesperae, 2026-02-01 vesperae, 2026-02-22 vesperae, 2026-01-25 vesperae, 2026-02-08 vesperae
+
+### Latin
+
+> Psalmus 109 [1]
+> 109:1a  Dixit Dóminus Dómino meo: Sede a dextris meis:
+> 109:1b ‡ Donec ponam inimícos tuos, * scabéllum pedum tuórum.
+> 109:2 Virgam virtútis tuæ emíttet Dóminus ex Sion: * domináre in médio inimicórum tuórum.
+> 109:3 Tecum princípium in die virtútis tuæ in splendóribus sanctórum: * ex útero ante lucíferum génui te.
+> 109:4 Jurávit Dóminus, et non pœnitébit eum: * Tu es sacérdos in ætérnum secúndum órdinem Melchísedech.
+> 109:5 Dóminus a dextris tuis, * confrégit in die iræ suæ reges.
+> 109:6 Judicábit in natiónibus, implébit ruínas: * conquassábit cápita in terra multórum.
+> 109:7 De torrénte in via bibet: * proptérea exaltábit caput.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-c6e15081cd2b2a8e900c" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-c6e15081cd2b2a8e900c" -->
+
+<!-- notes:end -->
+
 ## `shared-c71596645656bc37a924`
 
 **类型：** psalm / shared-block
@@ -7546,6 +8803,41 @@
 ### 备注
 
 <!-- notes:start id="shared-c92f0f257dc00a38a709" -->
+
+<!-- notes:end -->
+
+## `shared-ccd4618e65adf88c0fe3`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm122.txt [Psalm 122]
+**出现次数：** 39
+**使用时辰：** vesperae
+**代表日期：** 2026-01-20 vesperae, 2026-02-03 vesperae, 2026-03-03 vesperae, 2026-04-14 vesperae, 2026-12-01 vesperae
+
+### Latin
+
+> Psalmus 122 [1]
+> 122:1 Ad te levávi óculos meos, * qui hábitas in cælis.
+> 122:2a Ecce, sicut óculi servórum * in mánibus dominórum suórum,
+> 122:2b Sicut óculi ancíllæ in mánibus dóminæ suæ: * ita óculi nostri ad Dóminum, Deum nostrum, donec misereátur nostri.
+> 122:3 Miserére nostri, Dómine, miserére nostri: * quia multum repléti sumus despectióne:
+> 122:4 Quia multum repléta est ánima nostra: * oppróbrium abundántibus, et despéctio supérbis.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-ccd4618e65adf88c0fe3" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-ccd4618e65adf88c0fe3" -->
 
 <!-- notes:end -->
 
@@ -8376,6 +9668,43 @@
 
 <!-- notes:end -->
 
+## `shared-dd0529775033496a676e`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm128.txt [Psalm 128]
+**出现次数：** 38
+**使用时辰：** vesperae
+**代表日期：** 2026-01-07 vesperae, 2026-01-14 vesperae, 2026-02-04 vesperae, 2026-02-25 vesperae, 2026-04-15 vesperae
+
+### Latin
+
+> Psalmus 128 [2]
+> 128:1 Sæpe expugnavérunt me a juventúte mea, * dicat nunc Israël.
+> 128:2 Sæpe expugnavérunt me a juventúte mea: * étenim non potuérunt mihi.
+> 128:3 Supra dorsum meum fabricavérunt peccatóres: * prolongavérunt iniquitátem suam.
+> 128:4 Dóminus justus concídit cervíces peccatórum: * (5) confundántur et convertántur retrórsum omnes, qui odérunt Sion.
+> 128:6 Fiant sicut fænum tectórum: * quod priúsquam evellátur, exáruit:
+> 128:7 De quo non implévit manum suam qui metit, * et sinum suum qui manípulos cólligit.
+> 128:8 Et non dixérunt qui præteríbant: Benedíctio Dómini super vos: * benedíximus vobis in nómine Dómini.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-dd0529775033496a676e" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-dd0529775033496a676e" -->
+
+<!-- notes:end -->
+
 ## `shared-dd0cc54a1991b212ec7b`
 
 **类型：** psalm / shared-block
@@ -8415,6 +9744,44 @@
 ### 备注
 
 <!-- notes:start id="shared-dd0cc54a1991b212ec7b" -->
+
+<!-- notes:end -->
+
+## `shared-dd13f3c4f6da2b402bf0`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm112.txt [Psalm 112]
+**出现次数：** 27
+**使用时辰：** vesperae
+**代表日期：** 2026-01-01 vesperae, 2026-02-02 vesperae, 2026-02-24 vesperae, 2026-04-25 vesperae, 2026-06-29 vesperae
+
+### Latin
+
+> Psalmus 112 [2]
+> 112:1 Laudáte, púeri, Dóminum: * laudáte nomen Dómini.
+> 112:2 (fit reverentia) Sit nomen Dómini benedíctum, * ex hoc nunc, et usque in sǽculum.
+> 112:3 A solis ortu usque ad occásum, * laudábile nomen Dómini.
+> 112:4 Excélsus super omnes gentes Dóminus, * et super cælos glória ejus.
+> 112:5 Quis sicut Dóminus, Deus noster, qui in altis hábitat, * (6) et humília réspicit in cælo et in terra?
+> 112:7 Súscitans a terra ínopem, * et de stércore érigens páuperem:
+> 112:8 Ut cóllocet eum cum princípibus, * cum princípibus pópuli sui.
+> 112:9 Qui habitáre facit stérilem in domo, * matrem filiórum lætántem.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-dd13f3c4f6da2b402bf0" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-dd13f3c4f6da2b402bf0" -->
 
 <!-- notes:end -->
 
@@ -8777,6 +10144,48 @@
 
 <!-- notes:end -->
 
+## `shared-e98798cd1184f4c178e5`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm138.txt [Psalm 138]
+**出现次数：** 38
+**使用时辰：** vesperae
+**代表日期：** 2026-01-02 vesperae, 2026-01-16 vesperae, 2026-02-06 vesperae, 2026-02-27 vesperae, 2026-12-04 vesperae
+
+### Latin
+
+> Psalmus 138(1-13) [1]
+> 138:1  Dómine, probásti me, et cognovísti me: * ‡ (2) tu cognovísti sessiónem meam, et resurrectiónem meam.
+> 138:3 Intellexísti cogitatiónes meas de longe: * sémitam meam, et funículum meum investigásti.
+> 138:4 Et omnes vias meas prævidísti: * quia non est sermo in lingua mea.
+> 138:5 Ecce, Dómine, tu cognovísti ómnia novíssima, et antíqua: * tu formásti me, et posuísti super me manum tuam.
+> 138:6 Mirábilis facta est sciéntia tua ex me: * confortáta est, et non pótero ad eam.
+> 138:7 Quo ibo a spíritu tuo? * et quo a fácie tua fúgiam?
+> 138:8 Si ascéndero in cælum, tu illic es: * si descéndero in inférnum, ades.
+> 138:9 Si súmpsero pennas meas dilúculo, * et habitávero in extrémis maris:
+> 138:10 Étenim illuc manus tua dedúcet me: * et tenébit me déxtera tua.
+> 138:11 Et dixi: Fórsitan ténebræ conculcábunt me: * et nox illuminátio mea in delíciis meis.
+> 138:12 Quia ténebræ non obscurabúntur a te, † et nox sicut dies illuminábitur: * sicut ténebræ ejus, ita et lumen ejus.
+> 138:13 Quia tu possedísti renes meos: * suscepísti me de útero matris meæ.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-e98798cd1184f4c178e5" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-e98798cd1184f4c178e5" -->
+
+<!-- notes:end -->
+
 ## `shared-e9ef408520e115fc8d62`
 
 **类型：** psalm / shared-block
@@ -8901,6 +10310,44 @@
 ### 备注
 
 <!-- notes:start id="shared-ed68c5ccb0ee72902d8c" -->
+
+<!-- notes:end -->
+
+## `shared-ee6d14c7a9600b53bfee`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm115.txt [Psalm 115]
+**出现次数：** 13
+**使用时辰：** vesperae
+**代表日期：** 2026-02-24 vesperae, 2026-04-25 vesperae, 2026-06-03 vesperae, 2026-12-21 vesperae, 2026-05-11 vesperae
+
+### Latin
+
+> Psalmus 115 [3]
+> 115:1 Crédidi, propter quod locútus sum: * ego autem humiliátus sum nimis.
+> 115:2 Ego dixi in excéssu meo: * Omnis homo mendax.
+> 115:3 Quid retríbuam Dómino, * pro ómnibus, quæ retríbuit mihi?
+> 115:4 Cálicem salutáris accípiam: * et nomen Dómini invocábo.
+> 115:5 Vota mea Dómino reddam coram omni pópulo ejus: * (6) pretiósa in conspéctu Dómini mors sanctórum ejus:
+> 115:7a O Dómine, quia ego servus tuus: * ego servus tuus, et fílius ancíllæ tuæ.
+> 115:7b Dirupísti víncula mea: † (8) tibi sacrificábo hóstiam laudis, * et nomen Dómini invocábo.
+> 115:9 Vota mea Dómino reddam in conspéctu omnis pópuli ejus: * (10) in átriis domus Dómini, in médio tui, Jerúsalem.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-ee6d14c7a9600b53bfee" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-ee6d14c7a9600b53bfee" -->
 
 <!-- notes:end -->
 
@@ -9129,6 +10576,44 @@
 
 <!-- notes:end -->
 
+## `shared-f318bcba549b2fc3b180`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm115.txt [Psalm 115]
+**出现次数：** 34
+**使用时辰：** vesperae
+**代表日期：** 2026-01-12 vesperae, 2026-01-19 vesperae, 2026-02-09 vesperae, 2026-02-23 vesperae, 2026-04-13 vesperae
+
+### Latin
+
+> Psalmus 115 [2]
+> 115:1 Crédidi, propter quod locútus sum: * ego autem humiliátus sum nimis.
+> 115:2 Ego dixi in excéssu meo: * Omnis homo mendax.
+> 115:3 Quid retríbuam Dómino, * pro ómnibus, quæ retríbuit mihi?
+> 115:4 Cálicem salutáris accípiam: * et nomen Dómini invocábo.
+> 115:5 Vota mea Dómino reddam coram omni pópulo ejus: * (6) pretiósa in conspéctu Dómini mors sanctórum ejus:
+> 115:7a O Dómine, quia ego servus tuus: * ego servus tuus, et fílius ancíllæ tuæ.
+> 115:7b Dirupísti víncula mea: † (8) tibi sacrificábo hóstiam laudis, * et nomen Dómini invocábo.
+> 115:9 Vota mea Dómino reddam in conspéctu omnis pópuli ejus: * (10) in átriis domus Dómini, in médio tui, Jerúsalem.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-f318bcba549b2fc3b180" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-f318bcba549b2fc3b180" -->
+
+<!-- notes:end -->
+
 ## `shared-f4273a2767a5db04b1ae`
 
 **类型：** psalm / shared-block
@@ -9247,6 +10732,40 @@
 ### 备注
 
 <!-- notes:start id="shared-f7f04250baf7f1924aae" -->
+
+<!-- notes:end -->
+
+## `shared-f8269d625796c2c038db`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm132.txt [Psalm 132]
+**出现次数：** 35
+**使用时辰：** vesperae
+**代表日期：** 2026-01-08 vesperae, 2026-01-15 vesperae, 2026-02-12 vesperae, 2026-02-26 vesperae, 2026-12-03 vesperae
+
+### Latin
+
+> Psalmus 132 [1]
+> 132:1  Ecce quam bonum et quam jucúndum, habitáre fratres in unum:
+> 132:2a ‡ Sicut unguéntum in cápite, * quod descéndit in barbam, barbam Aaron,
+> 132:2b Quod descéndit in oram vestiménti ejus: * (3a) sicut ros Hermon, qui descéndit in montem Sion.
+> 132:3b Quóniam illic mandávit Dóminus benedictiónem, * et vitam usque in sǽculum.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-f8269d625796c2c038db" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-f8269d625796c2c038db" -->
 
 <!-- notes:end -->
 
@@ -9423,6 +10942,45 @@
 ### 备注
 
 <!-- notes:start id="shared-fba000466ac195ee16d7" -->
+
+<!-- notes:end -->
+
+## `shared-fd3a42c214a61dec8328`
+
+**类型：** psalm / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Psalmorum/Psalm135.txt [Psalm 135]
+**出现次数：** 39
+**使用时辰：** vesperae
+**代表日期：** 2026-01-08 vesperae, 2026-01-15 vesperae, 2026-02-12 vesperae, 2026-02-26 vesperae, 2026-04-16 vesperae
+
+### Latin
+
+> Psalmus 135(1-9) [2]
+> 135:1 Confitémini Dómino quóniam bonus: * quóniam in ætérnum misericórdia ejus.
+> 135:2 Confitémini Deo deórum: * quóniam in ætérnum misericórdia ejus.
+> 135:3 Confitémini Dómino dominórum: * quóniam in ætérnum misericórdia ejus.
+> 135:4 Qui facit mirabília magna solus: * quóniam in ætérnum misericórdia ejus.
+> 135:5 Qui fecit cælos in intelléctu: * quóniam in ætérnum misericórdia ejus.
+> 135:6 Qui firmávit terram super aquas: * quóniam in ætérnum misericórdia ejus.
+> 135:7 Qui fecit luminária magna: * quóniam in ætérnum misericórdia ejus.
+> 135:8 Solem in potestátem diéi: * quóniam in ætérnum misericórdia ejus.
+> 135:9 Lunam, et stellas in potestátem noctis: * quóniam in ætérnum misericórdia ejus.
+> ℣. Glória Patri, et Fílio, * et Spirítui Sancto.
+> ℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-fd3a42c214a61dec8328" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-fd3a42c214a61dec8328" -->
 
 <!-- notes:end -->
 

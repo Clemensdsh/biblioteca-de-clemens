@@ -122,6 +122,36 @@
 
 <!-- notes:end -->
 
+## `shared-1e34b0938afb032b3ff5`
+
+**类型：** versicle / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Versus]
+**出现次数：** 25
+**使用时辰：** vesperae
+**代表日期：** 2026-02-21 vesperae, 2026-02-22 vesperae, 2026-02-23 vesperae, 2026-02-25 vesperae, 2026-02-26 vesperae
+
+### Latin
+
+> Versus
+> ℣. Ángelis suis Deus mandávit de te.
+> ℟. Ut custódiant te in ómnibus viis tuis.
+
+### 中文
+
+<!-- translation:start id="shared-1e34b0938afb032b3ff5" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-1e34b0938afb032b3ff5" -->
+
+<!-- notes:end -->
+
 ## `shared-20f0959b48e3ff5b01a2`
 
 **类型：** versicle / shared-block
@@ -362,6 +392,36 @@
 
 <!-- notes:end -->
 
+## `shared-4b3c34ae11247974e053`
+
+**类型：** versicle / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Versus]
+**出现次数：** 18
+**使用时辰：** vesperae
+**代表日期：** 2026-11-28 vesperae, 2026-11-29 vesperae, 2026-12-01 vesperae, 2026-12-05 vesperae, 2026-12-06 vesperae
+
+### Latin
+
+> Versus
+> ℣. Roráte, cæli, désuper, et nubes pluant justum.
+> ℟. Aperiátur terra, et gérminet Salvatórem.
+
+### 中文
+
+<!-- translation:start id="shared-4b3c34ae11247974e053" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-4b3c34ae11247974e053" -->
+
+<!-- notes:end -->
+
 ## `shared-51ff63bad160e87accb0`
 
 **类型：** versicle / shared-block
@@ -389,6 +449,36 @@
 ### 备注
 
 <!-- notes:start id="shared-51ff63bad160e87accb0" -->
+
+<!-- notes:end -->
+
+## `shared-53a0958ed0e3f1c059d2`
+
+**类型：** versicle / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Versus]
+**出现次数：** 25
+**使用时辰：** vesperae
+**代表日期：** 2026-01-17 vesperae, 2026-02-07 vesperae, 2026-01-24 vesperae, 2026-01-31 vesperae, 2026-02-14 vesperae
+
+### Latin
+
+> Versus
+> ℣. Vespertína orátio ascéndat ad te, Dómine.
+> ℟. Et descéndat super nos misericórdia tua.
+
+### 中文
+
+<!-- translation:start id="shared-53a0958ed0e3f1c059d2" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-53a0958ed0e3f1c059d2" -->
 
 <!-- notes:end -->
 
@@ -1289,5 +1379,95 @@
 ### 备注
 
 <!-- notes:start id="shared-e9c1e33ecf0ccada36df" -->
+
+<!-- notes:end -->
+
+## `shared-ea8b3f27ceb27a389049`
+
+**类型：** versicle / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Versus]
+**出现次数：** 8
+**使用时辰：** vesperae
+**代表日期：** 2026-02-24 vesperae, 2026-06-29 vesperae, 2026-12-21 vesperae, 2026-07-25 vesperae, 2026-08-24 vesperae
+
+### Latin
+
+> Versus
+> ℣. Annuntiavérunt ópera Dei.
+> ℟. Et facta ejus intellexérunt.
+
+### 中文
+
+<!-- translation:start id="shared-ea8b3f27ceb27a389049" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-ea8b3f27ceb27a389049" -->
+
+<!-- notes:end -->
+
+## `shared-f06b592aa1d1a253265c`
+
+**类型：** versicle / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Versus]
+**出现次数：** 17
+**使用时辰：** vesperae
+**代表日期：** 2026-01-21 vesperae, 2026-02-05 vesperae, 2026-12-02 vesperae, 2026-01-30 vesperae, 2026-02-10 vesperae
+
+### Latin
+
+> Versus
+> ℣. Diffúsa est grátia in lábiis tuis.
+> ℟. Proptérea benedíxit te Deus in ætérnum.
+
+### 中文
+
+<!-- translation:start id="shared-f06b592aa1d1a253265c" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-f06b592aa1d1a253265c" -->
+
+<!-- notes:end -->
+
+## `shared-f165d27b458112061e1e`
+
+**类型：** versicle / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Versus]
+**出现次数：** 3
+**使用时辰：** vesperae
+**代表日期：** 2026-02-11 vesperae, 2026-08-05 vesperae, 2026-08-22 vesperae
+
+### Latin
+
+> Versus
+> ℣. Dignáre me laudáre te, Virgo sacráta.
+> ℟. Da mihi virtútem contra hostes tuos.
+
+### 中文
+
+<!-- translation:start id="shared-f165d27b458112061e1e" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-f165d27b458112061e1e" -->
 
 <!-- notes:end -->

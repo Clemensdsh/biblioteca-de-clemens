@@ -1,6 +1,6 @@
 {
   "byHour": {
-    "calendar-metadata": 3716,
+    "calendar-metadata": 3722,
     "completorium": 7569,
     "laudes": 8869,
     "matutinum": 16312,
@@ -8,24 +8,23 @@
     "prima": 6149,
     "sexta": 4333,
     "tertia": 4333,
-    "vesperae": 3286
+    "vesperae": 8841
   },
   "bySourceCategory": {
-    "Commune": 8,
-    "Other": 3553,
-    "Psalterium": 50318,
+    "Other": 2850,
+    "Psalterium": 56590,
     "Rules": 3650,
     "Sancti": 230,
     "Tempora": 1141
   },
   "deprecatedOccurrences": 0,
-  "duplicateCanonicalIds": 1967,
-  "duplicateLatinHashes": 2149,
+  "duplicateCanonicalIds": 2471,
+  "duplicateLatinHashes": 2677,
   "exportConflicts": 0,
-  "metadataDisplayOccurrences": 3716,
-  "releaseOccurrences": 55184,
+  "metadataDisplayOccurrences": 3722,
+  "releaseOccurrences": 60739,
   "schemaVersion": "officium1962.full-occurrence-translation-jsonl.v1",
   "sorting": "hour-source-path-section-date-order-occurrenceId",
   "sourceRefsCompletePercent": 100,
-  "totalRecords": 58900
+  "totalRecords": 64461
 }

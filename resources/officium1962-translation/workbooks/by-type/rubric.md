@@ -176,35 +176,6 @@
 
 <!-- notes:end -->
 
-## `shared-a6457f49e5a42a682d9b`
-
-**类型：** rubric / shared-block
-**来源：** web/www/horas/Ordinarium/Vespera.txt [Psalmi{ex Psalterio secundum diem}]
-**出现次数：** 281
-**使用时辰：** vesperae
-**代表日期：** 2026-01-02 vesperae, 2026-01-14 vesperae, 2026-02-01 vesperae, 2026-02-22 vesperae, 2026-12-01 vesperae
-
-### Latin
-
-> Psalmi{ex Psalterio secundum diem}
-> Psalmi {ex Psalterio secundum diem}
-
-### 中文
-
-<!-- translation:start id="shared-a6457f49e5a42a682d9b" -->
-
-<!-- translation:end -->
-
-### 状态
-
-<!-- status: untranslated -->
-
-### 备注
-
-<!-- notes:start id="shared-a6457f49e5a42a682d9b" -->
-
-<!-- notes:end -->
-
 ## `shared-a8aed7bf02ccc4a9bfd1`
 
 **类型：** rubric / shared-block
@@ -260,35 +231,6 @@
 ### 备注
 
 <!-- notes:start id="shared-b9952f1ef5face7e168b" -->
-
-<!-- notes:end -->
-
-## `shared-e860c68644da7e2740ad`
-
-**类型：** rubric / shared-block
-**来源：** web/www/horas/Ordinarium/Vespera.txt [Capitulum Hymnus Versus omittitur]
-**出现次数：** 4
-**使用时辰：** vesperae
-**代表日期：** 2026-04-02 vesperae, 2026-11-02 vesperae, 2026-04-03 vesperae, 2026-04-04 vesperae
-
-### Latin
-
-> Capitulum Hymnus Versus omittitur
-> Capitulum Hymnus Versus{omittitur}
-
-### 中文
-
-<!-- translation:start id="shared-e860c68644da7e2740ad" -->
-
-<!-- translation:end -->
-
-### 状态
-
-<!-- status: untranslated -->
-
-### 备注
-
-<!-- notes:start id="shared-e860c68644da7e2740ad" -->
 
 <!-- notes:end -->
 

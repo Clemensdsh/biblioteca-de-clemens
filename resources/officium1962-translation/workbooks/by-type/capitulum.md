@@ -2,6 +2,38 @@
 
 本文件是 primary editable workbook。只编辑 marker 中间的中文、备注和 status 注释，不修改 Latin、ID 或标题。
 
+## `shared-07e09c2e075f986ceb4e`
+
+**类型：** capitulum / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Capitulum]
+**出现次数：** 2
+**使用时辰：** vesperae
+**代表日期：** 2026-02-21 vesperae, 2026-02-22 vesperae
+
+### Latin
+
+> Capitulum
+> Capitulum Hymnus Versus {ex Proprio de Tempore}
+> 2 Cor 6:1-2
+> Fratres: Hortámur vos, ne in vácuum grátiam Dei recipiátis. Ait enim: Témpore accépto exaudívi te, et in die salútis adjúvi te.
+> ℟. Deo grátias.
+
+### 中文
+
+<!-- translation:start id="shared-07e09c2e075f986ceb4e" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-07e09c2e075f986ceb4e" -->
+
+<!-- notes:end -->
+
 ## `shared-21bd43d946b99ca8d5b1`
 
 **类型：** capitulum / shared-block
@@ -31,6 +63,70 @@
 ### 备注
 
 <!-- notes:start id="shared-21bd43d946b99ca8d5b1" -->
+
+<!-- notes:end -->
+
+## `shared-4528536f9a4d68626aaa`
+
+**类型：** capitulum / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Capitulum]
+**出现次数：** 6
+**使用时辰：** vesperae
+**代表日期：** 2026-02-24 vesperae, 2026-07-25 vesperae, 2026-12-21 vesperae, 2026-08-24 vesperae, 2026-09-21 vesperae
+
+### Latin
+
+> Capitulum
+> Capitulum Hymnus Versus {ex Commune aut Festo}
+> Eph 2:19-20
+> Fratres: Jam non estis hóspites et ádvenæ: sed estis cives Sanctórum et doméstici Dei: superædificáti super fundaméntum Apostolórum, et Prophetárum, ipso summo angulári lápide Christo Jesu.
+> ℟. Deo grátias.
+
+### 中文
+
+<!-- translation:start id="shared-4528536f9a4d68626aaa" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-4528536f9a4d68626aaa" -->
+
+<!-- notes:end -->
+
+## `shared-6762029c559c0dfd4319`
+
+**类型：** capitulum / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Capitulum]
+**出现次数：** 2
+**使用时辰：** vesperae
+**代表日期：** 2026-11-28 vesperae, 2026-11-29 vesperae
+
+### Latin
+
+> Capitulum
+> Capitulum Hymnus Versus {ex Proprio de Tempore}
+> Rom 13:11
+> Fratres: Hora est jam nos de somno súrgere: nunc enim própior est nostra salus, quam cum credídimus.
+> ℟. Deo grátias.
+
+### 中文
+
+<!-- translation:start id="shared-6762029c559c0dfd4319" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-6762029c559c0dfd4319" -->
 
 <!-- notes:end -->
 
@@ -98,6 +194,38 @@
 
 <!-- notes:end -->
 
+## `shared-783a0e65af5202dd7e24`
+
+**类型：** capitulum / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Capitulum]
+**出现次数：** 8
+**使用时辰：** vesperae
+**代表日期：** 2026-05-04 vesperae, 2026-06-10 vesperae, 2026-07-08 vesperae, 2026-07-22 vesperae, 2026-08-21 vesperae
+
+### Latin
+
+> Capitulum
+> Capitulum Hymnus Versus {ex Commune aut Festo}
+> Prov. 31:10-11
+> Mulíerem fortem quis invéniet? Procul et de últimis fínibus prétium ejus. Confídit in ea cor viri sui, et spóliis non indigébit.
+> ℟. Deo grátias.
+
+### 中文
+
+<!-- translation:start id="shared-783a0e65af5202dd7e24" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-783a0e65af5202dd7e24" -->
+
+<!-- notes:end -->
+
 ## `shared-7cfc0e469ceac04ae7cb`
 
 **类型：** capitulum / shared-block
@@ -162,6 +290,70 @@
 
 <!-- notes:end -->
 
+## `shared-9b7c58e7096e7303e416`
+
+**类型：** capitulum / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Capitulum]
+**出现次数：** 9
+**使用时辰：** vesperae
+**代表日期：** 2026-01-30 vesperae, 2026-02-10 vesperae, 2026-12-02 vesperae, 2026-06-01 vesperae, 2026-06-19 vesperae
+
+### Latin
+
+> Capitulum
+> Capitulum Hymnus Versus {ex Commune aut Festo}
+> 2 Cor 10:17-18
+> Fratres: Qui gloriátur, in Dómino gloriétur. Non enim qui seípsum comméndat, ille probátus est; sed quem Deus comméndat.
+> ℟. Deo grátias.
+
+### 中文
+
+<!-- translation:start id="shared-9b7c58e7096e7303e416" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-9b7c58e7096e7303e416" -->
+
+<!-- notes:end -->
+
+## `shared-a0b0b4986399905e33a5`
+
+**类型：** capitulum / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Capitulum]
+**出现次数：** 2
+**使用时辰：** vesperae
+**代表日期：** 2026-05-23 vesperae, 2026-05-24 vesperae
+
+### Latin
+
+> Capitulum
+> Capitulum Hymnus Versus {ex Proprio de Tempore}
+> Act. 2:1-2
+> Cum compleréntur dies Pentecóstes, erant omnes discípuli páriter in eódem loco: et factus est repénte de cælo sonus, tamquam adveniéntis spíritus veheméntis, et replévit totam domum, ubi erant sedéntes.
+> ℟. Deo grátias.
+
+### 中文
+
+<!-- translation:start id="shared-a0b0b4986399905e33a5" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-a0b0b4986399905e33a5" -->
+
+<!-- notes:end -->
+
 ## `shared-ac51086f05eb31e3f8fd`
 
 **类型：** capitulum / shared-block
@@ -223,6 +415,38 @@
 ### 备注
 
 <!-- notes:start id="shared-b1d5affd72d3510a605a" -->
+
+<!-- notes:end -->
+
+## `shared-b7045f37b9be2b3bd190`
+
+**类型：** capitulum / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Capitulum]
+**出现次数：** 2
+**使用时辰：** vesperae
+**代表日期：** 2026-01-31 vesperae, 2026-02-01 vesperae
+
+### Latin
+
+> Capitulum
+> Capitulum Hymnus Versus {ex Proprio de Tempore}
+> 1 Cor 9:24
+> Fratres: Nescítis quod ii qui in stádio currunt, omnes quidem currunt, sed unus áccipit bravíum? Sic cúrrite ut comprehendátis.
+> ℟. Deo grátias.
+
+### 中文
+
+<!-- translation:start id="shared-b7045f37b9be2b3bd190" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-b7045f37b9be2b3bd190" -->
 
 <!-- notes:end -->
 

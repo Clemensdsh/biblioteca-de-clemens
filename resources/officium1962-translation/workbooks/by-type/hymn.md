@@ -2,6 +2,56 @@
 
 本文件是 primary editable workbook。只编辑 marker 中间的中文、备注和 status 注释，不修改 Latin、ID 或标题。
 
+## `shared-064c637f459067e3ace6`
+
+**类型：** hymn / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Hymnus]
+**出现次数：** 5
+**使用时辰：** vesperae
+**代表日期：** 2026-02-18 vesperae, 2026-08-26 vesperae, 2026-09-09 vesperae, 2026-09-23 vesperae, 2026-10-21 vesperae
+
+### Latin
+
+> Hymnus
+> Cæli Deus sanctíssime,
+> Qui lúcidas mundi plagas
+> Candóre pingis ígneo,
+> Augens decóro lúmine:
+> _
+> Quarto die qui flámmeam
+> Dum solis accéndis rotam,
+> Lunæ minístras órdinem,
+> Vagósque cursus síderum:
+> Ut nóctibus, vel lúmini
+> Diremptiónis términum,
+> Primórdiis et ménsium
+> Signum dares notíssimum;
+> Expélle noctem córdium:
+> Abstérge sordes méntium:
+> Resólve culpæ vínculum:
+> Evérte moles críminum.
+> Præsta, Pater piíssime,
+> Patríque compar Únice,
+> Cum Spíritu Paráclito
+> Regnans per omne sǽculum.
+> Amen.
+
+### 中文
+
+<!-- translation:start id="shared-064c637f459067e3ace6" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-064c637f459067e3ace6" -->
+
+<!-- notes:end -->
+
 ## `shared-0e3fa21c02d066368d2c`
 
 **类型：** hymn / shared-block
@@ -38,6 +88,64 @@
 ### 备注
 
 <!-- notes:start id="shared-0e3fa21c02d066368d2c" -->
+
+<!-- notes:end -->
+
+## `shared-15b03b201caf7d5aadc5`
+
+**类型：** hymn / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Hymnus]
+**出现次数：** 8
+**使用时辰：** vesperae
+**代表日期：** 2026-01-01 vesperae, 2026-12-24 vesperae, 2026-01-02 vesperae, 2026-12-25 vesperae, 2026-12-27 vesperae
+
+### Latin
+
+> Hymnus
+> Jesu, Redémptor ómnium,
+> Quem lucis ante oríginem
+> Parem patérnæ glóriæ
+> Pater suprémus édidit.
+> _
+> Tu lumen, et splendor Patris,
+> Tu spes perénnis ómnium,
+> Inténde quas fundunt preces
+> Tui per orbem sérvuli.
+> Meménto, rerum Cónditor,
+> Nostri quod olim córporis,
+> Sacráta ab alvo Vírginis
+> Nascéndo, formam súmpseris.
+> Testátur hoc præsens dies,
+> Currens per anni círculum,
+> Quod solus e sinu Patris
+> Mundi salus advéneris.
+> Hunc astra, tellus, ǽquora,
+> Hunc omne, quod cælo subest,
+> Salútis auctórem novæ
+> Novo salútat cántico.
+> Et nos, beáta quos sacri
+> Rigávit unda sánguinis,
+> Natális ob diem tui
+> Hymni tribútum sólvimus.
+> Jesu, tibi sit glória,
+> Qui natus es de Vírgine,
+> Cum Patre et almo Spíritu,
+> In sempitérna sǽcula.
+> Amen.
+
+### 中文
+
+<!-- translation:start id="shared-15b03b201caf7d5aadc5" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-15b03b201caf7d5aadc5" -->
 
 <!-- notes:end -->
 
@@ -242,6 +350,65 @@
 
 <!-- notes:end -->
 
+## `shared-62e70a6dec99ea258472`
+
+**类型：** hymn / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Hymnus]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-05-23 vesperae, 2026-05-24 vesperae, 2026-05-25 vesperae, 2026-05-26 vesperae, 2026-05-27 vesperae
+
+### Latin
+
+> Hymnus
+> Prima stropha hymni sequentis dicitur flexibus genibus.
+> Veni Creátor Spíritus,
+> Mentes tuórum vísita,
+> Imple supérna grátia,
+> Quæ tu creásti péctora.
+> _
+> Qui díceris Paráclitus,
+> Altíssimi donum Dei,
+> Fons vivus, ignis, cáritas,
+> Et spiritális únctio.
+> Tu septifórmis múnere,
+> Dígitus patérnæ déxteræ,
+> Tu rite promíssum Patris,
+> Sermóne ditans gúttura.
+> Accénde lumen sénsibus:
+> Infúnde amórem córdibus:
+> Infírma nostri córporis
+> Virtúte firmans pérpeti.
+> Hostem repéllas lóngius,
+> Pacémque dones prótinus:
+> Ductóre sic te prǽvio
+> Vitémus omne nóxium.
+> Per te sciámus da Patrem,
+> Noscámus atque Fílium,
+> Teque utriúsque Spíritum
+> Credámus omni témpore.
+> Deo Patri sit glória,
+> Et Fílio, qui a mórtuis
+> Surréxit, ac Paráclito,
+> In sæculórum sǽcula.
+> Amen.
+
+### 中文
+
+<!-- translation:start id="shared-62e70a6dec99ea258472" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-62e70a6dec99ea258472" -->
+
+<!-- notes:end -->
+
 ## `shared-834476864c1361724594`
 
 **类型：** hymn / shared-block
@@ -339,6 +506,56 @@
 
 <!-- notes:end -->
 
+## `shared-894b94a11957207e3729`
+
+**类型：** hymn / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Hymnus]
+**出现次数：** 4
+**使用时辰：** vesperae
+**代表日期：** 2026-03-18 vesperae, 2026-04-30 vesperae, 2026-03-19 vesperae, 2026-05-01 vesperae
+
+### Latin
+
+> Hymnus
+> Te, Joseph, célebrent ágmina cǽlitum,
+> Te cuncti résonent christíadum chori,
+> Qui clarus méritis, junctus est ínclitæ
+> Casto fœ́dere Vírgini.
+> _
+> Almo cum túmidam gérmine cónjugem
+> Admírans, dúbio tángeris ánxius,
+> Afflátu súperi Fláminis Angelus
+> Concéptum Púerum docet.
+> Tu natum Dóminum stringis, ad éxteras
+> Ægýpti prófugum tu séqueris plagas;
+> Amíssum Sólymis quæris, et ínvenis,
+> Miscens gáudia flétibus.
+> Post mortem réliquos sors pia cónsecrat,
+> Palmámque eméritos glória súscipit:
+> Tu vivens, Súperis par, frúeris Deo,
+> Mira sorte beátior.
+> Nobis, summa Trias, parce precántibus,
+> Da Joseph méritis sídera scándere:
+> Ut tandem líceat nos tibi pérpetim
+> Gratum prómere cánticum.
+> Amen.
+
+### 中文
+
+<!-- translation:start id="shared-894b94a11957207e3729" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-894b94a11957207e3729" -->
+
+<!-- notes:end -->
+
 ## `shared-ad2f0d7f3658d913994b`
 
 **类型：** hymn / shared-block
@@ -429,6 +646,60 @@
 ### 备注
 
 <!-- notes:start id="shared-b0f6b5e8bbb82d11c076" -->
+
+<!-- notes:end -->
+
+## `shared-b7bc18a53ac3762fe2c3`
+
+**类型：** hymn / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Hymnus]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-02-24 vesperae, 2026-07-25 vesperae, 2026-12-21 vesperae, 2026-08-24 vesperae, 2026-09-21 vesperae
+
+### Latin
+
+> Hymnus
+> Exsúltet orbis gáudiis:
+> Cælum resúltet láudibus:
+> Apostolórum glóriam
+> Tellus et astra cóncinunt.
+> _
+> Vos sæculórum júdices,
+> Et vera mundi lúmina:
+> Votis precámur córdium,
+> Audíte voces súpplicum.
+> Qui templa cæli cláuditis,
+> Serásque verbo sólvitis,
+> Nos a reátu nóxios
+> Solvi jubéte, quǽsumus.
+> Præcépta quorum prótinus
+> Languor salúsque séntiunt:
+> Sanáte mentes lánguidas:
+> Augéte nos virtútibus.
+> Ut, cum redíbit árbiter
+> In fine Christus sǽculi,
+> Nos sempitérni gáudii
+> Concédat esse cómpotes.
+> Patri, simúlque Fílio,
+> Tibíque Sancte Spíritus,
+> Sicut fuit, sit júgiter
+> Sæclum per omne glória.
+> Amen.
+
+### 中文
+
+<!-- translation:start id="shared-b7bc18a53ac3762fe2c3" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-b7bc18a53ac3762fe2c3" -->
 
 <!-- notes:end -->
 
@@ -633,5 +904,105 @@
 ### 备注
 
 <!-- notes:start id="shared-f1eeb3e61d5440057ce0" -->
+
+<!-- notes:end -->
+
+## `shared-f9da6b94eede8741700f`
+
+**类型：** hymn / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Hymnus]
+**出现次数：** 9
+**使用时辰：** vesperae
+**代表日期：** 2026-01-21 vesperae, 2026-02-05 vesperae, 2026-12-02 vesperae, 2026-02-10 vesperae, 2026-06-01 vesperae
+
+### Latin
+
+> Hymnus
+> Jesu, coróna Vírginum,
+> Quem Mater illa cóncipit
+> Quæ sola Virgo párturit,
+> Hæc vota clemens áccipe:
+> _
+> Qui pergis inter lília
+> Septus choréis Vírginum,
+> Sponsus decórus glória
+> Sponsísque reddens prǽmia.
+> Quocúmque tendis, Vírgines
+> Sequúntur, atque láudibus
+> Post te canéntes cúrsitant,
+> Hymnósque dulces pérsonant;
+> Te deprecámur súpplices,
+> Nostris ut addas sénsibus
+> Nescíre prorsus ómnia
+> Corruptiónis vúlnera.
+> Virtus, honor, laus, glória
+> Deo Patri cum Fílio,
+> Sancto simul Paráclito,
+> In sæculórum sǽcula.
+> Amen.
+
+### 中文
+
+<!-- translation:start id="shared-f9da6b94eede8741700f" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-f9da6b94eede8741700f" -->
+
+<!-- notes:end -->
+
+## `shared-fab88ac5bbbad347e01d`
+
+**类型：** hymn / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Special/Major Special.txt [Hymnus]
+**出现次数：** 6
+**使用时辰：** vesperae
+**代表日期：** 2026-05-04 vesperae, 2026-06-10 vesperae, 2026-08-21 vesperae, 2026-10-08 vesperae, 2026-10-16 vesperae
+
+### Latin
+
+> Hymnus
+> Fortem viríli péctore
+> Laudémus omnes féminam,
+> Quæ sanctitátis glória
+> Ubíque fulget ínclita.
+> _
+> Hæc sancto amóre sáucia,
+> Dum mundi amórem nóxium
+> Horréscit, ad cæléstia
+> Iter perégit árduum.
+> Carnem domans jejúniis,
+> Dulcíque mentem pábulo
+> Oratiónis nútriens,
+> Cæli potítur gáudiis.
+> Rex Christe, virtus fórtium,
+> Qui magna solus éfficis,
+> Hujus precátu, quǽsumus,
+> Audi benígnus súpplices.
+> Deo Patri sit glória,
+> Ejúsque soli Fílio,
+> Cum Spíritu Paráclito,
+> Nunc, et per omne sǽculum.
+> Amen.
+
+### 中文
+
+<!-- translation:start id="shared-fab88ac5bbbad347e01d" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-fab88ac5bbbad347e01d" -->
 
 <!-- notes:end -->

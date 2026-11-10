@@ -8121,7 +8121,17 @@
       "metadata": {
         "antiphonSource": {
           "path": "web/www/horas/Ordinarium/Vespera.txt",
-          "section": "Antiphona ad magnificat",
+          "section": "Antiphona",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        "capitulumSource": {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Capitulum",
           "transformation": [
             "getordinarium",
             "specials",
@@ -8131,7 +8141,7 @@
         },
         "collectSource": {
           "path": "web/www/horas/Ordinarium/Vespera.txt",
-          "section": "Oratio{ex Proprio Sanctorum}",
+          "section": "Oratio{ex Proprio de Tempore}",
           "transformation": [
             "getordinarium",
             "specials",
@@ -8142,7 +8152,17 @@
         "concurrenceResolvedByUpstream": true,
         "gospelCanticle": "magnificat",
         "hour": "vesperae",
-        "psalmodySource": "special"
+        "hymnSource": {
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Hymnus",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        },
+        "psalmodySource": "ferial-psalter"
       },
       "sections": [
         {
@@ -8154,12 +8174,12 @@
                 "gospelCanticle": "magnificat",
                 "includesAlleluia": false,
                 "includesGloriaPatri": true,
-                "vespersKind": "special"
+                "vespersKind": "ferial"
               },
               "occurrenceId": "office-1962-2026-01-24-vesperae-incipit",
               "order": 1,
               "relations": {
-                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-psalmi-empty",
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-psalmody-1-antiphon-open",
                 "parentSectionId": "2026-01-24-vesperae-gospel-canticle-1"
               },
               "role": "dialogue",
@@ -8188,30 +8208,50 @@
                 "canonicalId": "shared-4999a0fe82acf1409bf0"
               },
               "type": "dialogue"
-            },
+            }
+          ],
+          "kind": "gospel-canticle",
+          "metadata": {
+            "vespersKind": "ferial"
+          },
+          "sectionId": "2026-01-24-vesperae-gospel-canticle-1",
+          "title": {
+            "latin": "Canticum evangelicum"
+          }
+        },
+        {
+          "children": [
             {
-              "corpusId": "shared-a6457f49e5a42a682d9b",
-              "latin": "Psalmi{ex Psalterio secundum diem}\nPsalmi {ex Psalterio secundum diem}",
+              "corpusId": "shared-00dc0c7033a2468f17a1",
+              "latin": "Antiphona\nAnt. Benedíctus Dóminus * suscéptor meus et liberátor meus.",
               "metadata": {
-                "empty": true,
-                "emptyMajorSection": "psalmi",
+                "antiphonKey": "benedictus-dominus-susceptor-meus-et-liberator-meus",
                 "gospelCanticle": "magnificat",
-                "resolvedByUpstream": true,
-                "specialStructure": "special",
-                "vespersKind": "special"
+                "position": "before-psalmody",
+                "repeated": true,
+                "vespersKind": "ferial"
               },
-              "occurrenceId": "office-1962-2026-01-24-vesperae-psalmi-empty",
+              "occurrenceId": "office-1962-2026-01-24-vesperae-psalmody-1-antiphon-open",
               "order": 2,
               "relations": {
-                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-hymnus-empty",
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-143-1-8-1",
                 "previousOccurrenceId": "office-1962-2026-01-24-vesperae-incipit",
-                "parentSectionId": "2026-01-24-vesperae-gospel-canticle-1"
+                "parentSectionId": "2026-01-24-vesperae-psalmody-1"
               },
-              "role": "psalmi",
+              "role": "before-psalmody",
               "sourceRefs": [
                 {
+                  "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+                  "section": "Antiphona",
+                  "transformation": [
+                    "specials",
+                    "vesperae special text"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                },
+                {
                   "path": "web/www/horas/Ordinarium/Vespera.txt",
-                  "section": "Psalmi{ex Psalterio secundum diem}",
+                  "section": "Antiphona",
                   "transformation": [
                     "getordinarium",
                     "specials",
@@ -8221,30 +8261,812 @@
                 }
               ],
               "translationRef": {
-                "canonicalId": "shared-a6457f49e5a42a682d9b"
+                "canonicalId": "shared-00dc0c7033a2468f17a1"
               },
-              "type": "rubric"
+              "type": "antiphon"
             },
             {
-              "corpusId": "shared-4f8ccc096792bc424520",
-              "latin": "Hymnus",
+              "corpusId": "shared-6b6cb84c6e4dc434b510",
+              "latin": "Psalmus 143(1-8) [1]\n143:1 Benedíctus Dóminus, Deus meus, qui docet manus meas ad prǽlium, * et dígitos meos ad bellum.\n143:2 Misericórdia mea, et refúgium meum: * suscéptor meus, et liberátor meus:\n143:2 Protéctor meus, et in ipso sperávi: * qui subdit pópulum meum sub me.\n143:3 Dómine, quid est homo, quia innotuísti ei? * aut fílius hóminis, quia réputas eum?\n143:4 Homo vanitáti símilis factus est: * dies ejus sicut umbra prætéreunt.\n143:5 Dómine, inclína cælos tuos, et descénde: * tange montes, et fumigábunt.\n143:6 Fúlgura coruscatiónem, et dissipábis eos: * emítte sagíttas tuas, et conturbábis eos.\n143:7 Emítte manum tuam de alto, éripe me, et líbera me de aquis multis: * de manu filiórum alienórum.\n143:8 Quorum os locútum est vanitátem: * et déxtera eórum, déxtera iniquitátis.\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.",
               "metadata": {
-                "empty": true,
-                "emptyMajorSection": "hymnus",
+                "antiphonKey": "benedictus-dominus-susceptor-meus-et-liberator-meus",
+                "gloriaPatriOmitted": false,
                 "gospelCanticle": "magnificat",
-                "resolvedByUpstream": true,
-                "specialStructure": "special",
-                "vespersKind": "special"
+                "includesGloriaPatri": true,
+                "includesRequiemAeternam": false,
+                "psalmNumber": "143",
+                "psalmSourceNumber": "143",
+                "segment": "1-8",
+                "verses": [
+                  "143:1 Benedíctus Dóminus, Deus meus, qui docet manus meas ad prǽlium, * et dígitos meos ad bellum.",
+                  "143:2 Misericórdia mea, et refúgium meum: * suscéptor meus, et liberátor meus:",
+                  "143:2 Protéctor meus, et in ipso sperávi: * qui subdit pópulum meum sub me.",
+                  "143:3 Dómine, quid est homo, quia innotuísti ei? * aut fílius hóminis, quia réputas eum?",
+                  "143:4 Homo vanitáti símilis factus est: * dies ejus sicut umbra prætéreunt.",
+                  "143:5 Dómine, inclína cælos tuos, et descénde: * tange montes, et fumigábunt.",
+                  "143:6 Fúlgura coruscatiónem, et dissipábis eos: * emítte sagíttas tuas, et conturbábis eos.",
+                  "143:7 Emítte manum tuam de alto, éripe me, et líbera me de aquis multis: * de manu filiórum alienórum.",
+                  "143:8 Quorum os locútum est vanitátem: * et déxtera eórum, déxtera iniquitátis."
+                ],
+                "vespersKind": "ferial"
               },
-              "occurrenceId": "office-1962-2026-01-24-vesperae-hymnus-empty",
+              "occurrenceId": "office-1962-2026-01-24-vesperae-psalm-143-1-8-1",
               "order": 3,
               "relations": {
-                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-magnificat-antiphon-open",
-                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-psalmi-empty",
-                "parentSectionId": "2026-01-24-vesperae-gospel-canticle-1"
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-psalmody-1-antiphon-close",
+                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-psalmody-1-antiphon-open",
+                "parentSectionId": "2026-01-24-vesperae-psalmody-1"
               },
-              "role": "hymnus",
+              "role": "psalm",
               "sourceRefs": [
+                {
+                  "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm143.txt",
+                  "section": "Psalm 143",
+                  "transformation": [
+                    "resolve_refs",
+                    "psalm expansion"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                },
+                {
+                  "path": "web/www/horas/Ordinarium/Vespera.txt",
+                  "section": "Psalmus 143(1-8) [1]",
+                  "transformation": [
+                    "getordinarium",
+                    "specials",
+                    "parse-vesperae-block"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                }
+              ],
+              "translationRef": {
+                "canonicalId": "shared-6b6cb84c6e4dc434b510"
+              },
+              "type": "psalm"
+            },
+            {
+              "corpusId": "shared-617f2206978ced814785",
+              "latin": "Antiphona repetita\nAnt. Benedíctus Dóminus suscéptor meus et liberátor meus.",
+              "metadata": {
+                "antiphonKey": "benedictus-dominus-susceptor-meus-et-liberator-meus",
+                "gospelCanticle": "magnificat",
+                "position": "after-psalmody",
+                "repeated": true,
+                "vespersKind": "ferial"
+              },
+              "occurrenceId": "office-1962-2026-01-24-vesperae-psalmody-1-antiphon-close",
+              "order": 4,
+              "relations": {
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-143-9-15-2-antiphon-open",
+                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-143-1-8-1",
+                "parentSectionId": "2026-01-24-vesperae-psalmody-1"
+              },
+              "role": "after-psalmody",
+              "sourceRefs": [
+                {
+                  "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+                  "section": "Antiphona repetita",
+                  "transformation": [
+                    "specials",
+                    "vesperae special text"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                },
+                {
+                  "path": "web/www/horas/Ordinarium/Vespera.txt",
+                  "section": "Antiphona repetita",
+                  "transformation": [
+                    "getordinarium",
+                    "specials",
+                    "parse-vesperae-block"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                }
+              ],
+              "translationRef": {
+                "canonicalId": "shared-617f2206978ced814785"
+              },
+              "type": "antiphon"
+            },
+            {
+              "corpusId": "shared-72f5646c048bc94c38bf",
+              "latin": "Antiphona\nAnt. Beátus pópulus * cujus Dóminus Deus ejus.",
+              "metadata": {
+                "antiphonKey": "beatus-populus-cujus-dominus-deus-ejus",
+                "gospelCanticle": "magnificat",
+                "position": "before-psalmody",
+                "repeated": true,
+                "vespersKind": "ferial"
+              },
+              "occurrenceId": "office-1962-2026-01-24-vesperae-psalm-143-9-15-2-antiphon-open",
+              "order": 5,
+              "relations": {
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-143-9-15-2",
+                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-psalmody-1-antiphon-close",
+                "parentSectionId": "2026-01-24-vesperae-psalmody-1"
+              },
+              "role": "before-psalmody",
+              "sourceRefs": [
+                {
+                  "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+                  "section": "Antiphona",
+                  "transformation": [
+                    "specials",
+                    "vesperae special text"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                },
+                {
+                  "path": "web/www/horas/Ordinarium/Vespera.txt",
+                  "section": "Antiphona",
+                  "transformation": [
+                    "getordinarium",
+                    "specials",
+                    "parse-vesperae-block"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                }
+              ],
+              "translationRef": {
+                "canonicalId": "shared-72f5646c048bc94c38bf"
+              },
+              "type": "antiphon"
+            },
+            {
+              "corpusId": "shared-5d7ba7bb3492a81153c8",
+              "latin": "Psalmus 143(9-15) [2]\n143:9 Deus, cánticum novum cantábo tibi: * in psaltério decachórdo psallam tibi.\n143:10 Qui das salútem régibus: * qui redemísti David, servum tuum, de gládio malígno: éripe me.\n143:11 Et érue me de manu filiórum alienórum, quorum os locútum est vanitátem: * et déxtera eórum, déxtera iniquitátis:\n143:12 Quorum fílii, sicut novéllæ plantatiónes * in juventúte sua.\n143:12 Fíliæ eórum compósitæ: * circumornátæ ut similitúdo templi.\n143:13 Promptuária eórum plena, * eructántia ex hoc in illud.\n143:13 Oves eórum fœtósæ, abundántes in egréssibus suis: * boves eórum crassæ.\n143:14 Non est ruína macériæ, neque tránsitus: * neque clamor in platéis eórum.\n143:15 Beátum dixérunt pópulum, cui hæc sunt: * beátus pópulus, cujus Dóminus Deus ejus.\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.",
+              "metadata": {
+                "antiphonKey": "beatus-populus-cujus-dominus-deus-ejus",
+                "gloriaPatriOmitted": false,
+                "gospelCanticle": "magnificat",
+                "includesGloriaPatri": true,
+                "includesRequiemAeternam": false,
+                "psalmNumber": "143",
+                "psalmSourceNumber": "143",
+                "segment": "9-15",
+                "verses": [
+                  "143:9 Deus, cánticum novum cantábo tibi: * in psaltério decachórdo psallam tibi.",
+                  "143:10 Qui das salútem régibus: * qui redemísti David, servum tuum, de gládio malígno: éripe me.",
+                  "143:11 Et érue me de manu filiórum alienórum, quorum os locútum est vanitátem: * et déxtera eórum, déxtera iniquitátis:",
+                  "143:12 Quorum fílii, sicut novéllæ plantatiónes * in juventúte sua.",
+                  "143:12 Fíliæ eórum compósitæ: * circumornátæ ut similitúdo templi.",
+                  "143:13 Promptuária eórum plena, * eructántia ex hoc in illud.",
+                  "143:13 Oves eórum fœtósæ, abundántes in egréssibus suis: * boves eórum crassæ.",
+                  "143:14 Non est ruína macériæ, neque tránsitus: * neque clamor in platéis eórum.",
+                  "143:15 Beátum dixérunt pópulum, cui hæc sunt: * beátus pópulus, cujus Dóminus Deus ejus."
+                ],
+                "vespersKind": "ferial"
+              },
+              "occurrenceId": "office-1962-2026-01-24-vesperae-psalm-143-9-15-2",
+              "order": 6,
+              "relations": {
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-143-9-15-2-antiphon-close",
+                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-143-9-15-2-antiphon-open",
+                "parentSectionId": "2026-01-24-vesperae-psalmody-1"
+              },
+              "role": "psalm",
+              "sourceRefs": [
+                {
+                  "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm143.txt",
+                  "section": "Psalm 143",
+                  "transformation": [
+                    "resolve_refs",
+                    "psalm expansion"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                },
+                {
+                  "path": "web/www/horas/Ordinarium/Vespera.txt",
+                  "section": "Psalmus 143(9-15) [2]",
+                  "transformation": [
+                    "getordinarium",
+                    "specials",
+                    "parse-vesperae-block"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                }
+              ],
+              "translationRef": {
+                "canonicalId": "shared-5d7ba7bb3492a81153c8"
+              },
+              "type": "psalm"
+            },
+            {
+              "corpusId": "shared-ab640bf434e9182a9716",
+              "latin": "Antiphona repetita\nAnt. Beátus pópulus cujus Dóminus Deus ejus.",
+              "metadata": {
+                "antiphonKey": "beatus-populus-cujus-dominus-deus-ejus",
+                "gospelCanticle": "magnificat",
+                "position": "after-psalmody",
+                "repeated": true,
+                "vespersKind": "ferial"
+              },
+              "occurrenceId": "office-1962-2026-01-24-vesperae-psalm-143-9-15-2-antiphon-close",
+              "order": 7,
+              "relations": {
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-1-7-3-antiphon-open",
+                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-143-9-15-2",
+                "parentSectionId": "2026-01-24-vesperae-psalmody-1"
+              },
+              "role": "after-psalmody",
+              "sourceRefs": [
+                {
+                  "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+                  "section": "Antiphona repetita",
+                  "transformation": [
+                    "specials",
+                    "vesperae special text"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                },
+                {
+                  "path": "web/www/horas/Ordinarium/Vespera.txt",
+                  "section": "Antiphona repetita",
+                  "transformation": [
+                    "getordinarium",
+                    "specials",
+                    "parse-vesperae-block"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                }
+              ],
+              "translationRef": {
+                "canonicalId": "shared-ab640bf434e9182a9716"
+              },
+              "type": "antiphon"
+            },
+            {
+              "corpusId": "shared-5a7b2588eb318b7d7f54",
+              "latin": "Antiphona\nAnt. Magnus Dóminus * et laudábilis nimis: et magnitúdinis ejus non est finis.",
+              "metadata": {
+                "antiphonKey": "magnus-dominus-et-laudabilis-nimis-et-magnitudinis-ejus-non-est-finis",
+                "gospelCanticle": "magnificat",
+                "position": "before-psalmody",
+                "repeated": true,
+                "vespersKind": "ferial"
+              },
+              "occurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-1-7-3-antiphon-open",
+              "order": 8,
+              "relations": {
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-1-7-3",
+                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-143-9-15-2-antiphon-close",
+                "parentSectionId": "2026-01-24-vesperae-psalmody-1"
+              },
+              "role": "before-psalmody",
+              "sourceRefs": [
+                {
+                  "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+                  "section": "Antiphona",
+                  "transformation": [
+                    "specials",
+                    "vesperae special text"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                },
+                {
+                  "path": "web/www/horas/Ordinarium/Vespera.txt",
+                  "section": "Antiphona",
+                  "transformation": [
+                    "getordinarium",
+                    "specials",
+                    "parse-vesperae-block"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                }
+              ],
+              "translationRef": {
+                "canonicalId": "shared-5a7b2588eb318b7d7f54"
+              },
+              "type": "antiphon"
+            },
+            {
+              "corpusId": "shared-a38787da52cd30560875",
+              "latin": "Psalmus 144(1-7) [3]\n144:1 Exaltábo te, Deus meus, rex: * et benedícam nómini tuo in sǽculum, et in sǽculum sǽculi.\n144:2 Per síngulos dies benedícam tibi: * et laudábo nomen tuum in sǽculum, et in sǽculum sǽculi.\n144:3 Magnus Dóminus, et laudábilis nimis: * et magnitúdinis ejus non est finis.\n144:4 Generátio et generátio laudábit ópera tua: * et poténtiam tuam pronuntiábunt.\n144:5 Magnificéntiam glóriæ sanctitátis tuæ loquéntur: * et mirabília tua narrábunt.\n144:6 Et virtútem terribílium tuórum dicent: * et magnitúdinem tuam narrábunt.\n144:7 Memóriam abundántiæ suavitátis tuæ eructábunt: * et justítia tua exsultábunt.\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.",
+              "metadata": {
+                "antiphonKey": "magnus-dominus-et-laudabilis-nimis-et-magnitudinis-ejus-non-est-finis",
+                "gloriaPatriOmitted": false,
+                "gospelCanticle": "magnificat",
+                "includesGloriaPatri": true,
+                "includesRequiemAeternam": false,
+                "psalmNumber": "144",
+                "psalmSourceNumber": "144",
+                "segment": "1-7",
+                "verses": [
+                  "144:1 Exaltábo te, Deus meus, rex: * et benedícam nómini tuo in sǽculum, et in sǽculum sǽculi.",
+                  "144:2 Per síngulos dies benedícam tibi: * et laudábo nomen tuum in sǽculum, et in sǽculum sǽculi.",
+                  "144:3 Magnus Dóminus, et laudábilis nimis: * et magnitúdinis ejus non est finis.",
+                  "144:4 Generátio et generátio laudábit ópera tua: * et poténtiam tuam pronuntiábunt.",
+                  "144:5 Magnificéntiam glóriæ sanctitátis tuæ loquéntur: * et mirabília tua narrábunt.",
+                  "144:6 Et virtútem terribílium tuórum dicent: * et magnitúdinem tuam narrábunt.",
+                  "144:7 Memóriam abundántiæ suavitátis tuæ eructábunt: * et justítia tua exsultábunt."
+                ],
+                "vespersKind": "ferial"
+              },
+              "occurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-1-7-3",
+              "order": 9,
+              "relations": {
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-1-7-3-antiphon-close",
+                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-1-7-3-antiphon-open",
+                "parentSectionId": "2026-01-24-vesperae-psalmody-1"
+              },
+              "role": "psalm",
+              "sourceRefs": [
+                {
+                  "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm144.txt",
+                  "section": "Psalm 144",
+                  "transformation": [
+                    "resolve_refs",
+                    "psalm expansion"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                },
+                {
+                  "path": "web/www/horas/Ordinarium/Vespera.txt",
+                  "section": "Psalmus 144(1-7) [3]",
+                  "transformation": [
+                    "getordinarium",
+                    "specials",
+                    "parse-vesperae-block"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                }
+              ],
+              "translationRef": {
+                "canonicalId": "shared-a38787da52cd30560875"
+              },
+              "type": "psalm"
+            },
+            {
+              "corpusId": "shared-72ae54e11782334346c9",
+              "latin": "Antiphona repetita\nAnt. Magnus Dóminus et laudábilis nimis: et magnitúdinis ejus non est finis.",
+              "metadata": {
+                "antiphonKey": "magnus-dominus-et-laudabilis-nimis-et-magnitudinis-ejus-non-est-finis",
+                "gospelCanticle": "magnificat",
+                "position": "after-psalmody",
+                "repeated": true,
+                "vespersKind": "ferial"
+              },
+              "occurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-1-7-3-antiphon-close",
+              "order": 10,
+              "relations": {
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-8-13a-4-antiphon-open",
+                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-1-7-3",
+                "parentSectionId": "2026-01-24-vesperae-psalmody-1"
+              },
+              "role": "after-psalmody",
+              "sourceRefs": [
+                {
+                  "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+                  "section": "Antiphona repetita",
+                  "transformation": [
+                    "specials",
+                    "vesperae special text"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                },
+                {
+                  "path": "web/www/horas/Ordinarium/Vespera.txt",
+                  "section": "Antiphona repetita",
+                  "transformation": [
+                    "getordinarium",
+                    "specials",
+                    "parse-vesperae-block"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                }
+              ],
+              "translationRef": {
+                "canonicalId": "shared-72ae54e11782334346c9"
+              },
+              "type": "antiphon"
+            },
+            {
+              "corpusId": "shared-b3fe4a04439cc00b28c2",
+              "latin": "Antiphona\nAnt. Suávis Dóminus * univérsis: et miseratiónes ejus super ómnia ópera ejus.",
+              "metadata": {
+                "antiphonKey": "suavis-dominus-universis-et-miserationes-ejus-super-omnia-opera-ejus",
+                "gospelCanticle": "magnificat",
+                "position": "before-psalmody",
+                "repeated": true,
+                "vespersKind": "ferial"
+              },
+              "occurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-8-13a-4-antiphon-open",
+              "order": 11,
+              "relations": {
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-8-13a-4",
+                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-1-7-3-antiphon-close",
+                "parentSectionId": "2026-01-24-vesperae-psalmody-1"
+              },
+              "role": "before-psalmody",
+              "sourceRefs": [
+                {
+                  "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+                  "section": "Antiphona",
+                  "transformation": [
+                    "specials",
+                    "vesperae special text"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                },
+                {
+                  "path": "web/www/horas/Ordinarium/Vespera.txt",
+                  "section": "Antiphona",
+                  "transformation": [
+                    "getordinarium",
+                    "specials",
+                    "parse-vesperae-block"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                }
+              ],
+              "translationRef": {
+                "canonicalId": "shared-b3fe4a04439cc00b28c2"
+              },
+              "type": "antiphon"
+            },
+            {
+              "corpusId": "shared-745379f84a5dbc824656",
+              "latin": "Psalmus 144(8-13a) [4]\n144:8 Miserátor, et miséricors Dóminus: * pátiens, et multum miséricors.\n144:9 Suávis Dóminus univérsis: * et miseratiónes ejus super ómnia ópera ejus.\n144:10 Confiteántur tibi, Dómine, ómnia ópera tua: * et sancti tui benedícant tibi.\n144:11 Glóriam regni tui dicent: * et poténtiam tuam loquéntur:\n144:12 Ut notam fáciant fíliis hóminum poténtiam tuam: * et glóriam magnificéntiæ regni tui.\n144:13a Regnum tuum regnum ómnium sæculórum: * et dominátio tua in omni generatióne et generatiónem.\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.",
+              "metadata": {
+                "antiphonKey": "suavis-dominus-universis-et-miserationes-ejus-super-omnia-opera-ejus",
+                "gloriaPatriOmitted": false,
+                "gospelCanticle": "magnificat",
+                "includesGloriaPatri": true,
+                "includesRequiemAeternam": false,
+                "psalmNumber": "144",
+                "psalmSourceNumber": "144",
+                "segment": "8-13a",
+                "verses": [
+                  "144:8 Miserátor, et miséricors Dóminus: * pátiens, et multum miséricors.",
+                  "144:9 Suávis Dóminus univérsis: * et miseratiónes ejus super ómnia ópera ejus.",
+                  "144:10 Confiteántur tibi, Dómine, ómnia ópera tua: * et sancti tui benedícant tibi.",
+                  "144:11 Glóriam regni tui dicent: * et poténtiam tuam loquéntur:",
+                  "144:12 Ut notam fáciant fíliis hóminum poténtiam tuam: * et glóriam magnificéntiæ regni tui.",
+                  "144:13a Regnum tuum regnum ómnium sæculórum: * et dominátio tua in omni generatióne et generatiónem."
+                ],
+                "vespersKind": "ferial"
+              },
+              "occurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-8-13a-4",
+              "order": 12,
+              "relations": {
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-8-13a-4-antiphon-close",
+                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-8-13a-4-antiphon-open",
+                "parentSectionId": "2026-01-24-vesperae-psalmody-1"
+              },
+              "role": "psalm",
+              "sourceRefs": [
+                {
+                  "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm144.txt",
+                  "section": "Psalm 144",
+                  "transformation": [
+                    "resolve_refs",
+                    "psalm expansion"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                },
+                {
+                  "path": "web/www/horas/Ordinarium/Vespera.txt",
+                  "section": "Psalmus 144(8-13a) [4]",
+                  "transformation": [
+                    "getordinarium",
+                    "specials",
+                    "parse-vesperae-block"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                }
+              ],
+              "translationRef": {
+                "canonicalId": "shared-745379f84a5dbc824656"
+              },
+              "type": "psalm"
+            },
+            {
+              "corpusId": "shared-45891f12f6f04bedcd51",
+              "latin": "Antiphona repetita\nAnt. Suávis Dóminus univérsis: et miseratiónes ejus super ómnia ópera ejus.",
+              "metadata": {
+                "antiphonKey": "suavis-dominus-universis-et-miserationes-ejus-super-omnia-opera-ejus",
+                "gospelCanticle": "magnificat",
+                "position": "after-psalmody",
+                "repeated": true,
+                "vespersKind": "ferial"
+              },
+              "occurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-8-13a-4-antiphon-close",
+              "order": 13,
+              "relations": {
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-13b-21-5-antiphon-open",
+                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-8-13a-4",
+                "parentSectionId": "2026-01-24-vesperae-psalmody-1"
+              },
+              "role": "after-psalmody",
+              "sourceRefs": [
+                {
+                  "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+                  "section": "Antiphona repetita",
+                  "transformation": [
+                    "specials",
+                    "vesperae special text"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                },
+                {
+                  "path": "web/www/horas/Ordinarium/Vespera.txt",
+                  "section": "Antiphona repetita",
+                  "transformation": [
+                    "getordinarium",
+                    "specials",
+                    "parse-vesperae-block"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                }
+              ],
+              "translationRef": {
+                "canonicalId": "shared-45891f12f6f04bedcd51"
+              },
+              "type": "antiphon"
+            },
+            {
+              "corpusId": "shared-5fb66bec60b40b836480",
+              "latin": "Antiphona\nAnt. Fidélis Dóminus * in ómnibus verbis suis: et sanctus in ómnibus opéribus suis. ‡",
+              "metadata": {
+                "antiphonKey": "fidelis-dominus-in-omnibus-verbis-suis-et-sanctus-in-omnibus-operibus-suis",
+                "gospelCanticle": "magnificat",
+                "position": "before-psalmody",
+                "repeated": true,
+                "vespersKind": "ferial"
+              },
+              "occurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-13b-21-5-antiphon-open",
+              "order": 14,
+              "relations": {
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-13b-21-5",
+                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-8-13a-4-antiphon-close",
+                "parentSectionId": "2026-01-24-vesperae-psalmody-1"
+              },
+              "role": "before-psalmody",
+              "sourceRefs": [
+                {
+                  "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+                  "section": "Antiphona",
+                  "transformation": [
+                    "specials",
+                    "vesperae special text"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                },
+                {
+                  "path": "web/www/horas/Ordinarium/Vespera.txt",
+                  "section": "Antiphona",
+                  "transformation": [
+                    "getordinarium",
+                    "specials",
+                    "parse-vesperae-block"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                }
+              ],
+              "translationRef": {
+                "canonicalId": "shared-5fb66bec60b40b836480"
+              },
+              "type": "antiphon"
+            },
+            {
+              "corpusId": "shared-34fa53f1a09292ca8596",
+              "latin": "Psalmus 144(13b-21) [5]\n144:13b  Fidélis Dóminus in ómnibus verbis suis: et sanctus in ómnibus opéribus suis.\n144:14 ‡ Állevat Dóminus omnes qui córruunt: * et érigit omnes elísos.\n144:15 Óculi ómnium in te sperant, Dómine: * et tu das escam illórum in témpore opportúno.\n144:16 Áperis tu manum tuam: * et imples omne ánimal benedictióne.\n144:17 Justus Dóminus in ómnibus viis suis: * et sanctus in ómnibus opéribus suis.\n144:18 Prope est Dóminus ómnibus invocántibus eum: * ómnibus invocántibus eum in veritáte.\n144:19 Voluntátem timéntium se fáciet: † et deprecatiónem eórum exáudiet: * et salvos fáciet eos.\n144:20 Custódit Dóminus omnes diligéntes se: * et omnes peccatóres dispérdet.\n144:21 Laudatiónem Dómini loquétur os meum: * et benedícat omnis caro nómini sancto ejus in sǽculum, et in sǽculum sǽculi.\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.",
+              "metadata": {
+                "antiphonKey": "fidelis-dominus-in-omnibus-verbis-suis-et-sanctus-in-omnibus-operibus-suis",
+                "gloriaPatriOmitted": false,
+                "gospelCanticle": "magnificat",
+                "includesGloriaPatri": true,
+                "includesRequiemAeternam": false,
+                "psalmNumber": "144",
+                "psalmSourceNumber": "144",
+                "segment": "13b-21",
+                "verses": [
+                  "144:13b  Fidélis Dóminus in ómnibus verbis suis: et sanctus in ómnibus opéribus suis.",
+                  "144:14 ‡ Állevat Dóminus omnes qui córruunt: * et érigit omnes elísos.",
+                  "144:15 Óculi ómnium in te sperant, Dómine: * et tu das escam illórum in témpore opportúno.",
+                  "144:16 Áperis tu manum tuam: * et imples omne ánimal benedictióne.",
+                  "144:17 Justus Dóminus in ómnibus viis suis: * et sanctus in ómnibus opéribus suis.",
+                  "144:18 Prope est Dóminus ómnibus invocántibus eum: * ómnibus invocántibus eum in veritáte.",
+                  "144:19 Voluntátem timéntium se fáciet: † et deprecatiónem eórum exáudiet: * et salvos fáciet eos.",
+                  "144:20 Custódit Dóminus omnes diligéntes se: * et omnes peccatóres dispérdet.",
+                  "144:21 Laudatiónem Dómini loquétur os meum: * et benedícat omnis caro nómini sancto ejus in sǽculum, et in sǽculum sǽculi."
+                ],
+                "vespersKind": "ferial"
+              },
+              "occurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-13b-21-5",
+              "order": 15,
+              "relations": {
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-13b-21-5-antiphon-close",
+                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-13b-21-5-antiphon-open",
+                "parentSectionId": "2026-01-24-vesperae-psalmody-1"
+              },
+              "role": "psalm",
+              "sourceRefs": [
+                {
+                  "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm144.txt",
+                  "section": "Psalm 144",
+                  "transformation": [
+                    "resolve_refs",
+                    "psalm expansion"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                },
+                {
+                  "path": "web/www/horas/Ordinarium/Vespera.txt",
+                  "section": "Psalmus 144(13b-21) [5]",
+                  "transformation": [
+                    "getordinarium",
+                    "specials",
+                    "parse-vesperae-block"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                }
+              ],
+              "translationRef": {
+                "canonicalId": "shared-34fa53f1a09292ca8596"
+              },
+              "type": "psalm"
+            },
+            {
+              "corpusId": "shared-f7ddf530992941b5a566",
+              "latin": "Antiphona repetita\nAnt. Fidélis Dóminus in ómnibus verbis suis: et sanctus in ómnibus opéribus suis.",
+              "metadata": {
+                "antiphonKey": "fidelis-dominus-in-omnibus-verbis-suis-et-sanctus-in-omnibus-operibus-suis",
+                "gospelCanticle": "magnificat",
+                "position": "after-psalmody",
+                "repeated": true,
+                "vespersKind": "ferial"
+              },
+              "occurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-13b-21-5-antiphon-close",
+              "order": 16,
+              "relations": {
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-capitulum",
+                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-13b-21-5",
+                "parentSectionId": "2026-01-24-vesperae-psalmody-1"
+              },
+              "role": "after-psalmody",
+              "sourceRefs": [
+                {
+                  "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+                  "section": "Antiphona repetita",
+                  "transformation": [
+                    "specials",
+                    "vesperae special text"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                },
+                {
+                  "path": "web/www/horas/Ordinarium/Vespera.txt",
+                  "section": "Antiphona repetita",
+                  "transformation": [
+                    "getordinarium",
+                    "specials",
+                    "parse-vesperae-block"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                }
+              ],
+              "translationRef": {
+                "canonicalId": "shared-f7ddf530992941b5a566"
+              },
+              "type": "antiphon"
+            }
+          ],
+          "kind": "psalmody",
+          "metadata": {
+            "repetitionRole": "repeat",
+            "vespersKind": "ferial"
+          },
+          "sectionId": "2026-01-24-vesperae-psalmody-1",
+          "title": {
+            "latin": "Psalmody"
+          }
+        },
+        {
+          "children": [
+            {
+              "corpusId": "shared-4062c1cc6f0e8f7a0101",
+              "latin": "Capitulum\nCapitulum Hymnus Versus {ex Psalterio secundum diem}\nRom 11:33\nO Altitúdo divitiárum sapiéntiæ, et sciéntiæ Dei, quam incomprehensibília sunt judícia ejus, et investigábiles viæ ejus!\n℟. Deo grátias.",
+              "metadata": {
+                "citation": "Rom 11:33",
+                "gospelCanticle": "magnificat",
+                "includesTuAutem": false,
+                "sourceKind": "ordinary",
+                "vespersKind": "ferial"
+              },
+              "occurrenceId": "office-1962-2026-01-24-vesperae-capitulum",
+              "order": 17,
+              "relations": {
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-hymnus",
+                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-psalm-144-13b-21-5-antiphon-close",
+                "parentSectionId": "2026-01-24-vesperae-gospel-canticle-2"
+              },
+              "role": "capitulum",
+              "sourceRefs": [
+                {
+                  "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+                  "section": "Capitulum",
+                  "transformation": [
+                    "specials",
+                    "vesperae special text"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                },
+                {
+                  "path": "web/www/horas/Ordinarium/Vespera.txt",
+                  "section": "Capitulum",
+                  "transformation": [
+                    "getordinarium",
+                    "specials",
+                    "parse-vesperae-block"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                }
+              ],
+              "translationRef": {
+                "canonicalId": "shared-4062c1cc6f0e8f7a0101"
+              },
+              "type": "capitulum"
+            }
+          ],
+          "kind": "gospel-canticle",
+          "metadata": {
+            "vespersKind": "ferial"
+          },
+          "sectionId": "2026-01-24-vesperae-gospel-canticle-2",
+          "title": {
+            "latin": "Canticum evangelicum 2"
+          }
+        },
+        {
+          "children": [
+            {
+              "corpusId": "shared-a0072e2c66a8085e5347",
+              "latin": "Hymnus\nJam sol recédit ígneus:\nTu, lux perénnis, Únitas,\nNostris, beáta Trínitas,\nInfúnde lumen córdibus.\n_\nTe mane laudum cármine,\nTe deprecámur véspere;\nDignéris ut te súpplices\nLaudémus inter cǽlites.\nPatri, simúlque Fílio,\nTibíque, Sancte Spíritus,\nSicut fuit, sit júgiter\nSæclum per omne glória.\nAmen.",
+              "metadata": {
+                "gospelCanticle": "magnificat",
+                "stanzas": [
+                  [
+                    "Hymnus",
+                    "Jam sol recédit ígneus:",
+                    "Tu, lux perénnis, Únitas,",
+                    "Nostris, beáta Trínitas,",
+                    "Infúnde lumen córdibus."
+                  ],
+                  [
+                    "Te mane laudum cármine,",
+                    "Te deprecámur véspere;",
+                    "Dignéris ut te súpplices",
+                    "Laudémus inter cǽlites."
+                  ],
+                  [
+                    "Patri, simúlque Fílio,",
+                    "Tibíque, Sancte Spíritus,",
+                    "Sicut fuit, sit júgiter",
+                    "Sæclum per omne glória.",
+                    "Amen."
+                  ]
+                ],
+                "vespersKind": "ferial"
+              },
+              "occurrenceId": "office-1962-2026-01-24-vesperae-hymnus",
+              "order": 18,
+              "relations": {
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-versus",
+                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-capitulum",
+                "parentSectionId": "2026-01-24-vesperae-hymn-1"
+              },
+              "role": "hymn",
+              "sourceRefs": [
+                {
+                  "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+                  "section": "Hymnus",
+                  "transformation": [
+                    "specials",
+                    "vesperae special text"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                },
                 {
                   "path": "web/www/horas/Ordinarium/Vespera.txt",
                   "section": "Hymnus",
@@ -8257,39 +9079,94 @@
                 }
               ],
               "translationRef": {
-                "canonicalId": "shared-4f8ccc096792bc424520"
+                "canonicalId": "shared-a0072e2c66a8085e5347"
               },
-              "type": "rubric"
+              "type": "hymn"
             }
           ],
-          "kind": "gospel-canticle",
+          "kind": "hymn",
           "metadata": {
-            "vespersKind": "special"
+            "vespersKind": "ferial"
           },
-          "sectionId": "2026-01-24-vesperae-gospel-canticle-1",
+          "sectionId": "2026-01-24-vesperae-hymn-1",
           "title": {
-            "latin": "Canticum evangelicum"
+            "latin": "Hymnus"
           }
         },
         {
           "children": [
             {
-              "corpusId": "shared-4031eb458becaaa0ed48",
-              "latin": "Antiphona ad magnificat\nAnt. Qui odit * ánimam suam in hoc mundo, in vitam ætérnam custódit eam.",
+              "corpusId": "shared-53a0958ed0e3f1c059d2",
+              "latin": "Versus\n℣. Vespertína orátio ascéndat ad te, Dómine.\n℟. Et descéndat super nos misericórdia tua.",
               "metadata": {
-                "antiphonKey": "qui-odit-animam-suam-in-hoc-mundo-in-vitam-aeternam-custodit-eam",
+                "gospelCanticle": "magnificat",
+                "response": "℟. Et descéndat super nos misericórdia tua.",
+                "versicle": "℣. Vespertína orátio ascéndat ad te, Dómine.",
+                "vespersKind": "ferial"
+              },
+              "occurrenceId": "office-1962-2026-01-24-vesperae-versus",
+              "order": 19,
+              "relations": {
+                "nextOccurrenceId": "office-1962-2026-01-24-vesperae-magnificat-antiphon-open",
+                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-hymnus",
+                "parentSectionId": "2026-01-24-vesperae-gospel-canticle-3"
+              },
+              "role": "versicle",
+              "sourceRefs": [
+                {
+                  "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+                  "section": "Versus",
+                  "transformation": [
+                    "specials",
+                    "vesperae special text"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                },
+                {
+                  "path": "web/www/horas/Ordinarium/Vespera.txt",
+                  "section": "Versus",
+                  "transformation": [
+                    "getordinarium",
+                    "specials",
+                    "parse-vesperae-block"
+                  ],
+                  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+                }
+              ],
+              "translationRef": {
+                "canonicalId": "shared-53a0958ed0e3f1c059d2"
+              },
+              "type": "versicle"
+            }
+          ],
+          "kind": "gospel-canticle",
+          "metadata": {
+            "vespersKind": "ferial"
+          },
+          "sectionId": "2026-01-24-vesperae-gospel-canticle-3",
+          "title": {
+            "latin": "Canticum evangelicum 3"
+          }
+        },
+        {
+          "children": [
+            {
+              "corpusId": "shared-1640ce3f2a0fb8e89f23",
+              "latin": "Antiphona ad magnificat\nAnt. Suscépit Deus * Israël, púerum suum: sicut locútus est ad Ábraham, et semen ejus usque in sǽculum.",
+              "metadata": {
+                "antiphonKey": "suscepit-deus-israel-puerum-suum-sicut-locutus-est-ad-abraham-et-semen-ejus-usque-in-saeculum",
                 "gospelCanticle": "magnificat",
                 "position": "before-canticle",
                 "repeated": true,
                 "sourceKind": "proper",
-                "vespersKind": "special"
+                "vespersKind": "ferial"
               },
               "occurrenceId": "office-1962-2026-01-24-vesperae-magnificat-antiphon-open",
-              "order": 4,
+              "order": 20,
               "relations": {
                 "nextOccurrenceId": "office-1962-2026-01-24-vesperae-magnificat",
-                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-hymnus-empty",
-                "parentSectionId": "2026-01-24-vesperae-psalmody-1"
+                "previousOccurrenceId": "office-1962-2026-01-24-vesperae-versus",
+                "parentSectionId": "2026-01-24-vesperae-psalmody-2"
               },
               "role": "before-canticle",
               "sourceRefs": [
@@ -8314,7 +9191,7 @@
                 }
               ],
               "translationRef": {
-                "canonicalId": "shared-4031eb458becaaa0ed48"
+                "canonicalId": "shared-1640ce3f2a0fb8e89f23"
               },
               "type": "antiphon"
             }
@@ -8322,11 +9199,11 @@
           "kind": "psalmody",
           "metadata": {
             "repetitionRole": "repeat",
-            "vespersKind": "special"
+            "vespersKind": "ferial"
           },
-          "sectionId": "2026-01-24-vesperae-psalmody-1",
+          "sectionId": "2026-01-24-vesperae-psalmody-2",
           "title": {
-            "latin": "Psalmody"
+            "latin": "Psalmody 2"
           }
         },
         {
@@ -8335,7 +9212,7 @@
               "corpusId": "shared-49651a4121a891ab0d52",
               "latin": "Canticum B. Mariae Virginis\nLuc. 1:46-55\n1:46 Magníficat ✠ * ánima mea Dóminum.\n1:47 Et exsultávit spíritus meus: * in Deo, salutári meo.\n1:48 Quia respéxit humilitátem ancíllæ suæ: * ecce enim ex hoc beátam me dicent omnes generatiónes.\n1:49 Quia fecit mihi magna qui potens est: * et sanctum nomen ejus.\n1:50 Et misericórdia ejus, a progénie in progénies: * timéntibus eum.\n1:51 Fecit poténtiam in brácchio suo: * dispérsit supérbos mente cordis sui.\n1:52 Depósuit poténtes de sede: * et exaltávit húmiles.\n1:53 Esuriéntes implévit bonis: * et dívites dimísit inánes.\n1:54 Suscépit Israël púerum suum: * recordátus misericórdiæ suæ.\n1:55 Sicut locútus est ad patres nostros: * Ábraham, et sémini ejus in sǽcula.\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.",
               "metadata": {
-                "antiphonKey": "qui-odit-animam-suam-in-hoc-mundo-in-vitam-aeternam-custodit-eam",
+                "antiphonKey": "suscepit-deus-israel-puerum-suum-sicut-locutus-est-ad-abraham-et-semen-ejus-usque-in-saeculum",
                 "canticle": "magnificat",
                 "gospelCanticle": "magnificat",
                 "includesGloriaPatri": true,
@@ -8353,14 +9230,14 @@
                   "1:54 Suscépit Israël púerum suum: * recordátus misericórdiæ suæ.",
                   "1:55 Sicut locútus est ad patres nostros: * Ábraham, et sémini ejus in sǽcula."
                 ],
-                "vespersKind": "special"
+                "vespersKind": "ferial"
               },
               "occurrenceId": "office-1962-2026-01-24-vesperae-magnificat",
-              "order": 5,
+              "order": 21,
               "relations": {
                 "nextOccurrenceId": "office-1962-2026-01-24-vesperae-magnificat-antiphon-close",
                 "previousOccurrenceId": "office-1962-2026-01-24-vesperae-magnificat-antiphon-open",
-                "parentSectionId": "2026-01-24-vesperae-gospel-canticle-2"
+                "parentSectionId": "2026-01-24-vesperae-gospel-canticle-4"
               },
               "role": "canticle",
               "sourceRefs": [
@@ -8392,32 +9269,32 @@
           ],
           "kind": "gospel-canticle",
           "metadata": {
-            "vespersKind": "special"
+            "vespersKind": "ferial"
           },
-          "sectionId": "2026-01-24-vesperae-gospel-canticle-2",
+          "sectionId": "2026-01-24-vesperae-gospel-canticle-4",
           "title": {
-            "latin": "Canticum evangelicum 2"
+            "latin": "Canticum evangelicum 4"
           }
         },
         {
           "children": [
             {
-              "corpusId": "shared-09d041b08c354ed4f151",
-              "latin": "Antiphona repetita ad magnificat\nAnt. Qui odit ánimam suam in hoc mundo, in vitam ætérnam custódit eam.",
+              "corpusId": "shared-2134b650bcd246103bb4",
+              "latin": "Antiphona repetita ad magnificat\nAnt. Suscépit Deus Israël, púerum suum: sicut locútus est ad Ábraham, et semen ejus usque in sǽculum.",
               "metadata": {
-                "antiphonKey": "qui-odit-animam-suam-in-hoc-mundo-in-vitam-aeternam-custodit-eam",
+                "antiphonKey": "suscepit-deus-israel-puerum-suum-sicut-locutus-est-ad-abraham-et-semen-ejus-usque-in-saeculum",
                 "gospelCanticle": "magnificat",
                 "position": "after-canticle",
                 "repeated": true,
                 "sourceKind": "proper",
-                "vespersKind": "special"
+                "vespersKind": "ferial"
               },
               "occurrenceId": "office-1962-2026-01-24-vesperae-magnificat-antiphon-close",
-              "order": 6,
+              "order": 22,
               "relations": {
                 "nextOccurrenceId": "office-1962-2026-01-24-vesperae-preces-feriales-omittitur",
                 "previousOccurrenceId": "office-1962-2026-01-24-vesperae-magnificat",
-                "parentSectionId": "2026-01-24-vesperae-psalmody-2"
+                "parentSectionId": "2026-01-24-vesperae-psalmody-3"
               },
               "role": "after-canticle",
               "sourceRefs": [
@@ -8442,7 +9319,7 @@
                 }
               ],
               "translationRef": {
-                "canonicalId": "shared-09d041b08c354ed4f151"
+                "canonicalId": "shared-2134b650bcd246103bb4"
               },
               "type": "antiphon"
             }
@@ -8450,11 +9327,11 @@
           "kind": "psalmody",
           "metadata": {
             "repetitionRole": "repeat",
-            "vespersKind": "special"
+            "vespersKind": "ferial"
           },
-          "sectionId": "2026-01-24-vesperae-psalmody-2",
+          "sectionId": "2026-01-24-vesperae-psalmody-3",
           "title": {
-            "latin": "Psalmody 2"
+            "latin": "Psalmody 3"
           }
         },
         {
@@ -8469,11 +9346,11 @@
                 "vespersKind": "special"
               },
               "occurrenceId": "office-1962-2026-01-24-vesperae-preces-feriales-omittitur",
-              "order": 7,
+              "order": 23,
               "relations": {
                 "nextOccurrenceId": "office-1962-2026-01-24-vesperae-oratio",
                 "previousOccurrenceId": "office-1962-2026-01-24-vesperae-magnificat-antiphon-close",
-                "parentSectionId": "2026-01-24-vesperae-gospel-canticle-3"
+                "parentSectionId": "2026-01-24-vesperae-gospel-canticle-5"
               },
               "role": "rubric",
               "sourceRefs": [
@@ -8494,20 +9371,20 @@
               "type": "rubric"
             },
             {
-              "corpusId": "shared-6fd6efa4a78b5dc0d1bc",
-              "latin": "Oratio{ex Proprio Sanctorum}\nOratio {ex Proprio Sanctorum}\n℣. Dómine, exáudi oratiónem meam.\n℟. Et clamor meus ad te véniat.\nOrémus.\nInfirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ actiónis gravat, beáti Timóthei Mártyris tui atque Pontíficis intercéssio gloriósa nos prótegat.\nPer Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.\n℟. Amen.",
+              "corpusId": "shared-3a63f97bd41854a2cab2",
+              "latin": "Oratio{ex Proprio de Tempore}\nOratio {ex Proprio de Tempore}\n℣. Dómine, exáudi oratiónem meam.\n℟. Et clamor meus ad te véniat.\nOrémus.\nOmnípotens sempitérne Deus, infirmitátem nostram propítius réspice: atque, ad protegéndum nos, déxteram tuæ majestátis exténde.\nPer Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.\n℟. Amen.",
               "metadata": {
                 "gospelCanticle": "magnificat",
                 "includesBenedicamusDomino": false,
                 "sourceKind": "proper",
-                "vespersKind": "special"
+                "vespersKind": "ferial"
               },
               "occurrenceId": "office-1962-2026-01-24-vesperae-oratio",
-              "order": 8,
+              "order": 24,
               "relations": {
                 "nextOccurrenceId": "office-1962-2026-01-24-vesperae-conclusio",
                 "previousOccurrenceId": "office-1962-2026-01-24-vesperae-preces-feriales-omittitur",
-                "parentSectionId": "2026-01-24-vesperae-gospel-canticle-3"
+                "parentSectionId": "2026-01-24-vesperae-gospel-canticle-5"
               },
               "role": "prayer",
               "sourceRefs": [
@@ -8522,7 +9399,7 @@
                 },
                 {
                   "path": "web/www/horas/Ordinarium/Vespera.txt",
-                  "section": "Oratio{ex Proprio Sanctorum}",
+                  "section": "Oratio{ex Proprio de Tempore}",
                   "transformation": [
                     "getordinarium",
                     "specials",
@@ -8532,7 +9409,7 @@
                 }
               ],
               "translationRef": {
-                "canonicalId": "shared-6fd6efa4a78b5dc0d1bc"
+                "canonicalId": "shared-3a63f97bd41854a2cab2"
               },
               "type": "prayer"
             },
@@ -8542,13 +9419,13 @@
               "metadata": {
                 "formula": "major-hour-conclusion",
                 "gospelCanticle": "magnificat",
-                "vespersKind": "special"
+                "vespersKind": "ferial"
               },
               "occurrenceId": "office-1962-2026-01-24-vesperae-conclusio",
-              "order": 9,
+              "order": 25,
               "relations": {
                 "previousOccurrenceId": "office-1962-2026-01-24-vesperae-oratio",
-                "parentSectionId": "2026-01-24-vesperae-gospel-canticle-3"
+                "parentSectionId": "2026-01-24-vesperae-gospel-canticle-5"
               },
               "role": "major-hour-conclusion",
               "sourceRefs": [
@@ -8582,9 +9459,9 @@
           "metadata": {
             "vespersKind": "special"
           },
-          "sectionId": "2026-01-24-vesperae-gospel-canticle-3",
+          "sectionId": "2026-01-24-vesperae-gospel-canticle-5",
           "title": {
-            "latin": "Canticum evangelicum 3"
+            "latin": "Canticum evangelicum 5"
           }
         }
       ],

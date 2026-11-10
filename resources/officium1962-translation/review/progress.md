@@ -1,6 +1,6 @@
 # Progress
 
-- untranslated: 9102
+- untranslated: 10019
 - draft: 0
 - machine-draft: 0
 - reviewed: 0

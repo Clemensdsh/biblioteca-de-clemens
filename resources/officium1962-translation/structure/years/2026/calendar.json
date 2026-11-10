@@ -1322,6 +1322,15 @@
           "translationRef": {
             "canonicalId": "shared-6af9b427df6a52d08385"
           }
+        },
+        {
+          "corpusId": "shared-9719e2537dab06cd2ff3",
+          "latin": "Commemoratio Feria Tertia infra Hebdomadam I in Quadragesima",
+          "occurrenceId": "calendar-2026-02-24-commemoration-shared-9719e2537dab06cd2ff3",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-9719e2537dab06cd2ff3"
+          }
         }
       ],
       "date": "2026-02-24",
@@ -1839,7 +1848,17 @@
       "season": "lent-passiontide"
     },
     {
-      "commemorations": [],
+      "commemorations": [
+        {
+          "corpusId": "shared-5ab4efd22574332addb4",
+          "latin": "Commemoratio Feria Quarta infra Hebdomadam IV in Quadragesima",
+          "occurrenceId": "calendar-2026-03-18-commemoration-shared-5ab4efd22574332addb4",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-5ab4efd22574332addb4"
+          }
+        }
+      ],
       "date": "2026-03-18",
       "liturgicalTitle": {
         "corpusId": "calendar-title-54d1cab0689d56f6a0e2",
@@ -1863,6 +1882,15 @@
     },
     {
       "commemorations": [
+        {
+          "corpusId": "shared-1c2233d079794b410705",
+          "latin": "Commemoratio Feria Quinta infra Hebdomadam IV in Quadragesima",
+          "occurrenceId": "calendar-2026-03-19-commemoration-shared-1c2233d079794b410705",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-1c2233d079794b410705"
+          }
+        },
         {
           "corpusId": "shared-9e63bf7c2837bd010523",
           "latin": "Commemoratio Feria Quinta infra Hebdomadam IV in Quadragesima",
@@ -1987,7 +2015,17 @@
       "season": "lent-passiontide"
     },
     {
-      "commemorations": [],
+      "commemorations": [
+        {
+          "corpusId": "shared-0302fef413a5fdca557b",
+          "latin": "Commemoratio Feria Tertia infra Hebdomadam Passionis",
+          "occurrenceId": "calendar-2026-03-24-commemoration-shared-0302fef413a5fdca557b",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-0302fef413a5fdca557b"
+          }
+        }
+      ],
       "date": "2026-03-24",
       "liturgicalTitle": {
         "corpusId": "calendar-title-e57f0a44699a81ea1d45",
@@ -2018,6 +2056,15 @@
           "role": "commemoration-title",
           "translationRef": {
             "canonicalId": "shared-5719c784d56dcd76e1ab"
+          }
+        },
+        {
+          "corpusId": "shared-ac0aa5c210ec15eaa4d4",
+          "latin": "Commemoratio Feria Quarta infra Hebdomadam Passionis",
+          "occurrenceId": "calendar-2026-03-25-commemoration-shared-ac0aa5c210ec15eaa4d4",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-ac0aa5c210ec15eaa4d4"
           }
         }
       ],
@@ -2753,7 +2800,17 @@
       "season": "eastertide"
     },
     {
-      "commemorations": [],
+      "commemorations": [
+        {
+          "corpusId": "shared-261364c9d214e84b001e",
+          "latin": "Commemoratio Dominica III Post Pascha",
+          "occurrenceId": "calendar-2026-04-25-commemoration-shared-261364c9d214e84b001e",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-261364c9d214e84b001e"
+          }
+        }
+      ],
       "date": "2026-04-25",
       "liturgicalTitle": {
         "corpusId": "calendar-title-ac4929b9b94530830640",
@@ -4255,7 +4312,17 @@
       "season": "time-after-pentecost"
     },
     {
-      "commemorations": [],
+      "commemorations": [
+        {
+          "corpusId": "shared-a021e8586cdaaf92bdc7",
+          "latin": "Commemoratio Dominica V Post Pentecosten",
+          "occurrenceId": "calendar-2026-06-28-commemoration-shared-a021e8586cdaaf92bdc7",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-a021e8586cdaaf92bdc7"
+          }
+        }
+      ],
       "date": "2026-06-28",
       "liturgicalTitle": {
         "corpusId": "calendar-title-32db24fbb90b375aeed9",
@@ -4309,15 +4376,6 @@
           "role": "commemoration-title",
           "translationRef": {
             "canonicalId": "shared-3bf9f0d64da66da33bc3"
-          }
-        },
-        {
-          "corpusId": "shared-f10fc941b7cafdd36274",
-          "latin": "Commemoratio S. Petri Apostoli",
-          "occurrenceId": "calendar-2026-06-30-commemoration-shared-f10fc941b7cafdd36274",
-          "role": "commemoration-title",
-          "translationRef": {
-            "canonicalId": "shared-f10fc941b7cafdd36274"
           }
         }
       ],
@@ -4947,6 +5005,15 @@
     {
       "commemorations": [
         {
+          "corpusId": "shared-cae6852859c46cd0c279",
+          "latin": "Commemoratio Dominica IX Post Pentecosten",
+          "occurrenceId": "calendar-2026-07-25-commemoration-shared-cae6852859c46cd0c279",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-cae6852859c46cd0c279"
+          }
+        },
+        {
           "corpusId": "shared-cf15da3133eb3e8f2caf",
           "latin": "Commemoratio S. Christophori Martyris",
           "occurrenceId": "calendar-2026-07-25-commemoration-shared-cf15da3133eb3e8f2caf",
@@ -5498,7 +5565,17 @@
       "season": "time-after-pentecost"
     },
     {
-      "commemorations": [],
+      "commemorations": [
+        {
+          "corpusId": "shared-2abad363cc99a8d2a4eb",
+          "latin": "Commemoratio Dominica XII Post Pentecosten III. Augusti",
+          "occurrenceId": "calendar-2026-08-15-commemoration-shared-2abad363cc99a8d2a4eb",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-2abad363cc99a8d2a4eb"
+          }
+        }
+      ],
       "date": "2026-08-15",
       "liturgicalTitle": {
         "corpusId": "calendar-title-3bbdfff653692ef3e5ae",
@@ -5670,6 +5747,15 @@
     },
     {
       "commemorations": [
+        {
+          "corpusId": "shared-305646efa7a4f86a26af",
+          "latin": "Commemoratio Dominica XIII Post Pentecosten IV. Augusti",
+          "occurrenceId": "calendar-2026-08-22-commemoration-shared-305646efa7a4f86a26af",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-305646efa7a4f86a26af"
+          }
+        },
         {
           "corpusId": "shared-586d333d3647914b82ad",
           "latin": "Commemoratio Ss. Timothei, Hippolyti et Symphoriani Martyres",
@@ -7429,7 +7515,17 @@
       "season": "time-after-pentecost"
     },
     {
-      "commemorations": [],
+      "commemorations": [
+        {
+          "corpusId": "shared-e0760a3123051d415a90",
+          "latin": "Commemoratio Dominica XXIII Post Pentecosten I. Novembris",
+          "occurrenceId": "calendar-2026-10-31-commemoration-shared-e0760a3123051d415a90",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-e0760a3123051d415a90"
+          }
+        }
+      ],
       "date": "2026-10-31",
       "liturgicalTitle": {
         "corpusId": "calendar-title-fd184333a0a9f0a6d8a4",
@@ -7460,6 +7556,15 @@
           "role": "commemoration-title",
           "translationRef": {
             "canonicalId": "shared-6d5aea1d4aed5ce57ddc"
+          }
+        },
+        {
+          "corpusId": "shared-9c8b6cd02b3efa123a21",
+          "latin": "Commemoratio Dominica XXIII Post Pentecosten I. Novembris",
+          "occurrenceId": "calendar-2026-11-01-commemoration-shared-9c8b6cd02b3efa123a21",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-9c8b6cd02b3efa123a21"
           }
         }
       ],
@@ -8211,6 +8316,15 @@
     {
       "commemorations": [
         {
+          "corpusId": "shared-2423a5f771779ef35b37",
+          "latin": "Commemoratio Feria II infra Hebdomadam I Adventus",
+          "occurrenceId": "calendar-2026-11-30-commemoration-shared-2423a5f771779ef35b37",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-2423a5f771779ef35b37"
+          }
+        },
+        {
           "corpusId": "shared-aead6cc6a86c7b8edf1c",
           "latin": "Commemoratio Feria II infra Hebdomadam I Adventus",
           "occurrenceId": "calendar-2026-11-30-commemoration-shared-aead6cc6a86c7b8edf1c",
@@ -8274,6 +8388,15 @@
           "translationRef": {
             "canonicalId": "shared-50fc234bbf016c819555"
           }
+        },
+        {
+          "corpusId": "shared-c5cd5fd41982910d26b4",
+          "latin": "Commemoratio Feria IV infra Hebdomadam I Adventus",
+          "occurrenceId": "calendar-2026-12-02-commemoration-shared-c5cd5fd41982910d26b4",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-c5cd5fd41982910d26b4"
+          }
         }
       ],
       "date": "2026-12-02",
@@ -8306,6 +8429,15 @@
           "role": "commemoration-title",
           "translationRef": {
             "canonicalId": "shared-3894723280d184130fb6"
+          }
+        },
+        {
+          "corpusId": "shared-6dbae510909b9c5f84d9",
+          "latin": "Commemoratio Feria V infra Hebdomadam I Adventus",
+          "occurrenceId": "calendar-2026-12-03-commemoration-shared-6dbae510909b9c5f84d9",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-6dbae510909b9c5f84d9"
           }
         }
       ],
@@ -8348,6 +8480,15 @@
           "role": "commemoration-title",
           "translationRef": {
             "canonicalId": "shared-965300478072a4abd12f"
+          }
+        },
+        {
+          "corpusId": "shared-db56c7c6be8ddd946473",
+          "latin": "Commemoratio Feria VI infra Hebdomadam I Adventus",
+          "occurrenceId": "calendar-2026-12-04-commemoration-shared-db56c7c6be8ddd946473",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-db56c7c6be8ddd946473"
           }
         }
       ],
@@ -8421,6 +8562,15 @@
     {
       "commemorations": [
         {
+          "corpusId": "shared-1748df5f49a882faac7c",
+          "latin": "Commemoratio Feria II infra Hebdomadam II Adventus",
+          "occurrenceId": "calendar-2026-12-07-commemoration-shared-1748df5f49a882faac7c",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-1748df5f49a882faac7c"
+          }
+        },
+        {
           "corpusId": "shared-4dd9d930be5e6845e212",
           "latin": "Commemoratio Feria II infra Hebdomadam II Adventus",
           "occurrenceId": "calendar-2026-12-07-commemoration-shared-4dd9d930be5e6845e212",
@@ -8453,6 +8603,15 @@
     },
     {
       "commemorations": [
+        {
+          "corpusId": "shared-71b622e4b629a72c3377",
+          "latin": "Commemoratio Feria III infra Hebdomadam II Adventus",
+          "occurrenceId": "calendar-2026-12-08-commemoration-shared-71b622e4b629a72c3377",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-71b622e4b629a72c3377"
+          }
+        },
         {
           "corpusId": "shared-cb88d9ceae40faf76b4b",
           "latin": "Commemoratio Feria III infra Hebdomadam II Adventus",
@@ -8532,6 +8691,15 @@
     },
     {
       "commemorations": [
+        {
+          "corpusId": "shared-52ce0db9be7d14c5a49c",
+          "latin": "Commemoratio Feria VI infra Hebdomadam II Adventus",
+          "occurrenceId": "calendar-2026-12-11-commemoration-shared-52ce0db9be7d14c5a49c",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-52ce0db9be7d14c5a49c"
+          }
+        },
         {
           "corpusId": "shared-f62da7931eafbabffd2c",
           "latin": "Commemoratio Feria VI infra Hebdomadam II Adventus",
@@ -8780,6 +8948,15 @@
           "translationRef": {
             "canonicalId": "shared-82066715c002648d1560"
           }
+        },
+        {
+          "corpusId": "shared-b0e8a1d78758ec4318a6",
+          "latin": "Commemoratio Feria II infra Hebdomadam IV Adventus",
+          "occurrenceId": "calendar-2026-12-21-commemoration-shared-b0e8a1d78758ec4318a6",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-b0e8a1d78758ec4318a6"
+          }
         }
       ],
       "date": "2026-12-21",
@@ -8898,6 +9075,15 @@
     {
       "commemorations": [
         {
+          "corpusId": "shared-0bf8949fa6887b94eb81",
+          "latin": "Commemoratio Dominica Infra Octavam Nativitatis",
+          "occurrenceId": "calendar-2026-12-26-commemoration-shared-0bf8949fa6887b94eb81",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-0bf8949fa6887b94eb81"
+          }
+        },
+        {
           "corpusId": "shared-4de8eb0890d96a137c9e",
           "latin": "Commemoratio Diei II infra Octavam Nativitatis",
           "occurrenceId": "calendar-2026-12-26-commemoration-shared-4de8eb0890d96a137c9e",
@@ -8963,6 +9149,15 @@
     },
     {
       "commemorations": [
+        {
+          "corpusId": "shared-700b3ffe4f3015a2dd3b",
+          "latin": "Commemoratio Diei IV infra Octavam Nativitatis",
+          "occurrenceId": "calendar-2026-12-28-commemoration-shared-700b3ffe4f3015a2dd3b",
+          "role": "commemoration-title",
+          "translationRef": {
+            "canonicalId": "shared-700b3ffe4f3015a2dd3b"
+          }
+        },
         {
           "corpusId": "shared-fa21cd88d5d206fad6cf",
           "latin": "Commemoratio Diei IV infra Octavam Nativitatis",

@@ -2,41 +2,6 @@
 
 本文件是 primary editable workbook。只编辑 marker 中间的中文、备注和 status 注释，不修改 Latin、ID 或标题。
 
-## `shared-04b1aa7d9cc139e2895b`
-
-**类型：** prayer / shared-block
-**来源：** web/www/horas/Latin/Psalterium/Common/Prayers.txt [Dominus_vobiscum]
-**出现次数：** 10
-**使用时辰：** vesperae
-**代表日期：** 2026-02-14 vesperae, 2026-04-18 vesperae, 2026-06-20 vesperae, 2026-06-27 vesperae, 2026-07-04 vesperae
-
-### Latin
-
-> Oratio{ex Proprio de Tempore}
-> Oratio {ex Proprio de Tempore}
-> ℣. Dómine, exáudi oratiónem meam.
-> ℟. Et clamor meus ad te véniat.
-> Orémus.
-> Concéde nos fámulos tuos, quǽsumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére: et, gloriósa beátæ Maríæ semper Vírginis intercessióne, a præsénti liberári tristítia, et ætérna pérfrui lætítia.
-> Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.
-> ℟. Amen.
-
-### 中文
-
-<!-- translation:start id="shared-04b1aa7d9cc139e2895b" -->
-
-<!-- translation:end -->
-
-### 状态
-
-<!-- status: untranslated -->
-
-### 备注
-
-<!-- notes:start id="shared-04b1aa7d9cc139e2895b" -->
-
-<!-- notes:end -->
-
 ## `shared-083d1a257e69629a71cb`
 
 **类型：** prayer / shared-block
@@ -69,6 +34,41 @@
 ### 备注
 
 <!-- notes:start id="shared-083d1a257e69629a71cb" -->
+
+<!-- notes:end -->
+
+## `shared-23aab86e57817d67e41c`
+
+**类型：** prayer / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Common/Prayers.txt [Dominus_vobiscum]
+**出现次数：** 3
+**使用时辰：** vesperae
+**代表日期：** 2026-01-31 vesperae, 2026-02-01 vesperae, 2026-02-03 vesperae
+
+### Latin
+
+> Oratio{ex Proprio de Tempore}
+> Oratio {ex Proprio de Tempore}
+> ℣. Dómine, exáudi oratiónem meam.
+> ℟. Et clamor meus ad te véniat.
+> Orémus.
+> Preces pópuli tui, quǽsumus, Dómine, cleménter exáudi: ut, qui juste pro peccátis nostris afflígimur, pro tui nóminis glória misericórditer liberémur.
+> Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.
+> ℟. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-23aab86e57817d67e41c" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-23aab86e57817d67e41c" -->
 
 <!-- notes:end -->
 
@@ -177,6 +177,41 @@
 
 <!-- notes:end -->
 
+## `shared-49f624035323b36ccdcf`
+
+**类型：** prayer / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Common/Prayers.txt [Dominus_vobiscum]
+**出现次数：** 3
+**使用时辰：** vesperae
+**代表日期：** 2026-05-23 vesperae, 2026-05-24 vesperae, 2026-05-28 vesperae
+
+### Latin
+
+> Oratio{ex Proprio de Tempore}
+> Oratio {ex Proprio de Tempore}
+> ℣. Dómine, exáudi oratiónem meam.
+> ℟. Et clamor meus ad te véniat.
+> Orémus.
+> Deus, qui hodiérna die corda fidélium Sancti Spíritus illustratióne docuísti: da nobis in eódem Spíritu recta sápere; et de ejus semper consolatióne gaudére.
+> Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte ejúsdem Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.
+> ℟. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-49f624035323b36ccdcf" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-49f624035323b36ccdcf" -->
+
+<!-- notes:end -->
+
 ## `shared-7f90306b54c610a7a479`
 
 **类型：** prayer / shared-block
@@ -212,45 +247,28 @@
 
 <!-- notes:end -->
 
-## `shared-c31b3135ea18ed40ed7c`
+## `shared-87642940be954d76f7ec`
 
 **类型：** prayer / shared-block
-**来源：** web/www/horas/Latin/Psalterium/Common/Prayers.txt [Preces feriales Prima]
-**出现次数：** 18
+**来源：** web/www/horas/Latin/Psalterium/Common/Prayers.txt [Dominus_vobiscum]
+**出现次数：** 2
 **使用时辰：** vesperae
-**代表日期：** 2026-02-18 vesperae, 2026-02-25 vesperae, 2026-09-23 vesperae, 2026-12-09 vesperae, 2026-02-20 vesperae
+**代表日期：** 2026-02-21 vesperae, 2026-02-22 vesperae
 
 ### Latin
 
-> Preces Feriales{habentur}
-> Preces Feriales {habentur}
-> ℣. Éripe me, Dómine, ab hómine malo.
-> ℟. A viro iníquo éripe me.
-> ℣. Éripe me de inimícis meis, Deus meus.
-> ℟. Et ab insurgéntibus in me líbera me.
-> ℣. Éripe me de operántibus iniquitátem.
-> ℟. Et de viris sánguinum salva me.
-> ℣. Sic psalmum dicam nómini tuo in sǽculum sǽculi.
-> ℟. Ut reddam vota mea de die in diem.
-> ℣. Exáudi nos, Deus, salutáris noster.
-> ℟. Spes ómnium fínium terræ, et in mari longe.
-> ℣. Deus in adjutórium meum inténde.
-> ℟. Dómine, ad adjuvándum me festína.
-> ℣. Sanctus Deus, Sanctus fortis, Sanctus immortális.
-> ℟. Miserére nobis.
-> ℣. Bénedic, ánima mea, Dómino.
-> ℟. Et ómnia, quæ intra me sunt, nómini sancto ejus.
-> ℟. Et noli oblivísci omnes retributiónes ejus.
-> ℣. Qui propitiátur ómnibus iniquitátibus tuis.
-> ℟. Qui sanat omnes infirmitátes tuas.
-> ℣. Qui rédimit de intéritu vitam tuam.
-> ℟. Qui corónat te in misericórdia et miseratiónibus.
-> ℣. Qui replet in bonis desidérium tuum.
-> ℟. Renovábitur ut áquilæ juvéntus tua.
+> Oratio{ex Proprio de Tempore}
+> Oratio {ex Proprio de Tempore}
+> ℣. Dómine, exáudi oratiónem meam.
+> ℟. Et clamor meus ad te véniat.
+> Orémus.
+> Deus, qui Ecclésiam tuam ánnua quadragesimáli observatióne puríficas: præsta famíliæ tuæ; ut, quod a te obtinére abstinéndo nítitur, hoc bonis opéribus exsequátur.
+> Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.
+> ℟. Amen.
 
 ### 中文
 
-<!-- translation:start id="shared-c31b3135ea18ed40ed7c" -->
+<!-- translation:start id="shared-87642940be954d76f7ec" -->
 
 <!-- translation:end -->
 
@@ -260,7 +278,77 @@
 
 ### 备注
 
-<!-- notes:start id="shared-c31b3135ea18ed40ed7c" -->
+<!-- notes:start id="shared-87642940be954d76f7ec" -->
+
+<!-- notes:end -->
+
+## `shared-8f7fa26a126cb57ed3f0`
+
+**类型：** prayer / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Common/Prayers.txt [Dominus_vobiscum]
+**出现次数：** 3
+**使用时辰：** vesperae
+**代表日期：** 2026-11-28 vesperae, 2026-11-29 vesperae, 2026-12-01 vesperae
+
+### Latin
+
+> Oratio{ex Proprio de Tempore}
+> Oratio {ex Proprio de Tempore}
+> ℣. Dómine, exáudi oratiónem meam.
+> ℟. Et clamor meus ad te véniat.
+> Orémus.
+> Excita, quǽsumus, Dómine, poténtiam tuam, et veni: ut ab imminéntibus peccatórum nostrórum perículis, te mereámur protegénte éripi, te liberánte salvári:
+> Qui vivis et regnas cum Deo Patre, in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.
+> ℟. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-8f7fa26a126cb57ed3f0" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-8f7fa26a126cb57ed3f0" -->
+
+<!-- notes:end -->
+
+## `shared-cdc5e22f982e49e2812f`
+
+**类型：** prayer / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Common/Prayers.txt [Dominus_vobiscum]
+**出现次数：** 2
+**使用时辰：** vesperae
+**代表日期：** 2026-12-24 vesperae, 2026-12-25 vesperae
+
+### Latin
+
+> Oratio{ex Proprio Sanctorum}
+> Oratio {ex Proprio Sanctorum}
+> ℣. Dómine, exáudi oratiónem meam.
+> ℟. Et clamor meus ad te véniat.
+> Orémus.
+> Concéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per carnem Natívitas líberet; quos sub peccáti jugo vetústa sérvitus tenet.
+> Per eúmdem Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.
+> ℟. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-cdc5e22f982e49e2812f" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-cdc5e22f982e49e2812f" -->
 
 <!-- notes:end -->
 

@@ -130,6 +130,40 @@
 
 <!-- notes:end -->
 
+## `shared-8af15a8b1664d7ea2631`
+
+**类型：** blessing / shared-block
+**来源：** web/www/horas/Latin/Psalterium/Common/Prayers.txt [Dominus_vobiscum]
+**出现次数：** 7
+**使用时辰：** vesperae
+**代表日期：** 2026-01-31 vesperae, 2026-04-05 vesperae, 2026-04-06 vesperae, 2026-04-07 vesperae, 2026-04-08 vesperae
+
+### Latin
+
+> Conclusio
+> ℣. Dómine, exáudi oratiónem meam.
+> ℟. Et clamor meus ad te véniat.
+> ℣. Benedicámus Dómino, allelúja, allelúja.
+> ℟. Deo grátias, allelúja, allelúja.
+> ℣. Fidélium ánimæ per misericórdiam Dei requiéscant in pace.
+> ℟. Amen.
+
+### 中文
+
+<!-- translation:start id="shared-8af15a8b1664d7ea2631" -->
+
+<!-- translation:end -->
+
+### 状态
+
+<!-- status: untranslated -->
+
+### 备注
+
+<!-- notes:start id="shared-8af15a8b1664d7ea2631" -->
+
+<!-- notes:end -->
+
 ## `shared-acd7ce1f2e7c20e292e1`
 
 **类型：** blessing / shared-block
