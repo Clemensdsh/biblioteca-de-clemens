@@ -12,7 +12,11 @@ const h = computed(() => halls.find(x => x.key === props.hall)!)
 const filter = ref<'' | typeof provenanceTags[number]>('')
 
 const asArray = (v: unknown): string[] => Array.isArray(v) ? v : v ? [String(v)] : []
-const inHall = computed(() => site.postList.filter(p => asArray(p.categories)[0] === h.value.name))
+const norm = (p = '') => p.replace(/\/$/, '')
+// posts already offered as tool buttons (e.g. 星期六纪念圣母) are not repeated as cards
+const linked = computed(() => new Set((h.value.links ?? []).map(l => norm(l.url))))
+const inHall = computed(() => site.postList.filter(p =>
+  asArray(p.categories)[0] === h.value.name && !linked.value.has(norm(p.path))))
 const count = (tag: string) => inHall.value.filter(p => asArray(p.tags).includes(tag)).length
 // only offer filters that would show something; hide the bar when a hall has a single provenance
 const usedTags = computed(() => provenanceTags.filter(t => count(t) > 0))

@@ -8,18 +8,21 @@ const site = useSiteStore()
 const asArray = (v: unknown): string[] => Array.isArray(v) ? v : v ? [String(v)] : []
 
 const cards = computed(() => halls.map((h) => {
-  const posts = site.postList.filter(p => asArray(p.categories)[0] === h.name)
+  // same rule as IaHall: posts shown as tool buttons are not counted as articles
+  const linked = new Set((h.links ?? []).map(l => l.url.replace(/\/$/, '')))
+  const posts = site.postList.filter(p =>
+    asArray(p.categories)[0] === h.name && !linked.has((p.path || '').replace(/\/$/, '')))
   return {
     ...h,
     total: posts.length,
-    byTag: provenanceTags.map(t => ({ t, n: posts.filter(p => asArray(p.tags).includes(t)).length })),
+    byTag: provenanceTags.map(t => ({ t, n: posts.filter(p => asArray(p.tags).includes(t)).length })).filter(x => x.n > 0),
   }
 }))
 </script>
 
 <template>
   <div class="ia-index">
-    <RouterLink v-for="h in cards" :key="h.key" :to="h.url" class="ia-hall-card" :style="{ '--hall-c': h.color }">
+    <RouterLink v-for="h in cards" :key="h.key" :to="h.url" class="ia-hall-card" :style="{ '--hall-c-light': h.color, '--hall-c-dark': h.colorDark || h.color }">
       <div class="ia-hall-head">
         <div :class="h.icon" class="ia-hall-icon" />
         <span class="ia-hall-name">{{ h.name }}</span>
@@ -44,6 +47,15 @@ const cards = computed(() => halls.map((h) => {
 
   @media (min-width: 768px) {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+// (Vue's `:global(html.dark) .x` would compile to just `html.dark`, so nest instead)
+.ia-hall-card {
+  --hall-c: var(--hall-c-light);
+
+  html.dark & {
+    --hall-c: var(--hall-c-dark);
   }
 }
 

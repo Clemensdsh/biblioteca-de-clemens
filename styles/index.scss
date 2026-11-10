@@ -3,7 +3,7 @@
   --clemens-title-orange-light: #FFB020;
   --clemens-title-orange-soft: #FFD166;
   --clemens-card-bg: rgba(255, 255, 255, 0.75);
-  --clemens-card-bg-dark: rgba(0, 0, 0, 0.65);
+  --clemens-card-bg-dark: rgba(14, 14, 18, 0.84);
   --clemens-daily-link-bg: rgba(194, 65, 12, 0.1);
   --clemens-daily-link-border: rgba(194, 65, 12, 0.35);
 }
@@ -86,6 +86,8 @@ html.dark {
   .post-card,
   .yun-card {
     background: var(--clemens-card-bg-dark) !important;
+    // wallpaper is bright/high-contrast at night: blur + desaturate what shows through behind text
+    backdrop-filter: blur(18px) saturate(0.6);
   }
 }
 
@@ -99,6 +101,10 @@ html.dark {
 .links .link-item *,
 .links .link-item:visited,
 .links .link-item:hover,
+.ia-links .link-item,
+.ia-links .link-item *,
+.ia-links .link-item:visited,
+.ia-links .link-item:hover,
 .site-nav .site-link-item,
 .site-nav .site-link-item *,
 .site-nav .site-link-item:visited,
@@ -122,6 +128,10 @@ html.dark {
   .links .link-item *,
   .links .link-item:visited,
   .links .link-item:hover,
+  .ia-links .link-item,
+  .ia-links .link-item *,
+  .ia-links .link-item:visited,
+  .ia-links .link-item:hover,
   .site-nav .site-link-item,
   .site-nav .site-link-item *,
   .site-nav .site-link-item:visited,

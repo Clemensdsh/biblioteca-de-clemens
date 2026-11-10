@@ -15,8 +15,10 @@ export interface Hall {
   url: string
   icon: string
   color: string
+  /** lighter variant for dark mode (defaults to color) */
+  colorDark?: string
   intro: string
-  /** non-post pages (online tools, compiled full texts) shown as buttons */
+  /** online tools / compiled full texts shown as buttons; a post linked here is not repeated as a card */
   links?: HallLink[]
   sections: string[]
 }
@@ -28,11 +30,13 @@ export const halls: Hall[] = [
     url: '/guan/liturgia/',
     icon: 'i-ri-book-open-line',
     color: '#9A3F35',
+    colorDark: '#E8756A',
     intro: '礼规、弥撒经文、罗马日课与时辰礼仪，以及每日在线日课。',
     links: [
       { name: '罗马大日课', url: '/officium-1962/', icon: 'i-ri-book-open-line', color: '#9A3F35' },
       { name: '时辰礼仪', url: '/liturgia-horarum/', icon: 'i-ri-book-open-line', color: '#9A3F35' },
       { name: '哥特日课', url: '/breviarium-gothicum/', icon: 'i-ri-book-open-line', color: '#8C5A2B' },
+      { name: '星期六纪念圣母', url: '/posts/saturday-memorial-of-our-lady-office/', icon: 'i-ri-book-open-line', color: '#9A3F35' },
     ],
     sections: ['礼规与弥撒', '罗马日课', '时辰礼仪'],
   },
@@ -67,6 +71,7 @@ export const halls: Hall[] = [
     url: '/guan/patres/',
     icon: 'i-ri-file-text-line',
     color: '#8C5A2B',
+    colorDark: '#D9A066',
     intro: '教父时代的讲道、书信与论著，以及教父导读。',
     sections: ['教父著作', '教父导读'],
   },
