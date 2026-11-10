@@ -299,7 +299,7 @@ function persistPreference(key: string, value: string) {
 
 <style scoped>
 .officium1962-page {
-  --officium1962-rubric: #982b2b;
+  --officium1962-rubric: #b3261e;
   --officium1962-heading: #6d3530;
   width: min(100%, 64rem);
   margin-inline: auto;
@@ -491,14 +491,8 @@ function persistPreference(key: string, value: string) {
   text-align: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  .officium1962-page {
-    --officium1962-rubric: #ee9d97;
-    --officium1962-heading: #f0b3ad;
-  }
-}
-
-:global(html.dark) .officium1962-page {
+/* follow the site's own dark toggle (html.dark), not the OS setting */
+html.dark .officium1962-page {
   --officium1962-rubric: #ee9d97;
   --officium1962-heading: #f0b3ad;
 }

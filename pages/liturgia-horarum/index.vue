@@ -316,7 +316,7 @@ function selectCelebration(event: Event) {
 
 <style scoped>
 .lh-page {
-  --lh-red: #982b2b;
+  --lh-red: #b3261e;
   --lh-heading: #6d3530;
   width: min(100%, 64rem);
   margin-inline: auto;
@@ -544,14 +544,8 @@ function selectCelebration(event: Event) {
   font-weight: 700;
 }
 
-@media (prefers-color-scheme: dark) {
-  .lh-page {
-    --lh-red: #ee9d97;
-    --lh-heading: #f0b3ad;
-  }
-}
-
-:global(html.dark) .lh-page {
+/* follow the site's own dark toggle (html.dark), not the OS setting */
+html.dark .lh-page {
   --lh-red: #ee9d97;
   --lh-heading: #f0b3ad;
 }

@@ -356,7 +356,7 @@ function officeHeading(index: number) {
 
 <style scoped>
 .bg-page {
-  --bg-red: #982b2b;
+  --bg-red: #b3261e;
   --bg-heading: #6d3530;
   --bg-amber: #b7862a;
   width: min(100%, 64rem);
@@ -753,15 +753,8 @@ function officeHeading(index: number) {
   font-size: 1rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  .bg-page {
-    --bg-red: #ee9d97;
-    --bg-heading: #f0b3ad;
-    --bg-amber: #e0b85c;
-  }
-}
-
-:global(html.dark) .bg-page {
+/* follow the site's own dark toggle (html.dark), not the OS setting */
+html.dark .bg-page {
   --bg-red: #ee9d97;
   --bg-heading: #f0b3ad;
   --bg-amber: #e0b85c;

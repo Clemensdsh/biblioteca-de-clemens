@@ -6,6 +6,9 @@ export default defineSiteConfig({
   title: '颠倒梦想',
   subtitle: 'Clemens 的书房',
   url: 'https://clemensdsh.xyz/',
+  // Same zone for SSR and browser, so dates render identically on both (no hydration mismatch,
+  // no off-by-one day). Undated-zone frontmatter dates are read in this zone, i.e. shown as written.
+  timezone: 'UTC',
   description: '一切有为法，如梦幻泡影。\n如露亦如电，应作如是观。',
   favicon: '/images/cross.png',
 
