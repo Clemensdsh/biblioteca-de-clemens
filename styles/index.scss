@@ -19,12 +19,24 @@
   font-size: 2.2rem !important;
 }
 
-.site-subtitle {
+// scoped to the home prologue: the same classes are reused in the left sidebar,
+// where the enlarged text was oversized.
+.yun-square-container .site-subtitle {
   font-size: 1.3rem !important;
 }
 
-.site-description {
+.yun-square-container .site-description {
   font-size: 1.2rem !important;
+}
+
+// elsewhere (left sidebar): modest, balanced sizes; the home rules above are more specific and win
+.site-subtitle {
+  font-size: 0.95rem !important;
+}
+
+// keep the two-line description on both home and sidebar
+.site-description {
+  font-size: 0.875rem !important;
   white-space: pre-line !important;
 }
 

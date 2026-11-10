@@ -23,7 +23,7 @@ export default defineSiteConfig({
     },
     {
       name: 'X',
-      link: 'https://x.com/Ephraim_deca',
+      link: 'https://x.com/clemens_iqisyi',
       icon: 'i-ri-twitter-x-line',
       color: '#000000',
     },
