@@ -1,5 +1,6 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
+import { halls } from './config/halls'
 
 const safelist = [
   'i-ri-home-line',
@@ -19,6 +20,8 @@ const safelist = [
   'i-ri-clipboard-line',
   'i-ri-information-line',
   'i-ri-calendar-event-line',
+  'i-ri-calendar-line',
+  'i-ri-file-word-line',
   'i-ri-book-open-line',
   'i-ri-arrow-left-s-line',
   'i-ri-arrow-right-s-line',
@@ -59,7 +62,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       colors: ['#FFD700', '#E8913A', '#FF6347', '#D4820A', '#FF8C00'],
     },
 
-    // IA variant: ia-themes — 按主题分馆；「文献/译稿」改为标签
+    // IA variant: ia-themes — 按主题分馆（礼仪/圣人/汉文/教父）；「文献/译稿」改为标签
     nav: [
       {
         text: '文章',
@@ -73,32 +76,8 @@ export default defineValaxyConfig<UserThemeConfig>({
       },
     ],
 
-    pages: [
-      {
-        name: '礼仪馆',
-        url: '/guan/liturgia/',
-        icon: 'i-ri-book-open-line',
-        color: '#9A3F35',
-      },
-      {
-        name: '圣人馆',
-        url: '/guan/sancti/',
-        icon: 'i-ri-calendar-event-line',
-        color: '#FF8C00',
-      },
-      {
-        name: '汉文经典馆',
-        url: '/guan/sinica/',
-        icon: 'i-ri-file-text-line',
-        color: '#E8913A',
-      },
-      {
-        name: '教父与训导馆',
-        url: '/guan/patres/',
-        icon: 'i-ri-file-text-line',
-        color: '#8C5A2B',
-      },
-    ],
+    // home buttons come from config/halls.ts (same source as the hall pages)
+    pages: halls.map(({ name, url, icon, color }) => ({ name, url, icon, color })),
 
     footer: {
       since: 0,
