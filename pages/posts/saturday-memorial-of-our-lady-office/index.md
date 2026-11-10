@@ -2,8 +2,10 @@
 title: "星期六纪念圣母（每日颂祷/新礼日课）"
 top: 1
 categories:
-  - "文献"
+  - "礼仪馆"
   - "时辰礼仪"
+tags:
+  - "文献"
 ---
 
 <div class="saturday-mary-page-marker" aria-hidden="true"></div>

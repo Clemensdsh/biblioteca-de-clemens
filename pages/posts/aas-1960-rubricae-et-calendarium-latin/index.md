@@ -2,13 +2,14 @@
 title: "Rubricae Breviarii et Missalis Romani: Textus Latinus"
 date: 2026-09-01
 categories:
-  - "文献"
-  - "礼仪文献"
+  - "礼仪馆"
+  - "礼规与弥撒"
 tags:
   - "1960 rubricae"
   - "Breviarium Romanum"
   - "Missale Romanum"
   - "Calendarium Romanum"
+  - "文献"
 description: "Textus latinus Actorum Apostolicae Sedis vol. LII (1960), pp. 593-705, de rubricis Breviarii et Missalis Romani."
 outline:
   - 2

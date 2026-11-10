@@ -1,6 +1,5 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
-import { featureFlags } from './config/features'
 
 const safelist = [
   'i-ri-home-line',
@@ -60,52 +59,44 @@ export default defineValaxyConfig<UserThemeConfig>({
       colors: ['#FFD700', '#E8913A', '#FF6347', '#D4820A', '#FF8C00'],
     },
 
+    // IA variant: ia-themes — 按主题分馆；「文献/译稿」改为标签
     nav: [
       {
         text: '文章',
         link: '/posts/',
         icon: 'i-ri-article-line',
       },
+      {
+        text: '分馆',
+        link: '/guan/',
+        icon: 'i-ri-folder-2-line',
+      },
     ],
 
     pages: [
       {
-        name: '圣人录译稿',
-        url: '/martyrologium-translation/',
-        icon: 'i-ri-file-text-line',
-        color: '#FF8C00',
-      },
-      {
-        name: '周年瞻礼经',
-        url: '/annual-feasts/',
-        icon: 'i-ri-file-text-line',
-        color: '#E8913A',
-      },
-      ...(featureFlags.officium1962
-        ? [{
-            name: '罗马大日课',
-            url: '/officium-1962/',
-            icon: 'i-ri-book-open-line',
-            color: '#9A3F35',
-          }]
-        : []),
-      {
-        name: '哥特日课',
-        url: '/breviarium-gothicum/',
-        icon: 'i-ri-book-open-line',
-        color: '#8C5A2B',
-      },
-      {
-        name: '时辰礼仪',
-        url: '/liturgia-horarum/',
+        name: '礼仪馆',
+        url: '/guan/liturgia/',
         icon: 'i-ri-book-open-line',
         color: '#9A3F35',
       },
       {
-        name: '每日圣人录',
-        url: '/martyrology/',
+        name: '圣人馆',
+        url: '/guan/sancti/',
         icon: 'i-ri-calendar-event-line',
         color: '#FF8C00',
+      },
+      {
+        name: '汉文经典馆',
+        url: '/guan/sinica/',
+        icon: 'i-ri-file-text-line',
+        color: '#E8913A',
+      },
+      {
+        name: '教父与训导馆',
+        url: '/guan/patres/',
+        icon: 'i-ri-file-text-line',
+        color: '#8C5A2B',
       },
     ],
 

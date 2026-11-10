@@ -2,10 +2,12 @@
 title: "聖教會要課日誦經文（東正教）"
 date: 2026-07-17
 categories:
-  - "文献"
+  - "汉文经典馆"
+  - "公经与日诵"
 tags:
   - "東正教"
   - "祈禱文"
+  - "文献"
 ---
 
 > 文本錄自 [Christian Classics Ethereal Library 所藏《聖教會要課日誦經文》繁體竪排版](https://ccel.org/contrib/cn/orthodox/catechpray/indexv.html)。本文依原站目錄次序合併，保留原文用字及異體，並將竪排標點轉為相應的橫排形式；原網頁採 Big5 編碼。

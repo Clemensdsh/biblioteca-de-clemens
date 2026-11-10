@@ -2,11 +2,12 @@
 title: "Catequesis sobre los Padres de la Iglesia"
 date: 2026-07-20
 categories:
-  - "文献"
-  - "教父"
+  - "教父与训导馆"
+  - "教父文献"
 tags:
   - "Benedicto XVI"
   - "Padres de la Iglesia"
+  - "文献"
 ---
 
 Papa Benedicto XVI
