@@ -39,7 +39,7 @@ describe('Liturgia Horarum data', () => {
         expect(textOf(rows.map(row => row.la).join('')), id).toBe(textOf(day.blocks[id]))
         for (const { zh } of rows) {
           if (zh) {
-            expect(['t', 's', 'o', 'c']).toContain(zh[0])
+            expect(['t', 's', 'o', 'c', 'm']).toContain(zh[0])
             expect(zh[1]).toEqual(expect.any(String))
           }
         }

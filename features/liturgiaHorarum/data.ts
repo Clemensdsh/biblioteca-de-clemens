@@ -25,7 +25,8 @@ export interface Manifest {
 }
 
 export type ZhVersion = 'hkdlc' | 'wanyou'
-export type ZhText = [kind: 't' | 's' | 'o' | 'c', text: string, borrowedFrom?: string]
+// kind 'm': the Chinese chosen for this row is another psalm than the Latin (zh/mismatch.json)
+export type ZhText = [kind: 't' | 's' | 'o' | 'c' | 'm', text: string, borrowedFrom?: string]
 
 export type Part
   = | { title: string | null, block: string }
@@ -126,11 +127,13 @@ export class LiturgiaHorarumLoader {
     const entry = year[date]
     if (!entry)
       throw new Error(`${date}: not in the data`)
-    const [celebrations, titles, rowTitles, index] = await Promise.all([
+    const [celebrations, titles, rowTitles, index, mismatch] = await Promise.all([
       Promise.all(entry.c.map(([, cel]) => this.json<Celebration>(`cels/${cel}.json`))),
       Promise.all(entry.c.map(([title]) => this.json<{ blocks: ChineseRows }>(`zh/${version}/titles/${title}.json`))),
       Promise.all(entry.c.map(([title]) => this.json<LatinRows>(`zh/rows/titles/${title}.json`))),
       this.json<Record<string, number>>('common/index.json'),
+      // written by scripts/liturgia-horarum/check-zh-pairing.mjs; optional
+      this.json<Record<string, number[]>>('zh/mismatch.json').catch(() => ({} as Record<string, number[]>)),
     ])
     const chinese: ChineseRows = Object.assign({}, ...titles.map(title => title.blocks))
     const rows: LatinRows = Object.assign({}, ...rowTitles)
@@ -148,10 +151,58 @@ export class LiturgiaHorarumLoader {
       const values = chinese[id]
       if (values && values.length !== lines.length)
         throw new Error(`${id}: Chinese row count differs from Latin`)
-      return [id, lines.map(([la, key], i) => ({ la, key, zh: values?.[i] || null }))]
+      return [id, lines.map(([la, key], i) => ({ la, key, zh: mismatch[id]?.includes(i) && values?.[i] ? ['m', ''] as ZhText : values?.[i] || null }))]
     }))
     return blocks
   }
+}
+
+// The biographical note on a saint (one or two <div class="small"> paragraphs, then an empty
+// <div></div>) heads the first block of each hour the engine assembles for the celebration.
+// The book prints it once, at the head of the celebration; the page shows it only in the
+// first hour that has it — the Office of Readings on an ordinary memorial, or First Vespers
+// on the eve of a feast whose office begins there.
+const BIO = /^\s*(?:<div class="small">[\s\S]*?<\/div>\s*(?:<div><\/div>\s*)?)+/
+
+export function hasBio(html: string | undefined): boolean {
+  return !!html && BIO.test(html)
+}
+
+export function withoutBio(html: string): string {
+  return html.replace(BIO, '')
+}
+
+/** A Chinese-row whose Latin is (part of) the note: the note itself or the empty div after it. */
+export function isBioRow(la: string): boolean {
+  return /^\s*<div class="small">/.test(la) || /^\s*<div><\/div>\s*$/.test(la)
+}
+
+function firstBlock(version: { parts: Part[] }): string | undefined {
+  const part = version.parts[0]
+  if (!part)
+    return undefined
+  return 'block' in part ? part.block : part.options[part.default].block
+}
+
+/**
+ * Codes of the hours where a note is to be shown: each distinct note in the first hour (in the
+ * order of HOURS) that carries it. A Saturday memorial keeps its own note at the Office of
+ * Readings and still shows the next day's feast note at First Vespers.
+ */
+export function bioHourCodes(cel: Celebration, blocks: Record<string, string>): Set<string> {
+  const seen = new Set<string>()
+  const show = new Set<string>()
+  for (const { code } of HOURS) {
+    const hour = cel.hours.find(h => h.code === code)
+    for (const v of hour?.versions ?? []) {
+      const note = BIO.exec(blocks[firstBlock(v) ?? ''] ?? '')?.[0].replace(/\s+/g, ' ').trim()
+      if (note && !seen.has(note)) {
+        seen.add(note)
+        show.add(code)
+      }
+    }
+  }
+  return show
 }
 
 // Posture of those taking part, General Instruction 263-265: standing for the

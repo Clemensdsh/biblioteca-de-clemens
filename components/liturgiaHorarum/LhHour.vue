@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { computed, reactive, ref } from 'vue'
 import { formatZh } from '../../features/liturgiaHorarum/zhFormat'
-import { type Celebration, type Part, type ZhBlocks, type ZhText, postureMarks } from '../../features/liturgiaHorarum/data'
+import { type AlignedGroup, alignPsalm, PSALM_KEY, splitZhPsalm } from '../../features/liturgiaHorarum/align'
+import { type Celebration, isBioRow, type Part, withoutBio, type ZhBlocks, type ZhRow, type ZhText, postureMarks } from '../../features/liturgiaHorarum/data'
 
 const props = defineProps<{
   hour: Celebration['hours'][number]
@@ -9,6 +10,8 @@ const props = defineProps<{
   zhBlocks: ZhBlocks
   display: 'latin' | 'chinese' | 'parallel'
   showPosture: boolean
+  /** show the saint's biographical note at the top of this hour (only its first hour) */
+  showBio: boolean
 }>()
 
 const version = ref(0)
@@ -49,8 +52,43 @@ function texts(block: string) {
   return props.zhBlocks[block] || []
 }
 
+function latinHtml(part: Part, index: number) {
+  const html = props.blocks[blockId(part)] ?? ''
+  return index === 0 && !props.showBio ? withoutBio(html) : html
+}
+
+/** the biographical note's rows, at the top of the hour's first block, when not shown here */
+function hiddenRow(part: Part, index: number, n: number) {
+  if (index !== 0 || props.showBio)
+    return false
+  const rows = texts(blockId(part))
+  const firstKeyed = rows.findIndex(row => row.key)
+  return (firstKeyed < 0 || n < firstKeyed) && isBioRow(rows[n].la)
+}
+
+// Psalms and canticles in the parallel view: verse by verse where the pairing is certain
+// (features/liturgiaHorarum/align.ts), otherwise the whole text as one block as before.
+const alignCache = new WeakMap<ZhRow, AlignedGroup[] | null>()
+function aligned(row: ZhRow): AlignedGroup[] | null {
+  if (props.display !== 'parallel' || !row.key || !PSALM_KEY.test(row.key) || row.zh?.[0] !== 't')
+    return null
+  if (!alignCache.has(row)) {
+    const formatted = formatZh(row.key, row.zh[1], row.la)
+    const { head, body } = splitZhPsalm(row.zh[1], formatted.filter(line => line.cls === 'body').length)
+    const result = alignPsalm(row.la, head, body)
+    alignCache.set(row, result.ok ? result.groups : null)
+  }
+  return alignCache.get(row) ?? null
+}
+
+/** a line after a mediant (※) or flex (†) line is the verse's second half: indent it like the Latin */
+function zhContinues(lines: string[], i: number) {
+  return i > 0 && /[※†]\s*$/.test(lines[i - 1])
+}
+
 function note(zh: ZhText | null) {
   if (!zh) return ''
+  if (zh[0] === 'm') return '中文本此处所配为另一篇圣咏，不予显示'
   if (zh[0] === 's' || zh[0] === 'o') return '文本不对应'
   if (zh[0] === 'c') return '后半篇取自圣咏集'
   if (zh[2]) return `取自${({ hkdlc: '香港本', wanyou: '万有真原' } as Record<string, string>)[zh[2]] || zh[2]}`
@@ -84,13 +122,30 @@ function noteBefore(block: string, n: number) {
           <option v-for="(option, n) in part.options" :key="n" :value="n">{{ option.label }}</option>
         </select>
       </label>
-      <div v-if="display === 'latin'" class="lh-text" v-html="blocks[blockId(part)]" />
+      <div v-if="display === 'latin'" class="lh-text" v-html="latinHtml(part, index)" />
       <template v-else-if="texts(blockId(part)).some(row => row.zh)">
         <template v-for="(row, n) in texts(blockId(part))" :key="n">
-          <div v-if="display === 'parallel' || row.zh || row.key === '@title'" :class="[display === 'parallel' ? 'lh-parallel' : '', { 'lh-title-row': row.key === '@title' }]">
+          <template v-if="hiddenRow(part, index, n)" />
+          <!-- a psalm paired verse by verse: one grid row per verse (stacked on a phone) -->
+          <template v-else-if="aligned(row)">
+            <div v-for="(group, g) in aligned(row)!" :key="g" class="lh-parallel lh-pair" :class="`lh-pair-${group.kind}`">
+              <div class="lh-text" lang="la" v-html="group.la" />
+              <div class="lh-zh-column">
+                <p v-if="g === 0 && noteBefore(blockId(part), n)" class="lh-zh-note">〔{{ noteBefore(blockId(part), n) }}〕</p>
+                <template v-if="group.kind === 'head' || group.kind === 'section'">
+                  <p v-for="(line, lineNo) in formatZh(row.key!, group.zh.join('\n'), group.la)" :key="lineNo" :class="`lh-zh-${line.cls === 'label' ? 'body' : line.cls}`">{{ line.text }}</p>
+                </template>
+                <template v-else>
+                  <p v-for="(line, lineNo) in group.zh" :key="lineNo" class="lh-zh-body" :class="{ 'lh-zh-cont': zhContinues(group.zh, lineNo) }">{{ line }}</p>
+                </template>
+              </div>
+            </div>
+          </template>
+          <div v-else-if="display === 'parallel' || row.zh || row.key === '@title'" :class="[display === 'parallel' ? 'lh-parallel' : '', { 'lh-title-row': row.key === '@title' }]">
             <div v-if="display === 'parallel'" class="lh-text" lang="la" v-html="row.la" />
             <div class="lh-zh-column">
               <p v-if="row.key === '@title' && 'title' in part" class="lh-zh-title">{{ chineseTitle(part.title, blockId(part)) }}</p>
+              <p v-else-if="row.zh && row.zh[0] === 'm'" class="lh-zh-note">〔{{ note(row.zh) }}〕</p>
               <div v-else-if="row.zh" class="lh-zh-item">
                 <p v-if="noteBefore(blockId(part), n)" class="lh-zh-note">〔{{ noteBefore(blockId(part), n) }}〕</p>
                 <p v-for="(line, lineNo) in formatZh(row.key, row.zh[1], row.la)" :key="lineNo" :class="line.cls === 'label' ? 'lh-zh-body' : `lh-zh-${line.cls}`"><template v-if="line.cls === 'label'"><span class="lh-zh-label">{{ line.text }}</span><span>{{ line.content }}</span></template><template v-else>{{ line.text }}</template></p>
@@ -100,7 +155,7 @@ function noteBefore(block: string, n: number) {
         </template>
       </template>
       <div v-else :class="display === 'parallel' ? 'lh-parallel' : ''">
-        <div v-if="display === 'parallel'" class="lh-text" lang="la" v-html="blocks[blockId(part)]" />
+        <div v-if="display === 'parallel'" class="lh-text" lang="la" v-html="latinHtml(part, index)" />
         <div class="lh-zh-column">
           <p v-if="'title' in part && part.title" class="lh-zh-title">{{ chineseTitle(part.title, blockId(part)) }}</p>
           <p class="lh-zh-missing">中文本无此部分</p>
@@ -210,12 +265,38 @@ function noteBefore(block: string, n: number) {
 .lh-parallel > .lh-zh-column { padding-left: 0.75rem;
 }
 
+/* A psalm paired verse by verse: Chinese lines sit tight like the Latin verse lines, and the
+   second half of a verse is indented as in the Latin. */
+.lh-pair-verse .lh-zh-column > p,
+.lh-pair-doxology .lh-zh-column > p {
+  margin: 0;
+}
+.lh-pair-verse .lh-zh-column > p.lh-zh-cont,
+.lh-pair-doxology .lh-zh-column > p.lh-zh-cont {
+  padding-left: 1.5em;
+}
+.lh-pair-verse,
+.lh-pair-doxology {
+  margin-bottom: 0.55rem;
+}
+.lh-pair .lh-text :deep(.verse.last) {
+  margin-bottom: 0;
+}
+
 @media (max-width: 42rem) {
   .lh-parallel {
     grid-template-columns: 1fr;
     gap: 0.5rem;
   }
   .lh-parallel > .lh-text, .lh-parallel > .lh-zh-column { padding: 0; }
+  /* on a phone each verse is Latin then Chinese; keep the pair together, the next one apart */
+  .lh-pair {
+    gap: 0.2rem;
+  }
+  .lh-pair-verse,
+  .lh-pair-doxology {
+    margin-bottom: 0.9rem;
+  }
 }
 
 .lh-text :deep(p) {

@@ -2,7 +2,7 @@
 import { useHead } from '@unhead/vue'
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import LhHour from '../../components/liturgiaHorarum/LhHour.vue'
-import { addDays, type Day, HOURS, type HourSlug, isDate, LiturgiaHorarumLoader, localDate, type Manifest, type ZhBlocks, type ZhVersion } from '../../features/liturgiaHorarum/data'
+import { addDays, bioHourCodes, type Day, HOURS, type HourSlug, isDate, LiturgiaHorarumLoader, localDate, type Manifest, type ZhBlocks, type ZhVersion } from '../../features/liturgiaHorarum/data'
 
 const description = '新礼时辰礼仪（Liturgia Horarum）拉丁文在线版，每日八个时辰：序经、诵读日课、晨祷、日间祷、晚祷与夜祷。'
 useHead({
@@ -42,6 +42,8 @@ const atFirst = computed(() => !manifest.value || date.value <= manifest.value.f
 const atLast = computed(() => !manifest.value || date.value >= manifest.value.to)
 const current = computed(() => day.value?.celebrations[celebration.value])
 const currentHour = computed(() => current.value?.hours.find(item => item.code === HOURS[hourIndex.value].code))
+// a saint's biographical note is shown once, in the first hour of the celebration that has it
+const bioHours = computed(() => current.value && day.value ? bioHourCodes(current.value, day.value.blocks) : new Set<string>())
 // The rank (or, on a weekday, the psalter week) at the end of a title goes on its own line
 const RANK = /^(.*?),?\s+(sollemnitas|festum|memoria(?: ad libitum)?|pro commemoratione|Hebdomada \d+ Psalterii)$/
 const titleParts = computed(() => {
@@ -297,7 +299,7 @@ function selectCelebration(event: Event) {
         </h2>
         <p class="lh-hour-title" lang="la">{{ currentHour.name_la }}</p>
       </header>
-      <LhHour :key="`${day.date}-${celebration}-${hour}`" :hour="currentHour" :blocks="day.blocks" :zh-blocks="zhBlocks" :display="display" :show-posture="showPosture" />
+      <LhHour :key="`${day.date}-${celebration}-${hour}`" :hour="currentHour" :blocks="day.blocks" :zh-blocks="zhBlocks" :display="display" :show-posture="showPosture" :show-bio="bioHours.has(currentHour.code)" />
     </article>
 
     <aside class="lh-notes no-print" aria-labelledby="lh-help-title">
