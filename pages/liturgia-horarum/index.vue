@@ -2,6 +2,7 @@
 import { useHead } from '@unhead/vue'
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import LhHour from '../../components/liturgiaHorarum/LhHour.vue'
+import { psalterWeekZh, RANK_ZH, titleZh } from '../../features/liturgiaHorarum/titleZh'
 import { addDays, bioHourCodes, type Day, HOURS, type HourSlug, isDate, LiturgiaHorarumLoader, localDate, type Manifest, type ZhBlocks, type ZhVersion } from '../../features/liturgiaHorarum/data'
 
 const description = '新礼时辰礼仪（Liturgia Horarum）拉丁文在线版，每日八个时辰：序经、诵读日课、晨祷、日间祷、晚祷与夜祷。'
@@ -51,6 +52,13 @@ const titleParts = computed(() => {
   const match = RANK.exec(title)
   return match ? [match[1], match[2]] : [title, '']
 })
+// Chinese title line (Chinese and parallel views): the season's day by rule; for a saint, only
+// the rank for now (names await a reviewed list), with the Latin name kept above
+const titleZhParts = computed(() => {
+  const [main, rank] = titleParts.value
+  return [titleZh(main) ?? '', RANK_ZH[rank] ?? psalterWeekZh(rank) ?? '']
+})
+const hourZh = computed(() => HOURS[hourIndex.value].zh)
 
 onMounted(async () => {
   try {
@@ -297,7 +305,10 @@ function selectCelebration(event: Event) {
         <h2 lang="la">
           {{ titleParts[0] }}<small v-if="titleParts[1]">{{ titleParts[1] }}</small>
         </h2>
-        <p class="lh-hour-title" lang="la">{{ currentHour.name_la }}</p>
+        <p v-if="display !== 'latin' && (titleZhParts[0] || titleZhParts[1])" class="lh-title-zh" lang="zh-CN">
+          {{ titleZhParts[0] }}<small v-if="titleZhParts[1]">{{ titleZhParts[1] }}</small>
+        </p>
+        <p class="lh-hour-title" lang="la">{{ currentHour.name_la }}<span v-if="display !== 'latin'" class="lh-hour-zh" lang="zh-CN"> · {{ hourZh }}</span></p>
       </header>
       <LhHour :key="`${day.date}-${celebration}-${hour}`" :hour="currentHour" :blocks="day.blocks" :zh-blocks="zhBlocks" :display="display" :show-posture="showPosture" :show-bio="bioHours.has(currentHour.code)" />
     </article>
@@ -509,6 +520,26 @@ function selectCelebration(event: Event) {
   color: var(--va-c-text-light);
   font-family: var(--va-font-sans, system-ui, sans-serif);
   font-size: 0.82rem;
+}
+
+.lh-title-zh {
+  margin: 0.1rem 0 0.35rem;
+  color: var(--va-c-text);
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.lh-title-zh small {
+  display: block;
+  color: var(--va-c-text-light);
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.lh-hour-zh {
+  font-variant: normal;
+  letter-spacing: 0.05em;
 }
 
 .lh-hour-title {
