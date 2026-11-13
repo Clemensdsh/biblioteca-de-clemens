@@ -37,7 +37,7 @@ describe('Chinese day titles', () => {
         missing.add(`rank: ${m[2]}`)
     }
     expect([...missing]).toEqual([])
-  })
+  }, 60_000) // reads every celebration file
 
   it('names some days by date, as GCatholic does', () => {
     expect(titleZh('Feria quinta, Tempus Adventus, Hebdomada 3', '2026-12-17')).toBe('将临期十二月十七日')
@@ -60,5 +60,5 @@ describe('Chinese day titles', () => {
         missing.add(cel.title_la)
     }
     expect([...missing]).toEqual([])
-  })
+  }, 60_000) // reads every celebration file
 })

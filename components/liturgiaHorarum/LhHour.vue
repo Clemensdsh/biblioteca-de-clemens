@@ -2,6 +2,7 @@
 import { computed, reactive, ref } from 'vue'
 import { formatZh } from '../../features/liturgiaHorarum/zhFormat'
 import { type AlignedGroup, alignPsalm, PSALM_KEY, splitZhPsalm } from '../../features/liturgiaHorarum/align'
+import { checkManual, latinUnits, manualGroups } from '../../features/liturgiaHorarum/manualAlign'
 import { type Celebration, isBioRow, type Part, withoutBio, type ZhBlocks, type ZhRow, type ZhText, postureMarks } from '../../features/liturgiaHorarum/data'
 
 const props = defineProps<{
@@ -76,14 +77,21 @@ function aligned(row: ZhRow): AlignedGroup[] | null {
     const formatted = formatZh(row.key, row.zh[1], row.la)
     const { head, body } = splitZhPsalm(row.zh[1], formatted.filter(line => line.cls === 'body').length)
     const result = alignPsalm(row.la, head, body)
-    alignCache.set(row, result.ok ? result.groups : null)
+    let groups = result.ok ? result.groups : null
+    // otherwise a hand-made pairing of this exact text, used only if it still fits the text
+    if (!groups && row.manual) {
+      const units = latinUnits(row.la)
+      if (units && checkManual(row.manual, units.units, body.join('\n')).length === 0)
+        groups = manualGroups(row.manual, { la: units.head, zh: head }, units.units)
+    }
+    alignCache.set(row, groups)
   }
   return alignCache.get(row) ?? null
 }
 
-/** a line after a mediant (※) or flex (†) line is the verse's second half: indent it like the Latin */
+/** a line after a mediant (※, or * in some 香港本 psalms) or flex (†, ＋) line is the verse's second half: indent it like the Latin */
 function zhContinues(lines: string[], i: number) {
-  return i > 0 && /[※†]\s*$/.test(lines[i - 1])
+  return i > 0 && /[※†*＋]\s*$/.test(lines[i - 1])
 }
 
 function note(zh: ZhText | null) {
@@ -146,9 +154,9 @@ function noteBefore(block: string, n: number) {
             <div class="lh-zh-column">
               <p v-if="row.key === '@title' && 'title' in part" class="lh-zh-title">{{ chineseTitle(part.title, blockId(part)) }}</p>
               <p v-else-if="row.zh && row.zh[0] === 'm'" class="lh-zh-note">〔{{ note(row.zh) }}〕</p>
-              <div v-else-if="row.zh" class="lh-zh-item">
+              <div v-else-if="row.zh" class="lh-zh-item" :class="{ 'lh-zh-bio': isBioRow(row.la) }">
                 <p v-if="noteBefore(blockId(part), n)" class="lh-zh-note">〔{{ noteBefore(blockId(part), n) }}〕</p>
-                <p v-for="(line, lineNo) in formatZh(row.key, row.zh[1], row.la)" :key="lineNo" :class="line.cls === 'label' ? 'lh-zh-body' : `lh-zh-${line.cls}`"><template v-if="line.cls === 'label'"><span class="lh-zh-label">{{ line.text }}</span><span>{{ line.content }}</span></template><template v-else>{{ line.text }}</template></p>
+                <p v-for="(line, lineNo) in formatZh(row.key ?? '', row.zh[1], row.la)" :key="lineNo" :class="line.cls === 'label' ? 'lh-zh-body' : `lh-zh-${line.cls}`"><template v-if="line.cls === 'label'"><span class="lh-zh-label">{{ line.text }}</span><span>{{ line.content }}</span></template><template v-else>{{ line.text }}</template></p>
               </div>
             </div>
           </div>
@@ -239,6 +247,11 @@ function noteBefore(block: string, n: number) {
 .lh-zh-rubric {
   color: var(--lh-red);
   font-style: italic;
+  font-size: 0.85em;
+}
+
+/* a saint's note, small like the Latin one */
+.lh-zh-bio {
   font-size: 0.85em;
 }
 

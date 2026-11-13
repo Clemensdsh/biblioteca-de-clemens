@@ -1,6 +1,9 @@
 // Loads the Liturgy of the Hours (new rite, Latin) from public/data/liturgia-horarum/,
 // written by scripts/liturgia-horarum/build-data.mjs (format lh-site/1).
 
+import { PSALM_KEY } from './align'
+import { type ManualGroup, rowHash } from './manualAlign'
+
 export const HOURS = [
   { code: 'mi', slug: 'invitatorium', la: 'Invitatorium', zh: '序经' },
   { code: 'mpc', slug: 'officium-lectionis', la: 'Officium lectionis', zh: '诵读日课' },
@@ -52,7 +55,8 @@ export interface Day {
   blocks: Record<string, string>
 }
 
-export type ZhRow = { la: string, key: string | null, zh: ZhText | null }
+/** manual: a hand-made verse pairing for this exact text (zh/align-<version>.json), if any */
+export type ZhRow = { la: string, key: string | null, zh: ZhText | null, manual?: ManualGroup[] }
 export type ZhBlocks = Record<string, ZhRow[]>
 type LatinRows = Record<string, Array<[string, string | null]>>
 type ChineseRows = Record<string, Array<ZhText | null>>
@@ -140,7 +144,7 @@ export class LiturgiaHorarumLoader {
     const entry = year[date]
     if (!entry)
       throw new Error(`${date}: not in the data`)
-    const [celebrations, titles, rowTitles, index, mismatch, fixes] = await Promise.all([
+    const [celebrations, titles, rowTitles, index, mismatch, fixes, manual, bios] = await Promise.all([
       Promise.all(entry.c.map(([, cel]) => this.json<Celebration>(`cels/${cel}.json`).then(typicalOnly))),
       Promise.all(entry.c.map(([title]) => this.json<{ blocks: ChineseRows }>(`zh/${version}/titles/${title}.json`))),
       Promise.all(entry.c.map(([title]) => this.json<LatinRows>(`zh/rows/titles/${title}.json`))),
@@ -150,6 +154,10 @@ export class LiturgiaHorarumLoader {
       // written by scripts/liturgia-horarum/repair-zh-pairing.mjs: the Chinese of the text the Latin
       // actually prints, for rows of alternative psalmodies (see that script); optional
       this.json<Record<string, Record<string, Partial<Record<ZhVersion, ZhText | null>>>>>('zh/fixes.json').catch(() => ({})),
+      // hand-made verse pairings for psalms the automatic aligner leaves whole; optional
+      this.json<Record<string, ManualGroup[] | { skip: string }>>(`zh/align-${version}.json`).catch(() => ({} as Record<string, ManualGroup[] | { skip: string }>)),
+      // saints' notes transcribed from 《每日颂祷》 (scripts/liturgia-horarum/build-bios.mjs); optional
+      this.json<Record<string, { hant: string, hans: string }>>('zh/bios.json').catch(() => ({} as Record<string, { hant: string, hans: string }>)),
     ])
     const chinese: ChineseRows = Object.assign({}, ...titles.map(title => title.blocks))
     const rows: LatinRows = Object.assign({}, ...rowTitles)
@@ -169,9 +177,16 @@ export class LiturgiaHorarumLoader {
         throw new Error(`${id}: Chinese row count differs from Latin`)
       return [id, lines.map(([la, key], i) => {
         const fix = fixes[id]?.[i]
-        if (fix && version in fix)
-          return { la, key, zh: fix[version] ?? null }
-        return { la, key, zh: mismatch[id]?.includes(i) && values?.[i] ? ['m', ''] as ZhText : values?.[i] || null }
+        const zh: ZhText | null = fix && version in fix
+          ? fix[version] ?? null
+          : mismatch[id]?.includes(i) && values?.[i] ? ['m', ''] : values?.[i] || null
+        const row: ZhRow = { la, key, zh: zh ?? bioZh(la, bios, version) }
+        if (zh?.[0] === 't' && key && PSALM_KEY.test(key)) {
+          const pairing = manual[rowHash(version, la, zh[1])]
+          if (Array.isArray(pairing))
+            row.manual = pairing
+        }
+        return row
       })]
     }))
     return blocks
@@ -191,6 +206,20 @@ export function hasBio(html: string | undefined): boolean {
 
 export function withoutBio(html: string): string {
   return html.replace(BIO, '')
+}
+
+/** The key of a Latin note in zh/bios.json: its letters, lower case, the first 80 (as build-bios.mjs). */
+export function bioKey(latin: string): string {
+  return latin.replace(/<[^>]+>/g, '').normalize('NFD').replace(/[^A-Za-z]/g, '').toLowerCase().slice(0, 80)
+}
+
+/** Chinese for a note row: each Latin paragraph's transcription, 香港本 as printed, else simplified with its source. */
+function bioZh(la: string, bios: Record<string, { hant: string, hans: string }>, version: ZhVersion): ZhText | null {
+  const paras = [...la.matchAll(/<div class="small">([\s\S]*?)<\/div>/g)].map(m => bios[bioKey(m[1])])
+  if (!paras.length || paras.some(p => !p))
+    return null
+  const text = paras.map(p => version === 'hkdlc' ? p!.hant : p!.hans).join('\n')
+  return version === 'hkdlc' ? ['t', text] : ['t', text, 'hkdlc']
 }
 
 /** A Chinese-row whose Latin is (part of) the note: the note itself or the empty div after it. */
