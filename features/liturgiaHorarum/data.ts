@@ -65,6 +65,19 @@ interface YearEntry {
 
 const ROOT = '/data/liturgia-horarum/'
 
+// Versions of an hour the engine (breviar.sk) offers that the Latin typical edition does not:
+//   "psalmodiam secundum tres hebdomadas Psalterii (currentem, præcedentem, succedentem)" for
+//   the Daytime Prayer. GILH 81 and the Ordinarium (2014 ed., Ad Horam mediam) give only the
+//   current psalmody, and the complementary psalmody for the other daytime hours.
+const NON_TYPICAL_VERSIONS = /可取本周、前周或后周/
+
+function typicalOnly(cel: Celebration): Celebration {
+  return {
+    ...cel,
+    hours: cel.hours.map(hour => ({ ...hour, versions: hour.versions.filter(v => !NON_TYPICAL_VERSIONS.test(v.label)) })),
+  }
+}
+
 export function blockIds(cel: Celebration): string[] {
   return cel.hours.flatMap(hour => hour.versions.flatMap(version => version.parts.flatMap(part =>
     'block' in part ? [part.block] : part.options.map(option => option.block))))
@@ -105,7 +118,7 @@ export class LiturgiaHorarumLoader {
     if (!entry)
       throw new Error(`${date}: not in the data`)
     const [celebrations, titles, index] = await Promise.all([
-      Promise.all(entry.c.map(([, cel]) => this.json<Celebration>(`cels/${cel}.json`))),
+      Promise.all(entry.c.map(([, cel]) => this.json<Celebration>(`cels/${cel}.json`).then(typicalOnly))),
       Promise.all(entry.c.map(([title]) => this.json<{ blocks: Record<string, string> }>(`titles/${title}.json`))),
       this.json<Record<string, number>>('common/index.json'),
     ])
@@ -127,13 +140,16 @@ export class LiturgiaHorarumLoader {
     const entry = year[date]
     if (!entry)
       throw new Error(`${date}: not in the data`)
-    const [celebrations, titles, rowTitles, index, mismatch] = await Promise.all([
-      Promise.all(entry.c.map(([, cel]) => this.json<Celebration>(`cels/${cel}.json`))),
+    const [celebrations, titles, rowTitles, index, mismatch, fixes] = await Promise.all([
+      Promise.all(entry.c.map(([, cel]) => this.json<Celebration>(`cels/${cel}.json`).then(typicalOnly))),
       Promise.all(entry.c.map(([title]) => this.json<{ blocks: ChineseRows }>(`zh/${version}/titles/${title}.json`))),
       Promise.all(entry.c.map(([title]) => this.json<LatinRows>(`zh/rows/titles/${title}.json`))),
       this.json<Record<string, number>>('common/index.json'),
       // written by scripts/liturgia-horarum/check-zh-pairing.mjs; optional
       this.json<Record<string, number[]>>('zh/mismatch.json').catch(() => ({} as Record<string, number[]>)),
+      // written by scripts/liturgia-horarum/repair-zh-pairing.mjs: the Chinese of the text the Latin
+      // actually prints, for rows of alternative psalmodies (see that script); optional
+      this.json<Record<string, Record<string, Partial<Record<ZhVersion, ZhText | null>>>>>('zh/fixes.json').catch(() => ({})),
     ])
     const chinese: ChineseRows = Object.assign({}, ...titles.map(title => title.blocks))
     const rows: LatinRows = Object.assign({}, ...rowTitles)
@@ -151,7 +167,12 @@ export class LiturgiaHorarumLoader {
       const values = chinese[id]
       if (values && values.length !== lines.length)
         throw new Error(`${id}: Chinese row count differs from Latin`)
-      return [id, lines.map(([la, key], i) => ({ la, key, zh: mismatch[id]?.includes(i) && values?.[i] ? ['m', ''] as ZhText : values?.[i] || null }))]
+      return [id, lines.map(([la, key], i) => {
+        const fix = fixes[id]?.[i]
+        if (fix && version in fix)
+          return { la, key, zh: fix[version] ?? null }
+        return { la, key, zh: mismatch[id]?.includes(i) && values?.[i] ? ['m', ''] as ZhText : values?.[i] || null }
+      })]
     }))
     return blocks
   }

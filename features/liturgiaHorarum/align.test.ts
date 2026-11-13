@@ -29,12 +29,38 @@ describe('saint\'s biographical note', () => {
   })
 })
 
-describe('Chinese paired with another psalm', () => {
-  it('is marked, not shown (Sext of 2026-09-08: Latin Ps 52(53), Chinese Ps 74)', async () => {
-    const zh = await new LiturgiaHorarumLoader(localFetch).chinese('2026-09-08', 'wanyou')
-    const marked = Object.values(zh).flat().filter(row => row.zh?.[0] === 'm')
-    expect(marked.length).toBeGreaterThan(0)
-    expect(marked.some(row => /Psalmus 52 \(53\)/.test(row.la.replace(/<[^>]+>/g, ' ')))).toBe(true)
+describe('alternative psalmody: the Chinese follows the Latin actually printed', () => {
+  const plain = (la: string) => la.replace(/<[^>]+>/g, ' ')
+
+  it('drops the engine\'s "psalms of the current, previous or next week" for Daytime Prayer (not in the typical edition, GILH 81)', async () => {
+    const day = await new LiturgiaHorarumLoader(localFetch).day('2026-09-08')
+    for (const cel of day.celebrations) {
+      for (const hour of cel.hours)
+        expect(hour.versions.map(v => v.label).join('|')).not.toMatch(/前周或后周/)
+    }
+  })
+
+  it('complementary psalmody, "loco psalmi 121 (122) psalmum 128 (129)" (Terce of 2026-01-01): Ps 128(129) has its own Chinese', async () => {
+    const zh = await new LiturgiaHorarumLoader(localFetch).chinese('2026-01-01', 'wanyou')
+    const rows = Object.values(zh).flat().filter(row => /Psalmus 128 \(129\)/.test(plain(row.la)) && row.key === 'ZALM122')
+    expect(rows.length).toBeGreaterThan(0)
+    for (const row of rows) {
+      expect(row.zh?.[0]).toBe('t')
+      // 万有真原 numbers psalms by the Vulgate or the Hebrew: either is Ps 128(129), not Ps 121(122)
+      expect(row.zh![1].split('\n').slice(0, 3).join(' ')).toMatch(/\b12[89]\b/)
+    }
+  })
+
+  it('GILH 34, Ps 95 in place of an invitatory psalm (Lauds of 2021-01-12): whole in 万有真原, marked in 香港本', async () => {
+    const loader = new LiturgiaHorarumLoader(localFetch)
+    const isPs95 = (row: { la: string, key: string | null }) => /Psalmus 94 \(95\)/.test(plain(row.la)) && /^ZALM(24|67|100)$/.test(row.key ?? '')
+    const wanyou = Object.values(await loader.chinese('2021-01-12', 'wanyou')).flat().filter(isPs95)
+    expect(wanyou.length).toBeGreaterThan(0)
+    for (const row of wanyou)
+      expect(row.zh![1]).toMatch(/请大家前来[\s\S]*因为上主是崇高的天主[\s\S]*愿光荣归于父/)
+    const hk = Object.values(await loader.chinese('2021-01-12', 'hkdlc')).flat().filter(isPs95)
+    for (const row of hk)
+      expect(row.zh?.[0]).toBe('m')
   })
 })
 
