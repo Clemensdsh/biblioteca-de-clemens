@@ -2,7 +2,7 @@
 import { useHead } from '@unhead/vue'
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import LhHour from '../../components/liturgiaHorarum/LhHour.vue'
-import { psalterWeekZh, RANK_ZH, titleZh } from '../../features/liturgiaHorarum/titleZh'
+import { celebrationNameZh, psalterWeekZh, RANK_ZH, titleZh } from '../../features/liturgiaHorarum/titleZh'
 import { addDays, bioHourCodes, type Day, HOURS, type HourSlug, isDate, LiturgiaHorarumLoader, localDate, type Manifest, type ZhBlocks, type ZhVersion } from '../../features/liturgiaHorarum/data'
 
 const description = '新礼时辰礼仪（Liturgia Horarum）拉丁文在线版，每日八个时辰：序经、诵读日课、晨祷、日间祷、晚祷与夜祷。'
@@ -52,11 +52,18 @@ const titleParts = computed(() => {
   const match = RANK.exec(title)
   return match ? [match[1], match[2]] : [title, '']
 })
-// Chinese title line (Chinese and parallel views): the season's day by rule; for a saint, only
-// the rank for now (names await a reviewed list), with the Latin name kept above
+// Chinese title line (Chinese and parallel views): saints and feasts by GCatholic's names,
+// the season's days by rule (named as GCatholic names them)
+function mainOf(title: string) {
+  return RANK.exec(title)?.[1] ?? title
+}
+function chineseName(title: string) {
+  const main = mainOf(title)
+  return celebrationNameZh(main) ?? titleZh(main, day.value?.date) ?? ''
+}
 const titleZhParts = computed(() => {
-  const [main, rank] = titleParts.value
-  return [titleZh(main) ?? '', RANK_ZH[rank] ?? psalterWeekZh(rank) ?? '']
+  const [, rank] = titleParts.value
+  return [chineseName(current.value?.title_la || ''), RANK_ZH[rank] ?? psalterWeekZh(rank) ?? '']
 })
 const hourZh = computed(() => HOURS[hourIndex.value].zh)
 
@@ -299,7 +306,7 @@ function selectCelebration(event: Event) {
         <label v-if="day.celebrations.length > 1" class="lh-celebration no-print">
           <span>当日可选庆典</span>
           <select :value="celebration" lang="la" @change="selectCelebration">
-            <option v-for="(item, index) in day.celebrations" :key="index" :value="index">{{ item.title_la }}</option>
+            <option v-for="(item, index) in day.celebrations" :key="index" :value="index">{{ item.title_la }}{{ display !== 'latin' && chineseName(item.title_la) ? `  ·  ${chineseName(item.title_la)}` : '' }}</option>
           </select>
         </label>
         <h2 lang="la">
