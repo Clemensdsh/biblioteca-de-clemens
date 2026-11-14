@@ -1,0 +1,7 @@
+四月条目已写入 [04.jsonl](Q:/Web-biblioteca/biblioteca-de-clemens/scripts/liturgia-horarum/codex/ocr-out/04.jsonl)，JSON 格式、日期顺序和不确定标记计数检查通过。
+
+- **PDF 页码**：第 3335–3371 页。
+- **条目**：14 条，均有简介；不确定字标记 0 处。
+- **版面情况**：四月位于第二册，第 3335 页与三月条目共页，第 3371 页进入五月；圣安生简介跨第 3349–3350 页。
+
+仓库根目录的 `progress.md` 位于当前可写范围之外，未能更新。

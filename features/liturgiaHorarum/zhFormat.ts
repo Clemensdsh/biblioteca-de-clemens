@@ -3,7 +3,11 @@ export type ZhLine = { cls: 'title' | 'subtitle' | 'idea' | 'ref' | 'label' | 'r
 const reference = /^(?:參閱|参阅|參照|参照)?\s*[\u3400-\u9fff]{1,8}\s*\d+[：:]\s*\d/ 
 
 export function formatZh(key: string, text: string, latinFragment: string): ZhLine[] {
+  // The 万有真原 source carries section tags ("--sd start--", "--cd start--", "--wd start--") after some
+  // hymns; whatever follows one is the next section's text (e.g. the Benedictus), which has its own row.
   const lines = text.split('\n')
+  const cut = lines.findIndex(line => /^--[a-z]{2} start--$/.test(line.trim()))
+  if (cut >= 0) lines.length = cut
   const result: ZhLine[] = []
   const add = (cls: ZhLine['cls'], value: string) => result.push({ cls, text: value })
   const latin = latinFragment.replace(/<[^>]*>/g, ' ').replace(/&nbsp;|&#160;/g, ' ').trim().replace(/\s+/g, ' ')

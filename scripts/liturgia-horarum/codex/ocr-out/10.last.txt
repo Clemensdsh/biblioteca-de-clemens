@@ -1,0 +1,7 @@
+十月结果已写入 [10.jsonl](<Q:/Web-biblioteca/biblioteca-de-clemens/scripts/liturgia-horarum/codex/ocr-out/10.jsonl>)。
+
+- 范围：PDF 第 5420–5473 页；十一月从第 5474 页开始。
+- 共 19 条，其中 18 条有简介，标记不确定字 0 处。
+- 十月十八日及二十八日简介跨页；二日没有简介；九日、十六日和十九日各有两个条目。二十七日为地方纪念。
+
+已检查 JSON 格式、日期顺序和页码对应；**尚需独立逐字复核原图**。交接记录保存在 [progress.md](<Q:/Web-biblioteca/biblioteca-de-clemens/scripts/liturgia-horarum/codex/ocr-work/10/progress.md>)；仓库根目录的交接文件位于本次可写范围外，未修改。

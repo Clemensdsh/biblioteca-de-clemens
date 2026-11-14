@@ -1,0 +1,7 @@
+七月条目已写入 [07.jsonl](Q:/Web-biblioteca/biblioteca-de-clemens/scripts/liturgia-horarum/codex/ocr-out/07.jsonl)。
+
+- 七月部分：PDF 第 **5212–5261 页**；八月从第 5262 页开始。
+- 共 **21 条**，均有简介；已标记的不确定字 **0 处**。
+- 第 5223–5224 页有跨页简介。第 5236 页的两个标题与紧随其后的简介人物似乎互换，已按版面位置录入并注明。
+
+JSON 格式和不确定标记计数已检查；**全部转录尚需独立逐字复核**，尤其是第 5236 页、专名和标点。交接记录保存在 [progress.md](Q:/Web-biblioteca/biblioteca-de-clemens/scripts/liturgia-horarum/codex/ocr-work/07/progress.md)。

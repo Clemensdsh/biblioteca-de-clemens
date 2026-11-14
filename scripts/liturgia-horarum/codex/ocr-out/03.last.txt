@@ -1,0 +1,7 @@
+三月条目已写入 [03.jsonl](Q:/Web-biblioteca/biblioteca-de-clemens/scripts/liturgia-horarum/codex/ocr-out/03.jsonl)，并通过 JSON 格式及不确定标记计数检查。
+
+- **页码范围**：PDF 第 3289–3335 页；最后一页与四月共页。
+- **条目**：11 条，其中 9 条有简介；不确定字 0 处。
+- **版面情况**：三月位于第二册，而非任务说明估计的第三册范围；圣若瑟节和天使报喜的标题后直接进入礼仪正文，没有简介。
+
+仓库根目录的 `progress.md` 在可写范围之外，因此未更新。

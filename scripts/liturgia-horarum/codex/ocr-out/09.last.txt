@@ -1,0 +1,6 @@
+九月 OCR 已完成，结果保存在 [09.jsonl](Q:/Web-biblioteca/biblioteca-de-clemens/scripts/liturgia-horarum/codex/ocr-out/09.jsonl)。
+
+- 九月部分：PDF 第 **5345–5419 页**；第 5420 页开始十月。
+- 共 **17 条**，其中 **13 条有简介**，标记不确定字 **0 处**。
+- 九月二十八日有三个独立条目；部分简介跨栏或跨页，已在相应记录中注明。
+- JSON 格式、日期顺序及书页与 PDF 页码对应关系检查通过；逐字准确性仍待独立复核。

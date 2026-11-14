@@ -1,0 +1,6 @@
+八月 OCR 已完成，结果保存在 [08.jsonl](Q:/Web-biblioteca/biblioteca-de-clemens/scripts/liturgia-horarum/codex/ocr-out/08.jsonl)。
+
+- 八月范围：PDF 第 **5262–5344 页**；第 5345 页开始九月。
+- 共 **24 条**，其中 **20 条有简介**，标记的不确定字 **0 处**。
+- 特殊版面：部分简介跨页；8 月 13 日和 21 日的标题与简介分栏。8 月 7 日和 25 日各有两个条目。
+- 已检查 JSON 格式、日期顺序和 PDF／书页码对应关系。

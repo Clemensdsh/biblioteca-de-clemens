@@ -51,3 +51,6 @@ artifacts/officium1962/
 # Regenerable full-occurrence export (>100 MB, GitHub limit); not used by the site build.
 # Recreate with: pnpm officium1962:export-full-occurrences
 resources/officium1962-translation/full-occurrences-by-hour-and-source.zh-Hans.jsonl
+
+# Codex OCR rendered page images (large, regenerable)
+scripts/liturgia-horarum/codex/ocr-work/

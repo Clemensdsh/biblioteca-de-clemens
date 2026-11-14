@@ -2,6 +2,11 @@ import { describe, expect, it } from 'vitest'
 import { formatZh } from './zhFormat'
 
 describe('formatZh', () => {
+  it('drops source section tags and the text after them', () => {
+    expect(formatZh('HYMNUS_X', '甲\n阿们。\n--sd start--', '').map(l => l.text)).toEqual(['甲', '阿们。'])
+    expect(formatZh('HYMNUS_X', '甲\n阿们。\n--cd start--\n请赞美上主', '').map(l => l.text)).toEqual(['甲', '阿们。'])
+  })
+
   it.each([
     ['ZALM87', '圣咏\n86  耶路撒冷是万民之母\n“天上的耶路撒冷…”（迦4:26）\n正文', ['title', 'subtitle', 'idea', 'body']],
     ['ZALM87', '聖詠87(86)（耶路撒冷是萬民之母）\n「天上的耶路撒冷…」(迦4:26)\n正文', ['title', 'subtitle', 'idea', 'body']],

@@ -1,0 +1,7 @@
+二月条目已完成，结果保存在 [02.jsonl](Q:/Web-biblioteca/biblioteca-de-clemens/scripts/liturgia-horarum/codex/ocr-out/02.jsonl)。
+
+- 原书范围：PDF 第 1592–1642 页，位于第一册。
+- 共 18 条，其中 17 条有简介；标记不确定字 0 处。
+- 2 月 2 日无简介；2 月 13 日的标题与简介分列两页，2 月 14 日的简介跨页；部分日期有多个条目。
+
+已验证 JSONL 格式、日期顺序和不确定标记计数。转录尚未经第二人独立校对。

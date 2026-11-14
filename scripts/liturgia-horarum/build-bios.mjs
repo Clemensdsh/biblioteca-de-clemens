@@ -71,8 +71,26 @@ const take = (key, e) => {
   claimed.add(key)
   matched++
 }
+// 0. hand-checked pairings (bio-overrides.json): the Chinese text matched to a Latin celebration by its
+//    saint, for entries whose notes carry no years or are split into several Latin paragraphs. A Chinese
+//    note answering to several Latin paragraphs is cut (not altered) at the given phrases, one piece per paragraph.
+const overrides = JSON.parse(readFileSync(join(import.meta.dirname, 'bio-overrides.json'), 'utf8'))
+const overridden = new Set()
+for (const o of overrides) {
+  const e = entries.find(x => x.date === o.date && x.title === o.zh)
+  if (!e) continue
+  const keys = [...(notesByDate.get(o.date)?.entries() ?? [])].filter(([, n]) => n.title.includes(o.la)).map(([key]) => key)
+  const cuts = (o.splitAt ?? []).map(p => e.bio.indexOf(p))
+  if (cuts.includes(-1) || keys.length !== cuts.length + 1)
+    throw new Error(`bio-overrides ${o.date} ${o.zh}: ${keys.length} Latin notes, cuts ${JSON.stringify(cuts)}`)
+  const bounds = [0, ...cuts, e.bio.length]
+  keys.forEach((key, i) => take(key, { ...e, bio: e.bio.slice(bounds[i], bounds[i + 1]) }))
+  overridden.add(e)
+}
 // 1. by the years both notes give
 for (const e of entries) {
+  if (overridden.has(e))
+    continue
   const cands = [...(notesByDate.get(e.date)?.entries() ?? [])]
   const zy = chineseYears(e.bio)
   const scored = cands.map(([key, n]) => [key, n, [...latinYears(n.text)].filter(y => zy.has(y)).length]).sort((a, b) => b[2] - a[2])
