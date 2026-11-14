@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-02",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "hour": "tertia",
+  "language": "la",
+  "liturgicalTitle": "In Commemoratione Omnium Fidelium Defunctorum ~ I. classis",
+  "rank": "In Commemoratione Omnium Fidelium Defunctorum;;I. classis;;6;;ex C9\n\n",
+  "schemaVersion": "0.1.0",
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "units": [
+    {
+      "html": "Psalmus 37(1-11) [1]<br/>\n37:2 Dómine, ne in furóre tuo árguas me, * neque in ira tua corrípias me.<br/>\n37:3 Quóniam sagíttæ tuæ infíxæ sunt mihi: * et confirmásti super me manum tuam.<br/>\n37:4 Non est sánitas in carne mea a fácie iræ tuæ: * non est pax óssibus meis a fácie peccatórum meórum.<br/>\n37:5 Quóniam iniquitátes meæ supergréssæ sunt caput meum: * et sicut onus grave gravátæ sunt super me.<br/>\n37:6 Putruérunt et corrúptæ sunt cicatríces meæ, * a fácie insipiéntiæ meæ.<br/>\n37:7 Miser factus sum, et curvátus sum usque in finem: * tota die contristátus ingrediébar.<br/>\n37:8 Quóniam lumbi mei impléti sunt illusiónibus: * et non est sánitas in carne mea.<br/>\n37:9 Afflíctus sum, et humiliátus sum nimis: * rugiébam a gémitu cordis mei.<br/>\n37:10 Dómine, ante te omne desidérium meum: * et gémitus meus a te non est abscónditus.<br/>\n37:11 Cor meum conturbátum est, derelíquit me virtus mea: * et lumen oculórum meórum, et ipsum non est mecum.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\n",
+      "id": "do-1962-2026-11-02-tertia-001",
+      "raw": "&psalm(37,1,11)\n"
+    },
+    {
+      "html": "Psalmus 37(12-23) [2]<br/>\n37:12 Amíci mei, et próximi mei * advérsum me appropinquavérunt, et stetérunt.<br/>\n37:12 Et qui juxta me erant, de longe stetérunt: * et vim faciébant qui quærébant ánimam meam.<br/>\n37:13 Et qui inquirébant mala mihi, locúti sunt vanitátes: * et dolos tota die meditabántur.<br/>\n37:14 Ego autem tamquam surdus non audiébam: * et sicut mutus non apériens os suum.<br/>\n37:15 Et factus sum sicut homo non áudiens: * et non habens in ore suo redargutiónes.<br/>\n37:16 Quóniam in te, Dómine, sperávi: * tu exáudies me, Dómine, Deus meus.<br/>\n37:17 Quia dixi: Nequándo supergáudeant mihi inimíci mei: * et dum commovéntur pedes mei, super me magna locúti sunt.<br/>\n37:18 Quóniam ego in flagélla parátus sum: * et dolor meus in conspéctu meo semper.<br/>\n37:19 Quóniam iniquitátem meam annuntiábo: * et cogitábo pro peccáto meo.<br/>\n37:20 Inimíci autem mei vivunt, et confirmáti sunt super me: * et multiplicáti sunt qui odérunt me iníque.<br/>\n37:21 Qui retríbuunt mala pro bonis, detrahébant mihi: * quóniam sequébar bonitátem.<br/>\n37:22 Ne derelínquas me, Dómine, Deus meus: * ne discésseris a me.<br/>\n37:23 Inténde in adjutórium meum, * Dómine, Deus, salútis meæ.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\n",
+      "id": "do-1962-2026-11-02-tertia-002",
+      "raw": "&psalm(37,12,23)\n"
+    },
+    {
+      "html": "Psalmus 55 [3]<br/>\n55:2 Miserére mei, Deus, quóniam conculcávit me homo: * tota die impúgnans tribulávit me.<br/>\n55:3 Conculcavérunt me inimíci mei tota die: * quóniam multi bellántes advérsum me.<br/>\n55:4 Ab altitúdine diéi timébo: * ego vero in te sperábo.<br/>\n55:5 In Deo laudábo sermónes meos, in Deo sperávi: * non timébo quid fáciat mihi caro.<br/>\n55:6 Tota die verba mea exsecrabántur: * advérsum me omnes cogitatiónes eórum in malum.<br/>\n55:7 Inhabitábunt et abscóndent: * ipsi calcáneum meum observábunt.<br/>\n55:8 Sicut sustinuérunt ánimam meam, pro níhilo salvos fácies illos: * in ira pópulos confrínges.<br/>\n55:9 Deus, vitam meam annuntiávi tibi: * posuísti lácrimas meas in conspéctu tuo.<br/>\n55:9 Sicut et in promissióne tua: * tunc converténtur inimíci mei retrórsum:<br/>\n55:10 In quacúmque die invocávero te: * ecce, cognóvi, quóniam Deus meus es.<br/>\n55:11 In Deo laudábo verbum, in Dómino laudábo sermónem: * in Deo sperávi, non timébo quid fáciat mihi homo.<br/>\n55:12 In me sunt, Deus, vota tua, * quæ reddam, laudatiónes tibi.<br/>\n55:13 Quóniam eripuísti ánimam meam de morte, et pedes meos de lapsu: * ut pláceam coram Deo in lúmine vivéntium.<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\n",
+      "id": "do-1962-2026-11-02-tertia-003",
+      "raw": "&psalm(55)\n"
+    },
+    {
+      "html": "Oratio\n<br/>\nPater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris:<br/>\n℣. Et ne nos indúcas in tentatiónem:<br/>\n℟. Sed líbera nos a malo.<br/>\n℣. A porta ínferi.<br/>\n℟. Erue, Dómine, ánimas eórum.<br/>\n℣. Requiéscant in pace.<br/>\n℟. Amen.<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\nsecunda <span class='nigra'>Domine, exaudi</span> omittitur<br/>\nOrémus.<br/>\nFidélium, Deus, ómnium Cónditor et Redémptor, animábus famulórum famularúmque tuárum remissiónem cunctórum tríbue peccatórum: ut indulgéntiam, quam semper optavérunt, piis supplicatiónibus consequántur:<br/>\nQui vivis et regnas cum Deo Patre, in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-11-02-tertia-004",
+      "raw": "&special('Oratio mortuorum', 'Latin')\n"
+    },
+    {
+      "html": "Conclusio specialis<br/>\n℣. Réquiem ætérnam * dona eis, Dómine.<br/>\n℟. Et lux perpétua * lúceat eis.<br/>\n℣. Requiéscant in pace.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-11-02-tertia-005",
+      "raw": "&special('Conclusio', 'Latin')\n"
+    }
+  ],
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "warnings": []
+}

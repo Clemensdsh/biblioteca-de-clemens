@@ -1,0 +1,1 @@
+import{Y as e}from"./theme.uxooSrlr.js";var t=e({defaults:{"@type":`AggregateRating`}});export{t as aggregateRatingResolver};
