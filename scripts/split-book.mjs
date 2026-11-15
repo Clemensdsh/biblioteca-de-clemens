@@ -5,7 +5,7 @@
 //   pages/collections/<key>/NN.md      各章节页
 //
 // 用法：node scripts/split-book.mjs <源.md> <key> [--level 2] [--chapter-re 正则] [--drop 小节名,…] [--date --categories --tags --description]
-//        [--max-kb 90] [--min-chars 1200] [--marker 类名] [--post-slug slug] [--titles 章名.json] [--dry] [--force]
+//        [--max-kb 90] [--min-chars 1200] [--marker 类名] [--post-slug slug] [--titles 章名.json] [--noindex] [--dry] [--force]
 //   按 `--level` 级标题（默认 `## `）切章；过短的章并入下一章；过长的章再按 `### ` 切成几页（每页不超过 --max-kb）。
 //   源文件不被修改。已存在的 <key> 目录需加 --force 才会覆盖。
 import fs from 'node:fs'
@@ -16,7 +16,7 @@ const flag = n => args.includes(`--${n}`)
 const opt = (n, d) => { const i = args.indexOf(`--${n}`); return i >= 0 ? Number(args[i + 1]) : d }
 const [src, key] = args.filter((a, i) => !a.startsWith('--') && !(i > 0 && args[i - 1].startsWith('--') && args[i - 1] !== '--dry' && args[i - 1] !== '--force'))
 if (!src || !key) {
-  console.error('用法：node scripts/split-book.mjs <源.md> <key> [--max-kb 90] [--min-chars 1200] [--marker 页面标记类名] [--post-slug 书目页 slug] [--titles 章名.json] [--dry] [--force]')
+  console.error('用法：node scripts/split-book.mjs <源.md> <key> [--max-kb 90] [--min-chars 1200] [--marker 页面标记类名] [--post-slug 书目页 slug] [--titles 章名.json] [--noindex] [--dry] [--force]')
   process.exit(1)
 }
 const optStr = (n) => { const i = args.indexOf(`--${n}`); return i >= 0 ? args[i + 1] : '' }
@@ -194,7 +194,7 @@ const files = chapters.map((c, i) => {
   const lo = levels.length ? Math.min(...levels) : 0
   const hi = levels.length ? Math.min(Math.max(...levels), lo + 2) : 0
   const title = c.title.replace(/\*+/g, '') // 标题里的 Markdown 斜体星号在侧栏/frontmatter 里会原样显示
-  const fm = ['---', `title: ${q(title)}`, `date: ${meta.date}`, ...(meta.updated ? [`updated: ${meta.updated}`] : []), ...(levels.length ? ['outline:', `  - ${lo}`, `  - ${hi}`] : ['aside: false']), '---', '']
+  const fm = ['---', `title: ${q(title)}`, `date: ${meta.date}`, ...(meta.updated ? [`updated: ${meta.updated}`] : []), ...(levels.length ? ['outline:', `  - ${lo}`, `  - ${hi}`] : ['aside: false']), ...(flag('noindex') ? ['noindex: true'] : []), '---', '']
   const mk = marker ? `<div class="${marker}" aria-hidden="true"></div>\n\n` : ''
   return { name: `${pad(i + 1)}.md`, key: pad(i + 1), title, content: `${fm.join('\n')}\n${mk}${text}` }
 })
@@ -217,6 +217,7 @@ const bookMd = [
   '---',
   `title: ${q(meta.title)}`,
   'layout: book', // layouts/book.vue：左侧栏显示全书章节
+  ...(flag('noindex') ? ['noindex: true'] : []),
   `book: ${q(key)}`,
   `date: ${meta.date}`,
   ...(meta.updated ? [`updated: ${meta.updated}`] : []),
@@ -241,6 +242,7 @@ const indexMd = [
   `date: ${meta.date}`,
   'toc: false',
   'comment: false',
+  ...(flag('noindex') ? ['noindex: true'] : []),
   '---',
   '',
   '<script setup>',

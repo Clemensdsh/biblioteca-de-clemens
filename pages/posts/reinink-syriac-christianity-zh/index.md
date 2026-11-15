@@ -1,6 +1,7 @@
 ---
 title: "晚期萨珊与早期伊斯兰统治下的叙利亚基督教（正文中译本）"
 layout: book
+noindex: true
 book: "reinink-syriac-christianity"
 date: 2026-11-16
 categories:
