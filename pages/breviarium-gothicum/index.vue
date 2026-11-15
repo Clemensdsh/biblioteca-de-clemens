@@ -25,7 +25,7 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://clemensdsh.xyz/breviarium-gothicum/' }],
   meta: [
     { name: 'description', content: description },
-    { name: 'robots', content: 'index,follow' },
+    { name: 'robots', content: 'noindex, nofollow' },
     { property: 'og:title', content: '哥特日课' },
     { property: 'og:description', content: description },
     { property: 'og:type', content: 'website' },

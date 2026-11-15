@@ -342,7 +342,9 @@ body:has(.office-dead-page-marker) {
   }
 }
 
-body:has(.nestorius-bazaar-page-marker) {
+// .book-page-marker：scripts/split-book.mjs 拆分的整书章节页通用标记（--marker book-page-marker）
+body:has(.nestorius-bazaar-page-marker),
+body:has(.book-page-marker) {
   @include collapsible-page-toc;
 
   .markdown-body table {

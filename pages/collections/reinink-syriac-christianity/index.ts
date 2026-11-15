@@ -1,0 +1,30 @@
+// 由 scripts/split-book.mjs 生成；items 对应同目录下的章节文件。
+export default {
+  title: "晚期萨珊与早期伊斯兰统治下的叙利亚基督教（正文中译本）",
+  description: "G. J. Reinink 论文集《晚期萨珊与早期伊斯兰统治下的叙利亚基督教》（Variorum Collected Studies，2005）正文中译本；脚注与书目未译。",
+  categories: ["教父馆","教父导读"],
+  tags: ["叙利亚基督教","雷宁克","伪默托狄","默示文学","伊斯兰","译稿"],
+  // 不在列表里生成合集卡片：首页/归档/分馆里的入口是书目页这篇普通文章
+  collapse: false,
+  items: [
+    { key: "01", title: "前置部分：目录、出版说明、致谢与前言" },
+    { key: "02", title: "第I篇　“埃德萨黯然失色，尼西比斯光芒四射”：六至七世纪之交的尼西比斯学院" },
+    { key: "03", title: "第II篇　大巴拜的《乔治传》与萨珊帝国晚期的教义传播" },
+    { key: "04", title: "第III篇　作为希拉克略（Herakleios）教会政策的政治宗教宣传文书：叙利亚文《亚历山大传说》（Syrische Alexanderlegende）的产生" },
+    { key: "05", title: "第IV篇　伪厄弗冷（Pseudo-Ephraem）的《论末世》（Rede über das Ende）与七世纪叙利亚语末世论文学" },
+    { key: "06", title: "第V篇　伪默托狄（Pseudo-Methodius）与伪厄弗冷（Pseudo-Ephrem）《论世界终末的讲道》（Sermo de fine mundi）" },
+    { key: "07", title: "第VI篇　七世纪叙利亚语（Syriac）“默示性”（apocalyptic）文本中的亚历山大大帝（Alexander the Great）" },
+    { key: "08", title: "第VII篇　教化（paideia）：据东叙利亚修士若望·巴尔·彭卡耶（John bar Penkaye）所述的天主在人类世界历史中的计划" },
+    { key: "09", title: "第VIII篇　伪默托狄与罗马末世皇帝传说" },
+    { key: "10", title: "第IX篇　伪默托狄（Ps.-Methodius）：回应伊斯兰教兴起的历史观" },
+    { key: "11", title: "第X篇　埃德萨的“伪默托狄”（Der edessenische „Pseudo-Methodius“）" },
+    { key: "12", title: "第XI篇　《儒略传奇》作为七世纪叙利亚语默示录的史料" },
+    { key: "13", title: "第XII篇　早期基督徒对耶路撒冷圆顶清真寺兴建的反应" },
+    { key: "14", title: "第XIII篇　叙利亚语护教文献回应伊斯兰教的开端" },
+    { key: "15", title: "第XIV篇　肯内什林修道院恶魔故事集中的穆斯林" },
+    { key: "16", title: "第XV篇　树上的羔羊：叙利亚语释经与反伊斯兰护教论（The lamb on the tree: Syriac exegesis and anti-Islamic apologetics）" },
+    { key: "17", title: "第XVI篇　《对〈古兰经〉第112章的一处早期叙利亚语征引？》" },
+    { key: "18", title: "第XVII篇　《叙利亚语〈万因之因〉中的群体认同与知识体系化》" },
+    { key: "19", title: "增补与勘误" },
+  ],
+}

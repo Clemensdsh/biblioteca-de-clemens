@@ -12,7 +12,7 @@ useHead({
   link: [{ rel: 'canonical', href: 'https://clemensdsh.xyz/liturgia-horarum/' }],
   meta: [
     { name: 'description', content: description },
-    { name: 'robots', content: 'index,follow' },
+    { name: 'robots', content: 'noindex, nofollow' },
     { property: 'og:title', content: '时辰礼仪' },
     { property: 'og:description', content: description },
     { property: 'og:type', content: 'website' },

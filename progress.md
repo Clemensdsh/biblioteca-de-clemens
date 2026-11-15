@@ -10,6 +10,16 @@
 - 已核实提交和文件存在：IA 四馆及夜间可读性/水合问题修复；中拉圣咏对照、错配保护和修正、中文标题与等级、GCatholic 名称、11 月圣人简介 OCR 接入。历史 Agent 报告曾通过构建和浏览器检查，**本次未重新运行**；具体覆盖率和逐条语义准确性仍需针对任务复核。
 - 本次交接验证：Codex `debug prompt-input` 在工作区和仓库均发现入口规则；cc-remote 本地路径按当前源码模拟通过，尚未对运行中编译版本做端到端验证。旧进度全文归档后 SHA-256 与原文件一致；OCR 原文未更改。未运行网站业务测试或构建。
 
+## 整书分章（合集）（2026-11-16，用户要求后合并 main 并推送上线）
+
+- 用 Valaxy 自带 Collections：`pages/collections/<key>/index.ts`（配置，`collapse: false`）+ 章节 `NN.md`。**列表入口是书目页这篇普通文章** `pages/posts/<slug>/index.md`（正文=说明+章节目录；frontmatter 含全书 `wordCount`/`readingTime`，卡片和普通文章一样）；`/collections/<key>/` 只做跳转到书目页。
+- 脚本 `scripts/split-book.mjs`：`node scripts/split-book.mjs <源.md> <key> --post-slug <slug> --marker <类名> --titles <章名.json> --force`（`--dry` 只看章节划分）。按 `##` 切章，过短并入下一章（纯标题的包装小节丢弃），过长按 `###→####→#####` 再切；页内目录层级按本章实际标题层级设置，完全无标题的章设 `aside: false`。章名覆盖见 `scripts/books/nestorius-bazaar.titles.json`。**源文已不在工作区**：重新生成需 `git show HEAD:pages/posts/nestorius-bazaar-of-heracleides-zh/index.md` 取原稿（HEAD 里仍是整篇原文）。
+- 《赫拉克利德斯集市》14 章；各章页内标题清单见 `artifacts/book-toc-nestorius.md`。窄屏（<1024px）的章节页标题下有折叠的「本书目录」（`components/BookToc.vue`，布局覆盖 `layouts/collection.vue`；主题右侧「文章目录」抽屉不支持追加内容，故不放那里）。`vite.config.ts` 已去掉该路由的「仅客户端渲染」例外。
+- 验证：`pnpm run build` 无编译错误（注意 pnpm 失败时退出码也可能是 0，要看输出）；未在浏览器核对手机宽度下的折叠面板、章节页外观、水合报错。`vitest run` 有 5 项失败均在 `features/officium1962`，与本次无关（stash 后同样失败）。
+- 第二本：Reinink《晚期萨珊与早期伊斯兰统治下的叙利亚基督教》天主教译名版（源 `Q:\文库\文献翻译\Syriac Christianity under Late Sasanian and Early Islamic Rule\译文\Reinink_Syriac_Christianity_中译本_天主教译名版.md`，482 KB）已同法拆为 19 篇（前置 + 第I–XVII篇 + 增补与勘误），书目页 `/posts/reinink-syriac-christianity-zh/`（教父馆/教父导读，tags 含 译稿），章节 `/collections/reinink-syriac-christianity/NN`，标记类 `book-page-marker`（styles/index.scss 与 nestorius 标记共用样式）。命令：`--level 1 --chapter-re '^(前置部分|第[IVXL]+篇|增补与勘误)' --drop 篇目 --min-chars 0 --date 2026-11-16 --categories '教父馆,教父导读' --tags … --marker book-page-marker`。章名沿用译文原标题（含括注原文，较长）。分类、日期、标签、描述均为我拟定，待用户确认；译文自带的交接说明提示：第X篇开头缺半句、前置部分目录表格错位、29 处伊斯兰语境译名未通读、全文未经人工审读。未浏览器核对。
+- **不被搜索引擎收录（2026-11-16，用户要求）**：`scripts/postbuild-noindex.mjs`（接在 `build`/`build:ssg` 后）给 dist 每个 html 的 head 写 `noindex, nofollow, noarchive, nosnippet, noimageindex`（替换页面自带的 robots meta，任何页面没加上则构建失败）、重写 `robots.txt` 为允许抓取（让 Google 能看到 noindex）、删除 `sitemap.xml`；三个 Vue 页面（breviarium-gothicum/liturgia-horarum/officium-1962）里的 `index,follow` 已改为 `noindex, nofollow`。已被收录的旧页面要等 Google 重新抓取才会消失，可在 Search Console 用「移除」加速（需用户自己操作）。RSS（feed.xml/atom.xml）仍公开。
+- 源文疑点（未改）：第一卷第一部小节编号 `6.`→`9.`→`8.`→`9.`（应为 7？）；叙利亚译者序编号缺 5（`4.`→`6.`）。
+- 待办：用户浏览器验收；是否把卷首的术语表/编者序/导论拆开；合集封面；`/collections/` 总览页是否保留。
 ## 下一步（未完成或未验证）
 
 1. **（2026-11-14 已修，未浏览器验证）`--sd start--` 标记**：万有真原源数据中共 13 处 `--sd/cd/wd start--`（sd 6、cd 5、wd 2；common 007/012/056 与 titles 5 个文件），均紧跟赞美诗末尾；其中 2 处 `--cd start--` 后还带出下一段赞主曲全文（`titles/b4d6acfb9b8e`、`f8a43c1de93d`）。代码原先不处理。已在 `features/liturgiaHorarum/zhFormat.ts` 的 `formatZh` 于首个标记行截断，并加测试；源 JSON 未改。验证：`npx vitest run features/liturgiaHorarum` 4 文件 51 项通过；未构建、未在浏览器核对 11/12 页面（该日具体用哪个文件未追踪）。工作区仍未提交。
