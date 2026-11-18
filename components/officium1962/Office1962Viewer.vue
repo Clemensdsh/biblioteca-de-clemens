@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import type { PsalmsZhData } from '../../features/officium1962/psalmsZh'
 import type { Office1962Day, OfficeHour } from '../../features/officium1962/schema'
 import LiturgicalBlockRenderer from './LiturgicalBlockRenderer.vue'
 
@@ -9,6 +10,8 @@ const props = defineProps<{
   showRubrics: boolean
   showSources: boolean
   fontScale: number
+  showZh?: boolean
+  psalmsZh?: PsalmsZhData
 }>()
 
 const nocturnLinks = computed(() => {
@@ -32,6 +35,7 @@ const vespersLabel = computed(() => {
   <article
     id="officium-text"
     class="officium1962-viewer"
+    :class="{ 'is-parallel': showZh && psalmsZh }"
     :style="{ '--officium1962-font-scale': fontScale }"
     lang="la"
   >
@@ -62,6 +66,8 @@ const vespersLabel = computed(() => {
       :block="block"
       :show-rubrics="showRubrics"
       :show-sources="showSources"
+      :show-zh="showZh"
+      :psalms-zh="psalmsZh"
     />
   </article>
 </template>
@@ -74,6 +80,10 @@ const vespersLabel = computed(() => {
   color: var(--va-c-text);
   font-family: Georgia, 'Times New Roman', serif;
   font-size: calc(1.04rem * var(--officium1962-font-scale));
+}
+
+.officium1962-viewer.is-parallel {
+  max-width: 62rem;
 }
 
 .officium1962-office-header {

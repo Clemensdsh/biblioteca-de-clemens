@@ -52,9 +52,9 @@ describe('Officium 1962 production page semantics', () => {
     expect(renderer).not.toContain('v-html')
   })
 
-  it('stores only three lightweight display preferences', () => {
+  it('stores only four lightweight display preferences', () => {
     const persistedKeys = [...page.matchAll(/persistPreference\('([^']+)'/g)].map(match => match[1])
-    expect(persistedKeys.sort()).toEqual(['font', 'rubrics', 'sources'])
+    expect(persistedKeys.sort()).toEqual(['font', 'rubrics', 'sources', 'zh'])
     expect(page).not.toMatch(/localStorage\.(?:setItem|getItem)\(['"]officium1962\.(?:date|hour|day|text)/)
   })
 

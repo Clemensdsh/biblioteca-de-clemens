@@ -1,5 +1,54 @@
 <script setup lang="ts">
+import { computed } from 'vue'
+import { lookupFixedLine, lookupPsalmLine, splitZhSegments, type PsalmsZhData } from '../../features/officium1962/psalmsZh'
 import type { LiturgicalBlock } from '../../features/officium1962/schema'
+
+function zhFor(line: string) {
+  if (!props.showZh || !props.psalmsZh)
+    return undefined
+  const hit = lookupPsalmLine(props.psalmsZh, line)
+  if (hit) {
+    return {
+      segments: splitZhSegments(hit.line.z),
+      notes: hit.line.n || [],
+      psalm: hit.psalm,
+    }
+  }
+  const fixed = lookupFixedLine(props.psalmsZh, line)
+  return fixed ? { segments: splitZhSegments(fixed), notes: [] as number[], psalm: 0 } : undefined
+}
+
+function noteText(psalm: number, n: number) {
+  return props.psalmsZh?.psalms[String(psalm)]?.notes[n - 1] || ''
+}
+
+const isPsalm = computed(() => props.block.type === 'psalm')
+
+/** 本块所属圣咏篇号（取第一行节号）与是否已有校订中文 */
+const psalmNumber = computed(() => {
+  if (!isPsalm.value)
+    return 0
+  const first = (props.block.text || []).map(line => /^(\d+):\d+/.exec(line)).find(Boolean)
+  return first ? Number(first[1]) : 0
+})
+
+const zhPending = computed(() =>
+  !!props.showZh && !!props.psalmsZh && psalmNumber.value > 0 && !props.psalmsZh.psalms[String(psalmNumber.value)]?.reviewed)
+
+const blockNotes = computed(() => {
+  if (!props.showZh || !props.psalmsZh)
+    return []
+  const used = new Map<string, { psalm: number, n: number, text: string }>()
+  for (const line of props.block.text || []) {
+    const hit = lookupPsalmLine(props.psalmsZh, line)
+    for (const n of hit?.line.n || []) {
+      const text = props.psalmsZh.psalms[String(hit!.psalm)]?.notes[n - 1]
+      if (text)
+        used.set(`${hit!.psalm}-${n}`, { psalm: hit!.psalm, n, text })
+    }
+  }
+  return [...used.values()]
+})
 
 function lineClass(line: string) {
   return {
@@ -21,6 +70,8 @@ const props = defineProps<{
   block: LiturgicalBlock
   showRubrics?: boolean
   showSources?: boolean
+  showZh?: boolean
+  psalmsZh?: PsalmsZhData
 }>()
 </script>
 
@@ -35,16 +86,32 @@ const props = defineProps<{
       {{ block.title }}
     </h3>
 
-    <p
+    <p v-if="zhPending" class="officium1962-zh-pending no-print" lang="zh-CN">
+      本篇中文对照校订中，暂只显示拉丁文。
+    </p>
+
+    <!-- 有中文的圣咏行：拉丁文在左、中文在右（窄屏上下叠放）；其余行只有拉丁文 -->
+    <div
       v-for="(line, index) in block.text"
       v-show="showRubrics || !isRubricLine(line)"
       :key="`${block.id}-${index}`"
-      class="officium1962-line"
-      :class="lineClass(line)"
-      :aria-label="isRubricLine(line) || isRubricBlock() ? `礼仪指示：${line}` : undefined"
+      :class="zhFor(line) ? 'officium1962-pair' : undefined"
     >
-      {{ line }}
-    </p>
+      <p
+        class="officium1962-line"
+        :class="lineClass(line)"
+        :aria-label="isRubricLine(line) || isRubricBlock() ? `礼仪指示：${line}` : undefined"
+      >
+        {{ line }}
+      </p>
+      <p v-if="zhFor(line)" class="officium1962-zh" lang="zh-CN">
+        <template v-for="(segment, segmentIndex) in zhFor(line)!.segments" :key="segmentIndex">
+          <strong v-if="segment.changed" class="officium1962-zh-changed">{{ segment.text }}</strong>
+          <template v-else>{{ segment.text }}</template>
+        </template>
+        <template v-for="n in zhFor(line)!.notes" :key="n"><sup class="officium1962-zh-mark"><a :href="`#${block.id}-zhnote-${zhFor(line)!.psalm}-${n}`" :aria-label="`注${n}：${noteText(zhFor(line)!.psalm, n)}`">注{{ n }}</a></sup><span class="officium1962-zh-tip" role="tooltip">{{ noteText(zhFor(line)!.psalm, n) }}</span></template>
+      </p>
+    </div>
 
     <p
       v-for="(line, index) in block.rubricLines"
@@ -59,6 +126,13 @@ const props = defineProps<{
     <p v-if="block.metadata?.gloriaPatriOmitted" class="officium1962-note">
       Gloria Patri omitted by the upstream office for this structure.
     </p>
+
+    <details v-if="blockNotes.length" class="officium1962-zh-notes" lang="zh-CN">
+      <summary>中文注释（思高本与拉丁通行本不同处）</summary>
+      <p v-for="note in blockNotes" :id="`${block.id}-zhnote-${note.psalm}-${note.n}`" :key="`${note.psalm}-${note.n}`">
+        <strong>注{{ note.n }}</strong>　{{ note.text }}
+      </p>
+    </details>
 
     <details v-if="showSources" class="officium1962-sources">
       <summary>Sources</summary>
@@ -97,6 +171,91 @@ const props = defineProps<{
 .officium1962-block[data-block-type='antiphon'] .officium1962-line,
 .officium1962-block[data-block-type='marian-antiphon'] .officium1962-line {
   font-weight: 500;
+}
+
+.officium1962-pair {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: 1.5rem;
+  align-items: start;
+  margin-bottom: 0.35rem;
+}
+
+.officium1962-zh {
+  position: relative;
+  margin: 0.2rem 0;
+  color: var(--va-c-text);
+  font-family: var(--va-font-sans, system-ui, 'Noto Sans SC', sans-serif);
+  font-size: 0.95em;
+  line-height: 1.75;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 42rem) {
+  .officium1962-pair {
+    grid-template-columns: 1fr;
+    row-gap: 0;
+    margin-bottom: 0.7rem;
+  }
+
+  .officium1962-zh {
+    padding-left: 1rem;
+    color: var(--va-c-text-light);
+  }
+}
+
+.officium1962-zh-changed {
+  color: var(--va-c-text);
+  font-weight: 700;
+}
+
+.officium1962-zh-mark {
+  margin-left: 0.15em;
+  font-size: 0.72em;
+}
+
+.officium1962-zh-mark a {
+  color: var(--officium1962-rubric, #9f1d1d);
+  cursor: help;
+}
+
+/* 注释浮层：直接挂在中文行（position: relative）下，悬停/聚焦上标时显示，宽度与该行中文栏一致 */
+.officium1962-zh-tip {
+  display: none;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  bottom: calc(100% + 0.15rem);
+  padding: 0.5rem 0.7rem;
+  border: 1px solid var(--va-c-divider);
+  border-radius: 4px;
+  background: var(--va-c-bg);
+  box-shadow: 0 4px 14px rgb(0 0 0 / 18%);
+  color: var(--va-c-text);
+  font-family: var(--va-font-sans, system-ui, sans-serif);
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65;
+  text-align: left;
+  white-space: normal;
+}
+
+.officium1962-zh-mark:hover + .officium1962-zh-tip,
+.officium1962-zh-mark:focus-within + .officium1962-zh-tip {
+  display: block;
+}
+.officium1962-zh-pending,
+.officium1962-zh-notes {
+  color: var(--va-c-text-light);
+  font-family: var(--va-font-sans, system-ui, sans-serif);
+  font-size: 0.82rem;
+}
+
+.officium1962-zh-notes p {
+  margin: 0.3rem 0;
+  line-height: 1.7;
 }
 
 .is-dialogue {

@@ -21,6 +21,19 @@
 - 不收录：页面 frontmatter 写 `noindex: true`，`scripts/postbuild-noindex.mjs`（接在 build 后）加 noindex meta 并从 sitemap 去掉；目前仅 Reinink 一书。首版曾误做成整站 noindex，已于同日（`31b0dee`）撤回。线上 robots.txt 前面的一大段是 Cloudflare 托管的（含对 Baiduspider、GPTBot、ClaudeBot 等的 Disallow），用户决定不改。
 - **未验证**：窄屏折叠「本书目录」、书目页左侧栏、章节页外观与水合报错、手机加载速度、站内搜索是否索引章节，均未在浏览器核对；`pnpm run build` 通过（注意看输出，退出码不可靠）；`vitest run` 5 项失败均在 `features/officium1962`，与本次无关。
 - 待办/待用户确认：Reinink 书的分类/日期/标签/描述为拟定；译文说明里提到的《术语表.md》站上没有；译稿是机器翻译、未经人工审读；版权风险已提示，由用户决定；《赫拉克利德斯集市》源文小节编号疑点；卷首是否单独拆页、合集封面。
+## 1962 罗马大日课：圣咏中文（思高本）对照（2026-11-17，已提交推送 main；150 篇全部有中文，**语义未经人工复核**）
+
+用户要求：150 篇圣咏的中文以**思高本**为准，按 1962 日课（Divinum Officium，DO）的分行重新切分、左右对照；拉丁通行本（Clementina）与思高不同处，在思高基础上改写并**加粗**，页面上设「注释」（悬停「注N」显示，块末另有折叠的「中文注释」）。不用时辰礼仪的圣咏中文。注释统一写“思高本作……，拉丁通行本作……”，不再写“武加大/思高说”。
+
+- **底本**：`resources/officium1962-psalms-zh/sigao-epub.json`（《思高本.epub》，希伯来节号，繁体，读取时 OpenCC 转简体并去掉「（休止）」「第N首…」「卷二」等杂字；`overrides.json` 的 `typos` 现仅一条：摆捝→摆脱）。**旧底本**（`resources/texts/思高圣咏集_武加大编号_逐节纯文本.txt`，有 OCR 错字和漏句）已弃用；基于它的第一版校订存于 `resources/officium1962-psalms-zh/psalms-v1-txt/`、`overrides-v1-txt.json`，仅供参考。
+- **每篇数据**：`resources/officium1962-psalms-zh/psalms/NNN.json`（`reviewed:true` + `lines`，键 `篇:DO行标号`，同标号第二行记 `#2`）。润色前备份在 `psalms-pre-polish/`（对照校验用）。行规格字段：`from`/`to`（在思高整篇文字流里切）、`mk`（在若干字符串之后放拉丁行的 `* † ‡`）、`marks`（旧，按小句序号）、`fix`（[[旧,新]]，新含 `**` 则原样，否则整段粗体）、`zh`（整行手写，可含 `**`、` * `）、`note`。完整说明见 `scripts/officium1962/codex/TASK-psalm-zh.md`。
+- **脚本**：`pnpm officium1962:psalms-zh`（= `node scripts/officium1962/psalms-zh-build.mjs`）生成 `public/data/officium1962/psalms-zh.json`（只收 reviewed 篇）；`--check` 只校验、`--worksheet=5,6 [--all]` 打印工作表、`--draft` 含未校订。**Codex/agy 并发时只许用 `--check`**。`psalms-zh-polish-check.mjs` 校验润色没动禁区；`psalms-zh-epubcheck.mjs`、`-triage.mjs`、`-sim.mjs`、`-analyze.mjs` 为分析用。Codex 任务/启动脚本在 `scripts/officium1962/codex/`（`TASK-psalm-zh.md`、`run-psalms-zh.ps1`；润色：`TASK-polish-psalm-zh.md`、`run-polish-psalms-zh.ps1`；日志在已 gitignore 的 `codex-out/`）。
+- **前台**：`features/officium1962/psalmKey.mjs`（键＝篇号:节号:拉丁字母哈希）、`psalmsZh.ts`；`components/officium1962/LiturgicalBlockRenderer.vue`：有中文的圣咏行**左拉丁右中文**网格（窄屏上下叠放），粗体＝改动处，「注N」悬停浮层（浮层是中文行下的独立 `span`，不要放进 `sup`——主题给 `sup` 设了 `position: relative` 会把浮层挤成竖线）；`Office1962Viewer.vue` 并排时加宽到 62rem；页面工具栏「圣咏中文」开关（localStorage `officium1962.zh`）；`Officium1962Loader.loadPsalmsZh()`。圣三光荣经/亡者结句中文在 build 的 FIXED。
+- **做法与流程**：本轮由 Codex（gpt-6.1-terra，high）按 TASK 逐篇做切分、半句符号、与通行本差异的改写和注释（~2400 行）；再由 agy（`gemini-3.8-flash-high`）润色：只改粗体、`fix` 新字、注释，思高未标粗原文逐字不变（校验：2516 处改动、0 违规）。agy 无头模式需在其 `settings.json` 里加 `"permissions":{"allow":["command(*)"]}`（已由用户设置）。
+- **验证**：`vitest psalmsZh`（6 项）通过；`pnpm run build` 通过（66 秒）；浏览器里看过对照布局与悬停注释（用户确认）。`productionPage` 的 dark-theme 测试等 5 项失败为此前已有。
+- **未做/需注意**：①**语义准确性没有人工复核**：Codex 标出的拉丁句义不确定处（如 4:5/8/9、15–18 篇若干处、118:20/38/53/83/138/150、77:21/46/69）建议由懂拉丁文者抽查；其余行只保证分行和半句位置合理，未逐节比对通行本与思高。②epub 疑似错字：6:7「鼻涕」（通行本为「眼泪」，不知是底本错字还是译本差异）。③1962 页面其他部分（对经、读经、集祷文等）仍只有拉丁文。④`public/data/officium1962/psalms-zh.json` 约 592 KB，一次性加载；未做分篇懒加载。⑤旧底本相关脚本函数 `readSigaoTxt` 保留但不再使用。
+- **接下来可做**：抽查/复核语义；把 Codex 的“不确定处”汇总成清单供人工复核；对经、短读经、集祷文等其他部分的中文来源评估与做法（见本节之前的评估：简单/中等/困难分级）。
+
 ## 下一步（未完成或未验证）
 
 1. **（2026-11-14 已修，未浏览器验证）`--sd start--` 标记**：万有真原源数据中共 13 处 `--sd/cd/wd start--`（sd 6、cd 5、wd 2；common 007/012/056 与 titles 5 个文件），均紧跟赞美诗末尾；其中 2 处 `--cd start--` 后还带出下一段赞主曲全文（`titles/b4d6acfb9b8e`、`f8a43c1de93d`）。代码原先不处理。已在 `features/liturgiaHorarum/zhFormat.ts` 的 `formatZh` 于首个标记行截断，并加测试；源 JSON 未改。验证：`npx vitest run features/liturgiaHorarum` 4 文件 51 项通过；未构建、未在浏览器核对 11/12 页面（该日具体用哪个文件未追踪）。工作区仍未提交。
@@ -41,3 +54,274 @@
 - 日课：`pages/liturgia-horarum/`、`components/liturgiaHorarum/`、`features/liturgiaHorarum/`、`public/data/liturgia-horarum/zh/`、`scripts/liturgia-horarum/`；人工对齐和 OCR 任务分别在 `scripts/liturgia-horarum/codex/TASK-align.md`、`TASK-ocr.md`。
 - 1962 大日课旧阶段与翻译方法：`docs/officium1962/PROGRESS.md`、`docs/officium1962/TRANSLATION_WORKFLOW.md`（标注日期，不能代替本文件）。历史会话仅查索引 `docs/SESSION_ARCHIVE_INDEX.md`，不自动载入原始 JSONL。
 - 阶段完成或中断时更新本文件的完成、未验证、未完成和验证结果。长会话约 25 万 Token，或长时间闲置后上下文很大时，先写好交接再新建会话；这是建议，不是硬限制。
+
+- 第 77 篇本轮按 EPUB 思高底本重新逐行校订，写入 `resources/officium1962-psalms-zh/psalms/077.json`；已运行该篇 worksheet 和全量 `--check`，均通过，已校订篇无缺行。77:21、46、69 等拉丁措辞的理解仍宜由拉丁文专家复核；未生成 public 数据、未做浏览器检查或部署。
+
+### 圣咏 1–6 本轮复核（2026-11-16）
+
+- 按 `scripts/officium1962/codex/TASK-psalm-zh.md` 使用 EPUB 底本及 DO 拉丁逐行重做 `psalms/001.json` 至 `006.json`，均标记 reviewed；人工逐行安排半句、粗体与注释。此前本文件所述 1–6 的旧底本校订不能视为本轮成果的底本。
+- 验证：运行六篇 `--check --worksheet=1,2,3,4,5,6 --all` 核对输出，修正后重跑并检查修改行；最终 `node scripts/officium1962/psalms-zh-build.mjs --check` 退出码 0，已校订篇内缺中文 0。该命令只检查，未生成 public 数据，也未进行浏览器或独立拉丁专家复核。
+- 待特别复核：4:5 的 `quae dicitis ... compungimini` 句法、4:8 的 `multiplicati sunt` 指代、4:9 `in idipsum` 的解释；6:7 EPUB「鼻涕」与拉丁「眼泪」不一致，尚不能判定是否底本错误。其他篇与生成文件由各自负责人处理；本轮未提交、推送或部署。
+
+### 圣咏 13–18 本轮校订（2026-11-16）
+
+- 按 `scripts/officium1962/codex/TASK-psalm-zh.md` 对照 EPUB 思高底本和 DO 拉丁分行，逐行写入 `psalms/013.json`–`018.json` 并标记 reviewed；第 13 篇增补及与思高的差异以粗体和注释处理。
+- 各篇运行 `--check --worksheet=N --all` 查看输出；最终 `node scripts/officium1962/psalms-zh-build.mjs --check` 退出码 0，报告已校订篇内缺中文 0。结构校验不能证明拉丁释义准确；未生成 public 数据、未浏览器检查、未提交或部署。
+- 建议拉丁专家复核：15:3–4a 的句法；16:4、13–14b 的句法和意象；17:12、46 的理解；18:4 双重否定及 18:13 的 aliénis。未发现可确认的 EPUB 文字错漏。
+
+### 圣咏 19–24 本轮校订（2026-11-16）
+
+- 按 `scripts/officium1962/codex/TASK-psalm-zh.md` 对照 EPUB 思高与 DO 拉丁，逐篇写入 `psalms/019.json` 至 `024.json`，均标记 reviewed；处理跨节、重复行、半行符号及判断出的语义差异，并注明差异。
+- 验证：逐篇运行 `--check --worksheet=N --all`，最终六篇合并 worksheet 及修正后的 19、21 worksheet 均退出 0；全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 退出 0，已校订篇内缺中文 0。检查不能证明语义无误；未生成 public 数据，未浏览器验证、提交或部署。
+- 待拉丁文专家复核：20:13 的 `in reliquiis tuis praeparabis vultum eorum`；21:3 的 `non ad insipientiam mihi`、21:21–22 的 `unicam` 和 `humilitatem`、21:32 的句法；23:7、9 的 `principes`；24:12 的选择主体。EPUB 疑似字误：21:11「巳」疑为「已」，23:6「苖裔」疑为「苗裔」，23:10「万军之军的上主」疑有重复；尚未核纸本，保留底本（23:10 因武加大差异另译）。
+
+### 圣咏 25–30 本轮校订（2026-11-16）
+
+- 按 `scripts/officium1962/codex/TASK-psalm-zh.md` 以 EPUB 思高文本及 DO 拉丁逐行校订 `psalms/025.json` 至 `030.json`，均标记 reviewed；处理重复行号、跨节分行，并对判断为武加大差异之处加粗和注释。此前第 30 篇的旧版本已依现底本重做。
+- 分篇运行 worksheet 检查；最终 `--check --worksheet=25,26,27,28,29,30 --all` 与全量 `--check` 均退出 0，显示已校订篇内缺中文 0。检查是结构校验，不能证明拉丁释义无误。未生成 public 数据、未浏览器检查、未提交或部署。
+- 拉丁难点有待独立复核：26:12 的 `mentita est iniquitas sibi`；28:6 的 `dilectus`、28:9 的 `praeparantis cervos`、28:10 的 `diluvium inhabitare facit`；29:6、29:13 的句义；30:7 的 `supervacue`、30:12 的比较关系、30:24 的 `veritatem requiret`。本组未发现可确认的 EPUB 底本错漏。
+
+### 圣咏 31–36 本轮校订（2026-11-16）
+
+- 按 `scripts/officium1962/codex/TASK-psalm-zh.md` 对照 EPUB 思高底本及 DO 拉丁，逐篇校订 `psalms/031.json`–`036.json`，均标记 reviewed；按拉丁分行安排中文，差异加粗并注释。
+- 验证：六篇各运行 `--check --worksheet=N --all` 并检查输出，修正后重查 31、33、34、36；最终 `node scripts/officium1962/psalms-zh-build.mjs --check` 退出 0，报告已校订篇内缺中文 0。结构检查不证明释义准确；未生成 public 数据，未浏览器检查、提交、推送或部署。
+- 待熟悉拉丁文者复核：31:4 的荆棘句、31:7 的呼语；34:14–16、20 的句法；35:2–3 的句法与代词；36:22 的祝福主体、36:37 的 reliquiae。EPUB 35:13「巳经」疑为「已经」、36:7「暴燥」疑为「暴躁」，未核纸本，保留底本。
+
+### 圣咏 37–42 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本与 DO 拉丁逐行写入 `psalms/037.json`–`042.json`，均标记 reviewed；跨行、断句与判断出的武加大差异已处理并附注。
+- 验证：各篇运行 `--check --worksheet=N --all` 并检查；最后六篇合并 worksheet 和全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 均退出 0，报告已校订篇内缺中文 0。结构检查不能证明释义准确；未生成 public 数据、未浏览器检查或部署。
+- 建议拉丁专家复核 37:8 的 illusionibus、37:12 的 adversum me、38:12#2 的 araneam 与 38:14 的 remitte mihi、39:7 的 perfecisti、40:9–10 的句法和意象、41:5 的时态以及 42:3 的完成时。39:7#2 的 EPUB「巳」疑为「已」，未核纸本，照原文保留。
+
+### 圣咏 43–48 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本与 DO 拉丁分行，逐篇校订 `psalms/043.json`–`048.json`，均标记 reviewed；处理重复行号、跨节、半行及判断出的武加大差异，改译处加粗并记注。
+- 六篇各自运行 `--check --worksheet=N --all`，退出码均为 0，无缺行或错误；全量 `--check` 通过、已校订篇内缺中文 0。该检查不能证明拉丁释义准确；未生成 public 数据、未浏览器检查、未提交或部署。
+- 需独立拉丁复核：43:19 的 declinasti 主语与语境；44:9 的 ex quibus 及 gutta，44:14 的 ab intus；46:10 的 dii fortes 和 elevati sunt；47:3 的 fundatur，47:14 的 distribuite；48:8–11 的句法与标点，48:15#2 的 auxilium 与 a gloria。未发现可确认的 EPUB 文字错漏。
+
+### 圣咏 55–60 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本及 DO 拉丁逐行写入 `psalms/055.json`–`060.json` 并标记 reviewed；处理跨节、重复行号、半行及判断出的武加大差异，附粗体和注释。
+- 逐篇查看 worksheet；修正后合并复查相关行，全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 退出 0，报告已校订篇内缺中文 0。结构校验不能证明释义准确；未生成 public 数据、未浏览器检查、未提交或部署。
+- 建议熟悉拉丁文者复核 55:4、8 的句法；56:4#2、5 的断句；57:10 的艰涩句；58:5、13#2 的句法；59:9#2 的意象及 60:8 的指代。EPUB 57:11「巳报」疑为「已报」，尚未核纸本，保留原文。
+
+### 圣咏 49–54 本轮校订（2026-11-16）
+
+- 按 `scripts/officium1962/codex/TASK-psalm-zh.md` 对照 EPUB 思高及 DO 拉丁逐篇校订 `psalms/049.json`–`054.json`，均标记 reviewed；处理跨节、重复行号、半行及判断出的武加大差异，改译加粗并注释。
+- 验证：逐篇运行 worksheet 检查，最终六篇合并 worksheet 和全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 无错误，已校订篇内缺中文 0。结构检查不能证明拉丁释义准确；未生成 public 数据、未浏览器检查、未提交或部署。
+- 待拉丁文专家复核：49:1#2、23 的句法；50:6 的 cum judicáris、50:14 的 spíritu principáli；51:4 的剃刀比喻；52:6#2 的 qui homínibus placent；53:7 的 avérte mala；54:9、19–21 的句法和指代。未发现可确认的 EPUB 底本错漏。
+
+### 圣咏 61–66 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本与 DO 拉丁分行，逐行校订 `psalms/061.json`–`066.json` 并标记 reviewed；处理跨节、重复行号与半行，判断出的武加大差异加粗并注释。
+- 六篇 worksheet 复读及全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 均退出 0，报告已校订篇内缺中文 0；结构检查不能证明拉丁释义准确。未生成 public 数据，未浏览器检查、提交或部署。
+- 建议独立复核 61:4、5、10 的句法和意象，62:3 的 appárui，63:7–8 的句法，64:12、14 的意象。EPUB 63:5「击挝」疑为文字错误，未经纸本核实；该处另按武加大改译。
+
+### 圣咏 73–76 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本与 DO 拉丁，逐行校订 `psalms/073.json`–`076.json`，标记 reviewed；处理跨节、重复行号、半行及判断出的武加大差异，改译处加粗并附注。
+- 各篇及四篇合并运行 `--check --worksheet=... --all` 并检查输出；末次修订后复查 74、76。全量 `--check` 退出 0，已校订篇内缺中文 0。结构检查不能证明拉丁释义准确；未生成 public 数据、未浏览器检查、提交或部署。
+- 待熟悉拉丁文者复核：73:5 的 non cognovérunt sicut in éxitu super summum、73:9 主语、73:20 的句法；74:7、9 省略与倒酒意象；75:5–6、8、11 的句义；76:3、5、11、14 的句义。EPUB 76:5「烦燥」疑为「烦躁」，未核纸本，保留底本。
+
+### 圣咏 67–72 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本及 DO 拉丁逐篇处理 `psalms/067.json`–`072.json`，均标记 reviewed；逐行检查分行、半行和判断出的异文，改译加粗并记注。
+- 六篇各运行 `--check --worksheet=N --all` 并检查输出，修正后合并复查；全量 `--check` 最后退出 1，报范围外 84:5、85:2 的 mk 找不到字符串，67–72 未报错，已校订篇内缺中文 0。其他篇可能正在并行修改，检查结果反映运行时状态；结构检查不能证明译义准确。未生成 public 数据，未浏览器检查、提交、推送或部署。
+- 建议独立复核 67:7b、13、15、19b、31a 的艰涩句；68:21 的 exspectavit；70:16 的 litteraturam；71:16 的 firmamentum；72:4、10、18、20–21 的句法。EPUB 72:26「巳」疑为「已」，未核纸本，保留原文。
+
+### 圣咏 78–83 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本及 DO 拉丁逐篇写入 `psalms/078.json`–`083.json`，均标记 reviewed；处理跨节、重复行号、半行及判断出的武加大差异，改译加粗并附注。六篇各自运行 worksheet 并检查，之后复查六篇及全量 `--check`；本组未报告缺中文或单独错误。
+- 最终两次检查退出码 1：并行工作中的 `84:5 mk 找不到「复兴我们，」`、`85:2 mk 找不到「热爱你，」`，不属本组，未改动。结构检查不能证明释义准确；未生成 public 数据、未浏览器检查、未提交或部署。
+- 待独立拉丁复核：78:1 的 pomorum custodiam、78:11 的 filios mortificatorum；79:10–11、16–17 的句法和指代；80:6–7 人称、80:15 的 pro nihilo forsitan、80:16 的 tempus eorum；82:2、10、14；83:6 的句法及 83:8 的 virtute 与 videbitur。EPUB 80:12「没有我的呼声」疑漏「听从」；82:10「米德杨克雄河对待息色辣和雅宾」疑有脱字，均未核纸本，依拉丁另译并附注。
+
+### 圣咏 84–89 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本与 DO 拉丁逐行校订 `psalms/084.json`–`089.json`，均标记 reviewed；处理跨节、重复行号、半行及判断出的武加大差异，改译处加粗并附注。
+- 验证：逐篇查看 worksheet，修正结构错误后重查；最终 `node scripts/officium1962/psalms-zh-build.mjs --check` 退出 0，报告已校订篇内缺中文 0。结构检查不能证明语义准确；未生成 public 数据，未浏览器检查、提交或部署。
+- 建议拉丁专家复核 84:2 的 captivitatem、84:14 的主语；86:5–7 句法；87:5 的 inter mortuos liber、87:11 的 medici、87:19 的 a miseria；88:3、19、37、39、45、52；89:3、5、9#2、10#2、12、15 的句法与意象。EPUB 85:17（思高第 18 节）「缓助」疑为「援助」笔误，未核纸本，该处按拉丁改译。
+
+### 圣咏 90–95 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高与 DO 拉丁，逐行校订 `psalms/090.json`–`095.json`，均标记 reviewed；处理跨节分行、半行标记及判断出的异文，改译加粗并附注。
+- 六篇合并 worksheet 逐行复读，修订后复查受影响行；全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 退出 0，已校订篇内缺中文 0。结构检查不能证明释义准确；未生成 public 数据、未浏览器检查、未提交或部署。
+- 建议熟悉拉丁文者复核 90:6 的 negotium 和 daemonium，91:11、15 的老年与丰饶意象，92:3b–4b 的句法，93:1 的 libere egit、93:15、20 的句法，以及 94:8 的 irritatione。未发现可确认的 EPUB 错漏。
+
+### 圣咏 96–101 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本与 DO 拉丁逐行校订 `psalms/096.json`–`101.json`，均标记 reviewed；处理重复行号、跨节及半行，判断出的武加大异文以粗体和注释说明。
+- 六篇分别运行 `--check --worksheet=N --all`，并合并阅读逐行输出；最终全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 退出 0，已校订篇内缺中文 0。结构校验不证明译义准确；未生成 public 数据、未浏览器检查或部署。
+- 建议独立拉丁复核 96:5 的重复短语、98:3 的 honor regis、100:4 的 declinantem a me malignum、101:21 的 filios interemptorum 和 101:24 的句法。未发现可确认的 EPUB 文字错漏。
+
+### 圣咏 102 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本与 DO 拉丁逐行校订 `psalms/102.json`，标记 reviewed；处理跨节和重复行号，判断出的武加大差异加粗并附注。
+- 两次查看 `--check --worksheet=102 --all`，修订后全量 `--check` 退出 0，已校订篇内缺中文 0。结构检查不能证明释义准确；未生成 public 数据或浏览器检查。
+- 建议独立复核 102:16 的 non cognoscet 主语和 102:20 的 ad audiendam 句法；未发现可确认的 EPUB 文字错漏。
+
+### 圣咏 103 本轮校订（2026-11-16）
+
+- 按任务对照 EPUB 思高底本与 DO 拉丁逐行校订 `psalms/103.json`，标记 reviewed；处理跨节、半行及判断出的武加大差异，改译加粗并附注。
+- 复查 `--check --worksheet=103 --all`，并运行全量 `--check`，两者均退出 0，报告已校订篇内缺中文 0；结构校验不能证明释义准确。未生成 public 数据、未浏览器检查、未提交或部署。
+- 建议熟悉拉丁文者复核 103:4 的 spiritus、103:17 的 herodii domus dux est eorum 句法，以及 103:27 的 ad illudendum ei；未发现可确认的 EPUB 文字错漏。
+
+### 圣咏 104 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本及 DO 拉丁逐行校订 `psalms/104.json`，标记 reviewed；处理 18–19 跨节分行、半行及判断出的武加大差异，改译处加粗并附注。
+- 逐行查看 `--check --worksheet=104 --all`；修订后重跑该命令及全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 均退出 0，报告已校订篇内缺中文 0。结构检查不能证明释义准确；未生成 public 数据、未浏览器检查、未提交或部署。
+- 建议独立拉丁复核 104:18–19 的意象、104:22 的 sicut semetípsum、104:27 的 in eis 与 verba signorum、104:28 的主语及 non exacerbavit、104:36 的 primítias omnis labóris。未发现可确认的 EPUB 文字错漏。
+
+### 圣咏 105 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本与 DO 拉丁逐行校订 `psalms/105.json`，标记 reviewed；处理重复行号、跨节分行与半行，并为判断出的武加大异文加粗及附注。
+- 逐行复读 `--check --worksheet=105 --all`；最终该命令和全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 均退出 0，已校订篇内缺中文 0。结构检查不能证明拉丁释义准确；未生成 public 数据、未浏览器检查或部署。
+- 建议独立复核 105:5 的 ut lauderis、105:7#2 的 ascendentes、105:15 的 saturitatem、105:33 的 distinxit 及 105:39 的主语。EPUB 105:2 第一问句末为句号，可能是标点错误；未核纸本，保留原文。
+
+### 圣咏 106 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本及 DO 拉丁逐行校订 `psalms/106.json`，标记 reviewed；处理跨节分行、半行及判断出的武加大差异，改译加粗并附注。
+- 复查 `--check --worksheet=106 --all`，全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 退出 0，已校订篇内缺中文 0。结构检查不能证明拉丁释义准确；未生成 public 数据、未浏览器检查、未提交或部署。
+- 建议独立复核 106:11 的 irritaverunt、106:17 的 suscepit 和 106:43 的句法。EPUB 106:40「徊徘」疑为「徘徊」字序错误，未核纸本，保留底本。
+
+### 圣咏 113–117 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本与 DO 拉丁逐行校订 `psalms/113.json`–`117.json`，均标记 reviewed；处理跨节分行、半行和判断出的异文，改译处加粗并附注。
+- 五篇合并 worksheet 逐行检查并在修订后重跑；最终合并 worksheet 与全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 均退出 0，已校订篇内缺中文 0。初次检查范围外 106 篇有错误，最终检查时已不再出现。结构检查不能证明译义准确；未生成 public 数据、未浏览器检查、未提交或部署。
+- 建议独立拉丁复核 113:7 的 mota est，114:1 的 diléxi，115:2 的 in excéssu meo，以及 117:10–12 的 ultus sum 和 117:27b 的 in condénsis。未发现可确认的 EPUB 底本错漏。
+
+### 圣咏 119–125 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本和 DO 拉丁逐行校订 119–125，写入各篇 JSON 并标记 reviewed；处理跨节、拆行与判断出的武加大差异，改译附粗体及注释。
+- 合并 worksheet 逐行检查，修订后复查受影响行；全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 退出 0，已校订篇内缺中文 0。结构校验不能证明释义准确；未生成 public 数据，未浏览器检查、提交或部署。
+- 建议独立拉丁复核 119:3–5、120:1、121:3–5、122:4、123:3b–5、124:1 和 125:4 的句法及译义。未发现可确认的 EPUB 文字错漏。
+
+### 圣咏 107–112 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高和 DO 拉丁逐行校订 `psalms/107.json`–`112.json`，均标记 reviewed；处理跨节、重复行号、半行及判断出的武加大异文，改译加粗并附注。
+- 各篇 worksheet 逐行检查，最后合并运行六篇 worksheet、全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 均退出 0，已校订篇内缺中文 0；修改 107:9 后复查该篇 worksheet 退出 0。结构检查不能证明译义准确；未生成 public 数据、未浏览器检查、未提交或部署。
+- 建议独立拉丁复核 107:9–10 的意象、108:4、17、20、24、31 的句法及指代、109:3、6 的艰涩句、110:2、3、10b、111:4–5 与 112:5 的解释。本组未发现可确认的 EPUB 文字错漏。
+
+### 圣咏 126–132 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本与 DO 拉丁逐行校订 `psalms/126.json`–`132.json`（实际文件名为三位篇号），均标记 reviewed；处理跨节、半行、语序与判断出的武加大异文，并为改译加粗、记注。
+- 七篇工作表逐行检查，修订后再次运行合并 worksheet 与全量 `node scripts/officium1962/psalms-zh-build.mjs --check`，均退出 0，已校订篇内缺中文 0。结构校验不证明译义准确；未生成 public 数据，未浏览器检查、提交或部署。
+- 建议独立复核 126:2a 的命令式和 126:4 的 excussorum；128:3 的 fabricaverunt；130:2a–b 的誓言句法与 retributio；131:15 的 viduam。未发现可确认的 EPUB 文字错漏。
+
+### 圣咏 133–138 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本与 DO 拉丁逐行校订 `psalms/133.json`–`138.json`，标记 reviewed；处理跨节、拆行及判断出的武加大异文，改译加粗并附注。
+- 六篇合并 worksheet 逐行检查并修正；全量 `--check` 曾退出 0、已校订篇内缺中文 0。最后修改 138:12 后复查该行；末次全量检查退出 1，报范围外 141:3、143:15、144:5、144:21 的 mk 找不到，133–138 未报错，可能与其他并行修改有关。结构检查不能证明拉丁释义准确；未生成 public 数据、未浏览器检查、未提交或部署。
+- 建议独立拉丁复核 134:14 的 deprecabitur、136:5 的 oblivioni detur，以及 138:3、11、16–17、19–21 艰涩句。EPUB 135:22「巳仆」疑为「己仆」，138:16「衮录」疑为「登录」或「载录」之误；未核纸本，保留底本（138:16 依拉丁另译）。
+
+### 圣咏 139–144 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本及 DO 拉丁逐行校订 `psalms/139.json`–`144.json`，均标记 reviewed；拆分跨节、重复行号及半行，判断出的武加大异文加粗并记注。
+- 六篇合并 worksheet 逐行检查并修正断句；第一次全量 `--check` 通过，最后一次全量 `--check` 报范围外 `145:9 mk 个数(1)与断句符(2)不符`，本组六篇无报错，已校订篇内缺中文 0。其他篇可能同时变更；结构检查不证明译义准确。未生成 public 数据，未浏览器检查、提交或部署。
+- 建议独立拉丁复核 139:9 的 a desiderio meo 句法、139:10 的 caput circuitus；140:4–7、10 的艰涩句及 143:3 的 innotuisti ei。本组未发现可确认的 EPUB 文字错漏。
+
+### 圣咏 145–150 本轮校订（2026-11-16）
+
+- 对照 EPUB 思高底本与 DO 拉丁逐行校订 `psalms/145.json`–`150.json`，标记 reviewed；处理跨节、半行和判断出的武加大异文，改译加粗并附注。
+- 六篇 worksheet 逐行检查并修正，最终合并 worksheet 与全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 均退出 0，已校订篇内缺中文 0。结构检查不能证明释义准确；未生成 public 数据，未浏览器检查、提交或部署。
+- 建议独立复核 145:4 的 eorum 指代、146:1 的句法、148:14a–b 的 confessio 与 hymnus 所指、150:1 的 in sanctis。EPUB 147:5「尘宵」和 148:12「儿童侣」疑有文字错误，未核纸本，保留底本。
+
+### 圣咏 118 本轮校订（2026-11-17）
+
+- 保留原有 118:1–10 规格，逐批阅读 `--check --worksheet=118 --all` 的全部 176 行，对照 DO 拉丁与思高底本；为半行位置、语序与判断出的武加大异文补写规格、粗体和注释，其余使用自动整节，现标记 `reviewed:true`。
+- 完成后重跑该篇 worksheet 和全量 `node scripts/officium1962/psalms-zh-build.mjs --check`，均退出 0，已校订篇内缺中文 0。结构检查不能证明释义准确；未生成 public 数据、未浏览器验证、未提交或部署。
+- 建议独立复核 118:20、38、53、83、138、150 的拉丁句义；118:134 EPUB「摆捝」（此前记录作「擺挩」）疑为「摆脱」错字，未核纸本，保留底本。
+
+### 圣咏 11–20 本轮润色（2026-11-17）
+
+- 依 `scripts/officium1962/codex/TASK-polish-psalm-zh.md` 对 `psalms/011.json` 至 `020.json` 逐篇修缮语言表达：只改动 `zh` 粗体部分及 `note` 全文，统一采用「拉丁通行本」称谓并简化规范注释句式，消除生硬欧化与口语，未改动任何思高原文、分行或符号。
+- 逐篇运行 `node scripts/officium1962/psalms-zh-polish-check.mjs --psalm=NN` 校验；最终 10 篇全量 polish-check（改动处 189，问题 0）与 `node scripts/officium1962/psalms-zh-build.mjs --check` 均退出 0。未提交、推送或部署。
+
+
+### 圣咏 1–10 语言表达润色（2026-11-17）
+
+- 依 `scripts/officium1962/codex/TASK-polish-psalm-zh.md` 对 `psalms/001.json` 至 `010.json` 逐篇完成语言表达润色：仅调整粗体另译片段使语体庄重简练、贴合礼仪与思高文风，完全保留思高未标粗原文；重写所有 `note` 字段，统一称谓为「拉丁通行本」与「思高本」，去除「武加大」与口语化句式。
+- 逐篇运行 `node scripts/officium1962/psalms-zh-polish-check.mjs --psalm=N`，并在完成后运行 1–10 合并校验及全量 `psalms-zh-build.mjs --check`，校验均退出 0，改动处 113，问题 0。未生成 public 数据、未浏览器验证、未提交或部署。
+
+### 圣咏 21–30 语言表达润色（2026-11-17）
+
+- 依 `scripts/officium1962/codex/TASK-polish-psalm-zh.md` 对 `psalms/021.json` 至 `030.json` 逐篇润色语言表达：保留未标粗思高原文逐字不变；将粗体改译修葺为庄重、简练之礼仪与思高圣咏文体；重写所有 `note`，统一使用「拉丁通行本」与「思高本」，消除「武加大」称谓与欧化口语。
+- 逐篇运行校验：21 篇改动 32 处、22 篇改动 9 处、23 篇改动 10 处、24 篇改动 21 处、25 篇改动 12 处、26 篇改动 16 处、27 篇改动 10 处、28 篇改动 7 处、29 篇改动 19 处、30 篇改动 27 处，各篇问题均为 0。
+- 最终校验：`node scripts/officium1962/psalms-zh-polish-check.mjs --psalm=21,22,23,24,25,26,27,28,29,30`（改动处 163，问题 0）与全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 均退出 0。未生成 public 数据、未浏览器验证、未提交或部署。
+
+### 圣咏 41–50 语言表达润色（2026-11-17）
+
+- 依 `scripts/officium1962/codex/TASK-polish-psalm-zh.md` 对 `psalms/041.json` 至 `050.json` 逐篇完成语言表达润色：严格遵循禁区规则，未改动任何思高未标粗原文、分行或半句符号；修缮 `zh` 粗体另译片段及 `fix` 替换文字，消除翻译腔与生硬口语，使之庄重简练、契合思高与礼仪语体；重写所有 `note` 字段，统一称谓为「拉丁通行本」与「思高本」，规范句式并去除「武加大」及口语表述。
+- 逐篇校验与改动：41 篇改动 24 处、42 篇改动 9 处、43 篇改动 31 处、44 篇改动 28 处、45 篇改动 15 处、46 篇改动 7 处、47 篇改动 23 处、48 篇改动 31 处、49 篇改动 29 处、50 篇改动 18 处，各篇校验问题均为 0。
+- 最终校验：`node scripts/officium1962/psalms-zh-polish-check.mjs --psalm=41,42,43,44,45,46,47,48,49,50`（改动处 215，问题 0）与全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 均退出 0。未生成 public 数据、未浏览器验证、未提交或部署。
+
+### 圣咏 31–40 语言表达润色（2026-11-17）
+
+- 依 `scripts/officium1962/codex/TASK-polish-psalm-zh.md` 对 `psalms/031.json` 至 `040.json` 逐篇完成语言表达润色：严格遵循禁区规则，未改动任何思高未标粗原文、行键、分行或半句符号；修缮 `zh` 粗体另译片段，消除欧化翻译腔与生硬白话（如“受愚人的耻笑侮慢”、“说了夸大的话”、“大肆施行欺骗”等），使其更庄重、典雅并契合礼仪与思高语体；重写所有 `note` 字段，统一称谓为「拉丁通行本」与「思高本」，规范说明句式并去除「武加大」称谓与口语表述。
+- 逐篇校验与改动：31 篇改动 16 处、32 篇改动 13 处、33 篇改动 14 处、34 篇改动 33 处、35 篇改动 15 处、36 篇改动 31 处、37 篇改动 24 处、38 篇改动 25 处、39 篇改动 28 处、40 篇改动 16 处，各篇校验问题均为 0。
+- 最终校验：`node scripts/officium1962/psalms-zh-polish-check.mjs --psalm=31,32,33,34,35,36,37,38,39,40`（改动处 215，问题 0）与全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 均退出 0。未生成 public 数据、未浏览器验证、未提交或部署。
+
+### 圣咏 51–60 语言表达润色（2026-11-17）
+
+- 依 `scripts/officium1962/codex/TASK-polish-psalm-zh.md` 对 `psalms/051.json` 至 `060.json` 逐篇完成语言表达润色：严格遵循禁区规则，未改动任何思高未标粗原文、行键、分行或半句符号；修缮 `zh` 粗体另译片段，消除欧化生硬白话（如“对我说大话”、“饥饿如犬”、“街市上不断有”等句式修整），使语言表达更加庄重、典雅、合乎思高圣咏与天主教礼仪风格；重写所有 `note` 字段，统一称谓为「拉丁通行本」与「思高本」，规范说明句式并去除「武加大」称谓与口语表述。
+- 逐篇校验与改动：51 篇改动 12 处、52 篇改动 10 处、53 篇改动 5 处、54 篇改动 35 处、55 篇改动 25 处、56 篇改动 12 处、57 篇改动 18 处、58 篇改动 26 处、59 篇改动 18 处、60 篇改动 11 处，各篇校验问题均为 0。
+- 最终校验：`node scripts/officium1962/psalms-zh-polish-check.mjs --psalm=51,52,53,54,55,56,57,58,59,60`（改动处 172，问题 0）与全量 `node scripts/officium1962/psalms-zh-build.mjs --check`（DO 行 auto 139 / 人工 2474 / 无中文 0）均退出 0。未生成 public 数据、未浏览器验证、未提交或部署。
+
+### 圣咏 61–70 语言表达润色（2026-11-17）
+
+- 依 `scripts/officium1962/codex/TASK-polish-psalm-zh.md` 对 `psalms/061.json` 至 `070.json` 逐篇完成语言表达润色：严格遵循禁区规则，未改动任何思高未标粗原文、行键、分行或半句符号；修缮 `zh` 粗体另译片段，消除欧化翻译腔与生硬口语，使表达典雅庄重、合乎思高圣咏语体与礼仪传统；重写所有 `note` 字段，统一称谓为「拉丁通行本」与「思高本」，规范说明句式并去除「武加大」及口语化表述。
+- 逐篇校验与改动：61 篇改动 20 处、62 篇改动 11 处、63 篇改动 19 处、64 篇改动 21 处、65 篇改动 14 处、66 篇改动 6 处、67 篇改动 59 处、68 篇改动 35 处、69 篇改动 7 处、70 篇改动 28 处，各篇校验问题均为 0。
+- 最终校验：`node scripts/officium1962/psalms-zh-polish-check.mjs --psalm=61,62,63,64,65,66,67,68,69,70`（改动处 220，问题 0）与全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 均退出 0。未生成 public 数据、未浏览器验证、未提交或部署。
+
+### 圣咏 71–80 语言表达润色（2026-11-17）
+
+- 依 `scripts/officium1962/codex/TASK-polish-psalm-zh.md` 对 `psalms/071.json` 至 `080.json` 逐篇完成语言表达润色：严格遵循禁区规则，未改动任何思高未标粗原文、行键、分行或半句符号；修缮 `zh` 粗体另译片段，消除欧化翻译腔与生硬口语，使表达典雅庄重、合乎思高圣咏语体与礼仪传统；重写所有 `note` 字段，统一称谓为「拉丁通行本」与「思高本」，规范说明句式并去除「武加大」及口语化表述。
+- 逐篇校验与改动：71 篇改动 16 处、72 篇改动 43 处、73 篇改动 29 处、74 篇改动 16 处、75 篇改动 22 处、76 篇改动 21 处、77 篇改动 80 处、78 篇改动 15 处、79 篇改动 25 处、80 篇改动 18 处，各篇校验问题均为 0。
+- 最终校验：`node scripts/officium1962/psalms-zh-polish-check.mjs --psalm=71,72,73,74,75,76,77,78,79,80`（改动处 285，问题 0）与全量 `node scripts/officium1962/psalms-zh-build.mjs --check` 均退出 0。未生成 public 数据、未浏览器验证、未提交或部署。
+
+### 圣咏 81–90 语言表达润色（2026-11-17）
+
+- 依 `scripts/officium1962/codex/TASK-polish-psalm-zh.md` 对 `psalms/081.json` 至 `090.json` 逐篇完成语言表达润色：严格遵循禁区规则，未改动任何思高未标粗原文、行键、分行、`mk` 或半句符号；修缮 `zh` 粗体另译片段及 `fix` 新字项，消除欧化翻译腔与生硬口语，使表达典雅庄重、合乎思高圣咏语体与礼仪传统；重写所有 `note` 字段，统一称谓为「拉丁通行本」与「思高本」，规范说明句式并去除「武加大」及口语化表述。
+- 逐篇校验与改动：81 篇改动 9 处、82 篇改动 16 处、83 篇改动 13 处、84 篇改动 7 处、85 篇改动 6 处、86 篇改动 11 处、87 篇改动 17 处、88 篇改动 36 处、89 篇改动 22 处、90 篇改动 11 处，各篇校验问题均为 0。
+- 最终校验：`node scripts/officium1962/psalms-zh-polish-check.mjs --psalm=81,82,83,84,85,86,87,88,89,90`（改动处 148，问题 0）与全量 `node scripts/officium1962/psalms-zh-build.mjs --check`（DO 行 auto 139 / 人工 2474 / 无中文 0）均退出 0。未生成 public 数据、未浏览器验证、未提交、推送或部署。
+
+
+### 圣咏 91–100 语言表达润色（2026-11-17）
+
+- 依 `scripts/officium1962/codex/TASK-polish-psalm-zh.md` 对 `psalms/091.json` 至 `100.json` 逐篇完成语言表达润色：严格遵循禁区规则，未改动任何思高未标粗原文、行键、分行、`mk` 或半句符号；修缮 `zh` 粗体另译片段，消除欧化翻译腔、堆叠语与生硬口语，使表达典雅庄重、合乎思高圣咏语体与礼仪传统；重写所有 `note` 字段，统一称谓为「拉丁通行本」与「思高本」，规范说明句式并去除「武加大」及口语化表述。
+- 逐篇校验与改动：91 篇改动 19 处、92 篇改动 8 处、93 篇改动 22 处、94 篇改动 13 处、95 篇改动 7 处、96 篇改动 7 处、97 篇改动 9 处、98 篇改动 6 处、99 篇改动 3 处、100 篇改动 12 处，各篇校验问题均为 0。
+- 最终校验：`node scripts/officium1962/psalms-zh-polish-check.mjs --psalm=91,92,93,94,95,96,97,98,99,100`（改动处 106，问题 0）与全量 `node scripts/officium1962/psalms-zh-build.mjs --check`（DO 行 auto 139 / 人工 2474 / 无中文 0）均退出 0。未生成 public 数据、未浏览器验证、未提交、推送或部署。
+
+### 圣咏 101–110 语言表达润色（2026-11-17）
+
+- 依 `scripts/officium1962/codex/TASK-polish-psalm-zh.md` 对 `psalms/101.json` 至 `110.json` 逐篇完成语言表达润色：严格遵循禁区规则，未改动任何思高未标粗原文、行键、分行、`mk` 或半句符号；修缮 `zh` 粗体另译片段，消除欧化翻译腔与生硬口语（如「神风」、「把涕泪搀在饮料里」、「自己力量的道路」等），使表达庄重典雅、契合思高圣咏语体与礼仪传统；重写所有 `note` 字段，统一称谓为「拉丁通行本」与「思高本」，规范说明句式并去除「武加大」称谓与口语表述。
+- 逐篇校验与改动：101 篇改动 26 处、102 篇改动 21 处、103 篇改动 29 处、104 篇改动 31 处、105 篇改动 36 处、106 篇改动 27 处、107 篇改动 10 处、108 篇改动 30 处、109 篇改动 8 处、110 篇改动 9 处，各篇校验问题均为 0。
+- 最终校验：`node scripts/officium1962/psalms-zh-polish-check.mjs --psalm=101,102,103,104,105,106,107,108,109,110`（改动处 227，问题 0）与全量 `node scripts/officium1962/psalms-zh-build.mjs --check`（DO 行 auto 139 / 人工 2474 / 无中文 0）均退出 0。未生成 public 数据、未浏览器验证、未提交、推送或部署。
+
+### 圣咏 111–120 语言表达润色（2026-11-17）
+
+- 依 `scripts/officium1962/codex/TASK-polish-psalm-zh.md` 对 `psalms/111.json` 至 `120.json` 逐篇完成语言表达润色：严格遵循禁区规则，未改动任何思高未标粗原文、行键、分行、`mk` 或半句符号；修缮 `zh` 粗体另译片段，消除欧化翻译腔与生硬口语（如「使我得到宽广」、「连同毁灭性的炭火」、「我同刻达尔的居民住在一起」、「在你的右手边」等），使表达典雅庄重、契合思高圣咏语体与礼仪传统；重写所有 `note` 字段，统一称谓为「拉丁通行本」与「思高本」，规范说明句式并去除「武加大」称谓与口语表述。
+- 逐篇校验与改动：111 篇改动 8 处、112 篇改动 2 处、113 篇改动 18 处、114 篇改动 9 处、115 篇改动 2 处、116 篇改动 0 处（纯思高原文，无注释与改动）、117 篇改动 23 处、118 篇改动 118 处、119 篇改动 8 处、120 篇改动 9 处，各篇校验问题均为 0。
+- 最终校验：`node scripts/officium1962/psalms-zh-polish-check.mjs --psalm=111,112,113,114,115,116,117,118,119,120`（改动处 197，问题 0）与全量 `node scripts/officium1962/psalms-zh-build.mjs --check`（DO 行 auto 139 / 人工 2474 / 无中文 0）均退出 0。未生成 public 数据、未浏览器验证、未提交、推送或部署。
+
+### 圣咏 121–130 语言表达润色（2026-11-17）
+
+- 依 `scripts/officium1962/codex/TASK-polish-psalm-zh.md` 对 `psalms/121.json` 至 `130.json` 逐篇完成语言表达润色：严格遵循禁区规则，未改动任何思高未标粗原文、行键、分行、`mk` 或半句符号；修缮 `zh` 粗体另译片段，消除欧化翻译腔与生硬口语（如「站立著」、「一起带走」、「充满喜乐」、「要说」、「吃劳苦之饼的人，你们坐下以后才起来吧」、「受到这样的报应」等），使表达典雅庄重、契合思高圣咏语体与礼仪传统；重写所有 `note` 字段，统一称谓为「拉丁通行本」与「思高本」，规范说明句式并去除「武加大」称谓与口语表述。
+- 逐篇校验与改动：121 篇改动 13 处、122 篇改动 3 处、123 篇改动 10 处、124 篇改动 5 处、125 篇改动 8 处、126 篇改动 6 处、127 篇改动 2 处、128 篇改动 9 处、129 篇改动 4 处、130 篇改动 6 处，各篇校验问题均为 0。
+- 最终校验：`node scripts/officium1962/psalms-zh-polish-check.mjs --psalm=121,122,123,124,125,126,127,128,129,130`（改动处 66，问题 0）与全量 `node scripts/officium1962/psalms-zh-build.mjs --check`（DO 行 auto 139 / 人工 2474 / 无中文 0）均退出 0。未生成 public 数据、未浏览器验证、未提交、推送或部署。
+
+### 圣咏 131–140 语言表达润色（2026-11-17）
+
+- 依 `scripts/officium1962/codex/TASK-polish-psalm-zh.md` 对 `psalms/131.json` 至 `140.json` 逐篇完成语言表达润色：严格遵循禁区规则，未改动任何思高未标粗原文、行键、分行、`mk`、`fix` 旧字或半句符号；修缮 `zh` 粗体另译片段及 `fix` 新字项，消除欧化翻译腔与生硬口语（如「树林的田野」、「油流在头上」、「主管白昼/黑夜」、「可怜的巴比伦女子」、「日子将被形成，而其中没有一个」、「以罪恶作为犯罪的借口」、「求你留心我的声音」等），使表达典雅庄重、契合思高圣咏语体与礼仪传统；重写所有 `note` 字段，统一称谓为「拉丁通行本」与「思高本」，规范说明句式并去除「武加大」称谓与口语表述。
+- 逐篇校验与改动：131 篇改动 22 处、132 篇改动 3 处、133 篇改动 7 处、134 篇改动 11 处、135 篇改动 19 处、136 篇改动 11 处、137 篇改动 9 处、138 篇改动 35 处、139 篇改动 10 处、140 篇改动 16 处，各篇校验问题均为 0。
+- 最终校验：`node scripts/officium1962/psalms-zh-polish-check.mjs --psalm=131,132,133,134,135,136,137,138,139,140`（改动处 143，问题 0）与全量 `node scripts/officium1962/psalms-zh-build.mjs --check`（DO 行 auto 139 / 人工 2474 / 无中文 0）均退出 0。未生成 public 数据、未浏览器验证、未提交、推送或部署。
+
+### 圣咏 141–150 语言表达润色（2026-11-17）
+
+- 依 `scripts/officium1962/codex/TASK-polish-psalm-zh.md` 对 `psalms/141.json` 至 `150.json` 逐篇完成语言表达润色：严格遵循禁区规则，未改动任何思高未标粗原文、行键、分行、`mk`、`fix` 旧字或半句符号；修缮 `zh` 粗体另译片段及 `fix` 新字项，消除生硬口语与翻译腔，使表达典雅庄重、契合思高圣咏语体与礼仪传统；重写所有 `note` 字段，统一称谓为「拉丁通行本」与「思高本」，规范说明句式并去除「武加大」称谓与口语表述。
+- 逐篇校验与改动：141 篇改动 4 处、142 篇改动 5 处、143 篇改动 15 处、144 篇改动 5 处、145 篇改动 4 处、146 篇改动 6 处、147 篇改动 3 处、148 篇改动 9 处、149 篇改动 5 处、150 篇改动 1 处，各篇校验问题均为 0。
+- 最终校验：`node scripts/officium1962/psalms-zh-polish-check.mjs --psalm=141,142,143,144,145,146,147,148,149,150`（改动处 57，问题 0）、全量 polish-check（改动处 2516，问题 0）与全量 `node scripts/officium1962/psalms-zh-build.mjs --check`（DO 行 auto 139 / 人工 2474 / 无中文 0；已校订 150/150 篇）均退出 0。未生成 public 数据、未浏览器验证、未提交、推送或部署。
+
+
+
+
+

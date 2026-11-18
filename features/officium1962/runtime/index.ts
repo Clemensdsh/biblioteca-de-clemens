@@ -5,6 +5,7 @@ import { loadDay } from './loadDay'
 import { loadRootManifest, loadSharedManifest } from './loadRootManifest'
 import { loadYearManifest } from './loadYearManifest'
 import { reconstructHour } from './reconstructHour'
+import { loadPsalmsZh, type PsalmsZhData } from '../psalmsZh'
 import type { FetchLike, LoadedOfficeHour, RuntimeContext } from './types'
 import type { OfficeHourName } from '../schema'
 
@@ -50,6 +51,17 @@ export class Officium1962Loader {
       throw new UnavailableDateError(`${date} does not provide ${hourName}`)
     const hour = await reconstructHour(this.context, day, hourName, sharedManifest)
     return { rootManifest, yearManifest, calendarDay, day, hour }
+  }
+
+  private psalmsZh?: Promise<PsalmsZhData>
+
+  /** 圣咏中文对照数据；失败时抛出，调用方应忽略并只显示拉丁文。 */
+  loadPsalmsZh() {
+    this.psalmsZh ??= loadPsalmsZh(this.context).catch((error) => {
+      this.psalmsZh = undefined
+      throw error
+    })
+    return this.psalmsZh
   }
 
   clearCache() { this.context.cache.clear() }

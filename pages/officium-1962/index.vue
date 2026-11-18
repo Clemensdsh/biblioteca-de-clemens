@@ -5,6 +5,7 @@ import Office1962Viewer from '../../components/officium1962/Office1962Viewer.vue
 import { featureFlags } from '../../config/features'
 import { addCivilDays, buildOfficiumSearch, localCivilDate, parseOfficiumQuery } from '../../features/officium1962/pageState'
 import { errorDebugMessage, errorMessageZh, Officium1962Loader, type LoadedOfficeHour, type RootManifest } from '../../features/officium1962/runtime'
+import type { PsalmsZhData } from '../../features/officium1962/psalmsZh'
 import { office1962HourNames, type Office1962Day, type OfficeHourName } from '../../features/officium1962/schema'
 
 const description = 'Rubrics 1960 下的罗马大日课拉丁文在线版，包含 Matutinum、Laudes、Prima、Tertia、Sexta、Nona、Vesperae 和 Completorium。'
@@ -43,6 +44,8 @@ const error = ref<unknown>()
 const parameterError = ref('')
 const showRubrics = ref(true)
 const showSources = ref(false)
+const showZh = ref(true)
+const psalmsZh = ref<PsalmsZhData>()
 const fontScale = ref(1)
 let loader: Officium1962Loader | undefined
 let loadSequence = 0
@@ -66,6 +69,8 @@ onMounted(async () => {
     return
   readPreferences()
   loader = new Officium1962Loader()
+  // 圣咏中文对照是附加功能：加载失败时只显示拉丁文，不影响日课
+  loader.loadPsalmsZh().then((data) => { psalmsZh.value = data }).catch(() => {})
   window.addEventListener('popstate', handlePopState)
   await initializeFromUrl(true)
 })
@@ -74,6 +79,7 @@ onBeforeUnmount(() => window.removeEventListener('popstate', handlePopState))
 
 watch(showRubrics, value => persistPreference('rubrics', String(value)))
 watch(showSources, value => persistPreference('sources', String(value)))
+watch(showZh, value => persistPreference('zh', String(value)))
 watch(fontScale, value => persistPreference('font', String(value)))
 
 async function initializeFromUrl(replaceMissingDate: boolean) {
@@ -181,6 +187,7 @@ function moveHour(amount: number) {
 function readPreferences() {
   showRubrics.value = localStorage.getItem('officium1962.rubrics') !== 'false'
   showSources.value = localStorage.getItem('officium1962.sources') === 'true'
+  showZh.value = localStorage.getItem('officium1962.zh') !== 'false'
   const storedFont = Number(localStorage.getItem('officium1962.font') || 1)
   fontScale.value = Number.isFinite(storedFont) ? Math.min(1.35, Math.max(0.9, storedFont)) : 1
 }
@@ -241,6 +248,7 @@ function persistPreference(key: string, value: string) {
           </button>
           <label><input v-model="showRubrics" type="checkbox"> 显示红字</label>
           <label><input v-model="showSources" type="checkbox"> 显示来源</label>
+          <label><input v-model="showZh" type="checkbox"> 圣咏中文</label>
           <label class="officium1962-font-control">
             <span>正文字号</span>
             <input v-model.number="fontScale" type="range" min="0.9" max="1.35" step="0.05">
@@ -277,6 +285,8 @@ function persistPreference(key: string, value: string) {
         :show-rubrics="showRubrics"
         :show-sources="showSources"
         :font-scale="fontScale"
+        :show-zh="showZh"
+        :psalms-zh="psalmsZh"
       />
 
       <aside class="officium1962-notes no-print" aria-labelledby="officium-help-title">
@@ -284,6 +294,7 @@ function persistPreference(key: string, value: string) {
           <summary id="officium-help-title">来源、许可与页面说明</summary>
           <div>
             <p>数据源为 Divinum Officium，采用 Rubrics 1960 与 Latin；结构化转换由本站完成。固定上游 commit：<code>515a213f79951c563be4f599ca591c63aa63bb6d</code>，上游许可证为 MIT。</p>
+            <p>圣咏中文（逐篇校订后上线）以思高圣经学会《圣咏集》为底本，按本日课的分行重新切分并对照；思高译自希伯来文，凡拉丁通行本与之不同处，在思高基础上改写并以<strong>粗体</strong>标出，另在该篇下列出注释。未校订的圣咏只显示拉丁文。</p>
             <p>当前发布年份为 2026。发布数据未使用 Spanish、Martyrologium1960 或 missa；页面运行不调用 Perl、Docker、Divinum Officium 外站或 vendor 仓库。</p>
             <p>本页与本站既有 <a href="/martyrology/">新礼圣人录</a>及其中的<a href="/martyrology/">第一时辰经</a>相互独立，不混用 resolver、圣人录或礼文数据。</p>
           </div>

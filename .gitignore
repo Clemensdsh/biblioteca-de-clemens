@@ -54,3 +54,5 @@ resources/officium1962-translation/full-occurrences-by-hour-and-source.zh-Hans.j
 
 # Codex OCR rendered page images (large, regenerable)
 scripts/liturgia-horarum/codex/ocr-work/
+
+scripts/officium1962/codex/codex-out/
