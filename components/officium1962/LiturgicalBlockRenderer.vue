@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { lookupCanticleLine, lookupFixedLine, lookupPsalmLine, splitZhSegments, type PsalmsZhData } from '../../features/officium1962/psalmsZh'
+import { prepareBlock, type DisplayItem } from '../../features/officium1962/presentation'
 import type { LiturgicalBlock } from '../../features/officium1962/schema'
 
 function zhFor(line: string) {
@@ -61,20 +62,39 @@ const blockNotes = computed(() => {
   return [...used.values()]
 })
 
-function lineClass(line: string) {
-  return {
-    'is-dialogue': line.startsWith('℣.') || line.startsWith('℟.'),
-    'is-rubric': isRubricLine(line),
-    'is-verse': /^\d+:\d+/.test(line),
+/** 颂歌/读经注释全站共用一个编号池，页面上按本块内出现顺序显示 1、2、3… */
+const localNoteNo = computed(() => {
+  const map = new Map<string, number>()
+  for (const note of blockNotes.value) {
+    if (note.psalm === 0)
+      map.set(`0-${note.n}`, map.size + 1)
   }
+  return map
+})
+
+function shownNo(psalm: number, n: number) {
+  return psalm === 0 ? (localNoteNo.value.get(`0-${n}`) ?? n) : n
 }
 
-function isRubricLine(line: string) {
-  return /Benedictio\.|Gloria omittitur|secreto|omittitur|Examen conscientiæ|\(percutit sibi pectus\)|genuflectitur/i.test(line)
+const prepared = computed(() => prepareBlock(props.block))
+
+type LineItem = Extract<DisplayItem, { kind: 'line' }>
+
+function lineClass(item: LineItem) {
+  return {
+    'is-dialogue': item.dialogue,
+    'is-rubric': item.rubric,
+    'is-verse': !!item.ref,
+    'is-citation': item.citation,
+  }
 }
 
 function isRubricBlock() {
   return props.block.type === 'rubric'
+}
+
+function lineLabel(item: LineItem) {
+  return item.rubric || isRubricBlock() ? `礼仪指示：${item.segments.map(s => s.text).join('')}` : undefined
 }
 
 const props = defineProps<{
@@ -93,8 +113,11 @@ const props = defineProps<{
     class="officium1962-block"
     :data-block-type="block.type"
   >
-    <h3 v-if="block.title" class="officium1962-block-title">
-      {{ block.title }}
+    <h3 v-if="prepared.title" class="officium1962-block-title">
+      {{ prepared.title }}
+      <span v-if="prepared.tag || prepared.tagScope" class="officium1962-source-tag" :title="prepared.tag?.latin" lang="zh-CN">
+        <template v-if="prepared.tagScope">{{ prepared.tagScope }}　</template><template v-if="prepared.tag?.kind === 'source'">出处：</template>{{ prepared.tag?.text }}
+      </span>
     </h3>
 
     <p v-if="zhPending" class="officium1962-zh-pending no-print" lang="zh-CN">
@@ -102,30 +125,36 @@ const props = defineProps<{
     </p>
 
     <!-- 有中文的圣咏行：拉丁文在左、中文在右（窄屏上下叠放）；其余行只有拉丁文 -->
-    <div
-      v-for="(line, index) in block.text"
-      v-show="showRubrics || !isRubricLine(line)"
-      :key="`${block.id}-${index}`"
-      :class="zhFor(line) ? 'officium1962-pair' : undefined"
-    >
-      <p
-        class="officium1962-line"
-        :class="lineClass(line)"
-        :aria-label="isRubricLine(line) || isRubricBlock() ? `礼仪指示：${line}` : undefined"
+    <template v-for="(item, index) in prepared.items" :key="`${block.id}-${index}`">
+      <div v-if="item.kind === 'gap'" class="officium1962-gap" aria-hidden="true" />
+      <div
+        v-else
+        v-show="showRubrics || !item.rubric"
+        :class="zhFor(item.raw) ? 'officium1962-pair' : undefined"
       >
-        {{ line }}
-      </p>
-      <p v-if="zhFor(line)" class="officium1962-zh" lang="zh-CN">
-        <template v-for="(segment, segmentIndex) in zhFor(line)!.segments" :key="segmentIndex">
-          <strong v-if="segment.changed" class="officium1962-zh-changed">{{ segment.text }}</strong>
-          <template v-else>{{ segment.text }}</template>
-        </template>
-        <template v-for="n in zhFor(line)!.notes" :key="n"><sup class="officium1962-zh-mark"><a :href="`#${block.id}-zhnote-${zhFor(line)!.psalm}-${n}`" :aria-label="`注${n}：${noteText(zhFor(line)!.psalm, n)}`">注{{ n }}</a></sup><span class="officium1962-zh-tip" role="tooltip">{{ noteText(zhFor(line)!.psalm, n) }}</span></template>
-      </p>
-    </div>
+        <p
+          class="officium1962-line"
+          :class="lineClass(item)"
+          :aria-label="lineLabel(item)"
+        >
+          <span v-if="item.ref" class="officium1962-ref">{{ item.ref }}</span>
+          <template v-for="(segment, segmentIndex) in item.segments" :key="segmentIndex">
+            <span v-if="segment.kind === 'rubric'" v-show="showRubrics" class="officium1962-inline-rubric">{{ segment.text }}</span>
+            <template v-else>{{ segment.text }}</template>
+          </template>
+        </p>
+        <p v-if="zhFor(item.raw)" class="officium1962-zh" lang="zh-CN">
+          <template v-for="(segment, segmentIndex) in zhFor(item.raw)!.segments" :key="segmentIndex">
+            <strong v-if="segment.changed" class="officium1962-zh-changed">{{ segment.text }}</strong>
+            <template v-else>{{ segment.text }}</template>
+          </template>
+          <template v-for="n in zhFor(item.raw)!.notes" :key="n"><sup class="officium1962-zh-mark"><a :href="`#${block.id}-zhnote-${zhFor(item.raw)!.psalm}-${n}`" :aria-label="`注${shownNo(zhFor(item.raw)!.psalm, n)}：${noteText(zhFor(item.raw)!.psalm, n)}`">注{{ shownNo(zhFor(item.raw)!.psalm, n) }}</a></sup><span class="officium1962-zh-tip" role="tooltip">{{ noteText(zhFor(item.raw)!.psalm, n) }}</span></template>
+        </p>
+      </div>
+    </template>
 
     <p
-      v-for="(line, index) in block.rubricLines"
+      v-for="(line, index) in prepared.rubricLines"
       v-show="showRubrics"
       :key="`${block.id}-rubric-${index}`"
       class="officium1962-line is-rubric"
@@ -141,7 +170,7 @@ const props = defineProps<{
     <details v-if="blockNotes.length" class="officium1962-zh-notes" lang="zh-CN">
       <summary>中文注释（思高本与拉丁通行本不同处）</summary>
       <p v-for="note in blockNotes" :id="`${block.id}-zhnote-${note.psalm}-${note.n}`" :key="`${note.psalm}-${note.n}`">
-        <strong>注{{ note.n }}</strong>　{{ note.text }}
+        <strong>注{{ shownNo(note.psalm, note.n) }}</strong>　{{ note.text }}
       </p>
     </details>
 
@@ -168,15 +197,64 @@ const props = defineProps<{
   letter-spacing: 0;
 }
 
+.officium1962-source-tag {
+  display: inline-block;
+  margin-left: 0.5em;
+  padding: 0 0.5em;
+  border: 1px solid var(--va-c-divider);
+  border-radius: 3px;
+  color: var(--va-c-text-light);
+  font-family: var(--va-font-sans, system-ui, sans-serif);
+  font-size: 0.72rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  vertical-align: 0.1em;
+}
+
 .officium1962-line {
   margin: 0.2rem 0;
   overflow-wrap: break-word;
   line-height: 1.75;
 }
 
-.officium1962-block[data-block-type='psalm'] .is-verse,
-.officium1962-block[data-block-type='canticle'] .is-verse {
-  padding-left: 1rem;
+/* 圣咏节号 / 读经节号：缩小放在左上角 */
+.officium1962-line.is-verse {
+  position: relative;
+  padding-left: 2.8rem;
+}
+
+.officium1962-ref {
+  position: absolute;
+  top: 0.5em;
+  left: 0;
+  color: var(--va-c-text-light);
+  font-family: var(--va-font-sans, system-ui, sans-serif);
+  font-size: 0.62em;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  user-select: none;
+}
+
+/* 经文出处（如 Prov. 31:10-11）：不是正文 */
+.officium1962-line.is-citation {
+  margin-bottom: 0.1rem;
+  color: var(--va-c-text-light);
+  font-family: var(--va-font-sans, system-ui, sans-serif);
+  font-size: 0.78em;
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+
+/* 正文中的礼仪提示（genuflectitur 等）才用红字 */
+.officium1962-inline-rubric {
+  color: var(--officium1962-rubric, #9f1d1d);
+  font-style: italic;
+}
+
+/* 原 `_` 分隔符：只留出间距 */
+.officium1962-gap {
+  height: 0.8rem;
 }
 
 .officium1962-block[data-block-type='antiphon'] .officium1962-line,

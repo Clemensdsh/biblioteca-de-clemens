@@ -42,10 +42,37 @@ const FIXED = [
   ['Misereátur nostri omnípotens Deus, et dimíssis peccátis nostris, perdúcat nos ad vitam ætérnam. Amen.', '愿全能的天主垂怜我们，赦免我们的罪，使我们得到永生。阿们。'],
   // 圣咏 101:2（思高，站内已校订）；1962 以它作「Dómine, exáudi」对话
   ['℣. Dómine, exáudi oratiónem meam.', '上主，求你允我的祈求，'],
-  ['℟. Et clamor meus ad te véniat.', '愿我的呼声上达于你！'],
+  ['℟. Et clamor meus ad te véniat.', '愿我的呼声上达于你。'],
   // 用户指定译文
   ['℣. Fidélium ánimæ per misericórdiam Dei requiéscant in pace.', '凡诸信者灵魂，赖天主仁慈，息止安所。'],
   ['℣. Requiéscant in pace.', '息止安所。'],
+  // —— 晚经短对答咏、对经、结尾祝福（时辰礼仪万有真原；香港本同）
+  ['℟.br. In manus tuas, Dómine, * Comméndo spíritum meum.', '上主，我把灵魂交在你手里。'],
+  ['℟. In manus tuas, Dómine, * Comméndo spíritum meum.', '上主，我把灵魂交在你手里。'],
+  ['℣. Redemísti nos, Dómine, Deus veritátis.', '上主，信实的天主，你拯救了我们。'],
+  ['℟. Comméndo spíritum meum.', '我把灵魂交在你手里。'],
+  ['℣. Custódi nos, Dómine, ut pupíllam óculi.', '上主，求你保护我们，有如眼中的瞳人。'],
+  ['℟. Sub umbra alárum tuárum prótege nos.', '让我们在你的翼荫下藏身。'],
+  ['Ant. Salva nos, * Dómine, vigilántes, custódi nos dormiéntes; ut vigilémus cum Christo, et requiescámus in pace.',
+    '上主！我们醒寤时，求你帮助我们与基督一起醒寤，我们睡眠时，求你保佑我们获得安眠。'],
+  // 集祷经结语：取香港本（万有真原此处只有意译的短结语）
+  ['Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.',
+    '因你的圣子、我们的主耶稣基督，他和你及圣神，是唯一天主，永生永王。'],
+  // 晨经结语：时辰礼仪「愿全能的天主降福我们…」＋用户指定的 Fidélium ánimæ 译文
+  ['Benedictio. Dóminus nos benedícat, ✠ et ab omni malo deféndat, et ad vitam perdúcat ætérnam. Et fidélium ánimæ per misericórdiam Dei requiéscant in pace.',
+    '愿全能的天主降福我们，保护我们免于灾祸，引领我们到达永生。凡诸信者灵魂，赖天主仁慈，息止安所。'],
+  // 圣母经《Salve, Regína》：时辰礼仪译文按拉丁行拆开（行序与原译文略有调整）
+  ['Salve, Regína, mater misericórdiæ;', '母后万福！仁慈的母亲；'],
+  ['vita, dulcédo et spes nóstra, salve.', '我们的生命，我们的甘饴，我们的希望。'],
+  ['Ad te clamámus éxsules fílii Hevæ.', '厄娃子孙，在此尘世，向您哀呼。'],
+  ['Ad te suspirámus geméntes et flentes', '向您叹息哭求，'],
+  ['in hac lacrimárum valle.', '在这涕泣之谷。'],
+  ['Eja ergo, advocáta nostra,', '我们的主保，求您回顾，'],
+  ['illos tuos misericórdes óculos ad nos convérte.', '怜视我们，'],
+  ['nobis post hoc exsílium osténde.', '一旦流亡期满，使我们得见。'],
+  ['O clemens, o pia, o dulcis Virgo María.', '童贞玛利亚，您是宽仁的，慈悲的，甘饴的。'],
+  ['℣. Ora pro nobis, sancta Dei Génetrix.', '天主圣母，请为我们祈求，'],
+  ['℟. Ut digni efficiámur promissiónibus Christi.', '使我们堪受基督的恩许。'],
 ]
 
 const args = process.argv.slice(2)
@@ -286,6 +313,25 @@ for (const [la, zh, note] of [...CANTICLES, ...otEntries]) {
   if (notes.length) { entry.n = notes.map((x) => canticleNotes.push(x)) }
   canticles[k] = entry
 }
+
+// 圣经读经（短读经、小读经、夜课圣经读经）：resources/officium1962-readings/lines.json，键同固定句（拉丁行字母哈希，节号不计）；
+// 只收已有中文的行；注释并入 canticleNotes（同样以「注N」显示）。
+let readingCount = 0
+{
+  const rp = path.join(root, 'resources/officium1962-readings/lines.json')
+  if (fs.existsSync(rp)) {
+    for (const e of JSON.parse(fs.readFileSync(rp, 'utf8'))) {
+      if (!e.zh || !e.zh.trim()) continue
+      const k = fixedLineKey(e.latin)
+      if (canticles[k] || fixed[k]) continue
+      const entry = { z: e.zh }
+      if ((e.notes || []).length) entry.n = e.notes.map((x) => canticleNotes.push(x))
+      canticles[k] = entry
+      readingCount++
+    }
+  }
+}
+console.log(`圣经读经中文 ${readingCount} 行`)
 
 const corpus = readCorpusPsalmLines()
 let covered = 0

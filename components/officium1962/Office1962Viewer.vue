@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import type { PsalmsZhData } from '../../features/officium1962/psalmsZh'
 import type { Office1962Day, OfficeHour } from '../../features/officium1962/schema'
+import { plainTitle } from '../../features/officium1962/presentation'
 import LiturgicalBlockRenderer from './LiturgicalBlockRenderer.vue'
 
 const props = defineProps<{
@@ -19,7 +20,7 @@ const nocturnLinks = computed(() => {
     return []
   return props.hour.blocks
     .filter(block => block.type === 'invitatory' || block.type === 'heading' || block.type === 'reading' || block.type === 'te-deum')
-    .map(block => ({ id: block.id, label: block.title || block.type }))
+    .map(block => ({ id: block.id, label: plainTitle(block.title || '') || block.type }))
 })
 
 const headingZh = computed(() => props.showZh ? props.psalmsZh?.headings?.[props.day.date] : undefined)
@@ -54,16 +55,15 @@ const vespersLabel = computed(() => {
         {{ hour.title }}<span v-if="hourZh" class="officium1962-hour-zh" lang="zh-CN">　{{ hourZh }}</span>
         <span v-if="vespersLabel" class="officium1962-vespers-mark">{{ vespersLabel }}</span>
       </p>
+      <p v-if="headingZh?.c?.length" class="officium1962-commemorations-zh" lang="zh-CN">
+        <strong>当日纪念</strong>　{{ headingZh.c.join('；') }}
+      </p>
     </header>
 
     <nav v-if="nocturnLinks.length" class="officium1962-toc no-print" aria-label="Matutinum 夜课目录" lang="zh-CN">
       <strong>夜课目录</strong>
       <a v-for="link in nocturnLinks" :key="link.id" :href="`#${link.id}`">{{ link.label }}</a>
     </nav>
-
-    <p v-if="headingZh?.c?.length" class="officium1962-commemorations-zh" lang="zh-CN">
-      <strong>当日纪念</strong>　{{ headingZh.c.join('；') }}
-    </p>
 
     <section v-if="day.commemorations.length" class="officium1962-commemorations" aria-labelledby="officium-commemorations">
       <h3 id="officium-commemorations">Commemorationes</h3>
@@ -134,7 +134,7 @@ const vespersLabel = computed(() => {
 }
 
 .officium1962-commemorations-zh {
-  margin: 0 0 1.2rem;
+  margin: 0.5rem 0 0;
   color: var(--va-c-text-light);
   font-size: 0.9rem;
   text-align: center;

@@ -5,6 +5,50 @@
 // 格式：[拉丁整行（与 shared/blocks 中一致）, 中文（" * " 为半句分隔，** 为改动处）, 注释?]
 
 export const CANTICLES = [
+  // ——— 圣母对经 Alma Redemptóris Mater（时辰礼仪「大哉救主之母」意译较多，按拉丁行改写）———
+  ['Alma Redemptóris Mater, quæ pérvia cæli porta manes,', '**慈爱的**救主之母，您永为**敞开的**天国之门，',
+    '时辰礼仪本作「大哉救主之母！您是天国之门」，未译出 Alma（慈爱的）与 pérvia（敞开、可通行），故按拉丁文改。'],
+  ['et stella maris, succúrre cadénti,', '世海之星，求您扶助将要跌倒的人，'],
+  ['Súrgere qui curat, pópulo: tu quæ genuísti,', '**力求重新奋起的百姓：**您曾生育，',
+    '时辰礼仪本将 cadénti（将要跌倒的人）与 súrgere qui curat（力求奋起者）、pópulo（百姓）合译为「扶助行将堕落的人，奋起前进」，句序与拉丁行不合，故按拉丁文改。'],
+  ['Natúra miránte, tuum sanctum Genitórem,', '**自然界为之惊叹，**您的圣创造者，',
+    '时辰礼仪本作「超乎自然地生育了创造您的主宰」，把 natúra miránte（自然界惊叹）译成「超乎自然」，故按拉丁文改。'],
+  ['Virgo prius ac postérius, Gabriélis ab ore', '**生前生后皆为童贞，从加俾额尔口中**',
+    '时辰礼仪本作「毕生保持着童身」，并把加俾额尔的问候提到了前面，未译出 prius ac postérius（生前生后）与 ab ore（从口中），故按拉丁文改。'],
+  ['Sumens illud Ave, peccatórum miserére.', '**领受了那声「万福」，**求您垂怜罪人。',
+    '时辰礼仪本作「您接受佳播天使的问候」，位置与拉丁行不合，且「佳播」为旧译，故按拉丁文改。'],
+  ['℣. Ángelus Dómini nuntiávit Maríæ.', '上主的天使向玛利亚报喜。'],
+  ['℟. Et concépit de Spíritu Sancto.', '她因圣神而怀孕。'],
+
+  // ——— 圣母对经 Ave, Regína cælórum ———
+  ['Ave, Regína cælórum,', '万福，天上母后，'],
+  ['Ave, Dómina Angelórum:', '万福，天使的主母：'],
+  ['Salve radix, salve porta,', '**万福，根源；万福，门户，**',
+    '时辰礼仪本作「万福，叶瑟之根！万福，天国之门！」，添了「叶瑟」「天国」，拉丁文仅作 radix（根）、porta（门），故按拉丁文改。'],
+  ['Ex qua mundo lux est orta:', '照世的光明由您而生；'],
+  ['Gaude, Virgo gloriósa,', '欢乐吧，荣耀的贞女，'],
+  ['Super omnes speciósa,', '美丽超越众人；'],
+  ['Vale, o valde decóra,', '**愿您安好，**啊，极其端丽的，',
+    '时辰礼仪本作「万福，光辉灿烂的贞女」，把 Vale（愿您安好，告别时的祝语）译作「万福」，故按拉丁文改。'],
+  ['Et pro nobis Christum exóra.', '请为我们转求基督。'],
+  ['℣. Dignáre me laudáre te, Virgo sacráta.', '**圣洁的贞女，求你使我堪当赞美你。**',
+    '时辰礼仪数据中没有这一对答的译文，此行据拉丁文新译，仍待复核。'],
+  ['℟. Da mihi virtútem contra hostes tuos.', '**求你赐我力量，抵抗你的仇敌。**',
+    '时辰礼仪数据中没有这一对答的译文，此行据拉丁文新译，仍待复核。'],
+
+  // ——— 圣母对经 Regína cæli ———
+  ['Regína cæli, lætáre, allelúja;', '天上母后，欢乐吧，阿肋路亚；'],
+  ['Quia quem meruísti portáre, allelúja,', '**因为您有幸怀载的那一位，**阿肋路亚，',
+    '时辰礼仪本作「因为您亲生的爱子」，未译出 meruísti portáre（您有幸怀载），故按拉丁文改。'],
+  ['Resurréxit, sicut dixit, allelúja:', '已经复活了，正如他所预言，阿肋路亚；'],
+  ['Ora pro nobis Deum, allelúja.', '请为我们祈求天主，阿肋路亚。'],
+  ['℣. Gaude et lætáre, Virgo María, allelúja.', '童贞玛利亚，欢乐吧，阿肋路亚。'],
+  ['℟. Quia surréxit Dóminus vere, allelúja.', '因为主真复活了，阿肋路亚。'],
+
+  // ——— 圣母经 Salve, Regína：其余各行见 psalms-zh-build.mjs 的 FIXED（时辰礼仪译文，含义与拉丁相合）———
+  ['Et Jesum, benedíctum fructum ventris tui,', '**您腹中蒙福的圣果**，耶稣，',
+    '时辰礼仪本作「您的圣子，万民称颂的耶稣」，未译出 benedíctum fructum ventris tui（您腹中蒙福的果实），故按拉丁文改。'],
+
   // ——— 赞美天主 Te Deum ———
   ['Te Deum laudámus: * te Dóminum confitémur.', '天主，我们赞美你； * 上主，我们颂扬你；'],
   ['Te ætérnum Patrem * omnis terra venerátur.', '永生之父， * 万物敬拜你。'],

@@ -1,7 +1,9 @@
 # 项目当前状态与交接
 
 更新：2026-11-20。唯一当前状态入口；进入新会话先读本文件，按需读取所链接材料。状态随工作改变，操作前重新检查 Git 和文件；详细历史见 `docs/HISTORY_MIGRATION_REPORT.md`。
-## 1962 日课中文：2026-11-20 本轮交接（已提交 `d44c589` 并推送 main，由 GitHub Actions 发布 Pages；线上页面未核对）
+> **2026-11-20 晚最新**：显示层整理、固定句/圣母对经中文、圣经读经（小读经 363 条）中文、读经分组流水线见文末「2026-11-20 罗马大日课显示层整理」及其后三节；夜课圣经读经（约 4100 行）、集祷经尚未做。
+
+## 1962 日课中文：2026-11-20 本轮交接（已提交 `d44c589` 并推送 main，由 GitHub Actions 发布 Pages；线上页面未核对）
 
 做完的（均已在本地开发服务 `pnpm run dev`，端口 4859 用无头 Edge 取渲染页验证过抬头/时辰按钮；其余页面内容未逐页浏览器核对）：
 
@@ -406,3 +408,29 @@
 
 - **抬头中文**：scripts/officium1962/gcatholic-headings.mjs <年…> 抓 gCatholic 特殊形式历（繁体→OpenCC 简体）存到 esources/officium1962-headings-zh/gcatholic-<年>.json（已抓 2025–2027）；psalms-zh-build.mjs 按 calendar.json 的等级对齐出 headings（等级、当日礼仪名、当日纪念）与 hourNames（夜课经、赞美经、晨经、辰时经、午时经、申初经、申正经、晚经）写进 psalms-zh.json；Office1962Viewer.vue 在拉丁抬头下显示中文名与等级、时辰名、「当日纪念」。纪念取自 gCatholic（DO 导出的 commemorations 字段是空的）。「降临后」是 gCatholic 对「圣神降临后」的简称，保持原样。2026 全年 365 天均有。未浏览器核对。
 - **旧约颂歌改用思高 epub 底本**：esources/officium1962-ot-canticles/sigao-epub-ot.json（《思高本.epub》，繁→简，Jer 在 split_027+028）；条目数据改为 lines.json（canticles-ot-zh.mjs 只读它）；ot-canticles-check.mjs 校验结构，lines.base.json 为原始只读字段备份，lines.pre-codex.json 为 Codex 前版本。先由 agy 打磨 1–66（之后 agy 配额用尽，约 154 小时后重置），67–213 由 Codex 打磨；所有「思高本作」引文已核对为逐字出自 epub。难解拉丁句见各组 log（codex/codex-out/ot-canticles-*）。
+
+### 2026-11-20 罗马大日课显示层整理（未提交）
+
+- 新增 `features/officium1962/presentation.ts`（+ `presentation.test.ts` 6 项通过）：标题 `{出处}` 拆成中文小标签（如「出处：圣人本日专用」），并去掉正文首行重复的 `Invitatorium {…}` 等；`_` 改为间距；`%Laudes%` 去 %；行末 `..` 改 `.`；圣咏/读经节号缩小放左上角；`Prov. 31:10-11` 等经文出处用小号灰字；红字只用于 (genuflectitur)、(Fit reverentia)、(percutit sibi pectus)、`Benedictio.` 标签与整行礼仪指示，当念正文不再标红；`rubricLines` 与正文重复的不再重复显示（修复 Prima「Pater Noster dicitur secreto」和晚经 Confíteor 出现两次）；「当日纪念」移入抬头区。
+- 改动文件：`LiturgicalBlockRenderer.vue`、`Office1962Viewer.vue`。已重启 4859 开发服务，用无头 Edge 取 2026-11-19 四个时辰的渲染页核对（无 `{ex`、`%`、`_` 行，重复消失）并看了赞美经截图；其余日期/时辰未逐页看。
+- 未做：「出处」中文词（`habentur`、`specialis` 两种括注）暂显示拉丁原文；未跑全量 vitest。
+- **2026-11-20 续**：FIXED 新增晚经短对答咏（In manus tuas / Redemísti / Comméndo）、Custódi nos 对句、Ant. Salva nos、集祷经结语 Per Dóminum…（取香港本，万有真原此处是意译短结语）、Prima 结尾祝福（Dóminus nos benedícat＋Fidélium ánimæ）、Salve Regína 十行及 ℣℟（时辰礼仪译文按拉丁行拆开，个别行序略调）；Et clamor meus 译文改句号；1 Pet 5:8-9 类出处不再被当作节号 1；Commune 标签改「共同礼（圣人通用）或节日专用」。已重跑 psalms-zh-build、重启 4859，渲染页验证 2026-11-19 晚经/晨经。未配中文：Benedícat et custódiat（晚经末尾祝福，时辰礼仪无对应）、各集祷经正文、Per eúmdem 等其他结语。
+
+### 2026-11-20 圣经读经中文（思高为底，按拉丁通行本改写）——流水线已搭好，Codex 正在做
+
+- **范围**：1962 日课里直接取自圣经的读经行（短读经/小读经/夜课圣经读经），共 4457 条拉丁行（约 50.7 万字）；集祷经、非圣经读经（圣人传记、教父讲道）不在此列。
+- **底本**：`resources/officium1962-readings/sigao-bible.json`（`readings-sigao-extract.mjs` 从《思高本.epub》全本抽出，73 卷、35624 节，繁→简；epub 解压到临时目录后传入）。查经文：`node scripts/officium1962/readings-sigao.mjs "Sir 1:11-15" --pad=2`。
+- **数据**：`resources/officium1962-readings/lines.json`（`readings-extract.mjs` 从 shared/blocks 生成；`n` 1–346 是无节号的整段读经＝小读经/短读经，347 起是夜课按节分行读经；`sigao` 字段是按引文自动取的思高草稿，可能错位；**Codex 开始后不要重跑 readings-extract**，会重排 n）。`lines.base.json` 是只读字段基线。规格 `scripts/officium1962/codex/TASK-readings-zh.md`；校验 `readings-check.mjs --n=A-B [--warn] [--filled]`；Codex 启动 `codex/run-readings-zh-codex.ps1 -Groups '1-346','347-650'…`（串行，避免同时改同一 JSON）。
+- **前台**：`psalms-zh-build.mjs` 读 lines.json 中有中文的行并入 `canticles`/`canticleNotes`（键＝拉丁行字母哈希，节号不计）；渲染器对颂歌/读经注释在块内重新编号（注1、2、3…，不再显示全局号）。
+- **进度**：我手工做了 3 条样本（Prov. 31:10-11、1 Pet 5:8-9、Jer 14:9）并在 2026-11-19 赞美经页验证了粗体/注释显示；已启动 Codex 做 n=1–346（日志 `codex/codex-out/readings-codex-1-346.log`）。**未做**：n=347–4457（夜课圣经读经），待 1–346 验收质量后分批启动；Codex 产出尚未人工抽查。
+- **圣母对经**：Salve Regína 十行已核对，含义与拉丁相合，仅「Et Jesum, benedíctum fructum ventris tui」一行时辰礼仪译文漏了「腹中蒙福的果实」，已改写加粗并附注（`canticles-zh.mjs`）。另三首圣母对经（Alma Redemptoris、Ave Regína cælórum、Regína cæli）尚未配中文。
+- **Codex 分组**：整段 1–346 一次交给 Codex 它只做了 7 条就停；改为每组 30 条串行（约 3 分钟/组，启动命令见 un-readings-zh-codex.ps1，脚本已支持逗号分隔组名）。1–346 共 12 组 2026-11-20 00:35 起在后台跑。已发现的质量问题（待人工/后续复核）：n=18 Exod 23:22-23 出现「打击打击你的人」（应为「打击那些打击你的人」）；Codex 产出整体未经拉丁文复核。n≥347（夜课圣经读经约 4100 行）尚未启动，预计需 130+ 组、约 6–7 小时 Codex。
+
+### 2026-11-20 晚：小读经完成、三首圣母对经已配、读经改用分组文件
+
+- **三首圣母对经**（Alma Redemptóris、Ave Regína cælórum、Regína cæli）及其 ℣℟ 已配中文（`canticles-zh.mjs`，注释同颂歌）：时辰礼仪译文意译处按拉丁行改写加粗并附注；Ave 的 ℣℟（Dignáre me / Da mihi）时辰礼仪数据没有，据拉丁新译并注明待复核；Alma 的 ℣℟（三钟经）用通行译法。集祷经（Grátiam tuam 等）仍未配。
+- **小读经/短读经（n 1–346 + 补充 17 条＝363 条）已由 Codex 做完**，`readings-check.mjs` 0 个问题，已并入 `lines.json` 并生成 public 数据；覆盖全部 Capitulum 与 Prima/Completorium 短读经。语义未经拉丁文专家复核；其中礼仪引语（「那时候」「以下从略」）也被补出并附注。
+- **事故与改法**：最初让多个 Codex 串行改同一个 `lines.json`，第 121–150 组把文件改坏（丢了 n 1–149，且部分 zh 错配），已用 `lines.base.json` 恢复，坏文件已删除。现改为：`readings-shard.mjs split 30 [起n] [止n]` 切成 `resources/officium1962-readings/groups/g-XXXX-YYYY.json`，每个 Codex 只改自己的组文件（可并行 3 个，12 组约 6 分钟），完成后 `readings-shard.mjs merge` 合回；`run-readings-zh-codex.ps1 [-Groups …] [-Parallel 3]`，已写满的组自动跳过。
+- 另：`Col 1;16-18`（上游引文里的分号笔误）已被 extract 容错，并手工加为 n=4458；本节标题的 `n` 只在重跑 `readings-extract.mjs` 前有效。
+- 渲染器改动后开发服务需重启才生效（4859 已重启）。
+- **未做**：夜课圣经读经 n=347 起约 4100 行（等用户决定）；集祷经；Benedícat et custódiat。
