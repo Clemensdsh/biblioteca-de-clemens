@@ -22,6 +22,9 @@ const nocturnLinks = computed(() => {
     .map(block => ({ id: block.id, label: block.title || block.type }))
 })
 
+const headingZh = computed(() => props.showZh ? props.psalmsZh?.headings?.[props.day.date] : undefined)
+const hourZh = computed(() => props.showZh ? props.psalmsZh?.hourNames?.[props.hour.name] : undefined)
+
 const vespersLabel = computed(() => {
   if (props.hour.name !== 'vesperae')
     return ''
@@ -44,8 +47,11 @@ const vespersLabel = computed(() => {
         {{ day.date }}
       </p>
       <h2>{{ day.liturgicalTitle }}</h2>
+      <p v-if="headingZh" class="officium1962-heading-zh" lang="zh-CN">
+        {{ headingZh.t }}　{{ headingZh.r }}
+      </p>
       <p class="officium1962-hour-title">
-        {{ hour.title }}
+        {{ hour.title }}<span v-if="hourZh" class="officium1962-hour-zh" lang="zh-CN">　{{ hourZh }}</span>
         <span v-if="vespersLabel" class="officium1962-vespers-mark">{{ vespersLabel }}</span>
       </p>
     </header>
@@ -54,6 +60,10 @@ const vespersLabel = computed(() => {
       <strong>夜课目录</strong>
       <a v-for="link in nocturnLinks" :key="link.id" :href="`#${link.id}`">{{ link.label }}</a>
     </nav>
+
+    <p v-if="headingZh?.c?.length" class="officium1962-commemorations-zh" lang="zh-CN">
+      <strong>当日纪念</strong>　{{ headingZh.c.join('；') }}
+    </p>
 
     <section v-if="day.commemorations.length" class="officium1962-commemorations" aria-labelledby="officium-commemorations">
       <h3 id="officium-commemorations">Commemorationes</h3>
@@ -108,6 +118,26 @@ const vespersLabel = computed(() => {
 
 .officium1962-hour-title {
   margin: 0.2rem 0;
+}
+
+.officium1962-heading-zh,
+.officium1962-hour-zh,
+.officium1962-commemorations-zh {
+  font-family: var(--va-font-sans, system-ui, sans-serif);
+  font-variant: normal;
+}
+
+.officium1962-heading-zh {
+  margin: 0.15rem 0 0.4rem;
+  color: var(--va-c-text);
+  font-size: 1.1rem;
+}
+
+.officium1962-commemorations-zh {
+  margin: 0 0 1.2rem;
+  color: var(--va-c-text-light);
+  font-size: 0.9rem;
+  text-align: center;
 }
 
 .officium1962-date,

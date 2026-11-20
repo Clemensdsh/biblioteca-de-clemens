@@ -21,6 +21,13 @@ export interface PsalmsZhData {
   schemaVersion: string
   source: string
   fixed: Record<string, string>
+  /** 赞美天主、赞主曲、谢主曲、西默盎：整行拉丁 → 中文（含改动注释编号，注释在 canticleNotes） */
+  canticles?: Record<string, PsalmsZhLine>
+  canticleNotes?: string[]
+  /** 时辰名（夜课经…晚经） */
+  hourNames?: Record<string, string>
+  /** 每日抬头中文：r 等级，t 当日礼仪名，c 当日纪念（来源 gCatholic，简体） */
+  headings?: Record<string, { r: string, t: string, c?: string[] }>
   psalms: Record<string, PsalmsZhPsalm>
 }
 
@@ -51,6 +58,11 @@ export function lookupPsalmLine(data: PsalmsZhData | undefined, line: string): P
 /** 圣三光荣经、亡者结句等固定诵句的中文。 */
 export function lookupFixedLine(data: PsalmsZhData | undefined, line: string): string | undefined {
   return data?.fixed[fixedLineKey(line)]
+}
+
+/** 颂歌（Te Deum、Benedictus、Magnificat、Nunc dimittis）某一行的中文。 */
+export function lookupCanticleLine(data: PsalmsZhData | undefined, line: string): PsalmsZhLine | undefined {
+  return data?.canticles?.[fixedLineKey(line)]
 }
 
 export interface ZhSegment {

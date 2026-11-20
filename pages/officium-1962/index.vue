@@ -34,6 +34,17 @@ const hourLabels: Record<OfficeHourName, string> = {
   completorium: 'Completorium',
 }
 
+const hourNamesZh: Record<OfficeHourName, string> = {
+  matutinum: '夜课经',
+  laudes: '赞美经',
+  prima: '晨经',
+  tertia: '辰时经',
+  sexta: '午时经',
+  nona: '申初经',
+  vesperae: '申正经',
+  completorium: '晚经',
+}
+
 const enabled = featureFlags.officium1962
 const rootManifest = ref<RootManifest>()
 const loaded = ref<LoadedOfficeHour>()
@@ -236,6 +247,7 @@ function persistPreference(key: string, value: string) {
             @click="selectHour(hour)"
           >
             {{ hourLabels[hour] }}
+            <small v-if="showZh" class="officium1962-hour-tab-zh" lang="zh-CN">{{ psalmsZh?.hourNames?.[hour] ?? hourNamesZh[hour] }}</small>
           </button>
         </nav>
 
@@ -428,6 +440,14 @@ function persistPreference(key: string, value: string) {
   min-width: 0;
   padding: 0.4rem 0.25rem;
   overflow-wrap: break-word;
+}
+
+.officium1962-hour-tab-zh {
+  display: block;
+  font-size: 0.72em;
+  font-weight: 400;
+  line-height: 1.2;
+  opacity: 0.85;
 }
 
 .officium1962-hour-tabs button.is-current {

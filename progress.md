@@ -1,6 +1,20 @@
 # 项目当前状态与交接
 
-更新：2026-11-16。唯一当前状态入口；进入新会话先读本文件，按需读取所链接材料。状态随工作改变，操作前重新检查 Git 和文件；详细历史见 `docs/HISTORY_MIGRATION_REPORT.md`。
+更新：2026-11-20。唯一当前状态入口；进入新会话先读本文件，按需读取所链接材料。状态随工作改变，操作前重新检查 Git 和文件；详细历史见 `docs/HISTORY_MIGRATION_REPORT.md`。
+## 1962 日课中文：2026-11-20 本轮交接（已提交 main，未推送、未部署）
+
+做完的（均已在本地开发服务 `pnpm run dev`，端口 4859 用无头 Edge 取渲染页验证过抬头/时辰按钮；其余页面内容未逐页浏览器核对）：
+
+1. **固定句**（`psalms-zh-build.mjs` 的 `FIXED`）：开端经、Allelúja、天主经（含 ℣℟ 拆分）、Benedicámus/Deo grátias/Amen、Noctem quiétam、Misereátur、Dómine exáudi（取思高圣咏 101:2）、Fidélium ánimæ「凡诸信者灵魂，赖天主仁慈，息止安所。」与 Requiéscant in pace「息止安所。」。
+2. **四首颂歌 + 序经正文**（`scripts/officium1962/canticles-zh.mjs`）：Te Deum、赞主曲、谢主曲、西默盎，沿用时辰礼仪（万有真原简体），严重意译处按 1962 拉丁改写、加粗，时辰礼仪原文进注释；序经 Ps 94 正文 8 行。
+3. **旧约颂歌 213 行**：数据 `resources/officium1962-ot-canticles/lines.json`（`canticles-ot-zh.mjs` 读它），底本思高 epub（`sigao-epub-ot.json`），与拉丁通行本不同处加粗+注释。1–66 行 agy 打磨，67–213 行 Codex 打磨；校验 `ot-canticles-check.mjs`（结构）与 `ot-canticles-quotes.mjs`（注释里的思高引文须逐字出自 epub）。难解拉丁句见 `scripts/officium1962/codex/codex-out/ot-canticles-*.last.txt` 与本文件上方各组汇总，建议懂拉丁文者复核（亚纳之歌 2:5、哈巴谷 3 若干、出 15:15、申 32:5/32:12 等）。Codex 把友弟德传 16:15、多俾亚传 13:10/13:11 等行的 ` * ` 半句分隔合并了。
+4. **抬头中文**：`gcatholic-headings.mjs` 抓 gCatholic 特殊形式历（2025–2027 已抓，站内数据只有 2026）→ `resources/officium1962-headings-zh/`；build 对齐出 `headings`（等级、礼仪名、当日纪念）与 `hourNames`（夜课经、赞美经、晨经、辰时经、午时经、申初经、申正经、晚经）；`Office1962Viewer.vue` 显示中文名、等级、时辰名、「当日纪念」，`pages/officium-1962/index.vue` 的时辰按钮下加中文小字。纪念取自 gCatholic（DO 导出的 `commemorations` 为空），与各时辰实际纪念不一定一致；「降临后」是 gCatholic 对「圣神降临后」的简称，原样保留。
+
+**仍缺/待办**：
+- `Canticum Quicumque`（亚大纳削信经，43 行）无中文；Laus tibi, Domine、Jube Dómine 及各祝福词、Divínum auxílium、旧式 Confiteor、Indulgéntiam、Te lucis 赞美诗、四首圣母经的 ℣℟/集祷经、读经、集祷经、对经等仍无中文（时辰礼仪与 1962 拉丁不同，见上文核查）。
+- 未浏览器全面核对；`vitest run features/officium1962` 仍有此前已有的 5 项失败（homepageEntry、productionIsolation、productionPage、schema 各处），与本轮无关。
+- agy 配额用尽（约 154 小时后重置）；`artifacts/` 为未跟踪草稿目录（CHM 解包、gCatholic 抓取 HTML 等），不入库。
+- 若开发服务不显示新模板：杀掉占 4859 端口的进程重启（Vite 曾没有重编译 `Office1962Viewer.vue`）。
 
 ## 项目与当前状态
 
@@ -325,3 +339,70 @@
 
 
 
+
+### 1962 常用句子中文：从时辰礼仪数据库取用的可行性核查（2026-11-20，只读，未改数据/代码）
+
+- **结论**：时辰礼仪数据按固定块（`public/data/liturgia-horarum/zh/rows/common/*.json` 的 `FIX:*` 标签）存拉丁，`zh/hkdlc|wanyou/common/*.json` 同键同下标存中文。拉丁逐字相同、可直接取用：开端经（`FIX:INV_OPENING`、`FIX:OPENING+ALLELUIA`）、天主经（`FIX:PATER`）、赞美天主（`FIX:TE_DEUM`，仅少 2 处礼仪注记）、赞主曲/谢主曲/西默盎（`FIX:BENEDICTUS/MAGNIFICAT/NUNC_DIMITTIS`，见下差异）、`Benedicámus Dómino`（`FIX:CONCLUSIO_MINOR`）、夜祷结语 `Noctem quiétam`、四首圣母经（仅经文）、`Misereátur`、收束经 `In manus tuas`/`Custódi nos`/`Salva nos` 等。**没有**：`Jube, Dómine`与各祝福词、`Fidélium ánimæ`、`Laus tibi, Dómine`、`Dómine exáudi`（对话，但同句即圣咏 101:2，站内思高已有）、夜祷的 `Te lucis` 赞美诗（LH 是另一首）、`Benedícat et custódiat`、`Divínum auxílium`、旧式 Confiteor/Indulgéntiam、Te Deum 的鞠躬/跪注记。
+- 拉丁差异需留意：赞主曲 `plebis/plebi`、`nostrórum`、`visitávit/visitábit`；谢主曲 `salutári/salvatóre` 等；夜祷短读经 1 Pt 5:8-9 与 Jer 14:9 在 LH 里略短（缺 `Fratres`/`et`/`quia`/`sanctum`）；`Vísita`、`Grátiam tuam` 两首集祷经 LH 用短结语，1962 用长结语/`Per eúmdem`。
+- 取用方式：renderer 对任意块的每行都先查 `lookupFixedLine`（`psalms-zh-build.mjs` 的 `FIXED`，键为整行字母哈希），所以补固定句只需扩 `FIXED`；Te Deum、赞主曲等需逐行/逐半句重新配对，LH 中文句序与 1962 拉丁行不完全一一对应。LH 数据有 hkdlc（繁体）与 wanyou（简体，且与现有 `FIXED` 光荣经用字一致），建议 wanyou 为主。
+- 草稿与核查脚本在 `artifacts/scratch/`（未跟踪）。
+- **2026-11-20 已落实**：FIXED 新增 17 条完全匹配的固定句（开端经、Allelúja、天主经（含 ℣℟ 拆分与夜祷整段）、Benedicámus/Deo grátias/Amen、Noctem quiétam、Misereátur、Dómine exáudi（取思高圣咏 101:2）、Fidélium ánimæ（用户指定译文）），已重跑 psalms-zh-build.mjs 生成 public 数据；未浏览器核对。赞主曲/谢主曲/Te Deum/西默盎待用户确认后做。
+- **2026-11-20 四首颂歌**：新增 scripts/officium1962/canticles-zh.mjs（Te Deum 29 行、赞主曲 12、谢主曲 10、西默盎 4，共 55 行，全部与 1962 拉丁行匹配），psalms-zh-build.mjs 输出 canticles/canticleNotes，前台 lookupCanticleLine + 渲染器注释（psalm=0 取 canticleNotes）。中文沿用时辰礼仪万有真原，严重意译处按 1962 拉丁改写并加粗，原文存注释（共 10 条，Te Deum 8、赞主曲 1:73、西默盎 2:30）；Te Deum 两处取香港本繁体。已重跑 build，psalmsZh 6 项通过；itest run features/officium1962 仍有此前已有的 5 项失败；未浏览器核对。
+- **2026-11-20 序经正文与旧约颂歌**：序经 Ps 94 的拉丁与圣咏 94 本文有出入，已在 canticles-zh.mjs 末尾逐段译出（8 行）；旧约颂歌（三童歌、依 12/45/38、德训 36、编上 29、友弟德 16、耶 31、多俾亚 13、哈 3、亚纳、出 15、申 32，共 217 行）在新文件 scripts/officium1962/canticles-ot-zh.mjs，底本为思高圣经（Q:\下载\天主教圣经思高版V4.3.CHM，GB18030 简体，每章一个 htm，已解到 rtifacts/scratch/chm/，未入库），与拉丁通行本不同处加粗并注释；构建按「节号+拉丁行首」定位拉丁行，数据里 275 行颂歌全部有中文（含前面 4 首，共 110 条注释）。**《亚大纳削信经》（Canticum Quicumque）仍无中文**。思高 CHM 的 32:16 无标号、3:10 有乱码，已手工处理。未浏览器核对、未提交。
+- **2026-11-20 gCatholic 抬头中文**（只做了可行性）：gcatholic.org/calendar/<年>/Extraordinary-zt（繁体）每个日期有「等级、弥撒名、纪念」，按日期与 calendar.json 的 liturgicalTitle 对齐：2026 年 365 天中 319 天唯一匹配，34 天是平日+纪念（取首行即可），12 天是八日庆期（等级文字并入名称）。2025/2026/2027 三年固定日圣人名一致，差异只来自移动节日。
+
+### 1962 旧约颂歌中文打磨（ids 1–27，三童歌 Canticum Trium Puerorum）（2026-11-20）
+
+- 按 `scripts/officium1962/codex/TASK-polish-ot-canticles.md`，对 `resources/officium1962-ot-canticles/lines.json` 中负责的 id 1–27（含两端，全属三童歌）逐行比对拉丁通行本与思高底本（`sigao-epub-ot.json` 达 3:52–88, 56），严格遵循并行编辑原则，只改动 1–27 的 zh 与 notes，未触动任何只读字段或范围外条目。
+- 重点校订与修改（本组共 27 条，修订 7 条，其余 20 条思高原文与通行本完全一致）：
+  1. #9 (3:65)：补齐此前遗漏的注释（思高本作「闪」，通行本作 fúlgura 闪电）。
+  2. #11 (3:67)：统一注释译文措辞（「地上一切生长的」），与正文标粗完全呼应。
+  3. #15 (3:71)：恢复思高 epub 原文「以色列子民，请赞美上主」（去除非底本字「愿」）。
+  4. #19 (3:75)：将代词由「他们」更正为「他」（拉丁文 eum，指向三位一体唯一天主），规范礼仪所加三一颂注释并补齐称谓。
+  5. #20 (3:56)：补出思高遗漏的呼号「上主」（Dómine）与第三重赞词「备受颂扬」（superexaltátus），增补 1 对 1 注释。
+  6. #22 (3:52)：标粗改译「天主」（Deus，思高作上主），补全思高遗漏的「应受光荣」（gloriósus），增补 1 对 1 注释。
+  7. #26 (3:56)：通行本作 superexaltátus（应受颂扬），改写思高「应受光荣」（源自希腊底本 ὑπερένδοξος），与第 27 条的 gloriosus 准确区分，并增补注释。
+- 验证：运行 `node scripts/officium1962/ot-canticles-check.mjs --ids=1-27`，结果 0 个问题，退出码 0。无禁用字，粗体成对且与注释严格对应；未触及外部范围。未提交、推送或部署。
+
+### 1962 旧约颂歌中文打磨（ids 28–66，依撒意亚之歌与德训篇之歌）（2026-11-20）
+
+- 按 `scripts/officium1962/codex/TASK-polish-ot-canticles.md`，对 `resources/officium1962-ot-canticles/lines.json` 中负责的 id 28–66（含两端，共 39 条，涵盖依 12:1–7、依 45:15–30、德 36:1–16）逐行比对拉丁通行本与思高底本（`sigao-epub-ot.json`），严格遵循并行编辑原则，只改动 28–66 的 zh 与 notes，未触动任何只读字段或范围外条目。
+- 重点校订与修改（本组共 39 条，改写修缮 18 条，其余 21 条保持思高原文或结构对应）：
+  1. #31 (依 12:4)：去掉思高原本就有的首半句「你们」误标粗，仅保留「你要说」改「**你们要说**」（dicetis）并对应注释。
+  2. #36 (依 45:16)：补出此前遗漏的标粗与注释（思高将「制造偶像的人」置于句首，未独立译出 omnes「众人都」）。
+  3. #38 (依 45:18)：规范「他是天主，形成大地，创造大地，是大地的塑造者」（ipse plastes ejus）的标粗与注释对应。
+  4. #39 (依 45:19)：纠正此前漏标粗改写；拉丁通行本作 Non in vanum creavit eam...（他创造大地并非徒然，而是为使人居住才形成了它），思高本作「他并非创造了一团混沌，而是为使人居住才造了它」，改写标粗并加注。
+  5. #41 (依 45:21)：恢复思高 epub 原文「惟讲公理」（去除非底本字「只」）。
+  6. #42 (依 45:22)：补齐拉丁文 accédite simul（一同走近罢）与 qui salváti estis ex géntibus（从列国中得救的人），标粗并设 2 条 1 对 1 注释。
+  7. #43 (依 45:23)：拆分并规范 2 处标粗与注释：levant lignum sculpturae suae（抬着自己雕刻木偶，思高作抬过偶像）与 et rogant（且祈求，思高作敬拜过），注释引文完全匹配 epub。
+  8. #44 (依 45:24)：补齐 3 处与拉丁通行本的差异标粗并设 3 条注释：et venite（前来）、ab initio（起初）、ex tunc praedixit illud（从那时预言了它）。
+  9. #45 (依 45:25)：补齐通行本 non est ultra Deus absque me（再没有别的天主，思高作没有别的）的标粗与注释。
+  10. #47 (依 45:27)：规范 egredietur de ore meo justitiae verbum（公义的话一出我口，思高作真理一出我口）整句标粗与注释对应。
+  11. #49 (依 45:29)：改写 qui repugnant ei（抗拒他的，思高作向他发怒），标粗并加注。
+  12. #50 (依 45:30)：精简标粗范围为改写的前半句「必在上主内得称义，且受赞美：」（思高作必要因上主获胜夸耀），后半句「以色列所有的后裔」保留思高原文不标粗。
+  13. #52 (德 36:2)：补齐此前漏标粗改写：Et immitte timorem tuum super gentes, quae non exquisierunt te（求你使敬畏你的心临于万民，就是那些不寻找你的异邦），对应 2 条注释。
+  14. #57 (德 36:7)：补上正文此前遗漏的粗体标记「**显耀你的手和你的右臂。**」（Glorifica manum, et brachium dextrum）。
+  15. #58 (德 36:8)：补出 Excita furorem（求你激起义愤，思高作求你大发雷霆）的标粗与注释。
+  16. #59 (德 36:9)：补上正文此前遗漏的粗体标记，并拆分 2 处标粗与注释：Festina tempus, et memento finis（求你使时日急速来临，记念终局）与 ut enarrent mirabilia tua（好叫他们传扬你的奇事）。
+  17. #60 (德 36:10)：补齐此前漏标粗改写：In ira flammae devoretur qui salvatur（愿那得救的人，也被烈火的怒气吞灭）与 pessimant plebem tuam（残害你百姓），对应 2 条注释。
+  18. #63 (德 36:13)：恢复思高 epub 原文「以他们作产业」（去掉多余字「你的」）。
+  19. #66 (德 36:16)：补上正文此前遗漏的整句粗体标记，并拆分 2 条注释：Reple Sion inenarrabilibus verbis tuis（求你以你难以言喻的话语充满熙雍）与 et gloria tua populum tuum（以你的光荣充满你的百姓）。
+- 难点与建议人工复核：
+  - #38 (依 45:18)：plastes（希腊借词 πλάστης，塑造者/模造者），此处译作「塑造者」。
+  - #39 (依 45:19)：Non in vanum（非徒然），与思高依据希伯来文本的「一团混沌」（ṯōhû）有差异，已改从拉丁文。
+  - #59 (德 36:9)：memento finis（记念终局/终末），与思高依据希腊文本的「记念你的誓约」有差异，已改从拉丁文。
+  - #66 (德 36:16)：inenarrabilibus verbis tuis（以你难以言喻的话语），拉丁通行本与希腊本「充满你的威严」差异较大，已忠实依通行本改写。
+- 验证：运行 `node scripts/officium1962/ot-canticles-check.mjs --ids=28-66`，结果 0 个问题，退出码 0。无禁用字，粗体成对且与注释 1 对 1 严格对应，半句符与拉丁文一致；全量文件未触动外部范围。未提交、推送或部署。
+
+
+
+### 1962 旧约颂歌中文打磨（ids 165–213）
+
+- 按 `scripts/officium1962/codex/TASK-polish-ot-canticles.md` 逐条核对梅瑟之歌（出 15、申 32），修订负责范围内 40 行的中文或注释；其他条目及只读字段未动。补正思高底本措辞、拉丁文差异的标粗与逐条注释。
+- 拉丁难句建议人工复核：#179 `Ascenderunt populi, et irati sunt` 暂直译「万民上来，就发怒」；#191 `non filii ejus in sordibus` 暂译「在污秽中已非他的子女」；#198 `funiculus hereditatis` 暂译「产业的分额」。
+- 验证：`node scripts/officium1962/ot-canticles-check.mjs --ids=165-213` 为 0 个问题；`node scripts/officium1962/ot-canticles-quotes.mjs` 报 `bad quotes 0`。未做浏览器验证，未提交、推送或部署。
+
+### 2026-11-20 总述（抬头中文 + 旧约颂歌重做底本）
+
+- **抬头中文**：scripts/officium1962/gcatholic-headings.mjs <年…> 抓 gCatholic 特殊形式历（繁体→OpenCC 简体）存到 esources/officium1962-headings-zh/gcatholic-<年>.json（已抓 2025–2027）；psalms-zh-build.mjs 按 calendar.json 的等级对齐出 headings（等级、当日礼仪名、当日纪念）与 hourNames（夜课经、赞美经、晨经、辰时经、午时经、申初经、申正经、晚经）写进 psalms-zh.json；Office1962Viewer.vue 在拉丁抬头下显示中文名与等级、时辰名、「当日纪念」。纪念取自 gCatholic（DO 导出的 commemorations 字段是空的）。「降临后」是 gCatholic 对「圣神降临后」的简称，保持原样。2026 全年 365 天均有。未浏览器核对。
+- **旧约颂歌改用思高 epub 底本**：esources/officium1962-ot-canticles/sigao-epub-ot.json（《思高本.epub》，繁→简，Jer 在 split_027+028）；条目数据改为 lines.json（canticles-ot-zh.mjs 只读它）；ot-canticles-check.mjs 校验结构，lines.base.json 为原始只读字段备份，lines.pre-codex.json 为 Codex 前版本。先由 agy 打磨 1–66（之后 agy 配额用尽，约 154 小时后重置），67–213 由 Codex 打磨；所有「思高本作」引文已核对为逐字出自 epub。难解拉丁句见各组 log（codex/codex-out/ot-canticles-*）。

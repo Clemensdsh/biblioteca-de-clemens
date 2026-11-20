@@ -6,6 +6,8 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fixedLineKey, latinLetters, psalmLineKey } from '../../features/officium1962/psalmKey.mjs'
+import { CANTICLES } from './canticles-zh.mjs'
+import { OT_CANTICLES, OT_CANTICLES_B } from './canticles-ot-zh.mjs'
 import { readBea, readCorpusPsalmLines, readSigao, root } from './psalms-zh-lib.mjs'
 
 const DO = path.join(root, 'vendor/divinum-officium/web/www/horas')
@@ -21,6 +23,29 @@ const FIXED = [
   ['℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.', '起初如何，今日亦然，直到永远。阿们。'],
   ['℣. Réquiem ætérnam * dona eis, Dómine.', '上主，求你赐他们永远的安息，'],
   ['℟. Et lux perpétua * lúceat eis.', '愿永恒的光明照耀他们。'],
+  // —— 以下取自时辰礼仪（万有真原简体），拉丁与 1962 逐字相同；键只看字母，故 ℣/℟/Amen 的有无不影响匹配
+  ['℣. Dómine, lábia + mea apéries.', '上主，求你开启我的口。'],
+  ['℟. Et os meum annuntiábit laudem tuam.', '我的口要赞美你。'],
+  ['℣. Deus ✠ in adjutórium meum inténde.', '天主，求你快来拯救我；'],
+  ['℟. Dómine, ad adjuvándum me festína.', '上主，求你速来扶助我。'],
+  ['Allelúja.', '阿肋路亚。'],
+  ['Pater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris:',
+    '我们的天父，愿你的名受显扬；愿你的国来临；愿你的旨意奉行在人间，如同在天上。求你今天赏给我们日用的食粮；求你宽恕我们的罪过，如同我们宽恕别人一样；'],
+  ['Pater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris: et ne nos indúcas in tentatiónem: sed líbera nos a malo. Amen.',
+    '我们的天父，愿你的名受显扬；愿你的国来临；愿你的旨意奉行在人间，如同在天上。求你今天赏给我们日用的食粮；求你宽恕我们的罪过，如同我们宽恕别人一样；不要让我们陷于诱惑，但救我们免于凶恶。阿们。'],
+  ['℣. Et ne nos indúcas in tentatiónem:', '不要让我们陷于诱惑，'],
+  ['℟. Sed líbera nos a malo.', '但救我们免于凶恶。'],
+  ['℣. Benedicámus Dómino.', '请赞美上主。'],
+  ['℟. Deo grátias.', '感谢天主。'],
+  ['℟. Amen.', '阿们。'],
+  ['Benedictio. Noctem quiétam et finem perféctum concédat nobis Dóminus omnípotens.', '愿全能的上主使我们圆满地结束这一天，恩赐我们一夜平安。'],
+  ['Misereátur nostri omnípotens Deus, et dimíssis peccátis nostris, perdúcat nos ad vitam ætérnam. Amen.', '愿全能的天主垂怜我们，赦免我们的罪，使我们得到永生。阿们。'],
+  // 圣咏 101:2（思高，站内已校订）；1962 以它作「Dómine, exáudi」对话
+  ['℣. Dómine, exáudi oratiónem meam.', '上主，求你允我的祈求，'],
+  ['℟. Et clamor meus ad te véniat.', '愿我的呼声上达于你！'],
+  // 用户指定译文
+  ['℣. Fidélium ánimæ per misericórdiam Dei requiéscant in pace.', '凡诸信者灵魂，赖天主仁慈，息止安所。'],
+  ['℣. Requiéscant in pace.', '息止安所。'],
 ]
 
 const args = process.argv.slice(2)
@@ -227,6 +252,41 @@ for (let n = 1; n <= 150; n++) {
 const fixed = {}
 for (const [la, zh] of FIXED) fixed[fixedLineKey(la)] = zh
 
+// 赞美天主/赞主曲/谢主曲/西默盎：逐行中文，改动处带注释（注释存 canticleNotes，与圣咏注释同样显示）
+const canticles = {}
+// 旧约颂歌：按「节号 + 拉丁行首」到数据里的颂歌块中定位整行拉丁
+const otLatin = new Map()
+{
+  const sharedDir = path.join(root, 'public/data/officium1962/shared')
+  for (const f of fs.readdirSync(sharedDir).filter((x) => x.startsWith('blocks-'))) {
+    for (const b of JSON.parse(fs.readFileSync(path.join(sharedDir, f), 'utf8')).blocks) {
+      if (b.type !== 'canticle') continue
+      for (const l of b.text || []) {
+        const m = /^(\d+:\d+[a-z]?)\s+(.*)$/s.exec(l)
+        if (m) otLatin.set(l, { label: m[1], letters: latinLetters(m[2]) })
+      }
+    }
+  }
+}
+const otEntries = []
+for (const [label, prefix, zh, note] of [...OT_CANTICLES, ...OT_CANTICLES_B]) {
+  const want = latinLetters(prefix)
+  const hits = [...otLatin].filter(([, v]) => v.label === label && v.letters.startsWith(want)).map(([l]) => l)
+  if (hits.length !== 1) { errors.push(`旧约颂歌 ${label} ${prefix}：匹配 ${hits.length} 行`); continue }
+  otEntries.push([hits[0], zh, note])
+}
+const otMatched = new Set(otEntries.map((e) => e[0]))
+const otMissing = [...otLatin.keys()].filter((l) => !otMatched.has(l) && !fixed[fixedLineKey(l)] && !CANTICLES.some((c) => c[0] === l))
+const canticleNotes = []
+for (const [la, zh, note] of [...CANTICLES, ...otEntries]) {
+  const k = fixedLineKey(la)
+  if (canticles[k]) { if (canticles[k].z !== zh) errors.push('颂歌行键重复且中文不同：' + la); continue }
+  const entry = { z: zh }
+  const notes = [].concat(note || [])
+  if (notes.length) { entry.n = notes.map((x) => canticleNotes.push(x)) }
+  canticles[k] = entry
+}
+
 const corpus = readCorpusPsalmLines()
 let covered = 0
 let coveredReviewed = 0
@@ -272,12 +332,42 @@ if (wsArg) {
   }
 }
 
+// 每日抬头中文：gCatholic（1962 礼仪历，简体）按日期对齐到 calendar.json 的 liturgicalTitle
+const HOUR_NAMES = { matutinum: '夜课经', laudes: '赞美经', prima: '晨经', tertia: '辰时经', sexta: '午时经', nona: '申初经', vesperae: '申正经', completorium: '晚经' }
+const headings = {}
+{
+  const hdDir = path.join(root, 'resources/officium1962-headings-zh')
+  const CLS = { I: '一等', II: '二等', III: '三等', IV: '四等' }
+  for (const f of fs.existsSync(hdDir) ? fs.readdirSync(hdDir).filter((x) => /^gcatholic-\d{4}\.json$/.test(x)) : []) {
+    const year = f.match(/\d{4}/)[0]
+    const calPath = path.join(root, `public/data/officium1962/years/${year}/calendar.json`)
+    if (!fs.existsSync(calPath)) continue
+    const gc = JSON.parse(fs.readFileSync(path.join(hdDir, f), 'utf8')).days
+    for (const d of JSON.parse(fs.readFileSync(calPath, 'utf8')).days) {
+      const subs = (gc[d.date] || []).filter((x) => !/为亡者/.test(x.mass))
+      const want = CLS[/~ (?:.*?)\b(I|II|III|IV)\. classis/.exec(d.liturgicalTitle)?.[1]]
+      const primary = subs.find((x) => x.rank === want) || subs[0]
+      if (!primary) { errors.push('gCatholic 无此日：' + d.date); continue }
+      const commems = []
+      for (const x of subs) if (x !== primary && x.mass) commems.push(x.mass)
+      for (const x of subs) if (x.com) for (const c of x.com.split(/\s{2,}/)) if (c) commems.push(c)
+      const uniq = [...new Set(commems.flatMap((c) => c.split(' ').filter(Boolean)))].filter((c) => c !== primary.mass)
+      const clean = uniq.filter((c, _i, a) => !a.some((o) => o !== c && c.includes(o)))
+      headings[d.date] = { r: primary.rank, t: primary.mass, ...(clean.length ? { c: clean } : {}) }
+    }
+  }
+}
+
 if (!checkOnly && !errors.length) {
   const out = {
     schemaVersion: 'officium1962.psalms-zh.v1',
     source: '思高圣经学会《圣咏集》（武加大编号逐节本，简体化），按 1962 日课（Divinum Officium 分行）重新分割；与武加大不同处已改并以 ** 标粗，见各篇注释。',
     generatedBy: 'scripts/officium1962/psalms-zh-build.mjs',
     fixed,
+  canticles,
+  canticleNotes,
+    hourNames: HOUR_NAMES,
+    headings,
     psalms: Object.fromEntries(
       Object.entries(psalms)
         .filter(([n, p]) => (draft || reviewedSet.has(+n)) && Object.keys(p.lines).length)
@@ -286,14 +376,6 @@ if (!checkOnly && !errors.length) {
   }
   fs.mkdirSync(path.dirname(outPath), { recursive: true })
   fs.writeFileSync(outPath, JSON.stringify(out))
-  console.log(`写入 ${path.relative(root, outPath)} ${(fs.statSync(outPath).size / 1024).toFixed(0)} KB，含 ${Object.keys(out.psalms).length} 篇`)
+  if (otMissing.length) console.log('颂歌块里仍无中文的行：', otMissing.length, '\n  ' + otMissing.join('\n  '))
+console.log(`写入 ${path.relative(root, outPath)} ${(fs.statSync(outPath).size / 1024).toFixed(0)} KB，含 ${Object.keys(out.psalms).length} 篇`)
 }
-
-
-
-
-
-
-
-
-

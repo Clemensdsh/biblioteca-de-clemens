@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import { lookupFixedLine, lookupPsalmLine, splitZhSegments, type PsalmsZhData } from '../../features/officium1962/psalmsZh'
+import { lookupCanticleLine, lookupFixedLine, lookupPsalmLine, splitZhSegments, type PsalmsZhData } from '../../features/officium1962/psalmsZh'
 import type { LiturgicalBlock } from '../../features/officium1962/schema'
 
 function zhFor(line: string) {
@@ -14,11 +14,16 @@ function zhFor(line: string) {
       psalm: hit.psalm,
     }
   }
+  const canticle = lookupCanticleLine(props.psalmsZh, line)
+  if (canticle)
+    return { segments: splitZhSegments(canticle.z), notes: canticle.n || [], psalm: 0 }
   const fixed = lookupFixedLine(props.psalmsZh, line)
   return fixed ? { segments: splitZhSegments(fixed), notes: [] as number[], psalm: 0 } : undefined
 }
 
 function noteText(psalm: number, n: number) {
+  if (psalm === 0)
+    return props.psalmsZh?.canticleNotes?.[n - 1] || ''
   return props.psalmsZh?.psalms[String(psalm)]?.notes[n - 1] || ''
 }
 
@@ -40,6 +45,12 @@ const blockNotes = computed(() => {
     return []
   const used = new Map<string, { psalm: number, n: number, text: string }>()
   for (const line of props.block.text || []) {
+    const canticle = lookupCanticleLine(props.psalmsZh, line)
+    for (const n of canticle?.n || []) {
+      const text = props.psalmsZh.canticleNotes?.[n - 1]
+      if (text)
+        used.set(`0-${n}`, { psalm: 0, n, text })
+    }
     const hit = lookupPsalmLine(props.psalmsZh, line)
     for (const n of hit?.line.n || []) {
       const text = props.psalmsZh.psalms[String(hit!.psalm)]?.notes[n - 1]
