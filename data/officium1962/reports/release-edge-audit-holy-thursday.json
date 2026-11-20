@@ -1,0 +1,109 @@
+{
+  "comparison": "The persisted site release is reconstructed from its shared-block chunks and compared with a fresh parse of the pinned Divinum Officium output. Internal occurrence IDs and Divinum Officium getunit ordinals such as [6] are intentionally excluded because they are run-local identifiers, not liturgical text.",
+  "dates": [
+    "2026-04-02"
+  ],
+  "generatedAt": "2026-10-04T02:31:05.189Z",
+  "hours": [
+    "matutinum",
+    "laudes",
+    "prima",
+    "tertia",
+    "sexta",
+    "nona",
+    "vesperae",
+    "completorium"
+  ],
+  "results": [
+    {
+      "actualBlockCount": 60,
+      "blockMismatches": [],
+      "date": "2026-04-02",
+      "expectedBlockCount": 60,
+      "hour": "matutinum",
+      "hourMatches": true,
+      "occurrenceMismatches": [],
+      "status": "exact"
+    },
+    {
+      "actualBlockCount": 23,
+      "blockMismatches": [],
+      "date": "2026-04-02",
+      "expectedBlockCount": 23,
+      "hour": "laudes",
+      "hourMatches": true,
+      "occurrenceMismatches": [],
+      "status": "exact"
+    },
+    {
+      "actualBlockCount": 11,
+      "blockMismatches": [],
+      "date": "2026-04-02",
+      "expectedBlockCount": 11,
+      "hour": "prima",
+      "hourMatches": true,
+      "occurrenceMismatches": [],
+      "status": "exact"
+    },
+    {
+      "actualBlockCount": 8,
+      "blockMismatches": [],
+      "date": "2026-04-02",
+      "expectedBlockCount": 8,
+      "hour": "tertia",
+      "hourMatches": true,
+      "occurrenceMismatches": [],
+      "status": "exact"
+    },
+    {
+      "actualBlockCount": 8,
+      "blockMismatches": [],
+      "date": "2026-04-02",
+      "expectedBlockCount": 8,
+      "hour": "sexta",
+      "hourMatches": true,
+      "occurrenceMismatches": [],
+      "status": "exact"
+    },
+    {
+      "actualBlockCount": 8,
+      "blockMismatches": [],
+      "date": "2026-04-02",
+      "expectedBlockCount": 8,
+      "hour": "nona",
+      "hourMatches": true,
+      "occurrenceMismatches": [],
+      "status": "exact"
+    },
+    {
+      "actualBlockCount": 24,
+      "blockMismatches": [],
+      "date": "2026-04-02",
+      "expectedBlockCount": 24,
+      "hour": "vesperae",
+      "hourMatches": true,
+      "occurrenceMismatches": [],
+      "status": "exact"
+    },
+    {
+      "actualBlockCount": 6,
+      "blockMismatches": [],
+      "date": "2026-04-02",
+      "expectedBlockCount": 6,
+      "hour": "completorium",
+      "hourMatches": true,
+      "occurrenceMismatches": [],
+      "status": "exact"
+    }
+  ],
+  "schemaVersion": "officium1962.v1",
+  "summary": {
+    "blockMismatchCount": 0,
+    "comparedBlocks": 148,
+    "dateHourCount": 8,
+    "exact": 8,
+    "mismatch": 0,
+    "occurrenceMismatchCount": 0
+  },
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+}

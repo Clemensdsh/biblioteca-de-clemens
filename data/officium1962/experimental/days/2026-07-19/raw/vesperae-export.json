@@ -1,0 +1,78 @@
+{
+  "date": "2026-07-19",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "hour": "vesperae",
+  "language": "la",
+  "liturgicalTitle": "Dominica VIII Post Pentecosten ~ II. classis",
+  "rank": "Dominica VIII Post Pentecosten;;Semiduplex;;5\n\n",
+  "schemaVersion": "0.1.0",
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "units": [
+    {
+      "html": "Incipit\n<br/>\n℣. Deus <span style='color:red; font-size:1.25em'>✠</span> in adjutórium meum inténde.<br/>\n℟. Dómine, ad adjuvándum me festína.<br/>\nGlória Patri, et Fílio, * et Spirítui Sancto.<br/>\nSicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAllelúja.<br/>\n",
+      "id": "do-1962-2026-07-19-vespera-001",
+      "raw": "#Incipit\n&Deus_in_adjutorium\n&Alleluia\n"
+    },
+    {
+      "html": "Psalmi {Psalmi & antiphonæ  ex Psalterio secundum diem}\n<br/>\nAnt. Dixit Dóminus * Dómino meo: Sede a dextris meis. ‡<br/>\nPsalmus 109 [1]<br/>\n109:1a  Dixit Dóminus Dómino meo: Sede a dextris meis:<br/>\n109:1b ‡ Donec ponam inimícos tuos, * scabéllum pedum tuórum.<br/>\n109:2 Virgam virtútis tuæ emíttet Dóminus ex Sion: * domináre in médio inimicórum tuórum.<br/>\n109:3 Tecum princípium in die virtútis tuæ in splendóribus sanctórum: * ex útero ante lucíferum génui te.<br/>\n109:4 Jurávit Dóminus, et non pœnitébit eum: * Tu es sacérdos in ætérnum secúndum órdinem Melchísedech.<br/>\n109:5 Dóminus a dextris tuis, * confrégit in die iræ suæ reges.<br/>\n109:6 Judicábit in natiónibus, implébit ruínas: * conquassábit cápita in terra multórum.<br/>\n109:7 De torrénte in via bibet: * proptérea exaltábit caput.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Dixit Dóminus Dómino meo: Sede a dextris meis.<br/>\n",
+      "id": "do-1962-2026-07-19-vespera-002",
+      "raw": "#Psalmi{Psalmi & antiphonæ  ex Psalterio secundum diem}\nAnt. Dixit Dóminus * Dómino meo: Sede a dextris meis.\n&psalm(109)\nAnt. Dixit Dóminus Dómino meo: Sede a dextris meis.\n"
+    },
+    {
+      "html": "Ant. Magna ópera Dómini: * exquisíta in omnes voluntátes ejus.<br/>\nPsalmus 110 [2]<br/>\n110:1 Confitébor tibi, Dómine, in toto corde meo: * in consílio justórum, et congregatióne.<br/>\n110:2 Magna ópera Dómini: * exquisíta in omnes voluntátes ejus.<br/>\n110:3 Conféssio et magnificéntia opus ejus: * et justítia ejus manet in sǽculum sǽculi.<br/>\n110:4 Memóriam fecit mirabílium suórum, † miséricors et miserátor Dóminus: * (5a) escam dedit timéntibus se.<br/>\n110:5b Memor erit in sǽculum testaménti sui: * (6) virtútem óperum suórum annuntiábit pópulo suo:<br/>\n110:7 Ut det illis hereditátem géntium: * ópera mánuum ejus véritas, et judícium.<br/>\n110:8 Fidélia ómnia mandáta ejus: † confirmáta in sǽculum sǽculi, * facta in veritáte et æquitáte.<br/>\n110:9a Redemptiónem misit pópulo suo: * mandávit in ætérnum testaméntum suum.<br/>\n110:9b (fit reverentia) Sanctum, et terríbile nomen ejus: * (10a) inítium sapiéntiæ timor Dómini.<br/>\n110:10b Intelléctus bonus ómnibus faciéntibus eum: * laudátio ejus manet in sǽculum sǽculi.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Magna ópera Dómini: exquisíta in omnes voluntátes ejus.<br/>\n",
+      "id": "do-1962-2026-07-19-vespera-003",
+      "raw": "Ant. Magna ópera Dómini: * exquisíta in omnes voluntátes ejus.\n&psalm(110)\nAnt. Magna ópera Dómini: exquisíta in omnes voluntátes ejus.\n"
+    },
+    {
+      "html": "Ant. Qui timet Dóminum, * in mandátis ejus cupit nimis.<br/>\nPsalmus 111 [3]<br/>\n111:1 Beátus vir, qui timet Dóminum: * in mandátis ejus volet nimis.<br/>\n111:2 Potens in terra erit semen ejus: * generátio rectórum benedicétur.<br/>\n111:3 Glória, et divítiæ in domo ejus: * et justítia ejus manet in sǽculum sǽculi.<br/>\n111:4 Exórtum est in ténebris lumen rectis: * miséricors, et miserátor, et justus.<br/>\n111:5 Jucúndus homo qui miserétur et cómmodat, † dispónet sermónes suos in judício: * (6) quia in ætérnum non commovébitur.<br/>\n111:7a In memória ætérna erit justus: * ab auditióne mala non timébit.<br/>\n111:7b Parátum cor ejus speráre in Dómino, † (8) confirmátum est cor ejus: * non commovébitur donec despíciat inimícos suos.<br/>\n111:9 Dispérsit, dedit paupéribus: † justítia ejus manet in sǽculum sǽculi, * cornu ejus exaltábitur in glória.<br/>\n111:10 Peccátor vidébit, et irascétur, † déntibus suis fremet et tabéscet: * desidérium peccatórum períbit.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Qui timet Dóminum, in mandátis ejus cupit nimis.<br/>\n",
+      "id": "do-1962-2026-07-19-vespera-004",
+      "raw": "Ant. Qui timet Dóminum, * in mandátis ejus cupit nimis.\n&psalm(111)\nAnt. Qui timet Dóminum, in mandátis ejus cupit nimis.\n"
+    },
+    {
+      "html": "Ant. Sit nomen Dómini * benedíctum in sǽcula.<br/>\nPsalmus 112 [4]<br/>\n112:1 Laudáte, púeri, Dóminum: * laudáte nomen Dómini.<br/>\n112:2 (fit reverentia) Sit nomen Dómini benedíctum, * ex hoc nunc, et usque in sǽculum.<br/>\n112:3 A solis ortu usque ad occásum, * laudábile nomen Dómini.<br/>\n112:4 Excélsus super omnes gentes Dóminus, * et super cælos glória ejus.<br/>\n112:5 Quis sicut Dóminus, Deus noster, qui in altis hábitat, * (6) et humília réspicit in cælo et in terra?<br/>\n112:7 Súscitans a terra ínopem, * et de stércore érigens páuperem:<br/>\n112:8 Ut cóllocet eum cum princípibus, * cum princípibus pópuli sui.<br/>\n112:9 Qui habitáre facit stérilem in domo, * matrem filiórum lætántem.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Sit nomen Dómini benedíctum in sǽcula.<br/>\n",
+      "id": "do-1962-2026-07-19-vespera-005",
+      "raw": "Ant. Sit nomen Dómini * benedíctum in sǽcula.\n&psalm(112)\nAnt. Sit nomen Dómini benedíctum in sǽcula.\n"
+    },
+    {
+      "html": "Ant. Deus autem noster * in cælo: ómnia quæcúmque vóluit, fecit.<br/>\nPsalmus 113 [5]<br/>\n113:1 In éxitu Israël de Ægýpto, * domus Jacob de pópulo bárbaro:<br/>\n113:2 Facta est Judǽa sanctificátio ejus, * Israël potéstas ejus.<br/>\n113:3 Mare vidit, et fugit: * Jordánis convérsus est retrórsum.<br/>\n113:4 Montes exsultavérunt ut aríetes, * et colles sicut agni óvium.<br/>\n113:5 Quid est tibi, mare, quod fugísti: * et tu, Jordánis, quia convérsus es retrórsum?<br/>\n113:6 Montes, exsultástis sicut aríetes, * et colles, sicut agni óvium.<br/>\n113:7 A fácie Dómini mota est terra, * a fácie Dei Jacob.<br/>\n113:8 Qui convértit petram in stagna aquárum, * et rupem in fontes aquárum.<br/>\n113:9 Non nobis, Dómine, non nobis: * sed nómini tuo da glóriam.<br/>\n113:10 Super misericórdia tua, et veritáte tua: * nequándo dicant gentes: Ubi est Deus eórum?<br/>\n113:11 Deus autem noster in cælo: * ómnia quæcúmque vóluit, fecit.<br/>\n113:12 Simulácra géntium argéntum, et aurum, * ópera mánuum hóminum.<br/>\n113:13 Os habent, et non loquéntur: * óculos habent, et non vidébunt.<br/>\n113:14 Aures habent, et non áudient: * nares habent, et non odorábunt.<br/>\n113:15 Manus habent, et non palpábunt: † pedes habent, et non ambulábunt: * non clamábunt in gútture suo.<br/>\n113:16 Símiles illis fiant qui fáciunt ea: * et omnes qui confídunt in eis.<br/>\n113:17 Domus Israël sperávit in Dómino: * adjútor eórum et protéctor eórum est,<br/>\n113:18 Domus Aaron sperávit in Dómino: * adjútor eórum et protéctor eórum est,<br/>\n113:19 Qui timent Dóminum, speravérunt in Dómino: * adjútor eórum et protéctor eórum est.<br/>\n113:20a Dóminus memor fuit nostri: * et benedíxit nobis:<br/>\n113:20b Benedíxit dómui Israël: * benedíxit dómui Aaron.<br/>\n113:21 Benedíxit ómnibus, qui timent Dóminum, * pusíllis cum majóribus.<br/>\n113:22 Adíciat Dóminus super vos: * super vos, et super fílios vestros.<br/>\n113:23 Benedícti vos a Dómino, * qui fecit cælum, et terram.<br/>\n113:24 Cælum cæli Dómino: * terram autem dedit fíliis hóminum.<br/>\n113:25 Non mórtui laudábunt te, Dómine: * neque omnes, qui descéndunt in inférnum.<br/>\n113:26 Sed nos qui vívimus, benedícimus Dómino, * ex hoc nunc et usque in sǽculum.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Deus autem noster in cælo: ómnia quæcúmque vóluit, fecit.<br/>\n",
+      "id": "do-1962-2026-07-19-vespera-006",
+      "raw": "Ant. Deus autem noster * in cælo: ómnia quæcúmque vóluit, fecit.\n&psalm(113)\nAnt. Deus autem noster in cælo: ómnia quæcúmque vóluit, fecit.\n"
+    },
+    {
+      "html": "Capitulum Hymnus Versus {ex Psalterio secundum diem}\n<br/>\n2 Cor 1:3-4<br/>\nBenedíctus Deus, et Pater Dómini nostri Jesu Christi, Pater misericordiárum, et Deus totíus consolatiónis, qui consolátur nos in omni tribulatióne nostra.<br/>\n℟. Deo grátias.<br/>\n_<br/>\nHymnus<br/>\nLucis Creátor óptime,<br/>\nLucem diérum próferens,<br/>\nPrimórdiis lucis novæ,<br/>\nMundi parans oríginem:<br/>\n_<br/>\nQui mane junctum vésperi<br/>\nDiem vocári prǽcipis:<br/>\nIllábitur tetrum chaos,<br/>\nAudi preces cum flétibus.<br/>\n_<br/>\nNe mens graváta crímine,<br/>\nVitæ sit exsul múnere,<br/>\nDum nil perénne cógitat,<br/>\nSeséque culpis ílligat.<br/>\n_<br/>\nCæléste pulset óstium:<br/>\nVitále tollat prǽmium:<br/>\nVitémus omne nóxium:<br/>\nPurgémus omne péssimum.<br/>\n_<br/>\nPræsta, Pater piíssime,<br/>\nPatríque compar Únice,<br/>\nCum Spíritu Paráclito<br/>\nRegnans per omne sǽculum.<br/>\nAmen.<br/>\n_<br/>\n℣. Dirigátur, Dómine, orátio mea.<br/>\n℟. Sicut incénsum in conspéctu tuo.<br/>\n",
+      "id": "do-1962-2026-07-19-vespera-007",
+      "raw": "#Capitulum Hymnus Versus{ex Psalterio secundum diem}\n!2 Cor 1:3-4\nv. Benedíctus Deus, et Pater Dómini nostri Jesu Christi, Pater misericordiárum, et Deus totíus consolatiónis, qui consolátur nos in omni tribulatióne nostra.\n$Deo gratias\n_\n!Hymnus\n{:H-Luciscreator:}v. Lucis Creátor óptime,\nLucem diérum próferens,\nPrimórdiis lucis novæ,\nMundi parans oríginem:\n_\nr. Qui mane junctum vésperi\nDiem vocári prǽcipis:\nIllábitur tetrum chaos,\nAudi preces cum flétibus.\n_\nr. Ne mens graváta crímine,\nVitæ sit exsul múnere,\nDum nil perénne cógitat,\nSeséque culpis ílligat.\n_\nr. Cæléste pulset óstium:\nVitále tollat prǽmium:\nVitémus omne nóxium:\nPurgémus omne péssimum.\n_\nr. Præsta, Pater piíssime,\nPatríque compar Únice,\nCum Spíritu Paráclito\nRegnans per omne sǽculum.\nAmen.\n\n_\nV. Dirigátur, Dómine, orátio mea.\nR. Sicut incénsum in conspéctu tuo.\n\n"
+    },
+    {
+      "html": "Canticum: Magnificat {Antiphona ex Proprio de Tempore}\n<br/>\nAnt. Quid fáciam, * quia dóminus meus aufert a me villicatiónem? Fódere non váleo, mendicáre erubésco. Scio quid fáciam, ut, cum amótus fúero a villicatióne, recípiant me in domos suas.<br/>\nCanticum B. Mariæ Virginis<br/>\nLuc. 1:46-55<br/>\n1:46 Magníficat <span style='color:red; font-size:1.25em'>✠</span> * ánima mea Dóminum.<br/>\n1:47 Et exsultávit spíritus meus: * in Deo, salutári meo.<br/>\n1:48 Quia respéxit humilitátem ancíllæ suæ: * ecce enim ex hoc beátam me dicent omnes generatiónes.<br/>\n1:49 Quia fecit mihi magna qui potens est: * et sanctum nomen ejus.<br/>\n1:50 Et misericórdia ejus, a progénie in progénies: * timéntibus eum.<br/>\n1:51 Fecit poténtiam in brácchio suo: * dispérsit supérbos mente cordis sui.<br/>\n1:52 Depósuit poténtes de sede: * et exaltávit húmiles.<br/>\n1:53 Esuriéntes implévit bonis: * et dívites dimísit inánes.<br/>\n1:54 Suscépit Israël púerum suum: * recordátus misericórdiæ suæ.<br/>\n1:55 Sicut locútus est ad patres nostros: * Ábraham, et sémini ejus in sǽcula.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Quid fáciam, quia dóminus meus aufert a me villicatiónem? Fódere non váleo, mendicáre erubésco. Scio quid fáciam, ut, cum amótus fúero a villicatióne, recípiant me in domos suas.<br/>\n",
+      "id": "do-1962-2026-07-19-vespera-008",
+      "raw": "#Canticum: Magnificat{Antiphona ex Proprio de Tempore}\nAnt. Quid fáciam, * quia dóminus meus aufert a me villicatiónem? Fódere non váleo, mendicáre erubésco. Scio quid fáciam, ut, cum amótus fúero a villicatióne, recípiant me in domos suas.\n&psalm(232)\nAnt. Quid fáciam, quia dóminus meus aufert a me villicatiónem? Fódere non váleo, mendicáre erubésco. Scio quid fáciam, ut, cum amótus fúero a villicatióne, recípiant me in domos suas.\n"
+    },
+    {
+      "html": "Preces Feriales{omittitur}<br/>\n",
+      "id": "do-1962-2026-07-19-vespera-009",
+      "raw": "#Preces Feriales{omittitur}\n"
+    },
+    {
+      "html": "Oratio {ex Proprio de Tempore}\n<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\nOrémus.<br/>\nLargíre nobis, quǽsumus, Dómine, semper spíritum cogitándi quæ recta sunt, propítius et agéndi: ut, qui sine te esse non póssumus, secúndum te vívere valeámus.<br/>\nPer Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-07-19-vespera-010",
+      "raw": "#Oratio{ex Proprio de Tempore}\n&Dominus_vobiscum\nv. Orémus.\nv. Largíre nobis, quǽsumus, Dómine, semper spíritum cogitándi quæ recta sunt, propítius et agéndi: ut, qui sine te esse non póssumus, secúndum te vívere valeámus.\n$Per Dominum\n\n"
+    },
+    {
+      "html": "Conclusio\n<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\n℣. Benedicámus Dómino.<br/>\n℟. Deo grátias.<br/>\n℣. Fidélium ánimæ per misericórdiam Dei requiéscant in pace.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-07-19-vespera-011",
+      "raw": "#Conclusio\n&Dominus_vobiscum\n&Benedicamus_Domino\n$Fidelium animae\n"
+    }
+  ],
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "warnings": []
+}

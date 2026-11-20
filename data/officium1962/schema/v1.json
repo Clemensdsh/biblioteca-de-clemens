@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "schemaVersion": {
+      "const": "officium1962.v1"
+    },
+    "upstreamCommit": {
+      "const": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "upstreamCommit"
+  ],
+  "title": "Officium Romanum 1962 release data v1",
+  "type": "object"
+}

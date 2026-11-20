@@ -1,0 +1,3367 @@
+{
+  "hymns": [
+    {
+      "id": "a_patre_unigenite",
+      "incipit": "A Patre Unigénite",
+      "full_text": "A Patre Unigénite,\nad nos venis per Vírginem,\nbaptísmi rore cónsecrans\ncunctos, fide regénerans.\nDe cælo celsus pródiens\néxcipis formam hóminis,\nfactúram morte rédimens,\ngáudia vitæ lárgiens.\nHoc te, Redémptor, quǽsumus:\nillábere propítius,\nclarúmque nostris córdibus\nlumen præbe deíficum.\nMane nobíscum, Dómine,\nnoctem obscúram rémove,\nomne delíctum áblue,\npie medélam tríbue.\nO Christe, vita, véritas,\ntibi sit omnis glória,\nquem Patris atque Spíritus\nsplendor revélat cǽlitus. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "nativitatis",
+          "hour": "ad_i_vesperas",
+          "day": "dominica"
+        }
+      ]
+    },
+    {
+      "id": "a_solis_ortus_cardine",
+      "incipit": "A solis ortus cárdine",
+      "full_text": "A solis ortus cárdine\nadúsque terræ límitem\nChristum canámus príncipem,\nnatum María Vírgine.\nBeátus auctor sǽculi\nservíle corpus índuit,\nut carne carnem líberans\nnon pérderet quod cóndidit.\nClausæ paréntis víscera\ncæléstis intrat grátia;\nventer puéllæ báiulat\nsecréta quæ non nóverat.\nDomus pudíci péctoris\ntemplum repénte fit Dei;\nintácta nésciens virum\nverbo concépit Fílium.\n\n\n\nEníxa est puérpera\nquem Gábriel prædíxerat,\nquem matris alvo géstiens\nclausus Ioánnes sénserat.\n\n\nFeno iacére pértulit,\npræsépe non abhórruit,\nparvóque lacte pastus est\nper quem nec ales ésurit.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "nativitatis",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "adorna_sion_thalamum",
+      "incipit": "Adórna, Sion, thálamum",
+      "full_text": "Adórna, Sion, thálamum,\nquæ præstoláris Dóminum;\nsponsum et sponsam súscipe\nvigil fídei lúmine.\n\nPropr. de Sanctis\nDie 2 februarii\nAd Laudes matutinas\n\n\n\nBeáte senex, própera,\npromíssa comple gáudia\net revelándum géntibus\nrevéla lumen ómnibus.\n\n\nParéntes Christum déferunt,\nin templo templum ófferunt;\nlegi parére vóluit\nqui legi nihil débuit.\n\n\nOffer, beáta, párvulum,\ntuum et Patris únicum;\noffer per quem offérimur,\nprétium quo redímimur.\nProcéde, virgo régia,\nprofer Natum cum hóstia;\nmonet omnes ad gáudium\nqui venit salus ómnium.\nIesu, tibi sit glória,\nqui te revélas géntibus,\ncum Patre et almo Spíritu,\nin sempitérna s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "02/02"
+        }
+      ]
+    },
+    {
+      "id": "agnes_beat_virginis",
+      "incipit": "Agnes beátæ vírginis",
+      "full_text": "Agnes beátæ vírginis\nnatális est, quo spíritum\ncælo refúdit débitum,\npio sacráta sánguine.\nMatúra martýrio fuit\nmatúra nondum núptiis;\nprodíre quis nuptum putet,\nsic læta vultu dúcitur.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "date": "01/21"
+        }
+      ]
+    },
+    {
+      "id": "agnoscat_omne_s_culum",
+      "incipit": "Agnóscat omne s ǽculum",
+      "full_text": "Agnóscat omne s ǽculum\nvenísse vitæ pr ǽmium;\npost hostis ásperi iugum\nappáruit redémptio.\n\nIsaías quæ pr ǽcinit\ncompléta sunt in Vírgine;\nannuntiávit Ángelus,\nSanctus replévit Spíritus.\nMaría ventre cóncipit\nverbi fidélis sémine;\nquem totus orbis non capit,\nportant puéllæ víscera.\n\n\n\nAdam vetus quod pólluit,\nAdam novus hoc ábluit;\ntumens quod ille déicit,\nhumíllimus hic érigit.\nChristo sit omnis glória,\nDei Paréntis Fílio,\nquem Virgo felix cóncipit\nSancti sub umbra Spíritus. Amen.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_i_vesperas",
+          "date": "03/25"
+        }
+      ]
+    },
+    {
+      "id": "ales_diei_nuntius",
+      "incipit": "Ales diéi núntius",
+      "full_text": "I. Quando Officium lectionis dicitur noctu vel summo\nmane:\n\nAles diéi núntius\nlucem propínquam pr ǽcinit;\nnos excitátor méntium\niam Christus ad vitam vocat.\n« Auférte — clamat — léctulos\nægros, sopóros, désides;\ncastíque, recti ac sóbrii\nvigiláte; iam sum próximus ».\nUt, cum corúscis flátibus\nauróra cælum spárserit,\nomnes labóre exércitos\nconfírmet ad spem lúminis,\nIesum ciámus vócibus\nflentes, precántes, sóbrii;\ninténta supplicátio\ndormíre cor mundum vetat.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_officium_lectionis",
+          "day": "feria_V"
+        }
+      ]
+    },
+    {
+      "id": "angelum_pacis_michael_ad_istam",
+      "incipit": "Angelum pacis Míchael ad istam",
+      "full_text": "Angelum pacis Míchael ad istam,\nChriste, demítti rogitámus aulam,\ncuncta quo crebro veniénte crescant\npróspera nobis.\nAngelus fortis Gábriel, ut hostem\npellat antíquum, vólitet supérne,\ns ǽpius templum cúpiens favéndo\nvísere nostrum.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_vesperas",
+          "date": "09/29"
+        }
+      ]
+    },
+    {
+      "id": "anglorum_iam_apostolus",
+      "incipit": "Anglórum iam apóstolus",
+      "full_text": "Anglórum iam apóstolus,\nnunc angelórum sócius,\nut tunc, Gregóri, géntibus,\nsuccúrre iam credéntibus.\n\nTu largas opum cópias\nommémque mundi glóriam\nspernis, ut inops ínopem\nIesum sequáris príncipem.\nTe celsus Christus póntifex\nsuæ præfert Ecclésiæ;\nsic Petri gradum pércipis,\ncuius et normam séqueris.\nScriptúræ sacræ mýstica\nmire solvis ænígmata,\nexcélsaque mystéria\nte docet ipsa Véritas.\nO póntifex egrégie,\nlux et decus Ecclésiæ,\nnon sinas in perículis\nquos tot mandátis ínstruis.\nSit Patri laus ingénito,\nsit decus Unigénito,\nsit utriúsque párili\nmaiéstas summa Flámini. Amen.\n\nPropr. de Sanctis\nDie 3 septembris\nAd Laudes matutinas",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "09/03"
+        }
+      ]
+    },
+    {
+      "id": "angularis_fundamentum",
+      "incipit": "Anguláris fundaméntum",
+      "full_text": "Anguláris fundaméntum\nlapis Christus missus est,\nqui paríetum compáge\nin utróque néctitur,\nquem Sion sancta suscépit,\nin quo credens pérmanet.\nOmnis illa Deo sacra\net dilécta cívitas,\nplena módulis in laude\net canóre iúbilo,\ntrinum Deum unicúmque\ncum fervóre pr ǽdicat.\nHoc in templo, summe Deus,\nexorátus ádveni,\net cleménti bonitáte\nprecum vota súscipe;\nlargam benedictiónem\nhic infúnde iúgiter.\nHic promereántur omnes\npetíta acquírere\net adépta possidére\ncum sanctis perénniter,\nparadísum introíre\ntransláti in réquiem.\nGlória et honor Deo\nusquequáque altíssimo,\nuna Patri Filióque\natque Sancto Flámini,\nquibus laudes et potéstas\nper ætérna s ǽcula. Amen.\n\n\nCommune\nDedicationis\nEcclesiae\nAd Laudes matutinas",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus_nativitatis",
+          "hour": "ad_laudes"
+        },
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_laudes"
+        },
+        {
+          "volume": 3,
+          "section": "commune",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "antra_deserti_teneris_sub_annis",
+      "incipit": "Antra desérti téneris sub annis",
+      "full_text": "Antra desérti téneris sub annis,\ncívium turmas fúgiens, petísti,\nne levi saltem maculáre vitam\nfámine posses.\nPr ǽbuit hirtum tégimen camélus\nártubus sacris, stróphium bidéntes,\ncui latex haustum, sociáta pastum\nmella locústis.\nCéteri tantum cecinére vatum\ncorde præságo iubar affutúrum;\ntu quidem mundi scelus auferéntem\níndice prodis.\nNon fuit vasti spátium per orbis\nsánctior quisquam génitus Ioánne,\nqui nefas sæcli méruit lavántem\ntíngere lymphis.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "date": "06/24"
+        }
+      ]
+    },
+    {
+      "id": "apostolorum_passio",
+      "incipit": "Apostolórum pássio",
+      "full_text": "Apostolórum pássio\ndiem sacrávit s ǽculi,\nPetri triúmphum nóbilem,\nPauli corónam pr ǽferens.\nConiúnxit æquáles viros\ncruor triumphális necis;\nDeum secútos pr ǽsulem\nChristi coronávit fides.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "date": "06/29"
+        }
+      ]
+    },
+    {
+      "id": "auctor_beate_s_culi",
+      "incipit": "Auctor beáte s ǽculi",
+      "full_text": "Auctor beáte s ǽculi,\nChriste, Redémptor ómnium,\nlumen Patris de lúmine\nDeúsque verus de Deo:\nAmor coégit te tuus\nmortále corpus súmere,\nut, novus Adam, rédderes\nquod vetus ille abstúlerat:\nIlle amor, almus ártifex\nterræ marísque et síderum,\nerráta patrum míserans\net nostra rumpens víncula.\nNon corde discédat tuo\nvis illa amóris íncliti:\nhoc fonte gentes háuriant\nremissiónis grátiam.\nAd hoc acérbam lánceam\npassúmque ad hoc est vúlnera,\nut nos laváret sórdibus\nunda fluénte et sánguine.\nIesu, tibi sit glória,\nqui corde fundis grátiam,\ncum Patre et almo Spíritu\nin sempitérna s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "season": "paschale",
+          "hour": "ad_i_vesperas",
+          "day": "feria_VI"
+        }
+      ]
+    },
+    {
+      "id": "auctor_salutis_unice",
+      "incipit": "Auctor salútis únice",
+      "full_text": "Auctor salútis únice,\nmundi redémptor ínclite,\nrex, Christe, nobis ánnue\ncrucis fecúndæ glóriam.\nTu morte mortem díruens\nvitámque vita lárgiens,\nmortis minístrum súbdolum\ndevíceras diábolum.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_horam_mediam",
+          "day": "sabbato"
+        }
+      ]
+    },
+    {
+      "id": "audi_benigne_conditor",
+      "incipit": "Audi, benígne Cónditor",
+      "full_text": "Audi, benígne Cónditor,\nnostras preces cum flétibus,\nsacráta in abstinéntia\nfusas quadragenária.\nScrutátor alme córdium,\ninfírma tu scis vírium;\nad te revérsis éxhibe\nremissiónis grátiam.\nMultum quidem peccávimus,\nsed parce confiténtibus,\ntuíque laude nóminis\nconfer medélam lánguidis.\nSic corpus extra cónteri\ndona per abstinéntiam,\nieiúnet ut mens sóbria\na labe prorsus críminum.\nPræsta, beáta Trínitas,\nconcéde, simplex Únitas,\nut fructuósa sint tuis\nhæc parcitátis múnera. Amen.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae",
+          "hour": "ad_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "audit_tyrannus_anxius",
+      "incipit": "Audit tyránnus ánxius",
+      "full_text": "Audit tyránnus ánxius\nadésse regum príncipem,\nqui nomen Ísrael regat\nteneátque David régiam.\nExclámat amens núntio:\n« Succéssor instat, péllimur;\nsatélles, i, ferrum rape,\nperfúnde cunas sánguine! ».\nQuo próficit tantum nefas?\nQuid crimen Heródem iuvat?\nUnus tot inter fúnera\nimpúne Christus tóllitur.\nSalvéte, flores mártyrum,\nquos lucis ipso in límine\nChristi insecútor sústulit\nceu turbo nascéntes rosas.\nVos prima Christi víctima,\ngrex immolatórum tener,\naram sub ipsam símplices\npalma et corónis lúditis.\nIesu, tibi sit glória,\nqui natus es de Vírgine,\ncum Patre et almo Spíritu,\nin sempitérna sǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "12/28"
+        }
+      ]
+    },
+    {
+      "id": "aurea_luce_et_decore_roseo",
+      "incipit": "Aurea luce et decóre róseo",
+      "full_text": "Aurea luce et decóre róseo,\nlux lucis, omne perfudísti s ǽculum,\ndécorans cælos ínclito martýrio\nhac sacra die, quæ dat reis véniam.\nIánitor cæli, doctor orbis páriter,\niúdices sæcli, vera mundi lúmina,\nper crucem alter, alter ense triúmphans,\nvitæ senátum laureáti póssident.\n\n\n\nO Roma felix, quæ tantórum príncipum\nes purpuráta pretióso sánguine,\nnon laude tua, sed ipsórum méritis\nexcéllis omnem mundi pulchritúdinem.\nOlívæ binæ pietátis únicæ,\nfide devótos, spe robústos máxime,\nfonte replétos caritátis géminæ\npost mortem carnis impetráte vívere.\nSit Trinitáti sempitérna glória,\nhonor, potéstas atque iubilátio,\nin unitáte, cui manet impérium\nex tunc et modo per ætérna s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_i_vesperas",
+          "date": "06/29"
+        }
+      ]
+    },
+    {
+      "id": "aurora_iam_spargit_polum",
+      "incipit": "Auróra iam spargit polum",
+      "full_text": "∫\n\nV.\n\n\nAuróra iam spargit polum,\nterris dies illábitur,\nlucis resúltat spículum:\ndiscédat omne lúbricum.\nIam vana noctis décidant,\nmentis reátus súbruat,\nquicquid tenébris hórridum\nnox áttulit culpæ, cadat,\nUt mane illud últimum,\nquod præstolámur cérnui,\nin lucem nobis éffluat,\ndum hoc canóre cóncrepat.\nDeo Patri sit glória\neiúsque soli Fílio\ncum Spíritu Paráclito,\nin sempitérna s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_laudes",
+          "day": "sabbato"
+        }
+      ]
+    },
+    {
+      "id": "aurora_lucis_rutilat",
+      "incipit": "Auróra lucis rútilat",
+      "full_text": "Auróra lucis rútilat,\ncælum resúltat láudibus,\nmundus exsúltans iúbilat,\ngemens inférnus úlulat,\nCum rex ille fortíssimus,\nmortis confráctis víribus,\npede concúlcans tártara\nsolvit caténa míseros.\nIlle, quem clausum lápide\nmiles custódit ácriter,\ntriúmphans pompa nóbili,\nvictor surgit de fúnere.\nInférni iam gemítibus\nsolútis et dolóribus,\nquia surréxit Dóminus\nrespléndens clamat ángelus.\nEsto perénne méntibus\npaschále, Iesu, gáudium,\net nos renátos grátiæ\ntuis triúmphis ággrega.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "paschale",
+          "hour": "ad_laudes",
+          "day": "dominica"
+        },
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "paschale",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "aurora_solis_nuntia",
+      "incipit": "Auróra solis núntia",
+      "full_text": "Auróra solis núntia,\nmundi labóres éxcitans,\nfabri sonóram málleo\ndomum salútat Názaræ.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "date": "05/01"
+        }
+      ]
+    },
+    {
+      "id": "aurora_surgit_lucida",
+      "incipit": "Auróra surgit lúcida",
+      "full_text": "Auróra surgit lúcida\nChristi triúmphos áfferens,\ncum corpus eius vísere,\nMaría, vis et úngere.\nAnhéla curris; ángelus\nat ecce lætus pr ǽdocet\nmortis refráctis póstibus\nredísse quem desíderas.\nSed te manet iucúndius\nintácti amóris pr ǽmium,\ncum, voce pulsans vílicum,\ntuum Magístrum cónspicis.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "date": "07/22"
+        }
+      ]
+    },
+    {
+      "id": "aurora_velut_fulgida",
+      "incipit": "Auróra velut fúlgida",
+      "full_text": "Auróra velut fúlgida,\nad cæli meat cúlmina\nut sol María spléndida,\ntamquam luna pulchérrima.\nRegína mundi hódie\nthronum conscéndit glóriæ,\nillum eníxa Fílium\nqui est ante lucíferum.\nAssúmpta super ángelos\nomnésque choros c ǽlitum,\ncuncta sanctórum mérita\ntranscéndit una fémina.\nQuem fóverat in grémio,\nlocárat in præsépio,\nnunc regem super ómnia\nPatris videt in glória.\nPro nobis, Virgo vírginum,\ntuum depósce Fílium,\nper quam nostra suscéperat,\nut sua nobis pr ǽbeat.\n\nPropr. de Sanctis\nDie 15 augusti\nAd Invitatorium",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_officium_lectionis",
+          "date": "08/15"
+        }
+      ]
+    },
+    {
+      "id": "ave_maris_stella",
+      "incipit": "Ave, maris stella",
+      "full_text": "Ave, maris stella,\nDei mater alma,\natque semper virgo,\nfelix cæli porta.\n\nCommune\nB. Mariae Virginis\nAd II Vesperas\n\n\n\nSumens illud « Ave »\nGabriélis ore,\nfunda nos in pace,\nmutans Evæ nomen.\n\n\nSolve vincla reis,\nprofer lumen cæcis,\nmala nostra pelle,\nbona cuncta posce.\n\n\n\n\nMonstra te esse matrem,\nsumat per te precem\nqui pro nobis natus\ntulit esse tuus.\nVirgo singuláris,\ninter omnes mitis,\nnos culpis solútos\nmites fac et castos.\nVitam præsta puram,\niter para tutum,\nut vidéntes Iesum\nsemper collætémur.\nSit laus Deo Patri,\nsummo Christo decus,\nSpirítui Sancto\nhonor, tribus unus. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "commune",
+          "hour": "ad_i_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "bernarde_gemma_c_litum",
+      "incipit": "Bernárde, gemma c ǽlitum",
+      "full_text": "Bernárde, gemma c ǽlitum,\nlaudes, tibi quas pángimus,\nin nostra verte gáudia\nsalútis atque múnera.\nTe Christus ussit íntimo\ndilectiónis vúlnere\nSpons ǽque fecit próvidus\nscutum, colúmnam, lámpada.\nAlmus dedit te Spíritus\nos veritátis prófluum\net angelórum pábuli\narcána mella próferens.\nAmóris æstu cándidi\nte Virgo Mater ímbuit,\nquam nemo te facúndius\nvel prædicávit áltius.\nTe quæsiérunt árbitrum\nreges, magístri, pr ǽsules,\ncultórque solitúdinis\nfama replésti s ǽculum.\nSit Trinitáti glória,\nquæ se vidéndam lárgiens,\ntecum benígna gáudio\nnos det perénni pérfrui. Amen.\n\nPropr. de Sanctis\nDie 20 augusti\nAd Vesperas",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_vesperas",
+          "date": "08/20"
+        }
+      ]
+    },
+    {
+      "id": "beata_dei_genetrix",
+      "incipit": "Beáta Dei génetrix",
+      "full_text": "Beáta Dei génetrix,\nnitor humáni géneris,\nper quam de servis líberi\nlucísque sumus fílii;",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_vesperas",
+          "date": "09/08"
+        }
+      ]
+    },
+    {
+      "id": "beata_nobis_gaudia",
+      "incipit": "Beáta nobis gáudia",
+      "full_text": "Beáta nobis gáudia\nanni redúxit órbita,\ncum Spíritus Paráclitus\neffúlsit in discípulos.\nIgnis vibránte lúmine\nlinguæ figúram détulit,\nverbis ut essent próflui\net caritáte férvidi.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "beate_beata_martyr_prospera",
+      "incipit": "Beáte (Beáta) martyr, próspera",
+      "full_text": "Beáte (Beáta) martyr, próspera\ndiem triumphálem tuum,\nquo sánguinis merces tibi\ncoróna vincénti datur.\nHic te ex tenébris s ǽculi,\ntortóre victo et iúdice,\nevéxit ad cælum dies\nChristóque ovántem réddidit.\nNunc angelórum párticeps\ncollúces insígni stola,\nquam testis indomábilis\nrivis cruóris láveras.\nAdésto nunc et óbsecra,\nplacátus ut Christus suis\ninclínet aurem prósperam,\nnoxas nec omnes ímputet.\n\n\nCommune\nunius martyris\nAd Off Lectionis\n\n\n\nPaulísper huc illábere\nChristi favórem déferens,\nsensus graváti ut séntiant\nlevámen indulgéntiæ.\nHonor Patri cum Fílio\net Spíritu Paráclito,\nqui te coróna pérpeti\ncingunt in aula glóriæ. Amen.\nPro martyre virgine:\n\nO Christe, flos convállium,\nte láudibus extóllimus,\nquod hanc ornásti vírginem\npalmis quoque martýrii.\nHæc prudens, fortis, sápiens,\nfidem proféssa, líbere,\npro te dira supplícia\nexcépit impertérrita.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "commune",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "barnab_clarum_colimus_trop_um",
+      "incipit": "Bárnabæ clarum cólimus trop ǽum",
+      "full_text": "Bárnabæ clarum cólimus trop ǽum,\nquo micat celsus mérita coróna,\nmulta pro Christi veheménter usque\npassus amóre.\nAbdicans agro, generósus urget\nut, fide vivax ope caritátis,\nnóminis plebes nova christiáni\nlæta viréscat.\n\n\n\nNil sibi parcit cupidúsque Christo\nplúrimos affert, bonus atque pascit,\ndonec effúso rútila probátur\nsánguine palma.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "date": "06/11"
+        },
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "06/11"
+        }
+      ]
+    },
+    {
+      "id": "c_litum_ioseph_decus_atque_nostr",
+      "incipit": "C ǽlitum, Ioseph, decus atque nostræ",
+      "full_text": "C ǽlitum, Ioseph, decus atque nostræ\ncerta spes vitæ columénque mundi,\nquas tibi læti cánimus, benígnus\nsúscipe laudes.\nTe, satum David, státuit Creátor\nVírginis sponsum voluítque Verbi\nte patrem dici, dedit et minístrum\nesse salútis.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "date": "03/19"
+        }
+      ]
+    },
+    {
+      "id": "candor_tern_deitatis_alme",
+      "incipit": "Candor ætérnæ Deitátis alme",
+      "full_text": "Candor ætérnæ Deitátis alme,\nChriste, tu lumen, vénia atque vita\nádvenis, morbis hóminum medéla,\nporta salútis.\nÍntonat terræ chorus angelórum\nc ǽlicum carmen, nova sæcla dicens,\nglóriam Patri, generíque nostro\ngáudia pacis.\nQui iaces parvus dóminans et orbi,\nVírginis fructus sine labe sanctæ,\nChriste, iam mundo potiáris omni,\nsemper amándus.\nNásceris cælos pátriam datúrus,\nunus e nobis, caro nostra factus;\nínnova mentes, trahe caritátis\npéctora vinclis.\nCœtus exsúltans canit ecce noster,\nángelis læto sociátus ore,\net Patri tecum parilíque Amóri\ncántica laudis. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "nativitatis",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "captator_olim_piscium",
+      "incipit": "Captátor olim píscium",
+      "full_text": "Captátor olim píscium,\niam nunc piscátor hóminum,\ntuis, Andréa, rétibus\nmundi nos rape flúctibus.\nGermánus Petri córpore\nnec mortis dispar órdine;\nquos una caro génuit,\ncrux cælo fratres édidit.\nO germen venerábile,\no par coróna glóriæ!\nEcclésiæ patres pii\ncrucis sunt æque fílii.\nAd Iesum fratri pr ǽvius\nindéxque vitæ strénuus,\net nobis esto míseris\nbeáti dux itíneris.\nFratris comes egrégius,\nEcclésias impénsius\nda caritáte exércitas\npastóri Petro súbditas.\n\nVir Christo dilectíssime,\namóre fac nos cúrrere,\nut læti adépti pátriam\nDeo canámus glóriam. Amen.\n\nPropr. de Sanctis\nDie 30 novembris\nAd Laudes matutinas",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "11/30"
+        }
+      ]
+    },
+    {
+      "id": "cels_salutis_gaudia",
+      "incipit": "Celsæ salútis gáudia",
+      "full_text": "Celsæ salútis gáudia\nmundus fidélis iúbilet:\nIesus, redémptor ómnium,\nmortis perémit príncipem.\nPalmæ et olívæ súrculos\ncœtus viándo déferens,\n« Hosánna David fílio »\nclaris frequéntat vócibus.\n\n\nNos ergo summo príncipi\ncurrámus omnes óbviam;\nmelos canéntes glóriæ,\npalmas gerámus gáudii.\n\n\nCursúsque nostros lúbricos\ndonis beátis súblevet,\ngrates ut omni témpore\nipsi ferámus débitas.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "day": "dominica"
+        }
+      ]
+    },
+    {
+      "id": "certum_tenentes_ordinem",
+      "incipit": "Certum tenéntes órdinem",
+      "full_text": "Certum tenéntes órdinem,\npio poscámus péctore\nhora diéi tértia\ntrinæ virtútis glóriam,\nUt simus habitáculum\nilli Sancto Spirítui,\nqui quondam in apóstolis\nhac hora distribútus est.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus",
+          "hour": "ad_laudes"
+        },
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "nativitatis",
+          "hour": "ad_horam_mediam"
+        }
+      ]
+    },
+    {
+      "id": "christe_cunctorum_dominator_alme",
+      "incipit": "Christe, cunctórum dominátor alme",
+      "full_text": "Christe, cunctórum dominátor alme,\nplebs tibi supplex résonet in aula,\nánnuo cuius rédeunt colénda\ntémpore festa.\nHic locus nempe vocitátur aula\nregis imménsi nitidíque cæli\nporta, quæ vitæ pátriam peténtes\náccipit omnes.\nHæc tuam plebem sacra cogit ædes,\nhæc sacraméntis pia ditat usque,\nc ǽlicis escis alit in perénnis\nmúnera vitæ.\nQu ǽsumus ergo, Deus, ut seréno\nádnuas vultu fámulos gubérnans,\nqui tui summo célebrant amóre\ngáudia templi.\nÆqua laus summum célebret Paréntem\nteque, Salvátor, pie rex, per ævum;\nSpíritus Sancti résonet per omnem\nglória mundum. Amen.\n\nCommune\nDedicationis\nEcclesiae\nAd Off Lectionis",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "commune",
+          "hour": "ad_officium_lectionis"
+        },
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_officium_lectionis"
+        },
+        {
+          "volume": 3,
+          "section": "commune",
+          "hour": "ad_i_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "christe_clorum_habitator_alme",
+      "incipit": "Christe, cælórum habitátor alme",
+      "full_text": "Christe, cælórum habitátor alme,\nvita sanctórum, via, spes salúsque,\nhóstiam clemens, tibi quam litámus,\nsúscipe laudis.\nOmnium semper chorus angelórum\nin polo temet benedícit alto,\natque te sancti simul univérsi\nláudibus ornant.\nVírginis sanctæ méritis Maríæ\natque cunctórum páriter piórum,\ncóntine pœnam, pie, quam merémur\ndaque medélam.\nHic tuam præsta celebráre laudem,\nut tibi fidi valeámus illam\nprósequi in cælis Tríadi canéntes\niúgiter hymnos. Amen.\n\nPropr. de Sanctis\nDie 1 novembris\nAd Off Lectionis",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_tempore",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "christe_redemptor_omnium",
+      "incipit": "Christe, redémptor ómnium",
+      "full_text": "Christe, redémptor ómnium,\nex Patre, Patris Únice,\nsolus ante princípium\nnatus ineffabíliter,\nTu lumen, tu splendor Patris,\ntu spes perénnis ómnium,\ninténde quas fundunt preces\ntui per orbem sérvuli.\n\n\n\nSalútis auctor, récole\nquod nostri quondam córporis,\nex illibáta Vírgine\nnascéndo, formam súmpseris.\nHic præsens testátur dies,\ncurrens per anni círculum,\nquod solus a sede Patris\nmundi salus advéneris;\nHunc cælum, terra, hunc mare,\nhunc omne quod in eis est,\nauctórem advéntus tui\nlaudat exsúltans cántico.\nNos quoque, qui sancto tuo\nredémpti sumus sánguine,\nob diem natális tui\nhymnum novum concínimus.\nIesu, tibi sit glória,\nqui natus es de Vírgine,\ncum Patre et almo Spíritu,\nin sempitérna s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_sanctis",
+          "season": "nativitatis",
+          "hour": "ad_i_vesperas",
+          "date": "12/25"
+        },
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "nativitatis",
+          "hour": "ad_i_vesperas"
+        },
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_i_vesperas",
+          "date": "11/01"
+        }
+      ]
+    },
+    {
+      "id": "christe_splendor_patris",
+      "incipit": "Christe, splendor Patris",
+      "full_text": "Christe, splendor Patris,\nDei mater Virgo,\nIoseph, tam sacrórum\npígnorum servátor,",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus_nativitatis",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "christus_est_vita_veniens_in_orbem",
+      "incipit": "Christus est vita véniens in orbem",
+      "full_text": "Christus est vita véniens in orbem,\nqui ferens vulnus removénsque mortem,\nad Patris dextram repeténdo, regnat\nsede supérna.\nHunc sequens primus Stéphanus miníster\nsortis illátæ título est decórus,\nquam dedit spirans Dómini benígnus\nSpíritus illi.\nSáxeo nimbo lapidátus instat,\nsústinet mortis rábiem profánam,\nhóstibus quærit véniam misértus\npéctore grato.\nQuǽsumus flentes, benedícte prime\nmartyr et civis sociáte iustis:\ncǽlitus, claræ regiónis heres,\nmitte favóres.\nGlóriæ laudes Tríadi beátæ\nmártyrum læti cómites canámus,\nquæ dedit primas Stéphano ex agóne\nferre corónas. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "12/26"
+        }
+      ]
+    },
+    {
+      "id": "cohors_beata_seraphim",
+      "incipit": "Cohors beáta Séraphim",
+      "full_text": "Cohors beáta Séraphim\nquem Christus arcte díligit\nlaudet, chorúsque cánticis\nnoster resúltet ǽmulis.\nHic discit, almus édocet\nhic unde Verbum pródeat,\nsinúmque matris ímpleat,\nsinum Patris non déserens.\nFelix Ioánnes, déligit\net te Magíster próvidus,\nut clara Thabor lúmina\nhortíque cernas tǽdia.\nTu, raptus in sublímia,\narcána cæli cónspicis,\nAgni sed et mystéria\nEcclesiǽque pércipis.\nO digne fili Vírgine,\nsuccéssor alti nóminis,\nnos adde Matri fílios,\nnos conde Christi in péctore.\nVerbo sit ingens glória,\ncaro quod est et créditur,\ncum Patre et almo Spíritu\nin sempitérna sǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "12/27"
+        }
+      ]
+    },
+    {
+      "id": "commune_vos_apostoli",
+      "incipit": "Commúne vos, apóstoli",
+      "full_text": "Commúne vos, apóstoli,\nextóllat hymni iúbilum,\nquos ádvocat par grátia,\ncorónat una glória.\nArdóre pulsus c ǽlico,\nChristi premis vestígia,\nSimon, et illum núntias\nzelo peráctus ímpigro.\nTu carne frater, ássecla\nfratérque Christi spíritu,\nIuda, Magístrum pr ǽdicas\nscriptísque fratres érudis.\nNec pertiméscit sánguinem\nutérque purum fúndere,\nut veritátis énitens\nsit testis atque víctima.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "date": "10/28"
+        }
+      ]
+    },
+    {
+      "id": "consors_paterni_luminis",
+      "incipit": "Consors patérni lúminis",
+      "full_text": "I. Quando Officium lectionis dicitur noctu vel summo\nmane:\n\nConsors patérni lúminis,\nlux ipse lucis et dies,\nnoctem canéndo rúmpimus:\nassíste postulántibus.\nAufer tenébras méntium,\nfuga catérvas d ǽmonum,\nexpélle somnoléntiam\nne pigritántes óbruat.\nSic, Christe, nobis ómnibus\nindúlgeas credéntibus,\nut prosit exorántibus\nquod præcinéntes psállimus.\nSit, Christe, rex piíssime,\ntibi Patríque glória\ncum Spíritu Paráclito,\nin sempitérna s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_officium_lectionis",
+          "day": "feria_III"
+        }
+      ]
+    },
+    {
+      "id": "cor_arca_legem_continens",
+      "incipit": "Cor, arca legem cóntinens",
+      "full_text": "Cor, arca legem cóntinens\nnon servitútis véteris,\nsed grátiæ, sed véniæ,\nsed et misericórdiæ;\nCor, sanctuárium novi\nintemerátum f œ́deris,\ntemplum vetústo sánctius\nvelúmque scisso utílius:",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore"
+        }
+      ]
+    },
+    {
+      "id": "corde_natus_ex_parentis",
+      "incipit": "Corde natus ex Paréntis",
+      "full_text": "Corde natus ex Paréntis\nante mundi exórdium,\nAlpha et Ómega vocátus,\nipse fons et cláusula\nómnium quæ sunt, fuérunt\nquæque post futúra sunt.\nCórporis formam cadúci,\nmembra morti obnóxia\nínduit, ne gens períret\nprimoplásti ex gérmine,\nmérserat quam lex profúndo\nnoxiális tártaro.\nO beátus ortus ille,\nVirgo cum puérpera\nédidit nostram salútem\nfeta Sancto Spíritu,\net puer redémptor orbis\nos sacrátum prótulit.\nEcce, quem vates vetústis\nconcinébant sǽculis,\nquem prophetárum fidéles\npáginæ spopónderant,\némicat promíssus olim:\ncuncta colláudent eum!\nGlóriam Patri melódis\npersonémus vócibus;\nglóriam Christo canámus,\n\nSollemnitas\nS. Dei Genetricis M.\n1 Ianuarii\nAd I Vesperas",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_sanctis",
+          "season": "nativitatis",
+          "hour": "ad_i_vesperas",
+          "date": "01/01"
+        },
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus_nativitatis",
+          "hour": "ad_i_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "custodes_hominum_psallimus_angelos",
+      "incipit": "Custódes hóminum psállimus ángelos",
+      "full_text": "Custódes hóminum psállimus ángelos,\nnatúræ frágili quos Pater áddidit\ncæléstis cómites, insidiántibus\nne succúmberet hóstibus.\nNam quod corrúerit próditor ángelus,\nconcéssis mérito pulsus honóribus,\nardens invídia péllere nítitur\nquos cælo Deus ádvocat.\n\n\nHuc, custos, ígitur pérvigil ádvola,\navértens pátria de tibi crédita\ntam morbos ánimi quam requiéscere\nquicquid non sinit íncolas.\nSanctæ sit Tríadi laus pia iúgiter,\ncuius perpétuo númine máchina\ntriplex hæc régitur, cuius in ómnia\nregnat glória s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_vesperas",
+          "date": "10/02"
+        }
+      ]
+    },
+    {
+      "id": "cli_deus_sanctissime",
+      "incipit": "Cæli Deus sanctíssime",
+      "full_text": "Cæli Deus sanctíssime,\nqui lúcidum centrum poli\ncandóre pingis ígneo\naugens decóri lúmina,\nQuarto die qui flámmeam\nsolis rotam constítuens,\nlunæ minístras órdini\nvagos recúrsus síderum,\nUt nóctibus vel lúmini\ndiremptiónis términum,\nprimórdiis et ménsium\nsignum dares notíssimum:\n\nPsalterium\nHebd III\nFeria IV\nAd Vesperas\n\n\n\nIllúmina cor hóminum,\nabstérge sordes méntium,\nresólve culpæ vínculum,\nevérte moles críminum.\nPræsta, Pater piíssime,\nPatríque compar Unice,\ncum Spíritu Paráclito\nregnans per omne s ǽculum. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_vesperas",
+          "day": "feria_IV"
+        }
+      ]
+    },
+    {
+      "id": "clestis_formam_glori",
+      "incipit": "Cæléstis formam glóriæ",
+      "full_text": "Cæléstis formam glóriæ,\nquam spes quærit Ecclésiæ,\nin monte Christus índicat,\nqui supra solem émicat.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_tempore",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "concito_gressu_petis_alta_montis",
+      "incipit": "Cóncito gressu petis alta montis",
+      "full_text": "Cóncito gressu petis alta montis,\nVirgo, quam matrem Deus ipse fecit,\nut seni matri studiósi amóris\npígnora promas.\nCum salutántis capit illa vocem,\nábditus gestit puer exsilíre,\nte parens dicit dóminam, salútat\nteque beátam.\n\nPropr. de Sanctis\nDie 31 maii\nAd Vesperas\n\n\n\nIpsa prædícis fore te beátam\nSpíritu fervens pénitus loquénte,\nac Deum cantu célebras am œ́no\nmagna operántem.\n\n\nTeque felícem pópuli per orbem\nsemper, o mater, récitant ovántes\natque te credunt Dómini favórum\nesse minístram.\n\n\nQuæ, ferens Christum, nova semper affers\ndona, tu nobis fer opes salútis,\nqui pie tecum Tríadem supérnam\nmagnificámus. Amen.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_vesperas",
+          "date": "05/31"
+        }
+      ]
+    },
+    {
+      "id": "conditor_alme_siderum",
+      "incipit": "Cónditor alme síderum",
+      "full_text": "Cónditor alme síderum,\nætérna lux credéntium,\nChriste, redémptor ómnium,\nexáudi preces súpplicum.\nQui cóndolens intéritu\nmortis períre sǽculum,\nsalvásti mundum lánguidum,\ndonans reis remédium,\nVergénte mundi véspere,\nuti sponsus de thálamo,\negréssus honestíssima\nVírginis matris cláusula.\nCuius forti poténtiæ\ngenu curvántur ómnia;\ncæléstia, terréstria\nnutu faténtur súbdita.\nTe, Sancte, fide quǽsumus,\nventúre iudex sǽculi,\nconsérva nos in témpore\nhostis a telo pérfidi.\nSit, Christe, rex piíssime,\ntibi Patríque glória\ncum Spíritu Paráclito,\nin sempitérna sǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus",
+          "hour": "ad_i_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "dei_fide_qua_vivimus",
+      "incipit": "Dei fide, qua vívimus",
+      "full_text": "Dei fide, qua vívimus,\nqua spe perénni crédimus,\nper caritátis grátiam\nChristi canámus glóriam,\nQui ductus hora tértia\nad passiónis hóstiam,\ncrucis ferens suspéndia\novem redúxit pérditam.\n\n\nProprium de tempore\nTemp. Quadragesimæ\nHymnus\nAd Horam mediam",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae"
+        }
+      ]
+    },
+    {
+      "id": "deus_creator_omnium",
+      "incipit": "Deus, creátor ómnium",
+      "full_text": "Deus, creátor ómnium\npolíque rector, véstiens\ndiem decóro lúmine,\nnoctem sopóris grátia,\nArtus solútos ut quies\nreddat labóris úsui\nmentésque fessas állevet\nluctúsque solvat ánxios,\n\nPsalterium\nHebd III\nDominica\nAd I Vesperas\n\n\n\nGrates perácto iam die\net noctis exórtu preces,\nvoti reos ut ádiuves,\nhymnum canéntes sólvimus.\nTe cordis ima cóncinant,\nte vox canóra cóncrepet,\nte díligat castus amor,\nte mens adóret sóbria,\n\n\nUt cum profúnda cláuserit\ndiem calígo nóctium,\nfides tenébras nésciat\net nox fide relúceat.\n\n\nChristum rogámus et Patrem,\nChristi Patrísque Spíritum;\nunum potens per ómnia,\nfove precántes, Trínitas. Amen.\nAd libitum dici potest hymnus Dies ætásque, 854.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_i_vesperas",
+          "day": "dominica"
+        }
+      ]
+    },
+    {
+      "id": "deus_qui_claro_lumine",
+      "incipit": "Deus, qui claro lúmine",
+      "full_text": "Deus, qui claro lúmine\ndiem fecísti, Dómine,\ntuam rogámus glóriam\ndum pronus dies vólvitur.\nIam sol urgénte véspero\noccásum suum gráditur,\nmundum conclúdens ténebris,\nsuum obsérvans órdinem.\nTu vero, excélse Dómine,\nprecántes tuos fámulos\ndiúrno lassos ópere\nne sinas umbris ópprimi,\nUt non fuscátis méntibus\ndies abscédat s ǽculi,\nsed tua tecti grátia\ncernámus lucem prósperam.\nPræsta, Pater piíssime,\nPatríque compar Unice,\ncum Spíritu Paráclito\nregnans per omne s ǽculum. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_vesperas",
+          "day": "feria_V"
+        }
+      ]
+    },
+    {
+      "id": "deus_qui_cli_lumen_es",
+      "incipit": "Deus, qui cæli lumen es",
+      "full_text": "Deus, qui cæli lumen es\nsatórque lucis, qui polum\npatérno fultum brácchio\npræclára pandis déxtera,\nAuróra stellas iam tegit\nrubrum sustóllens gúrgitem,\numéctis atque flátibus\nterram baptízans róribus.\nIam noctis umbra línquitur,\npolum calígo déserit,\ntypúsque Christi, lúcifer\ndiem sopítum súscitat.\nDies diérum tu, Deus,\nlucísque lumen ipse es,\nUnum potens per ómnia,\npotens in unum Trínitas.\n\nPsalterium\nHebd II\nFeria VI\nAd Laudes matutinas\n\n\n\nTe nunc, Salvátor, qu ǽsumus\ntibíque genu fléctimus,\nPatrem cum Sancto Spíritu\ntotis laudántes vócibus. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_laudes",
+          "day": "feria_VI"
+        }
+      ]
+    },
+    {
+      "id": "deus_tuorum_militum",
+      "incipit": "Deus, tuórum mílitum",
+      "full_text": "Deus, tuórum mílitum\nsors et coróna, pr ǽmium,\nlaudes canéntes mártyris\nabsólve nexu críminis.\nHic (Hæc) testis ore prótulit\nquod cordis arca crédidit,\nChristum sequéndo répperit\neffusióne sánguinis.\nHic (Hæc) nempe mundi gáudia\net blandiménta nóxia\ncadúca rite députans,\npervénit ad cæléstia.\nPœnas cucúrrit fórtiter\net sústulit viríliter;\npro te refúndens sánguinem\nætérna dona póssidet.\n\n\nCommune\nunius martyris\nAd II Vesperas\n\n\n\nOb hoc precátu súpplici\nte póscimus, piíssime;\nin hoc triúmpho mártyris\ndimítte noxam sérvulis,\nUt consequámur múneris\nipsíus et consórtia,\nlætémur ac perénniter\niuncti polórum sédibus.\nLaus et perénnis glória\ntibi, Pater, cum Fílio,\nSancto simul Paráclito\nin sæculórum s ǽcula. Amen.\nPro martyre virgine:\n\nVírginis Proles opiféxque Matris,\nVirgo quem gessit peperítque Virgo,\nvírginis festum cánimus trop ǽum:\náccipe votum.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "commune",
+          "hour": "ad_i_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "dicamus_laudes_domino",
+      "incipit": "Dicámus laudes Dómino",
+      "full_text": "Dicámus laudes Dómino\nfervénte prompti Spíritu;\nhora volúta séxies\nnos ad orándum próvocat.\nIn hac enim fidélibus\nveræ salútis glória,\nbeáti Agni hóstia,\ncrucis virtúte rédditur.\nCuius luce claríssima\ntenébricat merídies;\nsumámus toto péctore\ntanti splendóris grátiam.\nDeo Patri sit glória\neiúsque soli Fílio\ncum Spíritu Paráclito,\nin sempitérna s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus",
+          "hour": "ad_horam_mediam"
+        },
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "nativitatis",
+          "hour": "ad_horam_mediam"
+        }
+      ]
+    },
+    {
+      "id": "die_25_martii",
+      "incipit": "Die 25 martii",
+      "full_text": "Die 25 martii\nAd Invitatorium\n\n\n\nAd Officium lectionis\n\nIam cæca vis mortálium\nvénerans inánes n ǽnias,\nvel æra vel saxa álgida\nvel ligna credébat Deum.\nHæc dum sequúntur pérfidi,\nprædónis in ius vénerant\net mancipátam fúmido\nvitam baráthro immérserant.\nStragem sed istam non tulit\nChristus cadéntum géntium;\nimpúne ne forsan sui\nPatris períret fábrica,\nMortále corpus índuit\nut, excitáto córpore,\nmortis caténam frángeret\nhominémque portáret Patri.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "date": "03/25"
+        }
+      ]
+    },
+    {
+      "id": "dies_ir_dies_illa",
+      "incipit": "Dies iræ, dies illa",
+      "full_text": "Dies iræ, dies illa\nsolvet sæclum in favílla,\nteste David cum Sibýlla.\n\n\nQuantus tremor est futúrus,\nquando iudex est ventúrus\ncuncta stricte discussúrus!\nTuba mirum spargens sonum\nper sepúlcra regiónum,\ncoget omnes ante thronum.\nMors stupébit et natúra,\ncum resúrget creatúra\niudicánti responsúra.\nLiber scriptus proferétur,\nin quo totum continétur\nunde mundus iudicétur.\nIudex ergo cum sedébit,\nquicquid latet apparébit;\nnil inúltum remanébit.\nO tu, Deus maiestátis,\nalme candor Trinitátis,\nnos coniúnge cum beátis. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_tempore",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "divina_vox_te_deligit",
+      "incipit": "Divína vox te déligit",
+      "full_text": "Divína vox te déligit,\npiscátor, ac pro rétibus\nremísque qua tu glória\ncæli refúlges clávibus!\n\nDie 22 februarii\nAd Vesperas\n\n\n\nTenax amóris prófitens\nac dulce testimónium,\nomnes amor quos láverat\noves regéndas áccipis.\nLapsus, supérno róbore\ntu petra stas Ecclésiæ,\nqua splendet illa s ǽculis,\nnullis subácta víribus.\nTu, Petre, Christi oráculo\nluces magíster ómnium,\nfratrésque firmas, próvidus\ntu verba vitæ núntias.\nGregem fac unum, próspera\nlætis in ævum frúctibus,\nsalvúmque ab hostis ímpetu\nad lucis adduc pábula.\nSit summa Christo glória,\nqui nos det aulæ c ǽlicæ\nintráre per te iánuam\nin sempitérna gáudia. Amen.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_vesperas",
+          "date": "02/22"
+        }
+      ]
+    },
+    {
+      "id": "diei_luce_reddita",
+      "incipit": "Diéi luce réddita",
+      "full_text": "V.\n\nDiéi luce réddita,\nlætis gratísque vócibus\nDei canámus glóriam,\nChristi faténtes grátiam,\n\n\nPer quem creátor ómnium\ndiem noctémque cóndidit,\nætérna lege sánciens\nut semper succédant sibi.\nTu vera lux fidélium,\nquem lex vetérna non tenet,\nnoctis nec ortu súccidens,\nætérno fulgens lúmine.\nPræsta, Pater ingénite,\ntotum ducámus iúgiter\nChristo placéntes hunc diem\nSancto repléti Spíritu. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_laudes",
+          "day": "sabbato"
+        }
+      ]
+    },
+    {
+      "id": "doctor_egregie_paule_mores_instrue",
+      "incipit": "Doctor egrégie, Paule, mores ínstrue",
+      "full_text": "Doctor egrégie, Paule, mores ínstrue\net mente polum nos transférre sátage,\ndonec perféctum largiátur plénius,\nevacuáto quod ex parte gérimus.\nSit Trinitáti sempitérna glória,\nhonor, potéstas atque iubilátio,\nin unitáte, cui manet impérium\nex tunc et modo per ætérna s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "01/25"
+        }
+      ]
+    },
+    {
+      "id": "doctor_ternus_coleris_piusque",
+      "incipit": "Doctor ætérnus cóleris piúsque",
+      "full_text": "Doctor ætérnus cóleris piúsque,\nChriste, qui leges áperis salútis,\nverba qui vitæ mérito putáris\nsolus habére.\nTeque clamámus, bone Pastor orbis,\nc ǽlitus semper solidásse Sponsæ\nverba, constánter quibus illa mundo\nlumen adésset.\nIpse quin præbes fámulos corúscos,\náureas stellas velut emicántes,\ncerta qui nobis réserent beátæ\ndógmata vitæ.\nUnde te laudes récinant, Magíster,\nSpíritus fundis bona qui stupénda\nore doctórum, tua quo poténter\nlux patet alma.\n\nCommune\nDoctorum\nAd Laudes matutinas\n\n\n\nQuique nunc iustus celebrátur, instet\nut tuam plebem per am œ́na lucis\ndes gradi, donec tibi dicat hymnos\nlúmine pleno. Amen.\nSap 7, 13-14",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "commune",
+          "hour": "ad_laudes"
+        },
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "dulce_fit_nobis_memorare_parvum",
+      "incipit": "Dulce fit nobis memoráre parvum",
+      "full_text": "Dulce fit nobis memoráre parvum\nNázaræ tectum tenuémque cultum;\néxpedit Iesu tácitam reférre\ncármine vitam.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "nativitatis",
+          "hour": "ad_officium_lectionis",
+          "day": "dominica"
+        }
+      ]
+    },
+    {
+      "id": "dulcis_iesu_memoria",
+      "incipit": "Dulcis Iesu memória",
+      "full_text": "Dulcis Iesu memória,\ndans vera cordi gáudia,\nsed super mel et ómnia\neius dulcis præséntia.\nNil cánitur suávius,\naudítur nil iucúndius,\nnil cogitátur dúlcius\nquam Iesus Dei Fílius.\nIesu, dulcédo córdium,\nfons veri, lumen méntium,\nexcédis omne gáudium\net omne desidérium.\nQuando cor nostrum vísitas,\ntunc lucet ei véritas,\nmundi viléscit vánitas\net intus fervet cáritas.\nDa nobis largus véniam,\namóris tui cópiam;\nda nobis per præséntiam\ntuam vidére glóriam.\nLaudes tibi nos pángimus,\ndiléctus es qui Fílius,\nquem Patris atque Spíritus\nsplendor revélat ínclitus. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_tempore",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "dum_tuas_festo_pater_o_colende",
+      "incipit": "Dum tuas festo, pater o colénde",
+      "full_text": "Dum tuas festo, pater o colénde,\ncántico laudes habet hæc coróna,\nvotis ac mentis, Ióachim, benígne\náccipe munus.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "date": "07/26"
+        }
+      ]
+    },
+    {
+      "id": "ecce_iam_noctis_tenuatur_umbra",
+      "incipit": "Ecce iam noctis tenuátur umbra",
+      "full_text": "Ecce iam noctis tenuátur umbra,\nlucis auróra rútilans corúscat;\nnísibus totis rogitémus omnes\ncunctipoténtem,\nUt Deus, nostri miserátus, omnem\npellat angórem, tríbuat salútem,\ndonet et nobis pietáte patris\nregna polórum.\nPræstet hoc nobis Déitas beáta\nPatris ac Nati, paritérque Sancti\nSpíritus, cuius résonat per omnem\nglória mundum. Amen.\n\nPsalterium\nHebd II\nDominica\nAd Laudes matutinas",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_laudes",
+          "day": "dominica"
+        }
+      ]
+    },
+    {
+      "id": "eia_mater_fons_amoris",
+      "incipit": "Eia, mater, fons amóris",
+      "full_text": "Eia, mater, fons amóris,\nme sentíre vim dolóris\nfac, ut tecum lúgeam.\n\n\n\nFac ut árdeat cor meum\nin amándo Christum Deum,\nut sibi compláceam.\n\n\nSancta mater, istud agas,\nCrucifíxi fige plagas\ncordi meo válide.\n\n\nTui Nati vulnérati,\ntam dignáti pro me pati\npœnas mecum dívide.\n\n\n\n\nFac me vere tecum flere,\nCrucifíxo condolére,\ndonec ego víxero.\nIuxta crucem tecum stare\nac me tibi sociáre\nin planctu desídero.\nQuando corpus moriétur,\nfac ut ánimæ donétur\nparadísi glória. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "09/15"
+        }
+      ]
+    },
+    {
+      "id": "en_acetum_fel_arundo",
+      "incipit": "En acétum, fel, arúndo",
+      "full_text": "En acétum, fel, arúndo,\nsputa, clavi, láncea;\nmite corpus perforátur,\nsanguis, unda prófluit;\nterra, pontus, astra, mundus\nquo lavántur flúmine!\nCrux fidélis, inter omnes\narbor una nóbilis!\nNulla talem silva profert\nflore, fronde, gérmine.\nDulce lignum, dulci clavo\ndulce pondus sústinens!\nFlecte ramos, arbor alta,\ntensa laxa víscera,\net rigor lentéscat ille\nquem dedit natívitas,\nut supérni membra regis\nmiti tendas stípite.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "ex_more_docti_mystico",
+      "incipit": "Ex more docti mýstico",
+      "full_text": "Ex more docti mýstico\nservémus abstinéntiam,\ndeno diérum círculo\nducto quater notíssimo.\nLex et prophétæ prímitus\nhanc prætulérunt, póstmodum\nChristus sacrávit, ómnium\nrex atque factor témporum.\nUtámur ergo párcius\nverbis, cibis et pótibus,\nsomno, iocis et árctius\nperstémus in custódia.\nVitémus autem péssima\nquæ súbruunt mentes vagas,\nnullúmque demus cállido\nhosti locum tyránnidis.\nPræsta, beáta Trínitas,\nconcéde, simplex Únitas,\nut fructuósa sint tuis\nhæc parcitátis múnera. Amen.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "excelsam_pauli_gloriam",
+      "incipit": "Excélsam Pauli glóriam",
+      "full_text": "Excélsam Pauli glóriam\nconcélebret Ecclésia,\nquem mire sibi apóstolum\nex hoste fecit Dóminus.\nQuibus succénsus ǽstibus\nin Christi nomen s ǽviit,\nexársit his impénsius\namórem Christi pr ǽdicans.\n\nPropr. de Sanctis\nDie 25 ianuarii\nAd Vesperas\n\n\n\nO magnum Pauli méritum!\nCælum conscéndit tértium,\naudit verba mystérii\nquæ nullus audet éloqui.\nDum verbi spargit sémina,\nseges surgit ubérrima;\nsic cæli replent hórreum\nbonórum fruges óperum.\nMicántis more lámpadis\nperfúndit orbem rádiis;\nfugat errórum ténebras,\nut sola regnet véritas.\nChristo sit omnis glória,\ncum Patre et almo Spíritu,\nqui dedit vas tam fúlgidum\nelectiónis géntibus. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_vesperas",
+          "date": "01/25"
+        }
+      ]
+    },
+    {
+      "id": "exsultet_clum_laudibus",
+      "incipit": "Exsúltet cælum láudibus",
+      "full_text": "Exsúltet cælum láudibus,\nresúltet terra gáudiis:\nApostolórum glóriam\nsacra canunt sollémnia.\nVos, sæcli iusti iúdices\net vera mundi lúmina,\nvotis precámur córdium,\naudíte preces súpplicum.\n\nCommune\nApostulorum\nAd II Vesperas\n\n\n\nQui cælum verbo cláuditis\nserásque eius sólvitis,\nnos a peccátis ómnibus\nsólvite iussu, qu ǽsumus.\n\n\nQuorum præcépto súbditur\nsalus et languor ómnium,\nsanáte ægros móribus,\nnos reddéntes virtútibus,\n\n\n\nUt, cum iudex advénerit\nChristus in fine s ǽculi,\nnos sempitérni gáudii\nfáciat esse cómpotes.\nDeo sint laudes glóriæ,\nqui dat nos evangélicis\nper vos doctrínis ínstrui\net prósequi cæléstia. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "commune",
+          "hour": "ad_i_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "felix_per_omnes_festum_mundi_cardines",
+      "incipit": "Felix per omnes festum mundi cárdines",
+      "full_text": "Felix per omnes festum mundi cárdines\napostolórum præpóllet alácriter,\nPetri beáti, Pauli sacratíssimi,\nquos Christus almo consecrávit sánguine,\necclesiárum deputávit príncipes.\n\n\nHi sunt olívæ duæ coram Dómino\net candelábra luce radiántia,\npræclára cæli duo luminária;\nfórtia solvunt peccatórum víncula\nportásque cæli réserant fidélibus.\n\n\nGlória Patri per imménsa s ǽcula,\nsit tibi, Nate, decus et impérium,\nhonor, potéstas Sanctóque Spirítui;\nsit Trinitáti salus indivídua\nper infiníta sæculórum s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "date": "06/29"
+        }
+      ]
+    },
+    {
+      "id": "festiva_canimus_laude_hieronymum",
+      "incipit": "Festiva cánimus laude Hierónymum",
+      "full_text": "Festiva cánimus laude Hierónymum,\nqui nobis rádiat sidus ut éminens\ndoctrínæ méritis ac simul áctibus\nvitæ fortis et ásperæ.\nHic verbum fídei sánctaque dógmata\nscrutando stúduit pándere lúcide,\naut hostes, véhemens ut leo, cóncitus\nacri voce reféllere.\n\n\n\n\nInsúdans álacer prata viréntia\nScriptúræ cóluit c ǽlitus éditæ;\nex his et lócuples dúlcia prótulit\ncunctis pábula grátiæ.\nDesérti cúpiens grata siléntia,\nad cunas Dómini pérvigil ástitit,\nut carnem crúcians se daret íntime\nPatri munus et hóstiam.\n\n\nTanti nos, pétimus te, Deus óptime,\ndoctóris précibus dírige, cónfove,\nut lætas líceat nos tibi in ómnia\nlaudes pángere s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "09/30"
+        }
+      ]
+    },
+    {
+      "id": "festiva_vos_archangeli",
+      "incipit": "Festiva vos, archángeli",
+      "full_text": "Festiva vos, archángeli,\nhæc nostra tollunt cántica,\nquos in supérna cúria\ninsígnit ingens glória.\nTu nos, cohórtis c ǽlicæ\ninvícte princeps, Míchael,\ndextra corúsca róbora\nDeíque serva grátiæ.\nQui núntius deléctus es\nmysteriórum máximus,\nnos lucis usque, Gábriel,\nfac diligámus sémitas.\nNobis adésto, Ráphael,\nac pátriam peténtibus\nmorbos repélle córporum,\naffer salútem méntium.\nVosque angelórum cándida\nnos adiuvétis ágmina,\npossímus ut consórtio\nvestro beáti pérfrui.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_officium_lectionis",
+          "date": "09/29"
+        }
+      ]
+    },
+    {
+      "id": "festum_celebre_martyris",
+      "incipit": "Festum celébre mártyris",
+      "full_text": "Festum celébre mártyris\ndigne colámus Stéphani,\nqui primus in certámine\npalma nitet victóriæ.\nMartyr fidélis, cómminus\nfalsis renítens téstibus,\nIesu vidébat glóriam,\nstantis Patris ad déxteram.\nNunc te precámur, ínclite,\nsuccúrre, martyr, cóncite;\nnobis rogátus ímpetra\ncæli ut patéscat régia.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_vesperas",
+          "date": "12/26"
+        }
+      ]
+    },
+    {
+      "id": "fit_porta_christi_pervia",
+      "incipit": "Fit porta Christi pérvia",
+      "full_text": "Fit porta Christi pérvia\nomni reférta grátia,\ntransítque rex, et pérmanet\nclausa, ut fuit, per sǽcula.\nSummi Paréntis Fílius\nprocéssit aula Vírginis,\nsponsus, redémptor, cónditor,\nsuæ gigas Ecclésiæ:\nHonor matris et gáudium,\nimménsa spes credéntium,\nlapis de monte véniens\nmundúmque replens grátia.\nExsúltet omnis ánima,\nquod nunc salvátor géntium\nadvénit mundi Dóminus\nredímere quos cóndidit.\nChristo sit omnis glória,\nquem Pater Deum génuit,\nquem Virgo mater édidit\nfecúnda Sancto Spíritu. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "01/01"
+        }
+      ]
+    },
+    {
+      "id": "fortem_piumque_prsulem",
+      "incipit": "Fortem piúmque prǽsulem",
+      "full_text": "Fortem piúmque prǽsulem\ncanámus omnes, túrbidas\nqui fluctuántis sǽculi\nterris procéllas éxpulit.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_sanctis",
+          "date": "12/07"
+        }
+      ]
+    },
+    {
+      "id": "fortem_virili_pectore",
+      "incipit": "Fortem viríli péctore",
+      "full_text": "Fortem viríli péctore\nlaudémus omnes féminam,\nquæ sanctitátis glória\nubíque fulget ínclita.\n\n\nHæc sancto amóre sáucia,\nhuius cadúca sǽculi\ndum calcat, ad cæléstia\niter perégit árduum.\nCarnem domans ieiúniis,\ndulcíque mentem pábulo\noratiónis nútriens,\ncæli potítur gáudiis.\nRex Christe, virtus fórtium,\nqui magna solus éfficis,\nhuius precátu, quǽsumus,\naudi benígnus súpplices.\nIesu, tibi sit glória,\nqui nos beátæ sérvulæ\nsperáre das suffrágia\net sempitérna prǽmia. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "commune",
+          "hour": "ad_i_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "fulget_in_clis_celebris_sacerdos",
+      "incipit": "Fulget in cælis célebris sacérdos",
+      "full_text": "Fulget in cælis célebris sacérdos,\nstella doctórum rútilat corúsca,\nlumen intáctum fídei per orbis\nclímata spargens.\nCive tam claro, Sion o supérna,\nlæta dic laudes Dómino salútis,\nqui modis miris sibi vinxit ipsum\nlúmine complens.\nHic fidem sacram vigil usque firmat,\narma et errórum súbigit poténter,\nsórdidos mores lavat et repéllit\ndógmate claro.\nQui, gregis Christi speculátor almus,\nénites clero monachísque forma,\ntu Dei nobis fáciem benígnam\nfac prece semper.\nLaus, honor, virtus Triádi beátæ,\ncuius in terris studuísti amánter\nalta scrutári nitidáque in astris\nluce potíris. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "08/28"
+        }
+      ]
+    },
+    {
+      "id": "fulgentis_auctor_theris",
+      "incipit": "Fulgéntis auctor ǽtheris",
+      "full_text": "Fulgéntis auctor ǽtheris,\nqui lunam lumen nóctibus,\nsolem diérum cúrsibus\ncerto fundásti trámite,\nNox atra iam depéllitur,\nmundi nitor renáscitur,\nnovúsque iam mentis vigor\ndulces in actus érigit.\nLaudes sonáre iam tuas\ndies relátus ádmonet,\nvultúsque cæli blándior\nnostra serénat péctora.\nVitémus omne lúbricum,\ndeclínet prava spíritus,\nvitam facta non ínquinent,\nlinguam culpa non ímplicet;\n\nPsalterium\nHebd IV\nFeria IV\nAd Laudes matutinas\n\n\n\nSed, sol diem dum cónficit,\nfides profúnda férveat,\nspes ad promíssa próvocet,\nChristo coniúngat cáritas.\nPræsta, Pater piíssime,\nPatríque compar Unice,\ncum Spíritu Paráclito\nregnans per omne s ǽculum. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_laudes",
+          "day": "feria_IV"
+        }
+      ]
+    },
+    {
+      "id": "galli_cantu_mediante",
+      "incipit": "Galli cantu mediánte",
+      "full_text": "I. Quando Officium lectionis dicitur noctu vel summo\nmane:\n\nGalli cantu mediánte\nnoctis iam calíginem\net profúndæ noctis atram\nlevánte formídinem,\nDeus alme, te rogámus\nsupplicésque póscimus.\nVigil, potens, lux venísti\natque custos hóminum,\ndum tenérent simul cuncta\nmédium siléntium,\nrédderent necnon mortálem\nmórtui effígiem,\nExcitáres quo nos, Christe,\nde somno malítiæ,\natque gratis liberáres\nnoctúrno de cárcere,\nredderésque nobis lucem\nvitæ semper cómitem.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_officium_lectionis",
+          "day": "feria_VI"
+        }
+      ]
+    },
+    {
+      "id": "hic_est_dies_verus_dei",
+      "incipit": "Hic est dies verus Dei",
+      "full_text": "Hic est dies verus Dei,\nsancto serénus lúmine,\nquo díluit sanguis sacer\nprobrósa mundi crímina.\nFidem refúndit pérditis\ncæcósque visu illúminat;\nquem non gravi solvit metu\nlatrónis absolútio?\nOpus stupent et ángeli,\npœnam vidéntes córporis\nChristóque adhæréntem reum\nvitam beátam cárpere.\nMystérium mirábile,\nut ábluat mundi luem,\npeccáta tollat ómnium\ncarnis vítia mundans caro,\n\nTempus paschale\nHymnus\nAd Off Lectionis\n\n\n\nQuid hoc potest sublímius,\nut culpa quærat grátiam,\nmetúmque solvat cáritas\nreddátque mors vitam novam?\nEsto perénne méntibus\npaschále, Iesu, gáudium,\net nos renátos grátiæ\ntuis triúmphis ággrega.\nIesu, tibi sit glória,\nqui morte victa prǽnites,\ncum Patre et almo Spíritu,\nin sempitérna sǽcula. Amen.\nVel ad libitum in feriis post octavam Paschæ:\n\nLætáre, cælum, désuper,\nappláude, tellus ac mare:\nChristus resúrgens post crucem\nvitam dedit mortálibus.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "paschale",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "horis_peractis_undecim",
+      "incipit": "Horis peráctis úndecim",
+      "full_text": "Horis peráctis úndecim\nruit dies in vésperum;\nsolvámus omnes débitum\nmentis libénter cánticum.\nLabor diúrnus tránsiit\nquo, Christe, nos condúxeras;\nda iam colónis víneæ\npromíssa dona glóriæ.\nMercéde quos nunc ádvocas,\nquos ad futúrum múneras,\nnos in labóre ádiuva\net post labórem récrea.\nSit, Christe, rex piíssime,\ntibi Patríque glória\ncum Spíritu Paráclito,\nin sempitérna s ǽcula. Amen.\n\nPsalterium\nHebd II\nFeria VI\nAd Vesperas",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_vesperas",
+          "day": "feria_VI"
+        }
+      ]
+    },
+    {
+      "id": "hostis_herodes_impie",
+      "incipit": "Hostis Heródes ímpie",
+      "full_text": "Hostis Heródes ímpie,\nChristum venire quid times?\nNon éripit mortália\nqui regna dat cæléstia.\nIbant magi, qua vénerant\nstellam sequéntes prǽviam,\nlumen requírunt lúmine,\nDeum faténtur múnere.\n\nTempus Nativitatis\nA soll. Epiphaniæ\nHymnus\nAd Vesperas\n\n\n\nLavácra puri gúrgitis\ncæléstis Agnus áttigit;\npeccáta quæ non détulit\nnos abluéndo sústulit.\nNovum genus poténtiæ:\naquæ rubéscunt hýdriæ,\nvinúmque iussa fúndere\nmutávit unda oríginem.\nIesu, tibi sit glória,\nqui te revélas géntibus,\ncum Patre et almo Spíritu,\nin sempitérna sǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "nativitatis",
+          "hour": "ad_vesperas"
+        },
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus_nativitatis",
+          "hour": "ad_i_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "hymnum_canentes_martyrum",
+      "incipit": "Hymnum canéntes mártyrum",
+      "full_text": "Hymnum canéntes mártyrum\ndicámus Innocéntium,\nquos terra deflens pérdidit,\ngaudens sed æthra súscipit;\nQuos rex perémit ímpius,\npius sed Auctor cólligit,\nsecum beátos cóllocans\nin luce regni pérpetis.\nPræclára Christo splénduit\nmors ínnocens fidélium;\ncælis ferébant ángeli\nbimos et infra párvulos.\nO quam beáta cívitas,\nin qua Redémptor náscitur,\nnatóque primæ mártyrum\nin qua dicántur hóstiæ!",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_sanctis",
+          "season": "nativitatis",
+          "hour": "ad_vesperas",
+          "date": "12/28"
+        }
+      ]
+    },
+    {
+      "id": "hc_est_dies_qua_candid",
+      "incipit": "Hæc est dies, qua cándidæ",
+      "full_text": "Hæc est dies, qua cándidæ\ninstar colúmbæ, c ǽlitum\nad sacra templa spíritus\nse tránstulit Terésiæ,\n\nPropr. de Sanctis\nDie 16 octobris\n\n\nSponsíque voces áudiit:\n« Veni, soror, de vértice\nCarméli ad Agni núptias;\nveni ad corónam glóriæ ».\nTe, sponse, Iesu, vírginum,\nbeáti adórent órdines,\net nuptiáli cántico\nlaudent per omne s ǽculum. Amen.\nDie 16 octobris\nS. HEDVIGIS, RELIGIOSÆ\nNata est in Bavaria circiter annum 1174; principi Silesiæ matrimonio iuncta, septem ei peperit filios. Vitam gessit devotam, beneficam erga pauperes et ægrotos, pro quibus hospitia fundavit. Viro defuncto, monasterium Trebnicense ingressa est ibique mortua anno 1243.\nDe Communi sanctarum mulierum: pro iis quæ opera\nmisericordiæ exercuerunt, 1654, vel pro religiosis, 1648.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_vesperas",
+          "date": "10/16"
+        }
+      ]
+    },
+    {
+      "id": "iam_christus_astra_ascenderat",
+      "incipit": "Iam Christus astra ascénderat",
+      "full_text": "Iam Christus astra ascénderat,\nregréssus unde vénerat,\npromíssa Patris múnera,\nSanctum datúrus Spíritum,\nCum hora felix tértia\nrepénte mundo íntonat,\nApóstolis orántibus\nDeum venísse núntians.\nDe Patris ergo lúmine\ndecórus ignis almus est,\nqui fida Christi péctora\ncalóre verbi cómpleat.\n\nDominica Pentecostes\nAd Horam mediam\n\n\n\nDescénde, Sancte Spíritus,\nac nostra corda altária\norna tibi virtútibus,\ntibíque templa dédica.\nPer te sciámus da Patrem\nnoscámus atque Fílium,\nte utriúsque Spíritum\ncredámus omni témpore. Amen.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_horam_mediam",
+          "day": "dominica"
+        }
+      ]
+    },
+    {
+      "id": "iam_lucis_orto_sidere",
+      "incipit": "Iam lucis orto sídere",
+      "full_text": "Iam lucis orto sídere\nDeum precémur súpplices,\nut in diúrnis áctibus\nnos servet a nocéntibus.\nLinguam refrénans témperet,\nne litis horror ínsonet;\nvisum fovéndo cóntegat,\nne vanitátes háuriat.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "hour": "ad_laudes",
+          "day": "feria_V"
+        },
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore"
+        }
+      ]
+    },
+    {
+      "id": "iam_bone_pastor_petre_clemens_accipe",
+      "incipit": "Iam, bone pastor, Petre, clemens áccipe",
+      "full_text": "Iam, bone pastor, Petre, clemens áccipe\nvota precántum, et peccáti víncula\nresólve, tibi potestáte trádita,\nqua cunctis cælum verbo claudis, áperis.\nDoctor egrégie, Paule, mores ínstrue\net mente polum nos transférre sátage,\ndonec perféctum largiátur plénius,\nevacuáto quod ex parte gérimus.\nSit Trinitáti sempitérna glória,\nhonor, potéstas atque iubilátio,\nin unitáte, cui manet impérium\nex tunc et modo per ætérna s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "02/22"
+        },
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_officium_lectionis",
+          "date": "02/22"
+        },
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "date": "11/18"
+        }
+      ]
+    },
+    {
+      "id": "iesu_auctor_clementi",
+      "incipit": "Iesu, auctor cleméntiæ",
+      "full_text": "Iesu, auctor cleméntiæ,\ntotíus spes lætítiæ,\ndulcóris fons et grátiæ,\nveræ cordis delíciæ:\nIesu, spes pæniténtibus,\nquam pius es peténtibus,\nquam bonus te quæréntibus;\nsed quid inveniéntibus?",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore"
+        }
+      ]
+    },
+    {
+      "id": "iesu_corona_virginum",
+      "incipit": "Iesu, coróna vírginum",
+      "full_text": "Iesu, coróna vírginum,\nquem Mater illa cóncipit\nquæ sola virgo párturit,\nhæc vota clemens áccipe,\n\nCommune\nVirginum\nAd II Vesperas\n\n\n\nQui pascis inter lília\nsæptus choréis vírginum,\nsponsus decórus glória\nsponsísque reddens pr ǽmia.\n\n\nQuocúmque pergis, vírgines\nsequúntur, atque láudibus\npost te canéntes cúrsitant\nhymnósque dulces pérsonant.\n\n\n\n\nTe deprecámur, lárgius\nnostris adáuge méntibus\nnescíre prorsus ómnia\ncorruptiónis vúlnera.\nIesu, tibi sit glória,\nqui natus es de Vírgine,\ncum Patre et almo Spíritu,\nin sempitérna s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "commune",
+          "hour": "ad_i_vesperas"
+        },
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_i_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "iesu_nostra_redemptio",
+      "incipit": "Iesu, nostra redémptio",
+      "full_text": "Iesu, nostra redémptio\namor et desidérium,\nDeus creátor ómnium,\nhomo in fine témporum,\nQuæ te vicit cleméntia,\nut ferres nostra crímina,\ncrudélem mortem pátiens,\nut nos a morte tólleres;\nInférni claustra pénetrans,\ntuos captívos rédimens;\nvictor triúmpho nóbili\nad dextram Patris résidens?\nIpsa te cogat píetas,\nut mala nostra súperes\nparcéndo, et voti cómpotes\nnos tuo vultu sáties.\nTu esto nostrum gáudium,\nqui es futúrus prǽmium;\nsii nostra in te glória\nper cuncta semper sǽcula. Amen.\n\nSollemnitates\nAscensione Domini\nAd II Vesperas",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_i_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "iesu_redemptor_s_culi",
+      "incipit": "Iesu, redémptor s ǽculi",
+      "full_text": "Iesu, redémptor s ǽculi,\nVerbum Patris altíssimi,\nlux lucis invisíbilis,\ncustos tuórum pérvigil:\nTu fabricátor ómnium\ndiscrétor atque témporum,\nfessa labóre córpora\nnoctis quiéte récrea.\nQui frangis ima tártara,\ntu nos ab hoste líbera,\nne váleat sedúcere\ntuo redémptos sánguine,\nUt, dum graváti córpore\nbrevi manémus témpore,\nsic caro nostra dórmiat\nut mens sopórem nésciat.\nIesu, tibi sit glória,\nqui morte victa pr ǽnites,\ncum Patre et almo Spíritu,\nin sempitérna s ǽcula. Amen.\n\nPsalmodia dicitur sub unica antiphona: Allelúia,\nallelúia, allelúia.\n\nAd Invitatorium",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "paschale"
+        }
+      ]
+    },
+    {
+      "id": "iesu_redemptor_sculi",
+      "incipit": "Iesu, redémptor sǽculi",
+      "full_text": "Iesu, redémptor sǽculi,\nVerbum Patris altíssimi,\nlux lucis invisíbilis,\ncustos tuórum pérvigil:\nTu fabricátor ómnium\ndiscrétor atque témporum,\nfessa labóre córpora\nnoctis quiéte récrea.\nQui frangis ima tártara,\ntu nos ab hoste líbera,\nne váleat sedúcere\ntuo redémptos sánguine,\nUt, dum graváti córpore\nbrevi manémus témpore,\nsic caro nostra dórmiat\nut mens sopórem nésciat.\nIesu, tibi sit glória,\nqui morte victa prǽnites,\ncum Patre et almo Spíritu,\nin sempitérna sǽcula. Amen.\n\nTempus paschale\nHymnus",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "paschale"
+        }
+      ]
+    },
+    {
+      "id": "iesu_rex_admirabilis",
+      "incipit": "Iesu, rex admirábilis",
+      "full_text": "Iesu, rex admirábilis,\net triumphátor nóbilis,\ndulcédo ineffábilis,\ntotus desiderábilis:\nRex virtútum, rex glóriæ,\nrex insígnis victóriæ,\nIesu, largítor grátiæ,\nhonor cæléstis cúriæ:\n\nSollemnitates\nD. N. Iesu Christi\nuniversorum regis\nAd Invitatorium\n\n\n\nTe cæli chorus pr ǽdicat\net tuas laudes réplicat.\nIesus orbem lætíficat\net nos Deo pacíficat.\nIesus in pace ímperat,\nquæ omnem sensum súperat,\nhanc semper mens desíderat\net illo frui próperat.\nIam prosequámur láudibus\nIesum, hymnis et précibus,\nut nos donet cæléstibus\ncum ipso frui sédibus.\nIesu, flos matris vírginis,\namor nostræ dulcédinis,\nlaus tibi sine términis,\nregnum beatitúdinis. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_tempore",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "iesu_salvator_s_culi",
+      "incipit": "Iesu, salvátor s ǽculi",
+      "full_text": "Iesu, salvátor s ǽculi,\nredémptis ope súbveni,\net, pia Dei génetrix,\nsalútem posce míseris.\n\nPropr. de Sanctis\nDie 1 novembris\nAd Laudes matutinas\n\n\n\nCœtus omnes angélici,\npatriarchárum cúnei\nac prophetárum mérita\nnobis precéntur véniam.\nBaptísta tui pr ǽvius\net cláviger æthéreus\ncum céteris apóstolis\nnos solvant nexu críminis.\nChorus sacrátus mártyrum,\nsacerdótum conféssio\net virginális cástitas\nnos a peccátis ábluant.\nMonachórum suffrágia\nomnésque cives c ǽlici\nánnuant votis súpplicum\net vitæ poscánt pr ǽmium.\nSit, Christe, tibi glória\ncum Patre et Sancto Spíritu,\nquorum luce mirífica\nsancti congáudent pérpetim. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "11/01"
+        }
+      ]
+    },
+    {
+      "id": "igne_divini_radians_amoris",
+      "incipit": "Igne divíni rádians amóris",
+      "full_text": "Igne divíni rádians amóris\ncórporis sexum superávit Agnes,\net super carnem potuére carnis\nclaustra pudícæ.\nSpíritum celsæ cápiunt cohórtes\ncándidum, cæli super astra tollunt;\niúngitur Sponsi thálamis pudíca\nsponsa beátis.\nVirgo, nunc nostræ miserére sortis\net, tuum quisquis célebrat trop ǽum,\nímpetret sibi véniam reátus\natque salútem.\nRedde pacátum pópulo precánti\npríncipem cæli dominúmque terræ,\ndonet ut pacem pius et quiétæ\ntémpora vitæ.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_officium_lectionis",
+          "date": "01/21"
+        }
+      ]
+    },
+    {
+      "id": "immensa_et_una_trinitas",
+      "incipit": "Imménsa et una, Trínitas",
+      "full_text": "Imménsa et una, Trínitas,\ncuius potéstas ómnia\nfacit regítque témpora\net exstat ante s ǽcula,\nTu sola pleno súfficis\ntibi beáta gáudio;\ntu pura, simplex, próvida\ncælos et orbem cóntines.\n\nSollemnitates\nSanctissimae Trinitatis\nAd I Vesperas\n\n\n\nOmnis, Pater, fons grátiæ,\nLumen patérnæ glóriæ,\nSancte utriúsque Spíritus\nintermináta cáritas,\nEx te supréma orígine,\nTrias benígna, prófluit\ncreáta quicquid sústinet,\nquicquid decóre pérficit.\nQuos et coróna múneras\nadoptiónis íntimæ,\nnos templa fac niténtia\ntibi placére iúgiter.\nO viva lux, nos ángelis\nda iungi in aula c ǽlica,\nut grati amóris láudibus\nte concinámus pérpetim. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "season": "paschale",
+          "hour": "ad_i_vesperas",
+          "day": "dominica"
+        }
+      ]
+    },
+    {
+      "id": "immense_cli_conditor",
+      "incipit": "Imménse cæli cónditor",
+      "full_text": "Imménse cæli cónditor,\nqui, mixta ne confúnderent,\naquæ fluénta dívidens,\ncælum dedísti límitem,\n\nPsalterium\nHebd III\nFeria II\nAd Vesperas\n\n\n\nFirmans locum cæléstibus\nsimúlque terræ rívulis,\nut unda flammas témperet,\nterræ solum ne díssipet:\nInfúnde nunc, piíssime,\ndonum perénnis grátiæ,\nfraudis novæ ne cásibus\nnos error átterat vetus.\nLucem fides invéniat,\nsic lúminis iubar ferat;\nhæc vana cuncta térreat,\nhanc falsa nulla cómprimant.\nPræsta, Pater piíssime,\nPatríque compar Unice,\ncum Spíritu Paráclito\nregnans per omne s ǽculum. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_vesperas",
+          "day": "feria_II"
+        }
+      ]
+    },
+    {
+      "id": "immens_rex_potenti",
+      "incipit": "Imménsæ rex poténtiæ",
+      "full_text": "Imménsæ rex poténtiæ,\nChriste, tu Patris glóriam\nnostrúmque decus móliens,\nmortis fregísti iácula.\nInfírma nostra súbiens\nmagnúmque petens prœ́lium,\nmortem qua serpens vícerat,\nvictor calcásti móriens.\nSurgens fortis e túmulo,\npascháli nos mystério\npeccáto rursus mórtuos\nad vitam semper ínnovas.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus_nativitatis",
+          "hour": "ad_vesperas"
+        },
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_vesperas"
+        },
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "hour": "ad_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "implente_munus_debitum",
+      "incipit": "Implénte munus débitum",
+      "full_text": "Implénte munus débitum\nIoánne, rerum cónditor\nIordáne mersus hac die\naquam lavándo díluit,\nNon ipse mundári volens\nde ventre natus Vírginis,\npeccáta sed mortálium\nsuo lavácro tóllere.\nDicénte Patre quod « meus\ndiléctus hic est Fílius »,\nsuménte Sancto Spíritu\nformam colúmbæ cǽlitus,\nHoc mýstico sub nómine\nmicat salus Ecclésiæ;\nPersóna trina cómmanet\nunus Deus per ómnia.\nO Christe, vita, véritas,\ntibi sit omnis glória,\nquem Patris atque Spíritus\nsplendor revélat cǽlitus. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus_nativitatis",
+          "hour": "ad_officium_lectionis"
+        },
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "nativitatis",
+          "hour": "ad_i_vesperas",
+          "day": "dominica"
+        }
+      ]
+    },
+    {
+      "id": "in_clesti_collegio",
+      "incipit": "In cælésti collégio",
+      "full_text": "In cælésti collégio\nFrancíscus fulget glória,\ninsígni privilégio\nChristi portans insígnia.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "date": "10/04"
+        }
+      ]
+    },
+    {
+      "id": "in_martyris_laurentii",
+      "incipit": "In mártyris Lauréntii",
+      "full_text": "In mártyris Lauréntii\nnon incruénto pr œ́lio,\narmáta pugnávit Fides\npróprii cruóris pródiga.\n\nPropr. de Sanctis\nDie 10 augusti\nAd Laudes matutinas\n\n\n\nHic primus e septem viris\nqui stant ad aram próximi,\nlevíta sublímis gradu\net céteris præstántior.\n\n\nHic dímicans fortíssimus\nnon ense præcínxit latus,\nhostíle sed ferrum retro\ntorquens in auctórem tulit.\n\n\nSic, sancte Laurénti, tuam\nnos passiónem qu ǽrimus;\nquod quisque supplex póstulat,\nfert impetrátum próspere,\nDum cæli inenarrábili\nalléctus urbi múniceps,\nætérnæ in arce cúriæ\ngestas corónam cívicam.\nHonor Patri cum Fílio\net Spíritu Paráclito,\nqui nos tuis suffrágiis\nditent perénni láurea. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "08/10"
+        }
+      ]
+    },
+    {
+      "id": "in_plausu_grati_carminis",
+      "incipit": "In plausu grati cárminis",
+      "full_text": "In plausu grati cárminis\nadsit nova lætítia,\ndura Dei matris Vírginis\nsumit vita princípia.\nMaría, mundi glória,\nlucis ætérnæ fília,\nte præservávit Fílius\nab omni labe pénitus.\nOriginális mácula\ncuncta respérsit sǽcula;\nsola post Natum vítiis\nnumquam contácta díceris.\nCaput serpéntis cállidi\ntuo pede contéritur;\nfastus gigántis pérfidi\nDavid funda devíncitur.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_sanctis",
+          "date": "12/08"
+        }
+      ]
+    },
+    {
+      "id": "inter_ternas_superum_coronas",
+      "incipit": "Inter ætérnas súperum corónas",
+      "full_text": "Inter ætérnas súperum corónas,\nquas sacro partas cólimus triúmpho,\némicas celsis méritis corúscus,\no Benedícte!\n\n\nSancta te compsit púerum senéctus,\nnil sibi de te rápuit volúptas,\náruit mundi tibi flos, ad alta\nmente leváto.\n\n\nHinc fuga lapsus pátriam, paréntes\ndéseris, fervens némorum colónus;\ninde conscríbis documénta vitæ\npulchra beátæ.\nIam docens omnes pópulos subésse\nlégibus tandem placitísque Christi,\nfac tuis cuncti précibus petámus\nc ǽlica semper.\nCláritas Patri genit ǽque Proli,\nFlámini Sancto decus atque cultus,\ngrátia quorum tibi tanta laudis\nglória lucet. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_vesperas",
+          "date": "07/11"
+        }
+      ]
+    },
+    {
+      "id": "ipsum_nunc_nobis_tempus_est",
+      "incipit": "Ipsum nunc nobis tempus est",
+      "full_text": "I. Quando Officium lectionis dicitur noctu vel summo\nmane:\n\nIpsum nunc nobis tempus est\nquo voce evangélica\nventúrus sponsus créditur,\nregni cæléstis cónditor.\nOccúrrunt sanctæ vírgines\nóbviam tunc advéntui,\ngestántes claras lámpadas,\nmagno lætántes gáudio.\nStultæ vero quæ rémanent\nexstínctas habent lámpadas,\nfrustra pulsántes iánuam,\nclausa iam regni régia.\nNunc vigilémus sóbrii\ngestántes mentes spléndidas,\nut veniénti Dómino,\ndigni currámus óbviam.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_officium_lectionis",
+          "day": "feria_II"
+        }
+      ]
+    },
+    {
+      "id": "iste_confessor_domini_sacratus",
+      "incipit": "Iste conféssor Dómini sacrátus",
+      "full_text": "Iste conféssor Dómini sacrátus,\nfesta plebs cuius célebrat per orbem,\nhódie lætus méruit secréta\nscándere cæli.\nQui pius, prudens, húmilis, pudícus,\nsóbrius, castus fuit et quiétus,\nvita dum præsens vegetávit eius\ncórporis artus.\nAd sacrum cuius túmulum frequénter\nmembra languéntum modo sanitáti,\nquólibet morbo fúerint graváti,\nrestituúntur.\nUnde nunc noster chorus in honórem\nípsius, hymnum canit hunc libénter,\nut piis eius méritis iuvémur\nomne per ævum.\nSit salus illi, decus atque virtus,\nqui supra cæli résidens cacúmen,\ntótius mundi máchinam gubérnat\ntrinus et unus. Amen.\n\nPropr. de Sanctis\nDie 11 novembris\nAd Vesperas",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "date": "11/11"
+        }
+      ]
+    },
+    {
+      "id": "iste_quem_lti_colimus_fideles",
+      "incipit": "Iste, quem læti cólimus, fidéles",
+      "full_text": "Iste, quem læti cólimus, fidéles,\ncuius excélsos cánimus triúmphos,\nhac die Ioseph méruit perénnis\ngáudia vitæ.\nO nimis felix, nimis o beátus,\ncuius extrémam vígiles ad horam\nChristus et Virgo simul astitérunt\nore seréno.\nIustus insígnis, láqueo solútus\ncarnis, ad sedes plácido sopóre\nmigrat ætérnas, rutilísque cingit\ntémpora sertis.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "date": "03/19"
+        }
+      ]
+    },
+    {
+      "id": "laude_te_cives_superi_coronant",
+      "incipit": "Laude te cives súperi corónant",
+      "full_text": "Laude te cives súperi corónant,\nmagne Ioánnes, sociúsque noster\niúngitur cantus, generóse præsul,\ncelse magíster.\nAureo profers veheménter ore\nverba quæ dives facilísque amóris\nvena progígnit, fériunt vel acri\nvúlnere noxas.\nIpse virtútum spéculum nitéscis\nac tuæ plebi méritis corúscas,\nómnibus, Pauli velut æmulátor,\nómnia factus.\nNemo te frangit, nihil imperántum,\nte domant iræ rutil ǽque honórem\nóbtines palmæ venerándus exsul,\npéctore martyr.\nNunc tuis valde précibus iuvémur,\nut Dei sedem céleres petámus,\ndúlcibus tecum, sonitúri amóris\nvócibus hymnos. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "09/13"
+        }
+      ]
+    },
+    {
+      "id": "legis_sacrat_sanctis_cremoniis",
+      "incipit": "Legis sacrátæ sanctis cæremóniis",
+      "full_text": "Legis sacrátæ sanctis cæremóniis\nsubiéctus omnis cálamo Mosáico\ndignátur esse, qui regit perfúlgidos\nin arce Patris órdines angélicos,\ncælúmque, terram fundávit ac mária.\nMater beáta carnis sub velámine\nDeum ferébat úmeris castíssimis,\ndúlcia strictis óscula sub lábiis\nDeíque veri hominísque imprésserat\nori, iubénte quo sunt cuncta cóndita.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "lucis_creator_optime",
+      "incipit": "Lucis creátor óptime",
+      "full_text": "Lucis creátor óptime,\nlucem diérum próferens,\nprimórdiis lucis novæ\nmundi parans oríginem;\nQui mane iunctum vésperi\ndiem vocári pr ǽcipis:\ntætrum chaos illábitur;\naudi preces cum flétibus.\nNe mens graváta crímine\nvitæ sit exsul múnere,\ndum nil perénne cógitat\nseséque culpis ílligat.\nCælórum pulset íntimum,\nvitále tollat pr ǽmium;\nvitémus omne nóxium,\npurgémus omne péssimum.\n\nPsalterium\nHebd I\nDominica\nAd II Vesperas\n\n\n\nPræsta, Pater piíssime,\nPatríque compar Unice,\ncum Spíritu Paráclito\nregnans per omne s ǽculum. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_i_vesperas",
+          "day": "dominica"
+        }
+      ]
+    },
+    {
+      "id": "lucis_largitor_splendide",
+      "incipit": "Lucis largítor spléndide",
+      "full_text": "Lucis largítor spléndide,\ncuius seréno lúmine\npost lapsa noctis témpora\ndies refúsus pánditur,\nTu verus mundi lúcifer,\nnon is qui parvi síderis\nventúræ lucis núntius\nangústo fulget lúmine,\n\nPsalterium\nHebd IV\nFeria II\nAd Laudes matutinas\n\n\n\nSed toto sole clárior,\nlux ipse totus et dies,\nintérna nostri péctoris\nillúminans præcórdia.\nEvíncat mentis cástitas\nquæ caro cupit árrogans,\nsanctúmque puri córporis\ndelúbrum servet Spíritus.\nSit, Christe, rex piíssime,\ntibi Patríque glória\ncum Spíritu Paráclito,\nin sempitérna s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_laudes",
+          "day": "feria_II"
+        }
+      ]
+    },
+    {
+      "id": "lux_iucunda_lux_insignis",
+      "incipit": "Lux iucúnda, lux insígnis",
+      "full_text": "Lux iucúnda, lux insígnis,\nqua de throno missus ignis\nin Christi discípulos,\nCorda replet, linguas ditat,\nad concórdes nos invítat\ncordis, linguæ módulos.\nConsolátor alme, veni,\nlinguas rege, corda leni:\nnihil fellis aut venéni\nsub tua præséntia.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "day": "dominica"
+        }
+      ]
+    },
+    {
+      "id": "lux_terna_lumen_potens",
+      "incipit": "Lux ætérna, lumen potens",
+      "full_text": "I. Quando Officium lectionis dicitur noctu vel summo\nmane:\n\nLux ætérna, lumen potens,\ndies indefíciens,\ndebellátor atræ noctis,\nreparátor lúminis,\ndestructórque tenebrárum,\nillustrátor méntium:\nQuo nascénte, suscitámur,\nquo vocánte súrgimus;\nfaciénte quo beáti,\nquo linquénte míseri;\nquo a morte liberáti,\nquo sumus perlúcidi;\nMortis quo victóres facti,\nnoctis atque s ǽculi;\nergo nobis, rex ætérne,\nlucem illam tríbue,\nquæ fuscátur nulla nocte,\nsolo gaudens lúmine.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_officium_lectionis",
+          "day": "sabbato"
+        }
+      ]
+    },
+    {
+      "id": "lti_colentes_famulum",
+      "incipit": "Læti coléntes fámulum",
+      "full_text": "Læti coléntes fámulum\nqui te perfécte cóluit,\ntibi gratánter, Dómine,\namóris hymnum prómimus.\n\nCommune\nSanctarum\nPro Religiosis\nAd II Vesperas\n\n\n\nChristi fidélis ássecla,\nultro relíquit gáudia\ncuncta quæ mundus éxhibet\nfugáces atque cópias.\n\n\nTibi se vovit súbditum\nhumilitáte obœ́diens,\nChristi, carnis mundítie,\nsponsi æmulátor vírginum.\n\n\n\n\nTibi placére géstiit\ntibíque adhǽsit únice,\nmentem, verba vel ópera\namóris fovens ígnibus.\nHis caritátis vínculis\nin terris tibi déditus,\nliber ad astra iúgiter\ntriumphatúrus pródiit.\nEius exémplis éxcitos\nda gradi nos alácriter,\nut te cum Nato et Spíritu\nlaudémus hymnis cǽlicis. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "commune",
+          "hour": "ad_i_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "legifer_prudens_venerande_doctor",
+      "incipit": "Légifer prudens, veneránde doctor",
+      "full_text": "Légifer prudens, veneránde doctor,\nqui nites celsis méritis per orbem,\ndénuo comple, Benedícte, mundum\nlúmine Christi.\n\nDie 11 iulii\nAd Laudes matutinas\n\n\n\nFlóruit per te novus atque miro\ngéntium nexu sociátus ordo;\niúribus sacris tua vox subégit\ndúlciter omnes.\nLíberos Iesu paritérque servos\nrégula magna statuísti alúmnos,\nquos amor fotus précibus revínxit\net labor unus.\n\n\nIamque fratérne, duce te, labórent,\nmútuo certent pópuli favóre,\ngáudeant pacis refovére semper\ndona beátæ.\n\n\nCláritas Patri genit ǽque Proli,\nFlámini Sancto decus atque cultus,\ngrátia quorum tibi tanta laudis\nglória lucet. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "07/11"
+        }
+      ]
+    },
+    {
+      "id": "luminis_fons_lux_et_origo_lucis",
+      "incipit": "Lúminis fons, lux et orígo lucis",
+      "full_text": "Lúminis fons, lux et orígo lucis,\ntu pius nostris précibus favéto,\nluxque, peccáti ténebris fugátis,\nnos tua adórnet.\nEcce transáctus labor est diéi,\nteque nos tuti sumus adnuénte;\nen tibi grates ágimus libéntes\ntempus in omne.\nSolis abscéssus ténebras redúxit:\nille sol nobis rádiet corúscus\nluce qui fulva fovet angelórum\nágmina sancta.\nQuas dies culpas hodiérna texit,\nChristus deléto pius atque mitis,\npectus et puro rútilet nitóre\ntémpore noctis.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_vesperas",
+          "day": "feria_II"
+        }
+      ]
+    },
+    {
+      "id": "magi_videntes_parvulum",
+      "incipit": "Magi vidéntes párvulum",
+      "full_text": "Magi vidéntes párvulum\neóa promunt múnera,\nstratíque votis ófferunt\ntus, myrrham et aurum régium.\nAgnósce clara insígnia\nvirtútis ac regni tui,\nPuer, cui trinam Pater\nprædestinávit índolem:\nRegem Deúmque annúntiant\nthesáurus et fragrans odor\nturis Sabǽi, at mýrrheus\npulvis sepúlcrum prǽdocet.\nO sola magnárum úrbium\nmaior Bethlem, cui cóntigit\nducem salútis cǽlitus\nincorporátum gígnere!\n\n\nTempus Nativitatis\nA soll. Epiphaniæ\nHymnus\nAd Off Lectionis\n\n\n\nHunc et prophétis téstibus\nîsdémque signatóribus\ntestátor et sator iubet\nadire regnum et cérnere:\nRegnum quod ambit ómnia\ndia et marína et térrea\na solis ortu ad éxitum\net tártara et cælum supra.\nIesu, tibi sit glória,\nqui te revélas géntibus,\ncum Patre et almo Spíritu,\nin sempitérna sǽcula. Amen.\nAd Laudes matutinas",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "nativitatis",
+          "hour": "ad_officium_lectionis"
+        },
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus_nativitatis",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "magni_cohortis_principem",
+      "incipit": "Magni cohórtis príncipem",
+      "full_text": "Magni cohórtis príncipem\nIgnátium laus cóncinat,\nclarum loquélis, áctibus\nducem ciéntem mílites.\nRegi suprémo c ǽlitum\namóre vinctus único,\neius fovénda glória\nnil cénsuit iucúndius.\nHinc se suósque dévovet,\nurgéntis instar ágminis,\nut iura Christi víndicet,\nerróris umbras díssipet.\nSancto monénte Spíritu,\ncertam salútis sémitam\nscrutátor altus s ǽculis\ndoctórque prudens dénotat.\nSuis alúmnis díssita\nmissis in orbis lítora,\nEcclésiam quot éxpetit\nfrondére lætam géntibus!\nSit Trinitáti glória,\nquæ nos det huius mílitis\nexémpla fortes pérsequi\nin Christi honórem pérpetim. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "07/31"
+        }
+      ]
+    },
+    {
+      "id": "magnis_prophet_vocibus",
+      "incipit": "Magnis prophétæ vócibus",
+      "full_text": "Magnis prophétæ vócibus\nveníre Christum núntiant,\nlætæ salútis pr ǽvia,\nqua nos redémit, grátia.\nHinc mane nostrum prómicat\net corda læta exǽstuant,\ncum vox fidélis pérsonat\nprænuntiátrix glóriæ.\nAdvéntus hic primus fuit,\npuníre quo non sǽculum\nvenit, sed ulcus térgere,\nsalvándo quod períerat.\nAt nos secúndus prǽmonet\nadésse Christum iánuis,\nsanctis corónas réddere\ncælíque regna pándere.\nÆtérna lux promíttitur\nsidúsque salvans prómitur;\niam nos iubar præfúlgidum\nad ius vocat cæléstium.\nTe, Christe, solum qu ǽrimus\nvidére, sicut es Deus,\nut perpes hæc sit vísio\nperénne laudis cánticum. Amen.\nAd Horam mediam\nAd Tertiam",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "magn_deus_potenti",
+      "incipit": "Magnæ Deus poténtiæ",
+      "full_text": "Magnæ Deus poténtiæ,\nqui ex aquis ortum genus\npartim remíttis gúrgiti,\npartim levas in áera,\nDemérsa lymphis ímprimens,\nsubvécta cælis írrogans,\nut, stirpe una pródita,\ndivérsa répleant loca:\nLargíre cunctis sérvulis,\nquos mundat unda sánguinis,\nnescíre lapsus críminum\nnec ferre mortis t ǽdium,\nUt culpa nullum déprimat,\nnullum levet iactántia,\nelísa mens ne cóncidat,\neláta mens ne córruat.\nPræsta, Pater piíssime,\nPatríque compar Unice,\ncum Spíritu Paráclito\nregnans per omne s ǽculum. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_vesperas",
+          "day": "feria_V"
+        }
+      ]
+    },
+    {
+      "id": "maria_virgo_regia",
+      "incipit": "Maria, virgo régia",
+      "full_text": "Maria, virgo régia,\nsponsa regis et fília,\nte Dei sapiéntia\nelégit ante s ǽcula.\n\nPuélla carens mácula,\nDei domus ebúrnea,\nte dedicávit c ǽlitus\nmissus ab eo Spíritus.\nCaritátis signáculum,\ntotíus boni spéculum,\nauróra veri lúminis,\narca divíni séminis,",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "date": "11/21"
+        }
+      ]
+    },
+    {
+      "id": "martyr_dei_qui_qu_unicum",
+      "incipit": "Martyr Dei, qui (quæ) únicum",
+      "full_text": "Martyr Dei, qui (quæ) únicum\nPatris sequéndo Fílium\nvictis triúmphas hóstibus,\nvictor (victrix) fruens cæléstibus,\nTui precátus múnere\nnostrum reátum dílue,\narcens mali contágium,\nvitæ repéllens t ǽdium.\nSolúta sunt iam víncula\ntui sacráti córporis;\nnos solve vinclis s ǽculi\namóre Fílii Dei.\n\nCommune\nunius martyris\nAd Laudes matutinas\n\n\n\nHonor Patri cum Fílio\net Spíritu Paráclito,\nqui te coróna pérpeti\ncingunt in aula glóriæ. Amen.\nPro martyre virgine:\n\nO castitátis sígnifer\net fortitúdo mártyrum,\nutrísque reddens pr ǽmia,\naudi benígnus súpplices.\n\n\nHæc virgo magni péctoris,\nbeáta sorte dúplici\nbináque palma nóbilis,\nhic tóllitur præcóniis.\n\n\nHæc te fatéri pértinax,\ntortórís acre brácchium\narmávit in se strénue\ntibíque fudit spíritum.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "commune",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "martine_par_apostolis",
+      "incipit": "Martíne, par apóstolis",
+      "full_text": "Martíne, par apóstolis,\nfestum coléntes tu fove;\nqui vívere discípulis\naut mori vis, nos réspice.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "date": "11/11"
+        }
+      ]
+    },
+    {
+      "id": "maria_dives_gratia",
+      "incipit": "María, dives grátia",
+      "full_text": "María, dives grátia,\no sola quæ casto potes\nfovére Iesum, péctore,\ncum lacte donans óscula;\nTuque ex vetústis pátribus\ndelécte custos Vírginis,\ndulci patris quem nómine\ndivína Proles ínvocat:\n\n\nDe stirpe Iesse nóbili\nnati in salútem géntium,\naudíte nos, qui súpplices\nex corde vota fúndimus.\n\n\nQua vestra sedes flóruit\nvirtútis omnis grátia,\nhanc detur in domésticis\nreférre posse móribus.\nIesu, tuis obœ́diens\nqui factus es paréntibus,\ncum Patre summo ac Spíritu\nsemper tibi sit glória. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "nativitatis",
+          "hour": "ad_i_vesperas",
+          "day": "dominica"
+        }
+      ]
+    },
+    {
+      "id": "maria_qui_mortalium",
+      "incipit": "María, qui mortálium",
+      "full_text": "María, qui mortálium\npreces amánter éxcipis,\nrogámus ecce súpplices,\nnobis adésto pérpetim.\n\nCommune\nB. Mariae Virginis\nAd I Vesperas\n\n\n\nAdésto, si nos críminum\ncaténa stringit hórrida;\ncito resólve cómpedes\nquæ corda culpis ílligant.\n\n\nSuccúrre, si nos s ǽculi\nfallax imágo péllicit,\nne mens salútis trámitem,\noblíta cæli, déserat.\n\n\nSuccúrre, si vel córpori\nadvérsa sors impéndeat;\nfac sint quiéta témpora,\nætérnitas dum lúceat.\nTuis et esto fíliis\ntutéla mortis témpore,\nut, te iuvánte, cónsequi\nperénne detur pr ǽmium.\nPatri sit et Paráclito\ntuóque Nato glória,\nqui veste te mirábili\ncircumdedérunt grátiæ. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "commune",
+          "hour": "ad_i_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "maria_qu_mortalium",
+      "incipit": "María, quæ mortálium",
+      "full_text": "María, quæ mortálium\npreces amánter éxcipis,\nrogámus ecce súpplices,\nnobis adésto pérpetim.\nAdésto, si nos críminum\ncaténa stringit hórrida;\ncito resólve cómpedes\nquæ corda culpis ílligant.\nSuccúrre, si nos s ǽculi\nfallax imágo péllicit,\nne mens salútis trámitem,\noblíta cæli, déserat.\nSuccúrre, si vel córpori\nadvérsa sors impéndeat:\nfac sint quiéta témpora,\nætérnitas dum lúceat.\nTuis et esto fíliis\ntutéla mortis témpore,\nut, te iuvánte, cónsequi\nperenne detur pr ǽmium.\nPatri sit et Paráclito\ntuóque Nato glória,\nqui veste te mirábili\ncircumdedérunt grátiæ. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus_nativitatis",
+          "hour": "ad_i_vesperas"
+        },
+        {
+          "volume": 2,
+          "section": "commune",
+          "hour": "ad_i_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "matthia_sacratissimo",
+      "incipit": "Matthía, sacratíssimo",
+      "full_text": "Matthía, sacratíssimo\nApostolórum c œ́tui\nquam miro tu consílio\nascríptus es divínitus!\n\nAbscésserat discípulus,\ntristi miser suspéndio\nmagni gradum fastígii\nChristíque amórem dénegans.\nEn Christi te diléctio\nad eius transfert glóriam,\nPetri movénte lábia\nsortésque Sancto Spíritu.\nTanto dicátus múneri,\nlucem revélas géntibus\nad mortem usque, strénuus\nIesum conféssus sánguine.\nDa nos, beáte Apóstole,\nlætis promptísque córdibus\nalmus quascúmque Spíritus\nvias demónstrat, pérsequi.\nSit Trinitáti glória,\nquæ nobis ad cæléstia\nper te concédat scándere\nhymnósque ætérnos dícere. Amen.\n\nPropr. de Sanctis\nDie 14 maii\nAd Off Lectionis",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_officium_lectionis",
+          "date": "05/14"
+        }
+      ]
+    },
+    {
+      "id": "mole_gravati_criminum",
+      "incipit": "Mole graváti críminum",
+      "full_text": "Mole graváti críminum\nad te, regína c ǽlitum,\nconfugiéntes, póscimus\nnostris ut adsis précibus.\n\nÆtérnæ vitæ iánua,\naurem nobis accómmoda,\nper quam spes vitæ rédiit,\nquam Eva peccans ábstulit.\nTu princeps, mater Príncipis,\nvitam depósce fámulis,\net pæniténdi spátia\nnobis indúlgens ímpetra.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "date": "08/22"
+        }
+      ]
+    },
+    {
+      "id": "magdal_sidus_mulier_beata",
+      "incipit": "Mágdalæ sidus, múlier beáta",
+      "full_text": "Mágdalæ sidus, múlier beáta,\nte pio cultu venerámur omnes,\nquam sibi Christus sociávit arcti\nf œ́dere amóris.\nCum tibi illíus pátefit potéstas\nd ǽmonum vires ábigens treménda,\ntu fide gaudes potióre necti\ngrata medénti.\nHæret hinc urgens tibi caritátis\nvis ut insístas pédibus Magístri,\nférvidis illum comitáta semper\nsédula curis.\nTuque complóras Dóminum, crucíque\nímpetu flagrans pietátis astas;\nmembra tu terges studiósa et ungis\ndanda sepúlcro.\nQuos amor Christi péperit, triúmphis\nnos fac adiúngi sócios per ævum,\natque Dilécto simul affluénter\npángere laudes. Amen.\n\nPropr. de Sanctis\nDie 22 iulii\nAd Vesperas",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_vesperas",
+          "date": "07/22"
+        }
+      ]
+    },
+    {
+      "id": "martyris_christi_colimus_triumphum",
+      "incipit": "Mártyris Christi cólimus triúmphum",
+      "full_text": "Mártyris Christi cólimus triúmphum,\ndona qui mundi peritúra spernit,\nfert opem nudis, aliménta, nummos\ntradit egénis.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "date": "08/10"
+        }
+      ]
+    },
+    {
+      "id": "medi_noctis_tempus_est",
+      "incipit": "Médiæ noctis tempus est;",
+      "full_text": "I. Quando Officium lectionis dicitur noctu vel summo\nmane:\n\nMédiæ noctis tempus est;\nprophética vox ádmonet\ndicámus laudes ut Deo\nPatri semper ac Fílio,\n\nPsalterium\nHebd II\nDominica\nAd Off Lectionis\n\n\n\nSancto quoque Spirítui:\nperfécta enim Trínitas\nuniúsque substántiæ\nlaudánda nobis semper est.\n\n\nTerrórem tempus hoc habet,\nquo, cum vastátor ángelus\nÆgýpto mortem íntulit,\ndelévit primogénita.\n\n\nHæc iustis hora salus est,\nquos tunc ibídem ángelus\nausus puníre non erat,\nsignum formídans sánguinis.\nÆgýptus flebat fórtiter\ntantórum diro fúnere;\nsolus gaudébat Israel\nagni protéctus sánguine.\nNos verus Israel sumus:\nlætámur in te, Dómine,\nhostem spernéntes et malum,\nChristi defénsi sánguine.\nDignos nos fac, rex óptime,\nfutúri regni glória,\nut mereámur láudibus\nætérnis te concínere. Amen.\nII. Quando Officium lectionis dicitur diurno tempore:\n\nSalve dies, diérum glória,\ndies felix Christi victória,\ndies digna iugi lætítia,\ndies prima.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_officium_lectionis",
+          "day": "dominica"
+        },
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "day": "dominica"
+        }
+      ]
+    },
+    {
+      "id": "mentibus_ltis_tua_festa_marce",
+      "incipit": "Méntibus lætis tua festa, Marce",
+      "full_text": "Méntibus lætis tua festa, Marce,\natque pergrátis celebrámus omnes,\nmagna qui Christi tribuísse plebi\nte memorámus.\nMatris exémplis, vénerans amóre\nférvido Petrum, séqueris fidélis,\nverba de Christi lábiis ab ipso\nhausta recóndis.\nSpíritu accénsus, módico libéllo\nmira tu summi réseras Magístri\ngesta, tu narras quibus et loquélis\nínstruat orbem.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "date": "04/25"
+        }
+      ]
+    },
+    {
+      "id": "nocte_surgentes_vigilemus_omnes",
+      "incipit": "Nocte surgéntes vigilémus omnes",
+      "full_text": "I. Quando Officium lectionis dicitur noctu vel summo\nmane:\n\nNocte surgéntes vigilémus omnes,\nsemper in psalmis meditémur atque\nvíribus totis Dómino canámus\ndúlciter hymnos,\nUt, pio regi páriter canéntes,\ncum suis sanctis mereámur aulam\níngredi cæli, simul et beátam\ndúcere vitam.\nPræstet hoc nobis Déitas beáta\nPatris ac Nati, paritérque Sancti\nSpíritus, cuius résonat per omnem\nglória mundum. Amen.\nII. Quando Officium lectionis dicitur diurno tempore:\n\nAd preces nostras deitátis aures,\nDeus, inclína pietáte sola;\nsúpplicum vota súscipe, precámur\nfámuli tui.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_officium_lectionis",
+          "day": "feria_III"
+        }
+      ]
+    },
+    {
+      "id": "nocti_succedit_lucifer",
+      "incipit": "Nocti succédit lúcifer",
+      "full_text": "Nocti succédit lúcifer,\nquem mox auróra séquitur,\nsolis ortum prænúntians\nmundum lustrántis lúmine.\nChristus sol est iustítiæ,\nauróra Mater grátiæ,\nquam, Anna, præis rútilans\nlegis propéllens ténebras.\nAnna, radix ubérrima,\narbor tu salutífera,\nvirgam prodúcens flóridam\nquæ Christum nobis áttulit.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "date": "07/26"
+        }
+      ]
+    },
+    {
+      "id": "novus_athleta_domini",
+      "incipit": "Novus athléta Dómini",
+      "full_text": "Novus athléta Dómini\ncollaudétur Domínicus,\nqui rem confórmat nómini,\nvir factus evangélicus.\nConsérvans sine mácula\nvirginitátis lílium,\nardébat quasi fácula\npro zelo pereúntium.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "date": "08/08"
+        }
+      ]
+    },
+    {
+      "id": "nox_atra_rerum_contegit",
+      "incipit": "Nox atra rerum cóntegit",
+      "full_text": "I. Quando Officium lectionis dicitur noctu vel summo\nmane:\n\nNox atra rerum cóntegit\nterræ colóres ómnium:\nnos confiténtes póscimus\nte, iuste iudex córdium,\nUt áuferas piácula\nsordésque mentis ábluas,\ndonésque, Christe, grátiam\nut arceántur crímina.\nMens, ecce, torpet ímpia,\nquam culpa mordet nóxia;\nobscúra gestit tóllere\net te, Redémptor, qu ǽrere.\nRepélle tu calíginem\nintrínsecus quam máxime,\nut in beáto gáudeat\nse collocári lúmine.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_officium_lectionis",
+          "day": "feria_V"
+        }
+      ]
+    },
+    {
+      "id": "nox_et_tenebr_et_nubila",
+      "incipit": "Nox et tenébræ et núbila",
+      "full_text": "Nox et tenébræ et núbila,\nconfúsa mundi et túrbida,\nlux intrat, albéscit polus:\nChristus venit; discédite.\nCalígo terræ scínditur\npercússa solis spículo,\nrebúsque iam color redit\nvultu niténtis síderis.\nSic nostra mox obscúritas\nfraudísque pectus cónscium,\nruptis retéctum núbibus,\nregnánte palléscet Deo.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "hour": "ad_laudes",
+          "day": "feria_IV"
+        },
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore"
+        }
+      ]
+    },
+    {
+      "id": "nunc_sancte_nobis_spiritus",
+      "incipit": "Nunc, Sancte, nobis, Spíritus",
+      "full_text": "Nunc, Sancte, nobis, Spíritus,\nunum Patri cum Fílio,\ndignáre promptus íngeri\nnostro refúsus péctori.\nOs, lingua, mens, sensus, vigor\nconfessiónem pérsonent,\nflamméscat igne cáritas,\naccéndat ardor próximos.\nPer te sciámus da Patrem,\nnoscámus atque Fílium,\nte utriúsque Spíritum\ncredámus omni témpore. Amen.\n\nTempus Nativitatis\nHymnus\nAd Horam mediam",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus",
+          "hour": "ad_horam_mediam"
+        },
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "nativitatis",
+          "hour": "ad_horam_mediam"
+        }
+      ]
+    },
+    {
+      "id": "nobilem_christi_famulam_diserta",
+      "incipit": "Nóbilem Christi fámulam disérta",
+      "full_text": "Nóbilem Christi fámulam disérta\nvoce cantémus, decus æmulátam\nféminæ fortis, sacra cui profúdit\npágina laudes.\nCui fides vivax, pia spes amórque\nin Deum fervens, óperum bonórum\nfértilis radix, amor unde fratrum\nnáscitur ultro.\nMotus illíus méritis, remítte,\nsóntibus nobis scelus omne, Iesu,\nut tibi puro resonémus æquas\npéctore laudes.\nSit Patri summo decus atque virtus,\nlaus tibi Nato celebrísque cultus,\nFlámini Sancto párilis potéstas\nnunc et in ævum. Amen.\n\n\nCommune\nSanctarum\nMulierum\nAd Laudes matutinas\n\n\n\nPro pluribus sanctis mulieribus:\n\nNóbiles Christi fámulas disérta\nvoce cantémus, decus æmulátas\nféminæ fortis, sacra cui profúdit\npágina laudes.\nNon eas mundus láqueis revíncit,\niussa quæ Patris súbeunt voléntes,\nut bonum Christi sátagant ubíque\nspárgere odórem.\nÉdomant corpus, precibúsque mentem\nnútriunt sanctis; peritúra temnunt\nlucra, ut inquírant sibi permanéntis\nprǽmia vitæ.\nSit Deo soli decus et potéstas,\nlaus in excélsis honor ac perénnis,\nqui suis totum móderans gubérnat\nlégibus orbem. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus_nativitatis",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "o_roma_felix_qu_tantorum_principum",
+      "incipit": "O Roma felix, quæ tantórum príncipum",
+      "full_text": "O Roma felix, quæ tantórum príncipum\nes purpuráta pretióso sánguine!\nExcéllis omnem mundi pulchritúdinem\nnon laude tua, sed sanctórum méritis,\nquos cruentátis iugulásti gládiis.\nVos ergo modo, gloriósi mártyres,\nPetre beáte, Paule, mundi lílium,\ncæléstis aulæ triumpháles mílites,\nprécibus almis vestris nos ab ómnibus\nmuníte malis, ferte super ǽthera.\nGlória Patri per imménsa s ǽcula,\nsit tibi, Nate, decus et impérium,\nhonor, potéstas Sanctóque Spirítui;\nsit Trinitáti salus indivídua\nper infiníta sæculórum s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_i_vesperas",
+          "date": "06/29"
+        }
+      ]
+    },
+    {
+      "id": "o_gloriosa_domina",
+      "incipit": "O gloriósa dómina",
+      "full_text": "O gloriósa dómina,\nexcélsa super sídera,\nqui te creávit próvide,\nlactas sacráto úbere.\nQuod Eva tristis ábstulit,\ntu reddis almo gérmine;\nintrent ut astra flébiles,\nsternis benígna sémitam.\n\n\nMemoria\nSanctae Mariae\nin sabbato\nAd Laudes matutinas\n\n\n\nTu regis alti iánua\net porta lucis fúlgida;\nvitam datam per Vírginem,\ngentes redémptæ, pláudite.\n\n\nPatri sit et Paráclito\ntuóque Nato glória,\nqui veste te mirabíli\ncircumdedérunt grátiæ. Amen.\n\n\n\nVel:\n\nQuæ caritátis fúlgidum\nes astrum, Virgo, súperis,\nspei nobis mortálibus\nfons vivax es et prófluus.\nSic vales, celsa Dómina,\nin Nati cor piíssimi,\nut qui fidénter póstulat,\nper te secúrus ímpetret.\nOpem tua benígnitas\nnon solum fert poscéntibus,\nsed et libénter s ǽpius\nprecántum vota pr ǽvenit.\nIn te misericórdia,\nin te magnificéntia;\ntu bonitátis cúmulas\nquicquid creáta póssident.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus_nativitatis",
+          "hour": "ad_laudes"
+        },
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_laudes"
+        },
+        {
+          "volume": 3,
+          "section": "commune"
+        },
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "o_lux_beata_clitum",
+      "incipit": "O lux beáta cǽlitum",
+      "full_text": "O lux beáta cǽlitum\net summa spes mortálium,\nIesu, cui doméstica\narrísit orto cáritas;\nMaría, dives grátia,\no sola quæ casto potes\nfovére Iesum péctore,\ncum lacte donans óscula;",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus_nativitatis",
+          "hour": "ad_i_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "o_lux_beata_trinitas",
+      "incipit": "O lux, beáta Trínitas",
+      "full_text": "O lux, beáta Trínitas\net principális Unitas,\niam sol recédit ígneus:\ninfúnde lumen córdibus.\nTe mane laudum cármine,\nte deprecémur véspere;\nte nostra supplex glória\nper cuncta laudet s ǽcula.\nChristum rogámus et Patrem,\nChristi Patrísque Spíritum;\nunum potens per ómnia,\nfove precántes, Trínitas. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_i_vesperas",
+          "day": "dominica"
+        }
+      ]
+    },
+    {
+      "id": "o_lux_salutis_nuntia",
+      "incipit": "O lux, salútis núntia",
+      "full_text": "O lux, salútis núntia,\nqua Vírgini fert Ángelus\ncomplénda mox orácula\net cara terris gáudia.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "date": "03/25"
+        }
+      ]
+    },
+    {
+      "id": "o_memoriale_mortis_domini",
+      "incipit": "O memoriále mortis Dómini",
+      "full_text": "O memoriále mortis Dómini,\npanis vivus vitam præstans hómini,\npræsta meæ menti de te vívere\net te illi semper dulce sápere.\nPie pelicáne, Iesu Dómine,\nme immúndum munda tuo sánguine,\ncuius una stilla salvum fácere\ntotum mundum quit ab omni scélere.\nTe cum reveláta cernam fácie\nvisu tandem lætus tuæ glóriæ,\nPatri, tibi laudes et Spirítui\ndicam beatórum iunctus cœ́tui. Amen.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "o_nata_lux_de_lumine",
+      "incipit": "O nata lux de lúmine",
+      "full_text": "O nata lux de lúmine,\nIesu, redémptor s ǽculi,\ndignáre clemens súpplicum\nlaudes precésque súmere.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_horam_mediam",
+          "date": "08/06"
+        }
+      ]
+    },
+    {
+      "id": "o_nimis_felix_meritique_celsi",
+      "incipit": "O nimis felix meritíque celsi",
+      "full_text": "O nimis felix meritíque celsi,\nnésciens labem nívei pudóris,\npr ǽpotens martyr eremíque cultor,\nmáxime vatum.\n\n\n\nNunc potens nostri méritis opímis\npéctoris duros lápides repélle,\násperum planans iter, et refléxos\ndírige calles,\n\n\nUt pius mundi sator et redémptor,\nméntibus pulsa mácula polítis,\nrite dignétur véniens sacrátos\npónere gressus.\n\n\nLáudibus cives célebrant supérni\nte, Deus simplex paritérque trine;\nsúpplices ac nos véniam precámur:\nparce redémptis. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_i_vesperas",
+          "date": "06/24"
+        },
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "08/29"
+        }
+      ]
+    },
+    {
+      "id": "o_quam_glorifica_luce_coruscas",
+      "incipit": "O quam glorífica luce corúscas",
+      "full_text": "O quam glorífica luce corúscas,\nstirpis Davídicæ régia proles,\nsublímis résidens, virgo María,\nsupra cælígenas ǽtheris omnes.\n\nPropr. de Sanctis\nDie 22 augusti\nAd Laudes matutinas",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "date": "08/22"
+        }
+      ]
+    },
+    {
+      "id": "o_redemptoris_pietas_colenda",
+      "incipit": "O redemptóris píetas colénda",
+      "full_text": "O redemptóris píetas colénda,\nquæ Patri exóptans hómines dicári,\nSpíritus miro varióque ducis\npéctora nutu!\nQuos tua lympha facis esse natos\nex Deo vero, nova vis in illis\ngrátiam crebro dare caritátis\ngérmina, Christe.\nTu vocas: currunt álacres vocáti,\nábdicant cunctis, duce te voléntes,\ncalle regáli crucis, usque solum\nqu ǽrere Patrem.\nC ǽlitus fervens ita sanctus iste\nvíribus totis tibi amánter hæsit,\natque virtútum cúpiit tenére\ncúlmina læta.\n\nCommune\nSanctarum\nPro Religiosis\nAd Laudes matutinas\n\n\n\nLaus Patri summo, tibi, Christe princeps,\nFlámini Sancto párilis resúltet,\nparva qui danti, bona corde magno\ncéntupla fertis. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus_nativitatis",
+          "hour": "ad_laudes"
+        },
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_laudes"
+        },
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "o_sancta_mundi_domina",
+      "incipit": "O sancta mundi dómina",
+      "full_text": "O sancta mundi dómina,\nregína cæli ínclita,\no stella maris fúlgida,\nvirgo mater mirífica,\n\nAppáre, dulcis fília,\nnitésce iam, virgúncula,\nflorem latúra nóbilem,\nChristum Deum et hóminem.\nNatális tui ánnua\nen cólimus sollémnia,\nquo stirpe delectíssima\nmundo fulsísti génita.\nPer te sumus, terrígenæ\nsimúlque iam cælígenæ,\npacáti pace nóbili,\nmore non æstimábili.\n\nPropr. de Sanctis\nDie 8 septembris\nAd Laudes matutinas\n\n\n\nSit Trinitáti glória\nper sæculórum s ǽcula,\ncuius vocáris múnere\nmater beáta Ecclésiæ. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "09/08"
+        }
+      ]
+    },
+    {
+      "id": "o_sator_rerum_reparator_vi",
+      "incipit": "O sator rerum, reparátor ævi",
+      "full_text": "I. Quando Officium lectionis dicitur noctu vel summo\nmane:\n\nO sator rerum, reparátor ævi,\nChriste, rex regum, metuénde censor,\ntu preces nostras paritérque laudes\nsúscipe clemens.\nNoctis en cursu tibi vota laudum\npángimus; præsta tibi sint ut apta,\nnosque concéntu réfove perénni,\nlúminis auctor.\nDa dies nobis probitáte faustos\nmortis ignáram tribuéndo vitam,\nsemper ut nostros tua sit per actus\nglória perpes.\nUre cor nostrum, pius ure lumbos\nigne divíno vigilésque nos fac,\nsemper ardéntes mánibus lucérnas\nut teneámus.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_officium_lectionis",
+          "day": "feria_IV"
+        }
+      ]
+    },
+    {
+      "id": "o_sempitern_curi",
+      "incipit": "O sempitérnæ cúriæ",
+      "full_text": "O sempitérnæ cúriæ\nregis suprémi príncipes,\nquos ipse Iesus édocens\ndonávit orbi Apóstolos,\nSupérna vos Ierúsalem,\nlucérna cuius Agnus est,\ngemmas micántes póssidet,\npræclára vos fundámina.\nVos et celébrat grátulans\nnunc sponsa Christi Ecclésia,\nquam sermo vester éxciit,\nquam consecrástis sánguine.\nCadéntibus cum sǽculis\niudex Redémptor séderit,\nqua laude vos sedébitis,\nsenátus altæ glóriæ!",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "commune"
+        },
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "o_vir_beate_apostolis",
+      "incipit": "O vir beáte, Apóstolis",
+      "full_text": "O vir beáte, Apóstolis\ncomes labórum sédule\nadiútor atque múneris,\nlaudes precésque súscipe.\n\nDie 25 aprilis\nAd Off Lectionis\n\n\n\nChristi per illos núntios\nexórta sunt lætíssima\net veritátis s ǽcula\net pacis atque gáudii.\n\n\nAssúmptus et tu c ǽlitus\nad tanta consors póndera,\ncompar nitéscis glória\npotentiáque prómines.\n\n\nTu, seminátor lúminis,\nfac sole Christi vívido\nvirére ubíque gérmina\ncæli replénda ad hórrea.\n\n\nSimúlque cum primóribus\nsummo astitúrus Iúdici,\nda nostra solvi débita,\nnos da fovéri grátia.\nSit Trinitáti glória,\nquæ præstet in cæléstibus\nnos eius omni témpore\ngaudére tecum pr ǽmiis. Amen.\nDóminus dabit verbum\nallelúia.\nR . Virtúte multa, allelúia.\nV.\n\n∫\n\n\nevangelizántibus,\n\n\n∫",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_officium_lectionis",
+          "date": "04/25"
+        },
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_officium_lectionis",
+          "date": "06/11"
+        },
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "date": "06/11"
+        },
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_vesperas",
+          "date": "10/18"
+        }
+      ]
+    },
+    {
+      "id": "optatus_votis_omnium",
+      "incipit": "Optátus votis ómnium",
+      "full_text": "Optátus votis ómnium\nsacrátus illúxit dies,\nquo Christus, mundi spes, Deus,\nconscéndit cælos árduos.\n\n\nMagni triúmphum prœ́lii,\nmundi perémpto príncipe,\nPatris præséntans vúltibus\nvictrícis carnis glóriam,\nIn nube fertur lúcida\net spem facit credéntibus,\niam paradísum réserans\nquem protoplásti cláuserant.\nO grande cunctis gáudium,\nquod partus nostræ Vírginis,\npost sputa, flagra, post crucem\npatérnæ sedi iúngitur.\nAgámus ergo grátias\nnostræ salútis víndici,\nnostrum quod corpus véxerit\nsublíme ad cæli régiam.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_laudes"
+        },
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "paschale"
+        }
+      ]
+    },
+    {
+      "id": "orbis_patrator_optime",
+      "incipit": "Orbis patrátor óptime",
+      "full_text": "Orbis patrátor óptime,\nquæcúmque sunt qui déxtera\nmagna creásti, nec regis\nminóre providéntia,\nAdésto supplicántium\ntibi reórum c œ́tui,\nlucísque sub crepúsculum\nlucem novam da méntibus.\nTuúsque nobis ángelus,\nsignátus ad custódiam,\nhic adsit, a contágio\nqui críminum nos prótegat.\nNobis dracónis ǽmuli\ncalúmnias extérminet,\nne rete frauduléntiæ\nincáuta nectat péctora.\nMetum repéllat hóstium\nnostris procul de fínibus;\npacem secúndet cívium\nfugétque pestiléntiam.\nDeo Patri sit glória,\nqui, quos redémit Fílius\net Sanctus unxit Spíritus,\nper ángelos custódiat. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "10/02"
+        }
+      ]
+    },
+    {
+      "id": "pange_lingua_gloriosi",
+      "incipit": "Pange, lingua, gloriósi",
+      "full_text": "Pange, lingua, gloriósi\ncórporis mystérium,\nsanguinísque pretiósi,\nquem in mundi prétium\nfructus ventris generósi\nRex effúdit géntium.\n\nNobis datus, nobis natus\nex intácta Vírgine,\net in mundo conversátus,\nsparso verbi sémine,\nsui moras incolátus\nmiro clausit órdine.\nIn suprémæ nocte cenæ\nrecúmbens cum frátribus,\nobserváta lege plene\ncibis in legálibus,\ncibum turbæ duodénæ\nse dat suis mánibus.\nVerbum caro panem verum\nverbo carnem éfficit,\nfitque sanguis Christi merum,\net, si sensus déficit,\nad firmándum cor sincérum\nsola fides súfficit.\n\nSS.mi Corporis\nAd I Vesperas",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "hour": "ad_i_vesperas",
+          "day": "feria_V"
+        }
+      ]
+    },
+    {
+      "id": "peccatricem_qui_solvisti",
+      "incipit": "Peccatrícem qui solvísti",
+      "full_text": "Peccatrícem qui solvísti\net latrónem exaudísti,\nmihi quoque spem dedísti.\nPreces meæ non sunt dignæ,\nsed tu, bonus, fac benígne\nne perénni cremer igne.\nInter oves locum præsta\net ab hædis me sequéstra,\nstátuens in parte dextra.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_tempore",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "pergrata_mundo_nuntiat",
+      "incipit": "Pergráta mundo núntiat",
+      "full_text": "Pergráta mundo núntiat\nauróra solis spícula,\nres et colóre véstiens\niam cuncta dat nitéscere.\nQui sol per ævum pr ǽnites,\no Christe, nobis vívidus,\nad te canéntes vértimur,\nte gestiéntes pérfrui.\nTu Patris es sciéntia\nVerbúmque per quod ómnia\nmiro refúlgent órdine\nmentésque nostras áttrahunt.\nDa lucis ut nos fílii\nsic ambulémus ímpigri,\nut Patris usque grátiam\nmores et actus éxprimant.\nSincéra præsta ut prófluant\nex ore nostro iúgiter,\net veritátis dúlcibus\nut excitémur gáudiis.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_laudes",
+          "day": "feria_III"
+        },
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore"
+        }
+      ]
+    },
+    {
+      "id": "petrus_beatus_catenarum_laqueos",
+      "incipit": "Petrus beátus catenárum láqueos",
+      "full_text": "Petrus beátus catenárum láqueos\nChristo iubénte rupit mirabíliter;\ncustos ovílis et doctor Ecclésiæ,\npastórque gregis, conservátor óvium\narcet lupórum truculéntam rábiem.\n\nPropr. de Sanctis\nDie 22 februarii\nAd Laudes matutinas\n\n\n\nQuodcúmque vinclis super terram strínxerit,\nerit in astris religátum fórtiter,\net quod resólvit in terris arbítrio,\nerit solútum super cæli rádium;\nin fine mundi iudex erit s ǽculi.\nGlória Patri per imménsa s ǽcula,\nsit tibi, Nate, decus et impérium,\nhonor, potéstas Sanctóque Spirítui;\nsit Trinitáti salus indivídua\nper infiníta sæculórum s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "date": "02/22"
+        },
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "02/22"
+        }
+      ]
+    },
+    {
+      "id": "philippe_summ_honoribus",
+      "incipit": "Philíppe, summæ honóribus",
+      "full_text": "Philíppe, summæ honóribus\nvocatiónis énitens,\ncum cive Petro príncipe\nqua mente Christum díligis!\nAt ipse amóris íntima\ntibi repéndit pígnora,\ntibíque Patris dísserit\nsu ǽque vitæ dógmata.\nNec te minus compléctitur,\nIacóbe, Christi cáritas,\nqui frater eius díceris\nsed et colúmna Ecclésiæ.\nAlmæ Sion qui pr ǽsides\nprimus gregi claríssimo,\nnos usque scriptis próvidis\nverbum salútis édoces.\nO vos, beáti, nóbili\nIesum proféssi sánguine,\nspe nos fidéque cúrrere\ndate in supérnam pátriam,\n\nDie 3 maii\nAd Off Lectionis",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_officium_lectionis",
+          "date": "05/03"
+        }
+      ]
+    },
+    {
+      "id": "plasmator_hominis_deus",
+      "incipit": "Plasmátor hóminis, Deus",
+      "full_text": "Plasmátor hóminis, Deus,\nqui, cuncta solus órdinans,\nhumum iubes prodúcere\nreptántis et feræ genus;\nQui magna rerum córpora,\ndictu iubéntis vívida,\nut sérviant per órdinem\nsubdens dedísti hómini:\nRepélle a servis tuis\nquicquid per immundítiam\naut móribus se súggerit,\naut áctibus se intérserit.\nDa gaudiórum pr ǽmia,\nda gratiárum múnera;\ndissólve litis víncula,\nastrínge pacis f œ́dera.\nPræsta, Pater piíssime,\nPatríque compar Unice,\ncum Spíritu Paráclito\nregnans per omne s ǽculum. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_vesperas",
+          "day": "feria_VI"
+        }
+      ]
+    },
+    {
+      "id": "plausibus_luca_canimus_triumphum",
+      "incipit": "Pláusibus, Luca, cánimus, triúmphum",
+      "full_text": "Pláusibus, Luca, cánimus, triúmphum\nquo nites fuso rútilo cruóre,\natque præcélsis méritis adéptam\nrite corónam.\nSpíritus ductu, studiósus orbi\nmira quæ pastor dócuit supérnus\nChristus ac fecit míserans amóre,\ntradis amánter.\nPróvidus chartis pérhibes venústis\ngesta quæ Iesu célebrant alúmnos,\neius et gentis nova quæ patéscunt\nin nova sæcla.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "date": "10/18"
+        }
+      ]
+    },
+    {
+      "id": "precemur_omnes_cernui",
+      "incipit": "Precémur omnes cérnui",
+      "full_text": "Precémur omnes cérnui,\nclamémus atque sínguli,\nplorémus ante iúdicem,\nflectámus iram víndicem:\nNostris malis offéndimus\ntuam, Deus, cleméntiam;\neffúnde nobis désuper,\nremíssor, indulgéntiam.\nMeménto quod sumus tui,\nlicet cadúci, plásmatis;\nne des honórem nóminis,\ntui, precámur, álteri.\nLaxa malum quod fécimus,\nauge bonum quod póscimus,\nplacére quo tandem tibi\npossímus hic et pérpetim.\nPræsta, beáta Trínitas,\nconcéde, simplex Únitas,\nut fructuósa sint tuis\nhæc parcitátis múnera. Amen.\n\nProprium de tempore\nTemp. Quadragesimæ\nHymnus\nAd Laudes matutinas",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "pressi_malorum_pondere",
+      "incipit": "Pressi malórum póndere",
+      "full_text": "Pressi malórum póndere\nte, Paule, adímus súpplices,\nqui certa largus désuper\ndabis salútis pígnora.\n\nDie 25 ianuarii\nAd Off Lectionis\n\nNam tu beáto cóncitus\ndivíni amóris ímpetu,\nquos insecútor óderas,\ndefénsor inde amplécteris.\n\n\nAmóris, eia, prístini\nne sis, precámur, ímmemor,\net nos supérnæ lánguidos\nin spem redúcas grátiæ.\nTe deprecánte flóreat\nignára damni cáritas,\nquam nulla turbent iúrgia\nnec ullus error sáuciet.\nO grata cælo víctima,\nte, lux amórque Géntium,\no Paule, clarum víndicem,\nnos te patrónum póscimus.\nLaus Trinitáti, cántica\nsint sempitérnæ glóriæ\nquæ nos boni certáminis\ntecum corónet pr ǽmiis. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_officium_lectionis",
+          "date": "01/25"
+        }
+      ]
+    },
+    {
+      "id": "primo_dierum_omnium",
+      "incipit": "Primo diérum ómnium",
+      "full_text": "I. Quando Officium lectionis dicitur noctu vel summo\nmane:\n\nPrimo diérum ómnium,\nquo mundus exstat cónditus\nvel quo resúrgens cónditor\nnos, morte victa, líberat,\nPulsis procul torpóribus,\nsurgámus omnes ócius,\net nocte quærámus pium,\nsicut Prophétam nóvimus,\nNostras preces ut áudiat\nsuámque dextram pórrigat,\net hic piátos sórdibus\nreddat polórum sédibus,\nUt, quique sacratíssimo\nhuius diéi témpore\nhoris quiétis psállimus,\ndonis beátis múneret.\nDeo Patri sit glória\neiúsque soli Fílio\ncum Spíritu Paráclito,\nin sempitérna s ǽcula. Amen.\nII. Quando Officium lectionis dicitur diurno tempore:\n\nDies ætásque céteris\noctáva splendet sánctior\nin te quam, Iesu, cónsecras,\nprimítiæ surgéntium.\nTu tibi nostras ánimas\nnunc primo conresúscita;\ntibi consúrgant córpora\nsecúnda morte líbera.\nTibíque mox in núbibus,\nChriste, ferámur óbviam\ntecum victúri pérpetim:\ntu vita, resurréctio.\n\nPsalterium\nHebd III\nDominica\nAd Off Lectionis",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_officium_lectionis",
+          "day": "dominica"
+        },
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore"
+        }
+      ]
+    },
+    {
+      "id": "propr_de_sanctis",
+      "incipit": "Propr. de Sanctis",
+      "full_text": "Propr. de Sanctis\nDie 30 novembris\nAd Laudes matutinas\n\n\n\nCaptátor olim píscium,\niam nunc piscátor hóminum,\ntuis, Andréa, rétibus\nmundi nos rape flúctibus.\nGermánus Petri córpore\nnec mortis dispar órdine;\nquos una caro génuit,\ncrux cælo fratres édidit.\nO germen venerábile,\no par coróna glóriæ!\nEcclésiæ patres pii\ncrucis sunt æque fílii.\nAd Iesum fratri prǽvius\nindéxque vitæ strénuus,\net nobis esto míseris\nbeáti dux itíneris.\nFratris comes egrégius,\nEcclésias impénsius\nda caritáte exércitas\npastóri Petro súbditas.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "11/30"
+        }
+      ]
+    },
+    {
+      "id": "prclara_qua_tu_gloria",
+      "incipit": "Præclára qua tu glória",
+      "full_text": "Præclára qua tu glória,\nLevi beáte, cíngeris,\nlaus est Dei cleméntiæ,\nspes nostra ad indulgéntiam.\nTelóneo quando ássidens\nnummis inh ǽres ánxius,\nMatth ǽe, Christus ádvocans\nopes tibi quas pr ǽparat!\n\n\nIam cordis ardens ímpetu\ncurris, Magístrum súscipis,\nsermóne factus ínclito\nprinceps in urbe c ǽlica.\nTu verba vitæ cólligens\nDavídque facta Fílii,\nper scripta linquis áurea\ncæléste mundo pábulum.\nChristum per orbem núntians\nconféssus atque sánguine,\ndilectiónis vívidæ\nsuprémo honóras pígnore.\nO martyr atque apóstole,\nevangelísta nóbilis,\ntecum fac omne in s ǽculum\nChristo canámus glóriam. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "09/21"
+        }
+      ]
+    },
+    {
+      "id": "prcessor_almus_grati",
+      "incipit": "Præcéssor almus grátiæ",
+      "full_text": "Præcéssor almus grátiæ\net veritátis ángelus,\nlucérna Christi et pérpetis\nevangelísta lúminis,\n\nDie 29 augusti\nAd Vesperas",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "date": "08/29"
+        }
+      ]
+    },
+    {
+      "id": "qua_christus_hora_sitiit",
+      "incipit": "Qua Christus hora sítiit",
+      "full_text": "Qua Christus hora sítiit\ncrucem vel in qua súbiit,\nquos præstat in hac psállere\nditet siti iustítiæ.\nSimul sit his esúries,\nquam ipse de se sátiet,\ncrimen sit ut fastídium\nvirtúsque desidérium.\n\n\nCharísma Sancti Spíritus\nsic ínfluat psalléntibus,\nut carnis æstus frígeat\net mentis algor férveat.\n\n\nChristum rogámus et Patrem,\nChristi Patrísque Spíritum;\nunum potens per ómnia,\nfove precántes, Trínitas. Amen.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae",
+          "hour": "ad_horam_mediam"
+        }
+      ]
+    },
+    {
+      "id": "quas_tibi_laudes_ferimusque_vota",
+      "incipit": "Quas tibi laudes ferimúsque vota",
+      "full_text": "Quas tibi laudes ferimúsque vota,\nnos tuis possint méritis iuváre,\nMartha, quam mire sibi corde iungit\nChristus amíco.\nTe frequens visit Dóminus tuáque\nin domo degit plácida quiéte\nac tuis verbis studiísque lætans\nteque minístra.\nTu prior fratrem quéreris perísse,\ncumque germána lacrimáta multum,\náspicis vitæ súbita Magístri\nvoce redíre.\n\nPropr. de Sanctis\nDie 29 iulii\nAd Laudes matutinas\n\n\n\nQuæ fide prompta stábilem fatéris\nspem resurgéndi, Dómino probánte,\nímpetra nobis cúpide in perénne\npérgere regnum.\nLaus Deo Patri, Genitóque virtus,\nFlámini Sancto párilis potéstas,\nglóriam quorum pétimus per ævum\ncérnere tecum. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "07/29"
+        }
+      ]
+    },
+    {
+      "id": "quem_terra_pontus_thera",
+      "incipit": "Quem terra, pontus, ǽthera",
+      "full_text": "Quem terra, pontus, ǽthera\ncolunt, adórant, pr ǽdicant\ntrinam regéntem máchinam,\nclaustrum Maríæ báiulat.\nCui luna, sol et ómnia\ndesérviunt per témpora,\nperfúsa cæli grátia\ngestant puéllæ víscera.\nBeáta mater múnere,\ncuius, supérnus ártifex,\nmundum pugíllo cóntinens,\nventris sub arca clausus est.\nBeáta cæli núntio,\nfecúnda Sancto Spíritu,\ndesiderátus géntibus\ncuius per alvum fusus est.\nIesu, tibi sit glória,\nqui natus es de Vírgine,\ncum Patre et almo Spíritu,\nin sempitérna s ǽcula. Amen.\n\nMemoria\nSanctae Mariae\nin sabbato\nAd Invitatorium",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "commune",
+          "season": "adventus"
+        },
+        {
+          "volume": 2,
+          "section": "commune",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "qui_luce_splendes_ordinis",
+      "incipit": "Qui luce splendes órdinis",
+      "full_text": "Qui luce splendes órdinis\napostolórum máxima,\nThoma, benígnus áccipe\nlaudes tibi quas pángimus.\nTe lúcidis in sédibus\namóre Christus cóllocat;\namóre promptus éxpetis\ntu pro Magístro cómmori.\n\nPropr. de Sanctis\nDie 3 iulii\nAd Laudes matutinas\n\n\n\nTe torquet et diléctio\nnarrántibus cum frátribus\nvis certus esse, vísere,\npalpáre Iesu vúlnera.\n\n\nQuantóque cordis gáudio\nipsum misértum cónspicis,\nDeúmque dicis crédulus,\nfervóre adórans péctoris!\n\n\n\nNobísque qui non vídimus\nper te fides fit ácrior,\nfit æstus et poténtior\nquo Christi amórem qu ǽrimus.\nChristo sit omnis glória,\nqui te rogánte pr ǽbeat\nnobis fide ambulántibus\nipsum vidére pérpetim. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "07/03"
+        }
+      ]
+    },
+    {
+      "id": "qui_vivis_ante_s_cula",
+      "incipit": "Qui vivis ante s ǽcula",
+      "full_text": "Qui vivis ante s ǽcula\nvit ǽque fons es únicus,\nnos, Deus, morti obnóxios\nculp ǽque reos áspice.\n\nPeccánti, Pater, hómini\npœnam sanxísti intéritum,\nut, pulvis datus púlveri,\nse súbderet piáculum.\n\n\nVitále sed spiráculum\nquod indidísti próvidus,\næternitátis pérmanet\ngermen immarcescíbile.\nHæc spes, hoc est solácium:\nrevirescémus, Dómine,\nprimúsque resurgéntium\nad te nos Christus rápiet.\nPro uno defuncto:\n\nHoc vitæ regno pérfrui\ndefúnctum præsta fámulum,\nquem Christi fides ímbuit,\nquem almus unxit Spíritus.\nPro una defuncta:\n\nHoc vitæ regno pérfrui\ndefúnctam præsta fámulam,\nquam Christi fides ímbuit,\nquam almus unxit Spíritus.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_officium_lectionis"
+        },
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "qui_vivis_ante_scula",
+      "incipit": "Qui vivis ante sǽcula",
+      "full_text": "Qui vivis ante sǽcula\nvitǽque fons es únicus,\nnos, Deus, morti obnóxios\nculpǽque reos áspice.\n\nPeccánti, Pater, hómini\npœnam sanxísti intéritum,\nut, pulvis datus púlveri,\nse súbderet piáculum.\n\n\n\nVitále sed spiráculum\nquod indidísti próvidus,\næternitátis pérmanet\ngermen immarcescíbile.\nHæc spes, hoc est solácium:\nrevirescémus, Dómine,\nprimúsque resurgéntium\nad te nos Christus rápiet.\nPro uno defuncto:\n\nHoc vitæ regno pérfrui\ndefúnctum præsta fámulum,\nquem Christi fides ímbuit,\nquem almus unxit Spíritus.\nPro una defuncta:\n\nHoc vitæ regno pérfrui\ndefúnctam præsta fámulam,\nquam Christi fides ímbuit,\nquam almus unxit Spíritus.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus_nativitatis",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "quicumque_christum_quritis",
+      "incipit": "Quicúmque Christum quǽritis",
+      "full_text": "Quicúmque Christum quǽritis,\nóculos in altum tóllite:\nillic licébit vísere\nsignum perénnis glóriæ.\nHæc stella, quæ solis rotam\nvincit decóre ac lúmine,\nvenísse terris núntiat\ncum carne terréstri Deum.\n\nSollemnitas\nEpiphania Domini\nAd I Vesperas\n\n\n\nEn, Pérsici ex orbis sinu,\nsol unde sumit iánuam,\ncernunt períti intérpretes\nregále vexíllum magi.\n« Quis iste tantus — ínquiunt —\nregnátor astris ímperans,\nquem sic tremunt cæléstia,\ncui lux et æthra insérviunt?\nIllústre quiddam cérnimus\nquod nésciat finem pati,\nsublíme, celsum, intérminum,\nantíquius cælo et chao.\nHic ille rex est géntium\npopulíque rex Iudáici,\npromíssus Ábrahæ patri\neiúsque in ævum sémini ».\nIesu, tibi sit glória,\nqui te revélas géntibus,\ncum Patre et almo Spíritu,\nin sempitérna sǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "nativitatis",
+          "hour": "ad_officium_lectionis"
+        },
+        {
+          "volume": 1,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_i_vesperas",
+          "date": "01/06"
+        },
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus_nativitatis",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "quid_sum_miser_tunc_dicturus",
+      "incipit": "Quid sum miser tunc dictúrus",
+      "full_text": "Quid sum miser tunc dictúrus,\nquem patrónum rogatúrus,\ncum vix iustus sit secúrus?\nRex treméndæ maiestátis,\nqui salvándos salvas gratis,\nsalva me, fons pietátis.\n\nTempus per annum\nHebd XXXIV\nDom XXXIV\nAd Laudes matutinas\n\n\n\nRecordáre, Iesu pie,\nquod sum causa tuæ viæ,\nne me perdas illa die.\n\n\nQuærens me sedísti lassus,\nredemísti crucem passus;\ntantus labor non sit cassus.\n\n\nIuste iudex ultiónis,\ndonum fac remissiónis\nante diem ratiónis.\n\n\n\nIngemísco tamquam reus,\nculpa rubet vultus meus;\nsupplicánti parce, Deus.\nO tu, Deus maiestátis,\nalme candor Trinitátis,\nnos coniúnge cum beátis. Amen.\nAd Vesperas",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_tempore",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "quod_chorus_vatum_venerandus_olim",
+      "incipit": "Quod chorus vatum venerándus olim",
+      "full_text": "Quod chorus vatum venerándus olim\nSpíritu Sancto cécinit replétus,\nin Dei factum genetríce constat\nesse María.\nHæc Deum cæli Dominúmque terræ\nvirgo concépit peperítque virgo,\natque post partum méruit manére\ninvioláta.\n\n\nQuem senex iustus Símeon in ulnis\nin domo sumpsit Dómini, gavísus\nob quod optátum próprio vidéret\nlúmine Christum.\nTu libens votis, pétimus, precántum,\nregis ætérni génetrix, favéto,\nclara quæ fundis Géniti benígni\nmúnera lucis.\nChriste, qui lumen Patris es supérni,\nqui Patris nobis réseras profúnda,\nnos fac ætérnæ tibi ferre laudes\nlucis in aula. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_i_vesperas",
+          "date": "02/02"
+        }
+      ]
+    },
+    {
+      "id": "rector_potens_verax_deus",
+      "incipit": "Rector potens, verax Deus",
+      "full_text": "Rector potens, verax Deus,\nqui témperas rerum vices,\nsplendóre mane ínstruis\net ígnibus merídiem,\nExstíngue flammas lítium,\naufer calórem nóxium,\nconfer salútem córporum,\nverámque pacem córdium.\nPræsta, Pater piíssime,\nPatríque compar Únice,\ncum Spíritu Paráclito\nregnans per omne s ǽculum. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus",
+          "hour": "ad_horam_mediam"
+        },
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "nativitatis",
+          "hour": "ad_horam_mediam"
+        }
+      ]
+    },
+    {
+      "id": "regis_superni_nuntia",
+      "incipit": "Regis supérni núntia",
+      "full_text": "Regis supérni núntia\ndomum patérnam déseris,\nterris, Terésia, bárbaris\nChristum datúra aut sánguinem.\nSed te manet suávior\nmors, pœna poscit dúlcior:\ndivíni amóris cúspide\nin vulnus icta cóncides.\nO caritátis víctima,\ntu corda nostra cóncrema,\ntibíque gentes créditas\ninférni ab igne líbera.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "date": "10/15"
+        }
+      ]
+    },
+    {
+      "id": "relucens_inter_principes",
+      "incipit": "Relúcens inter príncipes",
+      "full_text": "Relúcens inter príncipes\nimménsæ Dei cúriæ,\nBartholom ǽe, láudibus\nnostrísque inténde précibus.\nIn te convértit Dóminus\ndilectiónis óculos,\nquem pura insígnem cónspicit\nsinceritáte péctoris.\nProphétæ quem cecínerant,\nquem longa clamant témpora,\nMessías en mirífice\ntibi lætánti próditur.\nTeque sibi conglútinat\nsequélæ talis f œ́dere,\nqua petat crucis áspera,\ncæli sedes retríbuat.\n\nPropr. de Sanctis\nDie 24 augusti\nAd Laudes matutinas\n\n\n\nChristi, qui sæclis ímperat,\namícus et apóstolus,\nMagístro vivis, hómines\nMagístri vita réfoves.\nSit ipsi laus et glória,\nqui, te iuvánte méritis,\nætérnis nos in pátria\nfrui concédat gáudiis. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "08/24"
+        }
+      ]
+    },
+    {
+      "id": "rerum_creator_optime",
+      "incipit": "Rerum creátor óptime",
+      "full_text": "I. Quando Officium lectionis dicitur noctu vel summo\nmane:\n\nRerum creátor óptime\nrectórque noster, réspice;\nnos a quiéte nóxia\nmersos sopóre líbera.\nTe, sancte Christe, póscimus;\nignósce tu crimínibus,\nad confiténdum súrgimus\nmorásque noctis rúmpimus.\nMentes manúsque tóllimus,\nProphéta sicut nóctibus\nnobis geréndum pr ǽcipit\nPaulúsque gestis cénsuit.\nVides malum quod géssimus;\noccúlta nostra pándimus,\npreces geméntes fúndimus;\ndimítte quod peccávimus.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_officium_lectionis",
+          "day": "feria_IV"
+        }
+      ]
+    },
+    {
+      "id": "rerum_supremo_in_vertice",
+      "incipit": "Rerum suprémo in vértice",
+      "full_text": "Rerum suprémo in vértice\nregína, Virgo, sísteris,\nexuberánter ómnium\nditáta pulchritúdine.\nPrinceps opus tu cétera\ninter creáta pr ǽnites,\nprædestináta Fílium,\nqui prótulit te, gígnere.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "date": "08/22"
+        }
+      ]
+    },
+    {
+      "id": "rerum_deus_fons_omnium",
+      "incipit": "Rerum, Deus, fons ómnium",
+      "full_text": "Rerum, Deus, fons ómnium,\nqui, rebus actis ómnibus,\ntotíus orbis ámbitum\ncensu replésti múnerum,\nAc, mole tanta cóndita,\ntandem quiétem díceris\nsumpsísse, dans labóribus\nut nos levémur grátius:\n\n\nConcéde nunc mortálibus\ndeflére vitæ crímina,\ninstáre iam virtútibus\net munerári prósperis,\nUt cum treméndi iúdicis\nhorror suprémus c œ́perit,\nlætémur omnes ínvicem\npacis repléti múnere.\n\n\nPræsta, Pater piíssime,\nPatríque compar Unice,\ncum Spíritu Paráclito\nregnans per omne s ǽculum. Amen.\n\n\nAd libitum dici potest hymnus Salve dies, 984.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_i_vesperas",
+          "day": "dominica"
+        }
+      ]
+    },
+    {
+      "id": "rerum_deus_tenax_vigor",
+      "incipit": "Rerum, Deus, tenax vigor",
+      "full_text": "Rerum, Deus, tenax vigor,\nimmótus in te pérmanens,\nlucis diúrnæ témpora\nsuccéssibus detérminans,\nLargíre clarum véspere,\nquo vita numquam décidat,\nsed pr ǽmium mortis sacræ\nperénnis instet glória.\nPræsta, Pater piíssime,\nPatríque compar Únice,\ncum Spíritu Paráclito\nregnans per omne s ǽculum. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus",
+          "hour": "ad_horam_mediam"
+        },
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "nativitatis",
+          "hour": "ad_horam_mediam"
+        }
+      ]
+    },
+    {
+      "id": "rex_gloriose_martyrum",
+      "incipit": "Rex glorióse mártyrum",
+      "full_text": "Rex glorióse mártyrum,\ncoróna confiténtium,\nqui respuéntes térrea\nperdúcis ad cæléstia,\nAurem benígnam prótinus\nappóne nostris vócibus;\ntrop ǽa sacra pángimus,\nignósce quod delíquimus.\nTu vincis in martýribus\nparcéndo confessóribus;\ntu vince nostra crímina\ndonándo indulgéntiam.\nPræsta, Pater piíssime,\nPatríque compar Unice,\ncum Spíritu Paráclito\nregnans per omne s ǽculum. Amen.\n\nCommune\nPlurimorum\nMartyrum\nAd Off Lectionis",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "commune"
+        },
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_officium_lectionis"
+        },
+        {
+          "volume": 3,
+          "section": "commune",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "sacris_sollemniis_iuncta_sint_gaudia",
+      "incipit": "Sacris sollémniis iuncta sint gáudia",
+      "full_text": "Sacris sollémniis iuncta sint gáudia,\net ex præcórdiis sonent præcónia;\nrecédant vétera, nova sint ómnia,\ncorda, voces et ópera.\nNoctis recólitur cena novíssima,\nqua Christus créditur agnum et ázyma\ndedísse frátribus iuxta legítima\npriscis indúlta pátribus.\nDedit fragílibus córporis férculum,\ndedit et trístibus sánguinis póculum,\ndicens: « Accípite quod trado vásculum;\nomnes ex eo bíbite ».\nSic sacrifícium istud instítuit,\ncuius offícium commítti vóluit\nsolis presbýteris, quibus sic cóngruit,\nut sumant et dent céteris.\nPanis angélicus fit panis hóminum;\ndat panis c ǽlicus figúris términum.\nO res mirábilis: mandúcat Dóminum\nservus pauper et húmilis.\nTe, trina Déitas únaque, póscimus;\nsic nos tu vísitas sicut te cólimus:\nper tuas sémitas duc nos quo téndimus\nad lucem quam inhábitas. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "salve_crux_sancta_salve_mundi_gloria",
+      "incipit": "Salve, crux sancta, salve mundi glória",
+      "full_text": "Salve, crux sancta, salve mundi glória,\nvera spes nostra, vera ferens gáudia,\nsignum salútis, salus in perículis,\nvitále lignum vitam portans ómnium.\nTe adorándam, te crucem vivíficam,\nin te redémpti, dulce decus s ǽculi,\nsemper laudámus, semper tibi cánimus,\nper lignum servi, per te, lignum, líberi.\nLaus Deo Patri sit in cruce Fílii,\nlaus coæquáli sit Sancto Spirítui;\ncívibus summis gáudium et ángelis,\nhonor sit mundo crucis exaltátio. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_officium_lectionis",
+          "date": "09/14"
+        }
+      ]
+    },
+    {
+      "id": "salve_mater_misericordi",
+      "incipit": "Salve, mater misericórdiæ",
+      "full_text": "Salve, mater misericórdiæ,\nmater spei et mater véniæ,\nmater Dei et mater grátiæ,\nmater plena sanctæ lætítiæ.\n(O Maria.)\n\nVallis vernans virtútum líliis,\ntota fluens summis delíciis,\nmater sancta, tuis suffrágiis\ncondescénde nostris misériis.\n(O Maria.)",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_vesperas",
+          "date": "11/21"
+        }
+      ]
+    },
+    {
+      "id": "sanctorum_meritis_inclita_gaudia",
+      "incipit": "Sanctórum méritis ínclita gáudia",
+      "full_text": "Sanctórum méritis ínclita gáudia\npangámus, sócii, géstaque fórtia;\nnam gliscit ánimus prómere cántibus\nvictórum genus óptimum.\n\nCommune\nPlurimorum\nMartyrum\nAd Horam mediam\n\n\n\nPro sanctis viris:\n\nHi sunt quos rétinens mundus inhórruit,\nipsum nam stérili flore peráridum\nsprevére pénitus teque secúti sunt,\nrex, Christe, bone c ǽlitum.\nPro sanctis mulieribus:\n\nHæ sunt, quas rétinens mundus inhórruit,\nipsum nam stérili flore peráridum\nsprevére pénitus teque secútæ sunt,\nrex, Christe, bone c ǽlitum.\nHi (Hæ) pro te fúrias s ǽvaque sústinent;\nnon murmur résonat, non querimónia,\nsed corde tácito mens bene cónscia\nconsérvat patiéntiam.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "commune",
+          "hour": "ad_i_vesperas"
+        },
+        {
+          "volume": 2,
+          "section": "commune",
+          "season": "quadragesimae",
+          "hour": "ad_i_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "sator_princepsque_temporum",
+      "incipit": "Sator princépsque témporum",
+      "full_text": "Sator princépsque témporum,\nclarum diem labóribus\nnoctémque qui sopóribus\nfixo distínguis órdine,\nMentem tu castam dírige,\nobscúra ne siléntia\nad dira cordis vúlnera\ntelis patéscant ínvidi.\nVacent ardóre péctora,\nfaces nec ullas pérferant,\nquæ nostro hæréntes sénsui\nmentis vigórem sáucient.\nPræsta, Pater piíssime,\nPatríque compar Unice,\ncum Spíritu Paráclito\nregnans per omne s ǽculum. Amen.\n\nPsalterium\nHebd II\nFeria III\nAd Vesperas",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_vesperas",
+          "day": "feria_III"
+        }
+      ]
+    },
+    {
+      "id": "signum_crucis_mirabile",
+      "incipit": "Signum crucis mirábile",
+      "full_text": "Signum crucis mirábile\ntotum per orbem pr ǽnitet,\nin qua pepéndit ínnocens\nChristus, redémptor ómnium.\n\nPropr. de Sanctis\nDie 14 septembris\nAd Laudes matutinas\n\n\n\nHæc arbor est sublímior\ncedris, habet quas Líbanus,\nquæ poma nescit nóxia,\nsed ferre vitæ pr ǽmia.\nTe, Christe, rex piíssime,\nhuius crucis signáculo\nhoris, moméntis ómnibus\nmuníre nos non ábnuas,\nUt ore tibi cónsono\net corde devotíssimo\npossímus omni témpore\nlaudes reférre débitas.\nPatri, tibi, Paráclito\nsit æqua, Iesu, glória,\nqui nos crucis victória\nconcédis usque pérfrui. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "09/14"
+        }
+      ]
+    },
+    {
+      "id": "sol_ecce_surgit_igneus",
+      "incipit": "Sol ecce surgit ígneus:",
+      "full_text": "Sol ecce surgit ígneus:\npiget, pudéscit, p ǽnitet,\nnec teste quisquam lúmine\npeccáre constánter potest.\n\nPsalterium\nHebd III\nFeria V\nAd Laudes matutinas\n\n\nTandem facéssat c ǽcitas,\nquæ nosmet in præceps diu\nlapsos sinístris gréssibus\nerróre traxit dévio.\n\n\nHæc lux serénum cónferat\npurósque nos præstet sibi;\nnihil loquámur súbdolum,\nvolvámus obscúrum nihil.\n\n\nSic tota decúrrat dies,\nne lingua mendax, ne manus\noculíve peccent lúbrici,\nne noxa corpus ínquinet.\n\n\n\nSpeculátor astat désuper,\nqui nos diébus ómnibus\nactúsque nostros próspicit\na luce prima in vésperum.\nDeo Patri sit glória\neiúsque soli Fílio\ncum Spíritu Paráclito,\nin sempitérna s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_laudes",
+          "day": "feria_V"
+        }
+      ]
+    },
+    {
+      "id": "sol_ecce_lentus_occidens",
+      "incipit": "Sol, ecce, lentus óccidens",
+      "full_text": "Sol, ecce, lentus óccidens\nmontes et arva et ǽquora\nmæstus relínquit, ínnovat\nsed lucis omen crástinæ,\n\n\nMirántibus mortálibus\nsic te, Creátor próvide,\nleges vicésque témporum\numbris dedísse et lúmini.\nAc dum, tenébris ǽthera\nsiléntio preméntibus,\nvigor labórum déficit,\nquies cupíta qu ǽritur,\nSpe nos fidéque dívites\ntui beámur lúmine\nVerbi, quod est a s ǽculis\nsplendor patérnæ glóriæ.\nEst ille sol qui nésciat\nortum vel umquam vésperum;\nquo terra gestit cóntegi,\nquo cæli in ævum iúbilant.\nHac nos seréna pérpetim\nda luce tandem pérfrui,\ncum Nato et almo Spíritu\ntibi novántes cántica. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_vesperas",
+          "day": "feria_IV"
+        }
+      ]
+    },
+    {
+      "id": "solis_o_virgo_radiis_amicta",
+      "incipit": "Solis, o Virgo, rádiis amícta",
+      "full_text": "Solis, o Virgo, rádiis amícta,\nbis caput senis redimíta stellis,\nluna cui præbet pédibus scabéllum,\nínclita fulges.\n\nPropr. de Sanctis\nDie 15 augusti\nAd Laudes matutinas\n\n\n\nMortis, inférni domitríxque culpæ,\nássides Christo studiósa nostri,\nteque regínam célebrat poténtem\nterra polúsque.\nAsseclas diæ fídei tuére;\ndíssitos adduc ad ovíle sacrum;\nquas diu gentes tegit umbra mortis\núndique coge.\n\n\nSóntibus mitis véniam precáre,\nádiuva flentes, ínopes et ægros,\nspes mica cunctis per acúta vitæ\ncerta salútis.\n\n\nLaus sit excélsæ Tríadi perénnis,\nquæ tibi, Virgo, tríbuit corónam,\natque regínam statuítque nostram\npróvida matrem. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_tempore",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "somno_refectis_artubus",
+      "incipit": "Somno reféctis ártubus",
+      "full_text": "I. Quando Officium lectionis dicitur noctu vel summo\nmane:\n\nSomno reféctis ártubus,\nspreto cubíli, súrgimus:\nnobis, Pater, canéntibus\nadésse te depóscimus.\nTe lingua primum cóncinat,\nte mentis ardor ámbiat,\nut áctuum sequéntium\ntu, sancte, sis exórdium.\nCedant tenébræ lúmini\net nox diúrno síderi,\nut culpa, quam nox íntulit,\nlucis labáscat múnere.\nPrecámur idem súpplices\nnoxas ut omnes ámputes,\net ore te canéntium\nlaudéris in perpétuum.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_officium_lectionis",
+          "day": "feria_II"
+        }
+      ]
+    },
+    {
+      "id": "spes_christe_nostr_veni",
+      "incipit": "Spes, Christe, nostræ véniæ",
+      "full_text": "Spes, Christe, nostræ véniæ,\ntu vita, resurréctio;\nad te sunt corda et óculi\ncum mortis dolor íngruit.\nTu quoque mortis t ǽdia\npassus dirósque stímulos,\nPatri, inclináto cápite,\nmitis dedísti spíritum.\nVere nostros excípiens\nlanguóres, pastor míserens,\ntecum donásti cómpati\nPatrísque in sinu cómmori.\nApértis pendens brácchiis,\nin cor transfíxum pértrahis\nquos moritúros ággravat\nmorbus vel mæror ánxius.\nQui portis fractis ínferi\nvictor pandísti c ǽlicas,\nnos nunc doléntes érige,\npost óbitum vivífica.\nPro uno defuncto:\n\nSed et qui frater córpore\nnunc dormit pacis réquie,\niam te beánte vígilet\ntibíque laudes réferat. Amen.\n\nOfficium\ndefunctorum\nAd Laudes matutinas",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_laudes"
+        },
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "splendor_patern_glori",
+      "incipit": "Splendor patérnæ glóriæ",
+      "full_text": "Splendor patérnæ glóriæ,\nde luce lucem próferens,\nlux lucis et fons lúminis,\ndiem dies illúminans,\nVerúsque sol, illábere\nmicans nitóre pérpeti,\niubárque Sancti Spíritus\ninfúnde nostris sénsibus.\n\nPsalterium\nHebd I\nFeria II\nAd Laudes matutinas\n\n\n\nVotis vocémus et Patrem,\nPatrem perénnis glóriæ,\nPatrem poténtis grátiæ,\nculpam reléget lúbricam.\nInfórmet actus strénuos,\ndentem retúndat ínvidi,\ncasus secúndet ásperos,\ndonet geréndi grátiam.\nMentem gubérnet et regat\ncasto, fidéli córpore;\nfides calóre férveat,\nfraudis venéna nésciat.\nChristúsque nobis sit cibus,\npotúsque noster sit fides;\nlæti bibámus sóbriam\nebrietátem Spíritus.\nLætus dies hic tránseat;\npudor sit ut dilúculum,\nfides velut merídies,\ncrepúsculum mens nésciat.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_laudes",
+          "day": "feria_II"
+        }
+      ]
+    },
+    {
+      "id": "stabat_mater_dolorosa",
+      "incipit": "Stabat mater dolorósa",
+      "full_text": "Stabat mater dolorósa\niuxta crucem lacrimósa,\ndum pendébat Fílius.\nCuius ánimam geméntem,\ncontristátam et doléntem\npertransívit gládius.\nO quam tristis et afflícta\nfuit illa benedícta\nmater Unigéniti!\nQuæ mærébat et dolébat\npia mater, cum vidébat\nNati pœnas íncliti.\nQuis est homo qui non fleret,\nmatrem Christi si vidéret\nin tanto supplício?",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "date": "09/15"
+        }
+      ]
+    },
+    {
+      "id": "summ_deus_clementi",
+      "incipit": "Summæ Deus cleméntiæ",
+      "full_text": "I. Quando Officium lectionis dicitur noctu vel summo\nmane:\n\nSummæ Deus cleméntiæ\nmundíque factor máchinæ,\nqui trinus almo númine\nunúsque firmas ómnia,\nNostros piis cum cánticis\nfletus benígne súscipe,\nquo corde puro sórdibus\nte perfruámur lárgius.\nLumbos adúre cóngruis\ntu caritátis ígnibus,\naccíncti ut adsint pérpetim\ntuísque prompti advéntibus,\nUt, quique horas nóctium\nnunc concinéndo rúmpimus,\ndonis beátæ pátriæ\nditémur omnes áffatim.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_officium_lectionis",
+          "day": "sabbato"
+        }
+      ]
+    },
+    {
+      "id": "te_deo_factam_liquet_esse_scalam",
+      "incipit": "Te Deo factam liquet esse scalam",
+      "full_text": "Te Deo factam liquet esse scalam\nqua tenens summa petit Altus ima;\nnos ad excélsi remeáre cæli\ncúlmina dona.\n\n\nTe beatórum chorus angelórum,\nte prophetárum et apostolórum\nordo prælátam sibi cernit unam\npost Deitátem.\nLaus sit excélsæ Tríadi perénnis,\nquæ tibi, Virgo, tríbuit corónam,\natque regínam statuítque nostram\npróvida matrem. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_i_vesperas",
+          "date": "08/15"
+        }
+      ]
+    },
+    {
+      "id": "te_deum_laudamus",
+      "incipit": "Te Deum laudámus",
+      "full_text": "Te Deum laudámus, te Dóminum confitémur.\nTe ætérnum Patrem omnis terra venerátur.\nTibi omnes ángeli,\ntibi cæli et univérsæ potestátes:\ntibi chérubim et séraphim\nincessábili voce proclámant:\n\nSanctus, Sanctus, Sanctus\nDóminus Deus Sábaoth.\nPleni sunt cæli et terra\nmaiestátis glóriæ tuæ.\n\nTe gloriósus Apostolórum chorus,\nte Prophetárum laudábilis númerus,\nte Mártyrum candidátus laudat exércitus.\n\nTe per orbem terrárum\nsancta confitétur Ecclésia,\nPatrem imménsæ maiestátis;\nvenerándum tuum verum et únicum Fílium;\nSanctum quoque Paráclitum Spíritum.\n\nTu rex glóriæ, Christe.\nTu Patris sempitérnus es Fílius.\nTu, ad liberándum susceptúrus hóminem,\nnon horruísti Vírginis úterum.\nTu, devícto mortis acúleo,\naperuísti credéntibus regna cælórum.\nTu ad déxteram Dei sedes in glória Patris.\nIudex créderis esse ventúrus.\n\nTe ergo quǽsumus, tuis fámulis súbveni,\nquos pretióso sánguine redemísti.\nÆtérna fac cum sanctis tuis in glória numerári.\n\nSalvum fac pópulum tuum, Dómine,\net bénedic hereditáti tuæ.\nEt rege eos et extólle illos usque in ætérnum.\nPer síngulos dies benedícimus te;\net laudámus nomen tuum in sǽculum\net in sǽculum sǽculi.\nDignáre, Dómine, die isto\nsine peccáto nos custodíre.\nMiserére nostri, Dómine, miserére nostri.\nFiat misericórdia tua, Dómine, super nos,\nquemádmodum sperávimus in te.\nIn te, Dómine, sperávi:\nnon confúndar in ætérnum.",
+      "stanza_count": 8,
+      "used_in": [
+        {
+          "section": "ordinarium",
+          "season": "all",
+          "hour": "ad_officium_lectionis",
+          "note": "Diebus dominicis (excepto Tempore Quadragesimae), in sollemnitatibus et festis, post alteram lectionem"
+        }
+      ]
+    },
+    {
+      "id": "te_patrem_summum_genitumque_verbum",
+      "incipit": "Te Patrem summum genitúmque Verbum",
+      "full_text": "Te Patrem summum genitúmque Verbum\nFlamen ac Sanctum Dóminum faténtur\núnicum, quotquot paradísi am œ́nus\nhortus adúnat.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "te_dicimus_prconio",
+      "incipit": "Te dícimus præcónio",
+      "full_text": "Te dícimus præcónio,\nmater Dei puríssima;\nnostris benígna láudibus\ntuam repénde grátiam.\nSontes Adámi pósteri,\ninfécta proles gígnimur;\nlabis patérnæ néscia\ntu sola, Virgo, créderis.\nCaput dracónis ínvidi\ntu cónteris vestígio,\ngerísque sola glóriam\nintaminátæ oríginis.\nNostræ decus propáginis,\nquæ tollis Evæ oppróbrium,\ntu nos tuére súpplices,\ntu nos labántes érige.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_sanctis",
+          "date": "12/08"
+        }
+      ]
+    },
+    {
+      "id": "te_gestientem_gaudiis",
+      "incipit": "Te gestiéntem gáudiis",
+      "full_text": "Te gestiéntem gáudiis,\nte sáuciam dolóribus,\nte iugi amíctam glória,\no Virgo Mater, pángimus.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "date": "10/07"
+        }
+      ]
+    },
+    {
+      "id": "te_gratulantes_pangimus",
+      "incipit": "Te gratulántes pángimus",
+      "full_text": "Te gratulántes pángimus,\nMartha, beáta múlier,\nquæ meruísti s ǽpius\nChristum domi recípere.\nTantum libénter hóspitem\ncuris ornábas sédulis,\nin plúrima sollícita\namóris dulci stímulo.\nPascis dum lata Dóminum,\nsoror ac frater ávide\npossunt ab illo grátiæ\nvit ǽque cibum súmere.\n\nDie 29 iulii\nAd Vesperas\n\n\n\nCaptúro mortis trámitem\ndante soróre arómata,\nextrémi tu servítii\nvigil donásti múnera.\nMagístri felix hóspita,\ncorda fac nostra férveant,\nut illi gratæ iúgiter\nsint sedes amicítiæ.\nSit Trinitáti glória,\nqui nos in domum c ǽlicam\nadmítti tandem tríbuat\ntecúmque laudes cánere. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_vesperas",
+          "date": "07/29"
+        }
+      ]
+    },
+    {
+      "id": "te_nostra_ltis_laudibus",
+      "incipit": "Te nostra lætis láudibus",
+      "full_text": "Te nostra lætis láudibus,\nIacóbe, tollunt cántica,\nquem Christus arte ex rétium\nad tanta vexit cúlmina.\nIpso vocánte, cóncitus\ncum fratre linquis ómnia,\nipsíus et fis nóminis\nverbíque præco férvidus.\nTestis poténtis déxteræ\npræclárus alta cónspicis,\nin monte celsam glóriam,\ntristes in horto angústias.\nQui promptus exstas, póscitur\ncum passiónis póculum,\ntu primus ex apóstolis\npro Christi amóre plécteris.\nIesu fidélis ássecla\nsatórque lucis c ǽlicæ,\nmentes fide claréscere,\nda spe fovéri péctora.\nChristi sequi da sédulos\npræcépta nos in s ǽculo,\nhymnos ut olim glóriæ\nfundámus illi pérpetim. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "07/25"
+        }
+      ]
+    },
+    {
+      "id": "te_sculorum_principem",
+      "incipit": "Te sæculórum príncipem",
+      "full_text": "Te sæculórum príncipem,\nte, Christe, regem géntium,\nte méntium, te córdium\nunum fatémur árbitrum.\nQuem prona adórant ágmina\nhymnísque laudant c ǽlitum,\nte nos ovántes ómnium\nregem suprémum dícimus.\n\n\nO Christe, princeps pácifer,\nmentes rebélles súbice,\ntuóque amóre dévios\novíle in unum cóngrega.\nAd hoc cruénta ab árbore\npendes apértis brácchiis,\ndiráque fossum cúspide\ncor igne flagrans éxhibes.\nAd hoc in aris ábderis\nvini dapísque imágine,\nfundens salútem fíliis\ntransverberáto péctore.\nIesu, tibi sit glória,\nqui cuncta amóre témperas,\ncum Patre et almo Spíritu\nin sempitérna s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_tempore",
+          "hour": "ad_i_vesperas",
+          "day": "dominica"
+        }
+      ]
+    },
+    {
+      "id": "te_catharina_maximis",
+      "incipit": "Te, Catharína, máximis",
+      "full_text": "Te, Catharína, máximis\nnunc venerámur láudibus,\ncunctæ lumen Ecclésiæ,\nsertis ornáta plúrimis.\n∫\n\nMagnis aucta virtútibus\net vita florens ínclita,\nhúmili mente ac strénua\nper crucis pergis trámitem.\n\nPropr. de Sanctis\nDie 29 aprilis\nAd Laudes matutinas\n\n\n\nStella vidéris pópulis\nsalúbris pacis núntia;\nmores restáuras óptimos,\nferóces mulces ánimos.\nSancto compúlsa Spíritu,\nigníta verba lóqueris,\nquæ lucem sapiéntiæ,\næstus amóris íngerunt.\nTuis confísos précibus,\nvirgo dilécta Dómino,\nnos caritáte cóncitos\nfac Sponsi regna qu ǽrere.\nIesu, tibi sit glória,\nqui natus es de Vírgine,\ncum Patre et almo Spíritu\nin sempitérna s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "04/29"
+        }
+      ]
+    },
+    {
+      "id": "te_ioseph_celebrent_agmina_c_litum",
+      "incipit": "Te, Ioseph, célebrent ágmina c ǽlitum",
+      "full_text": "Te, Ioseph, célebrent ágmina c ǽlitum,\nte cuncti résonent christíadum chori,\nqui, clarus méritis, iunctus es ínclitæ\ncasto f œ́dere Vírgini.\nAlmo cum túmidam gérmine cóniugem\nadmírans, dúbio tángeris ánxius,\nafflátu súperi Fláminis ángelus\nconcéptum púerum docet.\n\n\n\nTu natum Dóminum stringis, ad éxteras\nÆgýpti prófugum tu séqueris plagas;\namíssum Sólymis quæris et ínvenis,\nmiscens gáudia flétibus.\nEléctos réliquos mors pia cónsecrat\npalmámque eméritos glória súscipit;\ntu vivens, súperis par, frúeris Deo,\nmira sorte beátior.\nNobis, summa Trias, parce precántibus;\nda Ioseph méritis sídera scándere,\nut tandem líceat nos tibi pérpetim\ngratum prómere cánticum. Amen.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_i_vesperas",
+          "date": "03/19"
+        },
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "date": "05/01"
+        }
+      ]
+    },
+    {
+      "id": "te_pater_ioseph_opifex_colende",
+      "incipit": "Te, pater Ioseph, ópifex colénde",
+      "full_text": "Te, pater Ioseph, ópifex colénde,\nNázaræ felix látitans in umbra,\nvócibus lætis humilíque cuncti\ncorde canámus.\nRégiam stirpem tenuémque victum\nmente fers æqua tacitúsque portas,\nsacra dum multo mánuum labóre\npígnora nutris.\nO faber, sanctum spéculum fabrórum,\nquanta das plebi documénta vitæ,\nut labor sudans ut et officína\nsanctificétur.\nQui carent escis, míseros fovéto;\ntémpera effrénos perimásque lites;\nmýsticus Christus pátriæ sub umbræ\ntégmine crescat.\nQui Deus trinus simul unus exstas,\nqui pater cunctis opiféxque rerum,\nfac patrem Ioseph imitémur actu,\nmorte imitémur. Amen.\n\nPropr. de Sanctis\nDie 1 maii\nAd Invitatorium",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_officium_lectionis",
+          "date": "05/01"
+        }
+      ]
+    },
+    {
+      "id": "telluris_ingens_conditor",
+      "incipit": "Tellúris ingens cónditor",
+      "full_text": "Tellúris ingens cónditor,\nmundi solum qui éruens,\npulsis aquæ moléstiis,\nterram dedísti immóbilem,\nUt germen aptum próferens,\nfulvis decóra flóribus,\nfecúnda fructu sísteret\npastúmque gratum rédderet:\nMentis perústæ vúlnera\nmunda viróre grátiæ,\nut facta fletu díluat\nmotúsque pravos átterat,\nIussis tuis obtémperet,\nnullis malis appróximet,\nbonis repléri gáudeat\net mortis actum nésciat.\nPræsta, Pater piíssime,\nPatríque compar Unice,\ncum Spíritu Paráclito\nregnans per omne s ǽculum. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_vesperas",
+          "day": "feria_III"
+        },
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "hour": "ad_vesperas",
+          "day": "feria_III"
+        }
+      ]
+    },
+    {
+      "id": "ternis_horarum_terminis",
+      "incipit": "Ternis horárum términis",
+      "full_text": "Ternis horárum términis\nvolútis, dante Dómino,\ntrinum perfécte et únicum\nipsum devóti psállimus.\nSacrum Dei mystérium\npuro tenéntes péctore,\nPetri magístri régula\nsigno salútis pródita,\nEt nos psallámus spíritu,\nhæréntes sic apóstolis,\nut plantas adhuc débiles\nChristi virtúte dírigant.\nDeo Patri sit glória\neiúsque soli Fílio\ncum Spíritu Paráclito,\nin sempitérna sǽcula. Amen.\n\nTempus Nativitatis\nA soll. Epiphaniæ\nHymnus\nAd Horam mediam",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus",
+          "hour": "ad_horam_mediam"
+        },
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "nativitatis",
+          "hour": "ad_horam_mediam"
+        }
+      ]
+    },
+    {
+      "id": "ternis_ter_horis_numerus",
+      "incipit": "Ternis ter horis númerus",
+      "full_text": "Ternis ter horis númerus\nnobis sacrátus pánditur,\nsanctóque Iesu nómine\nmunus precémur véniæ.\nLatrónis, en, conféssio\nChristi merétur grátiam;\nlaus nostra vel devótio\nmercétur indulgéntiam.\nMors per crucem nunc ínterit\net post tenébras lux redit;\nhorror dehíscat críminum,\nsplendor nitéscat méntium.\nChristum rogámus et Patrem,\nChristi Patrísque Spíritum;\nunum potens per ómnia,\nfove precántes, Trínitas. Amen.\n\nProprium de tempore\nTemp. Quadragesimæ\nHymnus\nAd Horam mediam",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae",
+          "hour": "ad_horam_mediam"
+        }
+      ]
+    },
+    {
+      "id": "tibi_christe_splendor_patris",
+      "incipit": "Tibi, Christe, splendor Patris",
+      "full_text": "Tibi, Christe, splendor Patris,\nvita, virtus córdium,\nin conspéctu angelórum\nvotis, voce psállimus;\nalternántes concrepándo\nmelos damus vócibus.\nCollaudámus venerántes\nínclitos archángelos,\nsed præcípue primátem\ncæléstis exércitus,\nMichaélem in virtúte\nconteréntem Sátanam.\nQuo custóde procul pelle,\nrex Christe piíssime,\nomne nefas inimíci;\nmundos corde et córpore\nparadíso redde tuo\nnos sola cleméntia.\nGlóriam Patri melódis\npersonémus vócibus,\nglóriam Christo canámus,\nglóriam Paráclito,\nqui Deus trinus et unus\nexstat ante s ǽcula. Amen.\n\nPropr. de Sanctis\nDie 29 septembris\nAd Laudes matutinas",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_laudes",
+          "date": "09/29"
+        }
+      ]
+    },
+    {
+      "id": "trinitas_summo_solio_coruscans",
+      "incipit": "Trínitas, summo sólio corúscans",
+      "full_text": "Trínitas, summo sólio corúscans,\nglóriæ carmen tibi sit perénne,\nquæ tenes nostri veheménti amóre\npéctoris ima.\nCónditor rerum, Pater, alma virtus,\nquos tuæ vitæ facis atque formæ\nesse consórtes, fídei fac usque\ndona meréri.\nCandor ætérnæ speculúmque lucis,\nNate, quos dicis sociásque fratres,\npálmites viti tibi nos inésse\nda viridántes.\nCáritas, ignis, píetas, poténti\nlúmine ac blando móderans creáta,\nSpíritus, mentem rénova, fovéto\níntima cordis.\nHospes o dulcis, Trias obsecránda,\nnos tibi iugi fac amóre nexos,\npérpetes donec modulémur hymnos\nteque fruámur. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "tu_trinitatis_unitas",
+      "incipit": "Tu, Trinitátis Unitas",
+      "full_text": "I. Quando Officium lectionis dicitur noctu vel summo\nmane:\n\nTu, Trinitátis Unitas,\norbem poténter qui regis,\natténde laudum cántica\nquæ excubántes psállimus.\nNam léctulo consúrgimus\nnoctis quiéto témpore,\nut flagitémus vúlnerum\na te medélam ómnium,\nQuo, fraude quicquid d ǽmonum\nin nóctibus delíquimus,\nabstérgat illud c ǽlitus\ntuæ potéstas glóriæ.\nTe corde fido qu ǽsumus,\nreple tuo nos lúmine,\nper quod diérum círculis\nnullis ruámus áctibus.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_officium_lectionis",
+          "day": "feria_VI"
+        }
+      ]
+    },
+    {
+      "id": "urbs_ierusalem_beata",
+      "incipit": "Urbs Ierúsalem beáta",
+      "full_text": "Urbs Ierúsalem beáta,\ndicta pacis vísio,\nquæ constrúitur in cælis\nvivis ex lapídibus,\nangelísque coronáta\nsicut sponsa cómite,\nNova véniens e cælo,\nnuptiáli thálamo\npræparáta, ut intácta\ncopulétur Dómino.\nPlatéæ et muri eius\nex auro puríssimo;\nPortæ nitent margarítis\nádytis paténtibus,\net virtúte meritórum\nilluc introdúcitur\nomnis qui ob Christi nomen\nhic in mundo prémitur.\nTunsiónibus, pressúris\nexpolíti lápides\nsuis coaptántur locis\nper manum artíficis;\ndisponúntur permansúri\nsacris ædifíciis.\n\nCommune\nDedicationis\necclesiae\nAd II Vesperas",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "commune",
+          "hour": "ad_i_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "ut_queant_laxis_resonare_fibris",
+      "incipit": "Ut queant laxis resonáre fibris",
+      "full_text": "Ut queant laxis resonáre fibris\nmira gestórum fámuli tuórum,\nsolve pollúti lábii reátum,\nsancte Ioánnes.\n\n\n\nNúntius cælo véniens suprémo,\nte patri magnum fore nascitúrum,\nnomen et vitæ sériem geréndæ\nórdine promit.\n\n\nIlle promíssi dúbius supérni\npérdidit promptæ módulos loquélæ;\nsed reformásti génitus perémptæ\nórgana vocis.\n\n\nVentris obstrúso pósitus cubíli\nsénseras regem thálamo manéntem;\nhinc parens nati méritis utérque\nábdita pandit.\nLáudibus cives célebrant supérni\nte, Deus simplex paritérque trine;\nsúpplices ac nos véniam precámur:\nparce redémptis. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_i_vesperas",
+          "date": "06/24"
+        }
+      ]
+    },
+    {
+      "id": "veni_creator_spiritus",
+      "incipit": "Veni, creátor Spíritus",
+      "full_text": "Veni, creátor Spíritus,\nmentes tuórum vísita,\nimple supérna grátia,\nquæ tu creásti, péctora.\nQui díceris Paráclitus,\ndonum Dei altíssimi,\nfons vivus, ignis, cáritas\net spiritális únctio.\nTu septifórmis múnere,\ndextræ Dei tu dígitus,\ntu rite promíssum Patris\nsermóne ditans gúttura.\nAccénde lumen sénsibus,\ninfúnde amórem córdibus,\ninfírma nostri córporis,\nvirtúte firmans pérpeti.\nHostem repéllas lóngius\npacémque dones prótinus;\nductóre sic te pr ǽvio\nvitémus omne nóxium.\nPer te sciámus da Patrem\nnoscámus atque Fílium,\nte utriúsque Spíritum\ncredámus omni témpore. Amen.\n\nTempus paschale\nPost Ascensione Domini\nHymnus\nAd Vesperas",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_i_vesperas"
+        },
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_i_vesperas",
+          "day": "dominica"
+        }
+      ]
+    },
+    {
+      "id": "veni_prcelsa_domina",
+      "incipit": "Veni, præcélsa Dómina;",
+      "full_text": "Veni, præcélsa Dómina;\nMaría, tu nos vísita,\nquæ iam cognátæ dómui\ntantum portásti gáudii.\nVeni, iuvámen s ǽculi,\nsordes aufer piáculi,\nac visitándo pópulum\npœnæ tolle perículum.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "date": "05/31"
+        }
+      ]
+    },
+    {
+      "id": "veni_redemptor_gentium",
+      "incipit": "Veni, redémptor géntium",
+      "full_text": "Veni, redémptor géntium,\nosténde partum Vírginis;\nmirétur omne s ǽculum:\ntalis decet partus Deum.\nNon ex viríli sémine,\nsed mýstico spirámine\nVerbum Dei factum est caro\nfructúsque ventris flóruit.\nAlvus tuméscit Vírginis,\nclaustrum pudóris pérmanet,\nvexílla virtútum micant,\nversátur in templo Deus.\nProcédat e thálamo suo,\npudóris aula régia,\ngéminæ gigas substántiæ\nalácris ut currat viam.\nÆquális ætérno Patri,\ncarnis trop ǽo cíngere,\ninfírma nostri córporis\nvirtúte firmans pérpeti.\nPræsépe iam fulget tuum\nluménque nox spirat novum,\nquod nulla nox intérpolet\nfidéque iugi lúceat.\nSit, Christe, rex piíssime,\ntibi Patríque glória\ncum Spíritu Paráclito,\nin sempitérna s ǽcula. Amen.\n\nTempus Adventus\npost 16 Decembris\nHymnus\nAd Invitatorium",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_sanctis",
+          "season": "adventus",
+          "hour": "ad_officium_lectionis",
+          "date": "12/24"
+        }
+      ]
+    },
+    {
+      "id": "verbum_salutis_omnium",
+      "incipit": "Verbum salútis ómnium",
+      "full_text": "Verbum salútis ómnium,\nPatris ab ore pródiens,\nVirgo beáta, súscipe\ncasto, María, víscere.\nTe nunc illústrat c ǽlitus\numbra fecúndi Spíritus,\ngestes ut Christum Dóminum,\næquálem Patri Fílium.\nHæc est sacráti iánua\ntempli seráta iúgiter,\nsoli suprémo Príncipi\npandens beáta límina.\nOlim promíssus vátibus,\nnatus ante lucíferum,\nquem Gábriel annúntiat,\nterris descéndit Dóminus.\nLæténtur simul ángeli,\nomnes exsúltent pópuli:\nexcélsus venit húmilis\nsalváre quod períerat.\nSit, Christe, rex piíssime,\ntibi Patríque glória\ncum Spíritu Paráclito,\nin sempitérna s ǽcula. Amen.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus",
+          "hour": "ad_i_vesperas"
+        }
+      ]
+    },
+    {
+      "id": "verbum_supernum_prodiens",
+      "incipit": "Verbum supérnum pródiens",
+      "full_text": "Verbum supérnum pródiens\nnec Patris linquens déxteram,\nad opus suum éxiens\nvenit ad vitæ vésperam.\n\nSS.mi Corporis\nAd Laudes matutinas\n\nIn mortem a discípulo\nsuis tradéndus ǽmulis,\nprius in vitæ férculo\nse trádidit discípulis.\n\n\nQuibus sub bina spécie\ncarnem dedit et sánguinem,\nut dúplicis substántiæ\ntotum cibáret hóminem.\nSe nascens dedit sócium,\nconvéscens in edúlium,\nse móriens in prétium,\nse regnans dat in pr ǽmium.\nO salutáris hóstia,\nquæ cæli pandis óstium,\nbella premunt hostília:\nda robur, fer auxílium.\nUni trinóque Dómino\nsit sempitérna glória,\nqui vitam sine término\nnobis donet in pátria. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "hour": "ad_laudes"
+        }
+      ]
+    },
+    {
+      "id": "vexilla_regis_prodeunt",
+      "incipit": "Vexílla regis pródeunt",
+      "full_text": "Vexílla regis pródeunt,\nfulget crucis mystérium,\nquo carne carnis cónditor\nsuspénsus est patíbulo;\n\n\nQuo, vulnerátus ínsuper\nmucróne diro lánceæ,\nut nos laváret crímine,\nmanávit unda et sánguine.\nArbor decóra et fúlgida,\nornáta regis púrpura,\nelécta digno stípite\ntam sancta membra tángere!\nBeáta, cuius brácchiis\nsæcli pepéndit prétium;\nstatéra facta est córporis\nprædam tulítque tártari.\nSalve, ara, salve, víctima,\nde passiónis glória,\nqua Vita mortem pértulit\net morte vitam réddidit!\nO crux, ave, spes única!\nhoc passiónis témpore\npiis adáuge grátiam\nreísque dele crímina.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae",
+          "hour": "ad_i_vesperas"
+        },
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_i_vesperas",
+          "date": "09/14"
+        }
+      ]
+    },
+    {
+      "id": "virgo_prudentum_comitata_ctum",
+      "incipit": "Virgo prudéntum comitáta cœtum",
+      "full_text": "Virgo prudéntum comitáta cœtum\nóbviam sponso véniens paráta,\nnoctis horréndæ rémovet tenébras\nlámpade pura.\nIlle fulgéntem nítidis lapíllis\nánulum miri tríbuit decóris\nvírgini dicens: « Tibi trado sancti\npignus amóris ».\nMota flagrántis stímulo calóris\nmentis excéssu rápitur frequénti,\nfixa dum portat Catharína membris\nvúlnera Christi.\nUnde ter felix quater et beáta\nin sinu sponsi requiévit almi,\ninter illústres ánimas reláta\nlux nova cæli.\n\nPropr. de Sanctis\nDie 29 aprilis\nAd Off Lectionis\n\n\n\nSit Deus cæli résidens in arce,\ntrinus et simplex benedíctus ille,\nqui potens totum stábili gubérnat\nórdine mundum. Amen.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_officium_lectionis",
+          "date": "04/29"
+        }
+      ]
+    },
+    {
+      "id": "virgo_virginum_prclara",
+      "incipit": "Virgo vírginum præclára",
+      "full_text": "Virgo vírginum præclára,\nmihi iam non sis amára;\nfac me tecum plángere.\nFac ut portem Christi mortem,\npassiónis fac me sortem\net plagas recólere.\nFac me plagis vulnerári,\ncruce hac inebriári\net cruóre Fílii.\nFlammis urar ne succénsus,\nper te, Virgo, sim defénsus\nin die iudícii.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_vesperas",
+          "date": "09/15"
+        }
+      ]
+    },
+    {
+      "id": "vox_clara_ecce_intonat",
+      "incipit": "Vox clara ecce íntonat",
+      "full_text": "Vox clara ecce íntonat,\nobscúra quæque íncrepat:\nprocul fugéntur sómnia;\nab æthre Christus prómicat.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "veniens_mater_inclita",
+      "incipit": "Véniens, mater ínclita",
+      "full_text": "Véniens, mater ínclita,\ncum Sancti dono Spíritus,\nnos ut Ioánnem vísita\nin huius carnis sédibus.\n\nProcéde, portans párvulum,\nut mundus possit crédere\net tuæ laudis títulum\nomnes sciant extóllere.",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_sanctis",
+          "date": "05/31"
+        }
+      ]
+    },
+    {
+      "id": "virginis_virgo_venerande_custos",
+      "incipit": "Vírginis virgo veneránde custos",
+      "full_text": "Vírginis virgo veneránde custos,\npræco qui Verbi cóleris fidélis,\nterge servórum fácinus tuórum,\nsancte Ioánnes.\nFonte prorúmpens flúvius perénni\ncurris, aréntis satiátor orbis;\nhausit ex pleno, modo quod propínat,\npéctore pectus.\nTu, decus mundi iubar atque cæli,\nímpetra nostris véniam ruínis;\nda sacraméntum penetráre summum,\nquod docuísti.\nPatris arcánum speculándo Verbum\ngrátiam fundis fídei per orbem;\nnos ad ætérnam spéciem fruéndam,\ndux bone, transfer.\nSit decus summo sine fine Christo,\nsancta quem virgo génuit María,\nqui Patri compar Flaminíque Sancto\nregnat in ævum. Amen.\n\nDie 27 decembris\nAd Off Lectionis",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_officium_lectionis",
+          "date": "12/27"
+        }
+      ]
+    },
+    {
+      "id": "terna_christi_munera",
+      "incipit": "Ætérna Christi múnera",
+      "full_text": "Ætérna Christi múnera\net mártyrum victórias,\nlaudes feréntes débitas,\nlætis canámus méntibus.\nEcclesiárum príncipes,\nbelli triumpháles duces,\ncæléstis aulæ mílites\net vera mundi lúmina.\nTerróre victo s ǽculi\npœnísque spretis córporis,\nmortis sacræ compéndio\nlucem beátam póssident.\nTortóris insáni manu\nsanguis sacrátus fúnditur,\nsed pérmanent immóbiles\nvitæ perénnis grátia.\nDevóta sanctórum fides,\ninvícta spes credéntium,\nperfécta Christi cáritas\nmundi triúmphat príncipem.\nIn his patérna glória,\nin his volúntas Spíritus,\nexsúltat in his Fílius,\ncælum replétur gáudio.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "proprium_de_tempore",
+          "season": "adventus_nativitatis",
+          "hour": "ad_laudes"
+        },
+        {
+          "volume": 2,
+          "section": "commune",
+          "hour": "ad_laudes"
+        },
+        {
+          "volume": 3,
+          "section": "commune",
+          "hour": "ad_officium_lectionis"
+        }
+      ]
+    },
+    {
+      "id": "terna_cli_gloria",
+      "incipit": "Ætérna cæli glória",
+      "full_text": "Ætérna cæli glória,\nbeáta spes mortálium,\ncelsi Paréntis Unice\ncast ǽque proles Vírginis,\nDa déxteram surgéntibus,\nexsúrgat et mens sóbria\nflagrans et in laudem Dei\ngrates repéndat débitas.\nOrtus refúlget lúcifer\nipsámque lucem núntiat,\ncadit calígo nóctium,\nlux sancta nos illúminet,",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "day": "feria_VI"
+        },
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum"
+        }
+      ]
+    },
+    {
+      "id": "terna_imago_altissimi",
+      "incipit": "Ætérna imágo Altíssimi",
+      "full_text": "Ætérna imágo Altíssimi,\nLumen, Deus, de Lúmine,\ntibi, Redémptor, glória,\nhonor, potéstas régia.",
+      "used_in": [
+        {
+          "volume": 4,
+          "section": "proprium_de_tempore"
+        }
+      ]
+    },
+    {
+      "id": "terne_lucis_conditor",
+      "incipit": "Ætérne lucis cónditor",
+      "full_text": "Ætérne lucis cónditor,\nlux ipse totus et dies,\nnoctem nec ullam séntiens\nnatúra lucis pérpeti,\nIam cedit pallens próximo\ndiéi nox advéntui,\nobtúndens lumen síderum\nadest et clarus lúcifer.\n\nPsalterium\nHebd IV\nFeria III\nAd Laudes matutinas\n\n\n\nIam stratis læti súrgimus\ngrates canéntes et tuas,\nquod cæcam noctem vícerit\nrevéctans rursus sol diem.\nTe nunc, ne carnis gáudia\nblandis subrépant ǽstibus,\ndolis ne cedat s ǽculi\nmens nostra, sancte, qu ǽsumus.\nIra ne rixas próvocet,\ngulam ne venter íncitet,\nopum pervértat ne famis,\nturpis ne luxus óccupet,\nSed firma mente sóbrii,\ncasto manéntes córpore\ntotum fidéli spíritu\nChristo ducámus hunc diem.\nPræsta, Pater piíssime,\nPatríque compar Unice,\ncum Spíritu Paráclito\nregnans per omne s ǽculum. Amen.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "hour": "ad_laudes",
+          "day": "feria_III"
+        },
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_laudes",
+          "day": "feria_III"
+        }
+      ]
+    },
+    {
+      "id": "terne_rerum_conditor",
+      "incipit": "Ætérne rerum cónditor",
+      "full_text": "Ætérne rerum cónditor,\nnoctem diémque qui regis,\net témporum das témpora\nut álleves fastídium,\nPræco diéi iam sonat,\nnoctis profúndæ pérvigil,\nnoctúrna lux viántibus\na nocte noctem ségregans.\nHoc excitátus lúcifer\nsolvit polum calígine;\nhoc omnis errónum chorus\nvias nocéndi déserit.\n\n\n\nHoc nauta vires cólligit\npontíque mitéscunt freta;\nhoc, ipse Petra Ecclésiæ,\ncanénte, culpam díluit.\n\n\nIesu, labántes réspice\net nos vidéndo córrige;\nsi réspicis, lapsus cadunt\nfletúque culpa sólvitur.",
+      "used_in": [
+        {
+          "volume": 3,
+          "section": "psalterium",
+          "season": "per_annum",
+          "hour": "ad_laudes",
+          "day": "dominica"
+        },
+        {
+          "volume": 3,
+          "section": "proprium_de_tempore",
+          "hour": "ad_laudes",
+          "day": "dominica"
+        },
+        {
+          "volume": 4,
+          "section": "proprium_de_sanctis",
+          "hour": "ad_vesperas",
+          "date": "10/02"
+        }
+      ]
+    },
+    {
+      "id": "terne_rex_altissime",
+      "incipit": "Ætérne rex altíssime",
+      "full_text": "Ætérne rex altíssime,\nredémptor et fidélium,\nquo mors solúta déperit,\ndatur triúmphus grátiæ,\nScandis tribúnal déxteræ\nPatris tibíque cǽlitus\nfertur potéstas ómnium,\nquæ non erat humánitus,\nUt trina rerum máchina\ncæléstium, terréstrium\net inferórum cóndita,\nflectat genu iam súbdita.\nTremunt vidéntes ángeli\nversam vicem mortálium;\nculpat caro, purgat caro,\nregnat caro Verbum Dei.\nTu, Christe, nostrum gáudium,\nmanens perénne prǽmium,\nmundi regis qui fábricam,\nmundána vincens gáudia.\nHinc te precántes quǽsumus,\nignósce culpis ómnibus\net corda sursum súbleva\nad te supérna grátia,\nUt, cum rubénte cœ́peris\nclarére nube iúdicis,\npœnas repéllas débitas,\nreddas corónas pérditas.\nIesu, tibi sit glória,\nqui scandis ad cæléstia,\ncum Patre et almo Spíritu,\nin sempitérna sǽcula. Amen.\n\nSollemnitates\nAscensione Domini\nAd Off Lectionis",
+      "used_in": [
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "quadragesimae_paschale",
+          "hour": "ad_officium_lectionis"
+        },
+        {
+          "volume": 2,
+          "section": "proprium_de_tempore",
+          "season": "paschale"
+        }
+      ]
+    },
+    {
+      "id": "terne_sol_qui_lumine",
+      "incipit": "Ætérne sol, qui lúmine",
+      "full_text": "Ætérne sol, qui lúmine\ncreáta comples ómnia,\nsupréma lux et méntium,\nte corda nostra cóncinunt.\nTuo fovénte Spíritu,\nhic viva luminária\nfulsére, per quæ s ǽculis\npatent salútis sémitæ.\nQuod verba missa c ǽlitus,\nnatíva mens quod éxhibet,\nper hos minístros grátiæ\nnovo nitóre cláruit.\nHorum corónæ párticeps,\ndoctrína honéstus lúcida,\nhic vir beátus splénduit\nquem prædicámus láudibus.",
+      "used_in": [
+        {
+          "volume": 1,
+          "section": "commune"
+        },
+        {
+          "volume": 2,
+          "section": "commune",
+          "hour": "ad_i_vesperas"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_unique_hymns": 234
+  }
+}

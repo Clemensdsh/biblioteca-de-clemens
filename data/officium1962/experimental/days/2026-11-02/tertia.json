@@ -1,0 +1,433 @@
+{
+  "schemaVersion": "0.2.0",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "language": "la",
+  "date": "2026-11-02",
+  "liturgicalTitle": "In Commemoratione Omnium Fidelium Defunctorum ~ I. classis",
+  "rank": "In Commemoratione Omnium Fidelium Defunctorum;;I. classis;;6;;ex C9\n\n",
+  "commemorations": [],
+  "hours": {
+    "tertia": {
+      "name": "tertia",
+      "title": "Tertia",
+      "blocks": [
+        {
+          "id": "office-1962-2026-11-02-tertia-psalm-37-1-11-1",
+          "type": "psalm",
+          "title": "Psalmus 37(1-11) [1]",
+          "text": [
+            "37:2 Dómine, ne in furóre tuo árguas me, * neque in ira tua corrípias me.",
+            "37:3 Quóniam sagíttæ tuæ infíxæ sunt mihi: * et confirmásti super me manum tuam.",
+            "37:4 Non est sánitas in carne mea a fácie iræ tuæ: * non est pax óssibus meis a fácie peccatórum meórum.",
+            "37:5 Quóniam iniquitátes meæ supergréssæ sunt caput meum: * et sicut onus grave gravátæ sunt super me.",
+            "37:6 Putruérunt et corrúptæ sunt cicatríces meæ, * a fácie insipiéntiæ meæ.",
+            "37:7 Miser factus sum, et curvátus sum usque in finem: * tota die contristátus ingrediébar.",
+            "37:8 Quóniam lumbi mei impléti sunt illusiónibus: * et non est sánitas in carne mea.",
+            "37:9 Afflíctus sum, et humiliátus sum nimis: * rugiébam a gémitu cordis mei.",
+            "37:10 Dómine, ante te omne desidérium meum: * et gémitus meus a te non est abscónditus.",
+            "37:11 Cor meum conturbátum est, derelíquit me virtus mea: * et lumen oculórum meórum, et ipsum non est mecum.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "37:2 Dómine, ne in furóre tuo árguas me, * neque in ira tua corrípias me.",
+            "37:3 Quóniam sagíttæ tuæ infíxæ sunt mihi: * et confirmásti super me manum tuam.",
+            "37:4 Non est sánitas in carne mea a fácie iræ tuæ: * non est pax óssibus meis a fácie peccatórum meórum.",
+            "37:5 Quóniam iniquitátes meæ supergréssæ sunt caput meum: * et sicut onus grave gravátæ sunt super me.",
+            "37:6 Putruérunt et corrúptæ sunt cicatríces meæ, * a fácie insipiéntiæ meæ.",
+            "37:7 Miser factus sum, et curvátus sum usque in finem: * tota die contristátus ingrediébar.",
+            "37:8 Quóniam lumbi mei impléti sunt illusiónibus: * et non est sánitas in carne mea.",
+            "37:9 Afflíctus sum, et humiliátus sum nimis: * rugiébam a gémitu cordis mei.",
+            "37:10 Dómine, ante te omne desidérium meum: * et gémitus meus a te non est abscónditus.",
+            "37:11 Cor meum conturbátum est, derelíquit me virtus mea: * et lumen oculórum meórum, et ipsum non est mecum."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "37",
+            "segment": "1-11",
+            "verses": [
+              "37:2 Dómine, ne in furóre tuo árguas me, * neque in ira tua corrípias me.",
+              "37:3 Quóniam sagíttæ tuæ infíxæ sunt mihi: * et confirmásti super me manum tuam.",
+              "37:4 Non est sánitas in carne mea a fácie iræ tuæ: * non est pax óssibus meis a fácie peccatórum meórum.",
+              "37:5 Quóniam iniquitátes meæ supergréssæ sunt caput meum: * et sicut onus grave gravátæ sunt super me.",
+              "37:6 Putruérunt et corrúptæ sunt cicatríces meæ, * a fácie insipiéntiæ meæ.",
+              "37:7 Miser factus sum, et curvátus sum usque in finem: * tota die contristátus ingrediébar.",
+              "37:8 Quóniam lumbi mei impléti sunt illusiónibus: * et non est sánitas in carne mea.",
+              "37:9 Afflíctus sum, et humiliátus sum nimis: * rugiébam a gémitu cordis mei.",
+              "37:10 Dómine, ante te omne desidérium meum: * et gémitus meus a te non est abscónditus.",
+              "37:11 Cor meum conturbátum est, derelíquit me virtus mea: * et lumen oculórum meórum, et ipsum non est mecum."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": true,
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio defunctorum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Psalmus 37(1-11) [1]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm37.txt",
+              "section": "Psalm 37",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-tertia-psalm-37-12-23-2",
+          "type": "psalm",
+          "title": "Psalmus 37(12-23) [2]",
+          "text": [
+            "37:12 Amíci mei, et próximi mei * advérsum me appropinquavérunt, et stetérunt.",
+            "37:12 Et qui juxta me erant, de longe stetérunt: * et vim faciébant qui quærébant ánimam meam.",
+            "37:13 Et qui inquirébant mala mihi, locúti sunt vanitátes: * et dolos tota die meditabántur.",
+            "37:14 Ego autem tamquam surdus non audiébam: * et sicut mutus non apériens os suum.",
+            "37:15 Et factus sum sicut homo non áudiens: * et non habens in ore suo redargutiónes.",
+            "37:16 Quóniam in te, Dómine, sperávi: * tu exáudies me, Dómine, Deus meus.",
+            "37:17 Quia dixi: Nequándo supergáudeant mihi inimíci mei: * et dum commovéntur pedes mei, super me magna locúti sunt.",
+            "37:18 Quóniam ego in flagélla parátus sum: * et dolor meus in conspéctu meo semper.",
+            "37:19 Quóniam iniquitátem meam annuntiábo: * et cogitábo pro peccáto meo.",
+            "37:20 Inimíci autem mei vivunt, et confirmáti sunt super me: * et multiplicáti sunt qui odérunt me iníque.",
+            "37:21 Qui retríbuunt mala pro bonis, detrahébant mihi: * quóniam sequébar bonitátem.",
+            "37:22 Ne derelínquas me, Dómine, Deus meus: * ne discésseris a me.",
+            "37:23 Inténde in adjutórium meum, * Dómine, Deus, salútis meæ.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "37:12 Amíci mei, et próximi mei * advérsum me appropinquavérunt, et stetérunt.",
+            "37:12 Et qui juxta me erant, de longe stetérunt: * et vim faciébant qui quærébant ánimam meam.",
+            "37:13 Et qui inquirébant mala mihi, locúti sunt vanitátes: * et dolos tota die meditabántur.",
+            "37:14 Ego autem tamquam surdus non audiébam: * et sicut mutus non apériens os suum.",
+            "37:15 Et factus sum sicut homo non áudiens: * et non habens in ore suo redargutiónes.",
+            "37:16 Quóniam in te, Dómine, sperávi: * tu exáudies me, Dómine, Deus meus.",
+            "37:17 Quia dixi: Nequándo supergáudeant mihi inimíci mei: * et dum commovéntur pedes mei, super me magna locúti sunt.",
+            "37:18 Quóniam ego in flagélla parátus sum: * et dolor meus in conspéctu meo semper.",
+            "37:19 Quóniam iniquitátem meam annuntiábo: * et cogitábo pro peccáto meo.",
+            "37:20 Inimíci autem mei vivunt, et confirmáti sunt super me: * et multiplicáti sunt qui odérunt me iníque.",
+            "37:21 Qui retríbuunt mala pro bonis, detrahébant mihi: * quóniam sequébar bonitátem.",
+            "37:22 Ne derelínquas me, Dómine, Deus meus: * ne discésseris a me.",
+            "37:23 Inténde in adjutórium meum, * Dómine, Deus, salútis meæ."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "37",
+            "segment": "12-23",
+            "verses": [
+              "37:12 Amíci mei, et próximi mei * advérsum me appropinquavérunt, et stetérunt.",
+              "37:12 Et qui juxta me erant, de longe stetérunt: * et vim faciébant qui quærébant ánimam meam.",
+              "37:13 Et qui inquirébant mala mihi, locúti sunt vanitátes: * et dolos tota die meditabántur.",
+              "37:14 Ego autem tamquam surdus non audiébam: * et sicut mutus non apériens os suum.",
+              "37:15 Et factus sum sicut homo non áudiens: * et non habens in ore suo redargutiónes.",
+              "37:16 Quóniam in te, Dómine, sperávi: * tu exáudies me, Dómine, Deus meus.",
+              "37:17 Quia dixi: Nequándo supergáudeant mihi inimíci mei: * et dum commovéntur pedes mei, super me magna locúti sunt.",
+              "37:18 Quóniam ego in flagélla parátus sum: * et dolor meus in conspéctu meo semper.",
+              "37:19 Quóniam iniquitátem meam annuntiábo: * et cogitábo pro peccáto meo.",
+              "37:20 Inimíci autem mei vivunt, et confirmáti sunt super me: * et multiplicáti sunt qui odérunt me iníque.",
+              "37:21 Qui retríbuunt mala pro bonis, detrahébant mihi: * quóniam sequébar bonitátem.",
+              "37:22 Ne derelínquas me, Dómine, Deus meus: * ne discésseris a me.",
+              "37:23 Inténde in adjutórium meum, * Dómine, Deus, salútis meæ."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": true,
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio defunctorum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Psalmus 37(12-23) [2]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm37.txt",
+              "section": "Psalm 37",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-tertia-psalm-55-full-3",
+          "type": "psalm",
+          "title": "Psalmus 55 [3]",
+          "text": [
+            "55:2 Miserére mei, Deus, quóniam conculcávit me homo: * tota die impúgnans tribulávit me.",
+            "55:3 Conculcavérunt me inimíci mei tota die: * quóniam multi bellántes advérsum me.",
+            "55:4 Ab altitúdine diéi timébo: * ego vero in te sperábo.",
+            "55:5 In Deo laudábo sermónes meos, in Deo sperávi: * non timébo quid fáciat mihi caro.",
+            "55:6 Tota die verba mea exsecrabántur: * advérsum me omnes cogitatiónes eórum in malum.",
+            "55:7 Inhabitábunt et abscóndent: * ipsi calcáneum meum observábunt.",
+            "55:8 Sicut sustinuérunt ánimam meam, pro níhilo salvos fácies illos: * in ira pópulos confrínges.",
+            "55:9 Deus, vitam meam annuntiávi tibi: * posuísti lácrimas meas in conspéctu tuo.",
+            "55:9 Sicut et in promissióne tua: * tunc converténtur inimíci mei retrórsum:",
+            "55:10 In quacúmque die invocávero te: * ecce, cognóvi, quóniam Deus meus es.",
+            "55:11 In Deo laudábo verbum, in Dómino laudábo sermónem: * in Deo sperávi, non timébo quid fáciat mihi homo.",
+            "55:12 In me sunt, Deus, vota tua, * quæ reddam, laudatiónes tibi.",
+            "55:13 Quóniam eripuísti ánimam meam de morte, et pedes meos de lapsu: * ut pláceam coram Deo in lúmine vivéntium.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "55:2 Miserére mei, Deus, quóniam conculcávit me homo: * tota die impúgnans tribulávit me.",
+            "55:3 Conculcavérunt me inimíci mei tota die: * quóniam multi bellántes advérsum me.",
+            "55:4 Ab altitúdine diéi timébo: * ego vero in te sperábo.",
+            "55:5 In Deo laudábo sermónes meos, in Deo sperávi: * non timébo quid fáciat mihi caro.",
+            "55:6 Tota die verba mea exsecrabántur: * advérsum me omnes cogitatiónes eórum in malum.",
+            "55:7 Inhabitábunt et abscóndent: * ipsi calcáneum meum observábunt.",
+            "55:8 Sicut sustinuérunt ánimam meam, pro níhilo salvos fácies illos: * in ira pópulos confrínges.",
+            "55:9 Deus, vitam meam annuntiávi tibi: * posuísti lácrimas meas in conspéctu tuo.",
+            "55:9 Sicut et in promissióne tua: * tunc converténtur inimíci mei retrórsum:",
+            "55:10 In quacúmque die invocávero te: * ecce, cognóvi, quóniam Deus meus es.",
+            "55:11 In Deo laudábo verbum, in Dómino laudábo sermónem: * in Deo sperávi, non timébo quid fáciat mihi homo.",
+            "55:12 In me sunt, Deus, vota tua, * quæ reddam, laudatiónes tibi.",
+            "55:13 Quóniam eripuísti ánimam meam de morte, et pedes meos de lapsu: * ut pláceam coram Deo in lúmine vivéntium."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "55",
+            "verses": [
+              "55:2 Miserére mei, Deus, quóniam conculcávit me homo: * tota die impúgnans tribulávit me.",
+              "55:3 Conculcavérunt me inimíci mei tota die: * quóniam multi bellántes advérsum me.",
+              "55:4 Ab altitúdine diéi timébo: * ego vero in te sperábo.",
+              "55:5 In Deo laudábo sermónes meos, in Deo sperávi: * non timébo quid fáciat mihi caro.",
+              "55:6 Tota die verba mea exsecrabántur: * advérsum me omnes cogitatiónes eórum in malum.",
+              "55:7 Inhabitábunt et abscóndent: * ipsi calcáneum meum observábunt.",
+              "55:8 Sicut sustinuérunt ánimam meam, pro níhilo salvos fácies illos: * in ira pópulos confrínges.",
+              "55:9 Deus, vitam meam annuntiávi tibi: * posuísti lácrimas meas in conspéctu tuo.",
+              "55:9 Sicut et in promissióne tua: * tunc converténtur inimíci mei retrórsum:",
+              "55:10 In quacúmque die invocávero te: * ecce, cognóvi, quóniam Deus meus es.",
+              "55:11 In Deo laudábo verbum, in Dómino laudábo sermónem: * in Deo sperávi, non timébo quid fáciat mihi homo.",
+              "55:12 In me sunt, Deus, vota tua, * quæ reddam, laudatiónes tibi.",
+              "55:13 Quóniam eripuísti ánimam meam de morte, et pedes meos de lapsu: * ut pláceam coram Deo in lúmine vivéntium."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": true,
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio defunctorum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Psalmus 55 [3]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm55.txt",
+              "section": "Psalm 55",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-tertia-oratio-mortuorum",
+          "type": "prayer",
+          "title": "Oratio defunctorum",
+          "text": [
+            "Oratio",
+            "Pater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris:",
+            "℣. Et ne nos indúcas in tentatiónem:",
+            "℟. Sed líbera nos a malo.",
+            "℣. A porta ínferi.",
+            "℟. Erue, Dómine, ánimas eórum.",
+            "℣. Requiéscant in pace.",
+            "℟. Amen.",
+            "℣. Dómine, exáudi oratiónem meam.",
+            "℟. Et clamor meus ad te véniat.",
+            "secunda Domine, exaudi omittitur",
+            "Orémus.",
+            "Fidélium, Deus, ómnium Cónditor et Redémptor, animábus famulórum famularúmque tuárum remissiónem cunctórum tríbue peccatórum: ut indulgéntiam, quam semper optavérunt, piis supplicatiónibus consequántur:",
+            "Qui vivis et regnas cum Deo Patre, in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "specialStructure": "defunctorum",
+            "prayerKey": "Oratio mortuorum",
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio defunctorum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Oratio defunctorum",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "special",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-tertia-conclusio-defunctorum",
+          "type": "blessing",
+          "title": "Conclusio defunctorum",
+          "text": [
+            "Conclusio specialis",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis.",
+            "℣. Requiéscant in pace.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "specialStructure": "defunctorum",
+            "formula": "requiem-aeternam",
+            "minorHour": {
+              "hour": "tertia",
+              "psalmodySource": "ferial-psalter",
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Minor.txt",
+                "section": "Oratio defunctorum",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-tertia-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Minor.txt",
+              "section": "Conclusio defunctorum",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-tertia-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "special",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "web/cgi-bin/horas/horas.pl",
+          "section": "getordinarium/specials/getunit/resolve_refs",
+          "transformation": [
+            "Divinum Officium internal script array exported before print_content"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "warnings": []
+}
