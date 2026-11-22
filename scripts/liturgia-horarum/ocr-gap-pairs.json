@@ -1,0 +1,3437 @@
+[
+ {
+  "id": "jan7-resp-tria",
+  "kind": "responsory",
+  "block": "be45b87a442c17de",
+  "row": 2,
+  "key": "VIAN2_cCIT2_7#R",
+  "pages": [
+   358
+  ],
+  "from": "對答詠領：那一天",
+  "to": "答：黃金象⋯⋯",
+  "note": "1/7 诵读二答唱（诵读二本身书中是另一篇，不配）"
+ },
+ {
+  "id": "jan7-versicle",
+  "kind": "versicle",
+  "block": "792124a8a6304aee",
+  "row": 10,
+  "key": "VIAN2_cRESP_7",
+  "pages": [
+   355
+  ],
+  "from": "領：諸天宣告了上主的正義。",
+  "to": "萬民看見了祂的榮耀。",
+  "note": ""
+ },
+ {
+  "id": "jan7-benedictus",
+  "kind": "antiphon",
+  "block": "5ddc5ee6dac34ab7",
+  "row": 1,
+  "key": "VIAN2_rBENEDIKTUS7",
+  "pages": [
+   359
+  ],
+  "from": "賢士們從東方到白冷",
+  "to": "阿肋路亞。",
+  "note": ""
+ },
+ {
+  "id": "jan7-benedictus-b",
+  "kind": "antiphon",
+  "block": "5ddc5ee6dac34ab7",
+  "row": 3,
+  "key": "VIAN2_rBENEDIKTUS7",
+  "pages": [
+   359
+  ],
+  "from": "賢士們從東方到白冷",
+  "to": "阿肋路亞。",
+  "note": ""
+ },
+ {
+  "id": "jan10-lectio1",
+  "kind": "reading",
+  "block": "1bff76f4327e6c44",
+  "row": 1,
+  "key": "VIAN2_cCIT1_10",
+  "pages": [
+   375,
+   376
+  ],
+  "from": "恭讀依撒意亞先知書六四",
+  "to": "飽受煎熬嗎？",
+  "note": "书中章节号 64:1–11 = 拉丁 63:19b–64:11（希伯来编号差一节）"
+ },
+ {
+  "id": "jan10-lectio1-resp",
+  "kind": "responsory",
+  "block": "1bff76f4327e6c44",
+  "row": 2,
+  "key": "VIAN2_cCIT1_10#R",
+  "pages": [
+   376
+  ],
+  "from": "對答詠參閱依五六",
+  "to": "答：不要……",
+  "note": ""
+ },
+ {
+  "id": "jan10-versicle",
+  "kind": "versicle",
+  "block": "8df4048d0d4c6a2c",
+  "row": 10,
+  "key": "VIAN2_cRESP_10",
+  "pages": [
+   375
+  ],
+  "from": "領：天主子業已來臨",
+  "to": "使我們認識真天主。",
+  "note": ""
+ },
+ {
+  "id": "jan10-lectio2",
+  "kind": "reading",
+  "block": "2eb4a23b9917db16",
+  "row": 1,
+  "key": "VIAN2_cCIT2_10",
+  "pages": [
+   377,
+   378
+  ],
+  "from": "選讀亞歷山大城主教聖齊禮",
+  "to": "都是透過祂的子。",
+  "head": [
+   2,
+   1
+  ],
+  "note": "济利禄《若望福音释义》，拉丁 Lib. 5, cap. 2 同一篇"
+ },
+ {
+  "id": "jan10-lectio2-resp",
+  "kind": "responsory",
+  "block": "2eb4a23b9917db16",
+  "row": 2,
+  "key": "VIAN2_cCIT2_10#R",
+  "pages": [
+   378
+  ],
+  "from": "對答詠則三七",
+  "to": "答：萬民也⋯",
+  "note": ""
+ },
+ {
+  "id": "raymond-lectio2",
+  "kind": "reading",
+  "block": "5eba7bec8fffc0ef",
+  "row": 1,
+  "key": "07JAN_cCIT2",
+  "pages": [
+   1552,
+   1553
+  ],
+  "from": "選讀聖雷孟司鐸書信集",
+  "to": "無盡的富裕。",
+  "head": [
+   1,
+   2
+  ],
+  "note": ""
+ },
+ {
+  "id": "raymond-resp",
+  "kind": "responsory",
+  "block": "5eba7bec8fffc0ef",
+  "row": 2,
+  "key": "07JAN_cCIT2#R",
+  "pages": [
+   1553,
+   1554
+  ],
+  "from": "對答詠詠一○六",
+  "to": "答：祂以愛⋯",
+  "note": ""
+ },
+ {
+  "id": "raymond-collect-a",
+  "kind": "collect",
+  "block": "8253053ce43680a3",
+  "row": 2,
+  "key": "07JAN_MODLITBA",
+  "pages": [
+   1554
+  ],
+  "from": "上主，祢曾賜予聖雷孟司鐸",
+  "to": "以奉行祢的旨意。",
+  "note": "书中无「以上所求」结语"
+ },
+ {
+  "id": "raymond-collect-b",
+  "kind": "collect",
+  "block": "549865e7ec2774da",
+  "row": 1,
+  "key": "07JAN_MODLITBA",
+  "pages": [
+   1554
+  ],
+  "from": "上主，祢曾賜予聖雷孟司鐸",
+  "to": "以奉行祢的旨意。",
+  "note": ""
+ },
+ {
+  "id": "cyril-lectio2",
+  "kind": "reading",
+  "block": "eaea6afbc16c4a82",
+  "row": 1,
+  "key": "27JUN_cCIT2",
+  "pages": [
+   5194,
+   5195,
+   5196
+  ],
+  "from": "選讀聖啟祿主教聖師書信集",
+  "to": "使我們獲得義子的地位。",
+  "head": [
+   1,
+   2
+  ],
+  "note": ""
+ },
+ {
+  "id": "cyril-resp",
+  "kind": "responsory",
+  "block": "eaea6afbc16c4a82",
+  "row": 2,
+  "key": "27JUN_cCIT2#R",
+  "pages": [
+   5196
+  ],
+  "from": "對答詠領：這位聖人",
+  "to": "答：願他在我⋯",
+  "note": ""
+ },
+ {
+  "id": "cyril-collect-a",
+  "kind": "collect",
+  "block": "583f1d4185555783",
+  "row": 2,
+  "key": "27JUN_MODLITBA",
+  "pages": [
+   5196
+  ],
+  "from": "天父，祢曾使聖啟祿主教",
+  "to": "而獲得救恩。",
+  "note": ""
+ },
+ {
+  "id": "cyril-collect-b",
+  "kind": "collect",
+  "block": "5af22a7b848894c9",
+  "row": 1,
+  "key": "27JUN_MODLITBA",
+  "pages": [
+   5196
+  ],
+  "from": "天父，祢曾使聖啟祿主教",
+  "to": "而獲得救恩。",
+  "note": ""
+ },
+ {
+  "id": "januarius-lectio2",
+  "kind": "reading",
+  "block": "e682b83fb1bae87a",
+  "row": 1,
+  "key": "19SEP_cCIT2",
+  "pages": [
+   5386,
+   5387
+  ],
+  "from": "選讀聖思定主教講道詞",
+  "to": "更能以為你們服務為樂。",
+  "head": [
+   1,
+   2
+  ],
+  "note": ""
+ },
+ {
+  "id": "januarius-resp",
+  "kind": "responsory",
+  "block": "e682b83fb1bae87a",
+  "row": 2,
+  "key": "19SEP_cCIT2#R",
+  "pages": [
+   5388
+  ],
+  "from": "對答詠領：佳年",
+  "to": "答：他不為⋯",
+  "note": ""
+ },
+ {
+  "id": "januarius-collect-a",
+  "kind": "collect",
+  "block": "fbd6415ceba8500b",
+  "row": 2,
+  "key": "19SEP_MODLITBA",
+  "pages": [
+   5388
+  ],
+  "from": "天主，我們今日紀念聖佳年",
+  "to": "永享無窮的歡樂。",
+  "note": ""
+ },
+ {
+  "id": "januarius-collect-b",
+  "kind": "collect",
+  "block": "41778751060a7fe6",
+  "row": 1,
+  "key": "19SEP_MODLITBA",
+  "pages": [
+   5388
+  ],
+  "from": "天主，我們今日紀念聖佳年",
+  "to": "永享無窮的歡樂。",
+  "note": ""
+ },
+ {
+  "id": "easter6fri-1jn-resp",
+  "kind": "responsory",
+  "block": "b0a6a0f6f0b93a2c",
+  "row": 2,
+  "key": "VN2_cCIT1_6PI#R",
+  "pages": [
+   2299
+  ],
+  "from": "對答詠若壹三",
+  "to": "答：使我們……",
+  "note": ""
+ },
+ {
+  "id": "easter6fri-leo",
+  "kind": "reading",
+  "block": "846c71bad821a4f3",
+  "row": 1,
+  "key": "VN2_cCIT2_6PI",
+  "pages": [
+   2299,
+   2300,
+   2301
+  ],
+  "from": "選讀聖良大教宗講道集",
+  "to": "屬神的理解力。",
+  "note": ""
+ },
+ {
+  "id": "easter6fri-leo-resp",
+  "kind": "responsory",
+  "block": "846c71bad821a4f3",
+  "row": 2,
+  "key": "VN2_cCIT2_6PI#R",
+  "pages": [
+   2301
+  ],
+  "from": "對答詠希八",
+  "to": "答：我們良……",
+  "note": ""
+ },
+ {
+  "id": "dec16-irenaeus",
+  "kind": "reading",
+  "block": "fd24302a4c8e0485",
+  "row": 1,
+  "key": "ADV13STRc_CIT2",
+  "pages": [
+   146,
+   147
+  ],
+  "from": "選讀聖宜仁主教",
+  "to": "也分享祂的生命。",
+  "note": "书中编在将临期第三周星期三，12/16 按当年星期使用"
+ },
+ {
+  "id": "dec16-irenaeus-resp",
+  "kind": "responsory",
+  "block": "fd24302a4c8e0485",
+  "row": 2,
+  "key": "ADV13STRc_CIT2#R",
+  "pages": [
+   147,
+   148
+  ],
+  "from": "對答詠申一八",
+  "to": "答：他要把……",
+  "note": ""
+ },
+ {
+  "id": "lateran-1pt",
+  "kind": "reading",
+  "block": "fd42a78decb852a0",
+  "row": 1,
+  "key": "VPCHR_OCR_cCIT1",
+  "pages": [
+   1215,
+   1216
+  ],
+  "from": "恭讀伯鐸前書二，1",
+  "to": "尊敬君王。",
+  "note": "教堂奉献日通用 诵读一"
+ },
+ {
+  "id": "lateran-1pt-resp",
+  "kind": "responsory",
+  "block": "fd42a78decb852a0",
+  "row": 2,
+  "key": "VPCHR_OCR_cCIT1#R",
+  "pages": [
+   1216
+  ],
+  "from": "對答詠多十三",
+  "to": "答：它的瞭望台……",
+  "note": ""
+ },
+ {
+  "id": "magdalene-resp",
+  "kind": "responsory",
+  "block": "d9b337fe0b5699f0",
+  "row": 2,
+  "key": "22JUL_cCIT1#R",
+  "pages": [
+   1406,
+   1407
+  ],
+  "from": "對答詠羅十二，2",
+  "to": "答：為使你…",
+  "note": ""
+ },
+ {
+  "id": "ot12thu-lectio1",
+  "kind": "reading",
+  "block": "5fa38312281c39d5",
+  "row": 1,
+  "key": "OCR12STVc_CIT1",
+  "pages": [
+   3676,
+   3677
+  ],
+  "from": "恭讀撒慕爾紀上二一",
+  "to": "來到赫勒特樹林。",
+  "head": [
+   2,
+   1
+  ],
+  "note": "书中 21:1–9 = 拉丁 21:2–10（编号差一节）"
+ },
+ {
+  "id": "ot12thu-lectio1-resp",
+  "kind": "responsory",
+  "block": "5fa38312281c39d5",
+  "row": 2,
+  "key": "OCR12STVc_CIT1#R",
+  "pages": [
+   3677,
+   3678
+  ],
+  "from": "對答詠羅七，6",
+  "to": "答：我們……",
+  "note": ""
+ },
+ {
+  "id": "ot12thu-lectio2",
+  "kind": "reading",
+  "block": "afd0742287bfddac",
+  "row": 1,
+  "key": "OCR12STVc_CIT2",
+  "pages": [
+   3678,
+   3679
+  ],
+  "from": "選讀尼森主教聖國瑞講道詞",
+  "to": "他們將看見天主。」",
+  "note": ""
+ },
+ {
+  "id": "ot12thu-lectio2-resp",
+  "kind": "responsory",
+  "block": "afd0742287bfddac",
+  "row": 2,
+  "key": "OCR12STVc_CIT2#R",
+  "pages": [
+   3679
+  ],
+  "from": "對答詠若一，18",
+  "to": "答：只有……",
+  "note": ""
+ },
+ {
+  "id": "ot23sun-lectio1",
+  "kind": "reading",
+  "block": "118403eab5f4dccf",
+  "row": 1,
+  "key": "OCR23NEc_CIT1",
+  "pages": [
+   3933,
+   3934,
+   3935
+  ],
+  "from": "恭讀耶肋米亞先知書三七，20",
+  "to": "拘留所的庭院裏。",
+  "head": [
+   2,
+   1
+  ],
+  "note": "书中 37:20 = 拉丁 37:21（编号差一节）"
+ },
+ {
+  "id": "ot23sun-lectio1-resp",
+  "kind": "responsory",
+  "block": "118403eab5f4dccf",
+  "row": 2,
+  "key": "OCR23NEc_CIT1#R",
+  "pages": [
+   3935
+  ],
+  "from": "對答詠格後六",
+  "to": "答：我們要……",
+  "note": ""
+ },
+ {
+  "id": "ot23sun-lectio2",
+  "kind": "reading",
+  "block": "d4fad612f38f6864",
+  "row": 1,
+  "key": "OCR23NEc_CIT2",
+  "pages": [
+   3935,
+   3936,
+   3937
+  ],
+  "from": "選讀聖教宗大良論真福講道詞",
+  "to": "幸福。」",
+  "note": ""
+ },
+ {
+  "id": "ot23sun-lectio2-resp",
+  "kind": "responsory",
+  "block": "d4fad612f38f6864",
+  "row": 2,
+  "key": "OCR23NEc_CIT2#R",
+  "pages": [
+   3937
+  ],
+  "from": "對答詠詠三○，20",
+  "to": "答：祢為所……",
+  "note": ""
+ },
+ {
+  "id": "ot6thu-lectio1",
+  "kind": "reading",
+  "block": "9d0ffb25b0e84980",
+  "row": 1,
+  "key": "OCR6STVc_CIT1",
+  "pages": [
+   535,
+   536
+  ],
+  "from": "恭讀箴言一〇，6",
+  "to": "只說邪惡。",
+  "note": ""
+ },
+ {
+  "id": "ot6thu-lectio1-resp",
+  "kind": "responsory",
+  "block": "9d0ffb25b0e84980",
+  "row": 2,
+  "key": "OCR6STVc_CIT1#R",
+  "pages": [
+   536
+  ],
+  "from": "對答詠詠三六，30",
+  "to": "答：天主的……",
+  "note": ""
+ },
+ {
+  "id": "ot6thu-lectio2",
+  "kind": "reading",
+  "block": "f4738879ff5a062c",
+  "row": 1,
+  "key": "OCR6STVc_CIT2",
+  "pages": [
+   536,
+   537
+  ],
+  "from": "選讀聖安博主教聖詠釋義",
+  "to": "愛就是基督。",
+  "note": ""
+ },
+ {
+  "id": "ot6thu-lectio2-resp",
+  "kind": "responsory",
+  "block": "f4738879ff5a062c",
+  "row": 2,
+  "key": "OCR6STVc_CIT2#R",
+  "pages": [
+   538
+  ],
+  "from": "對答詠格前一，30",
+  "to": "答：正如聖……",
+  "note": ""
+ },
+ {
+  "id": "ot7thu-lectio1-resp",
+  "kind": "responsory",
+  "block": "02a883a5770f814d",
+  "row": 2,
+  "key": "OCR7STVc_CIT1#R",
+  "pages": [
+   558
+  ],
+  "from": "對答詠箴二〇，9",
+  "to": "答：世上沒……",
+  "note": "诵读一书中缺拉丁 6:11 一节，不配；答唱相同"
+ },
+ {
+  "id": "ot7thu-lectio2",
+  "kind": "reading",
+  "block": "2bd535577dc07330",
+  "row": 1,
+  "key": "OCR7STVc_CIT2",
+  "pages": [
+   558,
+   559,
+   560
+  ],
+  "from": "選讀聖高隆院長的訓言",
+  "to": "原來便是不可見的。",
+  "note": ""
+ },
+ {
+  "id": "ot7thu-lectio2-resp",
+  "kind": "responsory",
+  "block": "2bd535577dc07330",
+  "row": 2,
+  "key": "OCR7STVc_CIT2#R",
+  "pages": [
+   560
+  ],
+  "from": "對答詠詠三五，6",
+  "to": "答：祢的正……",
+  "note": ""
+ },
+ {
+  "id": "jan11-magnificat-a",
+  "kind": "antiphon",
+  "block": "0dea6be9e4391747",
+  "row": 1,
+  "key": "VIAN2_vMAGNIFIKAT11",
+  "pages": [
+   387
+  ],
+  "from": "賢士們在夢中得到指示",
+  "to": "改道返回家鄉。",
+  "note": ""
+ },
+ {
+  "id": "jan11-magnificat-b",
+  "kind": "antiphon",
+  "block": "0dea6be9e4391747",
+  "row": 3,
+  "key": "VIAN2_vMAGNIFIKAT11",
+  "pages": [
+   387
+  ],
+  "from": "賢士們在夢中得到指示",
+  "to": "改道返回家鄉。",
+  "note": ""
+ },
+ {
+  "id": "jan11-preces",
+  "kind": "preces",
+  "block": "81cb7e6be851a0d1",
+  "row": 1,
+  "key": "VIAN2_vPROSBY11",
+  "pages": [
+   387,
+   388
+  ],
+  "from": "天主父派定了基督作萬民的光明",
+  "to": "所得到的勝利。",
+  "note": ""
+ },
+ {
+  "id": "jan12-versicle",
+  "kind": "versicle",
+  "block": "d1ae5b5c50a53f2a",
+  "row": 10,
+  "key": "VIAN2_cRESP_12",
+  "pages": [
+   388
+  ],
+  "from": "領：聖言是真光。",
+  "to": "祂照耀所有的人。",
+  "note": ""
+ },
+ {
+  "id": "jan12-lectio2",
+  "kind": "reading",
+  "block": "8eddcfa0a1419e72",
+  "row": 1,
+  "key": "VIAN2_cCIT2_12",
+  "pages": [
+   390,
+   391
+  ],
+  "from": "選讀列茲主教福士德講道集",
+  "to": "祝福那恨你們的人。」",
+  "note": ""
+ },
+ {
+  "id": "jan12-lectio2-resp",
+  "kind": "responsory",
+  "block": "8eddcfa0a1419e72",
+  "row": 2,
+  "key": "VIAN2_cCIT2_12#R",
+  "pages": [
+   391
+  ],
+  "from": "對答詠多十三，11",
+  "to": "答：他們要……",
+  "note": ""
+ },
+ {
+  "id": "jan12-benedictus-a",
+  "kind": "antiphon",
+  "block": "1cbf97ffe18d5bb0",
+  "row": 1,
+  "key": "VIAN2_rBENEDIKTUS12",
+  "pages": [
+   392
+  ],
+  "from": "這是耶穌在加里肋亞加納",
+  "to": "顯示了祂的光榮。",
+  "note": ""
+ },
+ {
+  "id": "jan12-benedictus-b",
+  "kind": "antiphon",
+  "block": "1cbf97ffe18d5bb0",
+  "row": 3,
+  "key": "VIAN2_rBENEDIKTUS12",
+  "pages": [
+   392
+  ],
+  "from": "這是耶穌在加里肋亞加納",
+  "to": "顯示了祂的光榮。",
+  "note": ""
+ },
+ {
+  "id": "jan12-preces",
+  "kind": "preces",
+  "block": "50f0952ee71b043e",
+  "row": 1,
+  "key": "VIAN2_rPROSBY12",
+  "pages": [
+   392
+  ],
+  "from": "基督是天主的肖像",
+  "to": "在人間照耀。",
+  "note": "书中「求祢賜給我們圓滿的生命，」行末标点为逗号，其后「求祢幫助…」另起一条，故指定 breaks",
+  "breaks": [
+   "求祢幫助我們常效法祢克己苦身"
+  ]
+ },
+ {
+  "id": "jan12-collect-a",
+  "kind": "collect",
+  "block": "5bb25ba040ebad40",
+  "row": 2,
+  "key": "VIAN2_MODLITBA12",
+  "pages": [
+   392
+  ],
+  "from": "全能永生的天主，祢藉唯一聖子",
+  "to": "也能與基督相似。",
+  "note": ""
+ },
+ {
+  "id": "jan12-collect-b",
+  "kind": "collect",
+  "block": "54ed01df270bd4cb",
+  "row": 1,
+  "key": "VIAN2_MODLITBA12",
+  "pages": [
+   392
+  ],
+  "from": "全能永生的天主，祢藉唯一聖子",
+  "to": "也能與基督相似。",
+  "note": ""
+ },
+ {
+  "id": "jan12-collect-c",
+  "kind": "collect",
+  "block": "69093330b9e83a7a",
+  "row": 1,
+  "key": "VIAN2_MODLITBA12",
+  "pages": [
+   392
+  ],
+  "from": "全能永生的天主，祢藉唯一聖子",
+  "to": "也能與基督相似。",
+  "note": ""
+ },
+ {
+  "id": "jan12-collect-d",
+  "kind": "collect",
+  "block": "8da1ebf96ee785fc",
+  "row": 2,
+  "key": "VIAN2_MODLITBA12",
+  "pages": [
+   392
+  ],
+  "from": "全能永生的天主，祢藉唯一聖子",
+  "to": "也能與基督相似。",
+  "note": ""
+ },
+ {
+  "id": "jan2-basil",
+  "kind": "reading",
+  "block": "421c4d5874def02a",
+  "row": 1,
+  "key": "VIAN1_cCIT2_2",
+  "pages": [
+   298,
+   299,
+   300
+  ],
+  "from": "選讀聖西略大主教",
+  "to": "祂就是這戳記及印鑑的原始。",
+  "note": ""
+ },
+ {
+  "id": "jan2-basil-resp",
+  "kind": "responsory",
+  "block": "421c4d5874def02a",
+  "row": 2,
+  "key": "VIAN1_cCIT2_2#R",
+  "pages": [
+   300
+  ],
+  "from": "對答詠格前二，12，10",
+  "to": "答：聖神洞……",
+  "note": ""
+ },
+ {
+  "id": "ot18sat-irenaeus",
+  "kind": "reading",
+  "block": "9727effd5982de2c",
+  "row": 1,
+  "key": "OCR18SOc_CIT2",
+  "pages": [
+   3839,
+   3840,
+   3841
+  ],
+  "from": "選讀聖宜仁主教「駁斥異端」",
+  "to": "是指聖人們的祈禱。",
+  "note": ""
+ },
+ {
+  "id": "ot18sat-irenaeus-resp",
+  "kind": "responsory",
+  "block": "9727effd5982de2c",
+  "row": 2,
+  "key": "OCR18SOc_CIT2#R",
+  "pages": [
+   3841
+  ],
+  "from": "對答詠參閱路二二，19",
+  "to": "答：你們每……",
+  "note": ""
+ },
+ {
+  "id": "lent4thu-leo",
+  "kind": "reading",
+  "block": "d8e71a2608c050a8",
+  "row": 1,
+  "key": "POST1_cCIT2_4STV",
+  "pages": [
+   1900,
+   1901,
+   1902
+  ],
+  "from": "選讀聖良大教宗講道集",
+  "to": "必將承認他。」",
+  "note": "诵读一（民 13:1–3,17–33）书中无拉丁 12:16 一节，不配"
+ },
+ {
+  "id": "lent4thu-leo-resp",
+  "kind": "responsory",
+  "block": "d8e71a2608c050a8",
+  "row": 2,
+  "key": "POST1_cCIT2_4STV#R",
+  "pages": [
+   1902
+  ],
+  "from": "對答詠格前一，18",
+  "to": "答：但為我……",
+  "note": ""
+ },
+ {
+  "id": "ot26thu-polycarp",
+  "kind": "reading",
+  "block": "09a2cf9ebc2bd724",
+  "row": 1,
+  "key": "OCR26STVc_CIT2",
+  "pages": [
+   4020,
+   4021
+  ],
+  "from": "選讀聖力康主教致斐理伯人書",
+  "to": "願祂的恩寵與你們的家人同在。阿們。",
+  "note": ""
+ },
+ {
+  "id": "ot26thu-polycarp-resp",
+  "kind": "responsory",
+  "block": "09a2cf9ebc2bd724",
+  "row": 2,
+  "key": "OCR26STVc_CIT2#R",
+  "pages": [
+   4021
+  ],
+  "from": "對答詠希十三，20",
+  "to": "答：願祂在……",
+  "note": ""
+ },
+ {
+  "id": "auto-01maj-ccit2-0",
+  "kind": "reading",
+  "block": "cfc13a25dfa47757",
+  "row": 1,
+  "key": "01MAJ_cCIT2",
+  "pages": [
+   3372,
+   3373,
+   3374,
+   3375,
+   3385
+  ],
+  "from": "選讀「教會在現代世界牧職憲章",
+  "to": "須為此目的而工作的義務。",
+  "len": 756,
+  "head": [
+   2,
+   1
+  ],
+  "note": "01MAJ"
+ },
+ {
+  "id": "auto-02jun-ccit2-1",
+  "kind": "reading",
+  "block": "1d8403a81f33cf61",
+  "row": 1,
+  "key": "02JUN_cCIT2",
+  "pages": [
+   5155,
+   5156,
+   5157
+  ],
+  "from": "選讀歐利振神父勸殉道篇分享基",
+  "to": "我現在還能期待什麼呢？」",
+  "len": 819,
+  "head": [
+   1,
+   2
+  ],
+  "note": "02JUN"
+ },
+ {
+  "id": "auto-02jun-ccit2r-2",
+  "kind": "responsory",
+  "block": "1d8403a81f33cf61",
+  "row": 2,
+  "key": "02JUN_cCIT2#R",
+  "pages": [
+   5155,
+   5156,
+   5157
+  ],
+  "from": "對答詠弗六，12，14，13",
+  "to": "屹立不動。答：所以要……",
+  "len": 128,
+  "note": "02JUN"
+ },
+ {
+  "id": "auto-02jun-modlitba-3",
+  "kind": "collect",
+  "block": "54c54be8d9657015",
+  "row": 2,
+  "key": "02JUN_MODLITBA",
+  "pages": [
+   5155,
+   5156,
+   5157
+  ],
+  "from": "天主，祢藉聖才林和聖伯鐸二位",
+  "to": "的轉求，常獲得祢的助祐。",
+  "len": 67,
+  "note": "02JUN"
+ },
+ {
+  "id": "auto-02jun-ccit2r-4",
+  "kind": "responsory",
+  "block": "0b7dc791281f7632",
+  "row": 2,
+  "key": "02JUN_cCIT2#R",
+  "pages": [
+   5155,
+   5156,
+   5157
+  ],
+  "from": "對答詠弗六，12，14，13",
+  "to": "屹立不動。答：所以要……",
+  "len": 128,
+  "note": "02JUN"
+ },
+ {
+  "id": "auto-03feb-ccit2-5",
+  "kind": "reading",
+  "block": "69db834904434c23",
+  "row": 1,
+  "key": "03FEB_cCIT2",
+  "pages": [
+   1606,
+   1607,
+   1608
+  ],
+  "from": "選讀聖思定主教講道集你要為我",
+  "to": "指的，你要為我的羊受苦。",
+  "len": 681,
+  "head": [
+   1,
+   1
+  ],
+  "note": "03FEB"
+ },
+ {
+  "id": "auto-03feb-ccit2r-6",
+  "kind": "responsory",
+  "block": "69db834904434c23",
+  "row": 2,
+  "key": "03FEB_cCIT2#R",
+  "pages": [
+   1606,
+   1607,
+   1608
+  ],
+  "from": "對答詠斐一，20；詠六八，2",
+  "to": "憂傷難過。答：我絕對……",
+  "len": 78,
+  "note": "03FEB"
+ },
+ {
+  "id": "auto-03feb-modlitba-7",
+  "kind": "collect",
+  "block": "1969c2f08a079faf",
+  "row": 2,
+  "key": "03FEB_MODLITBA",
+  "pages": [
+   1606,
+   1607,
+   1608
+  ],
+  "from": "上主，求祢俯聽我們懇切的祈禱",
+  "to": "平安度日，來世獲享永福。",
+  "len": 43,
+  "note": "03FEB"
+ },
+ {
+  "id": "auto-03nov-ccit2-8",
+  "kind": "reading",
+  "block": "0c155acdf4bed327",
+  "row": 1,
+  "key": "03NOV_cCIT2",
+  "pages": [
+   5493,
+   5494,
+   5495
+  ],
+  "from": "選讀教宗若望二十三世宣佈瑪定",
+  "to": "，是多麼甘飴，多麼幸福。",
+  "len": 668,
+  "head": [
+   2,
+   1
+  ],
+  "note": "03NOV"
+ },
+ {
+  "id": "auto-03nov-ccit2r-9",
+  "kind": "responsory",
+  "block": "0c155acdf4bed327",
+  "row": 2,
+  "key": "03NOV_cCIT2#R",
+  "pages": [
+   5493,
+   5494,
+   5495
+  ],
+  "from": "對答詠德三一，8，11，9領",
+  "to": "暗，進入祂奇妙的光明中。",
+  "len": 126,
+  "note": "03NOV"
+ },
+ {
+  "id": "auto-03nov-modlitba-10",
+  "kind": "collect",
+  "block": "61450ca923767de8",
+  "row": 2,
+  "key": "03NOV_MODLITBA",
+  "pages": [
+   5493,
+   5494,
+   5495
+  ],
+  "from": "天主，祢曾引領聖瑪定修士，遵",
+  "to": "世得與他同享天國的光榮。",
+  "len": 63,
+  "note": "03NOV"
+ },
+ {
+  "id": "auto-04dec-ccit2-11",
+  "kind": "reading",
+  "block": "eafa3fe22f9822b7",
+  "row": 1,
+  "key": "04DEC_cCIT2",
+  "pages": [
+   1494,
+   1495,
+   1496
+  ],
+  "from": "選讀達瑪森・聖若望司鐸的信仰",
+  "to": "們的，可使教會得以堅強。",
+  "len": 826,
+  "head": [
+   2,
+   1
+  ],
+  "note": "04DEC"
+ },
+ {
+  "id": "auto-04dec-ccit2r-12",
+  "kind": "responsory",
+  "block": "eafa3fe22f9822b7",
+  "row": 2,
+  "key": "04DEC_cCIT2#R",
+  "pages": [
+   1494,
+   1495,
+   1496
+  ],
+  "from": "對答詠拉二，6；詠八八，2領",
+  "to": "必要給他力量。答：上主…",
+  "len": 80,
+  "note": "04DEC"
+ },
+ {
+  "id": "auto-04dec-modlitba-13",
+  "kind": "collect",
+  "block": "056a16a81c9ba523",
+  "row": 2,
+  "key": "04DEC_MODLITBA",
+  "pages": [
+   1494,
+   1495,
+   1496
+  ],
+  "from": "上主，求祢因聖若望司鐸的代禱",
+  "to": "日常生活中的光明與力量。",
+  "len": 59,
+  "note": "04DEC"
+ },
+ {
+  "id": "auto-04mar-ccit2-14",
+  "kind": "reading",
+  "block": "62a98c8905200d91",
+  "row": 1,
+  "key": "04MAR_cCIT2",
+  "pages": [
+   3289,
+   3290,
+   3291
+  ],
+  "from": "選讀聖嘉錫傳遵守主誡，以儲蓄",
+  "to": "健在，都加以承認並證實。",
+  "len": 582,
+  "head": [
+   1,
+   1
+  ],
+  "note": "04MAR"
+ },
+ {
+  "id": "auto-04mar-modlitba-15",
+  "kind": "collect",
+  "block": "a56576695fff4adb",
+  "row": 2,
+  "key": "04MAR_MODLITBA",
+  "pages": [
+   3289,
+   3290,
+   3291
+  ],
+  "from": "全能的天主，侍奉祢就是為王；",
+  "to": "以聖德和正義，為祢效力。",
+  "len": 40,
+  "note": "04MAR"
+ },
+ {
+  "id": "auto-04mar-ccit2-16",
+  "kind": "reading",
+  "block": "606ffcad2e67d665",
+  "row": 1,
+  "key": "04MAR_cCIT2",
+  "pages": [
+   3289,
+   3290,
+   3291
+  ],
+  "from": "選讀聖嘉錫傳遵守主誡，以儲蓄",
+  "to": "健在，都加以承認並證實。",
+  "len": 582,
+  "head": [
+   1,
+   1
+  ],
+  "note": "04MAR"
+ },
+ {
+  "id": "auto-04mar-ccit2r-17",
+  "kind": "responsory",
+  "block": "606ffcad2e67d665",
+  "row": 2,
+  "key": "04MAR_cCIT2#R",
+  "pages": [
+   3289,
+   3290,
+   3291
+  ],
+  "from": "對答詠德二九，14；弟前六，",
+  "to": "的作為是在天主內完成的。",
+  "len": 115,
+  "note": "04MAR"
+ },
+ {
+  "id": "auto-06dec-ccit2-18",
+  "kind": "reading",
+  "block": "ad9cc2a3439cfc73",
+  "row": 1,
+  "key": "06DEC_cCIT2",
+  "pages": [
+   1496,
+   1497,
+   1498
+  ],
+  "from": "選讀聖思定主教，若望福音註釋",
+  "to": "羊，好能替衆人受苦受難。",
+  "len": 924,
+  "head": [
+   2,
+   1
+  ],
+  "note": "06DEC"
+ },
+ {
+  "id": "auto-06dec-modlitba-19",
+  "kind": "collect",
+  "block": "ad2e986f012797ce",
+  "row": 2,
+  "key": "06DEC_MODLITBA",
+  "pages": [
+   1496,
+   1497,
+   1498
+  ],
+  "from": "上主，求祢大發慈悲，並因聖尼",
+  "to": "在救恩的道路上順利前進。",
+  "len": 46,
+  "note": "06DEC"
+ },
+ {
+  "id": "auto-06jul-ccit2-20",
+  "kind": "reading",
+  "block": "7e990ef4d25cb354",
+  "row": 1,
+  "key": "06JUL_cCIT2",
+  "pages": [
+   5221,
+   5222,
+   5223
+  ],
+  "from": "選讀教宗碧岳十二世宣布貞女為",
+  "to": "、實際地，步武她的芳踪。",
+  "len": 745,
+  "head": [
+   2,
+   2
+  ],
+  "note": "06JUL"
+ },
+ {
+  "id": "auto-06jul-ccit2r-21",
+  "kind": "responsory",
+  "block": "7e990ef4d25cb354",
+  "row": 2,
+  "key": "06JUL_cCIT2#R",
+  "pages": [
+   5221,
+   5222,
+   5223
+  ],
+  "from": "對答詠領：基督的貞女，你是多",
+  "to": "的愛相分離。答：天主賜⋯",
+  "len": 80,
+  "note": "06JUL"
+ },
+ {
+  "id": "auto-06jul-modlitba-22",
+  "kind": "collect",
+  "block": "d580983eb8f9e966",
+  "row": 2,
+  "key": "06JUL_MODLITBA",
+  "pages": [
+   5221,
+   5222,
+   5223
+  ],
+  "from": "天主，祢是純潔的根源，貞潔美",
+  "to": "祢的誡命，忠於祢的教訓。",
+  "len": 75,
+  "note": "06JUL"
+ },
+ {
+  "id": "auto-06jun-ccit2-23",
+  "kind": "reading",
+  "block": "ad747fb55d1898c4",
+  "row": 1,
+  "key": "06JUN_cCIT2",
+  "pages": [
+   5162,
+   5163,
+   5164
+  ],
+  "from": "選讀聖諾博主教傳他或與顯要、",
+  "to": "蹟，而且大膽地廣為傳播。",
+  "len": 648,
+  "head": [
+   1,
+   2
+  ],
+  "note": "06JUN"
+ },
+ {
+  "id": "auto-06jun-ccit2r-24",
+  "kind": "responsory",
+  "block": "ad747fb55d1898c4",
+  "row": 2,
+  "key": "06JUN_cCIT2#R",
+  "pages": [
+   5162,
+   5163,
+   5164
+  ],
+  "from": "對答詠弟後四，2，5；宗二十",
+  "to": "羊羣留心。答：你要在……",
+  "len": 144,
+  "note": "06JUN"
+ },
+ {
+  "id": "auto-06jun-modlitba-25",
+  "kind": "collect",
+  "block": "46c1fc944290a735",
+  "row": 2,
+  "key": "06JUN_MODLITBA",
+  "pages": [
+   5162,
+   5163,
+   5164
+  ],
+  "from": "天主，祢使聖諾博主教，因善度",
+  "to": "們，供給我們救恩的食糧。",
+  "len": 80,
+  "note": "06JUN"
+ },
+ {
+  "id": "auto-06jun-ccit2r-26",
+  "kind": "responsory",
+  "block": "0fa272a018b81ba8",
+  "row": 2,
+  "key": "06JUN_cCIT2#R",
+  "pages": [
+   5162,
+   5163,
+   5164
+  ],
+  "from": "對答詠弟後四，2，5；宗二十",
+  "to": "羊羣留心。答：你要在……",
+  "len": 144,
+  "note": "06JUN"
+ },
+ {
+  "id": "auto-06okt-ccit2-27",
+  "kind": "reading",
+  "block": "215eebbf9e0204e1",
+  "row": 1,
+  "key": "06OKT_cCIT2",
+  "pages": [
+   5434,
+   5435
+  ],
+  "from": "選讀聖博諾司鐸致加都仙會士書",
+  "to": "最美好而使人生活的果實。",
+  "len": 651,
+  "head": [
+   1,
+   1
+  ],
+  "note": "06OKT"
+ },
+ {
+  "id": "auto-06okt-ccit2r-28",
+  "kind": "responsory",
+  "block": "215eebbf9e0204e1",
+  "row": 2,
+  "key": "06OKT_cCIT2#R",
+  "pages": [
+   5434,
+   5435
+  ],
+  "from": "對答詠詠五四，7～8；若壹二",
+  "to": "卻永遠存在。答：我要往⋯",
+  "len": 95,
+  "note": "06OKT"
+ },
+ {
+  "id": "auto-06okt-modlitba-29",
+  "kind": "collect",
+  "block": "e91b2760ae3b831e",
+  "row": 2,
+  "key": "06OKT_MODLITBA",
+  "pages": [
+   5434,
+   5435
+  ],
+  "from": "天主，祢召喚了聖博諾司鐸遁跡",
+  "to": "中，常能保持對祢的忠心。",
+  "len": 61,
+  "note": "06OKT"
+ },
+ {
+  "id": "auto-07aug-ccit2-30",
+  "kind": "reading",
+  "block": "266f6b498b341368",
+  "row": 1,
+  "key": "07AUG_cCIT2",
+  "pages": [
+   5287,
+   5288,
+   5289
+  ],
+  "from": "選讀聖啓廉主教殉道書信集基督",
+  "to": "內常身體健康，諸事順遂。",
+  "len": 627,
+  "head": [
+   1,
+   2
+  ],
+  "note": "07AUG"
+ },
+ {
+  "id": "auto-07aug-ccit2r-31",
+  "kind": "responsory",
+  "block": "266f6b498b341368",
+  "row": 2,
+  "key": "07AUG_cCIT2#R",
+  "pages": [
+   5287,
+   5288,
+   5289
+  ],
+  "from": "對答詠格後四，11；詠四三，",
+  "to": "宰的羔羊。答：為使耶穌⋯",
+  "len": 97,
+  "note": "07AUG"
+ },
+ {
+  "id": "auto-07aug-modlitba-32",
+  "kind": "collect",
+  "block": "3697283c647aafcb",
+  "row": 2,
+  "key": "07AUG_MODLITBA",
+  "pages": [
+   5287,
+   5288,
+   5289
+  ],
+  "from": "全能的天主，祢曾使聖思道教宗",
+  "to": "受信仰，勇敢地維護真道。",
+  "len": 72,
+  "note": "07AUG"
+ },
+ {
+  "id": "auto-07mar-ccit2-33",
+  "kind": "reading",
+  "block": "352c9e871b6b1d1b",
+  "row": 1,
+  "key": "07MAR_cCIT2",
+  "pages": [
+   3291,
+   3292,
+   3293,
+   3294
+  ],
+  "from": "選讀迦太基信友殉道傳他們蒙召",
+  "to": "我們的主耶穌基督的光榮！",
+  "len": 885,
+  "head": [
+   1,
+   1
+  ],
+  "note": "07MAR"
+ },
+ {
+  "id": "auto-07mar-modlitba-34",
+  "kind": "collect",
+  "block": "3a8d2a709805ed73",
+  "row": 2,
+  "key": "07MAR_MODLITBA",
+  "pages": [
+   3291,
+   3292,
+   3293,
+   3294
+  ],
+  "from": "天主，聖蓓蓓與聖芬莉曾為了愛",
+  "to": "們對祢的敬愛，日益加深。",
+  "len": 50,
+  "note": "07MAR"
+ },
+ {
+  "id": "auto-08mar-ccit2-35",
+  "kind": "reading",
+  "block": "ca252cf0b549d031",
+  "row": 1,
+  "key": "08MAR_cCIT2",
+  "pages": [
+   3294,
+   3295,
+   3296
+  ],
+  "from": "選讀天賜・聖若望書信集忠信的",
+  "to": "們應該常常感謝祂。阿們。",
+  "len": 629,
+  "head": [
+   1,
+   1
+  ],
+  "note": "08MAR"
+ },
+ {
+  "id": "auto-08mar-modlitba-36",
+  "kind": "collect",
+  "block": "386fe1a472392d0a",
+  "row": 2,
+  "key": "08MAR_MODLITBA",
+  "pages": [
+   3294,
+   3295,
+   3296
+  ],
+  "from": "天主，祢曾賜給聖若望一顆善良",
+  "to": "施，幸成為祢王國的選民。",
+  "len": 47,
+  "note": "08MAR"
+ },
+ {
+  "id": "auto-09mar-ccit2-37",
+  "kind": "reading",
+  "block": "62b4dc1d6096ac55",
+  "row": 1,
+  "key": "09MAR_cCIT2",
+  "pages": [
+   3296,
+   3297,
+   3298
+  ],
+  "from": "選讀聖芳佳修女傳論聖婦芳佳的",
+  "to": "探望她所給他指定的病人。",
+  "len": 1007,
+  "head": [
+   1,
+   1
+  ],
+  "note": "09MAR"
+ },
+ {
+  "id": "auto-09mar-modlitba-38",
+  "kind": "collect",
+  "block": "e04f3c1e80300858",
+  "row": 2,
+  "key": "09MAR_MODLITBA",
+  "pages": [
+   3296,
+   3297,
+   3298
+  ],
+  "from": "天主，祢使聖婦芳佳、為世人樹",
+  "to": "常仰望祢，隨從祢的引導。",
+  "len": 62,
+  "note": "09MAR"
+ },
+ {
+  "id": "auto-11dec-ccit2-42",
+  "kind": "reading",
+  "block": "548ec3f634cd3544",
+  "row": 1,
+  "key": "11DEC_cCIT2",
+  "pages": [
+   1512,
+   1513,
+   1514
+  ],
+  "from": "選讀聖思定主教駁斥福斯都書我",
+  "to": "直到我們予以改正時為止。",
+  "len": 772,
+  "head": [
+   1,
+   2
+  ],
+  "note": "11DEC"
+ },
+ {
+  "id": "auto-11dec-ccit2r-43",
+  "kind": "responsory",
+  "block": "548ec3f634cd3544",
+  "row": 2,
+  "key": "11DEC_cCIT2#R",
+  "pages": [
+   1512,
+   1513,
+   1514
+  ],
+  "from": "對答詠詠一一五，15；三三，",
+  "to": "人的華服。答：祂保全……",
+  "len": 82,
+  "note": "11DEC"
+ },
+ {
+  "id": "auto-11dec-modlitba-44",
+  "kind": "collect",
+  "block": "a8b018d30273eba2",
+  "row": 2,
+  "key": "11DEC_MODLITBA",
+  "pages": [
+   1512,
+   1513,
+   1514
+  ],
+  "from": "上主，聖達甦教宗，曾一生倡導",
+  "to": "舉，勉力取法他們的榜樣。",
+  "len": 67,
+  "note": "11DEC"
+ },
+ {
+  "id": "auto-12maj-ccit2-48",
+  "kind": "reading",
+  "block": "6a7132ed26455804",
+  "row": 1,
+  "key": "12MAJ_cCIT2",
+  "pages": [
+   3385,
+   3386,
+   3387
+  ],
+  "from": "選讀聖思定主教聖詠註釋基督的",
+  "to": "，是這同一的城市在說話。",
+  "len": 658,
+  "head": [
+   1,
+   1
+  ],
+  "note": "12MAJ"
+ },
+ {
+  "id": "auto-12maj-ccit2r-49",
+  "kind": "responsory",
+  "block": "6a7132ed26455804",
+  "row": 2,
+  "key": "12MAJ_cCIT2#R",
+  "pages": [
+   3385,
+   3386,
+   3387
+  ],
+  "from": "對答詠默二一，4；七，16領",
+  "to": "傷害他們。答：因為先……",
+  "len": 102,
+  "note": "12MAJ"
+ },
+ {
+  "id": "auto-12maj-modlitba-50",
+  "kind": "collect",
+  "block": "9609a3d71a6d0d99",
+  "row": 2,
+  "key": "12MAJ_MODLITBA",
+  "pages": [
+   3385,
+   3386,
+   3387
+  ],
+  "from": "全能的天主，祢賜給殉道者聖迺",
+  "to": "祢作證的毅力，至死不屈。",
+  "len": 72,
+  "note": "12MAJ"
+ },
+ {
+  "id": "auto-13apr-ccit2-51",
+  "kind": "reading",
+  "block": "6fabce9c5a6446eb",
+  "row": 1,
+  "key": "13APR_cCIT2",
+  "pages": [
+   3347,
+   3348,
+   3349
+  ],
+  "from": "選讀聖瑪定一世教宗書信集上主",
+  "to": "並拯救你們進入祂的王國。",
+  "len": 814,
+  "head": [
+   1,
+   1
+  ],
+  "note": "13APR"
+ },
+ {
+  "id": "auto-13apr-ccit2r-52",
+  "kind": "responsory",
+  "block": "6fabce9c5a6446eb",
+  "row": 2,
+  "key": "13APR_cCIT2#R",
+  "pages": [
+   3347,
+   3348,
+   3349
+  ],
+  "from": "對答詠弟後四，7～8；斐三，",
+  "to": "必會保存生命，直到永遠。",
+  "len": 146,
+  "note": "13APR"
+ },
+ {
+  "id": "auto-13apr-modlitba-53",
+  "kind": "collect",
+  "block": "8b35f3cd629f5069",
+  "row": 2,
+  "key": "13APR_MODLITBA",
+  "pages": [
+   3347,
+   3348,
+   3349
+  ],
+  "from": "全能的天主，祢曾助祐聖瑪定教",
+  "to": "種種困苦，且能持之以恆。",
+  "len": 65,
+  "note": "13APR"
+ },
+ {
+  "id": "auto-13apr-ccit2-54",
+  "kind": "reading",
+  "block": "c3b93def2dd98672",
+  "row": 1,
+  "key": "13APR_cCIT2",
+  "pages": [
+   3347,
+   3348,
+   3349
+  ],
+  "from": "選讀聖瑪定一世教宗書信集上主",
+  "to": "並拯救你們進入祂的王國。",
+  "len": 814,
+  "head": [
+   1,
+   1
+  ],
+  "note": "13APR"
+ },
+ {
+  "id": "auto-13aug-ccit2-55",
+  "kind": "reading",
+  "block": "5a0cbe27608c3795",
+  "row": 1,
+  "key": "13AUG_cCIT2",
+  "pages": [
+   5300,
+   5301,
+   5302
+  ],
+  "from": "選讀聖啓廉主教書信集不能征服",
+  "to": "，殉道則接受紅色的榮冠。",
+  "len": 773,
+  "head": [
+   1,
+   1
+  ],
+  "note": "13AUG"
+ },
+ {
+  "id": "auto-13aug-ccit2r-56",
+  "kind": "responsory",
+  "block": "5a0cbe27608c3795",
+  "row": 2,
+  "key": "13AUG_cCIT2#R",
+  "pages": [
+   5300,
+   5301,
+   5302
+  ],
+  "from": "對答詠領：當我們為信仰奮戰時",
+  "to": "力，準備應戰。答：這是⋯",
+  "len": 115,
+  "note": "13AUG"
+ },
+ {
+  "id": "auto-13aug-modlitba-57",
+  "kind": "collect",
+  "block": "a82c367e871af759",
+  "row": 2,
+  "key": "13AUG_MODLITBA",
+  "pages": [
+   5300,
+   5301,
+   5302
+  ],
+  "from": "上主，求祢因殉道聖者堅忍不拔",
+  "to": "仰也在我們內心日益堅強。",
+  "len": 47,
+  "note": "13AUG"
+ },
+ {
+  "id": "auto-13jan-ccit2-58",
+  "kind": "reading",
+  "block": "7752abf04a84c2fc",
+  "row": 1,
+  "key": "13JAN_cCIT2",
+  "pages": [
+   1554,
+   1555,
+   1556
+  ],
+  "from": "選讀聖師聖怡樂主教「聖三論」",
+  "to": "宣講祢是不能外錯的天主。",
+  "len": 786,
+  "head": [
+   1,
+   1
+  ],
+  "note": "13JAN"
+ },
+ {
+  "id": "auto-13jan-ccit2r-59",
+  "kind": "responsory",
+  "block": "7752abf04a84c2fc",
+  "row": 2,
+  "key": "13JAN_cCIT2#R",
+  "pages": [
+   1554,
+   1555,
+   1556
+  ],
+  "from": "對答詠若壹四，2～3，6，1",
+  "to": "在天主內。答：由此我……",
+  "len": 114,
+  "note": "13JAN"
+ },
+ {
+  "id": "auto-13jan-modlitba-60",
+  "kind": "collect",
+  "block": "dad5c70d88b1d8e1",
+  "row": 2,
+  "key": "13JAN_MODLITBA",
+  "pages": [
+   1554,
+   1555,
+   1556
+  ],
+  "from": "全能的天主，聖怡樂主教，曾明",
+  "to": "，虔誠地信服祂，欽崇祂。",
+  "len": 61,
+  "note": "13JAN"
+ },
+ {
+  "id": "auto-13jul-ccit2-61",
+  "kind": "reading",
+  "block": "1a5f003771e01029",
+  "row": 1,
+  "key": "13JUL_cCIT2",
+  "pages": [
+   5227,
+   5228,
+   5229
+  ],
+  "from": "選讀聖王亨利傳他曾為教會確保",
+  "to": "斷地在此舉行救恩之祭。」",
+  "len": 771,
+  "head": [
+   1,
+   1
+  ],
+  "note": "13JUL"
+ },
+ {
+  "id": "auto-13jul-ccit2r-62",
+  "kind": "responsory",
+  "block": "1a5f003771e01029",
+  "row": 2,
+  "key": "13JUL_cCIT2#R",
+  "pages": [
+   5227,
+   5228,
+   5229
+  ],
+  "from": "對答詠智十，11～12，14",
+  "to": "國指示給他。答：也賞給⋯",
+  "len": 90,
+  "note": "13JUL"
+ },
+ {
+  "id": "auto-13jul-modlitba-63",
+  "kind": "collect",
+  "block": "4df55a8b9ed4f610",
+  "row": 2,
+  "key": "13JUL_MODLITBA",
+  "pages": [
+   5227,
+   5228,
+   5229
+  ],
+  "from": "天主，祢曾賜予聖亨利國王豐富",
+  "to": "能以專一純潔的心追尋祢。",
+  "len": 73,
+  "note": "13JUL"
+ },
+ {
+  "id": "auto-14jul-ccit2-64",
+  "kind": "reading",
+  "block": "c79003afec16403e",
+  "row": 1,
+  "key": "14JUL_cCIT2",
+  "pages": [
+   5229,
+   5230,
+   5231
+  ],
+  "from": "選讀聖嘉民司鐸傳在弟兄們身上",
+  "to": "他們，向他們表示慈心。」",
+  "len": 520,
+  "head": [
+   1,
+   1
+  ],
+  "note": "14JUL"
+ },
+ {
+  "id": "auto-14jul-modlitba-65",
+  "kind": "collect",
+  "block": "72e6b06e1d4f40f3",
+  "row": 2,
+  "key": "14JUL_MODLITBA",
+  "pages": [
+   5229,
+   5230,
+   5231
+  ],
+  "from": "天主，祢曾賜予聖嘉民司鐸，為",
+  "to": "辭世歸天，永遠與祢歡聚。",
+  "len": 87,
+  "note": "14JUL"
+ },
+ {
+  "id": "auto-14okt-ccit2-66",
+  "kind": "reading",
+  "block": "1981c28c3dc9db2f",
+  "row": 1,
+  "key": "14OKT_cCIT2",
+  "pages": [
+   5444,
+   5445,
+   5446
+  ],
+  "from": "選讀聖啟廉主教殉道致福多納論",
+  "to": "中，他為純潔的良心加冕。",
+  "len": 772,
+  "head": [
+   2,
+   1
+  ],
+  "note": "14OKT"
+ },
+ {
+  "id": "auto-14okt-ccit2r-67",
+  "kind": "responsory",
+  "block": "1981c28c3dc9db2f",
+  "row": 2,
+  "key": "14OKT_cCIT2#R",
+  "pages": [
+   5444,
+   5445,
+   5446
+  ],
+  "from": "對答詠宗二十，28；格前四，",
+  "to": "的忠信可靠。答：牧養天⋯",
+  "len": 93,
+  "note": "14OKT"
+ },
+ {
+  "id": "auto-14okt-modlitba-68",
+  "kind": "collect",
+  "block": "7bf0765272c9f45f",
+  "row": 2,
+  "key": "14OKT_MODLITBA",
+  "pages": [
+   5444,
+   5445,
+   5446
+  ],
+  "from": "上主，我們今天慶祝聖嘉禮教宗",
+  "to": "卓越功德而獲得祢的助祐。",
+  "len": 52,
+  "note": "14OKT"
+ },
+ {
+  "id": "auto-17feb-ccit2-72",
+  "kind": "reading",
+  "block": "8607e86a94117fb0",
+  "row": 1,
+  "key": "17FEB_cCIT2",
+  "pages": [
+   1625,
+   1626,
+   1627
+  ],
+  "from": "選讀聖母忠僕會七位會祖傳我要",
+  "to": "，靠他們的神貧而得保存。",
+  "len": 827,
+  "head": [
+   1,
+   1
+  ],
+  "note": "17FEB"
+ },
+ {
+  "id": "auto-17feb-ccit2r-73",
+  "kind": "responsory",
+  "block": "8607e86a94117fb0",
+  "row": 2,
+  "key": "17FEB_cCIT2#R",
+  "pages": [
+   1625,
+   1626,
+   1627
+  ],
+  "from": "對答詠宗四，32；二，46，",
+  "to": "，是多麼美好，多麼甘飴。",
+  "len": 125,
+  "note": "17FEB"
+ },
+ {
+  "id": "auto-17feb-modlitba-74",
+  "kind": "collect",
+  "block": "419530559ee24458",
+  "row": 2,
+  "key": "17FEB_MODLITBA",
+  "pages": [
+   1625,
+   1626,
+   1627
+  ],
+  "from": "上主，祢曾恩賜這七位弟兄特別",
+  "to": "我們常樂於為弟兄們服務。",
+  "len": 67,
+  "note": "17FEB"
+ },
+ {
+  "id": "auto-17feb-ccit2-75",
+  "kind": "reading",
+  "block": "a6baa9572cda7055",
+  "row": 1,
+  "key": "17FEB_cCIT2",
+  "pages": [
+   1625,
+   1626,
+   1627
+  ],
+  "from": "選讀聖母忠僕會七位會祖傳我要",
+  "to": "，靠他們的神貧而得保存。",
+  "len": 827,
+  "head": [
+   1,
+   1
+  ],
+  "note": "17FEB"
+ },
+ {
+  "id": "auto-17mar-ccit2-76",
+  "kind": "reading",
+  "block": "f8242c24ecc25b01",
+  "row": 1,
+  "key": "17MAR_cCIT2",
+  "pages": [
+   3300,
+   3301,
+   3302
+  ],
+  "from": "選讀聖博第主教證道書許多部落",
+  "to": "天主的人將來自世界各地。",
+  "len": 825,
+  "head": [
+   1,
+   1
+  ],
+  "note": "17MAR"
+ },
+ {
+  "id": "auto-17mar-modlitba-77",
+  "kind": "collect",
+  "block": "20f81cbbbfb6d634",
+  "row": 2,
+  "key": "17MAR_MODLITBA",
+  "pages": [
+   3300,
+   3301,
+   3302
+  ],
+  "from": "天主，祢曾簡選聖博第主教，向",
+  "to": "向世人傳佈祢的奇妙事工。",
+  "len": 69,
+  "note": "17MAR"
+ },
+ {
+  "id": "auto-17sep-ccit2-78",
+  "kind": "reading",
+  "block": "462b3e00551c5e46",
+  "row": 1,
+  "key": "17SEP_cCIT2",
+  "pages": [
+   5383,
+   5384,
+   5385
+  ],
+  "from": "選讀聖羅伯・白敏論舉心向上請",
+  "to": "，就是壞的，該加以逃避。",
+  "len": 766,
+  "head": [
+   1,
+   1
+  ],
+  "note": "17SEP"
+ },
+ {
+  "id": "auto-17sep-modlitba-79",
+  "kind": "collect",
+  "block": "8a446e1f4637fd55",
+  "row": 2,
+  "key": "17SEP_MODLITBA",
+  "pages": [
+   5383,
+   5384,
+   5385
+  ],
+  "from": "天主，為了維護祢教會的信仰，",
+  "to": "並能愉快地善度信仰生活。",
+  "len": 66,
+  "note": "17SEP"
+ },
+ {
+  "id": "auto-18maj-ccit2-80",
+  "kind": "reading",
+  "block": "30cc9f9be12a7e11",
+  "row": 1,
+  "key": "18MAJ_cCIT2",
+  "pages": [
+   3392,
+   3393,
+   3394,
+   3395
+  ],
+  "from": "選讀聖若望．雅味拉神父書信集",
+  "to": "在主的十字架前才會找到。",
+  "len": 953,
+  "head": [
+   1,
+   1
+  ],
+  "note": "18MAJ"
+ },
+ {
+  "id": "auto-18maj-ccit2r-81",
+  "kind": "responsory",
+  "block": "30cc9f9be12a7e11",
+  "row": 2,
+  "key": "18MAJ_cCIT2#R",
+  "pages": [
+   3392,
+   3393,
+   3394,
+   3395
+  ],
+  "from": "對答詠格後四，11，16領：",
+  "to": "更新。答：為使耶…………",
+  "len": 101,
+  "note": "18MAJ"
+ },
+ {
+  "id": "auto-18maj-modlitba-82",
+  "kind": "collect",
+  "block": "397deb635ddcd3a7",
+  "row": 2,
+  "key": "18MAJ_MODLITBA",
+  "pages": [
+   3392,
+   3393,
+   3394,
+   3395
+  ],
+  "from": "天主，凡信仰祢的人，都獲得賞",
+  "to": "在苦難中不屈不撓的精神。",
+  "len": 80,
+  "note": "18MAJ"
+ },
+ {
+  "id": "auto-18maj-ccit2r-83",
+  "kind": "responsory",
+  "block": "0f01314d6dc16ee7",
+  "row": 2,
+  "key": "18MAJ_cCIT2#R",
+  "pages": [
+   3392,
+   3393,
+   3394,
+   3395
+  ],
+  "from": "對答詠格後四，11，16領：",
+  "to": "更新。答：為使耶…………",
+  "len": 101,
+  "note": "18MAJ"
+ },
+ {
+  "id": "auto-18mar-ccit2-84",
+  "kind": "reading",
+  "block": "8165f9027a00e778",
+  "row": 1,
+  "key": "18MAR_cCIT2",
+  "pages": [
+   3302,
+   3303,
+   3304
+  ],
+  "from": "選讀聖師啟祿要理書你們應該準",
+  "to": "虔誠，和無可指摘的良心。",
+  "len": 761,
+  "head": [
+   1,
+   2
+  ],
+  "note": "18MAR"
+ },
+ {
+  "id": "auto-18mar-modlitba-85",
+  "kind": "collect",
+  "block": "9dc2587fa476e486",
+  "row": 2,
+  "key": "18MAR_MODLITBA",
+  "pages": [
+   3302,
+   3303,
+   3304
+  ],
+  "from": "天主，祢曾使祢的教會因聖啟祿",
+  "to": "祂內得到圓滿幸福的生命。",
+  "len": 69,
+  "note": "18MAR"
+ },
+ {
+  "id": "auto-19aug-ccit2-86",
+  "kind": "reading",
+  "block": "b2617811bb9f6de5",
+  "row": 1,
+  "key": "19AUG_cCIT2",
+  "pages": [
+   5315,
+   5316,
+   5317
+  ],
+  "from": "選讀聖若望・歐德司鐸論令人驚",
+  "to": "事而達到最高的完美境界。",
+  "len": 726,
+  "head": [
+   2,
+   1
+  ],
+  "note": "19AUG"
+ },
+ {
+  "id": "auto-19aug-ccit2r-87",
+  "kind": "responsory",
+  "block": "b2617811bb9f6de5",
+  "row": 2,
+  "key": "19AUG_cCIT2#R",
+  "pages": [
+   5315,
+   5316,
+   5317
+  ],
+  "from": "對答詠羅一四，9，8，7領：",
+  "to": "己而死的。答：所以我……",
+  "len": 91,
+  "note": "19AUG"
+ },
+ {
+  "id": "auto-19aug-modlitba-88",
+  "kind": "collect",
+  "block": "10c3948e8f2bceb6",
+  "row": 2,
+  "key": "19AUG_MODLITBA",
+  "pages": [
+   5315,
+   5316,
+   5317
+  ],
+  "from": "天主，祢奇妙地簡選了若望・歐",
+  "to": "，善度忠於祢福音的生活。",
+  "len": 77,
+  "note": "19AUG"
+ },
+ {
+  "id": "auto-19jun-ccit2-89",
+  "kind": "reading",
+  "block": "9185a091528bce13",
+  "row": 1,
+  "key": "19JUN_cCIT2",
+  "pages": [
+   5175,
+   5176,
+   5177
+  ],
+  "from": "選讀聖伯鐸・達勉所著聖樂牧傳",
+  "to": "安置在萬王之王的寶庫中。",
+  "len": 722,
+  "head": [
+   1,
+   1
+  ],
+  "note": "19JUN"
+ },
+ {
+  "id": "auto-19jun-modlitba-90",
+  "kind": "collect",
+  "block": "11560c9aebb70931",
+  "row": 2,
+  "key": "19JUN_MODLITBA",
+  "pages": [
+   5175,
+   5176,
+   5177
+  ],
+  "from": "天主，祢曾在祢的教會內，藉聖",
+  "to": "基督，以期將來榮登天國。",
+  "len": 63,
+  "note": "19JUN"
+ },
+ {
+  "id": "auto-19okt-ccit2-91",
+  "kind": "reading",
+  "block": "a25e7e78eb007fab",
+  "row": 1,
+  "key": "19OKT_cCIT2",
+  "pages": [
+   5463,
+   5464
+  ],
+  "from": "選讀聖若望・布萊柏靈修日記耶",
+  "to": "自己，好使我獨自來承受。",
+  "len": 616,
+  "head": [
+   1,
+   1
+  ],
+  "note": "19OKT"
+ },
+ {
+  "id": "auto-19okt-ccit2r-92",
+  "kind": "responsory",
+  "block": "a25e7e78eb007fab",
+  "row": 2,
+  "key": "19OKT_cCIT2#R",
+  "pages": [
+   5463,
+   5464
+  ],
+  "from": "對答詠希十一，33，34，3",
+  "to": "作自己的人。答：這些人⋯",
+  "len": 101,
+  "note": "19OKT"
+ },
+ {
+  "id": "auto-19okt-modlitba-93",
+  "kind": "collect",
+  "block": "fa4756771846dc5c",
+  "row": 2,
+  "key": "19OKT_MODLITBA",
+  "pages": [
+   5463,
+   5464
+  ],
+  "from": "天主，祢曾派遣聖若望司鐸及其",
+  "to": "教友幼苗，日益發榮滋長。",
+  "len": 68,
+  "note": "19OKT"
+ },
+ {
+  "id": "auto-20jan-ccit2-94",
+  "kind": "reading",
+  "block": "aa70a239f76f8430",
+  "row": 1,
+  "key": "20JAN_cCIT2",
+  "pages": [
+   1560,
+   1561,
+   1562
+  ],
+  "from": "選讀聖啟廉（希彼廉）主教殉道",
+  "to": "面也請求你們紀念我們。」",
+  "len": 714,
+  "head": [
+   2,
+   2
+  ],
+  "note": "20JAN"
+ },
+ {
+  "id": "auto-20jan-modlitba-95",
+  "kind": "collect",
+  "block": "9bdcf6e324a945f8",
+  "row": 2,
+  "key": "20JAN_MODLITBA",
+  "pages": [
+   1560,
+   1561,
+   1562
+  ],
+  "from": "天主，祢是眾司鐸的光榮，求祢",
+  "to": "的信仰，並熱誠地侍奉祢。",
+  "len": 51,
+  "note": "20JAN"
+ },
+ {
+  "id": "auto-20maj-ccit2-97",
+  "kind": "reading",
+  "block": "4a2d696947b0daaa",
+  "row": 1,
+  "key": "20MAJ_cCIT2",
+  "pages": [
+   3395,
+   3396,
+   3397
+  ],
+  "from": "選讀聖納定神父講道集耶穌聖名",
+  "to": "恩」，就是宣揚救主耶穌。",
+  "len": 794,
+  "head": [
+   1,
+   1
+  ],
+  "note": "20MAJ"
+ },
+ {
+  "id": "auto-20maj-ccit2r-98",
+  "kind": "responsory",
+  "block": "4a2d696947b0daaa",
+  "row": 2,
+  "key": "20MAJ_cCIT2#R",
+  "pages": [
+   3395,
+   3396,
+   3397
+  ],
+  "from": "對答詠德五一，15；詠九，3",
+  "to": "名號。答：我要懷…………",
+  "len": 80,
+  "note": "20MAJ"
+ },
+ {
+  "id": "auto-20maj-modlitba-99",
+  "kind": "collect",
+  "block": "7286103848b57eed",
+  "row": 2,
+  "key": "20MAJ_MODLITBA",
+  "pages": [
+   3395,
+   3396,
+   3397
+  ],
+  "from": "天主，祢曾使聖納定司鐸特別敬",
+  "to": "心中也燃起祢聖愛的火焰。",
+  "len": 47,
+  "note": "20MAJ"
+ },
+ {
+  "id": "auto-20maj-ccit2r-100",
+  "kind": "responsory",
+  "block": "fd444154844c4d7d",
+  "row": 2,
+  "key": "20MAJ_cCIT2#R",
+  "pages": [
+   3395,
+   3396,
+   3397
+  ],
+  "from": "對答詠德五一，15；詠九，3",
+  "to": "名號。答：我要懷…………",
+  "len": 80,
+  "note": "20MAJ"
+ },
+ {
+  "id": "auto-21apr-ccit2-101",
+  "kind": "reading",
+  "block": "f2f598f7d71c1caa",
+  "row": 1,
+  "key": "21APR_cCIT2",
+  "pages": [
+   3349,
+   3350,
+   3351,
+   3352
+  ],
+  "from": "選讀聖安生主教嘉言錄賜我認識",
+  "to": "體的天主永受讚美。阿們。",
+  "len": 958,
+  "head": [
+   1,
+   1
+  ],
+  "note": "21APR"
+ },
+ {
+  "id": "auto-21apr-ccit2r-102",
+  "kind": "responsory",
+  "block": "f2f598f7d71c1caa",
+  "row": 2,
+  "key": "21APR_cCIT2#R",
+  "pages": [
+   3349,
+   3350,
+   3351,
+   3352
+  ],
+  "from": "對答詠領：這位著名的聖師安生",
+  "to": "淨配。答：他為聖………。",
+  "len": 101,
+  "note": "21APR"
+ },
+ {
+  "id": "auto-21apr-modlitba-103",
+  "kind": "collect",
+  "block": "3fda88dfbd955761",
+  "row": 2,
+  "key": "21APR_MODLITBA",
+  "pages": [
+   3349,
+   3350,
+   3351,
+   3352
+  ],
+  "from": "天主，祢召選了聖安生主教竭盡",
+  "to": "悟並接受祢所啟示的真理。",
+  "len": 60,
+  "note": "21APR"
+ },
+ {
+  "id": "auto-21dec-ccit2-104",
+  "kind": "reading",
+  "block": "b72302d6481e0b6b",
+  "row": 1,
+  "key": "21DEC_cCIT2",
+  "pages": [
+   1520,
+   1521,
+   1522
+  ],
+  "from": "選讀聖伯鐸・賈宜修的著作一種",
+  "to": "為了光耀祢而順利成功。」",
+  "len": 525,
+  "head": [
+   1,
+   1
+  ],
+  "note": "21DEC"
+ },
+ {
+  "id": "auto-21feb-ccit2-105",
+  "kind": "reading",
+  "block": "cbae8dee12b154fc",
+  "row": 1,
+  "key": "21FEB_cCIT2",
+  "pages": [
+   1629,
+   1630,
+   1631,
+   1632
+  ],
+  "from": "選讀聖伯鐸・達明義書信集你要",
+  "to": "並嚮往內心所瞻望的幸福。",
+  "len": 736,
+  "head": [
+   1,
+   1
+  ],
+  "note": "21FEB"
+ },
+ {
+  "id": "auto-21feb-modlitba-106",
+  "kind": "collect",
+  "block": "82955425a9dc2e22",
+  "row": 2,
+  "key": "21FEB_MODLITBA",
+  "pages": [
+   1629,
+   1630,
+   1631,
+   1632
+  ],
+  "from": "全能的天主，求祢恩賜我們師法",
+  "to": "服務，最後獲得天國永生。",
+  "len": 56,
+  "note": "21FEB"
+ },
+ {
+  "id": "auto-21feb-ccit2-107",
+  "kind": "reading",
+  "block": "1b6aef288dd86a68",
+  "row": 1,
+  "key": "21FEB_cCIT2",
+  "pages": [
+   1629,
+   1630,
+   1631,
+   1632
+  ],
+  "from": "選讀聖伯鐸・達明義書信集你要",
+  "to": "並嚮往內心所瞻望的幸福。",
+  "len": 736,
+  "head": [
+   1,
+   1
+  ],
+  "note": "21FEB"
+ },
+ {
+  "id": "auto-21feb-ccit2r-108",
+  "kind": "responsory",
+  "block": "1b6aef288dd86a68",
+  "row": 2,
+  "key": "21FEB_cCIT2#R",
+  "pages": [
+   1629,
+   1630,
+   1631,
+   1632
+  ],
+  "from": "對答詠德三一，8，11，10",
+  "to": "，有如星辰永遠光芒四射。",
+  "len": 124,
+  "note": "21FEB"
+ },
+ {
+  "id": "auto-21jul-ccit2-109",
+  "kind": "reading",
+  "block": "90117e1105098bb5",
+  "row": 1,
+  "key": "21JUL_cCIT2",
+  "pages": [
+   5236,
+   5237,
+   5238
+  ],
+  "from": "選讀聖樂倫司鐸聖師講道集宣講",
+  "to": "鬼，致死一切罪惡的利劍。",
+  "len": 713,
+  "head": [
+   1,
+   1
+  ],
+  "note": "21JUL"
+ },
+ {
+  "id": "auto-21jul-ccit2r-110",
+  "kind": "responsory",
+  "block": "90117e1105098bb5",
+  "row": 2,
+  "key": "21JUL_cCIT2#R",
+  "pages": [
+   5236,
+   5237,
+   5238
+  ],
+  "from": "對答詠依四十，9；路九，59",
+  "to": "揚天主的國。答：向猶大⋯",
+  "len": 79,
+  "note": "21JUL"
+ },
+ {
+  "id": "auto-21jul-modlitba-111",
+  "kind": "collect",
+  "block": "96f2a0cfb2d3127e",
+  "row": 2,
+  "key": "21JUL_MODLITBA",
+  "pages": [
+   5236,
+   5237,
+   5238
+  ],
+  "from": "天主，祢曾將智慧和剛毅之神賜",
+  "to": "們足夠的力量，予以完成。",
+  "len": 89,
+  "note": "21JUL"
+ },
+ {
+  "id": "auto-22jan-ccit2-112",
+  "kind": "reading",
+  "block": "c7b4918aa7b71726",
+  "row": 1,
+  "key": "22JAN_cCIT2",
+  "pages": [
+   1569,
+   1570,
+   1571
+  ],
+  "from": "選讀聖思定（奧斯定）主教講道",
+  "to": "且也使人的軟弱轉為堅強。",
+  "len": 801,
+  "head": [
+   2,
+   1
+  ],
+  "note": "22JAN"
+ },
+ {
+  "id": "auto-22jan-ccit2r-113",
+  "kind": "responsory",
+  "block": "c7b4918aa7b71726",
+  "row": 2,
+  "key": "22JAN_cCIT2#R",
+  "pages": [
+   1569,
+   1570,
+   1571
+  ],
+  "from": "對答詠約二十三，11；斐三，",
+  "to": "祂的苦難。答：謹守祂……",
+  "len": 95,
+  "note": "22JAN"
+ },
+ {
+  "id": "auto-22jan-modlitba-114",
+  "kind": "collect",
+  "block": "6baeb1cff243c983",
+  "row": 2,
+  "key": "22JAN_MODLITBA",
+  "pages": [
+   1569,
+   1570,
+   1571
+  ],
+  "from": "全能永生的天主，祢曾賜予聖文",
+  "to": "活力，能為信仰勇敢作證。",
+  "len": 69,
+  "note": "22JAN"
+ },
+ {
+  "id": "auto-22jun-ccit2-115",
+  "kind": "reading",
+  "block": "c86453c8c487fc0b",
+  "row": 1,
+  "key": "22JUN_cCIT2",
+  "pages": [
+   5179,
+   5180,
+   5181
+  ],
+  "from": "選讀聖博嵐主教書信集天主的愛",
+  "to": "它將成為帶給您祝福的餅。",
+  "len": 755,
+  "head": [
+   1,
+   2
+  ],
+  "note": "22JUN"
+ },
+ {
+  "id": "auto-22jun-ccit2r-116",
+  "kind": "responsory",
+  "block": "c86453c8c487fc0b",
+  "row": 2,
+  "key": "22JUN_cCIT2#R",
+  "pages": [
+   5179,
+   5180,
+   5181
+  ],
+  "from": "對答詠德三一，8，11，10",
+  "to": "作惡而未作。答：他在上⋯",
+  "len": 82,
+  "note": "22JUN"
+ },
+ {
+  "id": "auto-22jun-modlitba-117",
+  "kind": "collect",
+  "block": "c66554a6fccf8d97",
+  "row": 2,
+  "key": "22JUN_MODLITBA",
+  "pages": [
+   5179,
+   5180,
+   5181
+  ],
+  "from": "天主，祢曾在聖博嵐主教身上，",
+  "to": "能師法他愛主愛人的熱忱。",
+  "len": 69,
+  "note": "22JUN"
+ },
+ {
+  "id": "auto-23apr-ccit2-118",
+  "kind": "reading",
+  "block": "3acab1d7f7840703",
+  "row": 1,
+  "key": "23APR_cCIT2",
+  "pages": [
+   3352,
+   3353,
+   3354
+  ],
+  "from": "選讀聖伯鐸・達勉主教講道集十",
+  "to": "法真福殉道烈士們的榜樣。",
+  "len": 770,
+  "head": [
+   1,
+   1
+  ],
+  "note": "23APR"
+ },
+ {
+  "id": "auto-23apr-ccit2r-119",
+  "kind": "responsory",
+  "block": "3acab1d7f7840703",
+  "row": 2,
+  "key": "23APR_cCIT2#R",
+  "pages": [
+   3352,
+   3353,
+   3354
+  ],
+  "from": "對答詠領：這位聖人為了保護天",
+  "to": "天國。答：因為他………。",
+  "len": 88,
+  "note": "23APR"
+ },
+ {
+  "id": "auto-23apr-modlitba-120",
+  "kind": "collect",
+  "block": "27c48e3b514aa165",
+  "row": 2,
+  "key": "23APR_MODLITBA",
+  "pages": [
+   3352,
+   3353,
+   3354
+  ],
+  "from": "天主，我們讚頌祢的威能，並懇",
+  "to": "從天上援助我們軟弱的人。",
+  "len": 45,
+  "note": "23APR"
+ },
+ {
+  "id": "auto-23dec-ccit2-121",
+  "kind": "reading",
+  "block": "ce6178ce5478a426",
+  "row": 1,
+  "key": "23DEC_cCIT2",
+  "pages": [
+   1522,
+   1523,
+   1524
+  ],
+  "from": "選讀教宗克勉十三世書信在他的",
+  "to": "裏和口裏，祇有一個天主。",
+  "len": 525,
+  "head": [
+   1,
+   1
+  ],
+  "note": "23DEC"
+ },
+ {
+  "id": "auto-23mar-ccit2-122",
+  "kind": "reading",
+  "block": "24d2b99156e815b0",
+  "row": 1,
+  "key": "23MAR_cCIT2",
+  "pages": [
+   3316,
+   3317,
+   3318
+  ],
+  "from": "選讀梵二主教在教會內牧靈職守",
+  "to": "活，使之適合時代的需要。",
+  "len": 700,
+  "head": [
+   2,
+   1
+  ],
+  "note": "23MAR"
+ },
+ {
+  "id": "auto-23mar-modlitba-123",
+  "kind": "collect",
+  "block": "e2200a32512e51cc",
+  "row": 2,
+  "key": "23MAR_MODLITBA",
+  "pages": [
+   3316,
+   3317,
+   3318
+  ],
+  "from": "天主，祢簡選了聖道斌主教，以",
+  "to": "信仰，和超羣出眾的聖德。",
+  "len": 70,
+  "note": "23MAR"
+ },
+ {
+  "id": "auto-23nov-ccit2-124",
+  "kind": "reading",
+  "block": "5d200d475534ffdd",
+  "row": 1,
+  "key": "23NOV_cCIT2",
+  "pages": [
+   5524,
+   5525,
+   5526
+  ],
+  "from": "選讀教宗聖克勉一世致格林多人",
+  "to": "歸於祂，世世無窮。阿們。",
+  "len": 778,
+  "head": [
+   2,
+   1
+  ],
+  "note": "23NOV"
+ },
+ {
+  "id": "auto-23nov-ccit2r-125",
+  "kind": "responsory",
+  "block": "5d200d475534ffdd",
+  "row": 2,
+  "key": "23NOV_cCIT2#R",
+  "pages": [
+   5524,
+   5525,
+   5526
+  ],
+  "from": "對答詠參閱瑪七，24；伯前一",
+  "to": "而成為義人。答：因為天⋯",
+  "len": 114,
+  "note": "23NOV"
+ },
+ {
+  "id": "auto-23nov-modlitba-126",
+  "kind": "collect",
+  "block": "4a8f0763da5dc491",
+  "row": 2,
+  "key": "23NOV_MODLITBA",
+  "pages": [
+   5524,
+   5525,
+   5526
+  ],
+  "from": "全能永生的天主，祢在殉道聖者",
+  "to": "心情，矢志追隨他的芳表。",
+  "len": 112,
+  "note": "23NOV"
+ },
+ {
+  "id": "auto-23okt-ccit2-127",
+  "kind": "reading",
+  "block": "133a119dcb072792",
+  "row": 1,
+  "key": "23OKT_cCIT2",
+  "pages": [
+   5467,
+   5468,
+   5469
+  ],
+  "from": "選讀賈必昌‧聖若望的「神職寶",
+  "to": "天主的家中應該如何生活。",
+  "len": 656,
+  "head": [
+   2,
+   1
+  ],
+  "note": "23OKT"
+ },
+ {
+  "id": "auto-23okt-modlitba-128",
+  "kind": "collect",
+  "block": "b0747c65a988d733",
+  "row": 2,
+  "key": "23OKT_MODLITBA",
+  "pages": [
+   5467,
+   5468,
+   5469
+  ],
+  "from": "天主，祢揀選了聖若望司鐸，加",
+  "to": "祢的護翼之下，身心安康。",
+  "len": 66,
+  "note": "23OKT"
+ },
+ {
+  "id": "auto-24apr-ccit2-129",
+  "kind": "reading",
+  "block": "00bc57d98d1a4e2e",
+  "row": 1,
+  "key": "24APR_cCIT2",
+  "pages": [
+   3354,
+   3355,
+   3356
+  ],
+  "from": "選讀對聖斐德司鐸的頌辭名實相",
+  "to": "的財富換取來世的財富。」",
+  "len": 661,
+  "head": [
+   1,
+   1
+  ],
+  "note": "24APR"
+ },
+ {
+  "id": "auto-24apr-modlitba-130",
+  "kind": "collect",
+  "block": "3679edd79f0af4d1",
+  "row": 2,
+  "key": "24APR_MODLITBA",
+  "pages": [
+   3354,
+   3355,
+   3356
+  ],
+  "from": "天主，祢曾在聖斐德心中點燃了",
+  "to": "認基督復活所表現的威能。",
+  "len": 77,
+  "note": "24APR"
+ },
+ {
+  "id": "auto-24okt-ccit2-131",
+  "kind": "reading",
+  "block": "78917c3b14bbffb6",
+  "row": 1,
+  "key": "24OKT_cCIT2",
+  "pages": [
+   5469,
+   5470,
+   5471
+  ],
+  "from": "選讀聖安道‧柯樂仁主教的著作",
+  "to": "天主的光榮和人靈的得救。",
+  "len": 610,
+  "head": [
+   1,
+   1
+  ],
+  "note": "24OKT"
+ },
+ {
+  "id": "auto-24okt-ccit2r-132",
+  "kind": "responsory",
+  "block": "78917c3b14bbffb6",
+  "row": 2,
+  "key": "24OKT_cCIT2#R",
+  "pages": [
+   5469,
+   5470,
+   5471
+  ],
+  "from": "對答詠得前二，8；迦四，19",
+  "to": "內形成為止。答：因為你⋯",
+  "len": 95,
+  "note": "24OKT"
+ },
+ {
+  "id": "auto-24okt-modlitba-133",
+  "kind": "collect",
+  "block": "243c382010864b60",
+  "row": 2,
+  "key": "24OKT_MODLITBA",
+  "pages": [
+   5469,
+   5470,
+   5471
+  ],
+  "from": "天主，祢賜給了聖安道主教無比",
+  "to": "力地爭取羣衆，皈依基督。",
+  "len": 76,
+  "note": "24OKT"
+ },
+ {
+  "id": "auto-25maj-ccit2-137",
+  "kind": "reading",
+  "block": "4ad1ec36457419b7",
+  "row": 1,
+  "key": "25MAJ_cCIT2",
+  "pages": [
+   3397,
+   3398,
+   3399
+  ],
+  "from": "選讀顧伯德論聖伯達之死我渴望",
+  "to": "他所切望的天堂福樂去了。",
+  "len": 889,
+  "head": [
+   1,
+   1
+  ],
+  "note": "25MAJ"
+ },
+ {
+  "id": "auto-25maj-ccit2r-138",
+  "kind": "responsory",
+  "block": "4ad1ec36457419b7",
+  "row": 2,
+  "key": "25MAJ_cCIT2#R",
+  "pages": [
+   3397,
+   3398,
+   3399
+  ],
+  "from": "對答詠領：我在隱修院中度過了",
+  "to": "為偉大的。答：我常以⋯⋯",
+  "len": 99,
+  "note": "25MAJ"
+ },
+ {
+  "id": "auto-25maj-modlitba-139",
+  "kind": "collect",
+  "block": "48434f4f8050b8cd",
+  "row": 2,
+  "key": "25MAJ_MODLITBA",
+  "pages": [
+   3397,
+   3398,
+   3399
+  ],
+  "from": "天主，祢賜給了聖伯達司鐸卓絕",
+  "to": "因他的功績，常蒙祢助祐。",
+  "len": 58,
+  "note": "25MAJ"
+ },
+ {
+  "id": "auto-25maj-ccit2r-140",
+  "kind": "responsory",
+  "block": "26347261bda1290d",
+  "row": 2,
+  "key": "25MAJ_cCIT2#R",
+  "pages": [
+   3397,
+   3398,
+   3399
+  ],
+  "from": "對答詠領：我在隱修院中度過了",
+  "to": "為偉大的。答：我常以⋯⋯",
+  "len": 99,
+  "note": "25MAJ"
+ },
+ {
+  "id": "auto-26sep-ccit2-141",
+  "kind": "reading",
+  "block": "bc93ffff2bbd97e1",
+  "row": 1,
+  "key": "26SEP_cCIT2",
+  "pages": [
+   5392,
+   5393,
+   5394,
+   5395
+  ],
+  "from": "選讀聖思定主教講道詞殉道者寶",
+  "to": "束了痛苦，便會飽享榮譽。",
+  "len": 908,
+  "head": [
+   1,
+   2
+  ],
+  "note": "26SEP"
+ },
+ {
+  "id": "auto-26sep-modlitba-142",
+  "kind": "collect",
+  "block": "b8697ccadee9ce9f",
+  "row": 2,
+  "key": "26SEP_MODLITBA",
+  "pages": [
+   5392,
+   5393,
+   5394,
+   5395
+  ],
+  "from": "上主，在這聖高邁和聖達勉的紀",
+  "to": "他們同享永遠不朽的財富。",
+  "len": 87,
+  "note": "26SEP"
+ },
+ {
+  "id": "auto-27maj-ccit2-144",
+  "kind": "reading",
+  "block": "6d0669fa9f653edb",
+  "row": 1,
+  "key": "27MAJ_cCIT2",
+  "pages": [
+   3407,
+   3408,
+   3409
+  ],
+  "from": "選讀大聖國瑞教宗書信集英國人",
+  "to": "已經登記在天上而喜歡。」",
+  "len": 777,
+  "head": [
+   1,
+   1
+  ],
+  "note": "27MAJ"
+ },
+ {
+  "id": "auto-27maj-modlitba-145",
+  "kind": "collect",
+  "block": "59f6c5653d8c1ae0",
+  "row": 2,
+  "key": "27MAJ_MODLITBA",
+  "pages": [
+   3407,
+   3408,
+   3409
+  ],
+  "from": "天主，祢曾藉聖思定主教的宣講",
+  "to": "刻在祢的教會中發榮滋長。",
+  "len": 55,
+  "note": "27MAJ"
+ },
+ {
+  "id": "auto-28apr-ccit2-146",
+  "kind": "reading",
+  "block": "e2951d6599d515a9",
+  "row": 1,
+  "key": "28APR_cCIT2",
+  "pages": [
+   3364,
+   3365,
+   3366
+  ],
+  "from": "選讀對聖伯鐸・尚耐的讚辭殉道",
+  "to": "第一位殉道烈士而呼求他。",
+  "len": 660,
+  "head": [
+   1,
+   1
+  ],
+  "note": "28APR"
+ },
+ {
+  "id": "auto-28apr-ccit2r-147",
+  "kind": "responsory",
+  "block": "e2951d6599d515a9",
+  "row": 2,
+  "key": "28APR_cCIT2#R",
+  "pages": [
+   3364,
+   3365,
+   3366
+  ],
+  "from": "對答詠路十，2；宗一，8領：",
+  "to": "，直到地極。答：所以你…",
+  "len": 97,
+  "note": "28APR"
+ },
+ {
+  "id": "auto-28apr-modlitba-148",
+  "kind": "collect",
+  "block": "8d63dfd12560dc1c",
+  "row": 2,
+  "key": "28APR_MODLITBA",
+  "pages": [
+   3364,
+   3365,
+   3366
+  ],
+  "from": "天主，為發揚祢的教會，祢賜給",
+  "to": "自新，成為新生命的見證。",
+  "len": 73,
+  "note": "28APR"
+ },
+ {
+  "id": "auto-29dec-ccit2-149",
+  "kind": "reading",
+  "block": "d3f020a255c7c295",
+  "row": 1,
+  "key": "29DEC_cCIT2",
+  "pages": [
+   1544,
+   1545,
+   1546
+  ],
+  "from": "選讀聖多默・白凱主教書信若不",
+  "to": "戰鬥，就不能得到榮冠。」",
+  "len": 903,
+  "head": [
+   1,
+   1
+  ],
+  "note": "29DEC"
+ },
+ {
+  "id": "auto-30apr-ccit2-151",
+  "kind": "reading",
+  "block": "5435ccfec1b25ec4",
+  "row": 1,
+  "key": "30APR_cCIT2",
+  "pages": [
+   3369,
+   3370,
+   3371,
+   3372
+  ],
+  "from": "選讀聖思定主教若望福音論集教",
+  "to": "人們身上，更加追隨基督。",
+  "len": 781,
+  "head": [
+   1,
+   1
+  ],
+  "note": "30APR"
+ },
+ {
+  "id": "auto-30apr-ccit2r-152",
+  "kind": "responsory",
+  "block": "5435ccfec1b25ec4",
+  "row": 2,
+  "key": "30APR_cCIT2#R",
+  "pages": [
+   3369,
+   3370,
+   3371,
+   3372
+  ],
+  "from": "對答詠則三，21；弟前四，1",
+  "to": "你的聽眾。答：你也救……",
+  "len": 100,
+  "note": "30APR"
+ },
+ {
+  "id": "auto-30apr-modlitba-153",
+  "kind": "collect",
+  "block": "0350fb9766b54a9b",
+  "row": 2,
+  "key": "30APR_MODLITBA",
+  "pages": [
+   3369,
+   3370,
+   3371,
+   3372
+  ],
+  "from": "天主，祢召選了聖碧岳教宗、致",
+  "to": "使我們的愛德能結出果實。",
+  "len": 82,
+  "note": "30APR"
+ },
+ {
+  "id": "auto-30jul-ccit2-154",
+  "kind": "reading",
+  "block": "1150181296385c96",
+  "row": 1,
+  "key": "30JUL_cCIT2",
+  "pages": [
+   5257,
+   5258,
+   5259
+  ],
+  "from": "選讀金言聖伯鐸主教講道集論天",
+  "to": "偕同聖神永生永王。阿們。",
+  "len": 824,
+  "head": [
+   1,
+   1
+  ],
+  "note": "30JUL"
+ },
+ {
+  "id": "auto-30jul-ccit2r-155",
+  "kind": "responsory",
+  "block": "1150181296385c96",
+  "row": 2,
+  "key": "30JUL_cCIT2#R",
+  "pages": [
+   5257,
+   5258,
+   5259
+  ],
+  "from": "對答詠伯前二，4，5；詠一一",
+  "to": "屋角的基石。答：你們也⋯",
+  "len": 71,
+  "note": "30JUL"
+ },
+ {
+  "id": "auto-30jul-modlitba-156",
+  "kind": "collect",
+  "block": "01d3011b28c6c717",
+  "row": 2,
+  "key": "30JUL_MODLITBA",
+  "pages": [
+   5257,
+   5258,
+   5259
+  ],
+  "from": "天主，祢曾使金言聖伯鐸主教卓",
+  "to": "活把救恩的意義昭告世人。",
+  "len": 75,
+  "note": "30JUL"
+ },
+ {
+  "id": "auto-31dec-ccit2-157",
+  "kind": "reading",
+  "block": "64fcbc74021ddf9e",
+  "row": 1,
+  "key": "31DEC_cCIT2",
+  "pages": [
+   1547,
+   1548,
+   1549
+  ],
+  "from": "選讀凱撒勒雅主教恩彪的教會史",
+  "to": "情崇敬天主—萬善的主宰。",
+  "len": 677,
+  "head": [
+   1,
+   1
+  ],
+  "note": "31DEC"
+ }
+]

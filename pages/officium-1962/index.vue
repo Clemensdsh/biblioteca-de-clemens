@@ -5,6 +5,7 @@ import Office1962Viewer from '../../components/officium1962/Office1962Viewer.vue
 import { featureFlags } from '../../config/features'
 import { addCivilDays, buildOfficiumSearch, localCivilDate, parseOfficiumQuery } from '../../features/officium1962/pageState'
 import { errorDebugMessage, errorMessageZh, Officium1962Loader, type LoadedOfficeHour, type RootManifest } from '../../features/officium1962/runtime'
+import { isFirstVespersOfNextDay } from '../../features/officium1962/eve'
 import type { PsalmsZhData } from '../../features/officium1962/psalmsZh'
 import { office1962HourNames, type Office1962Day, type OfficeHourName } from '../../features/officium1962/schema'
 
@@ -48,6 +49,8 @@ const hourNamesZh: Record<OfficeHourName, string> = {
 const enabled = featureFlags.officium1962
 const rootManifest = ref<RootManifest>()
 const loaded = ref<LoadedOfficeHour>()
+// the next day, when the Vespers (or the Compline after them) shown are its First Vespers
+const eveDay = ref<Office1962Day>()
 const selectedDate = ref('')
 const selectedHour = ref<OfficeHourName>('matutinum')
 const loading = ref(false)
@@ -74,6 +77,27 @@ const warningList = computed(() => [
   ...(loaded.value?.hour.warnings || []),
 ])
 const displayDay = computed(() => loaded.value?.day as unknown as Office1962Day | undefined)
+
+// Divinum Officium prints the Vespers a day's concurrence gives, under that day's title: see eve.ts
+async function findFirstVespers(date: string, hourName: OfficeHourName, current: LoadedOfficeHour): Promise<Office1962Day | undefined> {
+  if (!loader || (hourName !== 'vesperae' && hourName !== 'completorium'))
+    return undefined
+  const next = addCivilDays(date, 1)
+  try {
+    const [vespers, ownLauds, nextLauds] = await Promise.all([
+      hourName === 'vesperae' ? current : loader.loadHour(date, 'vesperae'),
+      loader.loadHour(date, 'laudes'),
+      loader.loadHour(next, 'laudes'),
+    ])
+    return isFirstVespersOfNextDay(vespers.hour.blocks, ownLauds.hour.blocks, nextLauds.hour.blocks, next)
+      ? nextLauds.day as unknown as Office1962Day
+      : undefined
+  }
+  catch {
+    // the next day is not published (the end of the year): keep the day's own title
+    return undefined
+  }
+}
 
 onMounted(async () => {
   if (!enabled)
@@ -139,8 +163,11 @@ async function loadSelection() {
   parameterError.value = ''
   try {
     const result = await loader.loadHour(selectedDate.value, selectedHour.value)
-    if (sequence === loadSequence)
+    const eve = await findFirstVespers(selectedDate.value, selectedHour.value, result)
+    if (sequence === loadSequence) {
       loaded.value = result
+      eveDay.value = eve
+    }
   }
   catch (caught) {
     if (sequence === loadSequence) {
@@ -299,6 +326,7 @@ function persistPreference(key: string, value: string) {
         :font-scale="fontScale"
         :show-zh="showZh"
         :psalms-zh="psalmsZh"
+        :eve-day="eveDay"
       />
 
       <aside class="officium1962-notes no-print" aria-labelledby="officium-help-title">

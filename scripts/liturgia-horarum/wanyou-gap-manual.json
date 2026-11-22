@@ -1,0 +1,66 @@
+[
+  {
+    "stype": "let",
+    "date": "2026-12-14",
+    "format": "collect",
+    "section": 17,
+    "key": "14DEC_MODLITBA",
+    "id": "collect-14dec"
+  },
+  {
+    "stype": "let",
+    "date": "2026-12-07",
+    "format": "collect",
+    "section": 17,
+    "key": "07DEC_MODLITBA",
+    "id": "collect-07dec"
+  },
+  {
+    "stype": "lod",
+    "date": "2026-12-16",
+    "format": "collect",
+    "section": 30,
+    "key": "ADV13STR_rBENEDIKTUS",
+    "id": "ant-adv13str-ben"
+  },
+  {
+    "stype": "ves",
+    "date": "2026-12-16",
+    "format": "collect",
+    "section": 17,
+    "key": "ADV13STR_vMAGNIFIKAT",
+    "id": "ant-adv13str-mag"
+  },
+  {
+    "stype": "lod",
+    "date": "2026-12-20",
+    "format": "collect",
+    "section": 30,
+    "key": "ADV24NE_rBENEDIKTUSB",
+    "id": "ant-adv24ne-ben"
+  },
+  {
+    "stype": "lod",
+    "date": "2026-05-17",
+    "format": "collect",
+    "section": 67,
+    "key": "VN2_rBENEDIKTUS7NEA",
+    "id": "ant-vn2-7ne-ben"
+  },
+  {
+    "stype": "med",
+    "date": "2026-12-08",
+    "format": "collect",
+    "section": 6,
+    "key": "08DEC_2ANTx",
+    "id": "ant-08dec-2"
+  },
+  {
+    "stype": "med",
+    "date": "2026-12-08",
+    "format": "collect",
+    "section": 9,
+    "key": "08DEC_3ANTx",
+    "id": "ant-08dec-3"
+  }
+]

@@ -13,6 +13,8 @@ const props = defineProps<{
   fontScale: number
   showZh?: boolean
   psalmsZh?: PsalmsZhData
+  /** the next day, when these Vespers (or the Compline after them) are its First Vespers */
+  eveDay?: Office1962Day
 }>()
 
 const nocturnLinks = computed(() => {
@@ -23,10 +25,16 @@ const nocturnLinks = computed(() => {
     .map(block => ({ id: block.id, label: plainTitle(block.title || '') || block.type }))
 })
 
-const headingZh = computed(() => props.showZh ? props.psalmsZh?.headings?.[props.day.date] : undefined)
+// the title over First Vespers is the next day's; its commemorations are not those of the evening
+const titleDay = computed(() => props.eveDay ?? props.day)
+const headingZh = computed(() => props.showZh ? props.psalmsZh?.headings?.[titleDay.value.date] : undefined)
 const hourZh = computed(() => props.showZh ? props.psalmsZh?.hourNames?.[props.hour.name] : undefined)
 
 const vespersLabel = computed(() => {
+  if (props.eveDay && props.hour.name === 'completorium')
+    return '第一晚祷之后的晚经（属次日）'
+  if (props.eveDay && props.hour.name === 'vesperae')
+    return '次日第一晚祷 · I Vesperæ'
   if (props.hour.name !== 'vesperae')
     return ''
   if (props.hour.metadata?.psalmodySource === 'special')
@@ -47,7 +55,7 @@ const vespersLabel = computed(() => {
       <p class="officium1962-date">
         {{ day.date }}
       </p>
-      <h2>{{ day.liturgicalTitle }}</h2>
+      <h2>{{ titleDay.liturgicalTitle }}</h2>
       <p v-if="headingZh" class="officium1962-heading-zh" lang="zh-CN">
         {{ headingZh.t }}　{{ headingZh.r }}
       </p>
@@ -55,7 +63,7 @@ const vespersLabel = computed(() => {
         {{ hour.title }}<span v-if="hourZh" class="officium1962-hour-zh" lang="zh-CN">　{{ hourZh }}</span>
         <span v-if="vespersLabel" class="officium1962-vespers-mark">{{ vespersLabel }}</span>
       </p>
-      <p v-if="headingZh?.c?.length" class="officium1962-commemorations-zh" lang="zh-CN">
+      <p v-if="!eveDay && headingZh?.c?.length" class="officium1962-commemorations-zh" lang="zh-CN">
         <strong>当日纪念</strong>　{{ headingZh.c.join('；') }}
       </p>
     </header>
@@ -65,7 +73,7 @@ const vespersLabel = computed(() => {
       <a v-for="link in nocturnLinks" :key="link.id" :href="`#${link.id}`">{{ link.label }}</a>
     </nav>
 
-    <section v-if="day.commemorations.length" class="officium1962-commemorations" aria-labelledby="officium-commemorations">
+    <section v-if="!eveDay && day.commemorations.length" class="officium1962-commemorations" aria-labelledby="officium-commemorations">
       <h3 id="officium-commemorations">Commemorationes</h3>
       <p v-for="(commemoration, index) in day.commemorations" :key="index">{{ commemoration }}</p>
     </section>

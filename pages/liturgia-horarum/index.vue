@@ -3,6 +3,7 @@ import { useHead } from '@unhead/vue'
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import LhHour from '../../components/liturgiaHorarum/LhHour.vue'
 import { celebrationNameZh, psalterWeekZh, RANK_ZH, titleZh } from '../../features/liturgiaHorarum/titleZh'
+import { collectBlocks, type Eve, hasFirstVespersOfNextDay } from '../../features/liturgiaHorarum/eve'
 import { addDays, bioHourCodes, type Day, HOURS, type HourSlug, isDate, LiturgiaHorarumLoader, localDate, type Manifest, type ZhBlocks, type ZhVersion } from '../../features/liturgiaHorarum/data'
 
 const description = '新礼时辰礼仪（Liturgia Horarum）拉丁文在线版，每日八个时辰：序经、诵读日课、晨祷、日间祷、晚祷与夜祷。'
@@ -22,6 +23,7 @@ useHead({
 
 const manifest = ref<Manifest>()
 const day = ref<Day>()
+const eve = ref<Eve | null>(null)
 const date = ref('')
 const hour = ref<HourSlug>('invitatorium')
 const celebration = ref(0)
@@ -47,8 +49,18 @@ const currentHour = computed(() => current.value?.hours.find(item => item.code =
 const bioHours = computed(() => current.value && day.value ? bioHourCodes(current.value, day.value.blocks) : new Set<string>())
 // The rank (or, on a weekday, the psalter week) at the end of a title goes on its own line
 const RANK = /^(.*?),?\s+(sollemnitas|festum|memoria(?: ad libitum)?|pro commemoratione|Hebdomada \d+ Psalterii)$/
+// The Evening Prayer, and the Night Prayer after it, of a day before a Sunday or solemnity that has
+// First Vespers are that next day's: the title over them is the next day's (see eve.ts)
+const firstVespers = computed(() => !!current.value && !!eve.value
+  && ['mv', 'mk'].includes(currentHour.value?.code ?? '')
+  && hasFirstVespersOfNextDay(current.value.rank, current.value.title_la, eve.value, collectBlocks(current.value, ['mv'])))
+const shownTitle = computed(() => (firstVespers.value ? eve.value?.title_la : current.value?.title_la) || '')
+const shownDate = computed(() => (firstVespers.value ? eve.value?.date : day.value?.date))
+const eveLabel = computed(() => currentHour.value?.code === 'mk'
+  ? { la: 'post I Vesperas', zh: '第一晚祷之后' }
+  : { la: 'I', zh: '第一晚祷' })
 const titleParts = computed(() => {
-  const title = current.value?.title_la || ''
+  const title = shownTitle.value
   const match = RANK.exec(title)
   return match ? [match[1], match[2]] : [title, '']
 })
@@ -57,13 +69,13 @@ const titleParts = computed(() => {
 function mainOf(title: string) {
   return RANK.exec(title)?.[1] ?? title
 }
-function chineseName(title: string) {
+function chineseName(title: string, on = day.value?.date) {
   const main = mainOf(title)
-  return celebrationNameZh(main) ?? titleZh(main, day.value?.date) ?? ''
+  return celebrationNameZh(main) ?? titleZh(main, on) ?? ''
 }
 const titleZhParts = computed(() => {
   const [, rank] = titleParts.value
-  return [chineseName(current.value?.title_la || ''), RANK_ZH[rank] ?? psalterWeekZh(rank) ?? '']
+  return [chineseName(shownTitle.value, shownDate.value), RANK_ZH[rank] ?? psalterWeekZh(rank) ?? '']
 })
 const hourZh = computed(() => HOURS[hourIndex.value].zh)
 
@@ -156,6 +168,9 @@ async function load(next: string, wantedCelebration?: number) {
     if (mine !== sequence)
       return
     day.value = result
+    eve.value = await loader.eve(next)
+    if (mine !== sequence)
+      return
     celebration.value = wantedCelebration !== undefined && result.celebrations[wantedCelebration] ? wantedCelebration : result.defaultCelebration
     zhBlocks.value = display.value === 'latin' ? {} : await loader.chinese(next, chineseVersion.value)
   }
@@ -315,7 +330,7 @@ function selectCelebration(event: Event) {
         <p v-if="display !== 'latin' && (titleZhParts[0] || titleZhParts[1])" class="lh-title-zh" lang="zh-CN">
           {{ titleZhParts[0] }}<small v-if="titleZhParts[1]">{{ titleZhParts[1] }}</small>
         </p>
-        <p class="lh-hour-title" lang="la">{{ currentHour.name_la }}<span v-if="display !== 'latin'" class="lh-hour-zh" lang="zh-CN"> · {{ hourZh }}</span></p>
+        <p class="lh-hour-title" lang="la">{{ currentHour.name_la }}<span v-if="display !== 'latin'" class="lh-hour-zh" lang="zh-CN"> · {{ hourZh }}</span><span v-if="firstVespers" class="lh-eve-note">  ·  {{ eveLabel.la }}<span v-if="display !== 'latin'" lang="zh-CN"> · {{ eveLabel.zh }}</span></span></p>
       </header>
       <LhHour :key="`${day.date}-${celebration}-${hour}`" :hour="currentHour" :blocks="day.blocks" :zh-blocks="zhBlocks" :display="display" :show-posture="showPosture" :show-bio="bioHours.has(currentHour.code)" />
     </article>

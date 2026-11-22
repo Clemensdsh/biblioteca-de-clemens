@@ -56,3 +56,6 @@ resources/officium1962-translation/full-occurrences-by-hour-and-source.zh-Hans.j
 scripts/liturgia-horarum/codex/ocr-work/
 
 scripts/officium1962/codex/codex-out/
+
+# scraped wanyouzhenyuan raw pages (large, regenerable)
+scripts/liturgia-horarum/wanyou/out/raw/

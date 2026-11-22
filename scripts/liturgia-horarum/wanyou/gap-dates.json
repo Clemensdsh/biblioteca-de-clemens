@@ -1,0 +1,1723 @@
+{
+  "celebrations": [
+    {
+      "date": "2026-01-03",
+      "title": "Sanctissimi Nominis Iesu memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 2,
+      "kinds": [
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-01-07",
+      "title": "Feria quarta, Tempus Nativitatis, Hebdomada 2 Hebdomada",
+      "rank": "weekday",
+      "optional": false,
+      "default": true,
+      "gapRows": 5,
+      "kinds": [
+        "PSALMODIA",
+        "LECTIO ALTERA",
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-01-07",
+      "title": "S. Raimundi de Penyafort, presbyteri memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 8,
+      "kinds": [
+        "PSALMODIA",
+        "LECTIO ALTERA",
+        "ORATIO",
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "title": "Sabbatum, Tempus Nativitatis, Hebdomada 2 Hebdomada 2 P",
+      "rank": "weekday",
+      "optional": false,
+      "default": true,
+      "gapRows": 5,
+      "kinds": [
+        "PSALMODIA",
+        "LECTIO PRIOR",
+        "LECTIO ALTERA"
+      ]
+    },
+    {
+      "date": "2026-01-13",
+      "title": "S. Hilarii, episcopi et Ecclesiæ doctoris memoria ad li",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-01-20",
+      "title": "S. Fabiani, papæ et martyris memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-01-20",
+      "title": "S. Sebastiani, martyris memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-01-22",
+      "title": "S. Vincentii, diaconi et martyris memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-01-27",
+      "title": "S. Angelæ Merici, virginis memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "title": "S. Blasii, episcopi et martyris memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "title": "S. Ansgarii, episcopi memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "title": "Sabbatum, Tempus per annum, Hebdomada 4 Hebdomada 4 Psa",
+      "rank": "weekday",
+      "optional": false,
+      "default": true,
+      "gapRows": 1,
+      "kinds": [
+        "PSALMODIA"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "title": "Memoria S. Mariæ in sabbato memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 685,
+      "kinds": [
+        "(first)",
+        "HYMNUS",
+        "PSALMODIA",
+        "LECTIO ALTERA",
+        "ORATIO",
+        "RESPONSORIUM BREVE",
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "title": "Ss. Septem Fundatorum Ordinis Servorum B. M. V. memoria",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 9,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO",
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-02-21",
+      "title": "S. Petri Damiani, episcopi et Ecclesiæ doctoris pro com",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 6,
+      "kinds": [
+        "LECTIO",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-02-27",
+      "title": "S. Gregorii Narecensis, abbatis et Ecclesiæ doctoris pr",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 10,
+      "kinds": [
+        "LECTIO",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "title": "S. Casimiri pro commemoratione",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 10,
+      "kinds": [
+        "LECTIO",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "title": "Ss. Perpetuæ et Felicitatis, martyrum pro commemoration",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 6,
+      "kinds": [
+        "LECTIO",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "title": "S. Franciscæ Romanæ, religiosæ pro commemoratione",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 10,
+      "kinds": [
+        "LECTIO",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-03-17",
+      "title": "S. Patricii, episcopi pro commemoratione",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 10,
+      "kinds": [
+        "LECTIO",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-03-18",
+      "title": "S. Cyrilli Hierosolymitani, episcopi et Ecclesiæ doctor",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 6,
+      "kinds": [
+        "LECTIO",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "title": "S. Turibii de Mogrovejo, episcopi pro commemoratione",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 10,
+      "kinds": [
+        "LECTIO",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "title": "S. Martini I, papæ et martyris memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "title": "S. Anselmi, episcopi et Ecclesiæ doctoris memoria ad li",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "title": "S. Georgii, martyris memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "title": "S. Adalberti, episcopi et martyris memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "title": "S. Fidelis a Sigmaringen, presbyteri et martyris memori",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-04-26",
+      "title": "Dominica Quarta Paschæ Hebdomada 4 Psalterii",
+      "rank": "sunday",
+      "optional": false,
+      "default": true,
+      "gapRows": 2,
+      "kinds": [
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "title": "S. Petri Chanel, presbyteri et martyris memoria ad libi",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "title": "S. Ludovici M. Grignion de Montfort, presbyteri memoria",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-04-30",
+      "title": "S. Pii V, papæ memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-05-01",
+      "title": "S. Ioseph Opificis memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 3,
+      "kinds": [
+        "HYMNUS",
+        "LECTIO ALTERA"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "title": "Dominica Quinta Paschæ Hebdomada 1 Psalterii",
+      "rank": "sunday",
+      "optional": false,
+      "default": true,
+      "gapRows": 2,
+      "kinds": [
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Ss. Nerei et Achillei, martyrum memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "title": "S. Pancratii, martyris memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-05-13",
+      "title": "Beatæ Mariæ Virginis de Fatima memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 6,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO",
+        "RESPONSORIUM BREVE"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Feria sexta, Tempus paschale, Hebdomada 6 Hebdomada 2 P",
+      "rank": "weekday",
+      "optional": false,
+      "default": true,
+      "gapRows": 4,
+      "kinds": [
+        "LECTIO PRIOR",
+        "LECTIO ALTERA"
+      ]
+    },
+    {
+      "date": "2026-05-16",
+      "title": "Sabbatum, Tempus paschale, Hebdomada 6 Hebdomada 2 Psal",
+      "rank": "weekday",
+      "optional": false,
+      "default": true,
+      "gapRows": 4,
+      "kinds": [
+        "LECTIO PRIOR",
+        "LECTIO ALTERA"
+      ]
+    },
+    {
+      "date": "2026-05-17",
+      "title": "Dominica Septima Paschæ Hebdomada 3 Psalterii",
+      "rank": "sunday",
+      "optional": false,
+      "default": true,
+      "gapRows": 2,
+      "kinds": [
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "title": "S. Ioannis I, papæ et martyris memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "title": "S. Bernardini Senensis, presbyteri memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Ss. Christophori Magallanes, presbyteri, et sociorum, m",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-05-22",
+      "title": "S. Ritæ de Cascia, religiosæ memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 41,
+      "kinds": [
+        "(first)",
+        "LECTIO ALTERA",
+        "ORATIO",
+        "RESPONSORIUM BREVE",
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "title": "S. Augustini Cantuariensis, episcopi memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "title": "S. Pauli VI, papæ memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-05-30",
+      "title": "Sabbatum, Tempus per annum, Hebdomada 8 Hebdomada 4 Psa",
+      "rank": "weekday",
+      "optional": false,
+      "default": true,
+      "gapRows": 1,
+      "kinds": [
+        "PSALMODIA"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Ss. Marcellini et Petri, martyrum memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-06-06",
+      "title": "S. Norberti, episcopi memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-06-13",
+      "title": "Immaculati Cordis Beatæ Mariæ Virginis memoria ad libit",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 2,
+      "kinds": [
+        "LECTIO ALTERA"
+      ]
+    },
+    {
+      "date": "2026-06-19",
+      "title": "S. Romualdi, abbatis memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-06-22",
+      "title": "S. Paulini Nolani, episcopi memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-06-22",
+      "title": "Ss. Ioannis Fisher, episcopi, et Thomæ More, martyrum m",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Feria quinta, Tempus per annum, Hebdomada 12 Hebdomada",
+      "rank": "weekday",
+      "optional": false,
+      "default": true,
+      "gapRows": 4,
+      "kinds": [
+        "LECTIO PRIOR",
+        "LECTIO ALTERA"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "title": "Sabbatum, Tempus per annum, Hebdomada 12 Hebdomada 4 Ps",
+      "rank": "weekday",
+      "optional": false,
+      "default": true,
+      "gapRows": 1,
+      "kinds": [
+        "PSALMODIA"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "title": "S. Cyrilli Alexandrini, episcopi et Ecclesiæ doctoris m",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 6,
+      "kinds": [
+        "PSALMODIA",
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "title": "S. Thomæ, apostoli festum",
+      "rank": "feast",
+      "optional": false,
+      "default": true,
+      "gapRows": 4,
+      "kinds": [
+        "LECTIO PRIOR",
+        "LECTIO ALTERA"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "title": "S. Mariæ Goretti, virginis et martyris memoria ad libit",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 9,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO",
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "title": "Ss. Augustini Zhao Rong, presbyteri, et sociorum, marty",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 2,
+      "kinds": [
+        "LECTIO ALTERA"
+      ]
+    },
+    {
+      "date": "2026-07-13",
+      "title": "S. Henrici memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 10,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO",
+        "HYMNUS",
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "title": "S. Camilli de Lellis, presbyteri memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 6,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO",
+        "HYMNUS"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "title": "S. Apollinaris, episcopi et martyris memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "title": "S. Laurentii de Brindisi, presbyteri et Ecclesiæ doctor",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "title": "S. Mariæ Magdalenæ festum",
+      "rank": "feast",
+      "optional": false,
+      "default": true,
+      "gapRows": 1,
+      "kinds": [
+        "LECTIO PRIOR"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "title": "S. Brigittæ, religiosæ memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 7,
+      "kinds": [
+        "(first)"
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "title": "S. Sarbelii Makhlūf, presbyteri memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "title": "S. Iacobi, apostoli festum",
+      "rank": "feast",
+      "optional": false,
+      "default": true,
+      "gapRows": 4,
+      "kinds": [
+        "LECTIO PRIOR",
+        "LECTIO ALTERA"
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "title": "S. Petri Chrysologi, episcopi et Ecclesiæ doctoris memo",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Ss. Xysti II, Papæ, et sociorum, martyrum memoria ad li",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "title": "S. Caietani, presbyteri memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "title": "S. Dominici, presbyteri memoria",
+      "rank": "memorial",
+      "optional": false,
+      "default": true,
+      "gapRows": 2,
+      "kinds": [
+        "LECTIO PRIOR"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "title": "S. Ioannæ Franciscæ de Chantal, religiosæ memoria ad li",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 12,
+      "kinds": [
+        "(first)",
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "title": "Ss. Pontiani, papæ, et Hippolyti, presbyteri, martyrum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "title": "S. Maximiliani Mariæ Kolbe, presbyteri et martyris memo",
+      "rank": "memorial",
+      "optional": false,
+      "default": true,
+      "gapRows": 2,
+      "kinds": [
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "title": "S. Ioannis Eudes, presbyteri memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Beatæ Mariæ Virginis Reginæ memoria",
+      "rank": "memorial",
+      "optional": false,
+      "default": true,
+      "gapRows": 1,
+      "kinds": [
+        "PSALMODIA"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "title": "S. Bartholomæi, apostoli festum",
+      "rank": "feast",
+      "optional": false,
+      "default": true,
+      "gapRows": 4,
+      "kinds": [
+        "LECTIO PRIOR",
+        "LECTIO ALTERA"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "title": "S. Ioseph de Calasanz, presbyteri memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 10,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO",
+        "HYMNUS",
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "title": "S. Ludovici memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 10,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO",
+        "HYMNUS",
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "title": "S. Teresiæ de Calcutta, virginis memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "title": "Dominica XXIII per annum Hebdomada 3 Psalterii",
+      "rank": "sunday",
+      "optional": false,
+      "default": true,
+      "gapRows": 4,
+      "kinds": [
+        "LECTIO PRIOR",
+        "LECTIO ALTERA"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "title": "S. Petri Claver, presbyteri memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "title": "S. Roberti Bellarmino, episcopi et Ecclesiæ doctoris me",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "title": "S. Hildegardis Bingensis, virginis et Ecclesiæ doctoris",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Sabbatum, Tempus per annum, Hebdomada 24 Hebdomada 4 Ps",
+      "rank": "weekday",
+      "optional": false,
+      "default": true,
+      "gapRows": 1,
+      "kinds": [
+        "PSALMODIA"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "title": "S. Ianuarii, episcopi et martyris memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 6,
+      "kinds": [
+        "PSALMODIA",
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "title": "S. Pii de Pietrelcina, presbyteri memoria",
+      "rank": "memorial",
+      "optional": false,
+      "default": true,
+      "gapRows": 2,
+      "kinds": [
+        "LECTIO ALTERA"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "title": "Ss. Cosmæ et Damiani, martyrum memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "title": "S. Venceslai, martyris memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "title": "S. Laurentii Ruiz et sociorum, martyrum memoria ad libi",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "title": "S. Teresiæ a Iesu Infante, virginis et Ecclesiæ doctori",
+      "rank": "memorial",
+      "optional": false,
+      "default": true,
+      "gapRows": 2,
+      "kinds": [
+        "LECTIO ALTERA"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "title": "S. Brunonis, presbyteri memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "title": "S. Ioannis Henrici Newman, presbyteri et Ecclesiæ docto",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Ss. Dionysii, episcopi, et sociorum martyrum memoria ad",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "title": "S. Ioannis Leonardi, presbyteri memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "title": "S. Callisti I, papæ et martyris memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "S. Margaritæ Mariæ Alacoque, virginis memoria ad libitu",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "S. Hedvigis, religiosæ memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "title": "S. Ignatii Antiocheni, episcopi et martyris memoria",
+      "rank": "memorial",
+      "optional": false,
+      "default": true,
+      "gapRows": 1,
+      "kinds": [
+        "PSALMODIA"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Ss. Ioannis de Brebeuf et Isaac Jogues, presbyterorum,",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "title": "S. Pauli a Cruce, presbyteri memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "title": "S. Ioannis de Capestrano, presbyteri memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "title": "S. Antonii Mariæ Claret, episcopi memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Ss. Simonis et Iudæ, apostolorum festum",
+      "rank": "feast",
+      "optional": false,
+      "default": true,
+      "gapRows": 4,
+      "kinds": [
+        "LECTIO PRIOR",
+        "LECTIO ALTERA"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "title": "S. Martini de Porres, religiosi memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 9,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO",
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "title": "In dedicatione basilicæ Lateranensis festum",
+      "rank": "feast",
+      "optional": false,
+      "default": true,
+      "gapRows": 3,
+      "kinds": [
+        "LECTIO PRIOR",
+        "LECTIO ALTERA"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "title": "Sabbatum, Tempus per annum, Hebdomada 32 Hebdomada 4 Ps",
+      "rank": "weekday",
+      "optional": false,
+      "default": true,
+      "gapRows": 1,
+      "kinds": [
+        "PSALMODIA"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "title": "S. Margaritæ Scotiæ memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 4,
+      "kinds": [
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "title": "S. Gertrudis, virginis memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "title": "S. Clementis I, papæ et martyris memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "title": "S. Columbani, abbatis memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "title": "S. Catharinæ Alexandrinæ, virginis et martyris memoria",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 9,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO",
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-12-04",
+      "title": "S. Ioannis Damasceni, presbyteri et Ecclesiæ doctoris m",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-12-07",
+      "title": "S. Ambrosii, episcopi et Ecclesiæ doctoris memoria",
+      "rank": "memorial",
+      "optional": false,
+      "default": true,
+      "gapRows": 6,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO",
+        "HYMNUS"
+      ]
+    },
+    {
+      "date": "2026-12-08",
+      "title": "IN CONCEPTIONE IMMACULATA BEATÆ MARIÆ VIRGINIS sollemni",
+      "rank": "solemnity",
+      "optional": false,
+      "default": true,
+      "gapRows": 6,
+      "kinds": [
+        "PSALMODIA"
+      ]
+    },
+    {
+      "date": "2026-12-09",
+      "title": "S. Ioannis Didaci Cuauhtlatoatzin memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 10,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO",
+        "HYMNUS",
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-12-10",
+      "title": "Beatæ Mariæ Virginis de Loreto memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-12-11",
+      "title": "S. Damasi I, papæ memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-12-12",
+      "title": "Beatæ Mariæ Virginis de Guadalupe memoria ad libitum",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-12-13",
+      "title": "Dominica Tertia Adventus Hebdomada 3 Psalterii",
+      "rank": "sunday",
+      "optional": false,
+      "default": true,
+      "gapRows": 4,
+      "kinds": [
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-12-14",
+      "title": "S. Ioannis a Cruce, presbyteri et Ecclesiæ doctoris mem",
+      "rank": "memorial",
+      "optional": false,
+      "default": true,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO ALTERA",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-12-16",
+      "title": "Feria quarta, Tempus Adventus, Hebdomada 3 Hebdomada 3",
+      "rank": "weekday",
+      "optional": false,
+      "default": true,
+      "gapRows": 8,
+      "kinds": [
+        "LECTIO PRIOR",
+        "LECTIO ALTERA",
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-12-20",
+      "title": "Dominica Quarta Adventus Hebdomada 4 Psalterii",
+      "rank": "sunday",
+      "optional": false,
+      "default": true,
+      "gapRows": 2,
+      "kinds": [
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-12-21",
+      "title": "S. Petri Canisii, presbyteri et Ecclesiæ doctoris pro c",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-12-23",
+      "title": "S. Ioannis de Kęty, presbyteri pro commemoratione",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-12-27",
+      "title": "SANCTÆ FAMILIÆ IESU, MARIÆ ET IOSEPH festum",
+      "rank": "feast",
+      "optional": false,
+      "default": true,
+      "gapRows": 2,
+      "kinds": [
+        "CANTICUM EVANGELICUM"
+      ]
+    },
+    {
+      "date": "2026-12-29",
+      "title": "S. Thomæ Becket, episcopi et martyris pro commemoration",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 5,
+      "kinds": [
+        "LECTIO",
+        "ORATIO"
+      ]
+    },
+    {
+      "date": "2026-12-31",
+      "title": "S. Silvestri I, papæ pro commemoratione",
+      "rank": "optional_memorial",
+      "optional": true,
+      "default": false,
+      "gapRows": 3,
+      "kinds": [
+        "LECTIO",
+        "ORATIO"
+      ]
+    }
+  ],
+  "mainDates": [
+    "2026-01-03",
+    "2026-01-07",
+    "2026-01-10",
+    "2026-01-13",
+    "2026-01-20",
+    "2026-01-22",
+    "2026-01-27",
+    "2026-02-03",
+    "2026-02-07",
+    "2026-02-17",
+    "2026-02-21",
+    "2026-02-27",
+    "2026-03-04",
+    "2026-03-07",
+    "2026-03-09",
+    "2026-03-17",
+    "2026-03-18",
+    "2026-03-23",
+    "2026-04-13",
+    "2026-04-21",
+    "2026-04-23",
+    "2026-04-24",
+    "2026-04-26",
+    "2026-04-28",
+    "2026-04-30",
+    "2026-05-01",
+    "2026-05-03",
+    "2026-05-12",
+    "2026-05-13",
+    "2026-05-15",
+    "2026-05-16",
+    "2026-05-17",
+    "2026-05-18",
+    "2026-05-20",
+    "2026-05-21",
+    "2026-05-22",
+    "2026-05-27",
+    "2026-05-29",
+    "2026-05-30",
+    "2026-06-02",
+    "2026-06-06",
+    "2026-06-13",
+    "2026-06-19",
+    "2026-06-22",
+    "2026-06-25",
+    "2026-06-27",
+    "2026-07-03",
+    "2026-07-06",
+    "2026-07-09",
+    "2026-07-13",
+    "2026-07-14",
+    "2026-07-20",
+    "2026-07-21",
+    "2026-07-22",
+    "2026-07-23",
+    "2026-07-24",
+    "2026-07-25",
+    "2026-07-30",
+    "2026-08-07",
+    "2026-08-08",
+    "2026-08-12",
+    "2026-08-13",
+    "2026-08-14",
+    "2026-08-19",
+    "2026-08-22",
+    "2026-08-24",
+    "2026-08-25",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-09",
+    "2026-09-17",
+    "2026-09-19",
+    "2026-09-23",
+    "2026-09-26",
+    "2026-09-28",
+    "2026-10-01",
+    "2026-10-06",
+    "2026-10-09",
+    "2026-10-14",
+    "2026-10-16",
+    "2026-10-17",
+    "2026-10-19",
+    "2026-10-23",
+    "2026-10-24",
+    "2026-10-28",
+    "2026-11-03",
+    "2026-11-09",
+    "2026-11-14",
+    "2026-11-16",
+    "2026-11-23",
+    "2026-11-25",
+    "2026-12-04",
+    "2026-12-07",
+    "2026-12-08",
+    "2026-12-09",
+    "2026-12-10",
+    "2026-12-11",
+    "2026-12-12",
+    "2026-12-13",
+    "2026-12-14",
+    "2026-12-16",
+    "2026-12-20",
+    "2026-12-21",
+    "2026-12-23",
+    "2026-12-27",
+    "2026-12-29",
+    "2026-12-31"
+  ],
+  "shiftCheckDates": [
+    "2026-01-05",
+    "2026-01-06",
+    "2026-01-08",
+    "2026-01-09",
+    "2026-01-11",
+    "2026-01-12",
+    "2026-02-05",
+    "2026-02-06",
+    "2026-02-08",
+    "2026-02-09",
+    "2026-04-25",
+    "2026-04-27",
+    "2026-05-02",
+    "2026-05-04",
+    "2026-05-05",
+    "2026-05-14",
+    "2026-05-19",
+    "2026-05-28",
+    "2026-05-31",
+    "2026-06-01",
+    "2026-06-23",
+    "2026-06-24",
+    "2026-06-26",
+    "2026-06-28",
+    "2026-06-29",
+    "2026-07-01",
+    "2026-07-02",
+    "2026-07-04",
+    "2026-07-05",
+    "2026-07-26",
+    "2026-07-27",
+    "2026-08-06",
+    "2026-08-09",
+    "2026-08-10",
+    "2026-08-15",
+    "2026-08-16",
+    "2026-08-20",
+    "2026-08-21",
+    "2026-08-23",
+    "2026-08-26",
+    "2026-09-04",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-18",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-02",
+    "2026-10-03",
+    "2026-10-15",
+    "2026-10-18",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-15",
+    "2026-12-05",
+    "2026-12-06",
+    "2026-12-15",
+    "2026-12-17",
+    "2026-12-18",
+    "2026-12-19",
+    "2026-12-22",
+    "2026-12-25",
+    "2026-12-26",
+    "2026-12-28"
+  ],
+  "note": "Dates whose Latin texts have no Chinese in our data (2026). celebrations = the ones with gaps on that date; shiftCheck = neighbours (+-2 days) of the non-optional ones, because the site follows the mainland-China calendar (Epiphany and Ascension on Sundays), so a reading may sit on another date."
+}

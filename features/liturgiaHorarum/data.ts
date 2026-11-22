@@ -2,6 +2,7 @@
 // written by scripts/liturgia-horarum/build-data.mjs (format lh-site/1).
 
 import { PSALM_KEY } from './align'
+import { collectBlocks, type Eve } from './eve'
 import { type ManualGroup, rowHash } from './manualAlign'
 
 export const HOURS = [
@@ -138,13 +139,32 @@ export class LiturgiaHorarumLoader {
     return { date, massYear: entry.m, defaultCelebration: entry.d, celebrations, blocks }
   }
 
+  /**
+   * The celebration kept the day after `date` (its default), for the title over the Evening and
+   * Night Prayer that are the next day's First Vespers (see eve.ts). Null if it is not in the data.
+   */
+  async eve(date: string): Promise<Eve | null> {
+    const next = addDays(date, 1)
+    try {
+      const year = await this.json<Record<string, YearEntry>>(`years/${next.slice(0, 4)}.json`)
+      const entry = year[next]
+      if (!entry)
+        return null
+      const cel = await this.json<Celebration>(`cels/${entry.c[entry.d][1]}.json`)
+      return { date: next, rank: cel.rank, title_la: cel.title_la, collects: collectBlocks(cel, ['mv', 'mrch']) }
+    }
+    catch {
+      return null
+    }
+  }
+
   /** Chinese text for the same title and common files used by a day. */
   async chinese(date: string, version: ZhVersion): Promise<ZhBlocks> {
     const year = await this.json<Record<string, YearEntry>>(`years/${date.slice(0, 4)}.json`)
     const entry = year[date]
     if (!entry)
       throw new Error(`${date}: not in the data`)
-    const [celebrations, titles, rowTitles, index, mismatch, fixes, manual, bios] = await Promise.all([
+    const [celebrations, titles, rowTitles, index, mismatch, fixes, manual, bios, ocr, wanyouGap] = await Promise.all([
       Promise.all(entry.c.map(([, cel]) => this.json<Celebration>(`cels/${cel}.json`).then(typicalOnly))),
       Promise.all(entry.c.map(([title]) => this.json<{ blocks: ChineseRows }>(`zh/${version}/titles/${title}.json`))),
       Promise.all(entry.c.map(([title]) => this.json<LatinRows>(`zh/rows/titles/${title}.json`))),
@@ -158,6 +178,10 @@ export class LiturgiaHorarumLoader {
       this.json<Record<string, ManualGroup[] | { skip: string }>>(`zh/align-${version}.json`).catch(() => ({} as Record<string, ManualGroup[] | { skip: string }>)),
       // saints' notes transcribed from 《每日颂祷》 (scripts/liturgia-horarum/build-bios.mjs); optional
       this.json<Record<string, { hant: string, hans: string }>>('zh/bios.json').catch(() => ({} as Record<string, { hant: string, hans: string }>)),
+      // texts the two sources lack, from the scanned 《每日颂祷》 (build-ocr-commons.mjs); optional
+      this.json<Record<string, OcrText>>('zh/ocr-commons.json').catch(() => ({} as Record<string, OcrText>)),
+      // texts the two sources lack that the 万有真原 day pages have (build-wanyou-gap.mjs); optional
+      this.json<Record<string, OcrText>>('zh/wanyou-gap.json').catch(() => ({} as Record<string, OcrText>)),
     ])
     const chinese: ChineseRows = Object.assign({}, ...titles.map(title => title.blocks))
     const rows: LatinRows = Object.assign({}, ...rowTitles)
@@ -180,7 +204,7 @@ export class LiturgiaHorarumLoader {
         const zh: ZhText | null = fix && version in fix
           ? fix[version] ?? null
           : mismatch[id]?.includes(i) && values?.[i] ? ['m', ''] : values?.[i] || null
-        const row: ZhRow = { la, key, zh: zh ?? bioZh(la, bios, version) }
+        const row: ZhRow = { la, key, zh: zh ?? bioZh(la, bios, version) ?? ocrZh(la, ocr, version) ?? wanyouGapZh(la, wanyouGap, version) }
         if (zh?.[0] === 't' && key && PSALM_KEY.test(key)) {
           const pairing = manual[rowHash(version, la, zh[1])]
           if (Array.isArray(pairing))
@@ -220,6 +244,25 @@ function bioZh(la: string, bios: Record<string, { hant: string, hans: string }>,
     return null
   const text = paras.map(p => version === 'hkdlc' ? p!.hant : p!.hans).join('\n')
   return version === 'hkdlc' ? ['t', text] : ['t', text, 'hkdlc']
+}
+
+/** A text transcribed from the scanned book (zh/ocr-commons.json, by hash of its Latin row) */
+export interface OcrText { hant: string, hans: string, src: string }
+
+/** Chinese from the scan for a row of Latin the sources have no text for: 香港本 as printed, else simplified with its source. */
+export function ocrZh(la: string, ocr: Record<string, OcrText>, version: ZhVersion): ZhText | null {
+  const found = ocr[rowHash('ocr', la, '')]
+  if (!found)
+    return null
+  return version === 'hkdlc' ? ['t', found.hant] : ['t', found.hans, 'hkdlc']
+}
+
+/** Chinese from a 万有真原 day page for a row the sources lack (zh/wanyou-gap.json, by hash of its Latin row): simplified as printed; the 香港本 view shows it in traditional characters, marked as taken from 万有真原. */
+export function wanyouGapZh(la: string, gap: Record<string, OcrText>, version: ZhVersion): ZhText | null {
+  const found = gap[rowHash('wy', la, '')]
+  if (!found)
+    return null
+  return version === 'wanyou' ? ['t', found.hans] : ['t', found.hant, 'wanyou']
 }
 
 /** A Chinese-row whose Latin is (part of) the note: the note itself or the empty div after it. */

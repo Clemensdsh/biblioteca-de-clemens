@@ -1,0 +1,174 @@
+{
+  "anchors": "PDF页码→书页码：PDF 40=书38；将临期在PDF约60–200（PDF 80≈十二月十七日前，120≈将临期第二周一，160≈12月17日，200≈12月23日），240=聖家節，280=天主之母（1月1日），320=1月5日，360=1月7日/星期一，400=主受洗日，其后为常年期第1周起（440≈第2周四，480≈第4周一，520≈第5周六）。PDF 600 起为「常用經文」（书页 1…），PDF 1202–1481 圣人通用部份，1492–1548 十二月圣人、1549–1591 一月、5152–5537 六至十一月圣人专用。第二册（四旬期、复活期）约在PDF 1650–3289 之间，常年期第6–34周在第三册（约PDF 3420–5120）。页眉横排写在页面最上方，从右向左读（如「十二月二十三日」写成「日三廿月二十」），请放大页眉小图判读。",
+  "targets": [
+    {
+      "id": "advent-wk3-sun",
+      "group": "A",
+      "find": "将临期第三主日（12月13日，Gaudete）：晨祷赞主曲对经 Ait Ioánnes: Ego vox clamántis in desérto…（乙年）与晚祷圣母颂对经 Ego baptízo in aqua. Médius vestrum stat…（乙年）",
+      "hint": "PDF约100–130"
+    },
+    {
+      "id": "holy-family",
+      "group": "A",
+      "find": "圣家节（12月27日，乙年）晚祷圣母颂对经 Puer Iesus crescébat et confortabátur plenus sapiéntia…（乙年）",
+      "hint": "PDF约240–250"
+    },
+    {
+      "id": "xmas-jan7",
+      "group": "A",
+      "find": "圣诞期 1月7日（主显节前）：诵读一（若有）、诵读二 金言伯多禄(Peter Chrysologus)讲道 Sermo 160（三王献礼：黄金乳香没药）及其答唱 Tria sunt múnera pretiósa…、晨祷赞主曲对经 Ab Oriénte venérunt magi…、答句 Annuntiavérunt cæli iustítiam eius",
+      "hint": "PDF约355–375；页眉形如「一月七日」"
+    },
+    {
+      "id": "xmas-jan10",
+      "group": "A",
+      "find": "圣诞期 1月10日（主显节后）：诵读一 依撒意亚 63:19b–64:11（求主降临），诵读二 济利禄(Cyril of Alexandria)《若望福音注释》，及其答唱，答句 Fílius Dei venit et dedit nobis sensum",
+      "hint": "PDF约370–395；页眉形如「一月十日」"
+    },
+    {
+      "id": "easter4-sun",
+      "group": "A",
+      "find": "复活期第四主日（乙年）：晚祷圣母颂对经 Ego sum pastor bonus: ego veni, ut vitam hábeant, et abundántius hábeant",
+      "hint": "第二册，复活期；用页眉二分查找「復活期第四主日」"
+    },
+    {
+      "id": "easter5-sun",
+      "group": "A",
+      "find": "复活期第五主日（乙年）：晨祷赞主曲对经 Ego sum via, véritas et vita: nemo venit ad Patrem, nisi per me",
+      "hint": "紧接复活期第四主日之后"
+    },
+    {
+      "id": "easter6-fri",
+      "group": "A",
+      "find": "复活期第六周星期五（5月15日在站点）：诵读二 大良(Leo the Great)《论耶稣升天》Sermo 2 de Ascensione及其答唱；诵读一为 若望一书 3:1–10 的答唱（拉丁 Vidéte qualem caritátem dedit nobis Deus Pater）",
+      "hint": "第二册复活期第六周；若升天节在主日则第六周五、六为耶稣升天前"
+    },
+    {
+      "id": "dominic-0808",
+      "group": "A",
+      "find": "圣道明 8月8日：诵读一 欧瑟亚 5:14–7:2（或 6:1–7:2）及其答唱，圣人专用部份",
+      "hint": "圣人条目在PDF 5291–5292；诵读一可能在其前后，或在常年期第18周六（约PDF 4700–4900，页眉「第十八週星期六」）",
+      "note": "8/8 诵读一是常年期第18周六的平日诵读（欧 5:14–7:2）。请到该周六找，并同时转录圣道明条目的各页（5291–5292）"
+    },
+    {
+      "id": "ot12-thu",
+      "group": "A",
+      "find": "常年期第12周星期四（6月25日）：诵读一 撒慕尔记上 21:2–10; 22:1–5（达味逃亡）及答唱，诵读二 尼撒的国瑞(Gregory of Nyssa) Orat. 6 De beatitudinibus 及答唱 Deum nemo vidit umquam",
+      "hint": "第三册；页眉「第十二週星期四」"
+    },
+    {
+      "id": "ot23-sun",
+      "group": "A",
+      "find": "常年期第23主日（9月6日，乙年）：诵读一 耶利米亚 37:21; 38:14–28 及答唱 Exhibeámus nosmetípsos；诵读二 大良论真福八端 Sermo 95 及答唱 Quam magna multitúdo dulcédinis tuæ",
+      "hint": "第三册；页眉「第二十三主日」或「第二十三週」；注意：若书中为甲/乙/丙年读经分开，请记明各年"
+    },
+    {
+      "id": "ot-sat-resp",
+      "group": "A",
+      "find": "常年期周六诵读二的答唱 Non cessámus pro vobis orántes et postulántes. Ut impleámini agnitióne voluntátis eius.（格罗森书 1:9），常见于第三册周六答唱",
+      "hint": "可略过，仅当在目标页顺带看到时记一行"
+    },
+    {
+      "id": "adv-dec16",
+      "group": "A",
+      "find": "将临期12月16日：诵读二 依雷内(Irenaeus)《驳异端》Lib.4,20,4-5",
+      "hint": "PDF约185–195；页眉「十二月十六日」"
+    },
+    {
+      "id": "ot6-thu-ot7-thu",
+      "group": "A",
+      "find": "常年期第6周星期四、第7周星期四诵读一（箴言 10…；德训篇 6:11–7:28 等）及其答唱",
+      "hint": "第一册末或第三册首；约PDF 440–600 之间，页眉「第六週星期四」「第七週星期四」。若书中读经与拉丁不同请照记"
+    },
+    {
+      "id": "ambrose-1207",
+      "group": "A",
+      "find": "圣安博 12月7日：赞美诗 Fortem piúmque prǽsulem canámus omnes…（诵读日课/晨祷赞美诗）及整个条目",
+      "hint": "圣人条目 PDF 1499"
+    },
+    {
+      "id": "cyril-0627",
+      "group": "A",
+      "find": "圣济利禄（亚历山大）6月27日：诵读二 书信 Epist.1（PG 77,14-18.27-30）及答唱 Iste est qui ante Deum…，集祷经 Deus, qui beátum Cyríllum…",
+      "hint": "圣人条目 PDF 5194（可能延至5195）"
+    },
+    {
+      "id": "magdalene-0722",
+      "group": "A",
+      "find": "圣玛利亚玛达肋纳 7月22日：诵读一答唱 Transformámini renovatióne mentis（罗 12:2；弗 4:23-24）",
+      "hint": "条目 PDF 5239（书称聖德蓮）；本书1971年版是纪念，诵读可能不同"
+    },
+    {
+      "id": "lateran-1109",
+      "group": "A",
+      "find": "拉特朗大殿奉献日 11月9日：诵读一 伯多禄前书 2:1–17 及答唱 Lápides pretiósi omnes muri tui",
+      "hint": "条目 PDF 5498；或教堂奉献日通用 PDF 1202–1230（已 OCR 于 ocr-out/commons）"
+    },
+    {
+      "id": "raymond-0107",
+      "group": "C",
+      "find": "圣雷孟 1月7日：诵读二（Epístola）、答唱 Doctrínæ suæ rádiis…、集祷经 Deus, qui beátum Raimúndum…",
+      "hint": "条目 PDF 1552"
+    },
+    {
+      "id": "januarius-0919",
+      "group": "C",
+      "find": "圣佳年 9月19日：诵读二（奥斯定 Sermo 340）、答唱 Hic est vere martyr、集祷经 Deus, qui nos concédis beáti Ianuárii…",
+      "hint": "条目 PDF 5386"
+    },
+    {
+      "id": "b-check-kolbe",
+      "group": "B",
+      "find": "抽验：8月14日 圣高比（Maximilian Kolbe）是否在书中；对经 Magnificábitur Christus in córpore meo",
+      "hint": "8月圣人条目 PDF 5262–5344，jsonl 无 08-14"
+    },
+    {
+      "id": "b-check-pius",
+      "group": "B",
+      "find": "抽验：9月23日 圣庇护（Pio of Pietrelcina）是否在书中",
+      "hint": "9月圣人条目 PDF 5345–5419，jsonl 无 09-23"
+    },
+    {
+      "id": "jan12",
+      "group": "A",
+      "find": "1月12日（主显节后）：诵读二 福斯都(Faustus of Riez)讲道 Sermo 5 de Epiphania（基督与教会的婚礼）及其答唱，短答唱 Erat lux vera. Quae illuminat omnem hominem，晨祷赞主曲对经 Hoc fecit initium signorum Iesus in Cana Galilaeae，晨祷祷词（Christum glorificemus…），集祷经 Omnipotens sempiterne Deus, qui per Unigenitum tuum novam creaturam…；另有 1月11日晚祷圣母颂对经 Admoniti magi in somnis ab Angelo 与晚祷祷词（Patrem, qui Christum lucem gentium posuit…）",
+      "hint": "页眉「一月十二日」或「一月十一日」，约PDF 378–395（1/10 在 375–378）"
+    },
+    {
+      "id": "christmas-basil",
+      "group": "A",
+      "find": [
+        "圣诞期：诵读二 圣大巴西略《论圣神》(De Spiritu Sancto) Cap.26 nn.61.64（De Domino vivificante corpus suum）及其答唱 Nos non spiritum huius mundi accepimus",
+        "圣诞期 1月2日前后或12月29日–31日，约PDF 250–330；用页眉与内容找"
+      ],
+      "hint": null
+    },
+    {
+      "id": "lent-thu-numbers",
+      "group": "A",
+      "find": [
+        "四旬期（灰日后第一周四或类似）：诵读一 民数记 12:16–13:33 探子被派往客纳罕，诵读二 大良 Sermo 15 de passione Domini 3-4（默想主的苦难）及答唱 Verbum crucis pereuntibus",
+        "第二册四旬期，约PDF 1650–2100；页眉「四旬期第一／二／三／四週星期四」，需用页眉查找；诵读一内容含「探子」"
+      ],
+      "hint": null
+    },
+    {
+      "id": "ot26-thu-ot9",
+      "group": "A",
+      "find": [
+        "常年期第26周星期四诵读二：波利卡普(Polycarp)致斐理伯人书 Nn.12-14；常年期第9周诵读二：杜罗泰(Dorotheus of Gaza)《论自责》Doct. 7（讲：一切纷乱的缘由）；常年期第18周六诵读二 依雷内《驳异端》Lib.4,17,4-6（我喜爱的是仁慈，不是祭献）",
+        "第三册常年期，按页眉周与星期找；18周六在PDF 3839 附近（诵读一在3838–3839，二在其后）"
+      ],
+      "hint": null
+    },
+    {
+      "id": "visitation-0531",
+      "group": "A",
+      "find": [
+        "5月31日 圣母访亲：Iudt 13,18-19 Benedicta tu es, filia（若 13:18-19 简短读经）及短答唱 Beati qui audiunt verbum Dei",
+        "5月条目 PDF 3407–3418，圣人专用部份"
+      ],
+      "hint": null
+    }
+  ]
+}

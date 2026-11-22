@@ -1,0 +1,3 @@
+Set-Location $PSScriptRoot
+$prompt = "Read TASK-ocr-commons.md and follow its rules, but for exactly these PDF pages: 5239, 5240 (saints' proper pages, July 21 St Lawrence of Brindisi collect and the following entry). Transcribe everything on each page, enlarging and re-checking each column. Work in ocr-work/gaps/, write to ocr-out/gaps/pass3/pass5.jsonl (one line per page, no target field; if a line for 5239 already exists elsewhere ignore it). Reply briefly in Chinese."
+codex exec -m gpt-6.1-terra -c 'model_reasoning_effort="medium"' -C $PSScriptRoot --sandbox workspace-write --skip-git-repo-check -o ocr-out/gaps/pass3/pass5.last.txt $prompt *>> ocr-out/gaps/pass3/pass5.log

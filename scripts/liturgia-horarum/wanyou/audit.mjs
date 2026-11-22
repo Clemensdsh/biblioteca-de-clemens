@@ -1,0 +1,2 @@
+import {readdir,readFile} from 'node:fs/promises';
+let m={};for(let file of await readdir('out/raw')){let a=(await readFile('out/raw/'+file,'utf8')).split('class="article-content"')[1]||'';for(let x of a.matchAll(/<p[^>]*>\s*<strong[^>]*>([\s\S]*?)<\/strong>/gi)){let t=x[1].replace(/<br\s*\/?\s*>[\s\S]*/i,'').replace(/<[^>]*>/g,'').replace(/&nbsp;/g,' ').trim();if(t&&!/^(领|答)[：:]/.test(t))m[t]=(m[t]||0)+1}}console.log(Object.entries(m).sort((a,b)=>b[1]-a[1]).slice(0,100));

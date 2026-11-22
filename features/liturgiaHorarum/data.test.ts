@@ -47,6 +47,32 @@ describe('Liturgia Horarum data', () => {
     }
   })
 
+  it('gives the Saturday memorial of Our Lady her Lauds intercessions in Chinese, from the scanned book', async () => {
+    // 2026-11-21: the Presentation of the Blessed Virgin Mary; its Preces (SPMVSr_PROSBY_0) are in no online source
+    const loader = new LiturgiaHorarumLoader(localFetch)
+    const blocks = await loader.chinese('2026-11-21', 'hkdlc')
+    const row = blocks['2d9a6bd5802ed406'].find(r => r.key === 'SPMVSr_PROSBY_0')!
+    expect(row.zh?.[0]).toBe('t')
+    expect(row.zh?.[1]).toContain('義德的太陽')
+    expect(row.zh?.[1].split('\n').length).toBe(10)
+    const simplified = (await loader.chinese('2026-11-21', 'wanyou'))['2d9a6bd5802ed406'].find(r => r.key === 'SPMVSr_PROSBY_0')!
+    expect(simplified.zh).toEqual(['t', expect.stringContaining('义德的太阳'), 'hkdlc'])
+  })
+
+  it('has the readings of the Apostles\' feasts that the two sources lack, from the 万有真原 day pages', async () => {
+    // 2026-07-25: the alternative first reading (1 Cor 4, 1-16) and the second reading of Saint James
+    const loader = new LiturgiaHorarumLoader(localFetch)
+    const day = await loader.day('2026-07-25')
+    const zh = await loader.chinese('2026-07-25', 'wanyou')
+    const cel = day.celebrations[day.defaultCelebration]
+    const first = cel.hours.find(h => h.code === 'mpc')!.versions[0].parts.find(p => 'block' in p && p.title === 'LECTIO PRIOR') as { block: string }
+    const second = cel.hours.find(h => h.code === 'mpc')!.versions[0].parts.find(p => 'block' in p && p.title === 'LECTIO ALTERA') as { block: string }
+    expect(zh[first.block].find(r => r.key === 'SCAP_OCR_cCIT1')?.zh?.[1]).toContain('我们要师法使徒们')
+    expect(zh[second.block].find(r => r.key === '25JUL_cCIT2')?.zh?.[1]).toContain('金口')
+    const hk = await loader.chinese('2026-07-25', 'hkdlc')
+    expect(hk[first.block].find(r => r.key === 'SCAP_OCR_cCIT1')?.zh?.[2]).toBe('wanyou')
+  })
+
   it('reports a date outside the data', async () => {
     await expect(new LiturgiaHorarumLoader(localFetch).day(addDays(manifest.to, 1))).rejects.toThrow()
   })
