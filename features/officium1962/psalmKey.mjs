@@ -28,7 +28,27 @@ export function psalmLineKey(line) {
   return `${m[1]}:${m[2]}:${hashLetters(latinLetters(m[3]))}`
 }
 
+/**
+ * 整块键（利类思译本等按块配对的文本用）：块内拉丁文去掉 `{ex Proprio Sanctorum}` 这类来源标注行后，
+ * 整体取字母哈希。同一段拉丁无论出现在哪一天、哪个来源标注下，都得到同一个键。
+ */
+export function blockContentKey(lines) {
+  // 圣咏末的荣福经（或亡者日课的「Réquiem ætérnam」）不是圣咏本身，不参与键，否则同一篇圣咏会因结句不同配不上译文
+  const body = (lines || [])
+    .filter(line => !/\{[^}]*\}/.test(line))
+    .filter(line => !/^[℣℟]\.\s*(Glória Patri|Sicut erat|Réquiem ætérnam|Et lux perpétua)/.test(line))
+    .join(' ')
+  return `b:${hashLetters(latinLetters(body))}`
+}
+
 /** 固定诵句（圣三光荣经、亡者圣咏结句）用的键：整行的字母哈希。 */
 export function fixedLineKey(line) {
   return `f:${hashLetters(latinLetters(line))}`
+}
+
+/** 请经（Invitatorium）：对经按首条「Ant.」单独取键；其后的圣咏 94 每天都是同一篇，用固定键，不随对经变。 */
+export const INVITATORY_PSALM_KEY = 'iv-psalm'
+export function invitatoryAntKey(lines) {
+  const ant = (lines || []).find(line => /^Ant\./.test(line))
+  return ant ? `iv:${hashLetters(latinLetters(ant.replace(/^Ant\.\s*/, '')))}` : undefined
 }

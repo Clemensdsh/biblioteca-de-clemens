@@ -5,6 +5,7 @@ import { loadDay } from './loadDay'
 import { loadRootManifest, loadSharedManifest } from './loadRootManifest'
 import { loadYearManifest } from './loadYearManifest'
 import { reconstructHour } from './reconstructHour'
+import { loadLiLeisi, type LiLeisiData } from '../liLeisi'
 import { loadPsalmsZh, type PsalmsZhData } from '../psalmsZh'
 import type { FetchLike, LoadedOfficeHour, RuntimeContext } from './types'
 import type { OfficeHourName } from '../schema'
@@ -62,6 +63,17 @@ export class Officium1962Loader {
       throw error
     })
     return this.psalmsZh
+  }
+
+  private liLeisi?: Promise<LiLeisiData>
+
+  /** 利类思译本（司铎课典）配对数据；失败时抛出，调用方应忽略。 */
+  loadLiLeisi() {
+    this.liLeisi ??= loadLiLeisi(this.context).catch((error) => {
+      this.liLeisi = undefined
+      throw error
+    })
+    return this.liLeisi
   }
 
   clearCache() { this.context.cache.clear() }

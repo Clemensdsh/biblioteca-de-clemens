@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import type { LiLeisiData } from '../../features/officium1962/liLeisi'
 import type { PsalmsZhData } from '../../features/officium1962/psalmsZh'
 import type { Office1962Day, OfficeHour } from '../../features/officium1962/schema'
 import { plainTitle } from '../../features/officium1962/presentation'
@@ -12,6 +13,8 @@ const props = defineProps<{
   showSources: boolean
   fontScale: number
   showZh?: boolean
+  showLi?: boolean
+  liLeisi?: LiLeisiData
   psalmsZh?: PsalmsZhData
   /** the next day, when these Vespers (or the Compline after them) are its First Vespers */
   eveDay?: Office1962Day
@@ -47,7 +50,7 @@ const vespersLabel = computed(() => {
   <article
     id="officium-text"
     class="officium1962-viewer"
-    :class="{ 'is-parallel': showZh && psalmsZh }"
+    :class="{ 'is-parallel': (showZh && psalmsZh) || showLi }"
     :style="{ '--officium1962-font-scale': fontScale }"
     lang="la"
   >
@@ -86,6 +89,9 @@ const vespersLabel = computed(() => {
       :show-sources="showSources"
       :show-zh="showZh"
       :psalms-zh="psalmsZh"
+      :show-li="showLi"
+      :li-leisi="liLeisi"
+      :li-context="{ date: day.date, hour: hour.name }"
     />
   </article>
 </template>
@@ -203,3 +209,4 @@ const vespersLabel = computed(() => {
   }
 }
 </style>
+

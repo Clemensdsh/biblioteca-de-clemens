@@ -6,6 +6,7 @@ import { featureFlags } from '../../config/features'
 import { addCivilDays, buildOfficiumSearch, localCivilDate, parseOfficiumQuery } from '../../features/officium1962/pageState'
 import { errorDebugMessage, errorMessageZh, Officium1962Loader, type LoadedOfficeHour, type RootManifest } from '../../features/officium1962/runtime'
 import { isFirstVespersOfNextDay } from '../../features/officium1962/eve'
+import type { LiLeisiData } from '../../features/officium1962/liLeisi'
 import type { PsalmsZhData } from '../../features/officium1962/psalmsZh'
 import { office1962HourNames, type Office1962Day, type OfficeHourName } from '../../features/officium1962/schema'
 
@@ -60,6 +61,8 @@ const showRubrics = ref(true)
 const showSources = ref(false)
 const showZh = ref(true)
 const psalmsZh = ref<PsalmsZhData>()
+const showLi = ref(false)
+const liLeisi = ref<LiLeisiData>()
 const fontScale = ref(1)
 let loader: Officium1962Loader | undefined
 let loadSequence = 0
@@ -106,6 +109,7 @@ onMounted(async () => {
   loader = new Officium1962Loader()
   // 圣咏中文对照是附加功能：加载失败时只显示拉丁文，不影响日课
   loader.loadPsalmsZh().then((data) => { psalmsZh.value = data }).catch(() => {})
+  loadLiLeisiOnce()
   window.addEventListener('popstate', handlePopState)
   await initializeFromUrl(true)
 })
@@ -115,7 +119,18 @@ onBeforeUnmount(() => window.removeEventListener('popstate', handlePopState))
 watch(showRubrics, value => persistPreference('rubrics', String(value)))
 watch(showSources, value => persistPreference('sources', String(value)))
 watch(showZh, value => persistPreference('zh', String(value)))
+watch(showLi, (value) => {
+  persistPreference('li', String(value))
+  loadLiLeisiOnce()
+})
 watch(fontScale, value => persistPreference('font', String(value)))
+
+// 利类思译本是附加的查阅功能：只在打开开关后才加载，失败时静默忽略
+function loadLiLeisiOnce() {
+  if (!showLi.value || liLeisi.value || !loader)
+    return
+  loader.loadLiLeisi().then((data) => { liLeisi.value = data }).catch(() => {})
+}
 
 async function initializeFromUrl(replaceMissingDate: boolean) {
   if (!loader)
@@ -226,6 +241,7 @@ function readPreferences() {
   showRubrics.value = localStorage.getItem('officium1962.rubrics') !== 'false'
   showSources.value = localStorage.getItem('officium1962.sources') === 'true'
   showZh.value = localStorage.getItem('officium1962.zh') !== 'false'
+  showLi.value = localStorage.getItem('officium1962.li') === 'true'
   const storedFont = Number(localStorage.getItem('officium1962.font') || 1)
   fontScale.value = Number.isFinite(storedFont) ? Math.min(1.35, Math.max(0.9, storedFont)) : 1
 }
@@ -288,6 +304,7 @@ function persistPreference(key: string, value: string) {
           <label><input v-model="showRubrics" type="checkbox"> 显示红字</label>
           <label><input v-model="showSources" type="checkbox"> 显示来源</label>
           <label><input v-model="showZh" type="checkbox"> 圣咏中文</label>
+          <label title="切换为利类思译《司铎课典》（17 世纪，繁体），在右栏替代白话中文；译本没有的地方留空。"><input v-model="showLi" type="checkbox"> 利类思译本</label>
           <label class="officium1962-font-control">
             <span>正文字号</span>
             <input v-model.number="fontScale" type="range" min="0.9" max="1.35" step="0.05">
@@ -326,6 +343,8 @@ function persistPreference(key: string, value: string) {
         :font-scale="fontScale"
         :show-zh="showZh"
         :psalms-zh="psalmsZh"
+        :show-li="showLi"
+        :li-leisi="liLeisi"
         :eve-day="eveDay"
       />
 

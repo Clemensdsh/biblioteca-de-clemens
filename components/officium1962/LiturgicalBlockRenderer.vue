@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import { LI_PART_LABEL, liDoxology, lookupLiLeisi, type LiLeisiData } from '../../features/officium1962/liLeisi'
 import { lookupCanticleLine, lookupFixedLine, lookupPsalmLine, splitZhSegments, type PsalmsZhData } from '../../features/officium1962/psalmsZh'
 import { prepareBlock, type DisplayItem } from '../../features/officium1962/presentation'
 import type { LiturgicalBlock } from '../../features/officium1962/schema'
 
 function zhFor(line: string) {
-  if (!props.showZh || !props.psalmsZh)
+  // 切到利类思译本时，右栏整体换成利类思文本，不再显示逐行白话中文
+  if (!props.showZh || !props.psalmsZh || props.showLi)
     return undefined
   const hit = lookupPsalmLine(props.psalmsZh, line)
   if (hit) {
@@ -39,7 +41,7 @@ const psalmNumber = computed(() => {
 })
 
 const zhPending = computed(() =>
-  !!props.showZh && !!props.psalmsZh && psalmNumber.value > 0 && !props.psalmsZh.psalms[String(psalmNumber.value)]?.reviewed)
+  !props.showLi && !!props.showZh && !!props.psalmsZh && psalmNumber.value > 0 && !props.psalmsZh.psalms[String(psalmNumber.value)]?.reviewed)
 
 const blockNotes = computed(() => {
   if (!props.showZh || !props.psalmsZh)
@@ -78,6 +80,10 @@ function shownNo(psalm: number, n: number) {
 
 const prepared = computed(() => prepareBlock(props.block))
 
+/** 利类思译本（文献查阅用）：开关打开时在右栏替代白话中文；没有的块右栏留空，不用现代译文补。 */
+const liEntries = computed(() => props.showLi ? lookupLiLeisi(props.liLeisi, props.block, props.liContext) : undefined)
+const liDoxologyText = computed(() => liEntries.value?.length && (props.block.type === 'psalm' || props.block.type === 'canticle') ? liDoxology(props.block) : undefined)
+
 type LineItem = Extract<DisplayItem, { kind: 'line' }>
 
 function lineClass(item: LineItem) {
@@ -103,6 +109,9 @@ const props = defineProps<{
   showSources?: boolean
   showZh?: boolean
   psalmsZh?: PsalmsZhData
+  showLi?: boolean
+  liLeisi?: LiLeisiData
+  liContext?: { date: string, hour: string }
 }>()
 </script>
 
@@ -124,6 +133,9 @@ const props = defineProps<{
       本篇中文对照校订中，暂只显示拉丁文。
     </p>
 
+    <!-- 利类思译本打开且本块有译文：整块左拉丁、右利类思（窄屏上下叠放）；否则按白话中文逐行并排 -->
+    <div :class="liEntries?.length ? 'officium1962-li-grid' : undefined">
+    <div :class="liEntries?.length ? 'officium1962-li-latin' : undefined">
     <!-- 有中文的圣咏行：拉丁文在左、中文在右（窄屏上下叠放）；其余行只有拉丁文 -->
     <template v-for="(item, index) in prepared.items" :key="`${block.id}-${index}`">
       <div v-if="item.kind === 'gap'" class="officium1962-gap" aria-hidden="true" />
@@ -166,6 +178,22 @@ const props = defineProps<{
     <p v-if="block.metadata?.gloriaPatriOmitted" class="officium1962-note">
       Gloria Patri omitted by the upstream office for this structure.
     </p>
+    </div>
+
+    <aside v-if="liEntries?.length" class="officium1962-li" lang="zh-Hant" :aria-label="`利類思譯本：${liEntries[0].s}`">
+      <p v-for="(part, index) in liEntries[0].p" :key="index" class="officium1962-li-part">
+        <span v-if="LI_PART_LABEL[part.k]" class="officium1962-li-tag">{{ LI_PART_LABEL[part.k] }}</span>{{ part.t }}<span v-if="part.c" class="officium1962-li-meta" title="原書此處只載首句（云云），已按書中他處全文補全">＊</span><span v-if="part.n" class="officium1962-li-meta">（{{ part.n }}）</span>
+      </p>
+      <p v-if="liDoxologyText" class="officium1962-li-part">{{ liDoxologyText }}</p>
+      <small class="officium1962-li-source">利類思譯《司鐸課典》<template v-if="liEntries[0].s"> · {{ liEntries[0].s }}</template></small>
+      <template v-for="(alt, altIndex) in liEntries.slice(1)" :key="altIndex">
+        <p v-for="(part, index) in alt.p" :key="index" class="officium1962-li-part officium1962-li-alt">
+          <span class="officium1962-li-tag">另一處同文</span>{{ part.t }}
+        </p>
+        <small class="officium1962-li-source">{{ alt.s }}</small>
+      </template>
+    </aside>
+    </div>
 
     <details v-if="blockNotes.length" class="officium1962-zh-notes" lang="zh-CN">
       <summary>中文注释（思高本与拉丁通行本不同处）</summary>
@@ -335,6 +363,66 @@ const props = defineProps<{
 .officium1962-zh-mark:focus-within + .officium1962-zh-tip {
   display: block;
 }
+/* 利类思译本：文献查阅用，繁体原样，与拉丁正文区分 */
+.officium1962-li-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: 1.5rem;
+  align-items: start;
+}
+
+/* 右栏：利类思译本，替代白话中文 */
+.officium1962-li {
+  margin: 0.2rem 0;
+  font-family: var(--va-font-sans, system-ui, 'Noto Serif TC', 'Noto Sans TC', sans-serif);
+  font-size: 0.95em;
+}
+
+@media (max-width: 42rem) {
+  .officium1962-li-grid {
+    grid-template-columns: 1fr;
+    row-gap: 0.4rem;
+  }
+
+  .officium1962-li {
+    padding-left: 1rem;
+    color: var(--va-c-text-light);
+  }
+}
+
+.officium1962-li-part {
+  margin: 0.25rem 0;
+  line-height: 1.85;
+  white-space: pre-line;
+  overflow-wrap: break-word;
+}
+
+.officium1962-li-tag {
+  margin-right: 0.5em;
+  padding: 0 0.4em;
+  border: 1px solid var(--va-c-divider);
+  border-radius: 3px;
+  color: var(--va-c-text-light);
+  font-size: 0.75em;
+}
+
+.officium1962-li-meta,
+.officium1962-li-source {
+  color: var(--va-c-text-light);
+  font-size: 0.78em;
+}
+
+.officium1962-li-alt {
+  margin-top: 0.3rem;
+  color: var(--va-c-text-light);
+  font-size: 0.85em;
+}
+
+.officium1962-li-source {
+  display: block;
+  margin-top: 0.2rem;
+}
+
 .officium1962-zh-pending,
 .officium1962-zh-notes {
   color: var(--va-c-text-light);
@@ -413,3 +501,5 @@ const props = defineProps<{
   }
 }
 </style>
+
+
