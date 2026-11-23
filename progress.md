@@ -1,7 +1,28 @@
 # 项目当前状态与交接
 
 更新：2026-11-20。唯一当前状态入口；进入新会话先读本文件，按需读取所链接材料。状态随工作改变，操作前重新检查 Git 和文件；详细历史见 `docs/HISTORY_MIGRATION_REPORT.md`。
-> **2026-11-20 晚最新**：显示层整理、固定句/圣母对经中文、圣经读经（小读经 363 条）中文、读经分组流水线见文末「2026-11-20 罗马大日课显示层整理」及其后三节；夜课圣经读经（约 4100 行）、集祷经尚未做。
+> **2026-11-24 加载速度（未提交）**：罗马大日课与时辰礼仪加载慢的修复，见下节「2026-11-24 两个日课页加载提速」。
+> **2026-11-20 晚最新**：显示层整理、固定句/圣母对经中文、圣经读经（小读经 363 条）中文、读经分组流水线见文末「2026-11-20 罗马大日课显示层整理」及其后三节；夜课圣经读经（约 4100 行）、集祷经尚未做。
+
+## 2026-11-24 两个日课页加载提速（未提交、未部署）
+
+**原因**：① 1962：共享文本块只分 22 块、每块约 750 KB，每个时辰平均要下 2.5 MB 原文才用到其中一小部分；`shared/manifest.json` 1.8 MB（422 KB br），其中九成是每块重复的 64 位 `contentHash`；请求串行（根清单→年清单→共享清单），申正/晚经还要在礼文加载完后再串行加载当天和次日赞美经判断「第一晚祷」。② 时辰礼仪：common 块按首次使用排、128 KB 一块，一天只用到下载量约 9%（拉丁、zh/rows、zh/<版本> 三套同样浪费）；`day → eve → chinese` 串行。③ 线上 Cloudflare 对 JSON 为 `cf-cache-status: DYNAMIC`、`max-age=0, must-revalidate`（未改，见待办）。
+
+**改动**：
+- 1962 数据：`scripts/officium1962/shared-chunks.mjs`（≤64 KB 紧凑 JSON 分块；清单条目去掉 contentHash）、`repack-shared.mjs`（不重跑 build-year 直接重切现有 release，已运行：22→175 块，清单 1.8 MB→755 KB / br 134 KB；day 文件未动）；`build-year.mjs` 改用同一布局；`validate-year.mjs` 加校验「块 id = shared-+哈希前 20 位」「清单所指块位置正确」。
+- 1962 运行时：`reconstructHour.ts` 清单无 contentHash 时改为校验 id 与块自身哈希（有则照旧比对）；`types.ts` 该字段改可选；`runtime/index.ts` 共享清单与年清单并行；`pages/officium-1962/index.vue` 第一晚祷判断与礼文并行加载。`runtime.test.ts` 加一项。
+- 时辰礼仪数据：`scripts/liturgia-horarum/common-chunks.mjs`（按「哪些天用到」聚类、32 KB 一块）、`repack-common.mjs`（同时重切 common、zh/rows/common、zh/hkdlc|wanyou/common，重算 index 与 manifest version；已运行：76→317 块）；`build-data.mjs` 改用同一布局（未能实跑：需 lh 导出源）。`pages/liturgia-horarum/index.vue` 的 day/eve/chinese 并行。
+- 测速/对比脚本（未跟踪）：`artifacts/scratch/load-timing.mjs`、`serve-gzip.mjs`、`lh-equivalence.test.ts`。
+
+**验证**：`validate-year --year=2026` 通过（会改写 `reports/year-2026-validation.*` 时间戳）；`vitest run features/officium1962 features/liturgiaHorarum` 仅此前已有的 6 项失败；`lh-equivalence.test.ts` 对 2026、2036 全部 731 天比对 repack 前后 day()/eve()/chinese(两版) 实际用到的块完全一致；`pnpm run build` 成功。旧版（HEAD 工作树构建）与新版构建用同一本地 gzip 服务、无头 Edge 节流（40 ms、9 Mbit/s）、禁缓存测「导航→礼文出现」：1962 夜课 3.8→2.5 s（1189→602 KB），申正 4.0→2.8 s，3-15 赞美 3.6→2.3 s；时辰礼仪对照模式 4.2→3.4 s（1292→811 KB）、3.9→3.3 s，拉丁模式 2.4→2.3 s（349→177 KB）。四个页面（含 12-24 两边第一晚祷标题）新旧渲染文本长度与哈希一致。**未验证**：线上实际效果；手机实机。
+
+**第二轮（同日，用户同意做三项「不影响正确内容」的优化；未提交）**：
+- **长缓存：已按用户要求回退**（用户：项目随时更新内容，不接受浏览器长期缓存）。`public/_headers` 已恢复 HEAD 原样（只有 `/assets/*`）；数据文件仍是 Cloudflare 默认的每次向服务器确认。保留的只有请求里的 `?v=`（1962 带校验和、时辰礼仪带版本），在默认缓存策略下无副作用。以下为回退前的记录：`public/_headers`（Cloudflare Pages，原文件只有 `/assets/*`，已保留）：`/assets/*`、`/data/liturgia-horarum/*`、`/data/officium1962/{years,shared,psalms-zh}/*` 设 `max-age=31536000, immutable`；时辰礼仪 `manifest.json` 与 `psalms-zh/core.json` 用 `! Cache-Control` 改回 `no-cache`。前提是这些 URL 内容一变就变：时辰礼仪每个请求带 `?v=<manifest.version>`；1962 `runtime/http.ts` 对清单里有校验和的文件请求带 `?v=<checksum 前 16 位>`（并照旧校验 SHA-256）。根清单、`li-leisi.json`、`psalms-zh.json` 等不带版本的文件不在长缓存范围。
+- **时辰礼仪 version 与中文附加数据**：新 `scripts/postbuild-lh-data.mjs` 接在 `pnpm run build` 后（package.json 的 build、build:ssg）：① 按每个 zh/rows 文件抽出其各行会查到的 fixes/mismatch/align/bios/ocr-commons/wanyou-gap 条目，写 `dist/.../zh/<版本>/extra/{common,titles}/*.json`（1906 个），manifest 加 `zhExtra: true`；② 对整个数据目录重算 version（以前只有 build-data 会改 version，fixes 等后来改的文件不换版本）。`data.ts` 的 `chinese()` 仅在 `zhExtra` 时用拆分文件，任何一份取不到就退回整包（开发服务器无 postbuild，始终用整包）。
+- **1962 圣咏中文按需加载**：新 `scripts/officium1962/psalms-zh-split.mjs`（`psalms-zh-build.mjs` 写完后自动调用；已单独跑过）生成 `psalms-zh/core.json`（除各篇外的全部内容 + 每篇 SHA-256，gzip 75 KB）与 150 个单篇文件（平均 4 KB）；`psalmsZh.ts` 加 `loadPsalmsZhCore`/`psalmNumbersIn`/`psalmsZhFrom`，`Officium1962Loader.loadPsalmsZhFor(blocks)`；页面挂载时预取 core，礼文加载后只取本时辰用到的篇目，与礼文一起显示；关着「圣咏中文」时不取，打开时补取。整份 `psalms-zh.json` 仍生成（测试、脚本用），页面不再加载。
+- **验证**：`vitest run features/officium1962 features/liturgiaHorarum` 只剩原有 6 项失败（`releaseIntegration.test.ts` 的 fetch 模拟改为去掉 `?v=`；`structuredTranslationWorkspace` 的 45 s 超时测试在机器忙时会超时，单独跑通过）；`artifacts/scratch/lh-extra-equivalence.test.ts`：2026、2036 共 731 天 × 两版本，拆分附加数据与整包结果完全一致、不再请求整包文件，退回路径结果也一致；`psalms-zh-split-equivalence.test.ts`：2026 全部 2920 个时辰、10 万余行，渲染器各查找结果与整份数据一致；`pnpm run build` 成功；四个页面渲染文本哈希与最初 HEAD 构建一致；1962 关→开「圣咏中文」后页面与直接打开相同。`vue-tsc` 因 tsconfig 原有错误（vite/client 类型、baseUrl 弃用）无法完成类型检查。
+- **测速**（同上节条件，冷缓存）：1962 夜课约 2.6 s / 409 KB（首轮后 2.5 s / 602 KB，最初 3.8 s / 1189 KB——省下的流量被「先礼文、后圣咏」多出的一次往返抵消）；时辰礼仪对照 11-24 晨祷 3.3 s / 408 KB，12-24 晚祷 2.8 s / 346 KB（首轮对照约 811 KB）。长缓存的效果（再次访问、换日期）本地无法测，需上线后看。
+- **未验证**：手机实机；线上效果。
 
 ## 1962 日课中文：2026-11-20 本轮交接（已提交 `d44c589` 并推送 main，由 GitHub Actions 发布 Pages；线上页面未核对）
 

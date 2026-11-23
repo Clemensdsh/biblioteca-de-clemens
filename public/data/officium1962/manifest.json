@@ -12,7 +12,7 @@
   "reportsPath": "reports/",
   "schemaVersion": "officium1962.v1",
   "shared": {
-    "checksum": "f1651ac93a75a4fd82b033951a4534c56459f8c48820a852a099602b1ffad7cf",
+    "checksum": "8b9514eef9128067037b2d36228c15f2cad614392673028576ef0b2eecd89451",
     "path": "shared/manifest.json"
   },
   "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"

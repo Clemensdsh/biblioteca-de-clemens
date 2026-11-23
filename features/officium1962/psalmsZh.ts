@@ -31,6 +31,43 @@ export interface PsalmsZhData {
   psalms: Record<string, PsalmsZhPsalm>
 }
 
+/**
+ * 按需加载用的公共部分（psalms-zh/core.json，scripts/officium1962/psalms-zh-split.mjs 生成）：
+ * 除各篇圣咏外的全部内容，另有每篇文件的 SHA-256。
+ */
+export const PSALMS_ZH_CORE_SCHEMA = 'officium1962.psalms-zh-core.v1'
+export type PsalmsZhCore = Omit<PsalmsZhData, 'psalms' | 'schemaVersion'> & {
+  schemaVersion: string
+  psalmsSchemaVersion: string
+  psalmFiles: Record<string, string>
+}
+
+export async function loadPsalmsZhCore(context: RuntimeContext): Promise<PsalmsZhCore> {
+  const data = await fetchJson<PsalmsZhCore>(context, 'psalms-zh/core.json')
+  if (data?.schemaVersion !== PSALMS_ZH_CORE_SCHEMA || data.psalmsSchemaVersion !== PSALMS_ZH_SCHEMA)
+    throw new Error(`Unsupported psalms-zh core schema: ${data?.schemaVersion}`)
+  return data
+}
+
+/** 一组块里出现的圣咏篇号（与渲染器 lookupPsalmLine 所查的行一致：text 与 verses 中「篇:节」开头的行）。 */
+export function psalmNumbersIn(blocks: Array<{ text?: string[], verses?: string[] }>): string[] {
+  const numbers = new Set<string>()
+  for (const block of blocks) {
+    for (const line of [...(block.text || []), ...(block.verses || [])]) {
+      const match = /^(\d+):\d+/.exec(line)
+      if (match)
+        numbers.add(String(Number(match[1])))
+    }
+  }
+  return [...numbers]
+}
+
+/** 只含给定篇目的 PsalmsZhData（其余部分取自 core）。 */
+export function psalmsZhFrom(core: PsalmsZhCore, psalms: Record<string, PsalmsZhPsalm>): PsalmsZhData {
+  const { psalmFiles: _files, psalmsSchemaVersion, ...rest } = core
+  return { ...rest, schemaVersion: psalmsSchemaVersion, psalms }
+}
+
 export async function loadPsalmsZh(context: RuntimeContext): Promise<PsalmsZhData> {
   const data = await fetchJson<PsalmsZhData>(context, 'psalms-zh.json')
   if (data?.schemaVersion !== PSALMS_ZH_SCHEMA)

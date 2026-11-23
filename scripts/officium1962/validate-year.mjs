@@ -63,6 +63,9 @@ for (const chunk of sharedManifest.chunks || []) {
       verses: block.verses || [],
     }))
     expect(block.contentHash === contentHash, `contentHash ${block.id}`)
+    // the runtime finds a block's chunk in the manifest and checks it against its id (see shared-chunks.mjs)
+    expect(block.id === `shared-${contentHash.slice(0, 20)}`, `shared block id matches its hash ${block.id}`)
+    expect(sharedManifest.blocks?.[block.id]?.chunk === chunk.file, `shared manifest locates ${block.id} in ${chunk.file}`)
     expect(!sharedBlocks.has(block.id), `duplicate shared block ${block.id}`)
     sharedBlocks.set(block.id, block)
   }

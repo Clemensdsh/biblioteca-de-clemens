@@ -9,7 +9,10 @@ export function releaseUrl(context: RuntimeContext, path: string): string {
 }
 
 export async function fetchJson<T>(context: RuntimeContext, path: string, checksum?: string): Promise<T> {
-  const url = releaseUrl(context, path)
+  // A file listed with its checksum is requested with it, so its URL changes whenever its content
+  // does (no response cached under an older URL can be mistaken for it). The site sets no long
+  // caching for data: every file is revalidated with the server.
+  const url = checksum ? `${releaseUrl(context, path)}?v=${checksum.slice(0, 16)}` : releaseUrl(context, path)
   let response: Response
   try {
     response = await context.fetch(url, { headers: { Accept: 'application/json' } })

@@ -11,15 +11,16 @@
 //                         and options differ between years, so one title has several)
 //   titles/<key>.json     the text blocks only this title (or one or two others) uses
 //   common/index.json     block id -> common chunk, for blocks used by many titles
-//   common/NNN.json       those blocks, in order of first use, about 128 KB per chunk
+//   common/NNN.json       those blocks, grouped by the days that use them, about 32 KB per
+//                         chunk (common-chunks.mjs)
 // A day loads its year file, one to three celebration and title files, and the common
 // chunks it needs.
 import { createHash } from 'node:crypto'
 import { mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
+import { chunkCommon, orderByUse } from './common-chunks.mjs'
 
 const COMMON_TITLES = 3
-const CHUNK_BYTES = 128 * 1024
 const OUT = 'public/data/liturgia-horarum'
 
 const source = process.argv[2]
@@ -73,6 +74,7 @@ const blocks = new Map() // id -> html, in order of first use
 const blockTitles = new Map() // id -> Set of title keys
 const titles = new Map() // key -> { title, cels: Map(id -> celebration), blocks: Set }
 const years = new Map() // year -> { date: entry }
+const dayBlocks = [] // per day, in date order: the blocks it uses
 
 const zhVersions = zhSource ? [
   ['hkdlc', JSON.parse(readFileSync(join(zhSource, 'zh-hkdlc.json'), 'utf8'))],
@@ -110,34 +112,18 @@ for (const file of files) {
   if (!years.has(year))
     years.set(year, {})
   years.get(year)[day.date] = { m: day.mass_year, d: day.default_celebration, c: refs }
+  dayBlocks.push(day.celebrations.flatMap(cel => cel.hours.flatMap(hour => hour.versions.flatMap(version => [...partBlocks(version.parts)]))))
 }
 
 rmSync(OUT, { recursive: true, force: true, maxRetries: 10, retryDelay: 100 })
 
 const common = new Set([...blockTitles].filter(([, keys]) => keys.size >= COMMON_TITLES).map(([id]) => id))
-const index = {}
-let chunk = []
-let chunkSize = 0
-let chunkCount = 0
-const flush = () => {
-  write(`common/${String(chunkCount).padStart(3, '0')}.json`, Object.fromEntries(chunk))
-  chunkCount++
-  chunk = []
-  chunkSize = 0
-}
-for (const [id, html] of blocks) {
-  if (!common.has(id))
-    continue
-  const size = Buffer.byteLength(html)
-  if (chunk.length && chunkSize + size > CHUNK_BYTES)
-    flush()
-  chunk.push([id, html])
-  chunkSize += size
-  index[id] = chunkCount
-}
-if (chunk.length)
-  flush()
-write('common/index.json', index)
+// blocks kept on the same days go together, in small chunks (see common-chunks.mjs)
+const commonOrder = orderByUse([...blocks.keys()].filter(id => common.has(id)), dayBlocks)
+const { index, count: chunkCount } = chunkCommon(commonOrder.map(id => [id, blocks.get(id)]))
+for (let n = 0; n < chunkCount; n++)
+  write(`common/${String(n).padStart(3, '0')}.json`, Object.fromEntries(commonOrder.filter(id => index[id] === n).map(id => [id, blocks.get(id)])))
+write('common/index.json', Object.fromEntries(commonOrder.map(id => [id, index[id]])))
 
 const rowBlocks = new Map([...blocks].flatMap(([id]) =>
   zhRows[id] ? [[id, zhRows[id].map(([html, key]) => [present(html), key])]] : []))

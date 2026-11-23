@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "valaxy build --ssg && node scripts/postbuild-noindex.mjs && node scripts/postbuild-strip-image-preload.mjs",
+    "build": "valaxy build --ssg && node scripts/postbuild-noindex.mjs && node scripts/postbuild-strip-image-preload.mjs && node scripts/postbuild-lh-data.mjs",
     "build:spa": "valaxy build",
-    "build:ssg": "valaxy build --ssg && node scripts/postbuild-noindex.mjs && node scripts/postbuild-strip-image-preload.mjs",
+    "build:ssg": "valaxy build --ssg && node scripts/postbuild-noindex.mjs && node scripts/postbuild-strip-image-preload.mjs && node scripts/postbuild-lh-data.mjs",
     "dev": "valaxy --port 4859",
     "officium1962:export": "node scripts/officium1962/run-do-export.mjs",
     "officium1962:build-day": "node scripts/officium1962/build-day.mjs",

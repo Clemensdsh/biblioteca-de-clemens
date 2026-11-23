@@ -6,6 +6,7 @@ import { brotliCompressSync, gzipSync } from 'node:zlib'
 import { buildOffice1962DayFromExport } from '../../features/officium1962/parseDoOutput.ts'
 import { normalizeLatinTechnical } from '../../features/officium1962/normalizeLatin.ts'
 import { office1962HourNames, validateOffice1962Day } from '../../features/officium1962/schema.ts'
+import { chunkSharedBlocks, compactJson, sharedIndexEntry } from './shared-chunks.mjs'
 
 const upstreamCommit = '515a213f79951c563be4f599ca591c63aa63bb6d'
 const schemaVersion = 'officium1962.v1'
@@ -227,15 +228,11 @@ function packageRelease({ dates, hours, hourCache, generationTimestamp, timings,
   }
 
   const sharedBlocks = sharedOrder.map(id => shared.get(id))
-  const chunks = chunkSharedBlocks(sharedBlocks, 450)
+  const chunks = chunkSharedBlocks(sharedBlocks)
   const sharedIndex = {}
   for (const chunk of chunks) {
     for (const item of chunk.blocks) {
-      sharedIndex[item.id] = {
-        chunk: chunk.file,
-        contentHash: item.contentHash,
-        type: item.type,
-      }
+      sharedIndex[item.id] = sharedIndexEntry(chunk.file, item)
     }
   }
 
@@ -306,17 +303,6 @@ function sharedBlockFor(block) {
   }
 }
 
-function chunkSharedBlocks(blocks, size) {
-  const chunks = []
-  for (let index = 0; index < blocks.length; index += size) {
-    chunks.push({
-      file: `blocks-${String(chunks.length).padStart(3, '0')}.json`,
-      blocks: blocks.slice(index, index + size),
-    })
-  }
-  return chunks
-}
-
 function writeRelease(release) {
   rmSync(join(releaseRoot, 'shared'), { recursive: true, force: true })
   rmSync(yearRoot, { recursive: true, force: true })
@@ -328,7 +314,7 @@ function writeRelease(release) {
   for (const chunk of release.chunks) {
     const path = join(releaseRoot, 'shared', chunk.file)
     const data = { schemaVersion, upstreamCommit, blocks: chunk.blocks }
-    writeJsonAtomic(path, data)
+    writeJsonAtomic(path, data, { compact: true })
     fileChecksums[`shared/${chunk.file}`] = checksumFile(path)
   }
 
@@ -344,7 +330,7 @@ function writeRelease(release) {
     })),
     blocks: release.sharedIndex,
   }
-  writeJsonAtomic(join(releaseRoot, 'shared', 'manifest.json'), sharedManifest)
+  writeJsonAtomic(join(releaseRoot, 'shared', 'manifest.json'), sharedManifest, { compact: true })
   fileChecksums['shared/manifest.json'] = checksumFile(join(releaseRoot, 'shared', 'manifest.json'))
 
   for (const day of release.days) {
@@ -743,10 +729,10 @@ function sha256(value) {
   return createHash('sha256').update(value).digest('hex')
 }
 
-function writeJsonAtomic(path, value) {
+function writeJsonAtomic(path, value, { compact = false } = {}) {
   mkdirSync(dirname(path), { recursive: true })
   const temp = `${path}.tmp-${process.pid}`
-  writeFileSync(temp, `${JSON.stringify(stableObject(value), null, 2)}\n`, 'utf8')
+  writeFileSync(temp, compact ? compactJson(value) : `${JSON.stringify(stableObject(value), null, 2)}\n`, 'utf8')
   renameSync(temp, path)
 }
 

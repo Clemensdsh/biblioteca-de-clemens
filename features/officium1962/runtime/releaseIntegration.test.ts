@@ -11,7 +11,8 @@ function releaseFetch(requests: string[]) {
     if (!path.startsWith('/data/officium1962/'))
       return new Response('not found', { status: 404 })
     try {
-      const bytes = await readFile(resolve('public', path.slice(1)))
+      // checksummed files are requested with ?v=<checksum> (http.ts)
+      const bytes = await readFile(resolve('public', path.replace(/\?v=[0-9a-f]+$/, '').slice(1)))
       return new Response(bytes, { headers: { 'Content-Type': 'application/json' } })
     }
     catch {

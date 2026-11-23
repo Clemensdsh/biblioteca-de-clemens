@@ -90,7 +90,9 @@ export interface SharedManifest {
   chunkCount: number
   blockCount: number
   chunks: Array<{ file: string, blockCount: number, checksum: string }>
-  blocks: Record<string, { chunk: string, contentHash: string, type: string }>
+  // contentHash: only in releases before the shared index was slimmed (scripts/officium1962/shared-chunks.mjs);
+  // a block's id is `shared-` + the first 20 hex digits of its own contentHash, and each chunk is checksummed
+  blocks: Record<string, { chunk: string, contentHash?: string, type: string }>
 }
 
 export interface SharedChunk {

@@ -23,8 +23,10 @@ export async function reconstructHour(context: RuntimeContext, day: ReleaseDayDo
     const indexEntry = manifest.blocks[occurrence.blockId]
     if (!shared)
       throw new MissingSharedBlockError(`Missing shared block ${occurrence.blockId}`, { path: indexEntry?.chunk })
-    if (shared.contentHash !== indexEntry.contentHash)
+    if (indexEntry.contentHash !== undefined && shared.contentHash !== indexEntry.contentHash)
       throw new MissingSharedBlockError(`Shared block hash does not match manifest for ${occurrence.blockId}`)
+    if (indexEntry.contentHash === undefined && occurrence.blockId !== `shared-${shared.contentHash?.slice(0, 20)}`)
+      throw new MissingSharedBlockError(`Shared block id does not match its hash for ${occurrence.blockId}`)
     const metadata = occurrence.occurrenceMetadata
     return {
       id: occurrence.occurrenceId,

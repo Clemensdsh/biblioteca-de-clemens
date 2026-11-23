@@ -26,6 +26,8 @@ export interface Manifest {
   commonChunks: number
   version: string
   zh?: string[]
+  /** set by scripts/postbuild-lh-data.mjs: zh/<version>/extra/ holds per-file extracts of the Chinese extras */
+  zhExtra?: boolean
 }
 
 export type ZhVersion = 'hkdlc' | 'wanyou'
@@ -164,37 +166,33 @@ export class LiturgiaHorarumLoader {
     const entry = year[date]
     if (!entry)
       throw new Error(`${date}: not in the data`)
-    const [celebrations, titles, rowTitles, index, mismatch, fixes, manual, bios, ocr, wanyouGap] = await Promise.all([
+    const useExtra = !!(await this.manifest()).zhExtra
+    const [celebrations, titles, rowTitles, index, titleExtras] = await Promise.all([
       Promise.all(entry.c.map(([, cel]) => this.json<Celebration>(`cels/${cel}.json`).then(typicalOnly))),
       Promise.all(entry.c.map(([title]) => this.json<{ blocks: ChineseRows }>(`zh/${version}/titles/${title}.json`))),
       Promise.all(entry.c.map(([title]) => this.json<LatinRows>(`zh/rows/titles/${title}.json`))),
       this.json<Record<string, number>>('common/index.json'),
-      // written by scripts/liturgia-horarum/check-zh-pairing.mjs; optional
-      this.json<Record<string, number[]>>('zh/mismatch.json').catch(() => ({} as Record<string, number[]>)),
-      // written by scripts/liturgia-horarum/repair-zh-pairing.mjs: the Chinese of the text the Latin
-      // actually prints, for rows of alternative psalmodies (see that script); optional
-      this.json<Record<string, Record<string, Partial<Record<ZhVersion, ZhText | null>>>>>('zh/fixes.json').catch(() => ({})),
-      // hand-made verse pairings for psalms the automatic aligner leaves whole; optional
-      this.json<Record<string, ManualGroup[] | { skip: string }>>(`zh/align-${version}.json`).catch(() => ({} as Record<string, ManualGroup[] | { skip: string }>)),
-      // saints' notes transcribed from 《每日颂祷》 (scripts/liturgia-horarum/build-bios.mjs); optional
-      this.json<Record<string, { hant: string, hans: string }>>('zh/bios.json').catch(() => ({} as Record<string, { hant: string, hans: string }>)),
-      // texts the two sources lack, from the scanned 《每日颂祷》 (build-ocr-commons.mjs); optional
-      this.json<Record<string, OcrText>>('zh/ocr-commons.json').catch(() => ({} as Record<string, OcrText>)),
-      // texts the two sources lack that the 万有真原 day pages have (build-wanyou-gap.mjs); optional
-      this.json<Record<string, OcrText>>('zh/wanyou-gap.json').catch(() => ({} as Record<string, OcrText>)),
+      useExtra ? this.extras(version, entry.c.map(([title]) => `titles/${title}`)) : undefined,
     ])
     const chinese: ChineseRows = Object.assign({}, ...titles.map(title => title.blocks))
     const rows: LatinRows = Object.assign({}, ...rowTitles)
     const chunks = [...new Set(celebrations.flatMap(blockIds).filter(id => id in index).map(id => index[id]))]
-    await Promise.all(chunks.map(async (n) => {
-      const name = String(n).padStart(3, '0')
-      const [latinChunk, chineseChunk] = await Promise.all([
-        this.json<LatinRows>(`zh/rows/common/${name}.json`),
-        this.json<ChineseRows>(`zh/${version}/common/${name}.json`),
-      ])
-      Object.assign(rows, latinChunk)
-      Object.assign(chinese, chineseChunk)
-    }))
+    const names = chunks.map(n => String(n).padStart(3, '0'))
+    const [, chunkExtras] = await Promise.all([
+      Promise.all(names.map(async (name) => {
+        const [latinChunk, chineseChunk] = await Promise.all([
+          this.json<LatinRows>(`zh/rows/common/${name}.json`),
+          this.json<ChineseRows>(`zh/${version}/common/${name}.json`),
+        ])
+        Object.assign(rows, latinChunk)
+        Object.assign(chinese, chineseChunk)
+      })),
+      useExtra && titleExtras ? this.extras(version, names.map(name => `common/${name}`)) : undefined,
+    ])
+    // the extracts of the files loaded (see scripts/postbuild-lh-data.mjs), else the whole files
+    const { mismatch, fixes, manual, bios, ocr, gap: wanyouGap } = titleExtras && chunkExtras
+      ? mergeExtras([...titleExtras, ...chunkExtras])
+      : await this.wholeExtras(version)
     const blocks: ZhBlocks = Object.fromEntries(Object.entries(rows).map(([id, lines]) => {
       const values = chinese[id]
       if (values && values.length !== lines.length)
@@ -215,6 +213,50 @@ export class LiturgiaHorarumLoader {
     }))
     return blocks
   }
+
+  /** Per-file extracts of the Chinese extras (built by scripts/postbuild-lh-data.mjs); undefined if any is missing. */
+  private extras(version: ZhVersion, files: string[]): Promise<ZhExtras[] | undefined> {
+    return Promise.all(files.map(file => this.json<ZhExtras>(`zh/${version}/extra/${file}.json`))).catch(() => undefined)
+  }
+
+  /** The Chinese extras whole: each file optional. */
+  private async wholeExtras(version: ZhVersion): Promise<ZhExtras> {
+    const [mismatch, fixes, manual, bios, ocr, gap] = await Promise.all([
+      // written by scripts/liturgia-horarum/check-zh-pairing.mjs
+      this.json<ZhExtras['mismatch']>('zh/mismatch.json').catch(() => ({})),
+      // written by scripts/liturgia-horarum/repair-zh-pairing.mjs: the Chinese of the text the Latin
+      // actually prints, for rows of alternative psalmodies (see that script)
+      this.json<ZhExtras['fixes']>('zh/fixes.json').catch(() => ({})),
+      // hand-made verse pairings for psalms the automatic aligner leaves whole
+      this.json<ZhExtras['manual']>(`zh/align-${version}.json`).catch(() => ({})),
+      // saints' notes transcribed from 《每日颂祷》 (scripts/liturgia-horarum/build-bios.mjs)
+      this.json<ZhExtras['bios']>('zh/bios.json').catch(() => ({})),
+      // texts the two sources lack, from the scanned 《每日颂祷》 (build-ocr-commons.mjs)
+      this.json<ZhExtras['ocr']>('zh/ocr-commons.json').catch(() => ({})),
+      // texts the two sources lack that the 万有真原 day pages have (build-wanyou-gap.mjs)
+      this.json<ZhExtras['gap']>('zh/wanyou-gap.json').catch(() => ({})),
+    ])
+    return { mismatch, fixes, manual, bios, ocr, gap }
+  }
+}
+
+/** The extra data chinese() consults for each row: by block id, or by keys computed from the row. */
+export interface ZhExtras {
+  mismatch: Record<string, number[]>
+  fixes: Record<string, Record<string, Partial<Record<ZhVersion, ZhText | null>>>>
+  manual: Record<string, ManualGroup[] | { skip: string }>
+  bios: Record<string, { hant: string, hans: string }>
+  ocr: Record<string, OcrText>
+  gap: Record<string, OcrText>
+}
+
+function mergeExtras(parts: ZhExtras[]): ZhExtras {
+  const merged: ZhExtras = { mismatch: {}, fixes: {}, manual: {}, bios: {}, ocr: {}, gap: {} }
+  for (const part of parts) {
+    for (const key of Object.keys(merged) as Array<keyof ZhExtras>)
+      Object.assign(merged[key], part[key])
+  }
+  return merged
 }
 
 // The biographical note on a saint (one or two <div class="small"> paragraphs, then an empty

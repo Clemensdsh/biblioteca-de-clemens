@@ -116,9 +116,9 @@ function fixture() {
 
 function createFetch(files = fixture(), counts = new Map<string, number>()) {
   return async (input: RequestInfo | URL) => {
-    const path = String(input)
-    counts.set(path, (counts.get(path) || 0) + 1)
-    const body = files.get(path)
+    const url = String(input)
+    counts.set(url, (counts.get(url) || 0) + 1)
+    const body = files.get(url.replace(/\?v=[0-9a-f]+$/, ''))
     return body === undefined
       ? new Response('not found', { status: 404 })
       : new Response(body, { status: 200, headers: { 'Content-Type': 'application/json' } })
@@ -134,6 +134,16 @@ describe('Officium 1962 production loader', () => {
     expect(result.calendarDay.liturgicalTitle).toContain('Magdalenæ')
     expect(result.day.date).toBe('2026-07-22')
     expect(result.hour.blocks[0].text[0]).toContain('℣.')
+  })
+
+  it('requests checksummed files with their checksum, the root manifest without', async () => {
+    const counts = new Map<string, number>()
+    const files = fixture()
+    await new Officium1962Loader({ fetch: createFetch(files, counts) }).loadHour('2026-07-22', 'matutinum')
+    const urls = [...counts.keys()]
+    expect(urls).toContain('/data/officium1962/manifest.json')
+    expect(urls).toContain(`/data/officium1962/years/2026/days/2026-07-22.json?v=${sha(files.get('/data/officium1962/years/2026/days/2026-07-22.json')!).slice(0, 16)}`)
+    expect(urls.filter(url => !url.endsWith('/officium1962/manifest.json')).every(url => /\?v=[0-9a-f]{16}$/.test(url))).toBe(true)
   })
 
   it('caches every document and suppresses duplicate in-flight requests', async () => {
@@ -212,5 +222,30 @@ describe('Officium 1962 production loader', () => {
       blocks: {},
     }
     await expect(reconstructHour(context, day, 'matutinum', manifest)).rejects.toBeInstanceOf(MissingSharedBlockError)
+  })
+
+  // the published shared manifest no longer repeats each block's contentHash (scripts/officium1962/shared-chunks.mjs)
+  it('checks a block against its id when the shared manifest omits contentHash', async () => {
+    const hash = sha('block')
+    const id = `shared-${hash.slice(0, 20)}`
+    const day = JSON.parse(fixture().get('/data/officium1962/years/2026/days/2026-07-22.json')!)
+    day.hours.matutinum.occurrences[0].blockId = id
+    const chunkFor = (contentHash: string) => JSON.stringify({ schemaVersion, upstreamCommit: commit, blocks: [{ id, contentHash, type: 'dialogue', title: 'Incipit', text: ['℣. Deus'], verses: [], rubricLines: [], sourceRefs: [] }] })
+    const manifestFor = (chunk: string): SharedManifest => ({
+      schemaVersion,
+      upstreamCommit: commit,
+      blockCount: 1,
+      chunkCount: 1,
+      chunks: [{ file: 'blocks-000.json', blockCount: 1, checksum: sha(chunk) }],
+      blocks: { [id]: { chunk: 'blocks-000.json', type: 'dialogue' } },
+    })
+    const contextWith = (chunk: string): RuntimeContext => ({ basePath: '/', fetch: createFetch(new Map([['/data/officium1962/shared/blocks-000.json', chunk]])), cache: new Officium1962Cache() })
+
+    const good = chunkFor(hash)
+    const hour = await reconstructHour(contextWith(good), day, 'matutinum', manifestFor(good))
+    expect(hour.blocks[0].text).toEqual(['℣. Deus'])
+
+    const wrong = chunkFor(sha('other'))
+    await expect(reconstructHour(contextWith(wrong), day, 'matutinum', manifestFor(wrong))).rejects.toBeInstanceOf(MissingSharedBlockError)
   })
 })

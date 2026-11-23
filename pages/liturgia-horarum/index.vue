@@ -166,15 +166,19 @@ async function load(next: string, wantedCelebration?: number) {
   }
   loading.value = true
   try {
-    const result = await loader.day(next)
+    // the day, the next day's title (eve) and the Chinese need only the date: fetch them together
+    const chinese = display.value === 'latin' ? Promise.resolve({} as ZhBlocks) : loader.chinese(next, chineseVersion.value)
+    chinese.catch(() => {}) // awaited below; avoid an unhandled rejection if the day fails first
+    const [result, nextEve] = await Promise.all([loader.day(next), loader.eve(next)])
+    if (mine !== sequence)
+      return
+    const zh = await chinese
     if (mine !== sequence)
       return
     day.value = result
-    eve.value = await loader.eve(next)
-    if (mine !== sequence)
-      return
+    eve.value = nextEve
     celebration.value = wantedCelebration !== undefined && result.celebrations[wantedCelebration] ? wantedCelebration : result.defaultCelebration
-    zhBlocks.value = display.value === 'latin' ? {} : await loader.chinese(next, chineseVersion.value)
+    zhBlocks.value = zh
   }
   catch (error) {
     if (mine === sequence) {

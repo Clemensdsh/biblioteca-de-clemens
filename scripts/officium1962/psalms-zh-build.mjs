@@ -9,6 +9,7 @@ import { fixedLineKey, latinLetters, psalmLineKey } from '../../features/officiu
 import { CANTICLES } from './canticles-zh.mjs'
 import { OT_CANTICLES, OT_CANTICLES_B } from './canticles-ot-zh.mjs'
 import { readBea, readCorpusPsalmLines, readSigao, root } from './psalms-zh-lib.mjs'
+import { writePsalmsZhSplit } from './psalms-zh-split.mjs'
 
 const DO = path.join(root, 'vendor/divinum-officium/web/www/horas')
 const resDir = path.join(root, 'resources/officium1962-psalms-zh')
@@ -422,6 +423,8 @@ if (!checkOnly && !errors.length) {
   }
   fs.mkdirSync(path.dirname(outPath), { recursive: true })
   fs.writeFileSync(outPath, JSON.stringify(out))
+  // 页面按需加载用的拆分文件（psalms-zh/core.json 与每篇一个文件）
+  writePsalmsZhSplit(out, path.join(path.dirname(outPath), 'psalms-zh'))
   if (otMissing.length) console.log('颂歌块里仍无中文的行：', otMissing.length, '\n  ' + otMissing.join('\n  '))
 console.log(`写入 ${path.relative(root, outPath)} ${(fs.statSync(outPath).size / 1024).toFixed(0)} KB，含 ${Object.keys(out.psalms).length} 篇`)
 }

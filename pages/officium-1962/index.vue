@@ -7,7 +7,7 @@ import { addCivilDays, buildOfficiumSearch, localCivilDate, parseOfficiumQuery }
 import { errorDebugMessage, errorMessageZh, Officium1962Loader, type LoadedOfficeHour, type RootManifest } from '../../features/officium1962/runtime'
 import { isFirstVespersOfNextDay } from '../../features/officium1962/eve'
 import type { LiLeisiData } from '../../features/officium1962/liLeisi'
-import type { PsalmsZhData } from '../../features/officium1962/psalmsZh'
+import type { PsalmsZhCore, PsalmsZhData } from '../../features/officium1962/psalmsZh'
 import { office1962HourNames, type Office1962Day, type OfficeHourName } from '../../features/officium1962/schema'
 
 const description = 'Rubrics 1960 下的罗马大日课拉丁文在线版，包含 Matutinum、Laudes、Prima、Tertia、Sexta、Nona、Vesperae 和 Completorium。'
@@ -61,6 +61,7 @@ const showRubrics = ref(true)
 const showSources = ref(false)
 const showZh = ref(true)
 const psalmsZh = ref<PsalmsZhData>()
+const zhCore = ref<PsalmsZhCore>()
 const showLi = ref(false)
 const liLeisi = ref<LiLeisiData>()
 const fontScale = ref(1)
@@ -82,13 +83,14 @@ const warningList = computed(() => [
 const displayDay = computed(() => loaded.value?.day as unknown as Office1962Day | undefined)
 
 // Divinum Officium prints the Vespers a day's concurrence gives, under that day's title: see eve.ts
-async function findFirstVespers(date: string, hourName: OfficeHourName, current: LoadedOfficeHour): Promise<Office1962Day | undefined> {
+// Runs alongside the hour's own loading (not after it): its files are cached and shared with it.
+async function findFirstVespers(date: string, hourName: OfficeHourName): Promise<Office1962Day | undefined> {
   if (!loader || (hourName !== 'vesperae' && hourName !== 'completorium'))
     return undefined
   const next = addCivilDays(date, 1)
   try {
     const [vespers, ownLauds, nextLauds] = await Promise.all([
-      hourName === 'vesperae' ? current : loader.loadHour(date, 'vesperae'),
+      loader.loadHour(date, 'vesperae'),
       loader.loadHour(date, 'laudes'),
       loader.loadHour(next, 'laudes'),
     ])
@@ -107,8 +109,8 @@ onMounted(async () => {
     return
   readPreferences()
   loader = new Officium1962Loader()
-  // 圣咏中文对照是附加功能：加载失败时只显示拉丁文，不影响日课
-  loader.loadPsalmsZh().then((data) => { psalmsZh.value = data }).catch(() => {})
+  // 圣咏中文对照是附加功能：加载失败时只显示拉丁文，不影响日课。公共部分先取，各篇随时辰加载（loadSelection）
+  loader.loadPsalmsZhCore().then((data) => { zhCore.value = data }).catch(() => {})
   loadLiLeisiOnce()
   window.addEventListener('popstate', handlePopState)
   await initializeFromUrl(true)
@@ -118,12 +120,28 @@ onBeforeUnmount(() => window.removeEventListener('popstate', handlePopState))
 
 watch(showRubrics, value => persistPreference('rubrics', String(value)))
 watch(showSources, value => persistPreference('sources', String(value)))
-watch(showZh, value => persistPreference('zh', String(value)))
+watch(showZh, (value) => {
+  persistPreference('zh', String(value))
+  // 打开时补取当前时辰的圣咏中文（关着加载的时辰没有取）
+  const current = loaded.value
+  const sequence = loadSequence
+  if (value && current && !psalmsZh.value && loader) {
+    loadZhFor(current).then((data) => {
+      if (sequence === loadSequence)
+        psalmsZh.value = data
+    })
+  }
+})
 watch(showLi, (value) => {
   persistPreference('li', String(value))
   loadLiLeisiOnce()
 })
 watch(fontScale, value => persistPreference('font', String(value)))
+
+/** 圣咏中文失败时返回 undefined（只显示拉丁文） */
+function loadZhFor(hour: LoadedOfficeHour): Promise<PsalmsZhData | undefined> {
+  return loader ? loader.loadPsalmsZhFor(hour.hour.blocks).catch(() => undefined) : Promise.resolve(undefined)
+}
 
 // 利类思译本是附加的查阅功能：只在打开开关后才加载，失败时静默忽略
 function loadLiLeisiOnce() {
@@ -177,11 +195,16 @@ async function loadSelection() {
   error.value = undefined
   parameterError.value = ''
   try {
-    const result = await loader.loadHour(selectedDate.value, selectedHour.value)
-    const eve = await findFirstVespers(selectedDate.value, selectedHour.value, result)
+    const [result, eve] = await Promise.all([
+      loader.loadHour(selectedDate.value, selectedHour.value),
+      findFirstVespers(selectedDate.value, selectedHour.value),
+    ])
+    // 只取本时辰用到的几篇圣咏中文；与礼文一起显示，免得版面先单栏后并排
+    const zh = showZh.value ? await loadZhFor(result) : undefined
     if (sequence === loadSequence) {
       loaded.value = result
       eveDay.value = eve
+      psalmsZh.value = zh
     }
   }
   catch (caught) {
@@ -290,7 +313,7 @@ function persistPreference(key: string, value: string) {
             @click="selectHour(hour)"
           >
             {{ hourLabels[hour] }}
-            <small v-if="showZh" class="officium1962-hour-tab-zh" lang="zh-CN">{{ psalmsZh?.hourNames?.[hour] ?? hourNamesZh[hour] }}</small>
+            <small v-if="showZh" class="officium1962-hour-tab-zh" lang="zh-CN">{{ zhCore?.hourNames?.[hour] ?? hourNamesZh[hour] }}</small>
           </button>
         </nav>
 
