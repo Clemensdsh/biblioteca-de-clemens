@@ -1,10 +1,10 @@
 # 项目当前状态与交接
 
 更新：2026-11-20。唯一当前状态入口；进入新会话先读本文件，按需读取所链接材料。状态随工作改变，操作前重新检查 Git 和文件；详细历史见 `docs/HISTORY_MIGRATION_REPORT.md`。
-> **2026-11-24 加载速度（未提交）**：罗马大日课与时辰礼仪加载慢的修复，见下节「2026-11-24 两个日课页加载提速」。
+> **2026-11-24 加载速度（已提交 `b857558` 并推送 main，由 GitHub Actions 部署；线上未核对）**：罗马大日课与时辰礼仪加载慢的修复，见下节「2026-11-24 两个日课页加载提速」。
 > **2026-11-20 晚最新**：显示层整理、固定句/圣母对经中文、圣经读经（小读经 363 条）中文、读经分组流水线见文末「2026-11-20 罗马大日课显示层整理」及其后三节；夜课圣经读经（约 4100 行）、集祷经尚未做。
 
-## 2026-11-24 两个日课页加载提速（未提交、未部署）
+## 2026-11-24 两个日课页加载提速（已提交 `b857558`、推送 main；线上未核对）
 
 **原因**：① 1962：共享文本块只分 22 块、每块约 750 KB，每个时辰平均要下 2.5 MB 原文才用到其中一小部分；`shared/manifest.json` 1.8 MB（422 KB br），其中九成是每块重复的 64 位 `contentHash`；请求串行（根清单→年清单→共享清单），申正/晚经还要在礼文加载完后再串行加载当天和次日赞美经判断「第一晚祷」。② 时辰礼仪：common 块按首次使用排、128 KB 一块，一天只用到下载量约 9%（拉丁、zh/rows、zh/<版本> 三套同样浪费）；`day → eve → chinese` 串行。③ 线上 Cloudflare 对 JSON 为 `cf-cache-status: DYNAMIC`、`max-age=0, must-revalidate`（未改，见待办）。
 
@@ -16,7 +16,7 @@
 
 **验证**：`validate-year --year=2026` 通过（会改写 `reports/year-2026-validation.*` 时间戳）；`vitest run features/officium1962 features/liturgiaHorarum` 仅此前已有的 6 项失败；`lh-equivalence.test.ts` 对 2026、2036 全部 731 天比对 repack 前后 day()/eve()/chinese(两版) 实际用到的块完全一致；`pnpm run build` 成功。旧版（HEAD 工作树构建）与新版构建用同一本地 gzip 服务、无头 Edge 节流（40 ms、9 Mbit/s）、禁缓存测「导航→礼文出现」：1962 夜课 3.8→2.5 s（1189→602 KB），申正 4.0→2.8 s，3-15 赞美 3.6→2.3 s；时辰礼仪对照模式 4.2→3.4 s（1292→811 KB）、3.9→3.3 s，拉丁模式 2.4→2.3 s（349→177 KB）。四个页面（含 12-24 两边第一晚祷标题）新旧渲染文本长度与哈希一致。**未验证**：线上实际效果；手机实机。
 
-**第二轮（同日，用户同意做三项「不影响正确内容」的优化；未提交）**：
+**第二轮（同日，用户同意做三项「不影响正确内容」的优化；已随 `b857558` 提交）**：
 - **长缓存：已按用户要求回退**（用户：项目随时更新内容，不接受浏览器长期缓存）。`public/_headers` 已恢复 HEAD 原样（只有 `/assets/*`）；数据文件仍是 Cloudflare 默认的每次向服务器确认。保留的只有请求里的 `?v=`（1962 带校验和、时辰礼仪带版本），在默认缓存策略下无副作用。以下为回退前的记录：`public/_headers`（Cloudflare Pages，原文件只有 `/assets/*`，已保留）：`/assets/*`、`/data/liturgia-horarum/*`、`/data/officium1962/{years,shared,psalms-zh}/*` 设 `max-age=31536000, immutable`；时辰礼仪 `manifest.json` 与 `psalms-zh/core.json` 用 `! Cache-Control` 改回 `no-cache`。前提是这些 URL 内容一变就变：时辰礼仪每个请求带 `?v=<manifest.version>`；1962 `runtime/http.ts` 对清单里有校验和的文件请求带 `?v=<checksum 前 16 位>`（并照旧校验 SHA-256）。根清单、`li-leisi.json`、`psalms-zh.json` 等不带版本的文件不在长缓存范围。
 - **时辰礼仪 version 与中文附加数据**：新 `scripts/postbuild-lh-data.mjs` 接在 `pnpm run build` 后（package.json 的 build、build:ssg）：① 按每个 zh/rows 文件抽出其各行会查到的 fixes/mismatch/align/bios/ocr-commons/wanyou-gap 条目，写 `dist/.../zh/<版本>/extra/{common,titles}/*.json`（1906 个），manifest 加 `zhExtra: true`；② 对整个数据目录重算 version（以前只有 build-data 会改 version，fixes 等后来改的文件不换版本）。`data.ts` 的 `chinese()` 仅在 `zhExtra` 时用拆分文件，任何一份取不到就退回整包（开发服务器无 postbuild，始终用整包）。
 - **1962 圣咏中文按需加载**：新 `scripts/officium1962/psalms-zh-split.mjs`（`psalms-zh-build.mjs` 写完后自动调用；已单独跑过）生成 `psalms-zh/core.json`（除各篇外的全部内容 + 每篇 SHA-256，gzip 75 KB）与 150 个单篇文件（平均 4 KB）；`psalmsZh.ts` 加 `loadPsalmsZhCore`/`psalmNumbersIn`/`psalmsZhFrom`，`Officium1962Loader.loadPsalmsZhFor(blocks)`；页面挂载时预取 core，礼文加载后只取本时辰用到的篇目，与礼文一起显示；关着「圣咏中文」时不取，打开时补取。整份 `psalms-zh.json` 仍生成（测试、脚本用），页面不再加载。
