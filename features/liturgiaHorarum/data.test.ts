@@ -56,7 +56,25 @@ describe('Liturgia Horarum data', () => {
     expect(row.zh?.[1]).toContain('義德的太陽')
     expect(row.zh?.[1].split('\n').length).toBe(10)
     const simplified = (await loader.chinese('2026-11-21', 'wanyou'))['2d9a6bd5802ed406'].find(r => r.key === 'SPMVSr_PROSBY_0')!
-    expect(simplified.zh).toEqual(['t', expect.stringContaining('义德的太阳'), 'hkdlc'])
+    expect(simplified.zh).toEqual(['t', expect.stringContaining('义德的太阳')])
+  })
+
+  it('gives Saint Clement (11-23) the book\'s martyr hymns, the whole responsory and the collect\'s closing formula', async () => {
+    const loader = new LiturgiaHorarumLoader(localFetch)
+    for (const version of ['hkdlc', 'wanyou'] as const) {
+      const blocks = await loader.chinese('2026-11-23', version)
+      const zhOf = (id: string, key: string) => blocks[id].find(r => r.key === key)?.zh
+      // hymns: the martyr hymn of the book (聖○○ is named by the page), not a bishop's or Saint Josaphat's
+      for (const [id, key] of [['8f7091f38f648033', 'SCMM_cHYMNUS'], ['87af426b2d6ce779', 'SCMM_rHYMNUS']]) {
+        const zh = zhOf(id, key)
+        expect(zh?.[0], `${version} ${key}`).toBe('t')
+        expect(zh?.[1]).toMatch(/[圣聖]○○/)
+        expect(zh?.[1]).not.toMatch(/依勒内|若撒法|牧者|主教/)
+      }
+      // the responsory's second response is written out, the collect closes like the Latin
+      expect(zhOf('5d200d475534ffdd', '23NOV_cCIT2#R')?.[1]).toMatch(/(?:答：.*\n领：.*\n)?答：因[为為]天主[拣揀][选選]了他，作[为為]自己的祭司。$/)
+      expect(zhOf('4a8f0763da5dc491', '23NOV_MODLITBA')?.[1]).toMatch(/永生永王。[亚亞阿][孟们們]。$/)
+    }
   })
 
   it('has the readings of the Apostles\' feasts that the two sources lack, from the 万有真原 day pages', async () => {

@@ -2,7 +2,7 @@
 import { useHead } from '@unhead/vue'
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import LhHour from '../../components/liturgiaHorarum/LhHour.vue'
-import { celebrationNameZh, psalterWeekZh, RANK_ZH, titleZh } from '../../features/liturgiaHorarum/titleZh'
+import { celebrationNameZh, psalterWeekZh, RANK_ZH, saintNameZh, titleZh } from '../../features/liturgiaHorarum/titleZh'
 import { collectBlocks, type Eve, hasFirstVespersOfNextDay } from '../../features/liturgiaHorarum/eve'
 import { addDays, bioHourCodes, type Day, HOURS, type HourSlug, isDate, LiturgiaHorarumLoader, localDate, type Manifest, type ZhBlocks, type ZhVersion } from '../../features/liturgiaHorarum/data'
 
@@ -78,6 +78,8 @@ const titleZhParts = computed(() => {
   return [chineseName(shownTitle.value, shownDate.value), RANK_ZH[rank] ?? psalterWeekZh(rank) ?? '']
 })
 const hourZh = computed(() => HOURS[hourIndex.value].zh)
+// the book's hymns "for a martyr" print 聖○○; the day's saint goes there (香港本 view: traditional forms)
+const saintName = computed(() => saintNameZh(mainOf(shownTitle.value), chineseVersion.value === 'hkdlc'))
 
 onMounted(async () => {
   try {
@@ -332,7 +334,7 @@ function selectCelebration(event: Event) {
         </p>
         <p class="lh-hour-title" lang="la">{{ currentHour.name_la }}<span v-if="display !== 'latin'" class="lh-hour-zh" lang="zh-CN"> · {{ hourZh }}</span><span v-if="firstVespers" class="lh-eve-note">  ·  {{ eveLabel.la }}<span v-if="display !== 'latin'" lang="zh-CN"> · {{ eveLabel.zh }}</span></span></p>
       </header>
-      <LhHour :key="`${day.date}-${celebration}-${hour}`" :hour="currentHour" :blocks="day.blocks" :zh-blocks="zhBlocks" :display="display" :show-posture="showPosture" :show-bio="bioHours.has(currentHour.code)" />
+      <LhHour :key="`${day.date}-${celebration}-${hour}`" :hour="currentHour" :blocks="day.blocks" :zh-blocks="zhBlocks" :display="display" :show-posture="showPosture" :saint-name="saintName" :show-bio="bioHours.has(currentHour.code)" />
     </article>
 
     <aside class="lh-notes no-print" aria-labelledby="lh-help-title">

@@ -254,7 +254,8 @@ export function ocrZh(la: string, ocr: Record<string, OcrText>, version: ZhVersi
   const found = ocr[rowHash('ocr', la, '')]
   if (!found)
     return null
-  return version === 'hkdlc' ? ['t', found.hant] : ['t', found.hans, 'hkdlc']
+  // the scanned book is no online source of either version: both views get it, unmarked
+  return version === 'hkdlc' ? ['t', found.hant] : ['t', found.hans]
 }
 
 /** Chinese from a 万有真原 day page for a row the sources lack (zh/wanyou-gap.json, by hash of its Latin row): simplified as printed; the 香港本 view shows it in traditional characters, marked as taken from 万有真原. */

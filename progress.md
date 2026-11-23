@@ -515,3 +515,5 @@
 - 7/21 圣乐伦集祷经已补（页间空行导致漏取，已修 `autopair.mjs`）。`zh/ocr-commons.json` 202 行，vitest 62 项通过。
 - 总结文档：`docs/LH_BOOK_GAP_FILL_RESULT.md`（补了什么、对不上不补什么、怎样重跑）。更正：自由纪念补了 56 个圣人（此前写「约 60」不准）。本阶段到此结束，未提交、未部署。
 
+
+- **2026-11-24（时辰礼仪，11/23 圣克莱孟）**：殉道者通用赞美诗（诵读日课 8f70…、晨祷 87af…）原先配错（香港本填了若撒法、万有真原是牧者通用/他篇），现 zh/fixes.json 置空两版，改走《每日颂祷》OCR（ocr-gap-pairs.json 新增 kind hymn，PDF 1317/1326，保留「聖○○」，页面按当日圣人名代入：titleZh.ts saintNameZh、celebrationNamesHant.json（build-names-hant.mjs 生成）、LhHour.vue saintName）。build-ocr-commons.mjs：书中省略的答唱（「答：因為天⋯」）从首条完整答句补全，共 62 条；5 条把对经抓进答唱的配对已改 	o；集祷经补上拉丁有而书中省略的结束语（Per Dominum…/Per Christum/Qui tecum…，其余结束语未识别时会警告）。data.test.ts 新增 11/23 测试；itest run features/liturgiaHorarum 63 项通过；未浏览器核对。未做：其他圣人/通用部分是否还有同类错配的全面核查；万有真原圣咏 23 等处带「（圣依勒内）」的引语未动。

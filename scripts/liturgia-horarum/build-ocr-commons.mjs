@@ -150,9 +150,59 @@ function formatReading(raw, headLines = [1, 1]) {
 
 const oneLine = raw => raw.split('\n').map(l => l.trim()).filter(Boolean).join('')
 
+/**
+ * Hymn: the book prints stanzas numbered "一、…"; the Latin row (and the other Chinese texts) have no
+ * numbers. A "○○" in the text is where the book prints the saint's name: the page puts the
+ * celebration's name there (LhHour.vue).
+ */
+function formatHymn(raw) {
+  return raw.split('\n').map(l => l.trim().replace(/^[一二三四五六七八九十]+、/, '')).filter(Boolean).join('\n')
+}
+
+/**
+ * The book abbreviates a repeated response ("答：因為天⋯"): complete it from the first full response
+ * of the responsory, which must begin with the printed words.
+ */
+function completeResponses(lines) {
+  const answers = lines.filter(l => /^答[：:]/.test(l) && !/[⋯…]/.test(l)).map(l => l.replace(/^答[：:]/, ''))
+  return lines.map((line) => {
+    const m = /^(答[：:])(.*?)[⋯…]+。?$/.exec(line)
+    if (!m)
+      return line
+    // the printed opening may differ slightly from the full response ("他們要……" for "他們帶着禮品…");
+    // a responsory has one response, so a single full one is the one meant
+    const full = answers.find(a => a.startsWith(m[2])) ?? (answers.length === 1 ? answers[0] : null)
+    if (!full)
+      throw new Error(`no full response begins with "${m[2]}" to complete "${line}"`)
+    return m[1] + full
+  })
+}
+
+/**
+ * The book leaves out the closing formula of a collect ("以上所求是靠…"); the Latin row has it,
+ * so the Chinese gets the formula the 香港本 prints for that Latin conclusion.
+ */
+const CONCLUSIONS = [
+  [/Per D(?:ó|&#243;)minum nostrum Iesum Christum, F(?:í|&#237;)lium tuum, qui tecum vivit et regnat in unit(?:á|&#225;)te Sp(?:í|&#237;)ritus Sancti, Deus, per (?:ó|&#243;)mnia s(?:ǽ|&#509;)cula s(?:æ|&#230;)cul(?:ó|&#243;)rum/, '因祢的聖子、我們的主耶穌基督，他和祢及聖神，是唯一天主，永生永王。亞孟。'],
+  [/Per Christum D(?:ó|&#243;)minum nostrum/, '以上所求是靠我們的主基督。亞孟。'],
+  [/Qui tecum vivit et regnat in unit(?:á|&#225;)te Sp(?:í|&#237;)ritus Sancti, Deus, per (?:ó|&#243;)mnia s(?:ǽ|&#509;)cula s(?:æ|&#230;)cul(?:ó|&#243;)rum/, '他和祢及聖神，是唯一天主，永生永王。亞孟。'],
+]
+function addConclusion(latin, hant, id) {
+  if (/[亞阿]孟。?$|阿們。?$/.test(hant))
+    return hant
+  const found = CONCLUSIONS.find(([re]) => re.test(latin))
+  if (!found) {
+    if (/\bPer\b|\bQui\b/.test(latin.replace(/<[^>]+>/g, ' ')))
+      console.warn(`note ${id}: Latin has a closing formula that is not in CONCLUSIONS; Chinese left as printed`)
+    return hant
+  }
+  return `${hant}${found[1]}`
+}
+
 function checkResponsory(latin, zh, versicle = false) {
   const lines = zh.split('\n').slice(versicle ? 0 : 1)
-  const bad = lines.filter(l => !/^[領答][：:]/.test(l))
+  // a line with the next antiphon in it means the cut ran past the end of the responsory
+  const bad = lines.filter(l => !/^[領答][：:]/.test(l) || /對經[：:]/.test(l))
   return bad.length || lines.length < 2 ? [`responsory lines malformed (${lines.length} lines, ${bad.length} unlabelled)`] : []
 }
 const pairs = [...readJson('scripts/liturgia-horarum/ocr-commons-pairs.json'), ...readJson('scripts/liturgia-horarum/ocr-gap-pairs.json')]
@@ -166,13 +216,19 @@ for (const pair of pairs) {
     if (pair.key && row[1] !== pair.key)
       throw new Error(`row key is ${row[1]}, not ${pair.key}`)
     const raw = excerpt(pair.pages, pair.from, pair.to)
-    const format = { preces: r => formatPreces(r, pair.breaks), responsory: formatResponsory, versicle: r => formatResponsory(r, true), reading: r => formatReading(r, pair.head), collect: oneLine, antiphon: oneLine }[pair.kind]
+    const format = { preces: r => formatPreces(r, pair.breaks), responsory: formatResponsory, versicle: r => formatResponsory(r, true), reading: r => formatReading(r, pair.head), collect: oneLine, antiphon: oneLine, hymn: formatHymn }[pair.kind]
     if (!format)
       throw new Error(`unknown kind ${pair.kind}`)
-    const hant = format(raw)
+    let hant = format(raw)
     // len: how many characters (whitespace ignored) the pairing expects; catches a 	o that matches too early
     if (pair.len && hant.replace(/\s/g, '').length !== pair.len)
       throw new Error(`cut is ${hant.replace(/\s/g, '').length} characters, expected ${pair.len}`)
+    if (pair.kind === 'collect')
+      hant = addConclusion(row[0], hant, pair.id)
+    if (pair.kind === 'responsory') {
+      const [heading, ...rest] = hant.split('\n')
+      hant = [heading, ...completeResponses(rest)].join('\n')
+    }
     const problems = pair.kind === 'preces' ? checkPreces(row[0], hant) : ['responsory', 'versicle'].includes(pair.kind) ? checkResponsory(row[0], hant, pair.kind === 'versicle') : []
     if (problems.length)
       throw new Error(problems.join('; '))

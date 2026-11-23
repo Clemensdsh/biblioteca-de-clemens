@@ -13,7 +13,14 @@ const props = defineProps<{
   showPosture: boolean
   /** show the saint's biographical note at the top of this hour (only its first hour) */
   showBio: boolean
+  /** the day's saint ("圣克莱孟一世", traditional in the 香港本 view), put where the book's hymns print 聖○○ */
+  saintName?: string | null
 }>()
+
+/** the book prints "聖○○" in a hymn for any martyr; the page names the day's saint there */
+function named(text: string) {
+  return props.saintName ? text.replace(/[圣聖]○○/g, props.saintName) : text
+}
 
 const version = ref(0)
 const picked = reactive<Record<string, number>>({})
@@ -156,7 +163,7 @@ function noteBefore(block: string, n: number) {
               <p v-else-if="row.zh && row.zh[0] === 'm'" class="lh-zh-note">〔{{ note(row.zh) }}〕</p>
               <div v-else-if="row.zh" class="lh-zh-item" :class="{ 'lh-zh-bio': isBioRow(row.la) }">
                 <p v-if="noteBefore(blockId(part), n)" class="lh-zh-note">〔{{ noteBefore(blockId(part), n) }}〕</p>
-                <p v-for="(line, lineNo) in formatZh(row.key ?? '', row.zh[1], row.la)" :key="lineNo" :class="line.cls === 'label' ? 'lh-zh-body' : `lh-zh-${line.cls}`"><template v-if="line.cls === 'label'"><span class="lh-zh-label">{{ line.text }}</span><span>{{ line.content }}</span></template><template v-else>{{ line.text }}</template></p>
+                <p v-for="(line, lineNo) in formatZh(row.key ?? '', named(row.zh[1]), row.la)" :key="lineNo" :class="line.cls === 'label' ? 'lh-zh-body' : `lh-zh-${line.cls}`"><template v-if="line.cls === 'label'"><span class="lh-zh-label">{{ line.text }}</span><span>{{ line.content }}</span></template><template v-else>{{ line.text }}</template></p>
               </div>
             </div>
           </div>
