@@ -22,13 +22,7 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        node-version: [lts/*]
-        os: [ubuntu-latest]
-      fail-fast: false
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
@@ -38,10 +32,11 @@ jobs:
         with:
           version: 11.12.0
 
-      - name: Use Node.js ${{ matrix.node-version }}
+      # 与 Cloudflare Pages 用同一个 Node 版本（两边都读仓库根目录的 .node-version）
+      - name: Use Node.js from .node-version
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version-file: .node-version
           cache: pnpm
 
       - name: 📦 Install Dependencies

@@ -24,7 +24,8 @@
 - **测速**（同上节条件，冷缓存）：1962 夜课约 2.6 s / 409 KB（首轮后 2.5 s / 602 KB，最初 3.8 s / 1189 KB——省下的流量被「先礼文、后圣咏」多出的一次往返抵消）；时辰礼仪对照 11-24 晨祷 3.3 s / 408 KB，12-24 晚祷 2.8 s / 346 KB（首轮对照约 811 KB）。长缓存的效果（再次访问、换日期）本地无法测，需上线后看。
 - **未验证**：手机实机；线上效果。
 - **部署事故（2026-11-24）**：`b857558` 推送后 **Cloudflare Pages 构建失败**，线上仍是旧版（GitHub Actions 的 gh-pages 部署成功；随后 `93ba53b` 的 Actions 失败只是两次部署几乎同时推 gh-pages 冲突，无害）。**Cloudflare Pages 自己从 main 构建**（构建命令应是 `pnpm run build`，日志只能在 Cloudflare 后台看），其 Node 不能 import `.ts`，而新加的 `postbuild-lh-data.mjs` 引用了 `manualAlign.ts`。已改为从新的 `features/liturgiaHorarum/rowHash.mjs` 引入（`manualAlign.ts` 转出口，实现只有一份）；用 `node --no-experimental-strip-types` 复现报错并验证修复，输出 version 与 GitHub 构建一致（f7947819a8d7）。**注意：凡 `pnpm run build` 链上的 node 脚本都不能引用 .ts。** Cloudflare 对 gh-pages 分支的构建一向失败（该分支无 package.json），属正常噪音。修复 `33ff85f` 后 Cloudflare 部署成功，线上两个页面渲染文本与改动前一致（已核对）。
-- **部署方式更正**：网站由 **Cloudflare Pages 直接从 main 构建发布**；仓库未启用 GitHub Pages（API `has_pages=false`）。`.github/workflows/gh-pages.yml` 已改为只做构建检查（名为 Build check，去掉推 gh-pages 的步骤、`contents: read`、同分支只检查最新一次）。gh-pages 分支保留未删，不再更新。Cloudflare 后台若仍对 gh-pages 做预览构建，可在 Settings → Builds & deployments 里排除该分支（需用户在后台操作）。
+- **部署方式更正**：网站由 **Cloudflare Pages 直接从 main 构建发布**；仓库未启用 GitHub Pages（API `has_pages=false`）。`.github/workflows/gh-pages.yml` 已改为只做构建检查（名为 Build check，去掉推 gh-pages 的步骤、`contents: read`、同分支只检查最新一次）。gh-pages 分支保留未删，不再更新。用户已在 Cloudflare 后台把 Preview branch 设为 None。Cloudflare 构建配置（用户核对）：`pnpm run build`、输出 `dist`、Build system version 3、无环境变量。
+- **Node 版本固定**：仓库根目录 `.node-version` = `22.16.0`（Cloudflare v3 的默认版本，线上构建不变）；Build check 工作流改用 `node-version-file: .node-version`，两边一致。要升级 Node 只改这个文件。注意 22.16 不能直接运行 `.ts`，构建链上的 node 脚本只能用 .mjs。
 
 ## 1962 日课中文：2026-11-20 本轮交接（已提交 `d44c589` 并推送 main，由 GitHub Actions 发布 Pages；线上页面未核对）
 
