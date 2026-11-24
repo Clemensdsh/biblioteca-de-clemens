@@ -1,4 +1,7 @@
-name: GitHub Pages
+# 构建检查：网站由 Cloudflare Pages 直接从 main 构建并发布，本工作流只确认 pnpm run build 能通过。
+# 以前这里还把 dist 推到 gh-pages 分支，但仓库没有启用 GitHub Pages，那一步没有用处，
+# 还会在连续推送时互相冲突而失败，并让 Cloudflare 每次去构建 gh-pages 分支（必然失败）。
+name: Build check
 
 on:
   push:
@@ -10,7 +13,12 @@ on:
       - valaxy
 
 permissions:
-  contents: write
+  contents: read
+
+# 同一分支连续推送时，只检查最新一次
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -41,10 +49,3 @@ jobs:
 
       - name: 🌌 Build Valaxy Blog
         run: pnpm run build
-
-      - name: 🪤 Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          force_orphan: true
