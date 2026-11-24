@@ -15,7 +15,8 @@
 import { createHash } from 'node:crypto'
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join, relative, sep } from 'node:path'
-import { rowHash } from '../features/liturgiaHorarum/manualAlign.ts'
+// plain .mjs: Cloudflare Pages builds with a Node that cannot import .ts files
+import { rowHash } from '../features/liturgiaHorarum/rowHash.mjs'
 
 const DIR = process.argv[2] || join('dist', 'data', 'liturgia-horarum')
 const read = path => JSON.parse(readFileSync(join(DIR, path), 'utf8'))

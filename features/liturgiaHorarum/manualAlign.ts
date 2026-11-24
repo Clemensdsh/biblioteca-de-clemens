@@ -13,17 +13,8 @@ import type { AlignedGroup } from './align'
 
 export interface ManualGroup { la: [number, number] | null, zh: string }
 
-/** FNV-1a, 52 bits, as hex: stable in the browser and in Node */
-export function rowHash(version: string, la: string, zh: string): string {
-  let h = 0xCBF29CE484222325n
-  const prime = 0x100000001B3n
-  const text = `${version}\n${la}\n${zh}`
-  for (let i = 0; i < text.length; i++) {
-    h ^= BigInt(text.charCodeAt(i))
-    h = (h * prime) & 0xFFFFFFFFFFFFFn
-  }
-  return h.toString(16).padStart(13, '0')
-}
+// FNV-1a, 52 bits, as hex; plain JavaScript in rowHash.mjs so build scripts can use it on any Node
+export { rowHash } from './rowHash.mjs'
 
 /** The Latin units of a psalm fragment, or null if the markup is not the usual psalm. */
 export function latinUnits(la: string): { head: string, units: string[] } | null {
