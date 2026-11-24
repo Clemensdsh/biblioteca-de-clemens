@@ -1,4 +1,5 @@
 import { defineAppSetup } from 'valaxy'
+import { setupNavigationRecovery } from '../features/site/navigationRecovery'
 import SaturdayMaryConcludingPrayers from '../components/saturday-mary-office/SaturdayMaryConcludingPrayers.vue'
 import SaturdayMaryDaytimePsalmody from '../components/saturday-mary-office/SaturdayMaryDaytimePsalmody.vue'
 import SaturdayMaryEligibilityNotice from '../components/saturday-mary-office/SaturdayMaryEligibilityNotice.vue'
@@ -17,8 +18,11 @@ const globalComponents = {
   SaturdayMaryReadingTwo,
 }
 
-export default defineAppSetup(({ app }) => {
+export default defineAppSetup(({ app, router, isClient }) => {
   Object.entries(globalComponents).forEach(([name, component]) => {
     app.component(name, component)
   })
+  // 站内点击跳转加载失败或太慢时，改为直接打开目标页（见 features/site/navigationRecovery.ts）
+  if (isClient && router)
+    setupNavigationRecovery(router)
 })
