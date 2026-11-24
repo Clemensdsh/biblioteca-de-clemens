@@ -1,0 +1,1686 @@
+{
+  "schemaVersion": "0.2.0",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "language": "la",
+  "date": "2026-11-02",
+  "liturgicalTitle": "In Commemoratione Omnium Fidelium Defunctorum ~ I. classis",
+  "rank": "In Commemoratione Omnium Fidelium Defunctorum;;I. classis;;6;;ex C9\n\n",
+  "commemorations": [],
+  "hours": {
+    "vesperae": {
+      "name": "vesperae",
+      "title": "Vesperae",
+      "metadata": {
+        "hour": "vesperae",
+        "psalmodySource": "ferial-psalter",
+        "gospelCanticle": "magnificat",
+        "concurrenceResolvedByUpstream": true,
+        "antiphonSource": {
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Antiphona",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ]
+        },
+        "collectSource": {
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+          "path": "web/www/horas/Ordinarium/Vespera.txt",
+          "section": "Oratio{ex Proprio Sanctorum}",
+          "transformation": [
+            "getordinarium",
+            "specials",
+            "parse-vesperae-block"
+          ]
+        }
+      },
+      "blocks": [
+        {
+          "id": "office-1962-2026-11-02-vesperae-incipit-omittitur",
+          "type": "rubric",
+          "title": "Incipit omittitur",
+          "text": [
+            "Incipit{omittitur}"
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "omitted": true,
+            "specialStructure": "special",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Incipit omittitur",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-psalmody-1-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona",
+          "text": [
+            "Ant. Placébo Dómino * in regióne vivórum."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "before-psalmody",
+            "repeated": true,
+            "antiphonKey": "placebo-domino-in-regione-vivorum",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "specials",
+                "vesperae special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-psalm-114-full-1",
+          "type": "psalm",
+          "title": "Psalmus 114 [1]",
+          "text": [
+            "114:1 Diléxi, quóniam exáudiet Dóminus * vocem oratiónis meæ.",
+            "114:2 Quia inclinávit aurem suam mihi: * et in diébus meis invocábo.",
+            "114:3a Circumdedérunt me dolóres mortis: * et perícula inférni invenérunt me.",
+            "114:3b Tribulatiónem et dolórem invéni: * (4a) et nomen Dómini invocávi.",
+            "114:4b O Dómine, líbera ánimam meam: † (5) miséricors Dóminus, et justus, * et Deus noster miserétur.",
+            "114:6 Custódiens párvulos Dóminus: * humiliátus sum, et liberávit me.",
+            "114:7 Convértere, ánima mea, in réquiem tuam: * quia Dóminus benefécit tibi.",
+            "114:8 Quia erípuit ánimam meam de morte: † óculos meos a lácrimis, * pedes meos a lapsu.",
+            "114:9 Placébo Dómino * in regióne vivórum.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "114:1 Diléxi, quóniam exáudiet Dóminus * vocem oratiónis meæ.",
+            "114:2 Quia inclinávit aurem suam mihi: * et in diébus meis invocábo.",
+            "114:3a Circumdedérunt me dolóres mortis: * et perícula inférni invenérunt me.",
+            "114:3b Tribulatiónem et dolórem invéni: * (4a) et nomen Dómini invocávi.",
+            "114:4b O Dómine, líbera ánimam meam: † (5) miséricors Dóminus, et justus, * et Deus noster miserétur.",
+            "114:6 Custódiens párvulos Dóminus: * humiliátus sum, et liberávit me.",
+            "114:7 Convértere, ánima mea, in réquiem tuam: * quia Dóminus benefécit tibi.",
+            "114:8 Quia erípuit ánimam meam de morte: † óculos meos a lácrimis, * pedes meos a lapsu.",
+            "114:9 Placébo Dómino * in regióne vivórum."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "114",
+            "psalmSourceNumber": "114",
+            "verses": [
+              "114:1 Diléxi, quóniam exáudiet Dóminus * vocem oratiónis meæ.",
+              "114:2 Quia inclinávit aurem suam mihi: * et in diébus meis invocábo.",
+              "114:3a Circumdedérunt me dolóres mortis: * et perícula inférni invenérunt me.",
+              "114:3b Tribulatiónem et dolórem invéni: * (4a) et nomen Dómini invocávi.",
+              "114:4b O Dómine, líbera ánimam meam: † (5) miséricors Dóminus, et justus, * et Deus noster miserétur.",
+              "114:6 Custódiens párvulos Dóminus: * humiliátus sum, et liberávit me.",
+              "114:7 Convértere, ánima mea, in réquiem tuam: * quia Dóminus benefécit tibi.",
+              "114:8 Quia erípuit ánimam meam de morte: † óculos meos a lácrimis, * pedes meos a lapsu.",
+              "114:9 Placébo Dómino * in regióne vivórum."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": true,
+            "antiphonKey": "placebo-domino-in-regione-vivorum",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Psalmus 114 [1]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm114.txt",
+              "section": "Psalm 114",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-psalmody-1-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita",
+          "text": [
+            "Ant. Placébo Dómino in regióne vivórum."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "after-psalmody",
+            "repeated": true,
+            "antiphonKey": "placebo-domino-in-regione-vivorum",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "specials",
+                "vesperae special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-psalm-119-full-2-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona",
+          "text": [
+            "Ant. Heu mihi Dómine, * quia incolátus meus prolongátus est."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "before-psalmody",
+            "repeated": true,
+            "antiphonKey": "heu-mihi-domine-quia-incolatus-meus-prolongatus-est",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "specials",
+                "vesperae special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-psalm-119-full-2",
+          "type": "psalm",
+          "title": "Psalmus 119 [2]",
+          "text": [
+            "119:1 Ad Dóminum cum tribulárer clamávi: * et exaudívit me.",
+            "119:2 Dómine, líbera ánimam meam a lábiis iníquis, * et a lingua dolósa.",
+            "119:3 Quid detur tibi, aut quid apponátur tibi * ad linguam dolósam?",
+            "119:4 Sagíttæ poténtis acútæ, * cum carbónibus desolatóriis.",
+            "119:5 Heu mihi, quia incolátus meus prolongátus est: † habitávi cum habitántibus Cedar: * (6) multum íncola fuit ánima mea.",
+            "119:7 Cum his, qui odérunt pacem, eram pacíficus: * cum loquébar illis, impugnábant me gratis.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "119:1 Ad Dóminum cum tribulárer clamávi: * et exaudívit me.",
+            "119:2 Dómine, líbera ánimam meam a lábiis iníquis, * et a lingua dolósa.",
+            "119:3 Quid detur tibi, aut quid apponátur tibi * ad linguam dolósam?",
+            "119:4 Sagíttæ poténtis acútæ, * cum carbónibus desolatóriis.",
+            "119:5 Heu mihi, quia incolátus meus prolongátus est: † habitávi cum habitántibus Cedar: * (6) multum íncola fuit ánima mea.",
+            "119:7 Cum his, qui odérunt pacem, eram pacíficus: * cum loquébar illis, impugnábant me gratis."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "119",
+            "psalmSourceNumber": "119",
+            "verses": [
+              "119:1 Ad Dóminum cum tribulárer clamávi: * et exaudívit me.",
+              "119:2 Dómine, líbera ánimam meam a lábiis iníquis, * et a lingua dolósa.",
+              "119:3 Quid detur tibi, aut quid apponátur tibi * ad linguam dolósam?",
+              "119:4 Sagíttæ poténtis acútæ, * cum carbónibus desolatóriis.",
+              "119:5 Heu mihi, quia incolátus meus prolongátus est: † habitávi cum habitántibus Cedar: * (6) multum íncola fuit ánima mea.",
+              "119:7 Cum his, qui odérunt pacem, eram pacíficus: * cum loquébar illis, impugnábant me gratis."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": true,
+            "antiphonKey": "heu-mihi-domine-quia-incolatus-meus-prolongatus-est",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Psalmus 119 [2]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm119.txt",
+              "section": "Psalm 119",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-psalm-119-full-2-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita",
+          "text": [
+            "Ant. Heu mihi Dómine, quia incolátus meus prolongátus est."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "after-psalmody",
+            "repeated": true,
+            "antiphonKey": "heu-mihi-domine-quia-incolatus-meus-prolongatus-est",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "specials",
+                "vesperae special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-psalm-120-full-3-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona",
+          "text": [
+            "Ant. Dóminus custódit te ab omni malo: * custódiat ánimam tuam Dóminus."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "before-psalmody",
+            "repeated": true,
+            "antiphonKey": "dominus-custodit-te-ab-omni-malo-custodiat-animam-tuam-dominus",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "specials",
+                "vesperae special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-psalm-120-full-3",
+          "type": "psalm",
+          "title": "Psalmus 120 [3]",
+          "text": [
+            "120:1 Levávi óculos meos in montes, * unde véniet auxílium mihi.",
+            "120:2 Auxílium meum a Dómino, * qui fecit cælum et terram.",
+            "120:3 Non det in commotiónem pedem tuum: * neque dormítet qui custódit te.",
+            "120:4 Ecce, non dormitábit neque dórmiet, * qui custódit Israël.",
+            "120:5 Dóminus custódit te, Dóminus protéctio tua, * super manum déxteram tuam.",
+            "120:6 Per diem sol non uret te: * neque luna per noctem.",
+            "120:7 Dóminus custódit te ab omni malo: * custódiat ánimam tuam Dóminus.",
+            "120:8 Dóminus custódiat intróitum tuum, et éxitum tuum: * ex hoc nunc, et usque in sǽculum.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "120:1 Levávi óculos meos in montes, * unde véniet auxílium mihi.",
+            "120:2 Auxílium meum a Dómino, * qui fecit cælum et terram.",
+            "120:3 Non det in commotiónem pedem tuum: * neque dormítet qui custódit te.",
+            "120:4 Ecce, non dormitábit neque dórmiet, * qui custódit Israël.",
+            "120:5 Dóminus custódit te, Dóminus protéctio tua, * super manum déxteram tuam.",
+            "120:6 Per diem sol non uret te: * neque luna per noctem.",
+            "120:7 Dóminus custódit te ab omni malo: * custódiat ánimam tuam Dóminus.",
+            "120:8 Dóminus custódiat intróitum tuum, et éxitum tuum: * ex hoc nunc, et usque in sǽculum."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "120",
+            "psalmSourceNumber": "120",
+            "verses": [
+              "120:1 Levávi óculos meos in montes, * unde véniet auxílium mihi.",
+              "120:2 Auxílium meum a Dómino, * qui fecit cælum et terram.",
+              "120:3 Non det in commotiónem pedem tuum: * neque dormítet qui custódit te.",
+              "120:4 Ecce, non dormitábit neque dórmiet, * qui custódit Israël.",
+              "120:5 Dóminus custódit te, Dóminus protéctio tua, * super manum déxteram tuam.",
+              "120:6 Per diem sol non uret te: * neque luna per noctem.",
+              "120:7 Dóminus custódit te ab omni malo: * custódiat ánimam tuam Dóminus.",
+              "120:8 Dóminus custódiat intróitum tuum, et éxitum tuum: * ex hoc nunc, et usque in sǽculum."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": true,
+            "antiphonKey": "dominus-custodit-te-ab-omni-malo-custodiat-animam-tuam-dominus",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Psalmus 120 [3]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm120.txt",
+              "section": "Psalm 120",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-psalm-120-full-3-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita",
+          "text": [
+            "Ant. Dóminus custódit te ab omni malo: custódiat ánimam tuam Dóminus."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "after-psalmody",
+            "repeated": true,
+            "antiphonKey": "dominus-custodit-te-ab-omni-malo-custodiat-animam-tuam-dominus",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "specials",
+                "vesperae special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-psalm-129-full-4-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona",
+          "text": [
+            "Ant. Si iniquitátes * observáveris, Dómine: Dómine, quis sustinébit?"
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "before-psalmody",
+            "repeated": true,
+            "antiphonKey": "si-iniquitates-observaveris-domine-domine-quis-sustinebit",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "specials",
+                "vesperae special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-psalm-129-full-4",
+          "type": "psalm",
+          "title": "Psalmus 129 [4]",
+          "text": [
+            "129:1 De profúndis clamávi ad te, Dómine: * (2a) Dómine, exáudi vocem meam:",
+            "129:2b Fiant aures tuæ intendéntes, * in vocem deprecatiónis meæ.",
+            "129:3 Si iniquitátes observáveris, Dómine: * Dómine, quis sustinébit?",
+            "129:4a Quia apud te propitiátio est: * et propter legem tuam sustínui te, Dómine.",
+            "129:4b Sustínuit ánima mea in verbo ejus: * (5) sperávit ánima mea in Dómino.",
+            "129:6 A custódia matutína usque ad noctem: * speret Israël in Dómino.",
+            "129:7 Quia apud Dóminum misericórdia: * et copiósa apud eum redémptio.",
+            "129:8 Et ipse rédimet Israël, * ex ómnibus iniquitátibus ejus.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "129:1 De profúndis clamávi ad te, Dómine: * (2a) Dómine, exáudi vocem meam:",
+            "129:2b Fiant aures tuæ intendéntes, * in vocem deprecatiónis meæ.",
+            "129:3 Si iniquitátes observáveris, Dómine: * Dómine, quis sustinébit?",
+            "129:4a Quia apud te propitiátio est: * et propter legem tuam sustínui te, Dómine.",
+            "129:4b Sustínuit ánima mea in verbo ejus: * (5) sperávit ánima mea in Dómino.",
+            "129:6 A custódia matutína usque ad noctem: * speret Israël in Dómino.",
+            "129:7 Quia apud Dóminum misericórdia: * et copiósa apud eum redémptio.",
+            "129:8 Et ipse rédimet Israël, * ex ómnibus iniquitátibus ejus."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "129",
+            "psalmSourceNumber": "129",
+            "verses": [
+              "129:1 De profúndis clamávi ad te, Dómine: * (2a) Dómine, exáudi vocem meam:",
+              "129:2b Fiant aures tuæ intendéntes, * in vocem deprecatiónis meæ.",
+              "129:3 Si iniquitátes observáveris, Dómine: * Dómine, quis sustinébit?",
+              "129:4a Quia apud te propitiátio est: * et propter legem tuam sustínui te, Dómine.",
+              "129:4b Sustínuit ánima mea in verbo ejus: * (5) sperávit ánima mea in Dómino.",
+              "129:6 A custódia matutína usque ad noctem: * speret Israël in Dómino.",
+              "129:7 Quia apud Dóminum misericórdia: * et copiósa apud eum redémptio.",
+              "129:8 Et ipse rédimet Israël, * ex ómnibus iniquitátibus ejus."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": true,
+            "antiphonKey": "si-iniquitates-observaveris-domine-domine-quis-sustinebit",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Psalmus 129 [4]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm129.txt",
+              "section": "Psalm 129",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-psalm-129-full-4-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita",
+          "text": [
+            "Ant. Si iniquitátes observáveris, Dómine: Dómine, quis sustinébit?"
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "after-psalmody",
+            "repeated": true,
+            "antiphonKey": "si-iniquitates-observaveris-domine-domine-quis-sustinebit",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "specials",
+                "vesperae special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-psalm-137-full-5-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona",
+          "text": [
+            "Ant. Opera * mánuum tuárum, Dómine, ne despícias."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "before-psalmody",
+            "repeated": true,
+            "antiphonKey": "opera-manuum-tuarum-domine-ne-despicias",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona",
+              "transformation": [
+                "specials",
+                "vesperae special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-psalm-137-full-5",
+          "type": "psalm",
+          "title": "Psalmus 137 [5]",
+          "text": [
+            "137:1a Confitébor tibi, Dómine, in toto corde meo: * quóniam audísti verba oris mei.",
+            "137:1b In conspéctu Angelórum psallam tibi: * (2a) adorábo ad templum sanctum tuum, et confitébor nómini tuo.",
+            "137:2b Super misericórdia tua, et veritáte tua: * quóniam magnificásti super omne, nomen sanctum tuum.",
+            "137:3 In quacúmque die invocávero te, exáudi me: * multiplicábis in ánima mea virtútem.",
+            "137:4 Confiteántur tibi, Dómine, omnes reges terræ: * quia audiérunt ómnia verba oris tui:",
+            "137:5 Et cantent in viis Dómini: * quóniam magna est glória Dómini.",
+            "137:6 Quóniam excélsus Dóminus, et humília réspicit: * et alta a longe cognóscit.",
+            "137:7 Si ambulávero in médio tribulatiónis, vivificábis me: † et super iram inimicórum meórum extendísti manum tuam, * et salvum me fecit déxtera tua.",
+            "137:8 Dóminus retríbuet pro me: † Dómine, misericórdia tua in sǽculum: * ópera mánuum tuárum ne despícias.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "137:1a Confitébor tibi, Dómine, in toto corde meo: * quóniam audísti verba oris mei.",
+            "137:1b In conspéctu Angelórum psallam tibi: * (2a) adorábo ad templum sanctum tuum, et confitébor nómini tuo.",
+            "137:2b Super misericórdia tua, et veritáte tua: * quóniam magnificásti super omne, nomen sanctum tuum.",
+            "137:3 In quacúmque die invocávero te, exáudi me: * multiplicábis in ánima mea virtútem.",
+            "137:4 Confiteántur tibi, Dómine, omnes reges terræ: * quia audiérunt ómnia verba oris tui:",
+            "137:5 Et cantent in viis Dómini: * quóniam magna est glória Dómini.",
+            "137:6 Quóniam excélsus Dóminus, et humília réspicit: * et alta a longe cognóscit.",
+            "137:7 Si ambulávero in médio tribulatiónis, vivificábis me: † et super iram inimicórum meórum extendísti manum tuam, * et salvum me fecit déxtera tua.",
+            "137:8 Dóminus retríbuet pro me: † Dómine, misericórdia tua in sǽculum: * ópera mánuum tuárum ne despícias."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "psalmNumber": "137",
+            "psalmSourceNumber": "137",
+            "verses": [
+              "137:1a Confitébor tibi, Dómine, in toto corde meo: * quóniam audísti verba oris mei.",
+              "137:1b In conspéctu Angelórum psallam tibi: * (2a) adorábo ad templum sanctum tuum, et confitébor nómini tuo.",
+              "137:2b Super misericórdia tua, et veritáte tua: * quóniam magnificásti super omne, nomen sanctum tuum.",
+              "137:3 In quacúmque die invocávero te, exáudi me: * multiplicábis in ánima mea virtútem.",
+              "137:4 Confiteántur tibi, Dómine, omnes reges terræ: * quia audiérunt ómnia verba oris tui:",
+              "137:5 Et cantent in viis Dómini: * quóniam magna est glória Dómini.",
+              "137:6 Quóniam excélsus Dóminus, et humília réspicit: * et alta a longe cognóscit.",
+              "137:7 Si ambulávero in médio tribulatiónis, vivificábis me: † et super iram inimicórum meórum extendísti manum tuam, * et salvum me fecit déxtera tua.",
+              "137:8 Dóminus retríbuet pro me: † Dómine, misericórdia tua in sǽculum: * ópera mánuum tuárum ne despícias."
+            ],
+            "includesGloriaPatri": false,
+            "gloriaPatriOmitted": false,
+            "includesRequiemAeternam": true,
+            "antiphonKey": "opera-manuum-tuarum-domine-ne-despicias",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Psalmus 137 [5]",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm137.txt",
+              "section": "Psalm 137",
+              "transformation": [
+                "resolve_refs",
+                "psalm expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-psalm-137-full-5-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita",
+          "text": [
+            "Ant. Opera mánuum tuárum, Dómine, ne despícias."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "after-psalmody",
+            "repeated": true,
+            "antiphonKey": "opera-manuum-tuarum-domine-ne-despicias",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona repetita",
+              "transformation": [
+                "specials",
+                "vesperae special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-versus-in-loco-capituli",
+          "type": "versicle",
+          "title": "Versus (In loco Capituli)",
+          "text": [
+            "℣. Audívi vocem de cælo dicéntem mihi.",
+            "℟. Beáti mórtui qui in Dómino moriúntur."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "replacesCapitulum": true,
+            "specialStructure": "special",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Versus (In loco Capituli)",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Versus (In loco Capituli)",
+              "transformation": [
+                "specials",
+                "vesperae special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-magnificat-antiphon-open",
+          "type": "antiphon",
+          "title": "Antiphona ad magnificat",
+          "text": [
+            "Ant. Omne * quod dat mihi Pater, ad me véniet; et eum qui venit ad me, non eíciam foras."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "before-canticle",
+            "repeated": true,
+            "antiphonKey": "omne-quod-dat-mihi-pater-ad-me-veniet-et-eum-qui-venit-ad-me-non-eiciam-foras",
+            "sourceKind": "proper",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Antiphona ad magnificat",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona ad magnificat",
+              "transformation": [
+                "specials",
+                "vesperae special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-magnificat",
+          "type": "canticle",
+          "title": "Canticum B. Mariae Virginis",
+          "text": [
+            "Luc. 1:46-55",
+            "1:46 Magníficat ✠ * ánima mea Dóminum.",
+            "1:47 Et exsultávit spíritus meus: * in Deo, salutári meo.",
+            "1:48 Quia respéxit humilitátem ancíllæ suæ: * ecce enim ex hoc beátam me dicent omnes generatiónes.",
+            "1:49 Quia fecit mihi magna qui potens est: * et sanctum nomen ejus.",
+            "1:50 Et misericórdia ejus, a progénie in progénies: * timéntibus eum.",
+            "1:51 Fecit poténtiam in brácchio suo: * dispérsit supérbos mente cordis sui.",
+            "1:52 Depósuit poténtes de sede: * et exaltávit húmiles.",
+            "1:53 Esuriéntes implévit bonis: * et dívites dimísit inánes.",
+            "1:54 Suscépit Israël púerum suum: * recordátus misericórdiæ suæ.",
+            "1:55 Sicut locútus est ad patres nostros: * Ábraham, et sémini ejus in sǽcula.",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis."
+          ],
+          "verses": [
+            "1:46 Magníficat ✠ * ánima mea Dóminum.",
+            "1:47 Et exsultávit spíritus meus: * in Deo, salutári meo.",
+            "1:48 Quia respéxit humilitátem ancíllæ suæ: * ecce enim ex hoc beátam me dicent omnes generatiónes.",
+            "1:49 Quia fecit mihi magna qui potens est: * et sanctum nomen ejus.",
+            "1:50 Et misericórdia ejus, a progénie in progénies: * timéntibus eum.",
+            "1:51 Fecit poténtiam in brácchio suo: * dispérsit supérbos mente cordis sui.",
+            "1:52 Depósuit poténtes de sede: * et exaltávit húmiles.",
+            "1:53 Esuriéntes implévit bonis: * et dívites dimísit inánes.",
+            "1:54 Suscépit Israël púerum suum: * recordátus misericórdiæ suæ.",
+            "1:55 Sicut locútus est ad patres nostros: * Ábraham, et sémini ejus in sǽcula."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "canticle": "magnificat",
+            "source": "Luc. 1:46-55",
+            "verses": [
+              "1:46 Magníficat ✠ * ánima mea Dóminum.",
+              "1:47 Et exsultávit spíritus meus: * in Deo, salutári meo.",
+              "1:48 Quia respéxit humilitátem ancíllæ suæ: * ecce enim ex hoc beátam me dicent omnes generatiónes.",
+              "1:49 Quia fecit mihi magna qui potens est: * et sanctum nomen ejus.",
+              "1:50 Et misericórdia ejus, a progénie in progénies: * timéntibus eum.",
+              "1:51 Fecit poténtiam in brácchio suo: * dispérsit supérbos mente cordis sui.",
+              "1:52 Depósuit poténtes de sede: * et exaltávit húmiles.",
+              "1:53 Esuriéntes implévit bonis: * et dívites dimísit inánes.",
+              "1:54 Suscépit Israël púerum suum: * recordátus misericórdiæ suæ.",
+              "1:55 Sicut locútus est ad patres nostros: * Ábraham, et sémini ejus in sǽcula."
+            ],
+            "includesGloriaPatri": false,
+            "antiphonKey": "omne-quod-dat-mihi-pater-ad-me-veniet-et-eum-qui-venit-ad-me-non-eiciam-foras",
+            "sourcePsalm": "232",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Canticum B. Mariae Virginis",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Psalmorum/Psalm232.txt",
+              "section": "Magnificat",
+              "transformation": [
+                "resolve_refs",
+                "canticle expansion"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-magnificat-antiphon-close",
+          "type": "antiphon",
+          "title": "Antiphona repetita ad magnificat",
+          "text": [
+            "Ant. Omne quod dat mihi Pater, ad me véniet; et eum qui venit ad me, non eíciam foras."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "position": "after-canticle",
+            "repeated": true,
+            "antiphonKey": "omne-quod-dat-mihi-pater-ad-me-veniet-et-eum-qui-venit-ad-me-non-eiciam-foras",
+            "sourceKind": "proper",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Antiphona repetita ad magnificat",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Special/Major Special.txt",
+              "section": "Antiphona repetita ad magnificat",
+              "transformation": [
+                "specials",
+                "vesperae special text"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-preces-feriales-omittitur",
+          "type": "rubric",
+          "title": "Preces Feriales omittitur",
+          "text": [
+            "Preces Feriales{omittitur}"
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "omitted": true,
+            "specialStructure": "special",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Preces Feriales omittitur",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-oratio",
+          "type": "prayer",
+          "title": "Oratio{ex Proprio Sanctorum}",
+          "text": [
+            "Oratio {ex Proprio Sanctorum}",
+            "Pater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris:",
+            "℣. Et ne nos indúcas in tentatiónem:",
+            "℟. Sed líbera nos a malo.",
+            "℣. A porta ínferi.",
+            "℟. Erue, Dómine, ánimas eórum.",
+            "℣. Requiéscant in pace.",
+            "℟. Amen.",
+            "℣. Dómine, exáudi oratiónem meam.",
+            "℟. Et clamor meus ad te véniat.",
+            "secunda Domine, exaudi omittitur",
+            "Orémus.",
+            "Fidélium, Deus, ómnium Cónditor et Redémptor, animábus famulórum famularúmque tuárum remissiónem cunctórum tríbue peccatórum: ut indulgéntiam, quam semper optavérunt, piis supplicatiónibus consequántur:",
+            "Qui vivis et regnas cum Deo Patre, in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "sourceKind": "proper",
+            "includesBenedicamusDomino": false,
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Oratio{ex Proprio Sanctorum}",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Pater noster Et",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "office-1962-2026-11-02-vesperae-conclusio",
+          "type": "blessing",
+          "title": "Conclusio",
+          "text": [
+            "Conclusio specialis",
+            "℣. Réquiem ætérnam * dona eis, Dómine.",
+            "℟. Et lux perpétua * lúceat eis.",
+            "℣. Requiéscant in pace.",
+            "℟. Amen."
+          ],
+          "rubricLines": [],
+          "metadata": {
+            "formula": "major-hour-conclusion",
+            "majorHour": {
+              "hour": "vesperae",
+              "psalmodySource": "ferial-psalter",
+              "gospelCanticle": "magnificat",
+              "concurrenceResolvedByUpstream": true,
+              "antiphonSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Antiphona",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              },
+              "collectSource": {
+                "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+                "path": "web/www/horas/Ordinarium/Vespera.txt",
+                "section": "Oratio{ex Proprio Sanctorum}",
+                "transformation": [
+                  "getordinarium",
+                  "specials",
+                  "parse-vesperae-block"
+                ]
+              }
+            }
+          },
+          "sourceRefs": [
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Ordinarium/Vespera.txt",
+              "section": "Conclusio",
+              "transformation": [
+                "getordinarium",
+                "specials",
+                "parse-vesperae-block"
+              ]
+            },
+            {
+              "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+              "path": "web/www/horas/Latin/Psalterium/Common/Prayers.txt",
+              "section": "Gloria",
+              "transformation": [
+                "resolve_refs",
+                "common prayers"
+              ]
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "sourceRefs": [
+        {
+          "path": "web/cgi-bin/horas/horas.pl",
+          "section": "getordinarium/specials/getunit/resolve_refs",
+          "transformation": [
+            "Divinum Officium internal script array exported before print_content"
+          ],
+          "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/images/cross.png">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.CKtXd970.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.QTnfLwEv.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.-xTZ69yZ.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.CGNx8K9e.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.Bv4or16V.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.BHwonxou.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.ZNCBjqy3.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/@vueuse/motion.C2BqG9gi.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.BHgA4A2N.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.DHGjGeo5.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.C2uZoq6W.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.BHgA4A2N.js">
+<link rel="modulepreload" crossorigin href="/assets/nestorius-bazaar-of-heracleides-zh.Dx1ZJhmx.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>聂斯多略：《赫拉克利德斯集市》中文全译（校订版） - 颠倒梦想</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap">
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="据 Driver 与 Hodgson 1925 年英译本转译的《赫拉克利德斯集市》中文全译校订版。">
+<meta property="og:description" content="据 Driver 与 Hodgson 1925 年英译本转译的《赫拉克利德斯集市》中文全译校订版。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="颠倒梦想">
+<meta property="og:title" content="聂斯多略：《赫拉克利德斯集市》中文全译（校订版）">
+<meta property="og:image" content="/images/cross.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://clemensdsh.xyz/">
+<link rel="icon" href="/images/cross.png" type="image/png">
+<meta name="generator" content="Valaxy 0.28.11">
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-TileColor" content="#fff">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!--[--><!--v-if--><!--v-if--><div class="yun-page-header-gradient"></div><div class="yun-nav-menu z-$yun-z-nav-menu fixed bg-transparent" data-v-7cde2687><!--  --><div class="inline-flex justify-start items-center flex-1" data-v-7cde2687><button type="button" class="vt-hamburger menu-btn sidebar-toggle leading-4 size-12 lg:hidden" aria-label="mobile navigation" aria-expanded="false" inline-flex cursor="pointer" hover="bg-white/80 dark:bg-black/80" z="$yun-z-menu-btn" data-v-7cde2687><span class="vt-hamburger-container"><span class="vt-hamburger-top"></span><span class="vt-hamburger-middle"></span><span class="vt-hamburger-bottom"></span></span></button><a href="/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 data-v-7cde2687><!--[--><div class="size-6 i-ri-home-4-line"></div><!--]--></a><div class="hidden lg:contents" data-v-7cde2687><!--[--><a href="/posts/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="文章" data-v-7cde2687><!--[--><div class="size-6 i-ri-article-line"></div><!--]--></a><a href="/guan/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="分馆" data-v-7cde2687><!--[--><div class="size-6 i-ri-folder-2-line"></div><!--]--></a><!--]--></div></div><div class="flex flex-1 flex-center" data-v-7cde2687><div flex="~ center col h-full" class="nav-menu-title-container cursor-pointer" data-v-7cde2687><!----><span class="font-light truncate">颠倒梦想</span></div></div><div class="inline-flex-center justify-end items-center flex-1" data-v-7cde2687><!-- <template v-if="!app.isMobile && themeConfig.nav">
+          <template v-for="item in themeConfig.nav" :key="item.text">
+            <AppLink
+              v-if="'link' in item"
+              :to="item.link"
+              class="menu-btn inline-flex-center p-2 transition text-$va-c-text"
+              inline-flex cursor="pointer"
+              hover="bg-white/80 dark:bg-black/80"
+              z="$yun-z-menu-btn"
+            >
+              {{ item.text }}
+            </AppLink>
+            <template v-else-if="'items' in item" />
+          </template>
+        </template> --><button class="yun-icon-btn rounded-none! hidden sm:inline-flex" title="切换语言" style="color:var(--va-c-text);" data-v-7cde2687><div i-ri-translate class="transition transform"></div></button><button class="yun-icon-btn yun-toggle-dark rounded-none!" title="切换到深色模式" data-v-7cde2687><div i="ri-sun-line dark:ri-moon-line"></div></button><!--[--><button class="yun-search-btn yun-icon-btn popup-trigger rounded-none! size-12 inline-flex justify-center items-center" text="xl $va-c-text" title="搜索"><div i-ri-search-line op-80 hover="op-100"></div></button><!----><!--]--></div></div><!----><!--v-if--><!----><!--[--><div class="yun-bg"></div><!--]--><!----><a href="#" class="back-to-top yun-icon-btn bg-$va-c-bg-soft shadow-md"><div class="size-8" i-ri-arrow-up-s-line></div><svg class="progress-circle-container" viewBox="0 0 100 100"><circle stroke-dasharray="301.59289474462014 301.59289474462014" stroke-dashoffset="301.59289474462014" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="progress-circle" cx="50" cy="50" r="48" fill="none"></circle></svg></a><!--]--><!--[--><!--]--><!----><!--]--><div class="min-h-screen flex flex-col"><div class="mt-12 md:mt-24 yun-layout-wrapper__content"><!--[--><div class="yun-layout-left gap-4 sticky top-$yun-margin-top w-80"><!--[--><div class="yun-card flex-center rounded-2 overflow-hidden book-sidebar p-4 justify-start items-start" flex="~ col gap-1" min-h="100px" bg="$va-c-bg-light" data-v-02d5e210><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><div class="book-sidebar-title" data-v-02d5e210>聂斯多略：《赫拉克利德斯集市》中文全译（校订版）</div><ol class="book-sidebar-items" data-v-02d5e210><!--[--><li data-v-02d5e210><a href="/collections/nestorius-bazaar-of-heracleides/01" class="" data-v-02d5e210>卷首：术语表、编者序与导论</a></li><li data-v-02d5e210><a href="/collections/nestorius-bazaar-of-heracleides/02" class="" data-v-02d5e210>叙利亚译者序</a></li><li data-v-02d5e210><a href="/collections/nestorius-bazaar-of-heracleides/03" class="" data-v-02d5e210>第一卷　第一部（上：序言–57）</a></li><li data-v-02d5e210><a href="/collections/nestorius-bazaar-of-heracleides/04" class="" data-v-02d5e210>第一卷　第一部（下：58–93）</a></li><li data-v-02d5e210><a href="/collections/nestorius-bazaar-of-heracleides/05" class="" data-v-02d5e210>第一卷　第二部</a></li><li data-v-02d5e210><a href="/collections/nestorius-bazaar-of-heracleides/06" class="" data-v-02d5e210>第一卷　第三部</a></li><li data-v-02d5e210><a href="/collections/nestorius-bazaar-of-heracleides/07" class="" data-v-02d5e210>第二卷　第一部（一）会议记录</a></li><li data-v-02d5e210><a href="/collections/nestorius-bazaar-of-heracleides/08" class="" data-v-02d5e210>第二卷　第一部（二）尼西亚信仰</a></li><li data-v-02d5e210><a href="/collections/nestorius-bazaar-of-heracleides/09" class="" data-v-02d5e210>第二卷　第一部（三）对引用讲道的答辩</a></li><li data-v-02d5e210><a href="/collections/nestorius-bazaar-of-heracleides/10" class="" data-v-02d5e210>第二卷　第一部（四）大司祭职与会后经过</a></li><li data-v-02d5e210><a href="/collections/nestorius-bazaar-of-heracleides/11" class="" data-v-02d5e210>第二卷　第一部（五）位格联合与本性联合</a></li><li data-v-02d5e210><a href="/collections/nestorius-bazaar-of-heracleides/12" class="" data-v-02d5e210>第二卷　第二部</a></li><li data-v-02d5e210><a href="/collections/nestorius-bazaar-of-heracleides/13" class="" data-v-02d5e210>附录</a></li><li data-v-02d5e210><a href="/collections/nestorius-bazaar-of-heracleides/14" class="" data-v-02d5e210>索引</a></li><!--]--></ol><!--]--></div><!----></div><!--]--></div><main class="yun-main lt-md:w-full" flex="~ center"><!--[--><div class="content w-full md:w-3xl lg:w-2xl xl:w-2xl 2xl:w-4xl" flex="~ col grow" p="lt-md:0"><div class="yun-card flex-center rounded-2 overflow-hidden" flex="col" min-h="100px" bg="$va-c-bg-light" m="0"><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><!-- intentionally empty --><div class="mt-8 mb-4"><!--[--><header class="post-header"><h1 p="2" text="2xl center" font="serif black" style="color:" class="post-title flex-center"><!----><span inline-flex class="leading-none">聂斯多略：《赫拉克利德斯集市》中文全译（校订版）</span></h1></header><!--]--></div><!--[--><!--[--><!--[--><!--[--><!----><div flex="~ center" text="sm" class="post-meta-col post-meta gap-4"><div class="post-time flex items-center gap-4"><span class="posted-time inline-flex-center gap-1" title="发表于 2026-09-09 00:00:00"><div class="inline-block" i-ri-calendar-line></div><time class="op-80">2026-09-09</time></span><!----></div><!--[--><!--]--><div class="inline-flex-center gap-4"><div class="inline-flex-center post-counter gap-4"><span class="word-count inline-flex-center gap-1" title="本文字数"><div class="inline-block" i-ri-file-word-line></div><span class="op-80">210.6k</span></span><span class="reading-time inline-flex-center gap-1" title="阅读时长"><div i-ri-timer-line></div><time class="op-80">711m</time></span></div><!----><!----></div></div><!--]--><!----><div class="inline-flex mt-2" text="sm" py="1"><a href="/categories?category=%E6%95%99%E7%88%B6%E9%A6%86/%E6%95%99%E7%88%B6%E8%91%97%E4%BD%9C" class="transition post-category inline-flex-center text-xs border-$va-c-divider" px-2 h="7" border rounded-full hover="bg-blue-500 text-white"><div m="x-1" inline-flex i-ri-folder-2-line></div><span>教父馆 / 教父著作</span></a><span mx="2"></span><div class="post-tags inline-flex" items="center" gap="1" flex="wrap 1" justify="end"><!--[--><a href="/tags/?tag=%E8%81%82%E6%96%AF%E5%A4%9A%E7%95%A5" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500 text-white"><span>聂斯多略</span></a><a href="/tags/?tag=%E8%B5%AB%E6%8B%89%E5%85%8B%E5%88%A9%E5%BE%B7%E6%96%AF%E9%9B%86%E5%B8%82" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500 text-white"><span>赫拉克利德斯集市</span></a><a href="/tags/?tag=%E5%9F%BA%E7%9D%A3%E8%AE%BA" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500 text-white"><span>基督论</span></a><a href="/tags/?tag=%E6%95%99%E7%88%B6%E6%96%87%E7%8C%AE" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500 text-white"><span>教父文献</span></a><a href="/tags/?tag=%E8%AF%91%E7%A8%BF" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500 text-white"><span>译稿</span></a><!--]--></div></div><!--]--><!--]--><!--]--><div p="x-4 b-8" class="sm:px-6 lg:px-12 xl:px-16" w="full"><!--[--><!--]--><!--[--><!-- <Transition appear> --><article class="markdown-body"><!--[--><!----><!----><!--[--><!--]--><!--[--><div class="nestorius-bazaar-page-marker" aria-hidden="true"></div><blockquote><p><strong>英译底本</strong>：G. R. Driver &amp; Leonard Hodgson 英译、编注，Oxford: Clarendon Press, 1925。<br><strong>电子文本与范围</strong>：本中文译本据该英译本转译，涵盖英文版 pp. 1–425（含附录与索引）；转写所用全文 OCR 底本见 <a href="https://archive.org/stream/DriverHodgson1925TheBazaarOfHeracleides/Driver%20%26%20Hodgson%201925_The%20Bazaar%20of%20Heracleides_djvu.txt" target="_blank" rel="noreferrer">Archive.org：Driver &amp; Hodgson 1925</a>。<br><strong>中文整理说明</strong>：为便于阅读，已合并扫描造成的断行，并将书名、章节、注释等整理为 Markdown。明显属于网页界面的导航文字不收入；原书正文、编者序、导论、正文、附录、批注及索引均予保留。OCR 中无法可靠复原的希腊文、叙利亚文或排印符号，原则上照录，不擅自校改。</p><p><strong>主要神学术语约定</strong>：God = <strong>天主</strong>；God the Word / Logos = <strong>天主圣言 / 圣言</strong>；Holy Spirit = <strong>圣神</strong>；Incarnation = <strong>降生成人</strong>；flesh / sarx = 原则上译 <strong>血肉</strong>；body = 依语境译 <strong>身体 / 躯体</strong>；信经语境的 <em>incarnatus est</em> 译 <strong>取得肉躯</strong>；《若望福音》式 <em>the Word became flesh</em> 译 <strong>圣言成了血肉</strong>；nature / physis = <strong>本性（physis）</strong>；ousia = <strong>实体（ousia）</strong>；prosōpon = <strong>位格（prosōpon）</strong>；hypostasis = <strong>自立体（hypostasis）</strong>；Theotokos = <strong>天主之母（Theotokos）</strong>；Oecumenical/General Council = <strong>大公会议</strong>。在聂斯多略本人特殊用法可能与后世定型术语不同之处，尽量保留希腊词以免混淆。</p><p><strong>专名与礼仪术语约定</strong>：非通行的人名、地名以中文译名并括注原文；先前遗留的未译英文专名已统一补正。书信中对主教的 <em>thy Reverence</em> 译作“阁下”（复数作“诸位阁下”），并非人名或圣号。原文的 <em>adoration / worship</em> 在本书的基督论争辩语境中一律译为<strong>朝拜</strong>；<em>cultus</em> 等礼仪敬礼语境则仍译“敬礼”。</p></blockquote><blockquote><p><strong>论战性叙述提示</strong>：正文中关于济利禄、狄奥斯科洛斯、皇帝及会议的暴力、贿赂、阴谋等指控，多为聂斯多略立场的叙述；除明确引述编者史料处外，不应视为译者对其历史真实性的确认。</p></blockquote><h2 id="章节目录" tabindex="-1">章节目录 <a class="header-anchor" href="#章节目录" aria-label="Permalink to &quot;章节目录&quot;">​</a></h2><ul><li><a href="/collections/nestorius-bazaar-of-heracleides/01">卷首：术语表、编者序与导论</a></li><li><a href="/collections/nestorius-bazaar-of-heracleides/02">叙利亚译者序</a></li><li><a href="/collections/nestorius-bazaar-of-heracleides/03">第一卷　第一部（上：序言–57）</a></li><li><a href="/collections/nestorius-bazaar-of-heracleides/04">第一卷　第一部（下：58–93）</a></li><li><a href="/collections/nestorius-bazaar-of-heracleides/05">第一卷　第二部</a></li><li><a href="/collections/nestorius-bazaar-of-heracleides/06">第一卷　第三部</a></li><li><a href="/collections/nestorius-bazaar-of-heracleides/07">第二卷　第一部（一）会议记录</a></li><li><a href="/collections/nestorius-bazaar-of-heracleides/08">第二卷　第一部（二）尼西亚信仰</a></li><li><a href="/collections/nestorius-bazaar-of-heracleides/09">第二卷　第一部（三）对引用讲道的答辩</a></li><li><a href="/collections/nestorius-bazaar-of-heracleides/10">第二卷　第一部（四）大司祭职与会后经过</a></li><li><a href="/collections/nestorius-bazaar-of-heracleides/11">第二卷　第一部（五）位格联合与本性联合</a></li><li><a href="/collections/nestorius-bazaar-of-heracleides/12">第二卷　第二部</a></li><li><a href="/collections/nestorius-bazaar-of-heracleides/13">附录</a></li><li><a href="/collections/nestorius-bazaar-of-heracleides/14">索引</a></li></ul><!--]--><!--]--><!----><!----></article><!-- </Transition> --><!--]--><!--[--><!--[--><!--[--><div class="yun-sponsor-container flex-center flex-col" m="t-6"><button class="sponsor-button yun-icon-btn shadow hover:shadow-md" title="打赏" text="red-400"><div class="mt-2px" i-ri-heart-fill></div></button><div m="y-4" class="qrcode-container qrcode flex-center flex-col"><div class="sponsor-description" mb="4" text="sm">这是关于赞助的一些描述</div><div class="flex justify-around"><!--[--><!--]--></div></div></div><ul class="post-copyright" m="y-4"><li class="post-copyright-author"><strong>本文作者：</strong><span>Clemens Bao</span></li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://clemensdsh.xyz/posts/nestorius-bazaar-of-heracleides-zh/" target="_blank" title="本文链接">https://clemensdsh.xyz/posts/nestorius-bazaar-of-heracleides-zh/</a></li><li class="post-copyright-license"><strong>版权声明：</strong><span>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 ">CC BY-NC-SA</a> 许可协议。</span></li></ul><!--]--><!--]--><!--]--></div><!--]--></div><!----></div><!--[--><!--]--><!--[--><div class="post-nav"><div class="post-nav-item"><a href="/posts/maximum-illud-zh/" class="post-nav-prev" title="夫至大至圣之任务：教宗本笃十五世通牒"><div class="icon" i-ri-arrow-left-s-line></div><span class="title truncate" text="sm">夫至大至圣之任务：教宗本笃十五世通牒</span></a></div><div class="post-nav-item"><a href="/posts/aas-1960-rubricae-et-calendarium-latin/" class="post-nav-next" title="Rubricae Breviarii et Missalis Romani: Textus Latinus"><span class="title truncate" text="sm">Rubricae Breviarii et Missalis Romani: Textus Latinus</span><div class="icon" i-ri-arrow-right-s-line></div></a></div></div><!--]--><!--[--><!--]--><!----><!-- ad board: intentionally empty --><!--[--><!--]--><!--[--><!--]--></div><!--]--></main><!--[--><button class="xl:hidden toc-btn shadow-md fixed yun-icon-btn z-20 bg-$va-c-bg-soft" opacity="75" right="4" bottom="19"><div i-ri-file-list-line></div></button><!----><aside flex="~ col" class="va-card yun-aside min-h-sm rounded-2" text="center" overflow="auto"><div class="w-full" flex="~ col" pb-2><!--[--><h2 m="t-6 b-2" font="serif black">文章目录</h2><div style="display:none;" data-v-c1b0a041><div class="content" data-v-c1b0a041><div class="outline-title" data-v-c1b0a041>本页</div><div class="outline-marker" data-v-c1b0a041></div><nav aria-labelledby="doc-outline-aria-label" data-v-c1b0a041><span id="doc-outline-aria-label" class="visually-hidden" data-v-c1b0a041> Table of Contents for current page </span><ul class="root va-toc relative z-1 css-i18n-toc" data-v-c1b0a041 data-v-de8ef98e><!--[--><!--]--></ul></nav></div></div><!--]--><div class="flex-grow"></div><!----></div></aside><!--]--><!--]--></div><footer flex="~ col" class="relative yun-footer va-footer px-4 py-4 pt-0 text-$va-c-text-light w-full mt-14" bg="white dark:$va-c-bg-soft" text="center sm"><div class="yun-cloud absolute top--10 left-0 right-0"><svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" fill="var(--yun-c-cloud)"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><!----><div class="copyright flex justify-center items-center gap-2" p="1"><span> © <!----> 2026</span><a class="animate-pulse inline-flex" href="https://www.yunyoujun.cn/sponsors/" target="_blank" title="Sponsor YunYouJun"><div class="i-ri-cloud-line"></div></a><span>Clemens Bao</span></div><div class="powered" m="2"><span>由 <a href="https://github.com/YunYouJun/valaxy.git" target="_blank" rel="noopener">Valaxy</a> <span class="op-60">v0.28.11</span> 驱动</span><span mx-1>|</span><span><span>主题</span><span mx-1>-</span><a href="https://github.com/YunYouJun/valaxy.git" title="valaxy-theme-yun" target="_blank">Yun</a><span class="ml-1 op-60">v0.28.11</span></span></div><!--[--><!--]--><div class="yun-footer-gradient"></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"yun-app":{"bannerAnimationDone":false},"app":{"showLoading":true},"site":{},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://clemensdsh.xyz/#identity","@type":"Person","name":"Clemens Bao","url":"https://clemensdsh.xyz/","image":{"@id":"https://clemensdsh.xyz/#/schema/image/1"},"sameAs":["https://github.com/Clemensdsh","https://x.com/clemens_iqisyi","/about/","https://t.me/Clemens777hepta","/atom.xml"]},{"@id":"https://clemensdsh.xyz/#website","@type":"WebSite","dateModified":"2026-09-09","datePublished":"2026-09-09","inLanguage":"zh-CN","name":"聂斯多略：《赫拉克利德斯集市》中文全译（校订版）","url":"https://clemensdsh.xyz/","publisher":{"@id":"https://clemensdsh.xyz/#identity"}},{"@id":"https://clemensdsh.xyz/#webpage","@type":"WebPage","description":"据 Driver 与 Hodgson 1925 年英译本转译的《赫拉克利德斯集市》中文全译校订版。","name":"聂斯多略：《赫拉克利德斯集市》中文全译（校订版）","url":"https://clemensdsh.xyz/","about":{"@id":"https://clemensdsh.xyz/#identity"},"isPartOf":{"@id":"https://clemensdsh.xyz/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://clemensdsh.xyz/"]}]},{"@id":"https://clemensdsh.xyz/#/schema/image/1","@type":"ImageObject","contentUrl":"https://clemensdsh.xyz/images/photo.jpg","inLanguage":"zh-CN","url":"https://clemensdsh.xyz/images/photo.jpg"}]}</script>
+  
+</body>
+</html>

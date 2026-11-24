@@ -1,0 +1,1 @@
+import{$ as e,ct as t}from"./theme.BHgA4A2N.js";var n=e({cast(e){return typeof e==`number`?{value:e}:e},defaults:{"@type":`QuantitativeValue`}}),r=e({defaults:{"@type":`MonetaryAmount`},resolve(e,r){return typeof e.value!=`number`&&(e.value=t(e.value,r,n)),e}});export{n,r as t};

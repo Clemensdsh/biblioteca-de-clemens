@@ -1,0 +1,88 @@
+{
+  "date": "2026-07-20",
+  "engineVersion": "Rubrics 1960 - 1960",
+  "hour": "completorium",
+  "language": "la",
+  "liturgicalTitle": "S. Hieronymi Æmiliani Confessoris ~ III. classis",
+  "rank": "S. Hieronymi Æmiliani Confessoris;;Duplex;;3;;vide C5\n\n",
+  "schemaVersion": "0.1.0",
+  "sourceRefs": [
+    {
+      "path": "web/cgi-bin/horas/horas.pl",
+      "section": "getordinarium/specials/getunit/resolve_refs",
+      "transformation": [
+        "Divinum Officium internal script array exported before print_content"
+      ],
+      "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d"
+    }
+  ],
+  "units": [
+    {
+      "html": "Incipit\n<br/>\n℣. Jube, Dómine, benedícere.<br/>\nBenedictio. Noctem quiétam et finem perféctum concédat nobis Dóminus omnípotens.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-07-20-completorium-001",
+      "raw": "#Incipit\n$benedictio Completorium\n$Amen\n"
+    },
+    {
+      "html": "Lectio brevis\n<br/>\n1 Pet 5:8-9<br/>\nFratres: Sóbrii estóte, et vigiláte: quia adversárius vester diábolus tamquam leo rúgiens círcuit, quærens quem dévoret: cui resístite fortes in fide.<br/>\n℣. Tu autem, Dómine, miserére nobis.<br/>\n℟. Deo grátias.<br/>\n",
+      "id": "do-1962-2026-07-20-completorium-002",
+      "raw": "#Lectio brevis\n!1 Pet 5:8-9\nv. Fratres: Sóbrii estóte, et vigiláte: quia adversárius vester diábolus tamquam leo rúgiens círcuit, quærens quem dévoret: cui resístite fortes in fide.\n$Tu autem\n\n"
+    },
+    {
+      "html": "℣. Adjutórium nostrum <span style='color:red; font-size:1.25em'>✠</span> in nómine Dómini.<br/>\n℟. Qui fecit cælum et terram.<br/>\nExamen conscientiæ vel <span class='nigra'>Pater Noster</span> totum secreto.<br/>\nPater noster, qui es in cælis, sanctificétur nomen tuum: advéniat regnum tuum: fiat volúntas tua, sicut in cælo et in terra. Panem nostrum cotidiánum da nobis hódie: et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris: et ne nos indúcas in tentatiónem: sed líbera nos a malo. Amen.<br/>\nConfíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto Michaéli Archángelo, beáto Joánni Baptístæ, sanctis Apóstolis Petro et Paulo, et ómnibus Sanctis, quia peccávi nimis, cogitatióne, verbo et ópere: (percutit sibi pectus) mea culpa, mea culpa, mea máxima culpa. Ídeo precor beátam Maríam semper Vírginem, beátum Michaélem Archángelum, beátum Joánnem Baptístam, sanctos Apóstolos Petrum et Paulum, et omnes Sanctos, oráre pro me ad Dóminum Deum nostrum.<br/>\nMisereátur nostri omnípotens Deus, et dimíssis peccátis nostris, perdúcat nos ad vitam ætérnam. Amen.<br/>\nIndulgéntiam, <span style='color:red; font-size:1.25em'>✠</span> absolutiónem et remissiónem peccatórum nostrórum tríbuat nobis omnípotens et miséricors Dóminus. Amen.<br/>\n℣. Convérte nos <span style='color:red; font-size:1.25em'>✙︎</span> Deus, salutáris noster.<br/>\n℟. Et avérte iram tuam a nobis.<br/>\n",
+      "id": "do-1962-2026-07-20-completorium-003",
+      "raw": "$Adjutorium nostrum\n$rubrica examen\n$Pater noster\n$Confiteor\n$Misereatur\n$Indulgentiam\n$Converte nos\n"
+    },
+    {
+      "html": "℣. Deus <span style='color:red; font-size:1.25em'>✠</span> in adjutórium meum inténde.<br/>\n℟. Dómine, ad adjuvándum me festína.<br/>\nGlória Patri, et Fílio, * et Spirítui Sancto.<br/>\nSicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAllelúja.<br/>\n",
+      "id": "do-1962-2026-07-20-completorium-004",
+      "raw": "$Deus in adjutorium\n&Alleluia\n"
+    },
+    {
+      "html": "Psalmi {ex Psalterio secundum diem}\n<br/>\nAnt. Salvum me fac, * Dómine, propter misericórdiam tuam.<br/>\nPsalmus 6 [1]<br/>\n6:2 Dómine, ne in furóre tuo árguas me, * neque in ira tua corrípias me.<br/>\n6:3 Miserére mei, Dómine, quóniam infírmus sum: * sana me, Dómine, quóniam conturbáta sunt ossa mea.<br/>\n6:4 Et ánima mea turbáta est valde: * sed tu, Dómine, úsquequo?<br/>\n6:5 Convértere, Dómine, et éripe ánimam meam: * salvum me fac propter misericórdiam tuam.<br/>\n6:6 Quóniam non est in morte qui memor sit tui: * in inférno autem quis confitébitur tibi?<br/>\n6:7 Laborávi in gémitu meo, † lavábo per síngulas noctes lectum meum: * lácrimis meis stratum meum rigábo.<br/>\n6:8 Turbátus est a furóre óculus meus: * inveterávi inter omnes inimícos meos.<br/>\n6:9 Discédite a me, omnes, qui operámini iniquitátem: * quóniam exaudívit Dóminus vocem fletus mei.<br/>\n6:10 Exaudívit Dóminus deprecatiónem meam, * Dóminus oratiónem meam suscépit.<br/>\n6:11 Erubéscant, et conturbéntur veheménter omnes inimíci mei: * convertántur et erubéscant valde velóciter.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\n",
+      "id": "do-1962-2026-07-20-completorium-005",
+      "raw": "#Psalmi{ex Psalterio secundum diem}\nAnt. Salvum me fac, * Dómine, propter misericórdiam tuam.\n&psalm(-6)\n"
+    },
+    {
+      "html": "Psalmus 7(2-10) [2]<br/>\n7:2 Dómine, Deus meus, in te sperávi: * salvum me fac ex ómnibus persequéntibus me, et líbera me.<br/>\n7:3 Nequándo rápiat ut leo ánimam meam, * dum non est qui rédimat, neque qui salvum fáciat.<br/>\n7:4 Dómine, Deus meus, si feci istud, * si est iníquitas in mánibus meis:<br/>\n7:5 Si réddidi retribuéntibus mihi mala, * décidam mérito ab inimícis meis inánis.<br/>\n7:6 Persequátur inimícus ánimam meam, † et comprehéndat, et concúlcet in terra vitam meam, * et glóriam meam in púlverem dedúcat.<br/>\n7:7a Exsúrge, Dómine, in ira tua: * et exaltáre in fínibus inimicórum meórum.<br/>\n7:7b Et exsúrge, Dómine, Deus meus, in præcépto quod mandásti: * (8a) et synagóga populórum circúmdabit te.<br/>\n7:8b Et propter hanc in altum regrédere: * (9a) Dóminus júdicat pópulos.<br/>\n7:9b Júdica me, Dómine, secúndum justítiam meam, * et secúndum innocéntiam meam super me.<br/>\n7:10 Consumétur nequítia peccatórum, et díriges justum, * scrutans corda et renes, Deus.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\n",
+      "id": "do-1962-2026-07-20-completorium-006",
+      "raw": "&psalm(-7,2,10)\n"
+    },
+    {
+      "html": "Psalmus 7(11-18) [3]<br/>\n7:11 Justum adjutórium meum a Dómino, * qui salvos facit rectos corde.<br/>\n7:12 Deus judex justus, fortis, et pátiens: * numquid iráscitur per síngulos dies?<br/>\n7:13 Nisi convérsi fuéritis, gládium suum vibrábit: * arcum suum teténdit, et parávit illum.<br/>\n7:14 Et in eo parávit vasa mortis: * sagíttas suas ardéntibus effécit.<br/>\n7:15 Ecce, partúriit injustítiam: * concépit dolórem, et péperit iniquitátem.<br/>\n7:16 Lacum apéruit, et effódit eum: * et íncidit in fóveam quam fecit.<br/>\n7:17 Convertétur dolor ejus in caput ejus: * et in vérticem ipsíus iníquitas ejus descéndet.<br/>\n7:18 Confitébor Dómino secúndum justítiam ejus: * et psallam nómini Dómini altíssimi.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Salvum me fac, Dómine, propter misericórdiam tuam.<br/>\n",
+      "id": "do-1962-2026-07-20-completorium-007",
+      "raw": "&psalm(7,11,18)\nAnt. Salvum me fac, Dómine, propter misericórdiam tuam.\n"
+    },
+    {
+      "html": "Hymnus\n<br/>\nTe lucis ante términum,<br/>\nRerum Creátor, póscimus,<br/>\nUt pro tua cleméntia<br/>\nSis præsul et custódia.<br/>\n_<br/>\nProcul recédant sómnia,<br/>\nEt nóctium phantásmata;<br/>\nHostémque nostrum cómprime,<br/>\nNe polluántur córpora.<br/>\n_<br/>\nPræsta, Pater piíssime,<br/>\nPatríque compar Únice,<br/>\nCum Spíritu Paráclito<br/>\nRegnans per omne sǽculum.<br/>\nAmen.<br/>\n",
+      "id": "do-1962-2026-07-20-completorium-008",
+      "raw": "#Hymnus\nv. Te lucis ante términum,\nRerum Creátor, póscimus,\nUt pro tua cleméntia\nSis præsul et custódia.\n_\nr. Procul recédant sómnia,\nEt nóctium phantásmata;\nHostémque nostrum cómprime,\nNe polluántur córpora.\n_\nr. Præsta, Pater piíssime,\nPatríque compar Únice,\nCum Spíritu Paráclito\nRegnans per omne sǽculum.\nAmen.\n\n"
+    },
+    {
+      "html": "Capitulum Responsorium Versus\n<br/>\nJer 14:9<br/>\nTu autem in nobis es, Dómine, et nomen sanctum tuum invocátum est super nos: ne derelínquas nos, Dómine, Deus noster.<br/>\n℟. Deo grátias.<br/>\n_<br/>\n℟.br. In manus tuas, Dómine, * Comméndo spíritum meum.<br/>\n℟. In manus tuas, Dómine, * Comméndo spíritum meum.<br/>\n℣. Redemísti nos, Dómine, Deus veritátis.<br/>\n℟. Comméndo spíritum meum.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. In manus tuas, Dómine, * Comméndo spíritum meum.<br/>\n_<br/>\n℣. Custódi nos, Dómine, ut pupíllam óculi.<br/>\n℟. Sub umbra alárum tuárum prótege nos.<br/>\n",
+      "id": "do-1962-2026-07-20-completorium-009",
+      "raw": "#Capitulum Responsorium Versus\n!Jer 14:9\nv. Tu autem in nobis es, Dómine, et nomen sanctum tuum invocátum est super nos: ne derelínquas nos, Dómine, Deus noster.\n$Deo gratias\n_\nR.br. In manus tuas, Dómine, * Comméndo spíritum meum.\nR. In manus tuas, Dómine, * Comméndo spíritum meum.\nV. Redemísti nos, Dómine, Deus veritátis.\nR. Comméndo spíritum meum.\n&Gloria1\nR. In manus tuas, Dómine, * Comméndo spíritum meum.\n_\nV. Custódi nos, Dómine, ut pupíllam óculi.\nR. Sub umbra alárum tuárum prótege nos.\n"
+    },
+    {
+      "html": "Canticum: Nunc dimittis\n<br/>\nAnt. Salva nos, * Dómine, vigilántes, custódi nos dormiéntes; ut vigilémus cum Christo, et requiescámus in pace.<br/>\nCanticum Simeonis<br/>\nLuc. 2:29-32<br/>\n2:29 Nunc dimíttis <span style='color:red; font-size:1.25em'>✠</span> servum tuum, Dómine, * secúndum verbum tuum in pace:<br/>\n2:30 Quia vidérunt óculi mei * salutáre tuum,<br/>\n2:31 Quod parásti * ante fáciem ómnium populórum,<br/>\n2:32 Lumen ad revelatiónem géntium, * et glóriam plebis tuæ Israël.<br/>\n℣. Glória Patri, et Fílio, * et Spirítui Sancto.<br/>\n℟. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen.<br/>\nAnt. Salva nos, Dómine, vigilántes, custódi nos dormiéntes; ut vigilémus cum Christo, et requiescámus in pace.<br/>\n",
+      "id": "do-1962-2026-07-20-completorium-010",
+      "raw": "#Canticum: Nunc dimittis\nAnt. Salva nos, * Dómine, vigilántes, custódi nos dormiéntes; ut vigilémus cum Christo, et requiescámus in pace.\n&psalm(233)\nAnt. Salva nos, Dómine, vigilántes, custódi nos dormiéntes; ut vigilémus cum Christo, et requiescámus in pace.\n"
+    },
+    {
+      "html": "Oratio\n<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\nOrémus.<br/>\nVísita, quǽsumus, Dómine, habitatiónem istam, et omnes insídias inimíci ab ea longe repélle: Ángeli tui sancti hábitent in ea, qui nos in pace custódiant; et benedíctio tua sit super nos semper.<br/>\nPer Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-07-20-completorium-011",
+      "raw": "#Oratio\n&Dominus_vobiscum\n$Oremus\n$oratio_Visita\n$Per Dominum\n"
+    },
+    {
+      "html": "Conclusio\n<br/>\n℣. Dómine, exáudi oratiónem meam.<br/>\n℟. Et clamor meus ad te véniat.<br/>\n℣. Benedicámus Dómino.<br/>\n℟. Deo grátias.<br/>\nBenedictio. Benedícat et custódiat nos omnípotens et miséricors Dóminus, <span style='color:red; font-size:1.25em'>✠</span> Pater, et Fílius, et Spíritus Sanctus.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-07-20-completorium-012",
+      "raw": "#Conclusio\n&Dominus_vobiscum\n&Benedicamus_Domino\n$benedictio Completorium Final\n$Amen\n"
+    },
+    {
+      "html": "Antiphona finalis B.M.V.\n<br/>\nSalve, Regína, mater misericórdiæ;<br/>\nvita, dulcédo et spes nóstra, salve.<br/>\nAd te clamámus éxsules fílii Hevæ.<br/>\nAd te suspirámus geméntes et flentes<br/>\nin hac lacrimárum valle.<br/>\nEja ergo, advocáta nostra,<br/>\nillos tuos misericórdes óculos ad nos convérte.<br/>\nEt Jesum, benedíctum fructum ventris tui,<br/>\nnobis post hoc exsílium osténde.<br/>\nO clemens, o pia, o dulcis Virgo María.<br/>\n_<br/>\n℣. {::}Ora pro nobis, sancta Dei Génetrix.<br/>\n℟. Ut digni efficiámur promissiónibus Christi.<br/>\n_<br/>\nOrémus.<br/>\nOmnípotens sempitérne Deus, qui gloriósæ Vírginis Matris Maríæ corpus et ánimam, ut dignum Fílii tui habitáculum éffici mererétur, Spíritu Sancto cooperánte, præparásti: da, ut, cujus commemoratióne lætámur, ejus pia intercessióne, ab instántibus malis et a morte perpétua liberémur. Per eúmdem Christum Dóminum nostrum. Amen.<br/>\n℣. Divínum auxílium <span style='color:red; font-size:1.25em'>✠</span> máneat semper nobíscum.<br/>\n℟. Amen.<br/>\n",
+      "id": "do-1962-2026-07-20-completorium-013",
+      "raw": "#Antiphona finalis B.M.V.\n$ant Salve Regina\n&Divinum_auxilium\n"
+    }
+  ],
+  "upstreamCommit": "515a213f79951c563be4f599ca591c63aa63bb6d",
+  "warnings": []
+}
