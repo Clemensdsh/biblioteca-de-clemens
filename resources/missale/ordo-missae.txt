@@ -1,0 +1,1404 @@
+// 新礼弥撒常规（Ordo Missae cum populo）中拉对照源文件。
+// 拉丁：Missale Romanum, editio typica tertia (2002)，Ordo Missae nn. 1–146（PDF 第 303–370 页）。
+// 中文：《感恩祭典》（台湾地区主教团礼仪委员会 1982 年译本，信德社 2005 年简体横排版）卷一「有信友参与的弥撒规程」，
+//       按 1975 年拉丁第二版翻译；只改 OCR 错字，不改译文；与 2002 年拉丁不同处在 N: 行注明。
+// 由 scripts/missale/build-missale.mjs 生成 features/missale/ordoMissae.json。
+//
+// 格式（每行一个前缀）：
+//   § id | 拉丁标题 | 中文标题            大段
+//   ¶ id | 拉丁标题 | 中文标题            小节
+//   ? id | 拉丁 | 中文                    可选形式之一（同一 ? 组内的各式，页面上可选择）；组以 ?end 结束
+//   [ id | 拉丁 | 中文 | 说明 ]           当日更换的经文（读经、集祷经等），暂留空
+//   R: / r:   礼规（拉丁 / 中文）
+//   S: / s:   主祭（Sacerdos）
+//   P: / p:   信友（Populus）
+//   D: / d:   执事（Diaconus）
+//   O: / o:   全体（Omnes）
+//   L: / l:   读经员（Lector）
+//   T: / t:   无说话人标记的经文（续前）
+//   N:        注释（中文），挂在前一组对照上
+// 同一前缀的连续大写行是一段拉丁（每行一诗行）；紧随其后的同类小写行是这段的中文。
+// ✠ 表示画十字。
+
+§ ritus-initiales | Ritus initiales | 进堂式
+R: Populo congregato, sacerdos cum ministris ad altare accedit, dum cantus ad introitum peragitur.
+r: 信友集合后，主祭与辅祭人员进堂，同时唱“进堂咏”。
+[ introitus | Antiphona ad introitum | 进堂咏 | 见当日弥撒 ]
+R: Cum ad altare pervenerit, facta cum ministris profunda inclinatione, osculo altare veneratur et, pro opportunitate, crucem et altare incensat. Postea cum ministris sedem petit.
+r: 到达祭台后，向祭台致敬，主祭亲祭台，可向祭台奉香，然后到座位处。
+R: Cantu ad introitum absoluto, sacerdos et fideles, stantes, signant se signo crucis, dum sacerdos, ad populum conversus, dicit:
+r: “进堂咏”唱完，画十字圣号。
+S: In nómine Patris, et Fílii, et Spíritus Sancti.
+s: 因父、及子、及圣神之名。
+P: Amen.
+p: 阿们。
+R: Deinde sacerdos, manus extendens, populum salutat, dicens:
+r: 主祭面向信友，伸手致候：
+? salutatio-1 | Formula I | 致候词第一式
+S: Grátia Dómini nostri Iesu Christi, et cáritas Dei,
+S: et communicátio Sancti Spíritus sit cum ómnibus vobis.
+s: 愿天父的慈爱，基督的圣宠，圣神的恩赐，与你们同在。
+N: 拉丁原文次序为“我们主耶稣基督的圣宠、天主的慈爱、圣神的相通”（参格后 13:13），《感恩祭典》改作“天父的慈爱，基督的圣宠，圣神的恩赐”。
+P: Et cum spíritu tuo.
+p: 也与你的心灵同在。
+? salutatio-2 | Formula II | 致候词第二式
+S: Grátia vobis et pax a Deo Patre nostro et Dómino Iesu Christo.
+s: 愿天父和基督，赐给你们恩宠及平安。
+P: Et cum spíritu tuo.
+p: 也赐给你。
+N: 拉丁标准版对三式致候都答 “Et cum spíritu tuo”（也与你的心灵同在）；《感恩祭典》此式答“也赐给你”。
+? salutatio-3 | Formula III | 致候词第三式
+S: Dóminus vobíscum.
+s: 愿主与你们同在。
+P: Et cum spíritu tuo.
+p: 也与你的心灵同在。
+?end
+R: Episcopus, loco Dóminus vobíscum, in hac prima salutatione dicit:
+r: 主教献祭时念：
+S: Pax vobis.
+s: 愿主的平安与你们同在。
+P: Et cum spíritu tuo.
+p: 也与你的心灵同在。
+N: 拉丁原文作“Pax vobis”（愿平安与你们同在）；信友的答句拉丁在前面的三式之后统一写出。
+R: Sacerdos, vel diaconus vel alius minister, potest brevissimis verbis introducere fideles in Missam diei.
+r: 主祭或执事，或其他适宜的辅祭人员，可向信友简短地介绍本日弥撒。
+
+¶ actus-paenitentialis | Actus pænitentialis | 忏悔词
+R: Die dominica, præsertim tempore paschali, loco consueti actus pænitentialis, quandoque fieri potest benedictio et aspersio aquæ in memoriam baptismi.
+? paenitentia-1 | Formula I | 忏悔词第一式
+R: Deinde sequitur actus pænitentialis ad quem sacerdos fideles invitat, dicens:
+S: Fratres, agnoscámus peccáta nostra,
+S: ut apti simus ad sacra mystéria celebránda.
+s: 各位教友，现在我们大家认罪，虔诚地举行圣祭。
+R: Fit brevis pausa silentii. Postea omnes simul formulam confessionis generalis perficiunt:
+r: （静默片刻）
+O: Confíteor Deo omnipoténti et vobis, fratres,
+O: quia peccávi nimis
+O: cogitatióne, verbo, ópere et omissióne:
+o: 我向全能的天主和各位教友，承认我思、言、行为上的过失。
+N: 拉丁作“思、言、行为及疏忽”（cogitatione, verbo, opere et omissione），《感恩祭典》未译“疏忽”（omissione）。
+R: et, percutientes sibi pectus, dicunt:
+r: （捶胸）
+O: mea culpa, mea culpa, mea máxima culpa.
+o: 我罪、我罪、我的重罪。
+R: Deinde prosequuntur:
+O: Ideo precor beátam Maríam semper Vírginem,
+O: omnes Angelos et Sanctos,
+O: et vos, fratres, oráre pro me
+O: ad Dóminum Deum nostrum.
+o: 为此，恳请终身童贞圣母玛利亚、天使、圣人和你们各位教友，为我祈求上主，我们的天主。
+R: Sequitur absolutio sacerdotis:
+S: Misereátur nostri omnípotens Deus
+S: et, dimíssis peccátis nostris,
+S: perdúcat nos ad vitam ætérnam.
+s: 愿全能的天主垂怜我们，赦免我们的罪，使我们得到永生。
+P: Amen.
+p: 阿们。
+? paenitentia-2 | Formula II | 忏悔词第二式
+R: Sacerdos fideles invitat ad actum pænitentialem:
+S: Fratres, agnoscámus peccáta nostra,
+S: ut apti simus ad sacra mystéria celebránda.
+s: 各位教友，现在我们大家认罪，虔诚地举行圣祭。
+R: Fit brevis pausa silentii. Postea sacerdos dicit:
+r: （静默片刻）
+S: Miserére nostri, Dómine.
+s: 上主，求你垂怜我们。
+P: Quia peccávimus tibi.
+p: 因为我们得罪了你。
+S: Osténde nobis, Dómine, misericórdiam tuam.
+s: 上主，求你大发慈悲。
+P: Et salutáre tuum da nobis.
+p: 施给我们救恩。
+R: Sequitur absolutio sacerdotis:
+S: Misereátur nostri omnípotens Deus
+S: et, dimíssis peccátis nostris,
+S: perdúcat nos ad vitam ætérnam.
+s: 愿全能的天主垂怜我们，赦免我们的罪，使我们得到永生。
+P: Amen.
+p: 阿们。
+? paenitentia-3 | Formula III | 忏悔词第三式
+R: Sacerdos fideles invitat ad actum pænitentialem:
+S: Fratres, agnoscámus peccáta nostra,
+S: ut apti simus ad sacra mystéria celebránda.
+s: 各位教友，现在我们大家认罪，虔诚地举行圣祭。
+R: Fit brevis pausa silentii. Postea sacerdos, vel diaconus vel alius minister, sequentes, vel alias, invocationes cum Kýrie, eléison profert:
+r: （静默片刻，然后主祭或其他适宜的辅祭人员念：）
+S: Qui missus es sanáre contrítos corde: Kýrie, eléison.
+s: 基督，你奉命来拯救忏悔的人：求你垂怜。
+P: Kýrie, eléison.
+p: 求你垂怜。
+S: Qui peccatóres vocáre venísti: Christe, eléison.
+s: 基督，你来召唤罪人：求你垂怜。
+P: Christe, eléison.
+p: 求你垂怜。
+S: Qui ad déxteram Patris sedes, ad interpellándum pro nobis: Kýrie, eléison.
+s: 基督，你在天父面前，为我们转达：求你垂怜。
+P: Kýrie, eléison.
+p: 求你垂怜。
+N: 拉丁三句分别以 Kýrie（上主）、Christe（基督）、Kýrie 呼求；《感恩祭典》三句都称“基督”，答句都作“求你垂怜”。
+R: Sequitur absolutio sacerdotis:
+S: Misereátur nostri omnípotens Deus
+S: et, dimíssis peccátis nostris,
+S: perdúcat nos ad vitam ætérnam.
+s: 愿全能的天主垂怜我们，赦免我们的罪，使我们得到永生。
+P: Amen.
+p: 阿们。
+?end
+
+¶ kyrie | Kyrie | 求主垂怜经
+R: Sequuntur invocationes Kýrie, eléison, nisi iam præcesserint in aliqua formula actus pænitentialis.
+r: 求主垂怜经（若用“忏悔词”第三式，则省略之。）
+S: Kýrie, eléison.
+s: 上主，求你垂怜。
+P: Kýrie, eléison.
+p: 上主，求你垂怜。
+S: Christe, eléison.
+s: 基督，求你垂怜。
+P: Christe, eléison.
+p: 基督，求你垂怜。
+S: Kýrie, eléison.
+s: 上主，求你垂怜。
+P: Kýrie, eléison.
+p: 上主，求你垂怜。
+
+¶ gloria | Gloria | 光荣颂
+R: Deinde, quando præscribitur, cantatur vel dicitur hymnus:
+r: 光荣颂（按礼规的指示可念或唱）
+O: Glória in excélsis Deo
+O: et in terra pax homínibus bonæ voluntátis.
+o: 天主在天受光荣，主爱的人在世享平安。
+O: Laudámus te,
+O: benedícimus te,
+O: adorámus te,
+O: glorificámus te,
+O: grátias ágimus tibi propter magnam glóriam tuam,
+O: Dómine Deus, Rex cæléstis,
+O: Deus Pater omnípotens.
+o: 主、天主、天上的君王，全能的天主圣父，我们为了你无上的光荣、赞美你、称颂你、朝拜你、显扬你、感谢你。
+O: Dómine Fili Unigénite, Iesu Christe,
+O: Dómine Deus, Agnus Dei, Fílius Patris,
+O: qui tollis peccáta mundi, miserére nobis;
+O: qui tollis peccáta mundi, súscipe deprecatiónem nostram.
+O: Qui sedes ad déxteram Patris, miserére nobis.
+o: 主、耶稣基督、独生子；主、天主、天主的羔羊，圣父之子；除免世罪者，求你垂怜我们。除免世罪者，求你俯听我们的祈祷。坐在圣父之右者，求你垂怜我们；
+O: Quóniam tu solus Sanctus, tu solus Dóminus,
+O: tu solus Altíssimus,
+O: Iesu Christe, cum Sancto Spíritu: in glória Dei Patris.
+O: Amen.
+o: 因为只有你是圣的，只有你是主，只有你是至高无上的。耶稣基督，你和圣神，同享天主圣父的光荣。阿们。
+
+¶ collecta | Collecta | 集祷经
+R: Quo hymno expleto, sacerdos, manibus iunctis, dicit:
+S: Orémus.
+s: （合掌）请大家祈祷。
+R: Et omnes una cum sacerdote per aliquod temporis spatium in silentio orant. Tunc sacerdos, manibus extensis, dicit orationem collectam, qua expleta, populus acclamat:
+r: （默祷片刻）主祭伸手念“集祷经”（用长结语词）
+[ collecta | Collecta | 集祷经 | 见当日弥撒 ]
+P: Amen.
+p: 阿们。
+N: 《感恩祭典》在此列出集祷经的三种长结语（“以上所求是靠你的子、我们的主天主、耶稣基督……”等）；拉丁本把结语印在各篇集祷经之后，弥撒常规内不列。
+
+§ liturgia-verbi | Liturgia verbi | 圣道礼仪
+R: Deinde lector ad ambonem pergit, et legit primam lectionem, quam omnes sedentes auscultant.
+r: 读经员到读经台，恭读第一篇圣经。大家坐下恭听。
+[ lectio-1 | Lectio prima | 第一篇读经 | 见当日读经 ]
+R: Ad finem lectionis significandam, lector acclamat:
+r: 读经结束念：
+L: Verbum Dómini.
+l: 以上是天主的圣言。
+O: Deo grátias.
+o: 感谢天主。
+R: Psalmista, seu cantor, psalmum cantat vel dicit, populo responsum proferente.
+r: “答唱咏”。唱经者领唱（或领念）圣咏，信友答唱（或念）。
+[ psalmus | Psalmus responsorius | 答唱咏 | 见当日读经 ]
+R: Postea, si habenda sit secunda lectio, lector eam ex ambone legit, ut supra.
+r: 若读第二篇读经，则在读经台，读经如前。
+[ lectio-2 | Lectio secunda | 第二篇读经 | 见当日读经 ]
+R: Ad finem lectionis significandam, lector acclamat:
+r: 读经后念：
+L: Verbum Dómini.
+l: 以上是天主的圣言。
+O: Deo grátias.
+o: 感谢天主。
+R: Sequitur Allelúia, vel alter cantus a rubricis statutus, prouti tempus liturgicum postulat.
+r: 接唱：“阿肋路亚”，或其他圣歌。
+[ alleluia | Allelúia vel versus ante Evangelium | 福音前欢呼 | 见当日读经 ]
+
+¶ evangelium | Evangelium | 福音
+R: Interim sacerdos incensum, si adhibetur, imponit. Postea diaconus, Evangelium prolaturus, ante sacerdotem profunde inclinatus, benedictionem petit, submissa voce dicens:
+r: 主祭可添香。执事读福音前，向主祭鞠躬请求祝福，低声念：
+D: Iube, domne, benedícere.
+d: 请神父祝福。
+R: Sacerdos submissa voce dicit:
+r: 主祭（低声念）：
+S: Dóminus sit in corde tuo et in lábiis tuis:
+S: ut digne et competénter annúnties Evangélium suum:
+S: in nómine Patris, et Fílii, ✠ et Spíritus Sancti.
+s: 愿天主降福你，使你诚心诚意，恭读他的福音。因父、及子、及圣神之名。
+R: Diaconus signat se signo crucis et respondet:
+D: Amen.
+d: 阿们。
+R: Si vero non adest diaconus, sacerdos ante altare inclinatus secreto dicit:
+r: 无执事时，主祭在祭台前鞠躬，默念：
+S: Munda cor meum ac lábia mea, omnípotens Deus,
+S: ut sanctum Evangélium tuum digne váleam nuntiáre.
+s: 全能的天主，求你使我诚心诚意，恭读你的福音。
+N: 拉丁作“全能的天主，求你洁净我的心和我的唇，使我能相称地宣读你的圣福音”；《感恩祭典》未译“洁净我的心和唇”。
+R: Postea diaconus, vel sacerdos, ad ambonem pergit, ministris pro opportunitate cum incenso et cereis eum comitantibus, et dicit:
+r: 执事或主祭，由捧烛带香的辅祭人员陪同，到读经台念：
+D: Dóminus vobíscum.
+d: 愿主与你们同在。
+P: Et cum spíritu tuo.
+p: 也与你的心灵同在。
+D: Léctio sancti Evangélii secúndum N.,
+d: 恭读圣（玛窦、马尔谷、路加、若望）福音。
+R: et interim signat librum et seipsum in fronte, ore et pectore.
+r: 同时在福音经书上，并在自己的额上、口上、胸上画十字圣号。
+P: Glória tibi, Dómine.
+p: 主，愿光荣归于你。
+R: Deinde diaconus, vel sacerdos, librum, si incensum adhibetur, thurificat, et Evangelium proclamat.
+r: 执事或主祭，可向福音经书奉香，然后恭读福音。
+[ evangelium | Evangelium | 福音 | 见当日读经 ]
+R: Expleto Evangelio, diaconus, vel sacerdos acclamat:
+r: 读福音后，执事或主祭念：
+D: Verbum Dómini.
+d: 以上是基督的福音。
+N: 拉丁作“Verbum Dómini”（上主的圣言），《感恩祭典》作“以上是基督的福音”。
+P: Laus tibi, Christe.
+p: 基督，我们赞美你。
+R: Deinde librum osculatur dicens secreto:
+r: 然后亲经书，默念：
+D: Per evangélica dicta deleántur nostra delícta.
+d: 愿所读的福音，使我们改过迁善。
+R: Deinde fit homilia, quæ a sacerdote vel diacono habenda est omnibus diebus dominicis et festis de præcepto; aliis diebus commendatur.
+r: 讲道（主日及法定应守之庆节应讲道，其他有教友参与弥撒中也最好作简短讲道）
+
+¶ credo | Symbolum | 信经
+R: Homilia expleta, cantatur vel dicitur, quando præscribitur, symbolum seu professio fidei:
+r: 信经（按礼规指示）
+? credo-1 | Symbolum Nicænum-Constantinopolitanum | 信经第一式
+O: Credo in unum Deum,
+O: Patrem omnipoténtem,
+O: factórem cæli et terræ,
+O: visibílium ómnium et invisibílium.
+o: 我信唯一的天主，全能的圣父，天地万物，无论有形无形，都是他所创造的。
+O: Et in unum Dóminum Iesum Christum,
+O: Fílium Dei Unigénitum,
+O: et ex Patre natum ante ómnia sǽcula.
+O: Deum de Deo, lumen de lúmine, Deum verum de Deo vero,
+O: génitum, non factum, consubstantiálem Patri:
+O: per quem ómnia facta sunt.
+O: Qui propter nos hómines et propter nostram salútem
+O: descéndit de cælis.
+o: 我信唯一的主、耶稣基督、天主的独生子。他在万世之前，由圣父所生。他是出自天主的天主，出自光明的光明，出自真天主的真天主。他是圣父所生，而非圣父所造，与圣父同性同体，万物是藉着他而造成的。他为了我们人类，并为了我们的得救，从天降下。
+R: Ad verba quæ sequuntur, usque ad factus est, omnes se inclinant.
+r: （鞠躬）
+O: Et incarnátus est de Spíritu Sancto
+O: ex María Vírgine, et homo factus est.
+o: 他因圣神由童贞玛利亚取得肉躯，而成为人。
+O: Crucifíxus étiam pro nobis sub Póntio Piláto;
+O: passus et sepúltus est,
+O: et resurréxit tértia die, secúndum Scriptúras,
+O: et ascéndit in cælum, sedet ad déxteram Patris.
+O: Et íterum ventúrus est cum glória,
+O: iudicáre vivos et mórtuos,
+O: cuius regni non erit finis.
+o: 他在般雀比拉多执政时，为我们被钉在十字架上，受难而被埋葬。他正如圣经所载，第三日复活了。他升了天，坐在圣父的右边。他还要光荣地降来，审判生者死者，他的神国万世无疆。
+O: Et in Spíritum Sanctum, Dóminum et vivificántem:
+O: qui ex Patre Filióque procédit.
+O: Qui cum Patre et Fílio simul adorátur et conglorificátur:
+O: qui locútus est per prophétas.
+o: 我信圣神，他是主及赋予生命者，由圣父圣子所共发。他和圣父圣子，同受钦崇，同享光荣，他曾藉先知们发言。
+O: Et unam, sanctam, cathólicam et apostólicam Ecclésiam.
+o: 我信唯一、至圣、至公、从宗徒传下来的教会。
+O: Confíteor unum baptísma in remissiónem peccatórum.
+o: 我承认赦罪的圣洗，只有一个。
+O: Et exspécto resurrectiónem mortuórum,
+O: et vitam ventúri sǽculi. Amen.
+o: 我期待死人的复活，及来世的生命。阿们。
+? credo-2 | Symbolum Apostolorum | 信经第二式（宗徒信经）
+R: Loco symboli nicæno-constantinopolitani, præsertim tempore Quadragesimæ et tempore paschali, adhiberi potest symbolum baptismale Ecclesiæ Romanæ sic dictum Apostolorum.
+O: Credo in Deum,
+O: Patrem omnipoténtem, Creatórem cæli et terræ,
+o: 我信全能的天主父，天地万物的创造者。
+N: 拉丁 PDF 此处作“Credo in unum Deum”，当为排印之误，宗徒信经通行拉丁文作“Credo in Deum”，今改。
+O: et in Iesum Christum, Fílium eius únicum,
+O: Dóminum nostrum,
+o: 我信父的唯一子，我们的主耶稣基督。
+R: Ad verba quæ sequuntur, usque ad María Vírgine, omnes se inclinant.
+O: qui concéptus est de Spíritu Sancto,
+O: natus ex María Vírgine,
+o: 我信他因圣神降孕，由童贞玛利亚诞生。
+O: passus sub Póntio Piláto,
+O: crucifíxus, mórtuus, et sepúltus,
+o: 我信他在比拉多执政时蒙难，被钉在十字架上，死而安葬。
+O: descéndit ad ínferos,
+O: tértia die resurréxit a mórtuis,
+o: 我信他下降阴府，第三日从死者中复活。
+O: ascéndit ad cælos,
+O: sedet ad déxteram Dei Patris omnipoténtis,
+o: 我信他升了天，坐在全能天主父的右边。
+O: inde ventúrus est iudicáre vivos et mórtuos.
+o: 我信他要从天降来，审判生者死者。
+O: Credo in Spíritum Sanctum,
+o: 我信圣神。
+O: sanctam Ecclésiam cathólicam,
+O: sanctórum communiónem,
+o: 我信圣而公教会，诸圣的相通。
+O: remissiónem peccatórum,
+o: 我信罪过的赦免。
+O: carnis resurrectiónem,
+o: 我信肉身的复活。
+O: vitam ætérnam. Amen.
+o: 我信永恒的生命。阿们。
+?end
+
+¶ oratio-universalis | Oratio universalis | 信友祷词
+R: Deinde fit oratio universalis, seu oratio fidelium.
+r: 信友祷词（各团体可自行编写）
+[ oratio-universalis | Oratio universalis | 信友祷词 | 由各团体编写 ]
+
+§ liturgia-eucharistica | Liturgia eucharistica | 圣祭礼仪
+R: His absolutis, incipit cantus ad offertorium. Interim ministri corporale, purificatorium, calicem, pallam et missale super altare collocant.
+r: 唱“奉献咏”时，辅祭人员将圣体布、圣血布、圣爵和弥撒经书，放于祭台上。
+R: Expedit ut fideles participationem suam oblatione manifestent, afferendo sive panem et vinum ad Eucharistiæ celebrationem, sive alia dona, quibus necessitatibus Ecclesiæ et pauperum subveniatur.
+r: 为使信友表示自己参与奉献，最好让他们献上祭饼、祭酒，或其他为教会、为济贫需要的礼物。
+R: Sacerdos, stans ad altare, accipit patenam cum pane, eamque ambabus manibus aliquantulum elevatam super altare tenet, submissa voce dicens:
+r: 主祭将圣盘和祭饼稍微举起，默念：
+S: Benedíctus es, Dómine, Deus univérsi,
+S: quia de tua largitáte accépimus panem,
+S: quem tibi offérimus,
+S: fructum terræ et óperis mánuum hóminum:
+S: ex quo nobis fiet panis vitæ.
+s: 上主，万有的天主，你赐给我们食粮，我们赞美你；我们将大地和人类劳苦的果实——麦面饼呈献给你，使成为我们的生命之粮。
+R: Deinde deponit patenam cum pane super corporale. Si vero cantus ad offertorium non peragitur, sacerdoti licet hæc verba elata voce proferre; in fine populus acclamare potest:
+r: 若不唱“奉献咏”，以上经文可由主祭高声念之；然后信友可欢呼：
+P: Benedíctus Deus in sǽcula.
+p: 愿天主永受赞美。
+R: Diaconus, vel sacerdos, infundit vinum et parum aquæ in calicem, dicens secreto:
+r: 执事或主祭，将酒及滴水注入圣爵内，默念：
+S: Per huius aquæ et vini mystérium
+S: eius efficiámur divinitátis consórtes,
+S: qui humanitátis nostræ fíeri dignátus est párticeps.
+s: 酒水的搀合，象征天主取了我们的人性，愿我们也分享基督的天主性。
+R: Postea sacerdos accipit calicem, eumque ambabus manibus aliquantulum elevatum super altare tenet, submissa voce dicens:
+r: 主祭将圣爵稍微举起，默念：
+S: Benedíctus es, Dómine, Deus univérsi,
+S: quia de tua largitáte accépimus vinum,
+S: quod tibi offérimus,
+S: fructum vitis et óperis mánuum hóminum,
+S: ex quo nobis fiet potus spiritális.
+s: 上主，万有的主，你赐给我们饮料，我们赞美你；我们将葡萄树和人类劳苦的果实——葡萄酒呈献给你，使成为我们的精神饮料。
+R: Deinde calicem super corporale deponit. Si vero cantus ad offertorium non peragitur, sacerdoti licet hæc verba elata voce proferre; in fine populus acclamare potest:
+r: （然后将圣爵放于圣体布上。）若不唱“奉献咏”，以上经文可由主祭高声念之；然后信友可欢呼：
+P: Benedíctus Deus in sǽcula.
+p: 愿天主永受赞美。
+R: Postea sacerdos, profunde inclinatus, dicit secreto:
+r: 主祭鞠躬默念：
+S: In spíritu humilitátis et in ánimo contríto
+S: suscipiámur a te, Dómine;
+S: et sic fiat sacrifícium nostrum in conspéctu tuo hódie,
+S: ut pláceat tibi, Dómine Deus.
+s: 上主，我们怀着谦逊和痛悔的心情，今天在你面前，举行祭祀，求你悦纳。
+R: Et, pro opportunitate, incensat oblata, crucem et altare. Postea vero diaconus vel alius minister incensat sacerdotem et populum.
+r: 主祭可向祭品和祭台奉香，然后执事或辅祭向主祭和信友奉香。
+R: Deinde sacerdos, stans ad latus altaris, lavat manus, dicens secreto:
+r: 主祭立于祭台旁洗手，默念：
+S: Lava me, Dómine, ab iniquitáte mea,
+S: et a peccáto meo munda me.
+s: 上主，求你洗净我的罪污，涤除我的愆尤。
+R: Stans postea in medio altaris, versus ad populum, extendens et iungens manus, dicit:
+r: 主祭立于祭台中央，面向信友，伸手后合掌：
+S: Oráte, fratres:
+S: ut meum ac vestrum sacrifícium
+S: acceptábile fiat apud Deum Patrem omnipoténtem.
+s: 各位教友：请你们祈祷，望全能的天主圣父，收纳我和你们共同奉献的圣祭。
+R: Populus surgit et respondet:
+P: Suscípiat Dóminus sacrifícium de mánibus tuis
+P: ad laudem et glóriam nóminis sui,
+P: ad utilitátem quoque nostram
+P: totiúsque Ecclésiæ suæ sanctæ.
+p: 望上主从你的手中，收纳这个圣祭，为赞美并光荣他的圣名，也为我们和他整个圣教会的益处。
+R: Deinde sacerdos, manibus extensis, dicit orationem super oblata; qua conclusa, populus acclamat:
+r: 主祭伸手念“献礼经”（用短结语词）
+[ super-oblata | Super oblata | 献礼经 | 见当日弥撒 ]
+P: Amen.
+p: 阿们。
+
+§ prex-eucharistica | Prex eucharistica | 感恩经
+R: Tunc sacerdos incipit Precem eucharisticam. Manus extendens, dicit:
+r: 感恩经开始，主祭伸手念：
+S: Dóminus vobíscum.
+s: 愿主与你们同在。
+P: Et cum spíritu tuo.
+p: 也与你的心灵同在。
+R: Sacerdos, manus elevans, prosequitur:
+r: （举手）
+S: Sursum corda.
+s: 请举心向上。
+P: Habémus ad Dóminum.
+p: 我们全心归向上主。
+R: Sacerdos, manibus extensis, subdit:
+r: （伸手）
+S: Grátias agámus Dómino Deo nostro.
+s: 请大家感谢主、我们的天主。
+P: Dignum et iustum est.
+p: 这是理所当然的。
+R: Sacerdos prosequitur præfationem, manibus extensis.
+r: 主祭继续伸手念“颂谢词”。感恩经第二式与第四式有专用颂谢词。
+[ praefatio | Præfatio | 颂谢词 | 见当日弥撒；用感恩经第二式、第四式时，用该式专用颂谢词 ]
+R: In fine autem præfationis iungit manus et, una cum populo, ipsam præfationem concludit, cantans vel clara voce dicens:
+r: 然后主祭合掌，与信友同唱（或高声念）“欢呼歌”：
+O: Sanctus, Sanctus, Sanctus Dóminus Deus Sábaoth.
+O: Pleni sunt cæli et terra glória tua.
+O: Hosánna in excélsis.
+O: Benedíctus qui venit in nómine Dómini.
+O: Hosánna in excélsis.
+o: 圣、圣、圣，上主、万有的天主，你的光荣充满天地。欢呼之声响彻云霄。奉上主名而来的当受赞美。欢呼之声，响彻云霄。
+R: In Prece eucharistica prima, seu Canone romano, ea quæ inter parentheses includuntur omitti possunt.
+r: 感恩经第一式：括弧内的经句、可以省略。
+
+? prex-1 | Prex eucharistica I seu Canon romanus | 感恩经第一式（罗马正典）
+R: Sacerdos, manibus extensis, dicit:
+r: 主祭伸手念：
+S: Te ígitur, clementíssime Pater,
+S: per Iesum Christum, Fílium tuum, Dóminum nostrum,
+S: súpplices rogámus ac pétimus,
+s: 至仁慈的圣父，我们仰赖你的圣子、我们的主耶稣基督，
+R: iungit manus et dicit:
+r: （合掌）
+S: uti accépta hábeas
+s: 恳求你悦纳
+R: signat semel super panem et calicem simul, dicens:
+r: （在祭饼和圣爵上画十字）
+S: et benedícas ✠ hæc dona, hæc múnera,
+S: hæc sancta sacrifícia illibáta,
+s: 并降福这些圣洁无玷的牺牲；
+R: extensis manibus prosequitur:
+r: （伸手）
+S: in primis, quæ tibi offérimus
+S: pro Ecclésia tua sancta cathólica:
+S: quam pacificáre, custodíre, adunáre
+S: et régere dignéris toto orbe terrárum:
+S: una cum fámulo tuo Papa nostro N.
+S: et Antístite nostro N.
+S: et ómnibus orthodóxis atque cathólicæ
+S: et apostólicæ fídei cultóribus.
+s: 我们将这些礼品呈献给你，首先是为你的圣而公教会：求你在全球各地赐她平安与团结，保护她、治理她；同时，也为你的仆人我们的教宗、我们的主教与所有主教，以及所有崇奉真道，忠于大公和宗徒信仰的人们。
+N: 拉丁只提“我们的教宗某某和我们的主教某某”，《感恩祭典》另加“与所有主教”。
+R: Commemoratio pro vivis.
+r: 纪念生者
+S: Meménto, Dómine,
+S: famulórum famularúmque tuárum N. et N.
+s: 上主，求你垂念你的仆婢（某某）
+R: Iungit manus et orat aliquantulum pro quibus orare intendit. Deinde, manibus extensis, prosequitur:
+r: （合掌默祷片刻，伸手）
+S: et ómnium circumstántium,
+S: quorum tibi fides cógnita est et nota devótio,
+S: pro quibus tibi offérimus:
+S: vel qui tibi ófferunt hoc sacrifícium laudis,
+S: pro se suísque ómnibus:
+S: pro redemptióne animárum suárum,
+S: pro spe salútis et incolumitátis suæ:
+S: tibíque reddunt vota sua
+S: ætérno Deo, vivo et vero.
+s: 和所有参礼的人，他们的信德和虔诚，是你所深知的。我们为他们，或他们为自己和亲友，将这赞颂之祭奉献给你，以获得他们自身的得救，和所希望的身心安全；他们并向永生真实的天主——你，呈献自己的心愿。
+R: Infra Actionem.
+r: 纪念诸圣（圣诞周、主显节、复活周、耶稣升天节及五旬主日，另有经文，见下）
+S: Communicántes,
+S: et memóriam venerántes,
+S: in primis gloriósæ semper Vírginis Maríæ,
+S: Genetrícis Dei et Dómini nostri Iesu Christi:
+S: sed et beáti Ioseph, eiúsdem Vírginis Sponsi,
+S: et beatórum Apostolórum ac Mártyrum tuórum,
+S: Petri et Pauli, Andréæ,
+S: (Iacóbi, Ioánnis,
+S: Thomæ, Iacóbi, Philíppi,
+S: Bartholomǽi, Matthǽi,
+S: Simónis et Thaddǽi:
+S: Lini, Cleti, Cleméntis, Xysti,
+S: Cornélii, Cypriáni,
+S: Lauréntii, Chrysógoni,
+S: Ioánnis et Pauli,
+S: Cosmæ et Damiáni)
+S: et ómnium Sanctórum tuórum;
+S: quorum méritis precibúsque concédas,
+S: ut in ómnibus protectiónis tuæ muniámur auxílio.
+S: (Per Christum Dóminum nostrum. Amen.)
+s: 我们联合整个教会，首先纪念我们的主耶稣基督天主之母——终身童贞荣福玛利亚，并纪念圣母的净配圣若瑟，及你的圣宗徒和殉道者：伯多禄和保禄、安德肋（雅各伯、若望、多默、雅各伯、斐理伯、巴尔多禄茂、玛窦、西满和达陡；理诺、格来多、格肋孟、西斯笃、高尔乃略、西彼廉、老楞佐、克利叟、若望和保禄、葛斯默和达弥盎），以及所有圣人；求你看他们的功劳和祈祷，在各种境遇中，护佑我们。（以上所求，是靠我们的主基督。阿们。）
+R: Communicantes propria. In Nativitate Domini et per octavam:
+r: 圣诞节及八日内：
+S: Communicántes,
+S: et (noctem sacratíssimam) diem sacratíssimum celebrántes,
+S: (qua) quo beátæ Maríæ intemeráta virgínitas
+S: huic mundo édidit Salvatórem:
+S: sed et memóriam venerántes,
+S: in primis eiúsdem gloriósæ semper Vírginis Maríæ,
+S: Genetrícis eiúsdem Dei et Dómini nostri Iesu Christi: …
+s: 我们联合整个教会，共同庆祝这至圣之（夜）日，因为无玷童贞荣福玛利亚，给世界产生了救主；我们首先纪念我们的主耶稣基督天主之母终身童贞荣福玛利亚……
+R: In Epiphania Domini:
+r: 主显节：
+S: Communicántes,
+S: et diem sacratíssimum celebrántes,
+S: quo Unigénitus tuus, in tua tecum glória coætérnus,
+S: in veritáte carnis nostræ visibíliter corporális appáruit:
+S: sed et memóriam venerántes,
+S: in primis gloriósæ semper Vírginis Maríæ,
+S: Genetrícis eiúsdem Dei et Dómini nostri Iesu Christi: …
+s: 我们联合整个教会，共同庆祝这至圣之日，因为与你永远共享尊荣的、你的唯一圣子，以真实的肉体现身人间，我们首先纪念我们的主耶稣基督天主之母——终身童贞荣福玛利亚……
+R: A Missa Vigiliæ paschalis usque ad dominicam II Paschæ:
+r: 由复活前夕至复活第二主日：
+S: Communicántes,
+S: et (noctem sacratíssimam) diem sacratíssimum celebrántes
+S: Resurrectiónis Dómini nostri Iesu Christi secúndum carnem:
+S: sed et memóriam venerántes,
+S: in primis gloriósæ semper Vírginis Maríæ,
+S: Genetrícis eiúsdem Dei et Dómini nostri Iesu Christi: …
+s: 我们联合整个教会，庆祝我们的主耶稣基督、肉身复活的至圣之（夜）日；我们首先纪念我们的主耶稣基督天主之母——终身童贞荣福玛利亚……
+R: In Ascensione Domini:
+r: 耶稣升天节：
+S: Communicántes,
+S: et diem sacratíssimum celebrántes,
+S: quo Dóminus noster, unigénitus Fílius tuus,
+S: unítam sibi fragilitátis nostræ substántiam
+S: in glóriæ tuæ déxtera collocávit:
+S: sed et memóriam venerántes,
+S: in primis gloriósæ semper Vírginis Maríæ,
+S: Genetrícis eiúsdem Dei et Dómini nostri Iesu Christi: …
+s: 我们联合整个教会，庆祝这至圣之日，因为我们的主——你的唯一圣子，使他的天主性结合了我们软弱的人性，而把它提升到你光荣的右边；我们首先纪念我们的主耶稣基督天主之母——终身童贞荣福玛利亚……
+R: In dominica Pentecostes:
+r: 五旬节主日（圣神降临）：
+S: Communicántes,
+S: et diem sacratíssimum Pentecóstes celebrántes,
+S: quo Spíritus Sanctus
+S: Apóstolis in ígneis linguis appáruit:
+S: sed et memóriam venerántes,
+S: in primis gloriósæ semper Vírginis Maríæ,
+S: Genetrícis Dei et Dómini nostri Iesu Christi: …
+s: 我们联合整个教会，庆祝这五旬节至圣之日，因为圣神藉着无数的火舌显现给宗徒们；我们首先纪念我们的主耶稣基督天主之母——终身童贞荣福玛利亚……
+R: Manibus extensis, prosequitur:
+r: 主祭伸手念：
+S: Hanc ígitur oblatiónem servitútis nostræ,
+S: sed et cunctæ famíliæ tuæ,
+S: quǽsumus, Dómine, ut placátus accípias:
+S: diésque nostros in tua pace dispónas,
+S: atque ab ætérna damnatióne nos éripi
+S: et in electórum tuórum iúbeas grege numerári.
+s: 上主，我们恳求你悦纳你的仆人和你全家所奉献的这些礼品，使我们一生平安度日，脱免永罚，并得列入你拣选的人群中。
+R: Iungit manus.
+r: （合掌）
+S: (Per Christum Dóminum nostrum. Amen.)
+s: （以上所求，是靠我们的主基督。阿们。）
+R: A Missa Vigiliæ paschalis usque ad dominicam II Paschæ:
+r: 由复活前夕至复活第二主日：
+S: Hanc ígitur oblatiónem servitútis nostræ,
+S: sed et cunctæ famíliæ tuæ,
+S: quam tibi offérimus
+S: pro his quoque, quos regeneráre dignátus es ex aqua et Spíritu Sancto,
+S: tríbuens eis remissiónem ómnium peccatórum,
+S: quǽsumus, Dómine, ut placátus accípias:
+S: diésque nostros in tua pace dispónas,
+S: atque ab ætérna damnatióne nos éripi
+S: et in electórum tuórum iúbeas grege numerári.
+S: (Per Christum Dóminum nostrum. Amen.)
+s: 上主，我们恳求你，悦纳你的仆人和你全家所奉献的这些礼品，我们特别为所有从水和圣神再生的人们奉献，他们全部罪过已获得赦免。求你使我们一生平安度日，脱免永罚，并得列入你拣选的人群中。（合掌）（以上所求，是靠我们的主基督。阿们。）
+R: Tenens manus expansas super oblata, dicit:
+r: 主祭覆手于祭品上念：
+S: Quam oblatiónem tu, Deus, in ómnibus, quǽsumus,
+S: benedíctam, adscríptam, ratam,
+S: rationábilem, acceptabilémque fácere dignéris:
+S: ut nobis Corpus et Sanguis fiat dilectíssimi Fílii tui,
+S: Dómini nostri Iesu Christi.
+s: 天主，我们恳求你，圣化并接受这些礼品，使成为你歆飨的完美祭献：就是你钟爱之子——我们的主耶稣基督的圣体圣血。
+R: Iungit manus. In formulis quæ sequuntur, verba Domini proferantur distincte et aperte, prouti natura eorundem verborum requirit.
+r: （合掌）成圣体（清晰朗诵下列经文）
+S: Qui, prídie quam paterétur,
+s: 他在受难的前夕，
+R: accipit panem, eumque parum elevatum super altare tenens, prosequitur:
+r: （双手拿祭饼，略举起）
+S: accépit panem in sanctas ac venerábiles manus suas,
+s: 把面饼拿在他神圣而可敬的手中，
+R: elevat oculos,
+r: （举目向上）
+S: et elevátis óculis in cælum
+S: ad te Deum Patrem suum omnipoténtem,
+S: tibi grátias agens benedíxit,
+S: fregit,
+S: dedítque discípulis suis, dicens:
+s: 举目向天，仰望你——他的全能天主圣父，感谢赞颂你，把面饼分开，交给他的门徒说：
+R: parum se inclinat
+r: （稍微俯身）
+S: Accípite et manducáte ex hoc omnes:
+S: hoc est enim Corpus meum,
+S: quod pro vobis tradétur.
+s: 你们大家拿去吃：这就是我的身体，将为你们而牺牲。
+R: Hostiam consecratam ostendit populo, reponit super patenam, et genuflexus adorat.
+r: （双手举起圣体，置于圣盘内，请安）
+R: Postea prosequitur:
+r: 成圣血
+S: Símili modo, postquam cenátum est,
+s: 晚餐后，
+R: accipit calicem, eumque parum elevatum super altare tenens, prosequitur:
+r: （双手拿圣爵，略举起）
+S: accípiens et hunc præclárum cálicem
+S: in sanctas ac venerábiles manus suas,
+S: item tibi grátias agens benedíxit,
+S: dedítque discípulis suis, dicens:
+s: 他同样把这珍贵的杯，拿在他神圣而可敬的手中，又感谢赞颂你，交给他的门徒说：
+R: parum se inclinat
+r: （稍微俯身）
+S: Accípite et bíbite ex eo omnes:
+S: hic est enim calix Sánguinis mei
+S: novi et ætérni testaménti,
+S: qui pro vobis et pro multis effundétur
+S: in remissiónem peccatórum.
+S: Hoc fácite in meam commemoratiónem.
+s: 你们大家拿去喝：这一杯就是我的血，新而永久的盟约之血，将为你们和众人倾流，以赦免罪恶。你们要这样做，来纪念我。
+R: Calicem ostendit populo, deponit super corporale, et genuflexus adorat.
+r: （双手举起圣爵，置于圣体布上，请安）
+@acclamatio
+R: Deinde sacerdos, extensis manibus, dicit:
+r: 主祭伸手念：
+S: Unde et mémores, Dómine,
+S: nos servi tui,
+S: sed et plebs tua sancta,
+S: eiúsdem Christi, Fílii tui, Dómini nostri,
+S: tam beátæ passiónis,
+S: necnon et ab ínferis resurrectiónis,
+S: sed et in cælos gloriósæ ascensiónis:
+S: offérimus præcláræ maiestáti tuæ
+S: de tuis donis ac datis
+S: hóstiam puram,
+S: hóstiam sanctam,
+S: hóstiam immaculátam,
+S: Panem sanctum vitæ ætérnæ
+S: et Cálicem salútis perpétuæ.
+s: 上主，因此我们作你仆人的，和你的全体神圣子民，纪念你的圣子、我主基督神圣的苦难，和他从死者中的复活，以及他光荣的升天；我们从你所赐的恩物中，把这纯洁、神圣、无玷的牺牲，永恒生命之粮，和救恩之杯，奉献于你台前。
+S: Supra quæ propítio ac seréno vultu
+S: respícere dignéris:
+S: et accépta habére,
+S: sícuti accépta habére dignátus es
+S: múnera púeri tui iusti Abel,
+S: et sacrifícium Patriárchæ nostri Abrahæ,
+S: et quod tibi óbtulit summus sacérdos tuus Melchísedech,
+S: sanctum sacrifícium, immaculátam hóstiam.
+s: 求你慈祥地垂视这些祭品，并欣然予以接受，就如你曾接受了你的义仆亚伯尔的祭品、我们的信仰之父亚巴郎的祭献，和你的大司祭默基瑟德所奉献给你的、圣洁的祭品，无玷的牺牲。
+R: Inclinatus, iunctis manibus, prosequitur:
+r: 主祭俯身合掌：
+S: Súpplices te rogámus, omnípotens Deus:
+S: iube hæc perférri per manus sancti Angeli tui
+S: in sublíme altáre tuum,
+S: in conspéctu divínæ maiestátis tuæ;
+S: ut, quotquot ex hac altáris participatióne
+S: sacrosánctum Fílii tui Corpus et Sánguinem sumpsérimus,
+s: 全能的天主，我们恳切求你命你的圣天使，将这祭品呈献到你至高的祭台上，在你神圣的尊威台前，使我们凡参与这祭献的，领受了你圣子的圣体圣血之后，
+R: erigit se atque seipsum signat, dicens:
+r: （直立，画十字圣号）
+S: omni benedictióne cælésti et grátia repleámur.
+s: 得以充满一切天恩和圣宠。
+R: Iungit manus.
+r: （合掌）
+S: (Per Christum Dóminum nostrum. Amen.)
+s: （以上所求是靠我们的主基督。阿们。）
+R: Commemoratio pro defunctis. Manibus extensis, dicit:
+r: 纪念亡者（伸手念：）
+S: Meménto étiam, Dómine,
+S: famulórum famularúmque tuárum N. et N.,
+S: qui nos præcessérunt cum signo fídei,
+S: et dórmiunt in somno pacis.
+s: 上主，求你也垂念我们的祖先和你的仆婢（某某），他们保持着信德，先我们而去，如今正在安眠休息。
+N: “我们的祖先”是《感恩祭典》所加，拉丁无此语。
+R: Iungit manus et orat aliquantulum pro iis defunctis, pro quibus orare intendit. Deinde, extensis manibus, prosequitur:
+r: （合掌为求主垂念的人默祷片刻，然后，伸手）
+S: Ipsis, Dómine, et ómnibus in Christo quiescéntibus,
+S: locum refrigérii, lucis et pacis,
+S: ut indúlgeas, deprecámur.
+s: 上主，我们求你赏赐他们及所有安息于基督怀中的人，进入永福、光明和安宁的天乡。
+R: Iungit manus.
+r: （合掌）
+S: (Per Christum Dóminum nostrum. Amen.)
+s: （以上所求，是靠我们的主基督。阿们。）
+R: Manu dextera percutit sibi pectus, dicens:
+r: 主祭右手捶胸：
+S: Nobis quoque peccatóribus fámulis tuis,
+s: 至于你的仆役、我们罪人，
+R: et extensis manibus prosequitur:
+r: （伸手）
+S: de multitúdine miseratiónum tuárum sperántibus,
+S: partem áliquam et societátem donáre dignéris
+S: cum tuis sanctis Apóstolis et Martýribus:
+S: cum Ioánne, Stéphano,
+S: Matthía, Bárnaba,
+S: (Ignátio, Alexándro,
+S: Marcellíno, Petro,
+S: Felicitáte, Perpétua,
+S: Agatha, Lúcia,
+S: Agnéte, Cæcília, Anastásia)
+S: et ómnibus Sanctis tuis:
+S: intra quorum nos consórtium,
+S: non æstimátor mériti,
+S: sed véniæ, quǽsumus, largítor admítte.
+s: 依恃你无限的仁慈，求你惠赐我们加入你的圣宗徒及殉道者的团体：就是若翰、斯德望、玛弟亚、巴尔纳伯、（依纳爵、亚历山大、玛策廉、伯多禄、斐理谦、伯尔伯都亚、亚加大、路济亚、依搦斯、则济利亚、亚纳大西亚）以及你的诸圣的团体；求你不要看我们的功过，但按你的宽仁好施，恩准我们加入诸圣的行列。
+R: Iungit manus.
+r: （合掌）
+S: Per Christum Dóminum nostrum.
+s: 以上所求，是靠我们的主基督。
+R: Et prosequitur:
+r: 然后继续：
+S: Per quem hæc ómnia, Dómine,
+S: semper bona creas, sanctíficas, vivíficas, benedícis,
+S: et præstas nobis.
+s: 上主，你藉着他，不停地创造、圣化、滋生、降福这一切美好之物，而赐给我们。
+@doxologia
+
+? prex-2 | Prex eucharistica II | 感恩经第二式
+R: Quamvis præfatione propria instructa sit, Prex eucharistica hæc adhiberi potest etiam cum aliis præfationibus, cum iis præsertim quæ mysterium salutis compendiose repræsentant, v. gr. cum præfationibus communibus.
+N: 本式有专用颂谢词（下列），也可配其他颂谢词。颂谢词前的对答（“愿主与你们同在”等）与欢呼歌见上文。
+S: Vere dignum et iustum est, æquum et salutáre,
+S: nos tibi, sancte Pater,
+S: semper et ubíque grátias ágere
+S: per Fílium dilectiónis tuæ Iesum Christum,
+S: Verbum tuum per quod cuncta fecísti:
+S: quem misísti nobis Salvatórem et Redemptórem,
+S: incarnátum de Spíritu Sancto et ex Vírgine natum.
+s: 圣父，我们藉着你钟爱之子、耶稣基督，时时处处感谢你，实在是理所当然的，并能使人得救。基督是你的圣言，你藉着他创造了万有，并派遣他救赎了我们，他因圣神降孕，由童贞女诞生。
+S: Qui voluntátem tuam adímplens
+S: et pópulum tibi sanctum acquírens
+S: exténdit manus cum paterétur,
+S: ut mortem sólveret et resurrectiónem manifestáret.
+s: 他奉行你的旨意，为你争取神圣的子民，受难时伸开双手，以战胜死亡，宣示复活。
+S: Et ídeo cum Angelis et ómnibus Sanctis
+S: glóriam tuam prædicámus, una voce dicéntes:
+s: 因此，我们随同天使和诸位圣人，歌颂你的光荣，同声欢呼：
+O: Sanctus, Sanctus, Sanctus Dóminus Deus Sábaoth. …
+o: 圣、圣、圣，上主、万有的天主……
+R: Sacerdos, manibus extensis, dicit:
+r: 主祭伸手念：
+S: Vere Sanctus es, Dómine, fons omnis sanctitátis.
+s: 上主，你实在是神圣的，你是一切圣德的根源。
+N: 《感恩祭典》此处另有主日、圣诞、主显、复活、升天、五旬节的插入经文（“因此我们来到你台前……”），拉丁标准版无此段，本页不收。
+R: Iungit manus, easque expansas super oblata tenens, dicit:
+r: 主祭合掌，覆手于祭品上念：
+S: Hæc ergo dona, quǽsumus,
+S: Spíritus tui rore sanctífica,
+s: 因此，我们恳求你派遣圣神，圣化这些礼品，
+N: 拉丁作“以你圣神的甘露圣化这些礼品”，《感恩祭典》作“派遣圣神，圣化这些礼品”。
+R: iungit manus et signat semel super panem et calicem simul, dicens:
+r: （合掌，对祭饼及圣爵画十字）
+S: ut nobis Corpus et ✠ Sanguis fiant
+S: Dómini nostri Iesu Christi.
+s: 使成为我们的主耶稣基督的圣体圣血。
+R: Iungit manus. In formulis quæ sequuntur, verba Domini proferantur distincte et aperte, prouti natura eorundem verborum requirit.
+r: 成圣体（清晰朗诵下列经文）
+S: Qui cum Passióni voluntárie traderétur,
+s: 他甘愿舍身受难时，
+R: accipit panem, eumque parum elevatum super altare tenens, prosequitur:
+r: （双手拿祭饼，略举起）
+S: accépit panem et grátias agens fregit,
+S: dedítque discípulis suis, dicens:
+s: 拿起面饼，感谢了，分开，交给他的门徒说：
+R: parum se inclinat
+r: （稍微俯身）
+S: Accípite et manducáte ex hoc omnes:
+S: hoc est enim Corpus meum,
+S: quod pro vobis tradétur.
+s: 你们大家拿去吃：这就是我的身体，将为你们而牺牲。
+R: Hostiam consecratam ostendit populo, reponit super patenam, et genuflexus adorat.
+r: （双手举起圣体，置于圣盘内，请安）
+R: Postea prosequitur:
+r: 成圣血
+S: Símili modo, postquam cenátum est,
+s: 晚餐后，
+R: accipit calicem, eumque parum elevatum super altare tenens, prosequitur:
+r: （双手拿圣爵，略举起）
+S: accípiens et cálicem
+S: íterum tibi grátias agens dedit discípulis suis, dicens:
+s: 他同样拿起杯来，又感谢了，交给他的门徒说：
+R: parum se inclinat
+r: （稍微俯身）
+S: Accípite et bíbite ex eo omnes:
+S: hic est enim calix Sánguinis mei
+S: novi et ætérni testaménti,
+S: qui pro vobis et pro multis effundétur
+S: in remissiónem peccatórum.
+S: Hoc fácite in meam commemoratiónem.
+s: 你们大家拿去喝：这一杯就是我的血，新而永久的盟约之血，将为你们和众人倾流，以赦免罪恶。你们要这样做，来纪念我。
+R: Calicem ostendit populo, deponit super corporale, et genuflexus adorat.
+r: （双手举起圣爵，置于圣体布上，请安）
+@acclamatio
+R: Deinde sacerdos, extensis manibus, dicit:
+r: 主祭伸手念：
+S: Mémores ígitur mortis et resurrectiónis eius,
+S: tibi, Dómine, panem vitæ
+S: et cálicem salútis offérimus,
+S: grátias agéntes quia nos dignos habuísti
+S: astáre coram te et tibi ministráre.
+s: 上主，因此我们纪念基督的圣死与复活，向你奉献生命之粮，救恩之杯，感谢你使我们得在你台前，事奉你。
+S: Et súpplices deprecámur
+S: ut Córporis et Sánguinis Christi partícipes
+S: a Spíritu Sancto congregémur in unum.
+s: 我们恳求你，使我们分享基督的圣体圣血，并因圣神合而为一。
+S: Recordáre, Dómine, Ecclésiæ tuæ toto orbe diffúsæ,
+S: ut eam in caritáte perfícias
+S: una cum Papa nostro N. et Epíscopo nostro N.
+S: et univérso clero.
+s: 上主，求你垂念普世的教会，使你的子民偕同我们的教宗，我们的主教与所有主教，以及全体圣职人员，都在爱德中日趋完善。
+R: In Missis pro defunctis addi potest:
+r: （追思弥撒中可以加念此节）
+S: Meménto fámuli tui (fámulæ tuæ) N.,
+S: quem (quam) (hódie) ad te ex hoc mundo vocásti.
+S: Concéde, ut, qui (quæ) complantátus (complantáta) fuit
+S: similitúdini mortis Fílii tui,
+S: simul fiat et resurrectiónis ipsíus.
+s: 求你垂念你的仆人（某某），你（今天）从人世将他（她）召回。他（她）既因圣洗和你的圣子一样死亡，求你也使他（她）和你的圣子一样地复活。
+S: Meménto étiam fratrum nostrórum,
+S: qui in spe resurrectiónis dormiérunt,
+S: omniúmque in tua miseratióne defunctórum,
+S: et eos in lumen vultus tui admítte.
+s: 求你也垂念怀着复活的希望而安息的兄弟姊妹；并求你垂念我们的祖先和所有去世的人，使他们享见你光辉的圣容。
+S: Omnium nostrum, quǽsumus, miserére,
+S: ut cum beáta Dei Genetríce Vírgine María,
+S: beátis Apóstolis et ómnibus Sanctis,
+S: qui tibi a sǽculo placuérunt,
+S: ætérnæ vitæ mereámur esse consórtes,
+S: et te laudémus et glorificémus
+s: 求你垂念我们众人，使我们得与天主之母童贞荣福玛利亚、诸圣宗徒，以及你所喜爱的历代圣人圣女，共享永生；
+R: iungit manus
+r: （合掌）
+S: per Fílium tuum Iesum Christum.
+s: 并使我们藉着你的圣子耶稣基督，赞美你、显扬你。
+@doxologia
+
+? prex-3 | Prex eucharistica III | 感恩经第三式
+R: Sacerdos, manibus extensis, dicit:
+r: 主祭伸手念：
+S: Vere Sanctus es, Dómine,
+S: et mérito te laudat omnis a te cóndita creatúra,
+S: quia per Fílium tuum,
+S: Dóminum nostrum Iesum Christum,
+S: Spíritus Sancti operánte virtúte,
+S: vivíficas et sanctíficas univérsa,
+S: et pópulum tibi congregáre non désinis,
+S: ut a solis ortu usque ad occásum
+S: oblátio munda offerátur nómini tuo.
+s: 上主，你实在是神圣的，你所创造的万物、理当赞美你：因为你藉着你的圣子、我们的主耶稣基督，以圣神的德能，养育圣化万有，又不断为你召集子民，好能时时处处，向你呈上纯洁的祭献。
+R: Iungit manus, easque expansas super oblata tenens, dicit:
+r: 主祭合掌，覆手于祭品上：
+S: Súpplices ergo te, Dómine, deprecámur,
+S: ut hæc múnera, quæ tibi sacránda detúlimus,
+S: eódem Spíritu sanctificáre dignéris,
+s: 上主，所以我们恳求你，藉着圣神，圣化我们献给你的这些礼品，
+R: iungit manus et signat semel super panem et calicem simul, dicens:
+r: （合掌，在祭饼和圣爵上画十字）
+S: ut Corpus et ✠ Sanguis fiant
+S: Fílii tui Dómini nostri Iesu Christi,
+s: 使成为你的圣子、我们的主耶稣基督的圣体圣血，
+R: iungit manus
+r: （合掌）
+S: cuius mandáto hæc mystéria celebrámus.
+s: 我们遵照他的命令，举行这项奥迹。
+R: In formulis quæ sequuntur, verba Domini proferantur distincte et aperte, prouti natura eorundem verborum requirit:
+r: 成圣体（清晰朗诵下列经文：）
+S: Ipse enim in qua nocte tradebátur
+s: 他在被出卖的那天晚上，
+R: accipit panem, eumque parum elevatum super altare tenens, prosequitur:
+r: （双手拿祭饼，略举起）
+S: accépit panem
+S: et tibi grátias agens benedíxit,
+S: fregit, dedítque discípulis suis, dicens:
+s: 拿起面饼，感谢赞颂你，把面饼分开、交给他的门徒说：
+R: parum se inclinat
+r: （稍微俯身）
+S: Accípite et manducáte ex hoc omnes:
+S: hoc est enim Corpus meum,
+S: quod pro vobis tradétur.
+s: 你们大家拿去吃：这就是我的身体，将为你们而牺牲。
+R: Hostiam consecratam ostendit populo, reponit super patenam, et genuflexus adorat.
+r: （双手举起圣体，再放回圣盘内，请安）
+R: Postea prosequitur:
+r: 成圣血
+S: Símili modo, postquam cenátum est,
+s: 晚餐后，
+R: accipit calicem, eumque parum elevatum super altare tenens, prosequitur:
+r: （双手拿圣爵，略举起）
+S: accípiens cálicem,
+S: et tibi grátias agens benedíxit,
+S: dedítque discípulis suis, dicens:
+s: 他同样拿起杯来，感谢赞颂你，交给他的门徒说：
+R: parum se inclinat
+r: （稍微俯身）
+S: Accípite et bíbite ex eo omnes:
+S: hic est enim calix Sánguinis mei
+S: novi et ætérni testaménti,
+S: qui pro vobis et pro multis effundétur
+S: in remissiónem peccatórum.
+S: Hoc fácite in meam commemoratiónem.
+s: 你们大家拿去喝：这一杯就是我的血，新而永久的盟约之血，将为你们和众人倾流，以赦免罪恶。你们要这样做，来纪念我。
+R: Calicem ostendit populo, deponit super corporale, et genuflexus adorat.
+r: （双手举起圣爵，置于圣体布上，请安）
+@acclamatio
+R: Deinde sacerdos, extensis manibus, dicit:
+r: 主祭伸手念：
+S: Mémores ígitur, Dómine,
+S: eiúsdem Fílii tui salutíferæ passiónis
+S: necnon mirábilis resurrectiónis
+S: et ascensiónis in cælum,
+S: sed et præstolántes álterum eius advéntum,
+S: offérimus tibi, grátias referéntes,
+S: hoc sacrifícium vivum et sanctum.
+s: 上主，因此我们纪念你的圣子为拯救世人所受的苦难，和他光荣的复活、升天，并期待他再度来临，以感恩的心情，献上这具有生命的圣祭。
+S: Réspice, quǽsumus, in oblatiónem Ecclésiæ tuæ
+S: et, agnóscens Hóstiam,
+S: cuius voluísti immolatióne placári,
+S: concéde, ut qui Córpore et Sánguine Fílii tui refícimur,
+S: Spíritu eius Sancto repléti,
+S: unum corpus et unus spíritus inveniámur in Christo.
+s: 请垂顾你教会的奉献，并接受这赎罪的牺牲，求你使我们藉你圣子的圣体圣血得到滋养，并充满他的圣神，在基督内成为一心一体。
+S: Ipse nos tibi perfíciat munus ætérnum,
+S: ut cum eléctis tuis hereditátem cónsequi valeámus,
+S: in primis cum beatíssima Vírgine, Dei Genetríce, María,
+S: cum beátis Apóstolis tuis et gloriósis Martýribus
+S: (cum Sancto N.: Sancto diei vel patrono)
+S: et ómnibus Sanctis,
+S: quorum intercessióne
+S: perpétuo apud te confídimus adiuvári.
+s: 愿圣神使我们成为你永恒的祭品，得与你拣选的人，首先与天主之母童贞荣福玛利亚、你的圣宗徒及光荣的殉道者（和［本日的圣人或主保］圣……），以及全体圣人，共同继承天国的产业；我们靠他们的转求，不断地获得助佑。
+S: Hæc Hóstia nostræ reconciliatiónis profíciat,
+S: quǽsumus, Dómine,
+S: ad totíus mundi pacem atque salútem.
+S: Ecclésiam tuam, peregrinántem in terra,
+S: in fide et caritáte firmáre dignéris
+S: cum fámulo tuo Papa nostro N. et Epíscopo nostro N.,
+S: cum episcopáli órdine et univérso clero
+S: et omni pópulo acquisitiónis tuæ.
+s: 上主，但愿这与你修好之祭，有助于整个世界的和平与得救，并使旅途中的教会：我们的教宗、我们的主教、所有主教、圣职人员，以及你所救赎的全体子民，在信德和爱德中坚定不移。
+S: Votis huius famíliæ, quam tibi astáre voluísti,
+S: adésto propítius.
+S: Omnes fílios tuos ubíque dispérsos
+S: tibi, clemens Pater, miserátus coniúnge.
+s: 你既愿这大家庭侍立在你台前，求你也俯允全家的愿望。仁慈的圣父，求你使散居各处的子女，和你团聚。
+S: Fratres nostros defúnctos
+S: et omnes qui, tibi placéntes, ex hoc sǽculo transiérunt,
+S: in regnum tuum benígnus admítte,
+S: ubi fore sperámus,
+S: ut simul glória tua perénniter satiémur,
+s: 求你垂怜我们的祖先、已亡的亲友，和所有在你宠爱中去世的人，恩准他们进入天国。我们也希望将来在天国永远同他们共享你的光荣。
+N: 拉丁作“我们已亡的弟兄和所有……”，《感恩祭典》作“我们的祖先、已亡的亲友”。
+R: iungit manus
+r: （合掌）
+S: per Christum Dóminum nostrum,
+S: per quem mundo bona cuncta largíris.
+s: 以上所求，是靠我们的主基督，因为你藉着他赐给世界一切美善。
+@doxologia
+R: Quando hæc Prex eucharistica in Missis pro defunctis adhibetur, dici potest:
+r: 追思弥撒内可用此节经文：
+S: Meménto fámuli tui (fámulæ tuæ) N.,
+S: quem (quam) (hódie) ad te ex hoc mundo vocásti.
+S: Concéde, ut, qui (quæ) complantátus (complantáta)
+S: fuit similitúdini mortis Fílii tui,
+S: simul fiat et resurrectiónis ipsíus,
+S: quando mórtuos suscitábit in carne de terra
+S: et corpus humilitátis nostræ
+S: configurábit córpori claritátis suæ.
+s: 求你垂念你的仆人（某），你（今天）从人世将他（她）召回。他（她）既因圣洗和你的圣子一样地死亡，求你也使他（她）和你的圣子一样地复活；将来基督使肉身复活的时候，我们卑微的肉躯，也能相似他光荣的身体。
+S: Sed et fratres nostros defúnctos,
+S: et omnes qui, tibi placéntes, ex hoc sǽculo transiérunt,
+S: in regnum tuum benígnus admítte,
+S: ubi fore sperámus,
+S: ut simul glória tua perénniter satiémur,
+S: quando omnem lácrimam abstérges ab óculis nostris,
+S: quia te, sícuti es, Deum nostrum vidéntes,
+S: tibi símiles érimus cuncta per sǽcula,
+S: et te sine fine laudábimus,
+s: 求你也垂怜我们的祖先、已亡的亲友，和所有在你宠爱中去世的人，恩准他们进入天国。我们也希望将来在天国，永远同他们共享你的光荣：那时你将擦干我们的眼泪，因为我们要亲眼看见你，我们的天主，永远相似你，不停地赞美你。
+R: iungit manus
+r: （合掌）
+S: per Christum Dóminum nostrum,
+S: per quem mundo bona cuncta largíris.
+s: 以上所求是靠我们的主基督，因为你藉着他赐给世界一切美善。
+
+? prex-4 | Prex eucharistica IV | 感恩经第四式
+R: Præfatio huius Precis eucharisticæ mutare non licet ratione structuræ ipsius Precis, quæ summarium historiæ salutis præbet.
+N: 本式须用专用颂谢词（下列），不可更换。颂谢词前的对答见上文。
+S: Vere dignum est tibi grátias ágere,
+S: vere iustum est te glorificáre, Pater sancte,
+S: quia unus es Deus vivus et verus,
+S: qui es ante sǽcula et pérmanes in ætérnum,
+S: inaccessíbilem lucem inhábitans;
+S: sed et qui unus bonus atque fons vitæ cuncta fecísti,
+S: ut creatúras tuas benedictiónibus adimpléres
+S: multásque lætificáres tui lúminis claritáte.
+s: 圣父，感谢你、显扬你，实在是理所当然的：因为你是唯一、生活、真实的天主，万世以前你已存在，而且永远长存，你居住在无法接近的光明中；你也是唯一慈善的天主，又是生命之源：你创造了一切，使万物满渥你的恩泽，分享你的光辉。
+S: Et ídeo coram te innúmeræ astant turbæ angelórum,
+S: qui die ac nocte sérviunt tibi
+S: et, vultus tui glóriam contemplántes,
+S: te incessánter gloríficant.
+S: Cum quibus et nos et, per nostram vocem,
+S: omnis quæ sub cælo est creatúra
+S: nomen tuum in exsultatióne confitémur, canéntes:
+s: 因此，无数的天使侍立在你座前，瞻仰你的容光，日夜事奉你，不停地颂扬你。我们随同天使，并代表天下万物，藉着我们的歌声，欢跃称扬你的圣名，同声歌颂：
+O: Sanctus, Sanctus, Sanctus Dóminus Deus Sábaoth. …
+o: 圣、圣、圣，上主、万有的天主……
+R: Sacerdos, manibus extensis, dicit:
+r: 主祭伸手念：
+S: Confitémur tibi, Pater sancte,
+S: quia magnus es et ómnia ópera tua
+S: in sapiéntia et caritáte fecísti.
+S: Hóminem ad tuam imáginem condidísti,
+S: eíque commisísti mundi curam univérsi,
+S: ut, tibi soli Creatóri sérviens,
+S: creatúris ómnibus imperáret.
+S: Et cum amicítiam tuam, non obœ́diens, amisísset,
+S: non eum dereliquísti in mortis império.
+S: Omnibus enim misericórditer subvenísti,
+S: ut te quæréntes invenírent.
+s: 圣父，我们颂扬你，因为你是伟大的，以大智大仁创造了万物，按照你的肖像造生了人类，使人管理世界，统驭万物，只事奉你，万有的创造者。人虽然违背了你的命令，失去了你的恩宠，你并没有弃置不顾，任其丧亡，反而大发慈悲，向所有的人伸出援助的手，使寻求你的人都能找到你。
+S: Sed et fœ́dera plúries homínibus obtulísti
+S: eósque per prophétas erudísti in exspectatióne salútis.
+s: 你多次与人订立盟约，并藉先知教导人类，期待着救恩。
+S: Et sic, Pater sancte, mundum dilexísti,
+S: ut, compléta plenitúdine témporum,
+S: Unigénitum tuum nobis mítteres Salvatórem.
+S: Qui, incarnátus de Spíritu Sancto
+S: et natus ex María Vírgine,
+S: in nostra condiciónis forma est conversátus
+S: per ómnia absque peccáto;
+S: salútem evangelizávit paupéribus,
+S: redemptiónem captívis,
+S: mæstis corde lætítiam.
+S: Ut tuam vero dispensatiónem impléret,
+S: in mortem trádidit semetípsum
+S: ac, resúrgens a mórtuis,
+S: mortem destrúxit vitámque renovávit.
+s: 圣父，你爱世人如此之深，时期一满，你就派遣你的唯一圣子，作我们的救主：他因圣神降孕，由童贞玛利亚诞生，除了罪过，度着和我们一样的生活。他给穷人传布救恩的喜讯，向被奴役者宣告自由，为忧苦者带来喜乐。他为完成你的计划，自我牺牲，又从死者中复活，摧毁了死亡，再造了生命。
+S: Et, ut non ámplius nobismetípsis viverémus,
+S: sed sibi qui pro nobis mórtuus est atque surréxit,
+S: a te, Pater, misit Spíritum Sanctum
+S: primítias credéntibus,
+S: qui, opus suum in mundo perfíciens,
+S: omnem sanctificatiónem compléret.
+s: 他为我们死而复活，是要我们不再为自己生活，却要为他而生活：因此，圣父，他由你那里派遣了圣神，这是初次赐给信者的大恩，使圣神在人间完成他的事业，圣化一切。
+R: Iungit manus, easque expansas super oblata tenens, dicit:
+r: 合掌，覆手于祭品上：
+S: Quǽsumus ígitur, Dómine,
+S: ut idem Spíritus Sanctus
+S: hæc múnera sanctificáre dignétur,
+s: 上主，所以我们恳求你，派遣圣神圣化这些礼品，
+R: iungit manus et signat semel super panem et calicem simul, dicens:
+r: （合掌，对祭饼及圣爵画十字）
+S: ut Corpus et ✠ Sanguis fiant
+S: Dómini nostri Iesu Christi
+s: 使成为我主耶稣基督的圣体圣血，
+R: iungit manus
+r: （合掌）
+S: ad hoc magnum mystérium celebrándum,
+S: quod ipse nobis relíquit in fœdus ætérnum.
+s: 以举行这项伟大的奥迹，就是基督留给我们的永恒盟约。
+N: 拉丁 PDF 此处作 “celebríndum”，当为排印之误，今改作 celebrándum。
+R: In formulis quæ sequuntur, verba Domini proferantur distincte et aperte, prouti natura eorundem verborum requirit.
+r: 成圣体（清晰朗诵下列经文）
+S: Ipse enim, cum hora venísset
+S: ut glorificarétur a te, Pater sancte,
+S: ac dilexísset suos qui erant in mundo,
+S: in finem diléxit eos:
+S: et cenántibus illis
+s: 圣父，你显扬基督的时刻一到，他又爱他在世的弟子，爱到了极点，于是他在与门徒共进晚餐的时候，
+R: accipit panem, eumque parum elevatum super altare tenens, prosequitur:
+r: （双手拿祭饼，略举起）
+S: accépit panem, benedíxit ac fregit,
+S: dedítque discípulis suis, dicens:
+s: 拿起面饼，赞颂了，分开，交给他的门徒说：
+R: parum se inclinat
+r: （稍微俯身）
+S: Accípite et manducáte ex hoc omnes:
+S: hoc est enim Corpus meum,
+S: quod pro vobis tradétur.
+s: 你们大家拿去吃：这就是我的身体，将为你们而牺牲。
+R: Hostiam consecratam ostendit populo, reponit super patenam, et genuflexus adorat.
+r: （双手举起圣体，置于圣盘内，请安）
+R: Postea prosequitur:
+r: 成圣血
+S: Símili modo
+s: 他同样
+R: accipit calicem, eumque parum elevatum super altare tenens, prosequitur:
+r: （双手拿圣爵，略举起）
+S: accípiens cálicem, ex genímine vitis replétum,
+S: grátias egit, dedítque discípulis suis, dicens:
+s: 拿起一杯葡萄酒，感谢了，交给他的门徒说：
+R: parum se inclinat
+r: （稍微俯身）
+S: Accípite et bíbite ex eo omnes:
+S: hic est enim calix Sánguinis mei
+S: novi et ætérni testaménti,
+S: qui pro vobis et pro multis effundétur
+S: in remissiónem peccatórum.
+S: Hoc fácite in meam commemoratiónem.
+s: 你们大家拿去喝：这一杯就是我的血，新而永久的盟约之血，将为你们和众人倾流，以赦免罪恶。你们要这样做，来纪念我。
+R: Calicem ostendit populo, deponit super corporale, et genuflexus adorat.
+r: （双手举起圣爵，置于圣体布上，请安）
+@acclamatio
+R: Deinde sacerdos, extensis manibus, dicit:
+r: 主祭伸手：
+S: Unde et nos, Dómine, redemptiónis nostræ
+S: memoriále nunc celebrántes,
+S: mortem Christi
+S: eiúsque descénsum ad ínferos recólimus,
+S: eius resurrectiónem
+S: et ascensiónem ad tuam déxteram profitémur,
+S: et, exspectántes ipsíus advéntum in glória,
+S: offérimus tibi eius Corpus et Sánguinem,
+S: sacrifícium tibi acceptábile et toti mundo salutáre.
+s: 上主，所以我们现在举行救恩大典，追念基督的死亡与下降阴间，宣扬他的复活与光荣的升天；我们期待着他荣耀地降来，向你献上他的圣体圣血，作为你所歆飨的救世圣祭。
+S: Réspice, Dómine, in Hóstiam,
+S: quam Ecclésiæ tuæ ipse parásti,
+S: et concéde benígnus ómnibus
+S: qui ex hoc uno pane participábunt et cálice,
+S: ut, in unum corpus a Sancto Spíritu congregáti,
+S: in Christo hóstia viva perficiántur,
+S: ad laudem glóriæ tuæ.
+s: 上主，求你垂顾你为教会准备的祭品，恩准所有分享同一个饼和同一杯酒的人，由圣神合为一体，在基督内成为生活的祭品，歌颂你的光荣。
+S: Nunc ergo, Dómine, ómnium recordáre,
+S: pro quibus tibi hanc oblatiónem offérimus:
+S: in primis fámuli tui, Papæ nostri N.,
+S: Epíscopi nostri N., et Episcopórum órdinis univérsi,
+S: sed et totíus cleri, et offeréntium,
+S: et circumstántium,
+S: et cuncti pópuli tui,
+S: et ómnium, qui te quærunt corde sincéro.
+s: 上主，现在我们向你奉献这圣祭，求你垂念我们的教宗、我们的主教、所有主教、圣职人员，求献弥撒的人，参礼的人，你的全体子民，以及诚意寻求你的人。
+S: Meménto étiam illórum,
+S: qui obiérunt in pace Christi tui,
+S: et ómnium defunctórum,
+S: quorum fidem tu solus cognovísti.
+s: 求你也垂念安息于基督的信众；并垂念我们的祖先和所有亡者，他们的信德只有你知道。
+S: Nobis ómnibus, fíliis tuis, clemens Pater, concéde,
+S: ut cæléstem hereditátem cónsequi valeámus
+S: cum beáta Vírgine, Dei Genetríce, María,
+S: cum Apóstolis et Sanctis tuis
+S: in regno tuo, ubi cum univérsa creatúra,
+S: a corruptióne peccáti et mortis liberáta,
+S: te glorificémus per Christum Dóminum nostrum,
+s: 仁慈的父，求你恩准我们作你子女的，随同天主之母童贞荣福玛利亚，和你的宗徒及圣人，共同继承天国的产业，偕同由罪恶及死亡中解脱的万物，藉着我们的主基督颂扬你，
+R: iungit manus,
+r: （合掌）
+S: per quem mundo bona cuncta largíris.
+s: 你藉着他赐给世界一切美善。
+@doxologia
+?end
+
+§ ritus-communionis | Ritus communionis | 领圣体礼
+¶ pater-noster | Oratio dominica | 天主经
+R: Calice et patena depositis, sacerdos, iunctis manibus, dicit:
+r: 主祭放下圣盘和圣爵，合掌：
+S: Præcéptis salutáribus móniti,
+S: et divína institutióne formáti,
+S: audémus dícere:
+s: 我们既遵从救主的训示，又承受他的教导，才敢说：
+R: Extendit manus et, una cum populo, pergit:
+r: （主祭伸手，与信友同念）
+O: Pater noster, qui es in cælis:
+O: sanctificétur nomen tuum;
+O: advéniat regnum tuum;
+O: fiat volúntas tua, sicut in cælo, et in terra.
+O: Panem nostrum cotidiánum da nobis hódie;
+O: et dimítte nobis débita nostra,
+O: sicut et nos dimíttimus debitóribus nostris;
+O: et ne nos indúcas in tentatiónem;
+O: sed líbera nos a malo.
+o: 我们的天父，愿你的名受显扬；愿你的国来临；愿你的旨意奉行在人间，如同在天上。求你今天赏给我们日用的食粮；求你宽恕我们的罪过，如同我们宽恕别人一样；不要让我们陷于诱惑；但救我们免于凶恶。
+R: Manibus extensis, sacerdos solus prosequitur, dicens:
+r: 主祭伸手：
+S: Líbera nos, quǽsumus, Dómine, ab ómnibus malis,
+S: da propítius pacem in diébus nostris,
+S: ut, ope misericórdiæ tuæ adiúti,
+S: et a peccáto simus semper líberi
+S: et ab omni perturbatióne secúri:
+S: exspectántes beátam spem
+S: et advéntum Salvatóris nostri Iesu Christi.
+s: 上主，求你从一切灾祸中拯救我们，恩赐我们的时代得享平安；更求你大发慈悲，保佑我们脱免罪恶，并在一切困扰中，获得安全，使我们虔诚期待永生的幸福，和救主耶稣的来临。
+R: Iungit manus. Populus orationem concludit, acclamans:
+r: （合掌）
+P: Quia tuum est regnum,
+P: et potéstas, et glória
+P: in sǽcula.
+p: 天下万国，普世权威，一切荣耀，永归于你。
+¶ ritus-pacis | Ritus pacis | 平安礼
+R: Deinde sacerdos, manibus extensis, clara voce dicit:
+r: 主祭伸手，高声念：
+S: Dómine Iesu Christe, qui dixísti Apóstolis tuis:
+S: Pacem relínquo vobis, pacem meam do vobis:
+S: ne respícias peccáta nostra,
+S: sed fidem Ecclésiæ tuæ;
+S: eámque secúndum voluntátem tuam
+S: pacificáre et coadunáre dignéris.
+s: 主耶稣基督，你曾对宗徒们说：“我将平安留给你们，将我的平安赏给你们。”求你不要看我们的罪过，但看你教会的信德，并按照你的圣意，使教会安定团结。
+R: Iungit manus.
+r: （合掌）
+S: Qui vivis et regnas in sǽcula sæculórum.
+s: 你是天主，永生永王。
+P: Amen.
+p: 阿们。
+R: Sacerdos, ad populum conversus, extendens et iungens manus, subdit:
+r: 主祭伸手，然后合掌：
+S: Pax Dómini sit semper vobíscum.
+s: 愿主的平安常与你们同在。
+P: Et cum spíritu tuo.
+p: 也与你的心灵同在。
+R: Deinde, pro opportunitate, diaconus, vel sacerdos, subiungit:
+r: （可行平安礼）
+D: Offérte vobis pacem.
+d: 请大家互祝平安。
+R: Et omnes, iuxta locorum consuetudines, pacem, communionem et caritatem sibi invicem significant; sacerdos pacem dat diacono vel ministro.
+r: （主祭与信友，互相鞠躬；然后信友可分两边，相对鞠躬。）
+¶ fractio | Fractio panis | 擘饼
+R: Deinde accipit hostiam eamque super patenam frangit, et particulam immittit in calicem, dicens secreto:
+r: 主祭在圣盘上将圣体分开，并将小份圣体放入圣爵内，默念：
+S: Hæc commíxtio Córporis et Sánguinis
+S: Dómini nostri Iesu Christi
+S: fiat accipiéntibus nobis in vitam ætérnam.
+s: 愿我们的主耶稣基督圣体圣血的搀合，使我们领受的人获得永生。
+R: Interim cantatur vel dicitur:
+r: 全体同时唱或念：
+O: Agnus Dei, qui tollis peccáta mundi: miserére nobis.
+O: Agnus Dei, qui tollis peccáta mundi: miserére nobis.
+O: Agnus Dei, qui tollis peccáta mundi: dona nobis pacem.
+o: 除免世罪的天主羔羊，求你垂怜我们。除免世罪的天主羔羊，求你垂怜我们。除免世罪的天主羔羊，求你赐给我们平安。
+R: Quod etiam pluries repeti potest, si fractio panis protrahitur. Ultima tamen vice dicitur: dona nobis pacem.
+r: 可唱多次，直到圣体分完。但末句当是“求你赐给我们平安。”
+¶ communio | Communio | 领圣体
+R: Sacerdos deinde, manibus iunctis, dicit secreto:
+r: 主祭合掌默念：
+S: Dómine Iesu Christe, Fili Dei vivi,
+S: qui ex voluntáte Patris,
+S: cooperánte Spíritu Sancto,
+S: per mortem tuam mundum vivificásti:
+S: líbera me per hoc sacrosánctum Corpus et Sánguinem tuum
+S: ab ómnibus iniquitátibus meis et univérsis malis:
+S: et fac me tuis semper inhærére mandátis,
+S: et a te numquam separári permíttas.
+s: 主耶稣基督，永生天主之子，你遵照圣父的旨意，在圣神合作下，藉你的死亡，使世界获得生命；因你的圣体圣血，求你救我脱免一切罪恶和灾祸，使我常遵守你的诫命，永不离开你。
+R: Vel:
+r: 或：
+S: Percéptio Córporis et Sánguinis tui, Dómine Iesu Christe,
+S: non mihi provéniat in iudícium et condemnatiónem:
+S: sed pro tua pietáte prosit mihi
+S: ad tutaméntum mentis et córporis,
+S: et ad medélam percipiéndam.
+s: 主耶稣基督，愿我领受了你的圣体圣血，因你的仁慈，身心获得保障和治疗，而不受到裁判和处罚。
+R: Sacerdos genuflectit, accipit hostiam, eamque aliquantulum elevatam super patenam vel super calicem tenens, versus ad populum, clara voce dicit:
+r: 主祭请安。一手拿圣盘，一手拿圣体，在圣盘上举起，面向信友，高声念：
+S: Ecce Agnus Dei, ecce qui tollit peccáta mundi.
+S: Beáti qui ad cenam Agni vocáti sunt.
+s: 请看，天主的羔羊；请看，除免世罪者。蒙召来赴圣宴的人，是有福的。
+R: Et una cum populo semel subdit:
+r: （全体念一次）
+O: Dómine, non sum dignus, ut intres sub téctum meum,
+O: sed tantum dic verbo, et sanábitur ánima mea.
+o: 主，我当不起你到我心里来，只要你说一句话，我的灵魂就会痊愈。
+R: Et sacerdos, versus ad altare, secreto dicit:
+r: 主祭面向祭台默念：
+S: Corpus Christi custódiat me in vitam ætérnam.
+s: 愿基督的圣体，护佑我得到永生。
+R: Et reverenter sumit Corpus Christi. Deinde accipit calicem et secreto dicit:
+r: （恭领圣体）主祭手拿圣爵，默念：
+S: Sanguis Christi custódiat me in vitam ætérnam.
+s: 愿基督的圣血，护佑我得到永生。
+R: Et reverenter sumit Sanguinem Christi.
+r: （恭领圣血）
+R: Postea accipit patenam vel pyxidem, accedit ad communicandos, et hostiam parum elevatam unicuique eorum ostendit, dicens:
+r: 主祭给信友分送圣体，念：
+S: Corpus Christi.
+s: 基督圣体。
+R: Communicandus respondet:
+P: Amen.
+p: 阿们。
+R: Et communicatur. Eo modo agit et diaconus, si sacram Communionem distribuit.
+r: （恭领圣体）（执事送圣体，礼仪亦同）
+R: Si adsint sub utraque specie communicandi, servetur ritus suo loco descriptus.
+r: 若领圣体，兼领圣血，当遵守特定的礼规。
+R: Dum sacerdos sumit Corpus Christi, inchoatur cantus ad Communionem.
+r: 主祭领圣体时，开始唱“领主咏”。
+[ communio | Antiphona ad communionem | 领主咏 | 见当日弥撒 ]
+R: Distributione Communionis expleta, sacerdos vel diaconus vel acolythus purificat patenam super calicem et ipsum calicem. Dum purificationem peragit, sacerdos dicit secreto:
+r: 送圣体后，主祭或执事辅祭在圣爵上拭净圣盘，并洗净圣爵。拭净时主祭默念：
+S: Quod ore súmpsimus, Dómine, pura mente capiámus,
+S: et de múnere temporáli fiat nobis remédium sempitérnum.
+s: 上主，求赐我们一颗纯洁的心，以迎接我们所领受的神粮，使这暂世的饮食成为永生的良药。
+R: Tunc sacerdos ad sedem redire potest. Pro opportunitate sacrum silentium, per aliquod temporis spatium, servari, vel psalmus aut aliud canticum laudis aut hymnus proferri potest.
+r: 主祭和信友可就座，默祷片刻，或唱赞颂上主、或感谢圣体的诗歌。
+R: Deinde, stans ad altare vel ad sedem, sacerdos, versus ad populum, iunctis manibus, dicit:
+r: 主祭立于座前或祭台前：
+S: Orémus.
+s: 请大家祈祷。
+R: Et omnes una cum sacerdote per aliquod temporis spatium in silentio orant, nisi silentium iam præcesserit. Deinde sacerdos, manibus extensis, dicit orationem post Communionem. Populus in fine acclamat:
+r: （若尚未默祷，此时则默祷片刻。）主祭伸手念“领圣体后经”（用短结语词）
+[ post-communionem | Post communionem | 领圣体后经 | 见当日弥撒 ]
+P: Amen.
+p: 阿们。
+
+§ ritus-conclusionis | Ritus conclusionis | 礼成式
+R: Sequuntur, si necessariæ sint, breves annuntiationes ad populum.
+r: 可向信友作简短报告。
+R: Deinde fit dimissio. Sacerdos, versus ad populum, extendens manus, dicit:
+r: 主祭面向信友，伸手祝福说：
+S: Dóminus vobíscum.
+s: 愿主与你们同在。
+P: Et cum spíritu tuo.
+p: 也与你的心灵同在。
+R: Sacerdos benedicit populum, dicens:
+r: 主祭降福
+S: Benedícat vos omnípotens Deus,
+S: Pater, et Fílius, ✠ et Spíritus Sanctus.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们。
+P: Amen.
+p: 阿们。
+R: Quibusdam diebus vel occasionibus, huic formulæ benedictionis præmittitur, iuxta rubricas, alia formula benedictionis sollemnior, vel oratio super populum.
+r: 此降福礼，在特定节日，可以其它隆重降福礼，或为信友祈祷的经文取代。
+[ benedictio-sollemnis | Benedictio sollemnis | 隆重降福 | 可选；按日期建议 ]
+R: Deinde diaconus, vel ipse sacerdos, manibus iunctis, versus ad populum dicit:
+r: 执事或主祭面向信友，合掌念：
+D: Ite, missa est.
+d: 弥撒礼成。
+P: Deo grátias.
+p: 感谢天主。
+N: 2008 年拉丁修订重印本另增三种遣散词（Ite, ad Evangélium Dómini nuntiándum 等），本页所据 2002 年版只有此式。
+R: Deinde sacerdos altare osculo de more veneratur, ut initio. Facta denique profunda inclinatione cum ministris, recedit.
+r: 主祭亲祭台，与辅祭人员向祭台致敬，退席。
+R: Si qua actio liturgica immediate sequatur, ritus dimissionis omittuntur.
+r: 弥撒后，若接着举行其他礼仪，则取消礼成式。
+
+// ===== 共用段落：@名称 引用处展开 =====
+= acclamatio
+R: Deinde dicit:
+r: 祝圣后的欢呼
+S: Mystérium fídei.
+s: 信德的奥迹：
+R: Et populus prosequitur, acclamans:
+r: 信友（可任选一端）：
+P: Mortem tuam annuntiámus, Dómine,
+P: et tuam resurrectiónem confitémur, donec vénias.
+p: 基督，我们传报你的圣死，我们歌颂你的复活，我们期待你光荣地来临。
+R: Vel:
+r: 或：
+P: Quotiescúmque manducámus panem hunc
+P: et cálicem bíbimus,
+P: mortem tuam annuntiámus, Dómine, donec vénias.
+p: 基督，我们每次吃这饼、饮这杯，就是传报你的圣死，期待你光荣地来临。
+R: Vel:
+r: 或：
+P: Salvátor mundi, salva nos,
+P: qui per crucem et resurrectiónem tuam liberásti nos.
+p: 救世的恩主，你藉着苦难及复活，恢复了我们的自由，求你拯救我们。
+=end
+= doxologia
+R: Accipit patenam cum hostia et calicem, et utrumque elevans, dicit:
+r: 圣三颂。主祭一手持圣爵，一手持置有圣体的圣盘，一同举起：
+S: Per ipsum, et cum ipso, et in ipso,
+S: est tibi Deo Patri omnipoténti,
+S: in unitáte Spíritus Sancti,
+S: omnis honor et glória
+S: per ómnia sǽcula sæculórum.
+s: 全能的天主圣父，一切崇敬和荣耀、藉着基督，偕同基督，在基督内，并联合圣神，都归于你，直到永远。
+P: Amen.
+p: 阿们。
+=end

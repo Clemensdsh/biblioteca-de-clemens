@@ -35,6 +35,7 @@ export const halls: Hall[] = [
     links: [
       { name: '罗马大日课', url: '/officium-1962/', icon: 'i-ri-book-open-line', color: '#9A3F35' },
       { name: '时辰礼仪', url: '/liturgia-horarum/', icon: 'i-ri-book-open-line', color: '#9A3F35' },
+      { name: '罗马弥撒经书', url: '/missale-romanum/', icon: 'i-ri-book-open-line', color: '#9A3F35' },
       { name: '哥特日课', url: '/breviarium-gothicum/', icon: 'i-ri-book-open-line', color: '#8C5A2B' },
       { name: '星期六纪念圣母', url: '/posts/saturday-memorial-of-our-lady-office/', icon: 'i-ri-book-open-line', color: '#9A3F35' },
     ],

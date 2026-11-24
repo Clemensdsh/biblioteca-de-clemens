@@ -1,0 +1,532 @@
+// 弥撒结束时的隆重降福中拉对照源文件（scripts/missale/extract-benedictiones.mjs 抽出的草稿，经人工校读）。
+// 拉丁：Missale Romanum 2002，Benedictiones sollemnes 1–20（PDF 第 370–379 页）。
+// 中文：《感恩祭典》卷一附录三“弥撒结束时隆重降福礼”。格式同 ordo-missae.txt；~ 行为所属分组。
+// 邀请词与答句见 benedictiones-intro；每段祝福后众答“阿们”。
+
+§ intro | Benedictiones sollemnes | 隆重降福礼
+R: Benedictiones sequentes adhiberi possunt, ad libitum sacerdotis, in fine celebrationis Missæ, aut liturgiæ verbi, aut Officii, aut Sacramentorum.
+r: 司铎在弥撒圣祭或圣经颂祷结束时，或在日课经或施行圣事结束时，均可采用以下的降福经文。
+R: Diaconus, vel, eo deficiente, ipse sacerdos, dicit invitatorium:
+r: 执事，或无执事时司铎自己可先念邀请词：
+D: Inclináte vos ad benedictiónem.
+d: 请大家俯首，接受降福。
+N: 《感恩祭典》作“请大家俯首，接受降福”或其它字句。
+R: Deinde sacerdos, manibus super populum extensis, dicit benedictionem, omnibus respondentibus: Amen.
+r: 然后司铎向信众伸出双手，念降福经文，众答：“阿们”。
+
+§ adventus | 1. In Adventu | 1. 将临期
+~ I. In celebrationibus de tempore | （一）季节降福经文
+S: Omnípotens et miséricors Deus, cuius Unigéniti advéntum
+S: et prætéritum créditis, et futúrum exspectátis,
+S: eiúsdem advéntus vos illustratióne sanctíficet
+S: et sua benedictióne locuplétet.
+s: 各位教友，我们相信天父的独生子已经降来，并期望他再度来临；愿全能慈悲的天主，因他圣子降临的荣耀，光照你们，并藉他丰厚的恩宠圣化你们。
+P: Amen.
+p: 阿们。
+S: In præséntis vitæ stádio reddat vos in fide stábiles,
+S: spe gaudéntes, et in caritáte efficáces.
+s: 在你们尘世生活中，愿天主赐给你们坚强的信德，活泼的望德，及实践的爱德。
+P: Amen.
+p: 阿们。
+S: Ut, qui de advéntu Redemptóris nostri
+S: secúndum carnem devóta mente lætámini,
+S: in secúndo, cum in maiestáte sua vénerit,
+S: prǽmiis ætérnæ vitæ ditémini.
+s: 你们对救主耶稣的来临，衷心欢庆，愿他第二次光荣地来临时，带给你们永生的报酬。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常与你们同在。
+P: Amen.
+p: 阿们。
+
+§ nativitas | 2. In Nativitate Domini | 2. 圣诞节
+~ I. In celebrationibus de tempore | （一）季节降福经文
+S: Deus infinítæ bonitátis,
+S: qui incarnatióne Fílii sui mundi ténebras effugávit,
+S: et eius gloriósa nativitáte
+S: hanc noctem (diem) sacratíssimam irradiávit,
+S: effúget a vobis ténebras vitiórum,
+S: et irrádiet corda vestra luce virtútum.
+s: 愿无限慈善的天主，因他圣子的诞生，驱除世界的黑暗，烛照今夜(今天)的典礼；愿天主从你们身上驱除罪恶的黑暗，并以圣洁的光辉照耀你们的心灵。
+P: Amen.
+p: 阿们。
+S: Quique eius salutíferæ nativitátis gáudium magnum
+S: pastóribus ab Angelo vóluit nuntiári,
+S: ipse mentes vestras suo gáudio ímpleat,
+S: et vos Evangélii sui núntios effíciat.
+s: 天主曾以耶稣诞生，伟大救恩的喜讯，由天使报告给牧童们；愿他也以无比的欢欣，充满你们的心灵，使你们也成为福音的宣报人。
+P: Amen.
+p: 阿们。
+S: Et, qui per eius incarnatiónem terréna cæléstibus sociávit,
+S: dono vos suæ pacis et bonæ répleat voluntátis,
+S: et vos fáciat Ecclésiæ consórtes esse cæléstis.
+s: 他又使圣言降生成人，完成天人合一。愿他赐给你们平安幸福，成为天上教会的成员。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常与你们同在。
+P: Amen.
+p: 阿们。
+
+§ initium-anni | 3. Initio anni | 3. 新年开始：元旦
+~ I. In celebrationibus de tempore | （一）季节降福经文
+S: Deus, fons et orígo totíus benedictiónis,
+S: grátiam vobis concédat,
+S: benedictiónis suæ largitátem infúndat,
+S: atque per totum annum vos salvos et incólumes prótegat.
+s: 愿天主、一切祝福的泉源，赐给你们恩宠，丰厚地降福你们，保佑你们神形康泰，全年如意。
+P: Amen.
+p: 阿们。
+S: Custódiat fídei vobis integritátem,
+S: tríbuat spei longanimitátem,
+S: perseverántem usque ad finem
+S: cum sancta patiéntia caritátem.
+s: 愿天主保佑你们信德完整，望德热切，爱德坚强，恒心到底。
+P: Amen.
+p: 阿们。
+S: Dies et actus vestros in sua pace dispónat,
+S: preces hic et ubíque exáudiat,
+S: et ad vitam ætérnam felíciter vos perdúcat.
+s: 愿天主赏赐你们有生之日，万事顺遂，时时处处俯听你们的祈祷，引导你们抵达永生的福地。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常与你们同在。
+P: Amen.
+p: 阿们。
+
+§ epiphania | 4. In Epiphania Domini | 4. 主显节
+~ I. In celebrationibus de tempore | （一）季节降福经文
+S: Deus, qui vos de ténebris vocávit in admirábile lumen suum,
+S: suam vobis benedictiónem benígnus infúndat,
+S: et corda vestra fide, spe et caritáte stabíliat.
+s: 天主曾由黑暗中，召你们进入奇异的光明；愿他丰厚地降福你们，使你们在信德、望德、爱德中，坚定不移。
+P: Amen.
+p: 阿们。
+S: Et quia Christum sequímini confidénter,
+S: qui hódie mundo appáruit lux relúcens in ténebris,
+S: fáciat et vos lucem esse frátribus vestris.
+s: 你们诚心追随的基督，今天以自己的真光照耀了尘世的黑暗，愿他也赏赐你们，成为所有弟兄们的真光。
+P: Amen.
+p: 阿们。
+S: Quátenus, peregrinatióne perácta,
+S: perveniátis ad eum, quem magi stella prǽvia quæsiérunt,
+S: et gáudio magno, lucem de luce,
+S: Christum Dóminum invenérunt.
+s: 贤士追随着异星，找到了光明中的光明——基督，愿你们在尘世旅程结束后，也能欢欣地找到他。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常与你们同在。
+P: Amen.
+p: 阿们。
+
+§ passio | 5. De Passione Domini | 5. 主受难节
+~ I. In celebrationibus de tempore | （一）季节降福经文
+S: Deus, Pater misericordiárum, qui Unigéniti sui passióne
+S: tríbuit vobis caritátis exémplum,
+S: præstet ut, per servítium Dei et hóminum,
+S: percipiátis suæ benedictiónis ineffábile donum.
+s: 慈悲的天主圣父，因他独生子的苦难，赐给了你们爱德的典范；愿你们藉着爱慕天主，服务众人，获得他莫可言喻的降福，满受恩宠。
+P: Amen.
+p: 阿们。
+S: Ut ab eo sempitérnæ vitæ munus obtineátis,
+S: per cuius temporálem mortem, ætérnam vos evádere créditis.
+s: 你们相信基督通过死亡，永远摧毁了死亡，愿他赐给你们永生。
+P: Amen.
+p: 阿们。
+S: Quátenus, cuius humilitátis sequímini documénta,
+S: eius resurrectiónis possideátis consórtia.
+s: 他为了我们谦卑自下，愿你们师法他的榜样，分享他的复活。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常与你们同在。
+P: Amen.
+p: 阿们。
+
+§ tempus-paschale | 6. Tempore paschali | 6. 复活期
+~ I. In celebrationibus de tempore | （一）季节降福经文
+S: Deus, qui per resurrectiónem Unigéniti sui
+S: dignátus est vobis bonum redemptiónis
+S: adoptionísque conférre,
+S: sua benedictióne vos tríbuat congaudére.
+s: 天主因他独生子的复活，赐给了你们救恩和嗣子的光荣，愿他也降福你们，使你们常常喜乐。
+P: Amen.
+p: 阿们。
+S: Et quo rediménte percepístis donum perpétuæ libertátis,
+S: eo largiénte hereditátis ætérnæ consórtes éffici valeátis.
+s: 救主给了你们持久的自由，愿你们也能继承他的永生。
+P: Amen.
+p: 阿们。
+S: Et cui resurrexístis in baptísmate iam credéndo,
+S: adiúngi mereámini in pátria cælésti nunc recte vivéndo.
+s: 你们在领洗时，既因信德而重生，愿你们也能善度今生而抵达天乡。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常常与你们同在。
+P: Amen.
+p: 阿们。
+
+§ ascensio | 7. In Ascensione Domini | 8. 耶稣升天节
+~ I. In celebrationibus de tempore | （一）季节降福经文
+S: Benedícat vos omnípotens Deus,
+S: cuius Unigénitus hodiérna die cælórum alta penetrávit,
+S: et vobis, ubi est ipse, ascendéndi áditum reserávit.
+s: 今天全能天主的唯一圣子上升天庭，为你们打开了天国之门；愿他降福你们。
+P: Amen.
+p: 阿们。
+S: Concédat ut, sicut Christus post resurrectiónem suam
+S: visus est discípulis maniféstus,
+S: ita vobis in iudícium véniens
+S: appáreat pro æternitáte placátus.
+s: 基督复活以后，曾显现给门徒，愿你们在他末日来临审判时，能永远博得他的欢心。
+P: Amen.
+p: 阿们。
+S: Et qui eum consedére Patri in sua créditis maiestáte,
+S: ipsum usque in finem sǽculi vobíscum permanére
+S: secúndum eius promissiónem læti valeátis experíre.
+s: 你们既相信耶稣升天后，坐在圣父的右边，愿他也赏赐你们体验天国的福乐，并照他的许诺常与你们相偕，直到世界末日。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常与你们同在。
+P: Amen.
+p: 阿们。
+
+§ spiritus-sanctus | 8. De Spiritu Sancto | 9. 五旬主日
+~ I. In celebrationibus de tempore | （一）季节降福经文
+S: Deus, Pater lúminum, qui discipulórum mentes
+S: Spíritus Parácliti infusióne dignátus est illustráre,
+S: sua vos fáciat benedictióne gaudére,
+S: et perpétuo donis eiúsdem Spíritus abundáre.
+s: 天主，光明之父，(今天)以圣神的光辉，照耀了门徒的心灵，愿他降福你们，赐给你们喜乐及圣神的丰厚恩宠。
+P: Amen.
+p: 阿们。
+S: Ignis ille, qui super discípulos mirándus appáruit,
+S: corda vestra ab omni malo poténter expúrget,
+S: et sui lúminis infusióne perlústret.
+s: 圣神以火舌的形象显示在门徒身上，愿他炼净你们心中的罪污，使你们反映出他的光辉。
+P: Amen.
+p: 阿们。
+S: Quique dignátus est in uníus fídei confessióne
+S: diversitátem adunáre linguárum,
+S: in eádem fide perseveráre vos fáciat,
+S: et per illam a spe ad spéciem perveníre concédat.
+s: 天主圣神使不同语言的民族聚合在一起，奉行同一信仰；愿他使你们坚持同一信仰，有朝一日能如愿以偿、亲眼看见他。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常与你们同在。
+P: Amen.
+p: 阿们。
+
+§ per-annum-1 | 9. Per annum, I | 10. 常年期（亚郎的祝福，户六24~26）
+~ I. In celebrationibus de tempore | （一）季节降福经文
+S: Benedícat vobis Dóminus, et custódiat vos.
+s: 愿上主降福你们，保护你们。
+P: Amen.
+p: 阿们。
+S: Illúminet fáciem suam super vos, et misereátur vestri.
+s: 愿上主的慈颜光照你们，仁慈待你们。
+P: Amen.
+p: 阿们。
+S: Convértat vultum suum ad vos, et donet vobis suam pacem.
+s: 愿上主转面垂顾你们，赐给你们平安。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常与你们同在。
+P: Amen.
+p: 阿们。
+
+§ per-annum-2 | 10. Per annum, II | 11. 常年期（斐四7）
+~ I. In celebrationibus de tempore | （一）季节降福经文
+S: Pax Dei, quæ exsúperat omnem sensum,
+S: custódiat corda vestra et intellegéntias vestras
+S: in sciéntia et caritáte Dei,
+S: et Fílii sui, Dómini nostri Iesu Christi.
+s: 愿天主那超乎各种意想的平安，在你们所认识爱慕的天主及他的圣子——我们的主基督内，保守你们的心思念虑。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常与你们同在。
+P: Amen.
+p: 阿们。
+
+§ per-annum-3 | 11. Per annum, III | 12. 常年期
+~ I. In celebrationibus de tempore | （一）季节降福经文
+S: Omnipotens Deus sua vos cleméntia benedícat,
+S: et sensum in vobis sapiéntiæ salutáris infúndat.
+s: 愿全能的天主，大发慈悲，降福你们；并在你们心中，倾注救恩的智慧。
+P: Amen.
+p: 阿们。
+S: Fídei documéntis vos semper enútriat,
+S: et in sanctis opéribus, ut perseverétis, effíciat.
+s: 愿上主常以信德的教诲熏陶你们，使你们能行善避恶，常保持信心。
+P: Amen.
+p: 阿们。
+S: Gressus vestros ad se convértat,
+S: et viam vobis pacis et caritátis osténdat.
+s: 愿上主引导你们的脚步转向他；并将和平相爱的途径，指示给你们。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常与你们同在。
+P: Amen.
+p: 阿们。
+
+§ per-annum-4 | 12. Per annum, IV | 13. 常年期
+~ I. In celebrationibus de tempore | （一）季节降福经文
+S: Deus totíus consolatiónis dies vestros in sua pace dispónat,
+S: et suæ vobis benedictiónis dona concédat.
+s: 愿施予一切安慰的天主，赐予你们各种恩宠，赏赐你们有生之日，在他的平安中度过。
+P: Amen.
+p: 阿们。
+S: Ab omni semper perturbatióne vos líberet,
+S: et corda vestra in suo amóre confírmet.
+s: 愿上主从一切困扰中，拯救你们；并以他的慈爱坚定你们的信心。
+P: Amen.
+p: 阿们。
+S: Quátenus donis spei, fídei et caritátis dívites,
+S: et præséntem vitam transigátis in ópere efficáces,
+S: et possítis ad ætérnam perveníre felíces.
+s: 愿天主赐予你们信、望、爱的恩德，使你们努力善度今生，来世也能获享永福。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常与你们同在。
+P: Amen.
+p: 阿们。
+
+§ per-annum-5 | 13. Per annum, V | 14. 常年期
+~ I. In celebrationibus de tempore | （一）季节降福经文
+S: Omnípotens Deus univérsa a vobis advérsa semper exclúdat,
+S: et suæ super vos benedictiónis dona propitiátus infúndat.
+s: 愿全能的天主，保护你们免遭灾祸，并常以丰厚的恩宠降福你们。
+P: Amen.
+p: 阿们。
+S: Corda vestra effíciat divínis inténta elóquiis,
+S: ut repléri possint gáudiis sempitérnis.
+s: 愿上主使你们的心灵，常聆听天主的圣言，好能充满永恒的喜乐。
+P: Amen.
+p: 阿们。
+S: Quátenus, quæ bona et recta intellegéntes,
+S: viam mandatórum Dei inveniámini semper curréntes,
+S: et cívium supernórum efficiámini coherédes.
+s: 愿你们认识圣善和正义，常遵守天主的诫命，使你们将来能承受天国的产业。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常与你们同在。
+P: Amen.
+p: 阿们。
+
+§ per-annum-6 | 14. Per annum, VI | （中文缺）
+~ I. In celebrationibus de tempore | （一）季节降福经文
+S: Benedícat vos Deus omni benedictióne cælésti,
+S: sanctósque vos et puros
+S: in conspéctu suo semper effíciat;
+S: divítias glóriæ suæ in vos abundánter effúndat,
+S: verbis veritátis ínstruat, Evangélio salútis erúdiat,
+S: et caritáte fratérna semper locuplétet.
+S: Per Christum Dóminum nostrum.
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+P: Amen.
+p: 阿们。
+N: 《感恩祭典》（据 1975 年拉丁第二版）无此式，2002 年第三版新增。
+
+§ bmv | 15. De beata Maria Virgine | 15. 圣母庆节
+~ II. In celebrationibus de Sanctis | （二）圣人圣女庆节
+S: Deus, qui per beátæ Maríæ Vírginis partum
+S: genus humánum sua vóluit benignitáte redímere,
+S: sua vos dignétur benedictióne ditáre.
+s: 天主使救主基督由童贞玛利亚诞生，救赎了整个人类；愿他以丰厚的恩宠降福你们。
+P: Amen.
+p: 阿们。
+S: Eiúsque semper et ubíque patrocínia sentiátis,
+S: per quam auctórem vitæ suscípere meruístis.
+s: 你们透过圣母玛利亚领了生命之主——耶稣基督，愿你们时时处处体验到他爱的护佑。
+P: Amen.
+p: 阿们。
+S: Et qui hodiérna die devótis méntibus convenístis,
+S: spiritálium gaudiórum cælestiúmque præmiórum
+S: vobíscum múnera reportétis.
+s: 愿今天怀着热诚来参与她庆典的人，能满载圣神的喜乐，和天上的恩宠而归。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常与你们同在。
+P: Amen.
+p: 阿们。
+
+§ petrus-paulus | 16. De sanctis Petro et Paulo | 16. 圣伯多禄、保禄节
+~ II. In celebrationibus de Sanctis | （二）圣人圣女庆节
+S: Benedícat vos omnípotens Deus,
+S: qui in beáti Petri confessióne vos salubérrima stabilívit,
+S: et per eam in Ecclésiæ soliditáte fídei fundávit.
+s: 全能的天主使他的教会，奠定在圣伯多禄的信德上，愿他也赐给你们永不动摇的信心。
+P: Amen.
+p: 阿们。
+S: Et quos beáti Pauli instrúxit indeféssa prædicatióne,
+S: suo semper exémplo dóceat Christo fratres lucrifácere.
+s: 天主因保禄的大力宣讲，训诲了你们，愿他也能教导你们按保禄宣讲的福音而生活，好为基督争取更多天国的子民。
+P: Amen.
+p: 阿们。
+S: Ut Petrus clave, Paulus verbo,
+S: ope intercessiónis utérque
+S: in illam pátriam nos certent indúcere,
+S: ad quam meruérunt illi, alter cruce, alter gládio,
+S: felíciter perveníre.
+s: 为主而被钉死的伯多禄和为主而被斩首的保禄，都已获得了永生，愿他们的权威、宣讲和代祷，能领导你们进入永福的天乡。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常与你们同在。
+P: Amen.
+p: 阿们。
+
+§ apostoli | 17. De Apostolis | 17. 宗徒庆日
+~ II. In celebrationibus de Sanctis | （二）圣人圣女庆节
+S: Deus, qui vos in apostólicis tríbuit consístere fundaméntis,
+S: benedícere vobis dignétur
+S: beatórum Apostolórum N. et N. (beáti Apóstoli N.)
+S: méritis intercedéntibus gloriósis.
+s: 天主既恩赐你们在宗徒基础上屹立不摇，愿他也由于○○宗徒光荣的转祷，降福你们。
+P: Amen.
+p: 阿们。
+S: Et apostólicis præsídiis vos pro cunctis fáciat testes veritátis,
+S: qui vos eórum munerári documéntis vóluit et exémplis.
+s: 愿天主使你们因宗徒的嘉言懿行，在整个人类面前，为真理作证。
+P: Amen.
+p: 阿们。
+S: Ut eórum intercessióne
+S: ad ætérnæ pátriæ hereditátem perveníre possítis,
+S: per quorum doctrínam fídei firmitátem possidétis.
+s: 宗徒们的教诲曾经坚强了你们的信仰，愿他们的转祷领导你们抵达天乡，继承永福的产业。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常与你们同在。
+P: Amen.
+p: 阿们。
+
+§ omnes-sancti | 18. De omnibus Sanctis | 18. 诸圣节
+~ II. In celebrationibus de Sanctis | （二）圣人圣女庆节
+S: Deus, glória et exsultátio Sanctórum,
+S: benedícat vos benedictióne perpétua,
+S: qui vobis tríbuit exímiis suffrágiis roborári.
+s: 天主是诸圣的荣耀与喜乐，愿他因今天举行的隆重庆典，时常降福你们。
+P: Amen.
+p: 阿们。
+S: Eórum intercessióne a præséntibus malis liberáti,
+S: et exémplis sanctæ conversatiónis instrúcti,
+S: in servítio Dei fratrúmque inveniámini semper inténti.
+s: 愿你们因诸圣的转祷，解脱今世的患难，学习他们的圣洁生活，一心事奉天主，并为弟兄服务。
+P: Amen.
+p: 阿们。
+S: Quátenus cum iis ómnibus
+S: valeátis illíus pátriæ vos gáudia possidére,
+S: in qua fílios suos supérnis coniúngi cívibus
+S: in pace perpétua sancta lætátur Ecclésia.
+s: 愿你们将来安抵天乡，与圣人圣女共聚一堂，同享天上教会永远的平安。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常与你们同在。
+P: Amen.
+p: 阿们。
+
+§ dedicatio | 19. In dedicatione ecclesiæ | 19. 圣堂奉献日
+~ III. Aliæ benedictiones | （三）其他祝福
+S: Deus, Dóminus cæli et terræ,
+S: qui vos hódie ad huius domus dedicatiónem adunávit,
+S: ipse vos cælésti benedictióne fáciat abundáre.
+s: 天地的主宰，今天聚集你们来奉献此堂（或：来纪念这圣堂的奉献日），愿他使你们满渥天上的恩宠。
+P: Amen.
+p: 阿们。
+S: Concedátque vobis fíeri templum suum
+S: et habitáculum Spíritus Sancti,
+S: qui omnes fílios dispérsos vóluit in Fílio suo congregári.
+s: 天主愿流离失所的子女们，团聚在基督内，愿天主使你们成为他自己的宫殿——圣神的居所。
+P: Amen.
+p: 阿们。
+S: Quátenus felíciter emundáti,
+S: habitatórem Deum in vobismetípsis possítis habére,
+S: et ætérnæ beatitúdinis hereditátem
+S: cum ómnibus Sanctis possidére.
+s: 愿你们革面洗心，让天主住在你们心中，并与天上神圣继承永远的幸福。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常与你们同在。
+P: Amen.
+p: 阿们。
+
+§ defuncti | 20. In celebrationibus pro defunctis | 20. 追思亡者
+~ III. Aliæ benedictiones | （三）其他祝福
+S: Benedícat vos Deus totíus consolatiónis,
+S: qui hóminem ineffábili bonitáte creávit,
+S: et in resurrectióne Unigéniti sui
+S: spem credéntibus resurgéndi concéssit.
+s: 安慰人的天主，以自己不可言喻的慈爱，创造了人类，并因他独生子的复活，恩赐信众复活的希望，愿他降福你们，坚强你们的信心。
+P: Amen.
+p: 阿们。
+S: Nobis, qui vívimus, véniam tríbuat pro peccátis,
+S: et ómnibus defúnctis locum concédat lucis et pacis.
+s: 愿上主宽恕我们生者的罪过，并使所有亡者，获得光明与平安。
+P: Amen.
+p: 阿们。
+S: Ut omnes cum Christo sine fine felíciter vivámus,
+S: quem resurrexísse a mórtuis veráciter crédimus.
+s: 我们相信基督已经从死者中复活，愿我们众人常和基督一起幸福地生活。
+P: Amen.
+p: 阿们。
+S: Et benedíctio Dei omnipoténtis,
+S: Patris, et Fílii, ✠ et Spíritus Sancti,
+S: descéndat super vos et máneat semper.
+s: 愿全能的天主，圣父、圣子、圣神，降福你们，并常与你们同在。
+P: Amen.
+p: 阿们。

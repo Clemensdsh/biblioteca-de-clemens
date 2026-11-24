@@ -1,8 +1,27 @@
 # 项目当前状态与交接
 
 更新：2026-11-20。唯一当前状态入口；进入新会话先读本文件，按需读取所链接材料。状态随工作改变，操作前重新检查 Git 和文件；详细历史见 `docs/HISTORY_MIGRATION_REPORT.md`。
-> **2026-11-24 加载速度（已提交 `b857558` 并推送 main，由 GitHub Actions 部署；线上未核对）**：罗马大日课与时辰礼仪加载慢的修复，见下节「2026-11-24 两个日课页加载提速」。
+> **2026-11-24 新组件「罗马弥撒经书」（已提交，未推送）**：新礼弥撒常规、颂谢词、隆重降福中拉对照，日期挂钩礼历。**接手先读 `docs/missale/MISSALE.md`**（最终目标、现状、底本、格式、续做次序）；过程记录见下节「2026-11-24 罗马弥撒经书：弥撒常规框架」。
+> **2026-11-24 加载速度（已提交 `b857558` 并推送 main，由 GitHub Actions 部署；线上未核对）**：罗马大日课与时辰礼仪加载慢的修复，见下节「2026-11-24 两个日课页加载提速」。
 > **2026-11-20 晚最新**：显示层整理、固定句/圣母对经中文、圣经读经（小读经 363 条）中文、读经分组流水线见文末「2026-11-20 罗马大日课显示层整理」及其后三节；夜课圣经读经（约 4100 行）、集祷经尚未做。
+
+## 2026-11-24 罗马弥撒经书：弥撒常规框架（已提交、未推送；总说明见 docs/missale/MISSALE.md）
+
+用户决定：旧礼拉丁（完全开源，搬运价值低）、旧礼中文（凤翔本手头没有）暂不做；先做**新礼**，从固定经文（弥撒常规 + 感恩经四式）的中拉对照框架做起，每日更换的读经等先留空。
+
+- **底本**：拉丁 = 用户提供的 `Q:\下载\latin_missal2002.pdf`（Missale Romanum editio typica tertia 2002，828 页、重排文字层，2006 年制作；Ordo Missae 在 PDF 第 303–370 页）。中文 = 《感恩祭典》（台湾主教团礼仪委员会 1982 年译本，据 1975 年拉丁第二版；信德社 2005 年简体版），用 `Q:\文库\宗教\公教\天主教术语库\cleaned\Missal_1.clean.md` L4824–6420「有信友参与的弥撒规程」，卷二、卷三同一节用于核对 OCR（如卷二有“接受这**赎**罪的牺牲”）。annas-archive 上那条“2008 第三版”实为 1962 年旧礼弥撒经书（元数据混杂），不用。网上每日新礼拉丁可用 iBreviary 网页版（`ibreviary.com/m2/`，语言设 Latino，可设日期；`letture.php?s=antifona_e_colletta|letture|sulle_offerte|prefazio|antifona_ed_orazione_dopo_comunione`；领主咏误标为 Antiphona ad introitum；12-25 返回守夜弥撒），以及 Catholic Cross Reference（第三版祷文、颂谢词）——尚未使用，留待每日专有经文阶段。
+- **做法**：手写源文件 `resources/missale/ordo-missae.txt`（格式见文件头：§ 大段、¶ 小节、`? … ?end` 可选形式组、`[ … ]` 当日经文空位、R/r 礼规、S/P/D/O/L 说话人、N: 注释、`= 名 … =end` 共用段落与 `@名` 引用）→ `node scripts/missale/build-ordo.mjs`（`--check` 校验并比对已生成文件）→ `features/missale/ordoMissae.json`（约 98 KB，页面静态引入，SSG 出全文）。中文按《感恩祭典》原文，只改 OCR 错字、去掉混入正文的共祭者旁注；与 2002 拉丁不同处只加“注”不改译文（如忏悔词未译 omissione、致候词第一式次序、福音后“以上是基督的福音”、遣散词 2008 年新增式）。只有拉丁的礼规不自行翻译。《感恩祭典》感恩经第二式的节日插入经文拉丁标准版没有，不收（加注）。拉丁 PDF 两处明显排印误改正并加注（宗徒信经 Credo in Deum、celebrándum）。领圣体礼下的小节标题（平安礼、擘饼、领圣体）是本站编排加的。
+- **页面**：`pages/missale-romanum/index.vue`（/missale-romanum/）+ 递归组件 `components/missale/OrdoItems.vue`，类型 `features/missale/ordo.ts`。显示对照/拉丁/中文、显示礼规、字号；致候词、忏悔词、信经、感恩经四式在原处用按钮切换或“全部列出”（localStorage `missale.*`）。礼仪馆入口：`config/halls.ts` 在时辰礼仪后加「罗马弥撒经书」。
+- **验证**：`build-ordo.mjs --check` 通过（6 段、246 组经文全部有中文）；`features/missale/ordo.test.ts` 5 项通过；`pnpm run build` 成功，静态 HTML 含全文；本地服务 + 无头 Edge 截图看过：宽屏对照、感恩经切换、手机单栏、中文模式、礼仪馆入口，无控制台报错。全量 vitest 只有原有 6 项 + 时限偶发超时的 workspace 测试失败（我的三个临时比对测试已改名 `*.scratch-test.ts` 不再被收集）。**未验证**：暗色/打印细看、拉丁与中文逐句由懂拉丁文者复核。
+- **第二轮（同日）：颂谢词、礼仪日换算、隆重降福**
+  - 颂谢词 `resources/missale/praefationes.txt`：弥撒常规所附 50 篇 + 天使（PDF p.500）、圣若瑟（p.433–434），共 52 篇；中文《感恩祭典》卷一 (9)–(38)。由一次性脚本 `scripts/missale/extract-praefationes.mjs` 抽草稿，`artifacts/scratch/fix-praefationes.mjs` 记录人工校读改动（字母间隔礼规、OCR 破折号/错字、串入正文的对答与欢呼歌残句、副题）。殉道者（二）为 2002 新增，无中文（加注）。**定稿后直接改 txt，不要重跑抽取脚本**（已加 `--force` 保护）。
+  - 隆重降福 `resources/missale/benedictiones.txt`：拉丁 1–20（PDF p.370–379）＋邀请词；中文《感恩祭典》卷一附录三。中文第 7 式“复活前夕与复活节”2002 拉丁无，未收；拉丁“常年期六”无中文（加注）。抽取 `extract-benedictiones.mjs`，校读改动 `artifacts/scratch/fix-benedictiones.mjs`。为民祈祷（拉丁 26 篇 / 中文 24 篇，需按内容配对）未做。
+  - 构建改为 `scripts/missale/build-missale.mjs`（取代 build-ordo.mjs），一次生成 `features/missale/{ordoMissae,praefationes,benedictiones}.json`；源格式加 `~ 拉丁 | 中文` 副题行。
+  - 礼仪日：`features/missale/calendar.ts`——按复活节推算季节、周次、主日甲乙丙年与平日一二年（礼仪年自将临期始）；庆典名称/等级/任选纪念取自时辰礼仪数据 `public/data/liturgia-horarum/`（`MissaleCalendar`，只读 years 与 cels），中文名复用 `features/liturgiaHorarum/titleZh.ts`。测试与 2021–2036 时辰礼仪数据中全部 3000 余个平日标题的季节/周次、常年期主日名称逐一对上（圣诞期周次规则：圣诞后第一个主日起第二周，圣诞为主日则自圣诞起）。
+  - 颂谢词挂钩 `features/missale/praefatio.ts`：按各篇颂谢词所附礼规（将临期 12/16 前后、圣诞八日庆期、主显后、四旬期平日/主日/第五周、圣周一至三、复活八日庆期、升天后、常年主日/平日、追思已亡、圣体圣血节、天主之母等）；圣人按庆日名称推定类别（圣母、天使、若瑟、宗徒/圣史、殉道、牧者、贞女会士、其他）；纪念日另列季节或通用颂谢词；四旬期、圣周、12/17–24 的纪念日只用季节颂谢词。印在当日弥撒中的专用颂谢词（主受洗、献主、圣枝、五旬节、圣三、耶稣圣心、基督君王、预报、若翰诞辰、伯多禄保禄、显圣容、圣母升天、光荣十字架、诸圣、拉特朗奉献、无染原罪、四旬期第一至五主日、圣油弥撒）只列名称、注“暂未收录”。隆重降福建议 `features/missale/benedictio.ts`（可选，默认收起）。
+  - 页面：日期选择（前后一天、今天、`?date=`）、当日可选庆典、拉丁/中文庆日名与等级、季节周次与读经年份；弥撒常规的颂谢词空位与新加的“隆重降福”空位由 `components/missale/DayChoice.vue` 填入（建议各式按钮 + “其他”下拉 + 理由）。`OrdoItems.vue` 的空位改为具名插槽 `slot-<id>`（递归转发）。
+  - **验证**：`vitest run features/missale` 11 项通过（含 2021–2036 每日每个庆典的颂谢词/降福 id 均存在、样例日按礼规）；`build-missale.mjs --check` 通过；`pnpm run build` 成功；本地截图看过 11-24（殉道纪念）、11-22（基督君王专用未收录）、12-25（圣诞降福展开）、03-01（四旬期第二主日）、手机版，点“后一天”后网址与颂谢词随之更新，无控制台报错。**未验证**：专用颂谢词以外各日的建议是否有遗漏的特例（如若干庆日 2002 年版另有专用颂谢词而本页未列名）；颂谢词中拉逐句由懂拉丁文者复核。
+- **下一步**：专用颂谢词（PDF 各日弥撒内；中文在《感恩祭典》各卷专用部分）；为民祈祷；每日专有经文与读经（底本待定：iBreviary / 读经表 + 思高）。
 
 ## 2026-11-24 两个日课页加载提速（已提交 `b857558`、推送 main；线上未核对）
 
