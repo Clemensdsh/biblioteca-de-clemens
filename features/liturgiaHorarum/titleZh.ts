@@ -11,11 +11,12 @@ import NAMES_HANT from './celebrationNamesHant.json'
  * The saint's name alone ("圣克莱孟一世", without "（教宗、殉道）"), for the book's hymns that print
  * "聖○○" where the day's saint belongs. Null for days that are not a saint's.
  * `hant`: Hong Kong forms, for the 香港本 view (celebrationNamesHant.json).
+ * `blessed`: also names of the blessed ("真福○○"), for the Liturgy of the Hours' commons.
  */
-export function saintNameZh(main: string, hant = false): string | null {
+export function saintNameZh(main: string, hant = false, blessed = false): string | null {
   const full = ((hant ? NAMES_HANT : NAMES) as Record<string, string>)[main]
   const name = full?.replace(/[（(].*$/, '').trim()
-  return name && /^[圣聖]/.test(name) ? name : null
+  return name && (/^[圣聖]/.test(name) || blessed && /^真福/.test(name)) ? name : null
 }
 
 /** Chinese name of a saint's or a feast's day, by the Latin title without its rank. */

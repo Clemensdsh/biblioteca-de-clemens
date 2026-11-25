@@ -33,7 +33,7 @@ const fontScale = ref(1)
 const zhFontScale = ref(1)
 const columnWidth = ref(50)
 const showPosture = ref(false)
-const display = ref<'latin' | 'chinese' | 'parallel'>('latin')
+const display = ref<'latin' | 'chinese' | 'parallel'>('parallel')
 const chineseVersion = ref<ZhVersion>('wanyou')
 const zhBlocks = ref<ZhBlocks>({})
 let loader: LiturgiaHorarumLoader | undefined
@@ -79,7 +79,7 @@ const titleZhParts = computed(() => {
 })
 const hourZh = computed(() => HOURS[hourIndex.value].zh)
 // the book's hymns "for a martyr" print 聖○○; the day's saint goes there (香港本 view: traditional forms)
-const saintName = computed(() => saintNameZh(mainOf(shownTitle.value), chineseVersion.value === 'hkdlc'))
+const saintName = computed(() => saintNameZh(mainOf(shownTitle.value), chineseVersion.value === 'hkdlc', true))
 
 onMounted(async () => {
   try {
@@ -88,7 +88,7 @@ onMounted(async () => {
     columnWidth.value = Math.min(65, Math.max(35, Number(localStorage.getItem('liturgiaHorarum.columnWidth')) || 50))
     showPosture.value = localStorage.getItem('liturgiaHorarum.posture') === 'true' || new URLSearchParams(window.location.search).has('posture')
     const savedDisplay = localStorage.getItem('liturgiaHorarum.display')
-    if (savedDisplay === 'chinese' || savedDisplay === 'parallel')
+    if (savedDisplay === 'latin' || savedDisplay === 'chinese' || savedDisplay === 'parallel')
       display.value = savedDisplay
     if (localStorage.getItem('liturgiaHorarum.chinese') === 'hkdlc')
       chineseVersion.value = 'hkdlc'

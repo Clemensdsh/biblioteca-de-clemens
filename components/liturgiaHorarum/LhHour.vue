@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, reactive, ref } from 'vue'
 import { formatZh } from '../../features/liturgiaHorarum/zhFormat'
+import { nameSaint } from '../../features/liturgiaHorarum/nameSlots'
 import { type AlignedGroup, alignPsalm, PSALM_KEY, splitZhPsalm } from '../../features/liturgiaHorarum/align'
 import { checkManual, latinUnits, manualGroups } from '../../features/liturgiaHorarum/manualAlign'
 import { type Celebration, isBioRow, type Part, withoutBio, type ZhBlocks, type ZhRow, type ZhText, postureMarks } from '../../features/liturgiaHorarum/data'
@@ -17,9 +18,9 @@ const props = defineProps<{
   saintName?: string | null
 }>()
 
-/** the book prints "聖○○" in a hymn for any martyr; the page names the day's saint there */
-function named(text: string) {
-  return props.saintName ? text.replace(/[圣聖]○○/g, props.saintName) : text
+/** the book prints "聖○○" in a hymn for any martyr, and the sources print one saint's name in other commons' texts (nameSlots.ts); the page names the day's saint there */
+function named(text: string, latin: string) {
+  return nameSaint(text, props.saintName, latin)
 }
 
 const version = ref(0)
@@ -163,7 +164,7 @@ function noteBefore(block: string, n: number) {
               <p v-else-if="row.zh && row.zh[0] === 'm'" class="lh-zh-note">〔{{ note(row.zh) }}〕</p>
               <div v-else-if="row.zh" class="lh-zh-item" :class="{ 'lh-zh-bio': isBioRow(row.la) }">
                 <p v-if="noteBefore(blockId(part), n)" class="lh-zh-note">〔{{ noteBefore(blockId(part), n) }}〕</p>
-                <p v-for="(line, lineNo) in formatZh(row.key ?? '', named(row.zh[1]), row.la)" :key="lineNo" :class="line.cls === 'label' ? 'lh-zh-body' : `lh-zh-${line.cls}`"><template v-if="line.cls === 'label'"><span class="lh-zh-label">{{ line.text }}</span><span>{{ line.content }}</span></template><template v-else>{{ line.text }}</template></p>
+                <p v-for="(line, lineNo) in formatZh(row.key ?? '', named(row.zh[1], row.la), row.la)" :key="lineNo" :class="line.cls === 'label' ? 'lh-zh-body' : `lh-zh-${line.cls}`"><template v-if="line.cls === 'label'"><span class="lh-zh-label">{{ line.text }}</span><span>{{ line.content }}</span></template><template v-else>{{ line.text }}</template></p>
               </div>
             </div>
           </div>
