@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import { useHead } from '@unhead/vue'
-import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
+import { computed, onBeforeUnmount, onMounted, provide, ref, watch } from 'vue'
 import DayChoice from '../../components/missale/DayChoice.vue'
 import OrdoItems from '../../components/missale/OrdoItems.vue'
 import { celebrationNameZh, RANK_ZH, titleZh } from '../../features/liturgiaHorarum/titleZh'
 import { blessingsFor } from '../../features/missale/benedictio'
 import { type CalendarDay, MissaleCalendar, seasonDay, seasonLabelZh } from '../../features/missale/calendar'
+import { dayFlags, eucharisticWarnings, MISSALE_CTX, type MissaleCtx, saintVars } from '../../features/missale/dayContext'
 import type { OrdoData } from '../../features/missale/ordo'
 import { prefacesFor } from '../../features/missale/praefatio'
 import benedictionesJson from '../../features/missale/benedictiones.json'
@@ -35,6 +36,10 @@ const display = ref<'parallel' | 'latin' | 'chinese'>('parallel')
 const showRubrics = ref(true)
 const fontScale = ref(1)
 const chosen = ref<Record<string, string>>({})
+/** 有执事参礼：福音前后、平安礼、遣散词的“执事或主祭”读作执事；否则读作主祭 */
+const deacon = ref(false)
+/** 不按礼仪日取舍，列出所有可变经文（感恩经第一式的各节日插句、追思弥撒专用段等） */
+const showAll = ref(false)
 
 onMounted(() => {
   try {
@@ -42,6 +47,8 @@ onMounted(() => {
     if (savedDisplay === 'latin' || savedDisplay === 'chinese')
       display.value = savedDisplay
     showRubrics.value = localStorage.getItem('missale.rubrics') !== 'false'
+    deacon.value = localStorage.getItem('missale.deacon') === 'true'
+    showAll.value = localStorage.getItem('missale.showAll') === 'true'
     fontScale.value = Math.min(1.35, Math.max(0.9, Number(localStorage.getItem('missale.font')) || 1))
     chosen.value = JSON.parse(localStorage.getItem('missale.chosen') || '{}')
   }
@@ -58,6 +65,8 @@ function remember(key: string, value: string) {
 watch(display, value => remember('display', value))
 watch(showRubrics, value => remember('rubrics', String(value)))
 watch(fontScale, value => remember('font', String(value)))
+watch(deacon, value => remember('deacon', String(value)))
+watch(showAll, value => remember('showAll', String(value)))
 
 function choose(group: string, option: string) {
   chosen.value = { ...chosen.value, [group]: option }
@@ -95,6 +104,18 @@ function nameZh(title: string) {
 }
 const preface = computed(() => season.value && current.value ? prefacesFor(season.value, current.value) : undefined)
 const blessing = computed(() => season.value && current.value ? blessingsFor(season.value, current.value) : undefined)
+
+// 当日决定的条件（节日插句、追思弥撒段落）、圣人名字（挖空处补全）、感恩经提醒与默认式
+const missaleCtx = computed<MissaleCtx>(() => ({
+  flags: season.value && current.value
+    ? dayFlags(season.value, current.value, { deacon: deacon.value, paenitentia: chosen.value.paenitentia })
+    : { deacon: deacon.value, paenitentia3: chosen.value.paenitentia === 'paenitentia-3' },
+  showAll: showAll.value,
+  vars: saintVars(current.value),
+  warnings: season.value && current.value ? eucharisticWarnings(season.value, current.value, preface.value) : {},
+  defaults: { prex: 'prex-2' },
+}))
+provide(MISSALE_CTX, missaleCtx)
 
 async function load(next: string, push = true) {
   if (!calendar || !range.value)
@@ -162,6 +183,8 @@ onBeforeUnmount(() => window.removeEventListener('popstate', fromUrl))
         </select>
       </label>
       <label class="mr-control"><input v-model="showRubrics" type="checkbox"> 显示礼规</label>
+      <label class="mr-control" title="福音前的祝福、福音宣读、平安礼、遣散词：有执事时由执事，否则由主祭"><input v-model="deacon" type="checkbox"> 有执事</label>
+      <label class="mr-control" title="不按当日取舍，列出所有按礼仪日而异的经文"><input v-model="showAll" type="checkbox"> 列出全部可变经文</label>
       <label class="mr-control">
         <span>字号</span>
         <input v-model.number="fontScale" type="range" min="0.9" max="1.35" step="0.05">
@@ -247,9 +270,16 @@ onBeforeUnmount(() => window.removeEventListener('popstate', fromUrl))
         <summary id="mr-help-title">来源与页面说明</summary>
         <div>
           <p>拉丁文：{{ ordo.source.la }}。© Libreria Editrice Vaticana。</p>
-          <p>中文：{{ ordo.source.zh }}。只更正了文字识别错误，不改译文；中文据 1975 年拉丁第二版翻译，与 2002 年拉丁文不同之处在经文下以“注”说明。《感恩祭典》中拉丁标准版没有的段落（如感恩经第二式的节日插入经文）本页不收。</p>
+          <p>中文：{{ ordo.source.zh }}。只更正了文字识别错误，不改译文；为与拉丁文逐行对齐，只按拉丁的分行把中文断开，不增删一字（中文语序与拉丁不同处，并成一格跨行显示）。中文据 1975 年拉丁第二版翻译，与 2002 年拉丁文不同之处在经文下以“注”说明。《感恩祭典》中拉丁标准版没有的段落（如感恩经第二式的节日插入经文）本页不收。</p>
           <p>礼仪日：庆典名称与等级取自本站时辰礼仪的礼历数据（普世礼历，Breviar 引擎排定）；礼仪季节、周次与读经年份按复活节推算。颂谢词按各篇颂谢词所附礼规选取；圣人庆日按庆日名称（殉道、主教、贞女等字样）推定所用的圣人颂谢词类别，仅供参考。隆重降福为可选，本页按季节与庆节给出建议。</p>
           <p>红字为礼规。只有拉丁原文的礼规，表示《感恩祭典》在该处没有对应说明；本站不自行翻译礼规。各处的可选形式（致候词、忏悔词、信经、感恩经）可在该处切换，或选“全部列出”。</p>
+          <p>
+            版式：主祭的词用暖棕色左线、标签和字色；信友、全体的词为正文；执事的词玫红双线、标“✥执事”；“执事或主祭”的段落（福音前后、平安礼、遣散词）按“有执事”选项显示为执事或主祭。
+            标“默念”的是主祭低声念的经文；加［方括号］并标“可选”的可以省略。基督在祝圣时的话（“你们大家拿去吃……”“你们大家拿去喝……”）加框、特粗。
+            颂谢词和感恩经中的“圣○○”“N.”按所选日的圣人自动补全，本日没有圣人时留作空白。
+            感恩经默认显示第二式；第三、四式遇不宜使用的日子时，在该式开头有醒目提醒（依《罗马弥撒经书总论》第 365 号）。
+            感恩经第一式的圣诞、主显、复活、升天、五旬节专用插句，及追思弥撒专用段，按所选日显示；选“列出全部可变经文”则全部列出。福音书名可在福音处选择，暂不随每日读经自动变化。
+          </p>
         </div>
       </details>
     </aside>
@@ -260,6 +290,9 @@ onBeforeUnmount(() => window.removeEventListener('popstate', fromUrl))
 .mr-page {
   --mr-red: #b3261e;
   --mr-heading: #6d3530;
+  --mr-priest: #7a4a12;
+  --mr-priest-line: #b8741a;
+  --mr-deacon: #9a3358;
   width: min(100%, 64rem);
   margin-inline: auto;
   padding: 1rem clamp(0.75rem, 3vw, 2rem) 3rem;
@@ -507,6 +540,9 @@ onBeforeUnmount(() => window.removeEventListener('popstate', fromUrl))
 html.dark .mr-page {
   --mr-red: #ee9d97;
   --mr-heading: #f0b3ad;
+  --mr-priest: #f0cf9a;
+  --mr-priest-line: #e0a24e;
+  --mr-deacon: #f0a3bd;
 }
 
 :global(body:has(.mr-page) .yun-aside),

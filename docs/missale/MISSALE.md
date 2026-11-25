@@ -42,6 +42,7 @@
 
 三个源文件同一格式（详见 `ordo-missae.txt` 文件头）：`§` 大段、`¶` 小节、`~ 拉丁 | 中文` 副题、`? … ?end` 可选形式组、`[ id | 拉丁 | 中文 | 说明 ]` 当日经文空位、`R:/r:` 礼规、`S/P/D/O/L/T:` 说话人（大写拉丁、小写中文，连续同类大写行合为一段）、`N:` 注释、`= 名 … =end` 与 `@名` 共用段落。
 
+- **2026-11-25 起的格式增补**（细则见 `ordo-missae.txt` 文件头）：中文与拉丁**逐行**对应（一行拉丁一行中文，空的 `s:` 表示并入上一格跨行显示）；说话人代码后缀 `*` 可选、`~` 默念、`!` 基督的话；`M:` 执事或主祭；`%if 条件 … %else … %endif` 按礼仪日取舍（条件在 `features/missale/dayContext.ts`）；`? … | inline` 不显示标题的可选组；`{N}`/`{n}` 按当日圣人补全。页面把拉丁行与中文行同行对齐（`OrdoItems.vue`），行数不同才退回整段显示，构建会报告这类组数（应为 0）。
 - 改源文件后：`node scripts/missale/build-missale.mjs` 生成 `features/missale/{ordoMissae,praefationes,benedictiones}.json`；`--check` 校验并比对 JSON 是否最新（测试也会跑）。
 - `scripts/missale/extract-praefationes.mjs`、`extract-benedictiones.mjs` 是一次性抽取草稿的工具，源文件已人工校读定稿，**不要重跑覆盖**（有 `--force` 保护）。新内容（如专用颂谢词、为民祈祷）可仿照它们写新的抽取脚本 → 草稿 → 人工校读。
 - 构建链（`pnpm run build`）上的 node 脚本不得 import `.ts`（Cloudflare Pages 与 CI 固定 Node 22.16，见 `.node-version`）；本组件的 JSON 是提交入库的生成物，构建时不重新生成。
